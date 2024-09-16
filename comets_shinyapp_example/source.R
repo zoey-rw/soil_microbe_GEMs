@@ -44,9 +44,10 @@ temp_max = abundance_data_filt %>%
 	summarize(temperature_preference = loess_maximum(soilTemp, percentage)[[1]])  %>% 
 	rename("Species of interest" = taxon)
 
-df_to_print <- left_join(organism_pH_signif, pH_max)
-df_to_print <- left_join(df_to_print, temp_max) %>% 
-	select(`Species of interest`,pH_preference, temperature_preference) %>% mutate(genome_link = NA)
+df_to_subset <- left_join(organism_pH_signif, pH_max)
+df_to_subset <- left_join(df_to_subset, temp_max) %>% 
+	#select(`Species of interest`,pH_preference, temperature_preference) %>% 
+	mutate(genome_link = NA)
 
 
 
@@ -81,9 +82,14 @@ for (i in 1:length(taxon_names)){
 gem_out_table = data.table::rbindlist(gem_out)
 
 
+df_to_subset <- left_join(df_to_subset, gem_out_table) 
 
-df_to_print <- left_join(df_to_print, gem_out_table) %>% 
-	select(`Species of interest`,pH_preference, temperature_preference, match_by, GEM_ID)
+df_to_print <- df_to_subset %>% 
+	select(`Species of interest`, match_by,
+				 GEM_ID, 
+				 "Genome (link)" = genome_link, 
+				 `Functional in COMETS?`)
 
+write.csv(df_to_subset, "./organism_data_to_subset.csv")
 write.csv(df_to_print, "./organism_data_to_print.csv")
 
