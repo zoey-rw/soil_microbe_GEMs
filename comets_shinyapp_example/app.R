@@ -3,14 +3,26 @@ library(data.table)
 library(tidyverse)
 library(DT)
 
+
 # Read in data file for plotting 
-abundance_data_filt = fread("./species_abundance_for_smartCOMETS_visualizations_filt.csv", 
+# The column "taxon" matches with "Species of interest"
+abundance_data_filt = fread("./species_abundance_filt.csv", 
 														nThread = 8, drop = 1, header = T)
 
-# Read in data file for species selections
-df_to_print = fread("./organism_data_to_print.csv", drop = 1, header = T)
+# Read in data file for species selections - info on environmental preferences
+df_to_subset = fread("./organism_data_to_subset.csv", drop = 1, header = T)
 
-taxon_names = df_to_print$`Species of interest`
+# Read in data file to just show species names/links
+df_to_print = fread("./organism_data_to_print.csv", drop = 1, header = T) %>% 
+    select(`Species of interest`,GEM_ID, `Genome (link)`)
+
+# Read in biome data file
+biome_info = fread("./nlcd_key.csv", drop = 1, header = T) 
+biome_choices = biome_info$nlcdClass
+names(biome_choices) = biome_info$prettyNlcd
+
+# Potential taxa to select from
+taxon_names = df_to_subset$`Species of interest`
 
 # Create column of radio buttons 
 mat_to_print= as.matrix(df_to_print[,1])
@@ -26,7 +38,7 @@ mat_to_print = cbind(mat_to_print, df_to_print[,1:3])
 colnames(mat_to_print)[1] = "Visualize?"
 
 
-# Create example plots
+# Filter abundance data to create example plots for selected taxon
 single_species_obs = abundance_data_filt %>% 
 	filter(taxon == "Granulicella sp. S156")
 
@@ -67,8 +79,9 @@ ui <- fluidPage(
 	sliderInput("temperatureRange", 
 							"Realized soil temperature preference:",min = 0, max = 100, value = c(0,100))),
 	column(width = 4,
-				 textInput("taxonName", "Filter by name instead"))),
-	
+				 textInput("taxonName", "Filter by species taxonomy instead"))),
+	fluidRow(column(width=8,
+	                checkboxGroupInput("biomeSelect", "Biome", biome_choices, selected = biome_choices, inline = TRUE))),
 	fluidRow(
 		p("All species within filters are listed below. Visualize one species at a time using the by selecting a species. To learn about culturing the species, visit the Cultivarium Portal (link).")),
 	
@@ -95,7 +108,7 @@ server <- shinyServer(function(input, output, session){
 		
 		"No curated GEM at species or genus level \n
 		[or] \n
-		The closest available strain with a COMETS simulation-ready model is P. putida (modelID iJN818), matched by (genus/species name) download here (link)" 
+		The closest available species with a COMETS simulation-ready model is P. putida, matched by genus. Download here (link)" 
 	})
 	
 	output$GEMtext <- renderText({closest_GEM()})
