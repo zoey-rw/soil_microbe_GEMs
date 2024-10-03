@@ -93,3 +93,8 @@ df_to_print <- df_to_subset %>%
 write.csv(df_to_subset, "./organism_data_to_subset.csv")
 write.csv(df_to_print, "./organism_data_to_print.csv")
 
+
+taxonomy_in = read_tsv("/projectnb2/talbot-lab-data/zrwerbin/soil_genome_db/Struo2/gtdb_207_filtered_struo.tsv")
+taxonomy_to_save = taxonomy_in %>% select(taxon=species, accession, kingdom, phylum)
+write.csv(taxonomy_to_save, "./organism_taxonomy.csv")
+

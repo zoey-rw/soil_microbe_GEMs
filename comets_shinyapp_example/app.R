@@ -14,12 +14,17 @@ df_to_subset = fread("./organism_data_to_subset.csv", drop = 1, header = T)
 
 # Read in data file to just show species names/links
 df_to_print = fread("./organism_data_to_print.csv", drop = 1, header = T) %>% 
-    select(`Species of interest`,GEM_ID, `Genome (link)`)
+    select(`Species of interest`,GEM_ID,)
 
 # Read in biome data file
 biome_info = fread("./nlcd_key.csv", drop = 1, header = T) 
 biome_choices = biome_info$nlcdClass
 names(biome_choices) = biome_info$prettyNlcd
+
+# Read in taxonomy data file, add to organism info
+taxonomy = fread("./organism_taxonomy.csv", drop = 1, header = T) 
+df_to_print = left_join(df_to_print, taxonomy %>% select(`Species of interest` = taxon,`Genome accession` = accession))
+df_to_subset = left_join(df_to_subset, taxonomy %>% select(`Species of interest` = taxon,kingdom,phylum,accession))
 
 # Potential taxa to select from
 taxon_names = df_to_subset$`Species of interest`
