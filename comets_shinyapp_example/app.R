@@ -3,7 +3,6 @@ library(data.table)
 library(tidyverse)
 library(DT)
 
-
 # Read in data file for plotting 
 # The column "taxon" matches with "Species of interest"
 abundance_data_filt = fread("./species_abundance_filt.csv", 
@@ -13,8 +12,8 @@ abundance_data_filt = fread("./species_abundance_filt.csv",
 df_to_subset = fread("./organism_data_to_subset.csv", drop = 1, header = T)
 
 # Read in data file to just show species names/links
-df_to_print = fread("./organism_data_to_print.csv", drop = 1, header = T) %>% 
-    select(`Species of interest`,GEM_ID,)
+set.seed(1)
+df_to_print = fread("./organism_data_to_print.csv", drop = 1, header = T)
 
 # Read in biome data file
 biome_info = fread("./nlcd_key.csv", drop = 1, header = T) 
@@ -23,8 +22,13 @@ names(biome_choices) = biome_info$prettyNlcd
 
 # Read in taxonomy data file, add to organism info
 taxonomy = fread("./organism_taxonomy.csv", drop = 1, header = T) 
-df_to_print = left_join(df_to_print, taxonomy %>% select(`Species of interest` = taxon,`Genome accession` = accession))
-df_to_subset = left_join(df_to_subset, taxonomy %>% select(`Species of interest` = taxon,kingdom,phylum,accession))
+df_to_print = left_join(df_to_print, taxonomy %>% 
+                            select(`Species of interest` = taxon,`Genome accession` = accession) %>% 
+                            unique()) %>% 
+    select(`Species of interest`,GEM_ID, `Genome source`) %>% slice_sample(n = 1000)
+df_to_subset = left_join(df_to_subset, taxonomy %>% 
+                             select(`Species of interest` = taxon,Kingdom,Phylum,accession) %>% 
+                             unique())  %>% slice_sample(n = 1000)
 
 # Potential taxa to select from
 taxon_names = df_to_subset$`Species of interest`
@@ -45,7 +49,7 @@ colnames(mat_to_print)[1] = "Visualize?"
 
 # Filter abundance data to create example plots for selected taxon
 single_species_obs = abundance_data_filt %>% 
-	filter(taxon == "Granulicella sp. S156")
+	filter(taxon == "Rhodotorula toruloides")
 
 # Visualize abundances that correlate with pH
 p1 = ggplot(single_species_obs,
@@ -76,8 +80,8 @@ ui <- fluidPage(
 	titlePanel("Explore the Soil Microbe Database"),
 	mainPanel(
 	
-		fluidRow(
-			p("Use the filters below to identify soil microbes that are observed to peak in abundance at specific pH or temperature values. Note that these reflect trends in soils derived from sequencing, not laboratory experiments on actual pH or temperature tolerances. For more information:  https://doi.org/10.1111/nph.17240"),
+		fluidRow(p("The Soil Microbe Database (SMDB) is a collection of over 30,000 soil microbial genomes, some of which have cultured representatives. Use this portal to explore how the abundance of each genome varies across soil samples measured via shotgun metagenomics. This abundance dataset, and the SMDB, can be downloaded for further analysis using the links at the bottom of this page."),
+			p("Use the filters below to identify soil microbes that are observed to peak in abundance at specific pH or temperature values. Note that these reflect trends in soils derived from sequencing, not laboratory experiments on actual pH or temperature tolerances. For more information on environmental abundances of microbes: https://doi.org/10.1111/nph.17240"),
 			column(width = 4,
 	sliderInput("pHrange", "Realized soil pH preference:",min = 3, max = 9, value = c(3,9))),
 	column(width = 4,
@@ -88,15 +92,17 @@ ui <- fluidPage(
 	fluidRow(column(width=8,
 	                checkboxGroupInput("biomeSelect", "Biome", biome_choices, selected = biome_choices, inline = TRUE))),
 	fluidRow(
-		p("All species within filters are listed below. Visualize one species at a time using the by selecting a species. To learn about culturing the species, visit the Cultivarium Portal (link).")),
+		p("All species within filters are listed below. Visualize one species at a time using the by selecting a species.")),
 	
 	fluidRow(	column(width = 4,
 									 plotOutput("pH_plot")),
 						column(width = 4,
 									 plotOutput("temp_plot")),
 						column(width = 4,
-									 
-						textOutput("GEMtext"))
+						       uiOutput("GEMtext1"),
+						       uiOutput("GEMtext2"))
+						
+						#textOutput("GEMtext"))
 						),
 fluidRow(column(width=12,
 	DT::dataTableOutput('print_table'))
@@ -108,16 +114,32 @@ fluidRow(column(width=12,
 server <- shinyServer(function(input, output, session){
 	
 	
-	closest_GEM <- reactive({ # This value is not currently reactive!
-		#organism_data[input$taxon,]
-		
-		"No curated GEM at species or genus level \n
-		[or] \n
-		The closest available species with a COMETS simulation-ready model is P. putida, matched by genus. Download here (link)" 
-	})
-	
-	output$GEMtext <- renderText({closest_GEM()})
-	
+	#closest_GEM <- reactive({ # This value is not currently reactive!
+	#     #		  "No curated GEM at species or genus level",
+	# 	#organism_data[input$taxon,]
+	# 	("Selected species: Chitinophaga pinensis", tags$br(),
+	# 	 "Culture status: Cultured, with strain and media information in Bacdive",  
+	# 	 tags$br(),
+	# 	 "The closest available species with a COMETS simulation-ready model is iRhto1108, matched by species name")
+	# 	
+	# })
+	    url <- a("Download model here", href="https://github.com/zoey-rw/soil_microbe_GEMs/tree/master/iRhto1880")
+	   
+	  output$GEMtext1 <- renderUI({
+	      HTML(paste0(	#organism_data[input$taxon,]
+	          "Selected species: Chitinophaga pinensis", 
+	           tags$br(),tags$br(),
+	           "Culture status: Cultured, with strain and media information in Bacdive.",  
+	           tags$br(),tags$br(),
+	           "The closest available species with a COMETS simulation-ready model is iRhto1108, matched by species name."), collapse = "<br>")
+	      })
+	      
+	      #closest_GEM())
+	output$GEMtext2 <- renderUI({url})
+
+	    
+#	output$GEMtext <- renderText({#closest_GEM()}) 
+
 	output$pH_plot <- renderPlot({p1})
 	output$temp_plot <- renderPlot({p2})
 	output$print_table <- renderTable({df_to_print})
