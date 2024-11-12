@@ -1,167 +1,208 @@
 library(shiny)
-library(data.table)
-library(tidyverse)
+library(shinydashboard)
 library(DT)
+library(data.table)
+library(ggplot2)
+library(tidyverse)
 
-# Read in data file for plotting 
-# The column "taxon" matches with "Species of interest"
-abundance_data_filt = fread("./species_abundance_filt.csv", 
-														nThread = 8, drop = 1, header = T)
+
+abundance_df = fread("./species_abundance_filt.csv", 
+                            nThread = 8, drop = 1, header = T) %>% 
+    rename("temperature"="soilTemp","pH" = "soilInCaClpH", "abundance"="percentage")
 
 # Read in data file for species selections - info on environmental preferences
-df_to_subset = fread("./organism_data_to_subset.csv", drop = 1, header = T)
+organism_df_to_subset = fread("./organism_data_to_subset.csv", drop = 1, header = T) %>% 
+    mutate(taxon=`Species of interest`) %>% 
+    rename("Genome source" = source)
 
 # Read in data file to just show species names/links
 set.seed(1)
-df_to_print = fread("./organism_data_to_print.csv", drop = 1, header = T)
+organism_df_to_print = fread("./organism_data_to_print.csv", drop = 1, header = T)
 
 # Read in biome data file
 biome_info = fread("./nlcd_key.csv", drop = 1, header = T) 
 biome_choices = biome_info$nlcdClass
 names(biome_choices) = biome_info$prettyNlcd
 
-# Read in taxonomy data file, add to organism info
-taxonomy = fread("./organism_taxonomy.csv", drop = 1, header = T) 
-df_to_print = left_join(df_to_print, taxonomy %>% 
-                            select(`Species of interest` = taxon,`Genome accession` = accession) %>% 
-                            unique()) %>% 
-    select(`Species of interest`,GEM_ID, `Genome source`) %>% slice_sample(n = 1000)
-df_to_subset = left_join(df_to_subset, taxonomy %>% 
-                             select(`Species of interest` = taxon,Kingdom,Phylum,accession) %>% 
-                             unique())  %>% slice_sample(n = 1000)
-
-# Potential taxa to select from
-taxon_names = df_to_subset$`Species of interest`
-
-# Create column of radio buttons 
-mat_to_print= as.matrix(df_to_print[,1])
-rownames(mat_to_print) = mat_to_print[,1]
-
-for (i in seq_len(nrow(mat_to_print))) {
-	mat_to_print[i, ] = sprintf(
-		'<input type="radio" name="%s" value="%s"/>',
-		taxon_names[i], mat_to_print[i, ]
-	)
-}
-mat_to_print = cbind(mat_to_print, df_to_print[,1:3])
-colnames(mat_to_print)[1] = "Visualize?"
+abundance_df$biome = biome_info[match(abundance_df$nlcdClass, biome_info$nlcdClass),]$prettyNlcd
 
 
-# Filter abundance data to create example plots for selected taxon
-single_species_obs = abundance_data_filt %>% 
-	filter(taxon == "Rhodotorula toruloides")
+library(shinyhelper) # For adding help tooltips
 
-# Visualize abundances that correlate with pH
-p1 = ggplot(single_species_obs,
-						aes(x = soilInCaClpH, y = percentage, color=taxon)) +
-	geom_point(alpha=.5, 
-						 position=position_jitter(width = .01, height=0), size=2, 
-						 show.legend = F) + 
-	geom_smooth(show.legend = F, span=.7) +
-	facet_wrap(~taxon, scales = "free") + theme_bw(base_size = 20) + 
-	scale_y_sqrt() + xlab("Soil pH") + 
-	ylab("Microbial abundance")
-
-
-# Visualize abundances that correlate with temperature
-p2 = ggplot(single_species_obs,
-						aes(x = soilTemp, y = percentage, color=taxon)) +
-	geom_point(alpha=.5, 
-						 position=position_jitter(width = .01, height=0), size=2, 
-						 show.legend = F) + 
-	geom_smooth(show.legend = F, span=.7) +
-	facet_wrap(~taxon, scales = "free") + theme_bw(base_size = 20) + 
-	scale_y_sqrt()  + xlab("Soil temperature") +
-	ylab("Microbial abundance")
-
-
-# Actual interface setup 
+# UI
 ui <- fluidPage(
-	titlePanel("Explore the Soil Microbe Database"),
-	mainPanel(
-	
-		fluidRow(p("The Soil Microbe Database (SMDB) is a collection of over 30,000 soil microbial genomes, some of which have cultured representatives. Use this portal to explore how the abundance of each genome varies across soil samples measured via shotgun metagenomics. This abundance dataset, and the SMDB, can be downloaded for further analysis using the links at the bottom of this page."),
-			p("Use the filters below to identify soil microbes that are observed to peak in abundance at specific pH or temperature values. Note that these reflect trends in soils derived from sequencing, not laboratory experiments on actual pH or temperature tolerances. For more information on environmental abundances of microbes: https://doi.org/10.1111/nph.17240"),
-			column(width = 4,
-	sliderInput("pHrange", "Realized soil pH preference:",min = 3, max = 9, value = c(3,9))),
-	column(width = 4,
-	sliderInput("temperatureRange", 
-							"Realized soil temperature preference:",min = 0, max = 100, value = c(0,100))),
-	column(width = 4,
-				 textInput("taxonName", "Filter by species taxonomy instead"))),
-	fluidRow(column(width=8,
-	                checkboxGroupInput("biomeSelect", "Biome", biome_choices, selected = biome_choices, inline = TRUE))),
-	fluidRow(
-		p("All species within filters are listed below. Visualize one species at a time using the by selecting a species.")),
-	
-	fluidRow(	column(width = 4,
-									 plotOutput("pH_plot")),
-						column(width = 4,
-									 plotOutput("temp_plot")),
-						column(width = 4,
-						       uiOutput("GEMtext1"),
-						       uiOutput("GEMtext2"))
-						
-						#textOutput("GEMtext"))
-						),
-fluidRow(column(width=12,
-	DT::dataTableOutput('print_table'))
+    titlePanel("SoilMicrobeDB: An Interactive Database of Soil Microbial Genomes"),
+    
+    tags$p("The SoilMicrobeDB is a collection of over 30,000 soil microbial genomes, each annotated with ecological preferences for environmental conditions such as pH, temperature, and biome type. This tool allows you to filter, analyze, and visualize data on microbial species across different soil environments, using the sample collection from the National Ecological Observatory Network (NEON)."),
+    
+    tags$h4("Filters"),
+    fluidRow(
+        column(4, 
+               selectInput("biome", "Select Biome", choices = unique(organism_df_to_subset$biome), multiple = TRUE) %>%
+                   shinyhelper::helper(
+                       type = "inline", 
+                       title = "Biome Preference", 
+                       content = "Biome preference is assigned if a taxon is present in at least 2% of samples within the biome. Biomes are assigned to each NEON sample using the National Land Cover Database.",
+                       icon = "question-circle"
+                   )
+               
+               
+        ),
+        column(4, 
+               sliderInput("pH_range", "pH Preference Range", min = 3, max = 9, value = c(3, 9)) %>% 
+                   shinyhelper::helper(
+                       type = "inline",
+                       title = "pH Preference",
+                       content = "pH preference of each taxon is assigned as the peak of a LOESS curve fit to abundance data across the range of pH values. Click on a taxon to visualize or download this data.",
+                       icon = "question-circle"
+                   )
+        ),
+        column(4, 
+               sliderInput("temperature_range", "Temperature Preference Range", min = 0, max = 40, value = c(0, 40)) %>%
+                   shinyhelper::helper(
+                       type = "inline",
+                       title = "Temperature Preference",
+                       content = "Temperature preference of each tacon is assigned as the peak of a LOESS curve fit to abundance data across the range of temperature values. Click on a taxon to visualize or download this data.",
+                       icon = "question-circle"
+                   )
+        )
+    ),
+    
+    tags$h4("Organism Data Table"),
+    DT::dataTableOutput("organism_table"),
+    downloadButton("download_organism", "Download Taxon List"),
+    
+    uiOutput("modal_abundance_plot")
 )
-)
-)
 
-# Server side
-server <- shinyServer(function(input, output, session){
-	
-	
-	#closest_GEM <- reactive({ # This value is not currently reactive!
-	#     #		  "No curated GEM at species or genus level",
-	# 	#organism_data[input$taxon,]
-	# 	("Selected species: Chitinophaga pinensis", tags$br(),
-	# 	 "Culture status: Cultured, with strain and media information in Bacdive",  
-	# 	 tags$br(),
-	# 	 "The closest available species with a COMETS simulation-ready model is iRhto1108, matched by species name")
-	# 	
-	# })
-	    url <- a("Download model here", href="https://github.com/zoey-rw/soil_microbe_GEMs/tree/master/iRhto1880")
-	   
-	  output$GEMtext1 <- renderUI({
-	      HTML(paste0(	#organism_data[input$taxon,]
-	          "Selected species: Chitinophaga pinensis", 
-	           tags$br(),tags$br(),
-	           "Culture status: Cultured, with strain and media information in Bacdive.",  
-	           tags$br(),tags$br(),
-	           "The closest available species with a COMETS simulation-ready model is iRhto1108, matched by species name."), collapse = "<br>")
-	      })
-	      
-	      #closest_GEM())
-	output$GEMtext2 <- renderUI({url})
+# Server
+server <- function(input, output, session) {
+    
+    # Initialize shinyhelper
+    shinyhelper::observe_helpers(withMathJax = TRUE)
+    
+    # Reactive Filtered Organism DataFrame
+    filtered_organism_df <- reactive({
+        organism_df_to_subset %>%
+            filter(
+                (is.null(input$biome) || biome %in% input$biome),
+                between(pH_preference, input$pH_range[1], input$pH_range[2]),
+                between(temperature_preference, input$temperature_range[1], input$temperature_range[2])
+            )
+    })
+    
+    # Display Organism Data Table
+    output$organism_table <- DT::renderDataTable({
+        filtered_organism_df() %>% select(Kingdom, Genus, "Species of interest", "Genome source", "Functional in COMETS?")
+    }, selection = 'single')
+    
+    # Download Filtered Organism Data
+    output$download_organism <- downloadHandler(
+        filename = function() { paste("filtered_organism_data.csv") },
+        content = function(file) { write.csv(filtered_organism_df(), file, row.names = FALSE) }
+    )
+    
+    # Modal Abundance Plot
+    output$modal_abundance_plot <- renderUI({
+        req(input$organism_table_rows_selected)
+        selected_row <- filtered_organism_df()[input$organism_table_rows_selected, ]
+        selected_taxon <- selected_row$taxon
+        
+        # Filter abundance_df for selected taxon and check for data
+        abundance_filtered <- abundance_df %>%
+            filter(taxon == selected_taxon)
+        
+        if (nrow(abundance_filtered) == 0) {
+            # Show error message if no data is available for the selected taxon
+            modalDialog(
+                title = paste("Abundance Analysis for", selected_taxon),
+                tags$p("Error: No abundance data available for this taxon."),
+                footer = modalButton("Close")
+            )
+        } else {
+            # Render plots if data is available
+            modalDialog(
+                size = "l",
+                title = paste("Abundance of", selected_taxon, "in NEON soil samples"),
+                plotOutput("pH_plot"),
+                plotOutput("temperature_plot"),
+                tags$p(paste("Match Criteria:", selected_row$`Match criteria`)),
+                tags$p("Genome Link:", ifelse(!is.na(selected_row$genome_link), selected_row$genome_link, "N/A")),
+                footer = tagList(
+                    downloadButton("download_filtered_abundance", "Download Taxon Abundance Data"),
+                    modalButton("Close")
+                )
+            )
+        }
+    })
+    
+    # pH Plot
+    output$pH_plot <- renderPlot({
+        req(input$organism_table_rows_selected)
+        selected_taxon <- filtered_organism_df()[input$organism_table_rows_selected, "taxon"]
+        abundance_data <- abundance_df %>% filter(taxon == selected_taxon)
+        
+        if (nrow(abundance_data) == 0) {
+            return(NULL) # Avoid rendering if no data
+        }
+        
+        ggplot(abundance_data, 
+               aes(x = pH, y = abundance)) +#, color=nlcdClass)) +
+            geom_point(aes(color=biome),
+                       alpha=.5, 
+                       position=position_jitter(width = .01, height=0), size=2) + 
+            #geom_smooth(method = "loess",show.legend = F, span=.7) +
+            geom_smooth(method="gam",,
+                        #method = "loess",
+                        show.legend = F, se=F) +
+            theme_bw(base_size = 18) + 
+            #scale_y_sqrt() + 
+            xlab("Soil pH") + 
+            labs(title = paste("Abundance vs. pH for", selected_taxon)) +
+            ylab("Microbial abundance")
+    })
+    
+    # Temperature Plot
+    output$temperature_plot <- renderPlot({
+        req(input$organism_table_rows_selected)
+        selected_taxon <- filtered_organism_df()[input$organism_table_rows_selected, "taxon"]
+        abundance_data <- abundance_df %>% filter(taxon == selected_taxon)
+        
+        if (nrow(abundance_data) == 0) {
+            return(NULL) # Avoid rendering if no data
+        }
+        
+        ggplot(abundance_data, 
+               aes(x = temperature, y = abundance#, color=nlcdClass
+                   )) +
+            geom_point(aes(color=biome),
+                       alpha=.5, 
+                       position=position_jitter(width = .01, height=0), size=2) + 
+           # geom_smooth(method = "loess", show.legend = F, span=.7) +
+            geom_smooth(method="gam",
+                #method = "loess", 
+                show.legend = F, se=F) +
+            theme_bw(base_size = 18) + 
+            #scale_y_sqrt()  + 
+            xlab("Soil temperature") +
+            ylab("Microbial abundance") +
+            labs(title = paste("Abundance vs. temperature for", selected_taxon))
+        
+    })
+    
+    # Download Filtered Abundance Data
+    output$download_filtered_abundance <- downloadHandler(
+        filename = function() { paste("taxon_abundance_data.csv") },
+        content = function(file) {
+            selected_taxon <- filtered_organism_df()[input$organism_table_rows_selected, "taxon"]
+            abundance_data <- abundance_df %>% filter(taxon == selected_taxon)
+            
+            if (nrow(abundance_data) > 0) {
+                write.csv(abundance_data, file, row.names = FALSE)
+            }
+        }
+    )
+}
 
-	    
-#	output$GEMtext <- renderText({#closest_GEM()}) 
+shinyApp(ui, server)
 
-	output$pH_plot <- renderPlot({p1})
-	output$temp_plot <- renderPlot({p2})
-	output$print_table <- renderTable({df_to_print})
-	
-	
-	output$print_table = DT::renderDataTable(
-		mat_to_print, escape = FALSE, selection = 'none', server = FALSE,
-		options = list(dom = 't', paging = FALSE, ordering = FALSE),
-		callback = JS("table.rows().every(function(i, tab, row) {
-          var $this = $(this.node());
-          $this.attr('id', this.data()[0]);
-          $this.addClass('shiny-input-radiogroup');
-        });
-        Shiny.unbindAll(table.table().node());
-        Shiny.bindAll(table.table().node());")
-	)
-	output$sel = renderPrint({
-		str(sapply(taxon_names, function(i) input[[i]]))
-	})
-})
-
-options(rsconnect.max.bundle.size=3145728000)
-shinyApp(ui = ui, server = server)
-
-#rsconnect::deployApp(appName = "soil_microbe_db", appDir = "/projectnb/frpmars/soil_microbe_db/shiny_app")
