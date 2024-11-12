@@ -1,6 +1,9 @@
 # Use the official R image as a base
 FROM rocker/shiny:4
 
+# Set environment variables to reduce interactive prompts during installation
+ENV DEBIAN_FRONTEND=noninteractive
+
 # system libraries of general use
 ## install debian packages
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
@@ -42,8 +45,14 @@ COPY ./organism_data_to_print.csv /srv/shiny-server/organism_data_to_print.csv
 COPY ./nlcd_key.csv /srv/shiny-server/nlcd_key.csv
 COPY ./organism_taxonomy.csv /srv/shiny-server/organism_taxonomy.csv
 
-# Expose the port the app runs on
+# Set permissions for the shiny-server directory
+RUN chown -R shiny:shiny /srv/shiny-server
+
+# Expose the Shiny app port
 EXPOSE 3838
+
+# Switch to the 'shiny' user to improve security
+USER shiny
 
 # Run the Shiny app
 CMD ["R", "-e", "shiny::runApp('/srv/shiny-server', host = '0.0.0.0', port = 3838)"]
