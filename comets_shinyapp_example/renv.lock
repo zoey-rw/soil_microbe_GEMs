@@ -57,8 +57,8 @@
         "Source": "Repository",
         "Repository": "CRAN"
     },
-    "conflict": {
-        "Package": "conflict",
+    "conflicted": {
+        "Package": "conflicted",
         "Version": "0.1.2",
         "Source": "Repository",
         "Repository": "CRAN"
