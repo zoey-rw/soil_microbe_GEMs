@@ -5,12 +5,12 @@ on:
     paths:
       - comets_shinyapp_example/**
     branches:
-      - main
+      - master
   pull_request:
     paths:
       - comets_shinyapp_example/**
     branches:
-      - main
+      - master
 
 jobs:
   build:
