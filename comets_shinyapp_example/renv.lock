@@ -50,6 +50,12 @@
         "Version": "0.7.2",
         "Source": "Repository",
         "Repository": "CRAN"
+    },
+    "shinyhelper": {
+        "Package": "shinyhelper",
+        "Version": "0.3.2",
+        "Source": "Repository",
+        "Repository": "CRAN"
     }
   }
 }
