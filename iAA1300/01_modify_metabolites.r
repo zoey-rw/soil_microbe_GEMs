@@ -2,11 +2,14 @@
 # e.g. same identifiers for O2 and SO2, or H and NADPH
 
 # sybilSBML had to be installed with the help of SCC IT
-pacman::p_load(stringr, tidyr, minval, sybilSBML, tidyverse)
+pacman::p_load(here, stringr, tidyr, minval, sybilSBML, tidyverse)
 
 source(here("source_functions.R"))
 
-if (!exists("ref_data")) ref_data <- get_reference_data()
+if (!exists("ref_data")) ref_data <- get_reference_data(chem_xref_path = "/projectnb2/talbot-lab-data/metabolic_models/scripts/metabolic_model_curation/reference_data/chem_xref.tsv", 
+																												chem_prop_path = "/projectnb2/talbot-lab-data/metabolic_models/scripts/metabolic_model_curation/reference_data/chem_prop.tsv", 
+																												reac_prop_path = "/projectnb2/talbot-lab-data/metabolic_models/scripts/metabolic_model_curation/reference_data/reac_prop.tsv", 
+																												reac_xref_path = "/projectnb2/talbot-lab-data/metabolic_models/scripts/metabolic_model_curation/reference_data/reac_xref.tsv")
 
 # Read in list of deprecated IDs
 deprecated_recode <- readRDS(here("reference_data","deprecated_recode_mets.rds"))

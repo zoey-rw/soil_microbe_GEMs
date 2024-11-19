@@ -40,18 +40,18 @@ soilCore_subset = soilCores %>% select(sampleID = compositeSampleID,plotID,bioma
                                        sampleTiming, elevation) %>% 
     distinct(sampleID, .keep_all = T) 
 
-soil_GEM_info = read_csv("../Soil GEMs - manually curated.csv") %>% 
+soil_GEM_info = read_csv("./Soil GEMs - manually curated.csv") %>% 
 	select(GEM_ID, Kingdom, Genus, Species.strain = `Species/strain`, Citation, 
 				 Source=`Source/link`, Filepath = `SCC Filepath`) %>% 
 	mutate(Species = paste(Genus, word(Species.strain)))
 
 # # Filter to just ~100 random organisms
-organism_data = fread("./species_list_for_smartCOMETS.csv", nThread = 8, drop = 1, header = T)  %>% slice_sample(n = 100)
+organism_data = fread("./species_list_for_smartCOMETS.csv", nThread = 8, drop = 1, header = T)  #%>% slice_sample(n = 100)
 
 # # Filter to just ~100 organisms with pH relationship, to make data smaller for now
 #organism_pH_signif = organism_data %>% filter(`pH sensitive` == "Yes")
 
-abundance_data = fread("../species_abundance_filt.csv", nThread = 8, drop = 1, header = T)
+abundance_data = fread("./soil_microbe_db_abundances.csv", nThread = 8, drop = 1, header = T)
 
 abundance_data_filt = abundance_data %>% filter(taxon %in% organism_data$`Species of interest`)
 
@@ -80,6 +80,8 @@ temp_max = abundance_data_filt %>%
 	filter(!is.na(soilTemp)) %>% 
 	summarize(temperature_preference = loess_maximum(soilTemp, percentage)[[1]])  %>% 
 	rename("Species of interest" = taxon)
+
+full_join(temp_max, pH_max)
 
 df_to_subset <- left_join(organism_data, pH_max)
 df_to_subset <- left_join(df_to_subset, temp_max) %>% 
@@ -129,7 +131,7 @@ df_to_print <- df_to_subset %>%
 				 `Functional in COMETS?`) %>% 
     distinct(.keep_all = T)
 
-write.csv(df_to_print, "./organism_data_to_subset.csv")
+write.csv(df_to_subset, "./organism_data_to_subset.csv")
 write.csv(df_to_print, "./organism_data_to_print.csv")
 
 
