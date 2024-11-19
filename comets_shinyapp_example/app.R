@@ -35,7 +35,7 @@ abundance_df <- left_join(abundance_df,
                           relationship = "many-to-many") 
 
 # Read in biome data file
-biome_info = fread("./nlcd_key.csv", drop = 1, header = T) 
+biome_info = fread("./reference_data/nlcd_key.csv", drop = 1, header = T) 
 biome_choices = biome_info$nlcdClass
 names(biome_choices) = biome_info$prettyNlcd
 
