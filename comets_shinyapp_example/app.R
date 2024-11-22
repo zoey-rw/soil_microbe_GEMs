@@ -1,12 +1,24 @@
+
+library(data.table)
+library(dtplyr)
+library(dplyr, warn.conflicts = FALSE)
+
 library(shiny)
 library(shinydashboard)
 library(DT)
-library(data.table)
 library(ggplot2)
 library(tidyverse)
 library(shinyhelper) # For adding help tooltips
 
+
 options(rsconnect.max.bundle.size=8589934592)
+
+
+
+# Read in biome selection table 
+biome_info = fread("./reference_data/nlcd_key.csv", drop = 1, header = T) 
+biome_choices = biome_info$nlcdClass
+names(biome_choices) = biome_info$prettyNlcd
 
 # Read in data file for species selections - info on environmental preferences
 organism_df_to_subset <- fread("./intermediate_data/organism_data_to_subset.csv", drop = 1)  %>% 
@@ -29,17 +41,19 @@ soil_metadata <- fread("./reference_data/environmental_metadata_NEON.csv") %>%
     filter(sample_id %in% sample_abundance_lean$sample_id) %>% 
     rename("temperature"="soilTemp","pH" = "soilInCaClpH")
 
-abundance_df <- left_join(sample_abundance_lean, soil_metadata)
-abundance_df <- left_join(abundance_df, 
+# Convert to dtplyr so that this join doesn't overwhelm RAM
+sample_abundance_dt <- lazy_dt(sample_abundance_lean)
+abundance_dt <- left_join(sample_abundance_dt, soil_metadata)
+abundance_dt <- left_join(abundance_dt, 
                           organism_df_to_subset %>% select(taxonomy_id, taxon), 
-                          relationship = "many-to-many") 
-
-# Read in biome data file
-biome_info = fread("./reference_data/nlcd_key.csv", drop = 1, header = T) 
-biome_choices = biome_info$nlcdClass
-names(biome_choices) = biome_info$prettyNlcd
-
+                          relationship = "many-to-many")
+ 
+# Back to data frame for the rest of the code
+abundance_df <- abundance_dt %>% as.data.frame()
 abundance_df$biome = biome_info[match(abundance_df$nlcdClass, biome_info$nlcdClass),]$prettyNlcd
+
+#print(dim(organism_df_to_subset))
+#print(dim(abundance_df))
 
 
 
@@ -47,12 +61,12 @@ abundance_df$biome = biome_info[match(abundance_df$nlcdClass, biome_info$nlcdCla
 ui <- fluidPage(
     titlePanel("SoilMicrobeDB: An Interactive Database of Soil Microbial Genomes"),
     
-    tags$p("The SoilMicrobeDB is a collection of over 30,000 soil microbial genomes, each annotated with ecological preferences for environmental conditions such as pH, temperature, and biome type. This tool allows you to filter, analyze, and visualize data on microbial species across different soil environments, using the sample collection from the National Ecological Observatory Network (NEON)."),
+    tags$p("The SoilMicrobeDB is a collection of over 30,000 soil microbial genomes, each annotated with ecological preferences for environmental conditions such as pH, temperature, and biome type. This tool allows you to filter, analyze, and visualize data on the most widespread microbial species across different soil environments, using the sample collection from the National Ecological Observatory Network (NEON)."),
     
     tags$h4("Filters"),
     fluidRow(
         column(4, 
-               selectInput("biome", "Select Biome", choices = unique(organism_df_to_subset$biome), multiple = TRUE) %>%
+               selectInput("biome", "Select Biome", choices = biome_choices, multiple = TRUE, selected = biome_choices) %>%
                    shinyhelper::helper(
                        type = "inline", 
                        title = "Biome Preference", 
@@ -97,17 +111,29 @@ server <- function(input, output, session) {
     
     # Reactive Filtered Organism DataFrame
     filtered_organism_df <- reactive({
-        organism_df_to_subset %>%
+        # Get selected biomes
+        selected_biomes <- input$biome
+        
+        # If no biomes are selected, return an empty data frame
+        if (is.null(selected_biomes) || length(selected_biomes) == 0) {
+            return(organism_df_to_subset[0, ])  # Return an empty data frame with the same structure
+        }
+        
+        # Filter organism_df_to_subset based on selected biomes
+        filtered_df <- organism_df_to_subset %>%
             filter(
-                (is.null(input$biome) || biome %in% input$biome),
+                # Check if the selected biome column has a value of 1
+                rowSums(dplyr::select(., all_of(selected_biomes)) == 1, na.rm = TRUE) > 0,
                 between(pH_preference, input$pH_range[1], input$pH_range[2]),
                 between(temperature_preference, input$temperature_range[1], input$temperature_range[2])
             )
+        
+        return(filtered_df)
     })
     
     # Display Organism Data Table
     output$organism_table <- DT::renderDataTable({
-        filtered_organism_df() %>% select(taxonomy_id,Kingdom, Genus, "Species of interest", "Genome source",accession) #, "Functional in COMETS?")
+        filtered_organism_df() %>% dplyr::select(taxonomy_id,Kingdom, Genus, "Species of interest", "Genome source",accession) #, "Functional in COMETS?")
     }, selection = 'single')
     
     # Download Filtered Organism Data
@@ -127,7 +153,7 @@ server <- function(input, output, session) {
         # Filter abundance_df for selected taxon and check for data
         abundance_filtered <- abundance_df %>%
             filter(taxonomy_id == selected_taxon) #%>%
-            #filter(taxon == selected_taxon)
+        #filter(taxon == selected_taxon)
         
         if (nrow(abundance_filtered) == 0) {
             # Show error message if no data is available for the selected taxon
@@ -143,7 +169,13 @@ server <- function(input, output, session) {
                 title = paste("Abundance of", selected_taxon_name, "in NEON soil samples"),
                 plotOutput("pH_plot"),
                 plotOutput("temperature_plot"),
-                tags$p(paste("Match Criteria:", selected_row$`Match criteria`)),
+                # This shouldn't print since it's not within the tag - yet it does print?
+                gem_match <- ifelse(is.na(selected_row$GEM_ID), 
+                                    "No curated GEM at species or genus level", 
+                                    paste0("Genome-scale model (GEM) available: ", selected_row$GEM_ID, ",\n GEM Match Criteria: ", selected_row$`GEM match criteria`)),
+                #tags$p(paste("Genome-scale model (GEM) available: ", selected_row$GEM_ID)),
+                #tags$p(paste("Match Criteria:", selected_row$`GEM match criteria`)),
+                #tags$p(gem_match),
                 tags$p("NCBI genome accession:", ifelse(!is.na(selected_row$accession), selected_row$accession, "N/A")),
                 footer = tagList(
                     downloadButton("download_filtered_abundance", "Download Taxon Abundance Data"),
@@ -199,14 +231,14 @@ server <- function(input, output, session) {
         
         ggplot(abundance_data, 
                aes(x = temperature, y = abundance#, color=nlcdClass
-                   )) +
+               )) +
             geom_point(aes(color=biome),
                        alpha=.5, 
                        position=position_jitter(width = .01, height=0), size=2) + 
-           # geom_smooth(method = "loess", show.legend = F, span=.7) +
+            # geom_smooth(method = "loess", show.legend = F, span=.7) +
             geom_smooth(method="gam",
-                #method = "loess", 
-                show.legend = F, se=F) +
+                        #method = "loess", 
+                        show.legend = F, se=F) +
             theme_bw(base_size = 18) + 
             #scale_y_sqrt()  + 
             xlab("Soil temperature") +
