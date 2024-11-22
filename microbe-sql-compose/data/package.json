@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@capacitor/core": "^6.1.2"
-  },
-  "devDependencies": {
-    "@capacitor/cli": "^6.1.2"
-  }
-}
