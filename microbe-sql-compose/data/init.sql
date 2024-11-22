@@ -85,6 +85,15 @@ CREATE TABLE species_abundance_filt (
     "n_samples" INT
 );
 
+-- Create table for sample_abundance_data_lean
+CREATE TABLE sample_abundance_data_lean (
+    id SERIAL PRIMARY KEY,
+    taxonomy_id INT,
+    percentage FLOAT,
+    sample_id TEXT
+);
+
+
 -- Load data into the tables
 COPY organism_data_to_subset 
 FROM '/docker-entrypoint-initdb.d/cleaned_organism_data_to_subset.csv' 
@@ -118,5 +127,9 @@ COPY species_abundance_filt (
     "n_samples"
 )
 FROM '/docker-entrypoint-initdb.d/cleaned_species_abundance_filt.csv'
+WITH (FORMAT csv, HEADER true);
+-- Load data into sample_abundance_data_lean
+COPY sample_abundance_data_lean(taxonomy_id, percentage, sample_id)
+FROM '/docker-entrypoint-initdb.d/sample_abundance_data_lean.csv'
 WITH (FORMAT csv, HEADER true);
 
