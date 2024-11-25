@@ -64,3 +64,11 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Push to Production
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: fjogeleit/http-request-action@v1
+        with:
+          method: "POST"
+          url: ${{ secrets.PORTAINER_WEBHOOK }}
+          preventFailureOnNoResponse: true
