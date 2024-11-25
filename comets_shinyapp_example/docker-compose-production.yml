@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  shiny:
+    image: hicsail/comets_shinyapp:master
+    container_name: soil_shiny_app
+    ports:
+      - "3838:3838"
+    restart: unless-stopped
+  postgres:
+    image: postgres:13
+    container_name: soil_db
+    env_file: ../stack.env
+    ports:
+      - "3839:5432"
+    restart: unless-stopped
+    volumes:
+      - soil-volume:/var/lib/postgresql/data
+
+volumes:
+  soil-volume: ~
