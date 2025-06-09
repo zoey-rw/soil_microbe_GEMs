@@ -1,6 +1,23 @@
-# soil_microbe_GEMs
+# Genome-scale Metabolic Models (GEMs) for the soil and rhizosphere microbiome
 
-Compilation of published genome-scale metabolic models (GEMs) for constraint-based modeling of the soil microbiome, with auxiliary files for creating multispecies (community) model
+```mermaid
+flowchart TD
+    A1[40+ Manually-Curated GEMs:<br/>Heterogeneous publications] --> B
+    A2[100+ Template-Based GEMs:<br/>Soil fungi, bacteria, and archaea] --> B[SBML Preprocessing:<br/>Error recovery for problematic files]
+    B --> C[Metabolite Standardization:<br/>Pattern detection, extraction & conversion]
+    C --> D[Growth Validation:<br/>Verify model equivalence using cobrapy]
+    C --> E[Output for Multispecies Frameworks:<br/>Community modeling integration with MICOM and COMETS]
+    
+    style A1 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style A2 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    style B fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style C fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    style D fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+    style E fill:#fafafa,stroke:#616161,stroke-width:2px
+```
+Genome-scale Metabolic Models (GEMs) represent state-of-the-art knowledge for the genomic basis of metabolism for individual microbial species. However, the process of refining the 1000+ reactions within a GEM is time-intensive, and many published GEMs use heterogeneous metabolite annotation formats that prevent integration into multi-species modeling frameworks. For uncultured species that comprise the majority of the soil microbiome, template-based algorithms such as CarveMe and CarveFungi provide the closest approximation to manually-curated GEMs.
+
+This repository provides an automated pipeline that standardizes metabolite annotations across both manually-curated and template-based GEMs, enabling their integration into community modeling frameworks. The pipeline handles diverse annotation formats, ensures simulation equivalence, and outputs models ready for constraint-based analysis of soil microbiome interactions.
 
 ### Repository Structure
 Each organism has its own directory containing the original SBML files and processed versions. Models are sourced from various publications in different formats (primarily XML/SBML).
@@ -8,7 +25,7 @@ Each organism has its own directory containing the original SBML files and proce
 ### Processing Pipeline
 The repository includes an automated R pipeline that standardizes metabolite annotations across all models:
 
-Pattern detection: Automatically identifies annotation formats (BiGG, RDF, string-based, or multi-database combinations)
+Pattern detection: Automatically identifies annotation formats (RDF, string-based, or multi-database combinations). 
 
 Metabolite standardization: Converts annotations to MetanetX identifiers while preserving simulation outputs
 
