@@ -300,16 +300,16 @@ get_reference_data <- function(threads =10,
 															 bigg_rxn_path = "http://bigg.ucsd.edu/static/namespace/bigg_models_reactions.txt") {
 	
 	# Cross-referencing tables
-	reac_xref <- data.table::fread(reac_xref_path, fill=T, skip=351, nThread = threads) %>% 
+	reac_xref <- data.table::fread(reac_xref_path, fill=T, skip=366, nThread = threads) %>% 
 		separate(col = "#source", into = c("source","source_id"), sep = ":")
-	chem_xref <- data.table::fread(chem_xref_path, fill=T, skip=351, nThread = threads) %>% 
+	chem_xref <- data.table::fread(chem_xref_path, fill=T, skip=366, nThread = threads) %>% 
 		separate(col = "#source", into = c("source","source_id"), sep = ":")
-	comp_xref <- data.table::fread(comp_xref_path, fill=T, skip=351, nThread = threads) %>% 
+	comp_xref <- data.table::fread(comp_xref_path, fill=T, skip=366, nThread = threads) %>% 
 		separate(col = "#source", into = c("source","source_id"), sep = ":")
 	
 	# Property tables
-	reac_prop <- data.table::fread(reac_prop_path, fill=T, skip=351, nThread = threads)
-	chem_prop <- data.table::fread(chem_prop_path, fill=T, skip=351, nThread = threads)
+	reac_prop <- data.table::fread(reac_prop_path, fill=T, skip=366, nThread = threads)
+	chem_prop <- data.table::fread(chem_prop_path, fill=T, skip=366, nThread = threads)
 	
 	# BiGG data from url
 	bigg_met <- data.table::fread(bigg_met_path, fill=T)
