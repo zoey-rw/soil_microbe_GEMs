@@ -1,29 +1,42 @@
 {
   "model_id": "iAA1300",
   "species_directory": "azotobacter_vinelandii_iAA1300",
-  "start_time": "2025-06-08 20:00:21",
+  "start_time": "2025-06-09 16:33:47",
   "input_file": "iAA1300_input.xml",
-  "input_file_original_name": "iAA1300_input.xml",
   "output_file": "iAA1300_processed.xml",
-  "problems_detected": [
-    "586 metabolites reverted to original IDs due to duplicates",
-    "410 metabolites could not be converted to MetanetX IDs"
-  ],
+  "problems_detected": [],
   "warnings": [],
   "conversion_summary": {
-    "deprecated_ids_replaced": 495,
-    "duplicate_ids_reverted": 586,
+    "model_id": "iAA1300",
     "total_metabolites": 1958,
-    "successfully_converted": 1548,
+    "successful_conversions": 1548,
+    "metanetx_conversions": 1548,
+    "unchanged_metabolites": 410,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
     "conversion_rate": 79.1,
-    "unconverted_metabolites": 410
+    "metanetx_rate": 79.1
   },
   "sbml_read_mode": "standard",
   "pattern_detected": "bigg_chebi_kegg_metanetx_seed",
   "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi"],
   "metabolites_total": 1958,
-  "metabolites_standardized": 1548,
-  "end_time": "2025-06-08 20:01:00",
-  "processing_time_seconds": 39.2485,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iAA1300",
+      "total_metabolites": 1958,
+      "successful_conversions": 1548,
+      "metanetx_conversions": 1548,
+      "unchanged_metabolites": 410,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 79.1,
+      "metanetx_rate": 79.1
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/azotobacter_vinelandii_iAA1300/conversion_logs/iAA1300_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/azotobacter_vinelandii_iAA1300/conversion_logs/iAA1300_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:34:39",
+  "processing_time_seconds": 52.563,
   "success": true
 }

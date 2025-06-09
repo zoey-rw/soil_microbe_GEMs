@@ -69,7 +69,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_26dap_DASH_M_c" name="meso-2-6-Diaminoheptanedioate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM529_c" name="meso-2-6-Diaminoheptanedioate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C7H14N2O4</p>
@@ -937,14 +937,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_ala_DASH_L_c" name="L-Alanine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1105732_c" name="L-Alanine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO2</p>
           </body>
         </notes>
       </species>
-      <species id="M_ala_DASH_L_e" name="L-Alanine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1105732_e" name="L-Alanine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO2</p>
@@ -1014,7 +1014,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_arg_DASH_L_c" name="L-Arginine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM739527_c" name="L-Arginine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H15N4O2</p>
@@ -1035,14 +1035,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_asn_DASH_L_c" name="L-Asparagine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1107821_c" name="L-Asparagine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H8N2O3</p>
           </body>
         </notes>
       </species>
-      <species id="M_asp_DASH_L_c" name="L-Aspartate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1364673_c" name="L-Aspartate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H6NO4</p>
@@ -1469,14 +1469,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_cys_DASH_L_c" name="L-Cysteine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM738068_c" name="L-Cysteine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO2S</p>
           </body>
         </notes>
       </species>
-      <species id="M_cys_DASH_L_e" name="L-Cysteine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM738068_e" name="L-Cysteine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO2S</p>
@@ -2337,7 +2337,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_glc_DASH_D_c" name="D-Glucose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1364206_c" name="D-Glucose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H12O6</p>
@@ -2358,7 +2358,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_gln_DASH_L_c" name="L-Glutamine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM37_c" name="L-Glutamine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10N2O3</p>
@@ -2393,14 +2393,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_glu_DASH_L_c" name="L-Glutamate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM741173_c" name="L-Glutamate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H8NO4</p>
           </body>
         </notes>
       </species>
-      <species id="M_glu_DASH_L_e" name="L-Glutamate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM741173_e" name="L-Glutamate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H8NO4</p>
@@ -2701,7 +2701,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_his_DASH_L_c" name="L-Histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1107769_c" name="L-Histidine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H9N3O2</p>
@@ -2820,14 +2820,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_ile_DASH_L_c" name="L-Isoleucine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM728337_c" name="L-Isoleucine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H13NO2</p>
           </body>
         </notes>
       </species>
-      <species id="M_ile_DASH_L_e" name="L-Isoleucine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM728337_e" name="L-Isoleucine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H13NO2</p>
@@ -2925,7 +2925,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_lac_DASH_L_c" name="L-Lactate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1372482_c" name="L-Lactate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H5O3</p>
@@ -2939,14 +2939,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_leu_DASH_L_c" name="L-Leucine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1106761_c" name="L-Leucine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H13NO2</p>
           </body>
         </notes>
       </species>
-      <species id="M_leu_DASH_L_e" name="L-Leucine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1106761_e" name="L-Leucine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H13NO2</p>
@@ -2967,14 +2967,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_lys_DASH_L_c" name="L-Lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1364416_c" name="L-Lysine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H15N2O2</p>
           </body>
         </notes>
       </species>
-      <species id="M_lys_DASH_L_e" name="L-Lysine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1364416_e" name="L-Lysine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C6H15N2O2</p>
@@ -2995,7 +2995,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_mal_DASH_L_c" name="L-Malate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1107192_c" name="L-Malate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H4O5</p>
@@ -3044,7 +3044,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_met_DASH_L_c" name="L-Methionine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM738804_c" name="L-Methionine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H11NO2S</p>
@@ -3422,7 +3422,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_phe_DASH_L_c" name="L-Phenylalanine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM741664_c" name="L-Phenylalanine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H11NO2</p>
@@ -3471,14 +3471,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_pnto_DASH_R_c" name="R-Pantothenate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1372754_c" name="R-Pantothenate" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H16NO5</p>
           </body>
         </notes>
       </species>
-      <species id="M_pnto_DASH_R_e" name="R-Pantothenate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1372754_e" name="R-Pantothenate" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H16NO5</p>
@@ -3576,14 +3576,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_pro_DASH_L_c" name="L-Proline" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM114_c" name="L-Proline" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H9NO2</p>
           </body>
         </notes>
       </species>
-      <species id="M_pro_DASH_L_e" name="L-Proline" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM114_e" name="L-Proline" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H9NO2</p>
@@ -3674,7 +3674,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_rib_DASH_D_c" name="D-Ribose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM1108051_c" name="D-Ribose" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H10O5</p>
@@ -3716,7 +3716,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_ser_DASH_L_c" name="L-Serine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM737787_c" name="L-Serine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C3H7NO3</p>
@@ -3849,7 +3849,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_thr_DASH_L_c" name="L-Threonine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM142_c" name="L-Threonine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C4H9NO3</p>
@@ -4059,7 +4059,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_trp_DASH_L_c" name="L-Tryptophan" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM741553_c" name="L-Tryptophan" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H12N2O2</p>
@@ -4087,7 +4087,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_tyr_DASH_L_c" name="L-Tyrosine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM76_c" name="L-Tyrosine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C9H11NO3</p>
@@ -4227,14 +4227,14 @@
           </body>
         </notes>
       </species>
-      <species id="M_val_DASH_L_c" name="L-Valine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM199_c" name="L-Valine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H11NO2</p>
           </body>
         </notes>
       </species>
-      <species id="M_val_DASH_L_e" name="L-Valine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM199_e" name="L-Valine" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C5H11NO2</p>
@@ -4752,7 +4752,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_dad_DASH_2_c" name="Deoxyadenosine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM625_c" name="Deoxyadenosine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C10H13N5O3</p>
@@ -4892,7 +4892,7 @@
           </body>
         </notes>
       </species>
-      <species id="M_trp_DASH_L_e" name="L-Tryptophan" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM741553_e" name="L-Tryptophan" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
             <p>FORMULA: C11H12N2O2</p>
@@ -5037,7 +5037,7 @@
       <reaction id="R_2PLS" name="2 phospho L lactate synthase" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_lac_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1372482_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_2plac_DASH_L_c" stoichiometry="1" constant="true"/>
@@ -5100,14 +5100,14 @@
       <reaction id="R_7MHS" name="7 mercaptoheptanoate synthase" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM4423_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM10_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM5029_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM8_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5125,7 +5125,7 @@
         <listOfReactants>
           <speciesReference species="M_MNXM5029_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_thr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM142_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM3883_c" stoichiometry="1" constant="true"/>
@@ -5157,7 +5157,7 @@
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM172_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -5262,7 +5262,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1104266_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1371649_c" stoichiometry="1" constant="true"/>
@@ -5402,7 +5402,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1062_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -5560,13 +5560,13 @@
         <listOfReactants>
           <speciesReference species="M_MNXM735498_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="4" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="4" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="4" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM877_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM40333_c" stoichiometry="4" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="4" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="4" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="4" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="4" constant="true"/>
         </listOfProducts>
@@ -5939,7 +5939,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1101868_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -6474,10 +6474,10 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ala_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1105732_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM23_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -6500,7 +6500,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_ala_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1105732_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543929_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -6529,11 +6529,11 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_ala_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1105732_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM27_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_ala_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1105732_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM27_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -6746,11 +6746,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM337_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM188_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM23_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -6768,7 +6768,7 @@
       </reaction>
       <reaction id="R_AOXSr" name="8 amino 7 oxononanoate synthase" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_ala_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1105732_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM727687_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -6825,7 +6825,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_arg_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM739527_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -6852,7 +6852,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_arg_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM739527_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -6882,7 +6882,7 @@
           <speciesReference species="M_MNXM722743_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_arg_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM739527_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM737340_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -6905,7 +6905,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_citr_DASH_L_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -6935,7 +6935,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_arg_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM739527_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543930_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -7020,11 +7020,11 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asn_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107821_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM729302_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -7047,15 +7047,15 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM728294_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_asn_DASH_L_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107821_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM11_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -7079,7 +7079,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -7106,7 +7106,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM138_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -7134,7 +7134,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -7162,10 +7162,10 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM46_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -7188,7 +7188,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543932_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -7800,14 +7800,14 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1094693_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM138_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -8004,7 +8004,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1542966_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1103302_c" stoichiometry="1" constant="true"/>
@@ -8032,7 +8032,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1542034_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1542036_c" stoichiometry="1" constant="true"/>
@@ -8891,14 +8891,14 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1101474_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103718_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -8974,13 +8974,13 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM741356_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM1373363_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM11_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -9004,7 +9004,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -9037,7 +9037,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM26_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -9061,7 +9061,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543933_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -9083,11 +9083,11 @@
       </reaction>
       <reaction id="R_CYSt2r" name="L cysteine reversible transport via proton symport" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_cys_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -9306,12 +9306,12 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_26dap_DASH_M_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM529_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM13_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_lys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364416_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -9673,7 +9673,7 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM722728_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
@@ -10478,7 +10478,7 @@
       </reaction>
       <reaction id="R_EX_ala_L_e" name="L Alanine exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_ala_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1105732_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10732,9 +10732,9 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_cys_DASH_L_e" name="L Cysteine exchange" reversible="true" fast="false">
+      <reaction id="R_EX_MNXM738068_e" name="L Cysteine exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_cys_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -10862,7 +10862,7 @@
       </reaction>
       <reaction id="R_EX_glu_L_e" name="L Glutamate exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11006,7 +11006,7 @@
       </reaction>
       <reaction id="R_EX_ile_L_e" name="L Isoleucine exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_ile_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM728337_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11054,7 +11054,7 @@
       </reaction>
       <reaction id="R_EX_leu_L_e" name="L Leucine exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_leu_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1106761_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11070,7 +11070,7 @@
       </reaction>
       <reaction id="R_EX_lys_L_e" name="L Lysine exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_lys_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364416_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11278,7 +11278,7 @@
       </reaction>
       <reaction id="R_EX_pnto_R_e" name=" R Pantothenate exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_pnto_DASH_R_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1372754_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11294,7 +11294,7 @@
       </reaction>
       <reaction id="R_EX_pro_L_e" name="L Proline exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_pro_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11470,7 +11470,7 @@
       </reaction>
       <reaction id="R_EX_val_L_e" name="L Valine exchange" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_val_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM199_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -11510,14 +11510,14 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM1373208_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM731950_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM7194_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="4" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
@@ -12177,7 +12177,7 @@
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_mal_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107192_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12546,7 +12546,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_f420_DASH_0_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -12576,7 +12576,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_f420_DASH_1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -12606,7 +12606,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_f420_DASH_2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -12636,7 +12636,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_f420_DASH_3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -12666,7 +12666,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_f420_DASH_4_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -12696,7 +12696,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_f420_DASH_5_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -12726,7 +12726,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_f420_DASH_6_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -12756,11 +12756,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1107898_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1104065_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12809,7 +12809,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103936_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -12859,7 +12859,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glc_DASH_D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364206_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM728294_c" stoichiometry="1" constant="true"/>
@@ -12890,7 +12890,7 @@
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glc_DASH_D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364206_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -12987,12 +12987,12 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM729302_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -13017,14 +13017,14 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_glutrna_LPAREN_gln_RPAREN__c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543316_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -13049,7 +13049,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
@@ -13075,7 +13075,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -13102,12 +13102,12 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1104453_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM11_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1364117_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -13133,11 +13133,11 @@
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_f420_DASH_2h2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_f420_DASH_2_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="2" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -13190,7 +13190,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1091273_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -13219,7 +13219,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543934_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -13241,11 +13241,11 @@
       </reaction>
       <reaction id="R_GLUt2r" name="L glutamate transport via proton symport reversible" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_e" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -13461,13 +13461,13 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1104385_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM728294_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1101285_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="2" constant="true"/>
           <speciesReference species="M_MNXM11_c" stoichiometry="1" constant="true"/>
@@ -13737,7 +13737,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103753_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -13766,7 +13766,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103753_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -14221,7 +14221,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_his_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107769_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM13_c" stoichiometry="1" constant="true"/>
@@ -14253,7 +14253,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_c" stoichiometry="3" constant="true"/>
-          <speciesReference species="M_his_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107769_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM10_c" stoichiometry="2" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -14304,7 +14304,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_his_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107769_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543936_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -14621,7 +14621,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1456_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -14675,13 +14675,13 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1408_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1103365_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1422_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -14759,11 +14759,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ile_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM728337_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1363947_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -14786,7 +14786,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ile_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM728337_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543937_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -14815,11 +14815,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ile_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM728337_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ile_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM728337_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -15260,11 +15260,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_leu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1106761_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM404_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -15287,7 +15287,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_leu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1106761_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543938_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -15316,11 +15316,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_leu_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1106761_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_leu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1106761_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -15398,7 +15398,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_lys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364416_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1865_c" stoichiometry="1" constant="true"/>
@@ -15424,7 +15424,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_lys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364416_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543939_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -15453,11 +15453,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_lys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364416_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_lys_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364416_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -15559,7 +15559,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_mal_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107192_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM8_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -15587,7 +15587,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_mal_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107192_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM5_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -15615,7 +15615,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_mal_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107192_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM8_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -15664,7 +15664,7 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_met_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738804_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1363866_c" stoichiometry="1" constant="true"/>
@@ -15692,7 +15692,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_met_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738804_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM159_c" stoichiometry="1" constant="true"/>
@@ -15723,7 +15723,7 @@
           <speciesReference species="M_hcys_DASH_L_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_met_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738804_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103936_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -15747,7 +15747,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_met_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738804_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543940_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -16103,17 +16103,17 @@
           <speciesReference species="M_MNXM1542043_c" stoichiometry="0.011347" constant="true"/>
           <speciesReference species="M_MNXM1104266_c" stoichiometry="0.0001" constant="true"/>
           <speciesReference species="M_MNXM5602_c" stoichiometry="0.004713" constant="true"/>
-          <speciesReference species="M_ala_DASH_L_c" stoichiometry="0.554639" constant="true"/>
+          <speciesReference species="M_MNXM1105732_c" stoichiometry="0.554639" constant="true"/>
           <speciesReference species="M_MNXM728294_c" stoichiometry="0.000987" constant="true"/>
-          <speciesReference species="M_arg_DASH_L_c" stoichiometry="0.319404" constant="true"/>
-          <speciesReference species="M_asn_DASH_L_c" stoichiometry="0.260299" constant="true"/>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="0.260299" constant="true"/>
+          <speciesReference species="M_MNXM739527_c" stoichiometry="0.319404" constant="true"/>
+          <speciesReference species="M_MNXM1107821_c" stoichiometry="0.260299" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="0.260299" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="65.18215" constant="true"/>
           <speciesReference species="M_MNXM727276_c" stoichiometry="6e-06" constant="true"/>
           <speciesReference species="M_MNXM921_c" stoichiometry="0.000501" constant="true"/>
           <speciesReference species="M_MNXM399_c" stoichiometry="0.020656" constant="true"/>
           <speciesReference species="M_MNXM1103718_c" stoichiometry="0.13607" constant="true"/>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="0.09887" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="0.09887" constant="true"/>
           <speciesReference species="M_MNXM286_c" stoichiometry="0.032661" constant="true"/>
           <speciesReference species="M_MNXM360_c" stoichiometry="0.021215" constant="true"/>
           <speciesReference species="M_MNXM344_c" stoichiometry="0.021215" constant="true"/>
@@ -16132,35 +16132,35 @@
           <speciesReference species="M_f420_DASH_7_c" stoichiometry="1e-06" constant="true"/>
           <speciesReference species="M_MNXM726723_c" stoichiometry="0.002005" constant="true"/>
           <speciesReference species="M_MNXM1543305_c" stoichiometry="0.015985" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="0.284177" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="0.284177" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="0.284177" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="0.284177" constant="true"/>
           <speciesReference species="M_MNXM29_c" stoichiometry="0.661502" constant="true"/>
           <speciesReference species="M_MNXM738130_c" stoichiometry="0.012681" constant="true"/>
           <speciesReference species="M_MNXM1103553_c" stoichiometry="0.219251" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="59.224884" constant="true"/>
           <speciesReference species="M_MNXM1462_c" stoichiometry="0.023664" constant="true"/>
-          <speciesReference species="M_his_DASH_L_c" stoichiometry="0.102324" constant="true"/>
+          <speciesReference species="M_MNXM1107769_c" stoichiometry="0.102324" constant="true"/>
           <speciesReference species="M_MNXM1778_c" stoichiometry="0.004638" constant="true"/>
-          <speciesReference species="M_ile_DASH_L_c" stoichiometry="0.313681" constant="true"/>
-          <speciesReference species="M_leu_DASH_L_c" stoichiometry="0.486456" constant="true"/>
-          <speciesReference species="M_lys_DASH_L_c" stoichiometry="0.370516" constant="true"/>
-          <speciesReference species="M_met_DASH_L_c" stoichiometry="0.165967" constant="true"/>
+          <speciesReference species="M_MNXM728337_c" stoichiometry="0.313681" constant="true"/>
+          <speciesReference species="M_MNXM1106761_c" stoichiometry="0.486456" constant="true"/>
+          <speciesReference species="M_MNXM1364416_c" stoichiometry="0.370516" constant="true"/>
+          <speciesReference species="M_MNXM738804_c" stoichiometry="0.165967" constant="true"/>
           <speciesReference species="M_mfr_LPAREN_b_RPAREN__c" stoichiometry="0.02" constant="true"/>
           <speciesReference species="M_MNXM8_c" stoichiometry="0.002206" constant="true"/>
           <speciesReference species="M_MNXM10_c" stoichiometry="0.0001" constant="true"/>
           <speciesReference species="M_MNXM5_c" stoichiometry="0.0001" constant="true"/>
           <speciesReference species="M_MNXM738702_c" stoichiometry="0.000401" constant="true"/>
-          <speciesReference species="M_phe_DASH_L_c" stoichiometry="0.20001" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_c" stoichiometry="0.238689" constant="true"/>
+          <speciesReference species="M_MNXM741664_c" stoichiometry="0.20001" constant="true"/>
+          <speciesReference species="M_MNXM114_c" stoichiometry="0.238689" constant="true"/>
           <speciesReference species="M_MNXM118_c" stoichiometry="0.025852" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="0.232966" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="0.232966" constant="true"/>
           <speciesReference species="M_MNXM1104774_c" stoichiometry="3e-06" constant="true"/>
           <speciesReference species="M_MNXM1103936_c" stoichiometry="0.0001" constant="true"/>
-          <speciesReference species="M_thr_DASH_L_c" stoichiometry="0.273915" constant="true"/>
-          <speciesReference species="M_trp_DASH_L_c" stoichiometry="0.061374" constant="true"/>
-          <speciesReference species="M_tyr_DASH_L_c" stoichiometry="0.148897" constant="true"/>
+          <speciesReference species="M_MNXM142_c" stoichiometry="0.273915" constant="true"/>
+          <speciesReference species="M_MNXM741553_c" stoichiometry="0.061374" constant="true"/>
+          <speciesReference species="M_MNXM76_c" stoichiometry="0.148897" constant="true"/>
           <speciesReference species="M_MNXM1101474_c" stoichiometry="0.146924" constant="true"/>
-          <speciesReference species="M_val_DASH_L_c" stoichiometry="0.456953" constant="true"/>
+          <speciesReference species="M_MNXM199_c" stoichiometry="0.456953" constant="true"/>
           <speciesReference species="M_MNXM1375061_c" stoichiometry="0.000576" constant="true"/>
           <speciesReference species="M_polyacgal_c" stoichiometry="0.024837" constant="true"/>
           <speciesReference species="M_polyglcur_c" stoichiometry="0.015919" constant="true"/>
@@ -16289,12 +16289,12 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103300_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM728294_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM8_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM11_c" stoichiometry="1" constant="true"/>
@@ -16380,7 +16380,7 @@
         <listOfProducts>
           <speciesReference species="M_ala_DASH_B_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_his_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107769_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -17319,7 +17319,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -17347,7 +17347,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM729302_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -17397,7 +17397,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM817_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1371649_c" stoichiometry="1" constant="true"/>
@@ -17483,7 +17483,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM8_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -17883,10 +17883,10 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_phe_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741664_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM730221_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -17910,7 +17910,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_phe_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741664_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543941_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -18035,11 +18035,11 @@
       <reaction id="R_PNTOt2" name="Pantothenate reversible transport via proton symport" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pnto_DASH_R_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1372754_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pnto_DASH_R_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1372754_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -18315,7 +18315,7 @@
         <listOfReactants>
           <speciesReference species="M_MNXM735771_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1103718_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM730898_c" stoichiometry="1" constant="true"/>
@@ -18540,7 +18540,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM737371_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -18599,13 +18599,13 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1094915_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1363732_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -18655,7 +18655,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543942_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -18685,13 +18685,13 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -18797,7 +18797,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM541_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
@@ -18828,7 +18828,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -19091,7 +19091,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_rib_DASH_D_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1108051_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
@@ -19543,7 +19543,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1104266_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM418_c" stoichiometry="1" constant="true"/>
@@ -19570,7 +19570,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543944_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -19756,7 +19756,7 @@
       <reaction id="R_SMTZS" name="sulfomethyl thiazolidine synthase" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM434_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM5452_c" stoichiometry="1" constant="true"/>
@@ -20095,7 +20095,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_thr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM142_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM75_c" stoichiometry="1" constant="true"/>
@@ -20143,7 +20143,7 @@
       <reaction id="R_THRPS" name="threonine phosphate synthase" reversible="false" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_thr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM142_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
@@ -20175,7 +20175,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_thr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM142_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -20198,7 +20198,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_thr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM142_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543945_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -20227,14 +20227,14 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM622_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_tyr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM76_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM107505_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM960_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ala_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1105732_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM728294_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM13_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
@@ -20606,12 +20606,12 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM730763_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1373252_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_trp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741553_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -20634,11 +20634,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM735090_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_ser_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM737787_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_trp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741553_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -20687,10 +20687,10 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_trp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM315_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -20715,7 +20715,7 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543947_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_trp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM728294_c" stoichiometry="1" constant="true"/>
@@ -20794,11 +20794,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_tyr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM76_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM153_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -20822,7 +20822,7 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543948_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_tyr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM76_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM728294_c" stoichiometry="1" constant="true"/>
@@ -21211,11 +21211,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1369648_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_val_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM199_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM732866_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -21239,7 +21239,7 @@
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543950_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_val_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM199_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM728294_c" stoichiometry="1" constant="true"/>
@@ -21267,11 +21267,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_val_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM199_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_val_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM199_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -21549,7 +21549,7 @@
         <listOfReactants>
           <speciesReference species="M_MNXM192_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_his_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1107769_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
@@ -21631,7 +21631,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM5_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -21974,7 +21974,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_c" stoichiometry="2" constant="true"/>
-          <speciesReference species="M_lac_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1372482_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM10_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -22306,7 +22306,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1543931_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -22336,13 +22336,13 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_asntrna_LPAREN_asp_RPAREN__c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM40333_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1542935_c" stoichiometry="1" constant="true"/>
@@ -22539,7 +22539,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM480_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -22564,7 +22564,7 @@
           <speciesReference species="M_26dap_DASH_LL_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_26dap_DASH_M_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM529_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -22968,7 +22968,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM594_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -23506,7 +23506,7 @@
           <speciesReference species="M_MNXM683_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM29_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -23558,7 +23558,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_asp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364673_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM8_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -24457,7 +24457,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_dad_DASH_2_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM625_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -24674,11 +24674,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM27_e" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM27_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -24729,7 +24729,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM3_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_lys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM1364416_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_1pyr4m5c_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -24848,7 +24848,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM26_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_cys_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM738068_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM726339_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1090214_c" stoichiometry="1" constant="true"/>
@@ -24935,7 +24935,7 @@
           <speciesReference species="M_MNXM729177_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1563_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
@@ -25016,7 +25016,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_tyr_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM76_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM13_c" stoichiometry="1" constant="true"/>
@@ -25414,11 +25414,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1373252_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_gln_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM37_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM1364029_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="3" constant="true"/>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM9_c" stoichiometry="1" constant="true"/>
@@ -25529,11 +25529,11 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_trp_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741553_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_trp_DASH_L_e" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741553_e" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -25636,7 +25636,7 @@
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM5_c" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_pro_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM114_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -25891,7 +25891,7 @@
       </reaction>
       <reaction id="R_MFRS7" name="2-furaldehyde transaminase" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_2frald_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -25933,7 +25933,7 @@
       </reaction>
       <reaction id="R_MFRS9" name="p-(aminoethyl)phenoxy-methyl-2-(aminomethyl)furan glutamate extention" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_aepmamfr_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -25954,7 +25954,7 @@
       </reaction>
       <reaction id="R_MFRS10" name="4-[N-L-glutamyl-)-p-(aminoethyl)phenoxy-methyl]-2-(aminomethyl)furan glutamate extention" reversible="true" fast="false">
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_4gaepmamfr_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -25975,7 +25975,7 @@
       </reaction>
       <reaction id="R_MFRS11" name="4-[N-L-glutamyl-L-glutamyl-)-p-(aminoethyl)phenoxy-methyl]-2-(aminomethyl)furan glutamate extention" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_4ggaepmamfr_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -25996,7 +25996,7 @@
       </reaction>
       <reaction id="R_MFRBS" name="Methanofuran B biosynthesis" reversible="false" fast="false">
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_4gggaepmamfr_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
@@ -26058,7 +26058,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM8_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -26088,7 +26088,7 @@
           </body>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_glu_DASH_L_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM741173_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_WATER_c" stoichiometry="1" constant="true"/>
           <speciesReference species="M_MNXM5_c" stoichiometry="1" constant="true"/>
         </listOfReactants>

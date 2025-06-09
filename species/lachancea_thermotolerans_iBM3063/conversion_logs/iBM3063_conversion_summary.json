@@ -1,0 +1,116 @@
+{
+  "statistics": {
+    "model_id": "iBM3063",
+    "total_metabolites": 2732,
+    "successful_conversions": 2591,
+    "metanetx_conversions": 2577,
+    "unchanged_metabolites": 141,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 94.8,
+    "metanetx_rate": 94.3
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 2577,
+      "percentage": 94.3
+    },
+    {
+      "conversion_type": "Other conversion",
+      "count": 14,
+      "percentage": 0.5
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 141,
+      "percentage": 5.2
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 909,
+      "Other conversion": 1,
+      "Unchanged": 23
+    },
+    {
+      "compartment": "ce",
+      "MetanetX conversion": 99,
+      "Other conversion": 1,
+      "Unchanged": 6
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 189,
+      "Other conversion": 1,
+      "Unchanged": 1
+    },
+    {
+      "compartment": "er",
+      "MetanetX conversion": 109,
+      "Other conversion": 1,
+      "Unchanged": 28
+    },
+    {
+      "compartment": "erm",
+      "MetanetX conversion": 222,
+      "Other conversion": 1,
+      "Unchanged": 3
+    },
+    {
+      "compartment": "g",
+      "MetanetX conversion": 31,
+      "Other conversion": 1,
+      "Unchanged": 25
+    },
+    {
+      "compartment": "gm",
+      "MetanetX conversion": 77,
+      "Other conversion": 1,
+      "Unchanged": 1
+    },
+    {
+      "compartment": "lp",
+      "MetanetX conversion": 126,
+      "Other conversion": 1,
+      "Unchanged": 8
+    },
+    {
+      "compartment": "m",
+      "MetanetX conversion": 344,
+      "Other conversion": 1,
+      "Unchanged": 28
+    },
+    {
+      "compartment": "mm",
+      "MetanetX conversion": 129,
+      "Other conversion": 1,
+      "Unchanged": 11
+    },
+    {
+      "compartment": "n",
+      "MetanetX conversion": 79,
+      "Other conversion": 1,
+      "Unchanged": 6
+    },
+    {
+      "compartment": "p",
+      "MetanetX conversion": 134,
+      "Other conversion": 1,
+      "Unchanged": 1
+    },
+    {
+      "compartment": "v",
+      "MetanetX conversion": 44,
+      "Other conversion": 1,
+      "Unchanged": 0
+    },
+    {
+      "compartment": "vm",
+      "MetanetX conversion": 85,
+      "Other conversion": 1,
+      "Unchanged": 0
+    }
+  ]
+}

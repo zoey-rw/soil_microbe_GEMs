@@ -1,29 +1,42 @@
 {
   "model_id": "iRi1574",
   "species_directory": "rhizophagus_irregularis_iRi1574",
-  "start_time": "2025-06-08 20:06:13",
-  "input_file": "iRi1574_cobra.xml",
-  "input_file_original_name": "iRi1574_cobra.xml",
+  "start_time": "2025-06-09 16:41:26",
+  "input_file": "iRi1574_input.xml",
   "output_file": "iRi1574_processed.xml",
-  "problems_detected": [
-    "180 metabolites reverted to original IDs due to duplicates",
-    "164 metabolites could not be converted to MetanetX IDs"
-  ],
+  "problems_detected": [],
   "warnings": [],
   "conversion_summary": {
-    "deprecated_ids_replaced": 299,
-    "duplicate_ids_reverted": 180,
+    "model_id": "iRi1574",
     "total_metabolites": 1285,
-    "successfully_converted": 1121,
-    "conversion_rate": 87.2,
-    "unconverted_metabolites": 164
+    "successful_conversions": 1235,
+    "metanetx_conversions": 1234,
+    "unchanged_metabolites": 50,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 1285,
+    "conversion_rate": 96.1,
+    "metanetx_rate": 96
   },
   "sbml_read_mode": "standard",
   "pattern_detected": "bigg_kegg_metanetx_pubchem_seed",
   "databases_found": ["metanetx", "bigg", "seed", "kegg", "pubchem"],
   "metabolites_total": 1285,
-  "metabolites_standardized": 1121,
-  "end_time": "2025-06-08 20:06:43",
-  "processing_time_seconds": 30.0552,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iRi1574",
+      "total_metabolites": 1285,
+      "successful_conversions": 1235,
+      "metanetx_conversions": 1234,
+      "unchanged_metabolites": 50,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 1285,
+      "conversion_rate": 96.1,
+      "metanetx_rate": 96
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhizophagus_irregularis_iRi1574/conversion_logs/iRi1574_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhizophagus_irregularis_iRi1574/conversion_logs/iRi1574_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:41:58",
+  "processing_time_seconds": 32.0185,
   "success": true
 }

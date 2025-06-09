@@ -1,0 +1,54 @@
+{
+  "statistics": {
+    "model_id": "iMM904",
+    "total_metabolites": 1226,
+    "successful_conversions": 1226,
+    "metanetx_conversions": 1226,
+    "unchanged_metabolites": 0,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 100,
+    "metanetx_rate": 100
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 1226,
+      "percentage": 100
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 632
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 164
+    },
+    {
+      "compartment": "g",
+      "MetanetX conversion": 17
+    },
+    {
+      "compartment": "m",
+      "MetanetX conversion": 241
+    },
+    {
+      "compartment": "n",
+      "MetanetX conversion": 40
+    },
+    {
+      "compartment": "r",
+      "MetanetX conversion": 28
+    },
+    {
+      "compartment": "v",
+      "MetanetX conversion": 24
+    },
+    {
+      "compartment": "x",
+      "MetanetX conversion": 80
+    }
+  ]
+}

@@ -1,24 +1,42 @@
 {
   "model_id": "iSB619",
   "species_directory": "staphylococcus_aureus_iSB619",
-  "start_time": "2025-06-08 20:07:14",
-  "input_file": "bigg_iSB619_orig.xml",
-  "input_file_original_name": "bigg_iSB619_orig.xml",
+  "start_time": "2025-06-09 16:42:33",
+  "input_file": "iSB619_input.xml",
   "output_file": "iSB619_processed.xml",
   "problems_detected": [],
   "warnings": [],
   "conversion_summary": {
-    "deprecated_ids_replaced": 199,
+    "model_id": "iSB619",
     "total_metabolites": 655,
-    "successfully_converted": 655,
-    "conversion_rate": 100
+    "successful_conversions": 655,
+    "metanetx_conversions": 655,
+    "unchanged_metabolites": 0,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 100,
+    "metanetx_rate": 100
   },
   "sbml_read_mode": "standard",
   "pattern_detected": "bigg_chebi_kegg_metanetx_seed",
   "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi"],
   "metabolites_total": 655,
-  "metabolites_standardized": 655,
-  "end_time": "2025-06-08 20:07:39",
-  "processing_time_seconds": 25.1125,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iSB619",
+      "total_metabolites": 655,
+      "successful_conversions": 655,
+      "metanetx_conversions": 655,
+      "unchanged_metabolites": 0,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 100,
+      "metanetx_rate": 100
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/staphylococcus_aureus_iSB619/conversion_logs/iSB619_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/staphylococcus_aureus_iSB619/conversion_logs/iSB619_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:43:00",
+  "processing_time_seconds": 27.8195,
   "success": true
 }

@@ -1,29 +1,41 @@
 {
   "model_id": "iMG746",
   "species_directory": "methanosarcina_barkeri_iMG746",
-  "start_time": "2025-06-08 20:03:37",
+  "start_time": "2025-06-09 16:38:18",
   "input_file": "iMG746_input.xml",
-  "input_file_original_name": "iMG746_input.xml",
   "output_file": "iMG746_processed.xml",
-  "problems_detected": [
-    "126 metabolites reverted to original IDs due to duplicates",
-    "126 metabolites could not be converted to MetanetX IDs",
-    "1 GPR associations had unmatched parentheses (fixed)"
-  ],
+  "problems_detected": [],
   "warnings": [],
   "conversion_summary": {
-    "duplicate_ids_reverted": 126,
+    "model_id": "iMG746",
     "total_metabolites": 718,
-    "successfully_converted": 592,
-    "conversion_rate": 82.5,
-    "unconverted_metabolites": 126,
-    "gpr_issues_fixed": 1
+    "successful_conversions": 628,
+    "metanetx_conversions": 626,
+    "unchanged_metabolites": 90,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 85,
+    "conversion_rate": 87.5,
+    "metanetx_rate": 87.2
   },
   "sbml_read_mode": "standard",
   "pattern_detected": "simple_bigg",
   "metabolites_total": 718,
-  "metabolites_standardized": 592,
-  "end_time": "2025-06-08 20:04:02",
-  "processing_time_seconds": 24.9584,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iMG746",
+      "total_metabolites": 718,
+      "successful_conversions": 628,
+      "metanetx_conversions": 626,
+      "unchanged_metabolites": 90,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 85,
+      "conversion_rate": 87.5,
+      "metanetx_rate": 87.2
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanosarcina_barkeri_iMG746/conversion_logs/iMG746_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanosarcina_barkeri_iMG746/conversion_logs/iMG746_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:38:44",
+  "processing_time_seconds": 25.9273,
   "success": true
 }

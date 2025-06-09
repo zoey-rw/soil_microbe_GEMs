@@ -1,0 +1,2119 @@
+orig_met,without_compartment,new_met,new_met_out,compartment,conversion_successful,conversion_type,encoding_issues_fixed,database_sources
+m[0001],m,MNXM638,MNXM638[erm],erm,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0002],m,MNXM638,MNXM638[lp],lp,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0009],m,MNXM8520,MNXM8520[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, seed, kegg"
+m[0010],m,MNXM7260,MNXM7260[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0012],m,MNXM11431,MNXM11431[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, seed, kegg"
+m[0013],m,MNXM11432,MNXM11432[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0014],m,MNXM1371917,MNXM1371917[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, seed, kegg"
+m[0015],m,MNXM528,MNXM528[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0021],m,MNXM615,MNXM615[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0023],m,MNXM1137,MNXM1137[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0024],m,MNXM441,MNXM441[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0033],m,MNXM726888,MNXM726888[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0064],m,MNXM728392,MNXM728392[m],m,TRUE,MetanetX conversion,FALSE,"metanetx, seed, kegg"
+m[0065],m,MNXM734853,MNXM734853[m],m,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0082],m,MNXM734899,MNXM734899[m],m,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+m[0097],m,MNXM707,MNXM707[m],m,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0109],m,m,m[m],m,FALSE,Unchanged,FALSE,None
+m[0112],m,MNXM165192,MNXM165192[m],m,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+m[0128],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0131],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0132],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0135],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0136],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0153],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0155],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0213],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0215],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0221],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0233],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0245],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0247],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0285],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0287],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0335],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0339],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0343],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0344],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0351],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0352],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0357],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0358],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0359],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0360],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0361],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0362],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0363],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0364],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0365],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0366],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0367],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0368],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0369],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0370],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0371],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0372],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0373],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0374],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0375],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0376],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0377],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0378],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0379],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0380],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0381],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0382],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0383],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0384],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0385],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0386],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0387],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0388],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0389],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0390],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0391],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0392],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0393],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0394],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0395],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0396],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0397],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0398],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0399],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0400],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0401],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0402],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0403],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0404],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0405],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0406],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0407],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0408],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0409],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0410],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0411],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0412],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0413],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0414],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0415],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0416],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0417],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0418],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0419],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0420],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0421],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0422],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0423],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0424],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0425],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0426],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0427],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0428],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0429],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0430],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0431],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0432],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0433],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0434],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0435],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0436],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0437],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0438],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0439],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0440],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0441],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0442],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0443],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0444],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0445],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0446],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0447],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0448],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0449],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0450],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0451],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0452],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0453],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0454],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0455],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0456],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0457],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0458],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0459],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0460],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0461],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0462],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0463],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0464],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0465],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0466],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0467],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0468],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0469],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0470],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0471],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0472],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0473],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0474],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0475],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0476],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0477],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0478],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0479],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0480],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0481],m,m,m[vm],vm,FALSE,Unchanged,FALSE,None
+m[0482],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0483],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0484],m,m,m[ce],ce,FALSE,Unchanged,FALSE,None
+m[0485],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0486],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0487],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0488],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0489],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0490],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0491],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0492],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0493],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0494],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0495],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0496],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0497],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0498],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0499],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0500],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0501],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0502],m,m,m[lp],lp,FALSE,Unchanged,FALSE,None
+m[0503],m,m,m[p],p,FALSE,Unchanged,FALSE,None
+m[0504],m,MNXM638,MNXM638[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+m[0505],m,MNXM1364559,MNXM1364559[p],p,TRUE,MetanetX conversion,FALSE,kegg
+m[0506],m,MNXM108,MNXM108[p],p,TRUE,MetanetX conversion,FALSE,kegg
+m[0507],m,MNXM236,MNXM236[p],p,TRUE,MetanetX conversion,FALSE,kegg
+m[0508],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0509],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0510],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0511],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0512],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0513],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0514],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0515],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0516],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0517],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0518],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0519],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0520],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0521],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0522],m,m,m[erm],erm,FALSE,Unchanged,FALSE,None
+m[0523],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0524],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0525],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0526],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0527],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0528],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0529],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0530],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0531],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0532],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0533],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0534],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0535],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0536],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0537],m,m,m[c],c,FALSE,Unchanged,FALSE,None
+m[0538],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0539],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0540],m,m,m[n],n,FALSE,Unchanged,FALSE,None
+m[0541],m,MNXM739326,MNXM739326[gm],gm,TRUE,MetanetX conversion,FALSE,kegg
+m[0542],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0543],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0544],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0545],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0546],m,m,m[gm],gm,FALSE,Unchanged,FALSE,None
+m[0547],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0548],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0549],m,m,m[mm],mm,FALSE,Unchanged,FALSE,None
+m[0550],m,MNXM186,MNXM186[p],p,TRUE,MetanetX conversion,FALSE,kegg
+m[0551],m,MNXM1365101,MNXM1365101[p],p,TRUE,MetanetX conversion,FALSE,kegg
+m[0552],m,MNXM1373252,MNXM1373252[p],p,TRUE,MetanetX conversion,FALSE,kegg
+m[0553],m,MNXM460,MNXM460[p],p,TRUE,MetanetX conversion,FALSE,kegg
+m[0554],m,m,m[p],p,FALSE,Unchanged,FALSE,None
+s[0001],s,MNXM733731,MNXM733731[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[0003],s,MNXM733731,MNXM733731[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0004],s,MNXM728244,MNXM728244[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[0006],s,MNXM727068,MNXM727068[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0008],s,MNXM1202,MNXM1202[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0009],s,MNXM741109,MNXM741109[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0010],s,MNXM1602,MNXM1602[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0011],s,MNXM1602,MNXM1602[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0012],s,MNXM1104204,MNXM1104204[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0013],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0014],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[0015],s,MNXM722743,MNXM722743[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0016],s,MNXM734,MNXM734[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0017],s,MNXM735771,MNXM735771[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0018],s,MNXM733934,MNXM733934[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0019],s,MNXM738283,MNXM738283[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0020],s,MNXM664,MNXM664[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0021],s,MNXM1105737,MNXM1105737[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0022],s,MNXM1105737,MNXM1105737[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0023],s,MNXM1105737,MNXM1105737[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0024],s,MNXM1105737,MNXM1105737[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0025],s,MNXM1372481,MNXM1372481[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0026],s,MNXM1372481,MNXM1372481[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0027],s,MNXM1372481,MNXM1372481[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0028],s,MNXM1105057,MNXM1105057[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0030],s,MNXM593,MNXM593[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0031],s,MNXM1372754,MNXM1372754[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0032],s,MNXM1372754,MNXM1372754[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0033],s,MNXM1093274,MNXM1093274[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0034],s,MNXM1093274,MNXM1093274[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0035],s,MNXM2757,MNXM2757[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0037],s,MNXM727928,MNXM727928[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0038],s,MNXM727928,MNXM727928[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0039],s,MNXM726902,MNXM726902[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0042],s,MNXM1104681,MNXM1104681[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0045],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[0048],s,MNXM1104711,MNXM1104711[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0051],s,MNXM1364418,MNXM1364418[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0054],s,MNXM1104726,MNXM1104726[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0056],s,MNXM1363948,MNXM1363948[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0060],s,MNXM1363948,MNXM1363948[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0061],s,MNXM252,MNXM252[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0062],s,MNXM732880,MNXM732880[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0063],s,MNXM1372482,MNXM1372482[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0064],s,MNXM1372482,MNXM1372482[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0065],s,MNXM1372482,MNXM1372482[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0066],s,MNXM1107192,MNXM1107192[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0068],s,MNXM1107192,MNXM1107192[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0069],s,MNXM1107192,MNXM1107192[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0075],s,MNXM1364640,MNXM1364640[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0076],s,MNXM1455,MNXM1455[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0077],s,MNXM1397,MNXM1397[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0078],s,MNXM729422,MNXM729422[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0079],s,MNXM1517,MNXM1517[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0080],s,MNXM1517,MNXM1517[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0086],s,MNXM730763,MNXM730763[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0087],s,MNXM2172,MNXM2172[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0089],s,MNXM62,MNXM62[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[0116],s,MNXM1373812,MNXM1373812[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0117],s,MNXM1373812,MNXM1373812[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0118],s,MNXM1105060,MNXM1105060[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0119],s,MNXM1105060,MNXM1105060[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0120],s,MNXM1102376,MNXM1102376[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0121],s,MNXM1102376,MNXM1102376[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0122],s,MNXM37116,MNXM37116[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0123],s,MNXM1363983,MNXM1363983[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0124],s,MNXM1102088,MNXM1102088[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0125],s,MNXM1103971,MNXM1103971[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0126],s,MNXM1365116,MNXM1365116[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0127],s,MNXM1365116,MNXM1365116[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0129],s,MNXM1365115,MNXM1365115[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0132],s,MNXM625,MNXM625[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0136],s,MNXM935,MNXM935[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0140],s,MNXM892,MNXM892[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0141],s,MNXM1103734,MNXM1103734[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0142],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0143],s,MNXM728560,MNXM728560[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0144],s,MNXM735138,MNXM735138[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0145],s,MNXM1062,MNXM1062[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0146],s,MNXM1103847,MNXM1103847[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0147],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0148],s,MNXM728662,MNXM728662[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0149],s,MNXM959,MNXM959[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0150],s,MNXM959,MNXM959[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0152],s,MNXM1372394,MNXM1372394[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0153],s,MNXM732594,MNXM732594[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0154],s,MNXM1373116,MNXM1373116[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0155],s,MNXM1371767,MNXM1371767[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0156],s,MNXM1371523,MNXM1371523[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0157],s,MNXM1370408,MNXM1370408[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0158],s,MNXM1102294,MNXM1102294[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0161],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0162],s,MNXM730929,MNXM730929[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0164],s,MNXM730929,MNXM730929[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0165],s,MNXM1369560,MNXM1369560[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0166],s,MNXM2604,MNXM2604[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0168],s,MNXM2604,MNXM2604[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0169],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0171],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0174],s,MNXM1108544,MNXM1108544[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0176],s,MNXM263,MNXM263[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0177],s,MNXM263,MNXM263[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0178],s,MNXM159,MNXM159[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0179],s,MNXM159,MNXM159[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0180],s,MNXM1369648,MNXM1369648[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0182],s,MNXM1369648,MNXM1369648[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0183],s,MNXM1369648,MNXM1369648[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0184],s,MNXM1369648,MNXM1369648[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0185],s,MNXM2476,MNXM2476[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0187],s,MNXM2476,MNXM2476[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0188],s,MNXM275,MNXM275[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0189],s,MNXM728266,MNXM728266[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0190],s,MNXM1363934,MNXM1363934[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0191],s,MNXM1363934,MNXM1363934[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0192],s,MNXM243,MNXM243[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0197],s,MNXM481,MNXM481[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[0200],s,MNXM1104543,MNXM1104543[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0201],s,MNXM1104555,MNXM1104555[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0204],s,MNXM153,MNXM153[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0206],s,MNXM153,MNXM153[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0207],s,MNXM1456,MNXM1456[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0208],s,s,s[c],c,FALSE,Unchanged,FALSE,kegg
+s[0209],s,MNXM1372351,MNXM1372351[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0210],s,MNXM736874,MNXM736874[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0211],s,MNXM611,MNXM611[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0212],s,MNXM2783,MNXM2783[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0213],s,MNXM2783,MNXM2783[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0214],s,MNXM3166,MNXM3166[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0215],s,MNXM1372678,MNXM1372678[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0216],s,MNXM1372678,MNXM1372678[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0218],s,MNXM1104235,MNXM1104235[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0221],s,MNXM1104235,MNXM1104235[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0222],s,MNXM728564,MNXM728564[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0224],s,MNXM1108156,MNXM1108156[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0229],s,MNXM1364011,MNXM1364011[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0231],s,MNXM559,MNXM559[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0232],s,MNXM732866,MNXM732866[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0233],s,MNXM732866,MNXM732866[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0234],s,MNXM1711,MNXM1711[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0236],s,MNXM1711,MNXM1711[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0239],s,MNXM1104685,MNXM1104685[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0243],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[0247],s,MNXM1364155,MNXM1364155[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0250],s,MNXM1104572,MNXM1104572[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0253],s,MNXM1104713,MNXM1104713[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0257],s,MNXM1103776,MNXM1103776[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0258],s,MNXM541,MNXM541[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0259],s,MNXM1094062,MNXM1094062[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0260],s,MNXM727604,MNXM727604[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0261],s,MNXM1265,MNXM1265[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0262],s,MNXM726167,MNXM726167[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0263],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0264],s,MNXM759,MNXM759[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0267],s,MNXM1101289,MNXM1101289[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0268],s,MNXM1104391,MNXM1104391[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0269],s,MNXM1458,MNXM1458[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0270],s,MNXM1104899,MNXM1104899[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0273],s,MNXM421,MNXM421[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0274],s,MNXM422,MNXM422[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0275],s,MNXM422,MNXM422[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0279],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0280],s,MNXM2617,MNXM2617[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0281],s,MNXM1312,MNXM1312[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0282],s,MNXM894,MNXM894[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0283],s,MNXM894,MNXM894[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0284],s,MNXM894,MNXM894[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0285],s,MNXM1802,MNXM1802[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0286],s,MNXM164,MNXM164[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0287],s,MNXM164,MNXM164[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0291],s,MNXM404,MNXM404[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0292],s,MNXM404,MNXM404[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0293],s,MNXM960,MNXM960[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0294],s,MNXM276,MNXM276[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0295],s,MNXM1177,MNXM1177[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0296],s,MNXM1104216,MNXM1104216[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0297],s,MNXM732410,MNXM732410[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0298],s,MNXM1103086,MNXM1103086[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0299],s,MNXM1104647,MNXM1104647[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0300],s,MNXM1105983,MNXM1105983[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0301],s,MNXM1094915,MNXM1094915[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0302],s,MNXM1363732,MNXM1363732[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0303],s,MNXM1101977,MNXM1101977[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0304],s,MNXM511,MNXM511[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0305],s,MNXM511,MNXM511[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0306],s,MNXM1102150,MNXM1102150[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0307],s,MNXM1102150,MNXM1102150[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0308],s,MNXM1104336,MNXM1104336[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0309],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0310],s,MNXM962,MNXM962[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0311],s,MNXM162358,MNXM162358[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0312],s,MNXM1408,MNXM1408[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0313],s,MNXM1365818,MNXM1365818[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0314],s,MNXM1372980,MNXM1372980[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0315],s,MNXM405,MNXM405[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0316],s,MNXM405,MNXM405[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0317],s,MNXM405,MNXM405[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0318],s,MNXM1102135,MNXM1102135[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0319],s,MNXM1091982,MNXM1091982[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0321],s,MNXM1091982,MNXM1091982[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0322],s,MNXM1364094,MNXM1364094[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0323],s,MNXM733156,MNXM733156[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0324],s,MNXM1365,MNXM1365[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0325],s,MNXM1104522,MNXM1104522[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0326],s,MNXM1372185,MNXM1372185[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0327],s,MNXM1364117,MNXM1364117[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0328],s,MNXM1364570,MNXM1364570[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0329],s,MNXM1364015,MNXM1364015[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0330],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0332],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0333],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0334],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0335],s,MNXM1104491,MNXM1104491[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0337],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0338],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0340],s,MNXM734080,MNXM734080[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0343],s,MNXM1372340,MNXM1372340[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0344],s,MNXM1372340,MNXM1372340[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0345],s,MNXM1364607,MNXM1364607[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0346],s,MNXM1370282,MNXM1370282[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0347],s,MNXM722728,MNXM722728[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0348],s,MNXM722728,MNXM722728[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0349],s,MNXM1219,MNXM1219[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0350],s,MNXM1219,MNXM1219[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0357],s,MNXM174,MNXM174[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0359],s,MNXM75,MNXM75[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0361],s,MNXM75,MNXM75[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0362],s,MNXM26,MNXM26[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0364],s,MNXM26,MNXM26[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0365],s,MNXM26,MNXM26[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0366],s,MNXM26,MNXM26[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0367],s,MNXM1103802,MNXM1103802[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0370],s,MNXM1103802,MNXM1103802[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0372],s,MNXM727673,MNXM727673[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0373],s,MNXM1104266,MNXM1104266[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0376],s,MNXM1104266,MNXM1104266[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0377],s,MNXM1104266,MNXM1104266[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0378],s,MNXM1104266,MNXM1104266[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0383],s,MNXM168,MNXM168[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0384],s,MNXM168,MNXM168[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0386],s,MNXM1105760,MNXM1105760[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0390],s,MNXM1103458,MNXM1103458[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0393],s,MNXM1103622,MNXM1103622[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0394],s,MNXM40333,MNXM40333[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0395],s,MNXM40333,MNXM40333[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0397],s,MNXM40333,MNXM40333[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0398],s,MNXM40333,MNXM40333[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0402],s,MNXM1104545,MNXM1104545[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0403],s,MNXM1103365,MNXM1103365[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0404],s,MNXM741304,MNXM741304[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0405],s,MNXM584,MNXM584[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0406],s,MNXM584,MNXM584[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0407],s,MNXM738834,MNXM738834[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0408],s,MNXM738834,MNXM738834[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0409],s,MNXM448,MNXM448[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0411],s,MNXM1364197,MNXM1364197[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0412],s,MNXM1104065,MNXM1104065[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0414],s,MNXM726443,MNXM726443[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[0415],s,MNXM1103205,MNXM1103205[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0416],s,MNXM1103205,MNXM1103205[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0417],s,MNXM2212,MNXM2212[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0419],s,MNXM729302,MNXM729302[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0420],s,MNXM729302,MNXM729302[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0421],s,MNXM729302,MNXM729302[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0423],s,MNXM728294,MNXM728294[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0424],s,MNXM728294,MNXM728294[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0425],s,MNXM728294,MNXM728294[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0426],s,MNXM728294,MNXM728294[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0427],s,MNXM188,MNXM188[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0428],s,MNXM741228,MNXM741228[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0429],s,MNXM741228,MNXM741228[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0430],s,MNXM741176,MNXM741176[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0431],s,MNXM741176,MNXM741176[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0432],s,MNXM730166,MNXM730166[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0433],s,MNXM730166,MNXM730166[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0434],s,MNXM3,MNXM3[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0435],s,MNXM3,MNXM3[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0437],s,MNXM3,MNXM3[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0438],s,MNXM3,MNXM3[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0439],s,MNXM3,MNXM3[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0441],s,MNXM144,MNXM144[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0442],s,MNXM739220,MNXM739220[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0443],s,MNXM726557,MNXM726557[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0444],s,MNXM726557,MNXM726557[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[0445],s,MNXM1094693,MNXM1094693[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0447],s,MNXM1094693,MNXM1094693[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0450],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0451],s,MNXM304,MNXM304[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0452],s,MNXM304,MNXM304[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0453],s,MNXM1104306,MNXM1104306[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0454],s,MNXM920,MNXM920[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0455],s,MNXM138,MNXM138[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0456],s,MNXM13,MNXM13[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0457],s,MNXM13,MNXM13[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0458],s,MNXM13,MNXM13[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0460],s,MNXM13,MNXM13[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0462],s,MNXM13,MNXM13[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0465],s,MNXM731937,MNXM731937[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0467],s,MNXM1102191,MNXM1102191[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0468],s,MNXM1102191,MNXM1102191[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0469],s,MNXM1103046,MNXM1103046[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0474],s,MNXM1103456,MNXM1103456[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0475],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0476],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0477],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0478],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0479],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0480],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0481],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0482],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0483],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0484],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0485],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0486],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0487],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0488],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0489],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0490],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0491],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0492],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0493],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0494],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0495],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0496],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0497],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0498],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0499],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0500],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0501],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0502],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0503],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0504],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0507],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0509],s,MNXM727699,MNXM727699[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0510],s,MNXM732456,MNXM732456[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[0511],s,MNXM90,MNXM90[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[0512],s,MNXM90,MNXM90[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0513],s,MNXM90,MNXM90[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0514],s,MNXM229,MNXM229[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0515],s,MNXM337,MNXM337[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0516],s,MNXM1092518,MNXM1092518[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0517],s,MNXM1092518,MNXM1092518[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0522],s,MNXM1107752,MNXM1107752[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0524],s,MNXM1107752,MNXM1107752[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0525],s,MNXM1107752,MNXM1107752[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0526],s,MNXM1103302,MNXM1103302[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0528],s,MNXM1103302,MNXM1103302[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0529],s,MNXM727276,MNXM727276[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0530],s,MNXM727276,MNXM727276[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0531],s,MNXM727276,MNXM727276[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0532],s,MNXM727276,MNXM727276[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0533],s,MNXM727276,MNXM727276[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0534],s,MNXM727276,MNXM727276[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0538],s,MNXM735625,MNXM735625[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0539],s,MNXM1103718,MNXM1103718[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0541],s,MNXM1103718,MNXM1103718[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0542],s,MNXM729657,MNXM729657[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0543],s,MNXM1364050,MNXM1364050[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0545],s,MNXM761,MNXM761[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0546],s,MNXM761,MNXM761[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0547],s,MNXM778,MNXM778[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0548],s,MNXM544,MNXM544[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0550],s,MNXM1422,MNXM1422[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0551],s,MNXM258,MNXM258[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0552],s,MNXM258,MNXM258[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0553],s,MNXM1363965,MNXM1363965[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0554],s,MNXM1363965,MNXM1363965[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0555],s,MNXM1364374,MNXM1364374[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0556],s,MNXM1104787,MNXM1104787[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0557],s,MNXM1107898,s[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0558],s,MNXM1108176,MNXM1108176[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0559],s,MNXM1108176,MNXM1108176[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0561],s,MNXM736685,MNXM736685[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0563],s,MNXM1364206,MNXM1364206[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0565],s,MNXM1364206,MNXM1364206[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0566],s,MNXM1364206,MNXM1364206[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[0567],s,MNXM1364359,MNXM1364359[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0568],s,MNXM1364259,MNXM1364259[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0570],s,MNXM435,MNXM435[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0571],s,MNXM1364255,MNXM1364255[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0572],s,MNXM1364255,MNXM1364255[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0573],s,MNXM1106057,MNXM1106057[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0574],s,MNXM1364256,MNXM1364256[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0575],s,MNXM1108051,MNXM1108051[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0577],s,MNXM145,MNXM145[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0578],s,MNXM169454,MNXM169454[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0580],s,MNXM1372400,MNXM1372400[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0581],s,MNXM186,MNXM186[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0582],s,MNXM735047,MNXM735047[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0583],s,MNXM735047,MNXM735047[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0584],s,MNXM432,MNXM432[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0585],s,MNXM432,MNXM432[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0586],s,MNXM286,MNXM286[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0587],s,MNXM411,MNXM411[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0588],s,MNXM411,MNXM411[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0589],s,MNXM266,MNXM266[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0590],s,MNXM360,MNXM360[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0591],s,MNXM1103300,MNXM1103300[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0593],s,MNXM1103300,MNXM1103300[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0595],s,MNXM1043,MNXM1043[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, seed, kegg"
+s[0605],s,MNXM1092836,MNXM1092836[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0606],s,MNXM1372452,MNXM1372452[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0607],s,MNXM1372439,MNXM1372439[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0608],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0609],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[0613],s,MNXM436,MNXM436[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0614],s,MNXM436,MNXM436[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0615],s,MNXM736654,MNXM736654[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0616],s,MNXM736654,MNXM736654[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0617],s,MNXM344,MNXM344[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0618],s,MNXM2174,MNXM2174[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0620],s,MNXM738569,MNXM738569[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0625],s,MNXM281,MNXM281[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0626],s,MNXM281,MNXM281[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0627],s,MNXM1277,MNXM1277[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0628],s,MNXM731215,MNXM731215[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0629],s,MNXM77,MNXM77[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0632],s,MNXM77,MNXM77[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0633],s,MNXM11,MNXM11[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0635],s,MNXM11,MNXM11[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0636],s,MNXM11,MNXM11[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0637],s,MNXM11,MNXM11[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0638],s,MNXM11,MNXM11[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0639],s,MNXM728062,MNXM728062[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0640],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[0641],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[0644],s,MNXM733595,MNXM733595[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0645],s,MNXM1107957,MNXM1107957[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0646],s,MNXM1107957,MNXM1107957[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0647],s,MNXM152,MNXM152[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0649],s,MNXM257,MNXM257[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0650],s,MNXM394,MNXM394[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0652],s,MNXM572,MNXM572[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0653],s,MNXM572,MNXM572[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0654],s,MNXM234,MNXM234[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0655],s,MNXM234,MNXM234[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0656],s,MNXM452,MNXM452[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0657],s,MNXM1371083,MNXM1371083[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0659],s,MNXM1371083,MNXM1371083[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0662],s,MNXM1109,MNXM1109[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0663],s,MNXM1109,MNXM1109[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0664],s,MNXM1371328,MNXM1371328[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0665],s,MNXM741449,MNXM741449[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[0666],s,MNXM741449,MNXM741449[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0667],s,MNXM741449,MNXM741449[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0668],s,MNXM741449,MNXM741449[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0669],s,MNXM741449,MNXM741449[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0670],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0677],s,MNXM1372570,MNXM1372570[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0678],s,MNXM1372570,MNXM1372570[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0679],s,MNXM1372570,MNXM1372570[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0680],s,MNXM1108092,MNXM1108092[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0682],s,MNXM1108092,MNXM1108092[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0683],s,MNXM218,MNXM218[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0685],s,MNXM8595,MNXM8595[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0687],s,MNXM33,MNXM33[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[0688],s,MNXM1364297,MNXM1364297[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0689],s,MNXM1105762,MNXM1105762[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0690],s,MNXM1105762,MNXM1105762[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0692],s,MNXM1363934,MNXM1363934[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0694],s,MNXM739606,MNXM739606[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[0699],s,MNXM731707,MNXM731707[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[0700],s,MNXM731707,MNXM731707[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0702],s,MNXM731707,MNXM731707[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0703],s,MNXM731707,MNXM731707[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0709],s,MNXM731952,MNXM731952[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0710],s,MNXM731957,MNXM731957[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0712],s,MNXM1369759,MNXM1369759[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0714],s,MNXM1364295,MNXM1364295[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0715],s,MNXM1364295,MNXM1364295[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0716],s,MNXM1364295,MNXM1364295[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0717],s,MNXM208,MNXM208[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[0721],s,MNXM1365101,MNXM1365101[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0722],s,MNXM39,MNXM39[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0724],s,MNXM39,MNXM39[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0725],s,MNXM737340,MNXM737340[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0727],s,MNXM737340,MNXM737340[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0734],s,MNXM192,MNXM192[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0736],s,MNXM192,MNXM192[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0738],s,MNXM192,MNXM192[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0739],s,MNXM1103285,MNXM1103285[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0740],s,MNXM1103285,MNXM1103285[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[0741],s,MNXM1103285,MNXM1103285[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0742],s,MNXM1103285,MNXM1103285[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0743],s,MNXM1104188,MNXM1104188[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0744],s,MNXM1104188,MNXM1104188[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[0745],s,MNXM100,MNXM100[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0746],s,MNXM728266,MNXM728266[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0747],s,MNXM741204,MNXM741204[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0748],s,MNXM731035,MNXM731035[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0749],s,MNXM731035,MNXM731035[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0750],s,MNXM490899,MNXM490899[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0752],s,MNXM490899,MNXM490899[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0753],s,MNXM490899,MNXM490899[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[0754],s,MNXM1372264,MNXM1372264[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0756],s,MNXM1372264,MNXM1372264[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0757],s,MNXM741181,MNXM741181[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0764],s,MNXM1373252,MNXM1373252[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0765],s,MNXM89612,MNXM89612[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0766],s,MNXM89612,MNXM89612[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0767],s,MNXM66,MNXM66[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0769],s,MNXM66,MNXM66[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0770],s,MNXM66,MNXM66[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0771],s,MNXM460,MNXM460[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0773],s,MNXM738131,MNXM738131[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0774],s,MNXM738131,MNXM738131[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[0775],s,MNXM734590,MNXM734590[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0777],s,MNXM734590,MNXM734590[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0779],s,MNXM69,MNXM69[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0781],s,MNXM69,MNXM69[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0782],s,MNXM1101285,MNXM1101285[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0783],s,MNXM1101285,MNXM1101285[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[0785],s,MNXM1103553,MNXM1103553[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0786],s,MNXM1103553,MNXM1103553[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0787],s,MNXM733114,MNXM733114[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0788],s,MNXM733114,MNXM733114[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0789],s,MNXM733114,MNXM733114[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0790],s,MNXM1103400,MNXM1103400[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0792],s,MNXM1103400,MNXM1103400[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0793],s,MNXM1,MNXM1[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[0794],s,MNXM1,MNXM1[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0795],s,MNXM1,MNXM1[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0796],s,MNXM1,MNXM1[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0797],s,MNXM1,MNXM1[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[0798],s,MNXM1,MNXM1[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0799],s,MNXM1,MNXM1[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0800],s,MNXM1,MNXM1[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0801],s,MNXM1,MNXM1[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0802],s,MNXM1,MNXM1[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[0803],s,WATER,WATER[c],c,TRUE,Other conversion,FALSE,kegg
+s[0804],s,WATER,WATER[er],er,TRUE,Other conversion,FALSE,kegg
+s[0805],s,WATER,WATER[e],e,TRUE,Other conversion,FALSE,kegg
+s[0806],s,WATER,WATER[g],g,TRUE,Other conversion,FALSE,kegg
+s[0807],s,WATER,WATER[m],m,TRUE,Other conversion,FALSE,kegg
+s[0808],s,WATER,WATER[n],n,TRUE,Other conversion,FALSE,kegg
+s[0809],s,WATER,WATER[p],p,TRUE,Other conversion,FALSE,kegg
+s[0810],s,WATER,WATER[v],v,TRUE,Other conversion,FALSE,kegg
+s[0811],s,MNXM1373087,MNXM1373087[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0812],s,MNXM1364566,MNXM1364566[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0813],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[0814],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[0815],s,MNXM731634,MNXM731634[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0816],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0817],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0819],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[0823],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[0825],s,MNXM528,MNXM528[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[0829],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[0830],s,MNXM726465,MNXM726465[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0831],s,MNXM726465,MNXM726465[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0832],s,MNXM741218,MNXM741218[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0833],s,MNXM741218,MNXM741218[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0834],s,MNXM1364134,MNXM1364134[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0835],s,MNXM1364134,MNXM1364134[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0836],s,MNXM984,MNXM984[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0837],s,MNXM732620,MNXM732620[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0838],s,MNXM732620,MNXM732620[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0840],s,MNXM732620,MNXM732620[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0841],s,MNXM1366923,MNXM1366923[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0843],s,MNXM732487,MNXM732487[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0845],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[0846],s,MNXM1104559,MNXM1104559[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0847],s,MNXM741223,MNXM741223[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0848],s,MNXM741223,MNXM741223[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0849],s,MNXM1101868,MNXM1101868[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0850],s,MNXM518,MNXM518[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0852],s,MNXM518,MNXM518[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0853],s,MNXM383,MNXM383[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0854],s,MNXM383,MNXM383[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0855],s,MNXM315,MNXM315[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0856],s,MNXM1103335,MNXM1103335[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0861],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0862],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0863],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0864],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0865],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0866],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0867],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0868],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0869],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0870],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0871],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0872],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0873],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0874],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0875],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0876],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0877],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0878],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0879],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0880],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0881],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0882],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0883],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0884],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0885],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0886],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0887],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0888],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0889],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0890],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0894],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0895],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0896],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0897],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0898],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0899],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0900],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0901],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0902],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0903],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0904],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0905],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0906],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0907],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0908],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0909],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0910],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0911],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0912],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0913],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0914],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0915],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0916],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0917],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0918],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0919],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0920],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0921],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[0922],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[0923],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0924],s,MNXM1372038,MNXM1372038[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0925],s,MNXM1372038,MNXM1372038[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0926],s,MNXM1372038,MNXM1372038[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0927],s,MNXM7451,MNXM7451[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0929],s,MNXM1670,MNXM1670[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0931],s,MNXM1670,MNXM1670[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0932],s,MNXM5188,MNXM5188[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0934],s,MNXM5188,MNXM5188[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0935],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0937],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[0939],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[0940],s,MNXM89661,MNXM89661[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0941],s,MNXM89661,MNXM89661[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0942],s,MNXM89661,MNXM89661[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0943],s,MNXM83,MNXM83[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0944],s,MNXM83,MNXM83[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[0945],s,MNXM83,MNXM83[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0946],s,MNXM1747,MNXM1747[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0949],s,MNXM1104182,MNXM1104182[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0950],s,MNXM1103428,MNXM1103428[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0951],s,MNXM730221,MNXM730221[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0952],s,MNXM114087,MNXM114087[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0953],s,MNXM1369807,MNXM1369807[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0954],s,MNXM2687,MNXM2687[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0955],s,MNXM1105732,MNXM1105732[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0956],s,MNXM1105732,MNXM1105732[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0957],s,MNXM1105732,MNXM1105732[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0958],s,MNXM2125,MNXM2125[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0959],s,MNXM1364723,MNXM1364723[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0960],s,MNXM2124,MNXM2124[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0961],s,MNXM740330,MNXM740330[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0963],s,MNXM1370556,MNXM1370556[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0965],s,MNXM739527,MNXM739527[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0966],s,MNXM739527,MNXM739527[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0967],s,MNXM739527,MNXM739527[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0968],s,MNXM739527,MNXM739527[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[0969],s,MNXM1107821,MNXM1107821[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0970],s,MNXM1107821,MNXM1107821[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0971],s,MNXM1107821,MNXM1107821[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0972],s,MNXM1107821,MNXM1107821[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[0973],s,MNXM1364673,MNXM1364673[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0974],s,MNXM1364673,MNXM1364673[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0975],s,MNXM1364673,MNXM1364673[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0976],s,MNXM1364673,MNXM1364673[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0977],s,MNXM1364673,MNXM1364673[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[0978],s,MNXM361,MNXM361[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0979],s,MNXM732471,MNXM732471[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0980],s,MNXM319,MNXM319[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0981],s,MNXM738068,MNXM738068[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0982],s,MNXM738068,MNXM738068[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0983],s,MNXM683,MNXM683[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0984],s,MNXM59370,MNXM59370[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[0985],s,MNXM59370,MNXM59370[v],v,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[0986],s,MNXM1280,MNXM1280[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0987],s,MNXM1105816,MNXM1105816[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0988],s,MNXM735669,MNXM735669[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0989],s,MNXM4638,MNXM4638[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0991],s,MNXM741173,MNXM741173[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0992],s,MNXM741173,MNXM741173[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[0993],s,MNXM741173,MNXM741173[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[0994],s,MNXM741173,MNXM741173[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[0995],s,MNXM741173,MNXM741173[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[0996],s,MNXM741173,MNXM741173[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[0997],s,MNXM1093051,MNXM1093051[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[0999],s,MNXM37,MNXM37[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1000],s,MNXM37,MNXM37[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1001],s,MNXM37,MNXM37[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1002],s,MNXM37,MNXM37[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1003],s,MNXM29,MNXM29[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1004],s,MNXM29,MNXM29[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1005],s,MNXM29,MNXM29[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1006],s,MNXM1107769,MNXM1107769[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1007],s,MNXM1107769,MNXM1107769[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1008],s,MNXM1107769,MNXM1107769[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1009],s,MNXM1107769,MNXM1107769[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1010],s,MNXM1281,MNXM1281[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1011],s,MNXM1482,MNXM1482[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1012],s,MNXM123,MNXM123[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1014],s,MNXM353,MNXM353[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1016],s,MNXM728337,MNXM728337[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1017],s,MNXM728337,MNXM728337[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1018],s,MNXM728337,MNXM728337[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1019],s,MNXM728337,MNXM728337[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1020],s,MNXM733142,MNXM733142[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1021],s,MNXM1106761,MNXM1106761[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1022],s,MNXM1106761,MNXM1106761[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1023],s,MNXM1106761,MNXM1106761[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1024],s,MNXM1106761,MNXM1106761[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1025],s,MNXM1364416,MNXM1364416[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1026],s,MNXM1364416,MNXM1364416[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1027],s,MNXM1364416,MNXM1364416[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1028],s,MNXM1364416,MNXM1364416[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1029],s,MNXM738804,MNXM738804[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1030],s,MNXM738804,MNXM738804[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1031],s,MNXM738804,MNXM738804[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1032],s,MNXM741664,MNXM741664[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1033],s,MNXM741664,MNXM741664[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1034],s,MNXM741664,MNXM741664[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1035],s,MNXM114,MNXM114[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1036],s,MNXM114,MNXM114[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1037],s,MNXM114,MNXM114[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1038],s,MNXM735171,MNXM735171[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1039],s,MNXM737787,MNXM737787[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1040],s,MNXM737787,MNXM737787[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1041],s,MNXM737787,MNXM737787[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1042],s,MNXM737787,MNXM737787[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1043],s,MNXM1364245,MNXM1364245[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1045],s,MNXM142,MNXM142[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1046],s,MNXM142,MNXM142[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1047],s,MNXM142,MNXM142[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1048],s,MNXM741553,MNXM741553[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1049],s,MNXM741553,MNXM741553[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1050],s,MNXM741553,MNXM741553[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1051],s,MNXM76,MNXM76[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1052],s,MNXM76,MNXM76[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1053],s,MNXM76,MNXM76[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1054],s,MNXM76,MNXM76[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1055],s,MNXM76,MNXM76[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1056],s,MNXM199,MNXM199[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1057],s,MNXM199,MNXM199[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1058],s,MNXM199,MNXM199[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1059],s,MNXM736942,MNXM736942[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1061],s,MNXM736942,MNXM736942[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1073],s,MNXM1092909,MNXM1092909[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1076],s,MNXM1092909,MNXM1092909[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1077],s,MNXM739504,MNXM739504[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1078],s,MNXM739504,MNXM739504[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1079],s,MNXM1372920,MNXM1372920[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1080],s,MNXM1372920,MNXM1372920[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1081],s,MNXM1369398,MNXM1369398[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1082],s,MNXM1369398,MNXM1369398[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1085],s,MNXM3297,MNXM3297[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1096],s,MNXM12117,MNXM12117[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, seed, kegg"
+s[1097],s,MNXM1024,MNXM1024[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1098],s,MNXM741249,MNXM741249[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1099],s,MNXM741243,MNXM741243[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1100],s,MNXM741243,MNXM741243[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1101],s,MNXM1106093,MNXM1106093[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1104],s,MNXM1106093,MNXM1106093[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1105],s,MNXM1106000,MNXM1106000[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1106],s,MNXM1106000,MNXM1106000[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1107],s,MNXM732274,MNXM732274[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[1108],s,MNXM735376,MNXM735376[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1109],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1110],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1111],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1112],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1116],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1117],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1118],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1119],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1120],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1121],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1122],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1123],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1124],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1125],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1126],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1127],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1128],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1129],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1130],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1131],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1132],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1133],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1134],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1135],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1136],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1137],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1138],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1139],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1140],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1141],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1142],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1143],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1144],s,s,s[g],g,FALSE,Unchanged,FALSE,None
+s[1145],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1148],s,MNXM741321,MNXM741321[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1149],s,MNXM741321,MNXM741321[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1151],s,MNXM310,MNXM310[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1153],s,MNXM1105941,MNXM1105941[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1154],s,MNXM1105941,MNXM1105941[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1156],s,MNXM1104075,MNXM1104075[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1157],s,MNXM1104075,MNXM1104075[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1158],s,MNXM1364383,MNXM1364383[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1176],s,MNXM1104283,MNXM1104283[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1179],s,MNXM1104283,MNXM1104283[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1180],s,MNXM501,MNXM501[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1181],s,MNXM600,MNXM600[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1182],s,MNXM817,MNXM817[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1183],s,MNXM739680,MNXM739680[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1184],s,MNXM738982,MNXM738982[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1187],s,MNXM1489,MNXM1489[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1188],s,MNXM730898,MNXM730898[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1189],s,MNXM1105798,MNXM1105798[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1190],s,MNXM1364319,MNXM1364319[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1191],s,MNXM1384,MNXM1384[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1192],s,MNXM1371649,MNXM1371649[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1193],s,MNXM1153,MNXM1153[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1194],s,MNXM465,MNXM465[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1195],s,MNXM727853,MNXM727853[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1198],s,MNXM8,MNXM8[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1199],s,MNXM8,MNXM8[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1200],s,MNXM8,MNXM8[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1201],s,MNXM8,MNXM8[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1202],s,MNXM8,MNXM8[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1203],s,MNXM10,MNXM10[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1204],s,MNXM10,MNXM10[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1205],s,MNXM10,MNXM10[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1206],s,MNXM10,MNXM10[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1207],s,MNXM5,MNXM5[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1208],s,MNXM5,MNXM5[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1210],s,MNXM5,MNXM5[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1211],s,MNXM5,MNXM5[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1212],s,MNXM738702,MNXM738702[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1213],s,MNXM738702,MNXM738702[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1214],s,MNXM738702,MNXM738702[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1215],s,MNXM738702,MNXM738702[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1216],s,MNXM216,MNXM216[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1217],s,MNXM216,MNXM216[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1218],s,MNXM1101283,MNXM1101283[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1219],s,MNXM274,MNXM274[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1220],s,MNXM274,MNXM274[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[1221],s,MNXM274,MNXM274[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1222],s,MNXM1108016,MNXM1108016[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1223],s,MNXM1108016,MNXM1108016[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1224],s,MNXM355,MNXM355[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1227],s,MNXM355,MNXM355[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1228],s,MNXM355,MNXM355[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1229],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[1230],s,MNXM733462,MNXM733462[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1231],s,MNXM741170,MNXM741170[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1232],s,MNXM741170,MNXM741170[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[1233],s,MNXM1372419,MNXM1372419[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1234],s,MNXM418,MNXM418[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1235],s,MNXM726103,MNXM726103[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1236],s,MNXM726103,MNXM726103[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1237],s,MNXM726103,MNXM726103[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1238],s,MNXM1334,MNXM1334[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1239],s,MNXM187,MNXM187[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1240],s,MNXM187,MNXM187[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1241],s,MNXM820,MNXM820[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1246],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[1254],s,MNXM728538,MNXM728538[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1258],s,MNXM1093479,MNXM1093479[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1259],s,MNXM1373576,MNXM1373576[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[1260],s,MNXM1364559,MNXM1364559[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1262],s,MNXM1364303,MNXM1364303[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1265],s,MNXM1364303,MNXM1364303[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1266],s,MNXM741174,MNXM741174[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1267],s,MNXM741174,MNXM741174[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1268],s,MNXM741174,MNXM741174[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1269],s,MNXM235,MNXM235[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1270],s,MNXM1103557,MNXM1103557[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1271],s,MNXM46,MNXM46[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1273],s,MNXM46,MNXM46[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1274],s,MNXM46,MNXM46[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1275],s,MNXM735438,MNXM735438[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1276],s,MNXM735438,MNXM735438[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1277],s,MNXM735438,MNXM735438[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1278],s,MNXM735438,MNXM735438[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1279],s,MNXM735438,MNXM735438[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1282],s,MNXM1103833,MNXM1103833[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1283],s,MNXM1102064,MNXM1102064[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1284],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[1302],s,MNXM1106160,MNXM1106160[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1303],s,MNXM1106160,MNXM1106160[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1305],s,MNXM1106160,MNXM1106160[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1307],s,MNXM373,MNXM373[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1310],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[1312],s,MNXM732668,MNXM732668[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[1313],s,MNXM732668,MNXM732668[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1314],s,MNXM741194,MNXM741194[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1315],s,MNXM741194,MNXM741194[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1318],s,MNXM473,MNXM473[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1320],s,MNXM473,MNXM473[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1321],s,MNXM737265,MNXM737265[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1322],s,MNXM9,MNXM9[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1323],s,MNXM9,MNXM9[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1324],s,MNXM9,MNXM9[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1325],s,MNXM9,MNXM9[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[1326],s,MNXM9,MNXM9[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1329],s,MNXM9,MNXM9[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1346],s,MNXM96952,MNXM96952[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[1351],s,MNXM115,MNXM115[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[1352],s,MNXM115,MNXM115[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1360],s,MNXM73,MNXM73[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1361],s,MNXM73,MNXM73[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1364],s,MNXM737371,MNXM737371[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1365],s,MNXM1104518,MNXM1104518[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1366],s,MNXM1104918,MNXM1104918[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1367],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[1372],s,MNXM554,MNXM554[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1373],s,MNXM95,MNXM95[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1374],s,MNXM95,MNXM95[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1375],s,MNXM1373209,MNXM1373209[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1376],s,MNXM132,MNXM132[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1377],s,MNXM737312,MNXM737312[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1378],s,MNXM547,MNXM547[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1379],s,MNXM732981,MNXM732981[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1382],s,MNXM1364414,MNXM1364414[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1383],s,MNXM1364652,MNXM1364652[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1384],s,MNXM351,MNXM351[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1385],s,MNXM351,MNXM351[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1386],s,MNXM1104453,MNXM1104453[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1387],s,MNXM1104453,MNXM1104453[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1388],s,MNXM2276,MNXM2276[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1389],s,MNXM118,MNXM118[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1390],s,MNXM118,MNXM118[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1391],s,MNXM118,MNXM118[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1392],s,MNXM311,MNXM311[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1393],s,MNXM161,MNXM161[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1394],s,MNXM548,MNXM548[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1395],s,MNXM366,MNXM366[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1396],s,MNXM419,MNXM419[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1397],s,MNXM419,MNXM419[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1398],s,MNXM454,MNXM454[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1399],s,MNXM23,MNXM23[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1400],s,MNXM23,MNXM23[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1401],s,MNXM23,MNXM23[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1403],s,MNXM555,MNXM555[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1404],s,MNXM555,MNXM555[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1405],s,MNXM270,MNXM270[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1406],s,MNXM270,MNXM270[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1408],s,MNXM1364029,s[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1409],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[1410],s,MNXM740462,MNXM740462[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1411],s,MNXM735015,MNXM735015[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1413],s,MNXM1102167,MNXM1102167[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1415],s,MNXM1102167,MNXM1102167[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1416],s,MNXM1363866,MNXM1363866[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1418],s,MNXM1363866,MNXM1363866[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1419],s,MNXM1363866,MNXM1363866[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1420],s,MNXM1103325,MNXM1103325[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1421],s,MNXM741595,MNXM741595[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1422],s,MNXM1363941,MNXM1363941[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1423],s,MNXM737603,MNXM737603[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1424],s,MNXM681265,MNXM681265[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1425],s,MNXM681265,MNXM681265[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1426],s,MNXM507505,MNXM507505[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1427],s,MNXM733314,MNXM733314[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1428],s,MNXM741352,MNXM741352[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1429],s,MNXM602,MNXM602[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1432],s,MNXM1370177,MNXM1370177[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[1433],s,MNXM1370177,MNXM1370177[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1435],s,MNXM1370177,MNXM1370177[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1437],s,MNXM27,MNXM27[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1438],s,MNXM27,MNXM27[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1439],s,MNXM124,MNXM124[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1440],s,MNXM124,MNXM124[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1441],s,MNXM124,MNXM124[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1442],s,MNXM408,MNXM408[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1443],s,MNXM408,MNXM408[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1444],s,MNXM408,MNXM408[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1445],s,MNXM733692,MNXM733692[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1446],s,MNXM1103529,MNXM1103529[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1447],s,MNXM1364087,MNXM1364087[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1448],s,MNXM1364087,MNXM1364087[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1454],s,MNXM1104352,MNXM1104352[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1457],s,MNXM1104352,MNXM1104352[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1458],s,MNXM25,MNXM25[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1460],s,MNXM25,MNXM25[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1461],s,MNXM172,MNXM172[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1464],s,MNXM1104774,MNXM1104774[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1467],s,MNXM58,MNXM58[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1468],s,MNXM58,MNXM58[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1469],s,MNXM726339,MNXM726339[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1471],s,MNXM282,MNXM282[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1473],s,MNXM1104296,MNXM1104296[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1474],s,MNXM1104296,MNXM1104296[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1476],s,MNXM256,MNXM256[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1479],s,MNXM1104012,MNXM1104012[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1480],s,MNXM1104012,MNXM1104012[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[1482],s,MNXM1104012,MNXM1104012[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1483],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[1486],s,MNXM1103841,MNXM1103841[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1487],s,MNXM1103936,MNXM1103936[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1488],s,MNXM1103936,MNXM1103936[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1489],s,MNXM730135,MNXM730135[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1490],s,MNXM730135,MNXM730135[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1491],s,MNXM741233,MNXM741233[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1492],s,MNXM741233,MNXM741233[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1497],s,MNXM662,MNXM662[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1498],s,MNXM662,MNXM662[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1507],s,MNXM1104631,MNXM1104631[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1510],s,MNXM1104661,MNXM1104661[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1513],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[1516],s,MNXM1104783,MNXM1104783[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1519],s,MNXM1104173,MNXM1104173[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1520],s,MNXM1364330,MNXM1364330[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1521],s,MNXM1364330,MNXM1364330[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1522],s,MNXM1364330,MNXM1364330[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[1523],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[1524],s,MNXM732989,MNXM732989[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[1526],s,MNXM350,MNXM350[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1527],s,MNXM741199,MNXM741199[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1528],s,MNXM741199,MNXM741199[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1529],s,MNXM1686,MNXM1686[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1531],s,MNXM1686,MNXM1686[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1533],s,MNXM741213,MNXM741213[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1534],s,MNXM741213,MNXM741213[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1535],s,MNXM90307,MNXM90307[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1537],s,MNXM1372479,MNXM1372479[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1538],s,MNXM1102128,MNXM1102128[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1539],s,MNXM1102128,MNXM1102128[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[1540],s,MNXM1102128,MNXM1102128[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1541],s,MNXM1104754,MNXM1104754[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1542],s,MNXM1104754,MNXM1104754[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[1543],s,MNXM1364158,MNXM1364158[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1544],s,MNXM1104529,MNXM1104529[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1545],s,MNXM1104823,MNXM1104823[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1546],s,MNXM1104823,MNXM1104823[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[1547],s,MNXM1104823,MNXM1104823[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1548],s,MNXM1104823,MNXM1104823[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1549],s,s,s[lp],lp,FALSE,Unchanged,FALSE,kegg
+s[1550],s,MNXM1369194,MNXM1369194[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1551],s,MNXM1369194,MNXM1369194[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1552],s,MNXM117,MNXM117[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1553],s,MNXM117,MNXM117[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1554],s,MNXM1122,MNXM1122[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1555],s,s,s[c],c,FALSE,Unchanged,FALSE,kegg
+s[1556],s,MNXM1103104,MNXM1103104[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1557],s,MNXM1103104,MNXM1103104[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1558],s,MNXM414,MNXM414[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1559],s,MNXM1101474,MNXM1101474[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1560],s,MNXM1101474,MNXM1101474[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1561],s,MNXM741265,MNXM741265[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1562],s,MNXM741265,MNXM741265[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1565],s,MNXM1104385,MNXM1104385[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1566],s,MNXM737068,MNXM737068[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1568],s,MNXM738369,MNXM738369[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[1569],s,MNXM738369,MNXM738369[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1571],s,MNXM738369,MNXM738369[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[1572],s,MNXM738369,MNXM738369[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[1576],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[1577],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[1578],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[1579],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[1582],s,MNXM89576,MNXM89576[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1583],s,MNXM90751,MNXM90751[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1584],s,MNXM90751,MNXM90751[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1585],s,MNXM90665,MNXM90665[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1586],s,MNXM90665,MNXM90665[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1587],s,MNXM90752,MNXM90752[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1588],s,MNXM90752,MNXM90752[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1589],s,MNXM162355,MNXM162355[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1590],s,MNXM71,MNXM71[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1591],s,MNXM90886,MNXM90886[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1592],s,MNXM90886,MNXM90886[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1593],s,MNXM90340,MNXM90340[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1594],s,MNXM90878,MNXM90878[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1595],s,MNXM90878,MNXM90878[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1596],s,MNXM90879,MNXM90879[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1597],s,MNXM90879,MNXM90879[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1598],s,MNXM90880,MNXM90880[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1599],s,MNXM90880,MNXM90880[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1600],s,MNXM90881,MNXM90881[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1601],s,MNXM90881,MNXM90881[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1602],s,MNXM90882,MNXM90882[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1603],s,MNXM90882,MNXM90882[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1604],s,MNXM90753,MNXM90753[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1605],s,MNXM90753,MNXM90753[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1606],s,MNXM90667,MNXM90667[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1607],s,MNXM91028,MNXM91028[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1608],s,MNXM90883,MNXM90883[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1609],s,MNXM90883,MNXM90883[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1610],s,MNXM90755,MNXM90755[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1611],s,MNXM90755,MNXM90755[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1612],s,MNXM90668,MNXM90668[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1613],s,MNXM90668,MNXM90668[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1614],s,MNXM90885,MNXM90885[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1615],s,MNXM90885,MNXM90885[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1616],s,MNXM741334,MNXM741334[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1617],s,MNXM741334,MNXM741334[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1618],s,MNXM741334,MNXM741334[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1619],s,MNXM741334,MNXM741334[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1620],s,MNXM729077,MNXM729077[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[1621],s,MNXM729077,MNXM729077[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[1622],s,MNXM729077,MNXM729077[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[1623],s,MNXM729077,MNXM729077[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[1845],s,MNXM740694,MNXM740694[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[2763],s,MNXM1113,MNXM1113[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[2770],s,MNXM727386,MNXM727386[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[2771],s,MNXM728732,MNXM728732[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[2772],s,MNXM728605,MNXM728605[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[2773],s,MNXM728619,MNXM728619[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[2774],s,MNXM728609,MNXM728609[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[2778],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[2779],s,MNXM728714,MNXM728714[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[2780],s,MNXM728590,MNXM728590[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[2781],s,MNXM1092909,MNXM1092909[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2782],s,MNXM1106093,MNXM1106093[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2783],s,MNXM1,MNXM1[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2784],s,MNXM13,MNXM13[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2785],s,MNXM727276,MNXM727276[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2786],s,MNXM1103776,MNXM1103776[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2787],s,MNXM1104283,MNXM1104283[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2788],s,MNXM1104713,MNXM1104713[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2789],s,MNXM1106160,MNXM1106160[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2790],s,MNXM1104572,MNXM1104572[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2791],s,MNXM1104352,MNXM1104352[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2792],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2793],s,MNXM1103962,MNXM1103962[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2794],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2795],s,MNXM726559,MNXM726559[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2796],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2797],s,MNXM1104012,MNXM1104012[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2798],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2799],s,MNXM738702,MNXM738702[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2800],s,MNXM5,MNXM5[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2801],s,MNXM1104726,MNXM1104726[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2802],s,MNXM1364418,MNXM1364418[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2803],s,MNXM1364011,MNXM1364011[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2804],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2805],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2806],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2807],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2808],s,WATER,WATER[erm],erm,TRUE,Other conversion,FALSE,kegg
+s[2809],s,MNXM1104173,MNXM1104173[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2810],s,MNXM1104633,MNXM1104633[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2811],s,MNXM1104783,MNXM1104783[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2812],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2813],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2814],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2815],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2816],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2817],s,MNXM735438,MNXM735438[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2818],s,MNXM10,MNXM10[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2819],s,MNXM1364399,MNXM1364399[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2820],s,MNXM8,MNXM8[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2821],s,MNXM1364303,MNXM1364303[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2831],s,MNXM3,MNXM3[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2833],s,MNXM728294,MNXM728294[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2834],s,MNXM11,MNXM11[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2836],s,MNXM108,MNXM108[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2838],s,MNXM236,MNXM236[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2839],s,MNXM1364559,MNXM1364559[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2840],s,MNXM3,MNXM3[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2842],s,MNXM728294,MNXM728294[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2846],s,MNXM108,MNXM108[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2847],s,MNXM1106160,MNXM1106160[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2848],s,MNXM1107900,MNXM1107900[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2850],s,MNXM236,MNXM236[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2851],s,MNXM1104352,MNXM1104352[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2852],s,MNXM1364559,MNXM1364559[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2853],s,MNXM1364303,MNXM1364303[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2854],s,MNXM1364399,MNXM1364399[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2856],s,MNXM3,MNXM3[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[2877],s,MNXM1364399,MNXM1364399[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[2878],s,MNXM1103962,MNXM1103962[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[2879],s,MNXM1103962,MNXM1103962[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2880],s,MNXM726559,MNXM726559[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[2881],s,MNXM726559,MNXM726559[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2884],s,MNXM1104300,MNXM1104300[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2885],s,MNXM1103616,MNXM1103616[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2886],s,MNXM1364064,MNXM1364064[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2887],s,MNXM1104717,MNXM1104717[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2888],s,MNXM1106007,MNXM1106007[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2889],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2890],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2891],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2892],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2893],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2894],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2895],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2896],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2897],s,MNXM735506,MNXM735506[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2898],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2899],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2900],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2901],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2902],s,MNXM1364288,MNXM1364288[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2903],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2904],s,MNXM31570,MNXM31570[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2905],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2906],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2907],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2908],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2909],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2910],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2911],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2912],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2913],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2914],s,MNXM1103802,MNXM1103802[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2915],s,MNXM1104699,MNXM1104699[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2916],s,MNXM1093448,MNXM1093448[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2917],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2918],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2919],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2920],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2921],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2922],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2923],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2924],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2925],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2926],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2927],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2928],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2929],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2930],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2931],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2932],s,MNXM1106027,MNXM1106027[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[2933],s,s,s[p],p,FALSE,Unchanged,FALSE,None
+s[2934],s,MNXM66,MNXM66[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2935],s,MNXM732965,MNXM732965[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2937],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2938],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2939],s,MNXM77,MNXM77[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2940],s,MNXM1061,MNXM1061[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2942],s,MNXM33006,MNXM33006[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2943],s,MNXM32961,MNXM32961[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2944],s,MNXM732965,MNXM732965[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2946],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[2947],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[2955],s,MNXM739326,MNXM739326[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2959],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2961],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2962],s,MNXM739326,MNXM739326[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[2964],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[2965],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[2966],s,MNXM9,MNXM9[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[2968],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2972],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2974],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[2976],s,WATER,WATER[vm],vm,TRUE,Other conversion,FALSE,kegg
+s[2977],s,MNXM9,MNXM9[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[2979],s,MNXM739326,MNXM739326[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[2980],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[2987],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[2988],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[2991],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[2992],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[2994],s,WATER,WATER[gm],gm,TRUE,Other conversion,FALSE,kegg
+s[2995],s,MNXM9,MNXM9[gm],gm,TRUE,MetanetX conversion,FALSE,kegg
+s[2996],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[2998],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3000],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3002],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3004],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3006],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3008],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3010],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3036],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3040],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3042],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3045],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3053],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3057],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3076],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3080],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3082],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3083],s,MNXM1103718,MNXM1103718[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3088],s,MNXM1370010,MNXM1370010[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3090],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3091],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3093],s,MNXM1103718,MNXM1103718[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3094],s,MNXM1,MNXM1[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3095],s,MNXM11,MNXM11[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3096],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3098],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3100],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3102],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3103],s,MNXM739326,MNXM739326[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3104],s,MNXM1370010,MNXM1370010[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3106],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3107],s,MNXM737787,MNXM737787[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3108],s,MNXM1103302,MNXM1103302[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3113],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3115],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3116],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3117],s,MNXM1105941,MNXM1105941[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3122],s,MNXM735385,MNXM735385[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3124],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3125],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3129],s,MNXM13,MNXM13[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3137],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3138],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3141],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3142],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3143],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3144],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3164],s,MNXM1,MNXM1[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[3165],s,MNXM13,MNXM13[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[3173],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3174],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3177],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3178],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3179],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3180],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3182],s,MNXM1363866,MNXM1363866[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3183],s,MNXM1102167,MNXM1102167[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3191],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3192],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3195],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3196],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3197],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3198],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3203],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3205],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3206],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3211],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3213],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3214],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3215],s,MNXM1102191,MNXM1102191[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3216],s,MNXM1103456,MNXM1103456[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3217],s,MNXM1103046,MNXM1103046[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3218],s,MNXM66,MNXM66[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3219],s,MNXM1103302,MNXM1103302[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3224],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3226],s,WATER,WATER[mm],mm,TRUE,Other conversion,FALSE,kegg
+s[3227],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3229],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3230],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3231],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3232],s,MNXM65006,MNXM65006[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3233],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3234],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3235],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3236],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3237],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3238],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3239],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3240],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3241],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3242],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3243],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3244],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3245],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3246],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3247],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3248],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3249],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3250],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3251],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3252],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3253],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3254],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3255],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3256],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3257],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3258],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3259],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3260],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3261],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3262],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3263],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3264],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3265],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3266],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3267],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3268],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3269],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3270],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3271],s,MNXM108,MNXM108[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3272],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3273],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3274],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3275],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3276],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3277],s,MNXM236,MNXM236[mm],mm,TRUE,MetanetX conversion,FALSE,kegg
+s[3278],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3279],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3280],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3281],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3282],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3283],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3284],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3285],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3286],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3287],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3288],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3289],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3290],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3291],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3292],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3293],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3294],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3295],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3296],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3297],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3298],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3299],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3300],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3301],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3302],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3303],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3304],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3305],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3306],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3307],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3308],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3309],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3310],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3311],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3312],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3313],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3314],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3315],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3316],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3317],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3318],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3319],s,s,s[mm],mm,FALSE,Unchanged,FALSE,None
+s[3324],s,MNXM40333,MNXM40333[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3332],s,MNXM735385,MNXM735385[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3333],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3336],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3337],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3338],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3339],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3340],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3341],s,MNXM3,MNXM3[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[3342],s,MNXM40333,MNXM40333[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[3344],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3346],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3348],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3350],s,MNXM735385,MNXM735385[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[3351],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3352],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3354],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3355],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3356],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3357],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3358],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3362],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3364],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3366],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3368],s,MNXM735385,MNXM735385[gm],gm,TRUE,MetanetX conversion,FALSE,kegg
+s[3369],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3370],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3372],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3373],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3374],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3375],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3384],s,MNXM735385,MNXM735385[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[3385],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3388],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3389],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3390],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3391],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3392],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3393],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3394],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3395],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3396],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3397],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3398],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3399],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3400],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3401],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3402],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3403],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3404],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3405],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3406],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3407],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3412],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3414],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3415],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3420],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3422],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3423],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3424],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3426],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3427],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3428],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3430],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3431],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3432],s,MNXM1371083,MNXM1371083[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3433],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3434],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3435],s,MNXM731707,MNXM731707[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3436],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3437],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3438],s,MNXM736942,MNXM736942[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3439],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3440],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3441],s,MNXM741449,MNXM741449[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3442],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3443],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3444],s,MNXM738369,MNXM738369[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3445],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3446],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3447],s,MNXM1370177,MNXM1370177[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3449],s,WATER,WATER[ce],ce,TRUE,Other conversion,FALSE,kegg
+s[3450],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3451],s,MNXM1107900,MNXM1107900[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3455],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3457],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3458],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3459],s,MNXM1364559,MNXM1364559[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3461],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3462],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3463],s,MNXM108,MNXM108[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3464],s,MNXM236,MNXM236[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3466],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3470],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3472],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3473],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3475],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3476],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3477],s,MNXM734941,MNXM734941[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3479],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3483],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3485],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3486],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3488],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3489],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3490],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3491],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3493],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3494],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3496],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3497],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3498],s,MNXM1103971,MNXM1103971[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3499],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3500],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3501],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3502],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3503],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3504],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3505],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3506],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3507],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3508],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3509],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3510],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3511],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3512],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3513],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3514],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3515],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3516],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3517],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3518],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3519],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3520],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3531],s,MNXM739326,MNXM739326[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3533],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3534],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3536],s,MNXM9,MNXM9[ce],ce,TRUE,MetanetX conversion,FALSE,kegg
+s[3540],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3542],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3543],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3552],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3553],s,MNXM735385,MNXM735385[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3556],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3557],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3558],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3559],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3564],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3566],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3567],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3572],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3574],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3575],s,s,s[gm],gm,FALSE,Unchanged,FALSE,None
+s[3580],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3582],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3583],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3588],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3590],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3591],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3596],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3598],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3599],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3604],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3606],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3607],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3620],s,MNXM32929,MNXM32929[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[3622],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3623],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3640],s,MNXM732965,MNXM732965[vm],vm,TRUE,MetanetX conversion,FALSE,kegg
+s[3641],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3644],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3645],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3646],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3647],s,s,s[vm],vm,FALSE,Unchanged,FALSE,None
+s[3656],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3657],s,WATER,WATER[lp],lp,TRUE,Other conversion,FALSE,kegg
+s[3658],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3659],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3660],s,MNXM1371083,MNXM1371083[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[3661],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3662],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3663],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3664],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3665],s,MNXM736942,MNXM736942[lp],lp,TRUE,MetanetX conversion,FALSE,kegg
+s[3666],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3667],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3668],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3669],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3670],s,s,s[ce],ce,FALSE,Unchanged,FALSE,None
+s[3671],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3673],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3674],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3685],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3686],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3689],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3690],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3691],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3692],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3694],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3698],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3700],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3701],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3703],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3704],s,s,s[lp],lp,FALSE,Unchanged,FALSE,None
+s[3710],s,s,s[erm],erm,FALSE,Unchanged,FALSE,None
+s[3714],s,MNXM737852,MNXM737852[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[3715],s,MNXM1108339,MNXM1108339[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[3716],s,MNXM1103965,MNXM1103965[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[3717],s,MNXM78340,MNXM78340[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, seed, kegg"
+s[3718],s,MNXM45545,MNXM45545[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, seed"
+s[3719],s,MNXM1248,MNXM1248[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, seed, kegg"
+s[3720],s,MNXM634,MNXM634[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[3740],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3742],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3743],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3746],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3747],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3748],s,MNXM731958,MNXM731958[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3749],s,MNXM2100,MNXM2100[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3750],s,MNXM1467,MNXM1467[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3751],s,MNXM664,MNXM664[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[3752],s,MNXM1467,MNXM1467[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[3753],s,MNXM10,MNXM10[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[3754],s,MNXM731036,MNXM731036[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3755],s,MNXM37,MNXM37[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3756],s,MNXM741204,MNXM741204[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3757],s,s,s[v],v,FALSE,Unchanged,FALSE,None
+s[3758],s,MNXM738804,MNXM738804[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3759],s,MNXM1105732,MNXM1105732[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3761],s,MNXM1104545,MNXM1104545[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3762],s,MNXM740100,MNXM740100[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3763],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3764],s,MNXM1104529,MNXM1104529[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3765],s,MNXM727420,MNXM727420[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3766],s,MNXM1102128,MNXM1102128[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3768],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3769],s,MNXM291,MNXM291[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3770],s,MNXM618,MNXM618[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3771],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3772],s,MNXM1364206,MNXM1364206[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3773],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3774],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3775],s,MNXM27,MNXM27[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3776],s,MNXM95,MNXM95[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3777],s,MNXM735978,MNXM735978[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3778],s,MNXM735978,MNXM735978[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3779],s,MNXM1363965,MNXM1363965[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3780],s,MNXM1108176,MNXM1108176[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3781],s,MNXM1104823,MNXM1104823[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3784],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[3785],s,MNXM738068,MNXM738068[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3786],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[3787],s,MNXM726122,MNXM726122[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3788],s,MNXM726122,MNXM726122[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3789],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3790],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3791],s,MNXM2785,MNXM2785[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3792],s,MNXM2483,MNXM2483[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3793],s,MNXM3486,MNXM3486[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3794],s,MNXM4040,MNXM4040[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3795],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3796],s,MNXM5879,MNXM5879[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3797],s,MNXM3500,MNXM3500[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3798],s,MNXM4077,MNXM4077[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3799],s,MNXM562,MNXM562[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3800],s,MNXM371,MNXM371[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3801],s,MNXM2255,MNXM2255[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3802],s,MNXM2255,MNXM2255[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3806],s,MNXM2196,MNXM2196[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3807],s,MNXM1106045,MNXM1106045[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3808],s,MNXM90667,MNXM90667[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3809],s,MNXM732981,MNXM732981[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3810],s,MNXM722719,MNXM722719[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3813],s,MNXM1107906,MNXM1107906[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3814],s,MNXM730537,MNXM730537[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3815],s,MNXM1364474,MNXM1364474[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3818],s,MNXM1363866,MNXM1363866[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[3819],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3820],s,MNXM1102167,MNXM1102167[n],n,TRUE,MetanetX conversion,FALSE,kegg
+s[3821],s,s,s[n],n,FALSE,Unchanged,FALSE,None
+s[3822],s,MNXM1372251,MNXM1372251[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3823],s,MNXM1372251,MNXM1372251[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3824],s,MNXM726598,MNXM726598[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3825],s,MNXM726616,MNXM726616[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3826],s,MNXM726598,MNXM726598[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3827],s,MNXM726616,MNXM726616[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3828],s,MNXM5393,MNXM5393[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3829],s,MNXM2349,MNXM2349[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3834],s,MNXM1107593,MNXM1107593[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3835],s,MNXM727917,MNXM727917[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3836],s,MNXM734335,MNXM734335[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3837],s,MNXM1364345,MNXM1364345[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3838],s,MNXM1369179,MNXM1369179[v],v,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+s[3839],s,MNXM29,MNXM29[v],v,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+s[3840],s,MNXM729871,MNXM729871[v],v,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+s[3841],s,MNXM4918,MNXM4918[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3842],s,MNXM1107593,MNXM1107593[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3843],s,MNXM490899,MNXM490899[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3844],s,MNXM727917,MNXM727917[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3845],s,MNXM734335,MNXM734335[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3846],s,MNXM1108062,MNXM1108062[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3847],s,MNXM727871,MNXM727871[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3848],s,MNXM1108062,MNXM1108062[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3849],s,MNXM1372264,MNXM1372264[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3850],s,MNXM727871,MNXM727871[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3852],s,MNXM1364029,s[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3853],s,MNXM726748,MNXM726748[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3854],s,MNXM726963,MNXM726963[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3856],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3857],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3858],s,MNXM5704,MNXM5704[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3859],s,MNXM3867,MNXM3867[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3860],s,MNXM526,MNXM526[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3861],s,MNXM3633,MNXM3633[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3865],s,MNXM729150,MNXM729150[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[3866],s,MNXM729150,MNXM729150[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3867],s,MNXM2073,MNXM2073[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3868],s,MNXM2239,MNXM2239[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3869],s,MNXM731273,MNXM731273[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3870],s,MNXM739615,MNXM739615[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3871],s,MNXM728199,MNXM728199[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3872],s,MNXM3208,MNXM3208[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3873],s,MNXM1092627,MNXM1092627[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3874],s,MNXM217,MNXM217[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3875],s,MNXM341,MNXM341[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3876],s,MNXM726293,MNXM726293[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3877],s,MNXM739084,MNXM739084[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3878],s,MNXM1104079,MNXM1104079[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3879],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3880],s,MNXM128,MNXM128[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3881],s,MNXM3,MNXM3[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3882],s,MNXM128,MNXM128[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3883],s,MNXM40333,MNXM40333[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3884],s,MNXM733321,MNXM733321[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3885],s,MNXM73312,MNXM73312[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3886],s,MNXM145923,MNXM145923[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3887],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3888],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3889],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3890],s,MNXM1104188,MNXM1104188[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3891],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3892],s,MNXM1103285,MNXM1103285[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3893],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3894],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3895],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3896],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3897],s,MNXM734567,MNXM734567[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3898],s,MNXM1364256,MNXM1364256[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3899],s,MNXM1136254,MNXM1136254[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3900],s,MNXM3535,MNXM3535[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3901],s,MNXM1364254,MNXM1364254[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[3902],s,s,s[v],v,FALSE,Unchanged,FALSE,None
+s[3903],s,MNXM145767,MNXM145767[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3904],s,MNXM694,MNXM694[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3905],s,MNXM418,MNXM418[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3906],s,MNXM1366923,MNXM1366923[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3907],s,MNXM1107824,MNXM1107824[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3908],s,MNXM1364061,MNXM1364061[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3909],s,MNXM4111,MNXM4111[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3910],s,MNXM722955,MNXM722955[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3911],s,MNXM728542,MNXM728542[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3912],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3923],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3924],s,s,s[m],m,FALSE,Unchanged,FALSE,None
+s[3925],s,MNXM683,MNXM683[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3926],s,MNXM735978,MNXM735978[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[3927],s,MNXM729017,MNXM729017[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3928],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3929],s,MNXM96330,MNXM96330[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3930],s,MNXM1365036,MNXM1365036[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3931],s,MNXM1107906,MNXM1107906[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3932],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3933],s,MNXM1364255,MNXM1364255[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[3936],s,MNXM1372039,MNXM1372039[e],e,TRUE,MetanetX conversion,FALSE,kegg
+s[3940],s,MNXM735381,MNXM735381[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3941],s,MNXM736859,MNXM736859[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3942],s,MNXM1363703,MNXM1363703[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3943],s,MNXM1372395,MNXM1372395[p],p,TRUE,MetanetX conversion,FALSE,kegg
+s[3944],s,MNXM91491,MNXM91491[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3945],s,MNXM4090,MNXM4090[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3946],s,MNXM732086,MNXM732086[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3947],s,MNXM741251,MNXM741251[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[3948],s,MNXM1107898,s[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3950],s,MNXM1105856,MNXM1105856[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3951],s,MNXM1105027,MNXM1105027[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3952],s,MNXM1105855,MNXM1105855[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3958],s,MNXM1136254,MNXM1136254[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3959],s,MNXM2716,MNXM2716[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3960],s,MNXM2422,MNXM2422[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3961],s,MNXM1105901,MNXM1105901[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3962],s,MNXM1107695,MNXM1107695[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3963],s,MNXM940,MNXM940[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3964],s,MNXM738927,MNXM738927[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3965],s,MNXM1105058,MNXM1105058[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3966],s,MNXM1572,MNXM1572[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3967],s,MNXM1745,MNXM1745[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3968],s,MNXM728089,MNXM728089[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3969],s,MNXM1174,MNXM1174[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3970],s,MNXM1107210,MNXM1107210[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3971],s,MNXM1057,MNXM1057[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3972],s,MNXM732179,MNXM732179[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3973],s,MNXM1527,MNXM1527[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3974],s,MNXM2083,MNXM2083[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3975],s,MNXM5312,MNXM5312[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3976],s,MNXM738792,MNXM738792[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3977],s,MNXM6216,MNXM6216[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3978],s,MNXM46935,MNXM46935[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3979],s,MNXM1816,MNXM1816[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3980],s,MNXM1468,MNXM1468[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3981],s,MNXM2149,MNXM2149[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3982],s,MNXM2414,MNXM2414[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3983],s,MNXM1369639,MNXM1369639[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3984],s,MNXM735429,MNXM735429[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3985],s,MNXM93813,MNXM93813[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3986],s,MNXM93813,MNXM93813[gm],gm,TRUE,MetanetX conversion,FALSE,kegg
+s[3987],s,MNXM40333,MNXM40333[erm],erm,TRUE,MetanetX conversion,FALSE,kegg
+s[3988],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[3989],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3990],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3996],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[3997],s,MNXM222,MNXM222[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3998],s,MNXM1104180,MNXM1104180[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[3999],s,MNXM1107787,MNXM1107787[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[4000],s,MNXM725903,MNXM725903[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[4001],s,s,s[er],er,FALSE,Unchanged,FALSE,None
+s[4004],s,MNXM4111,MNXM4111[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4005],s,MNXM1103313,MNXM1103313[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4009],s,MNXM727657,MNXM727657[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4010],s,MNXM1094289,MNXM1094289[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4011],s,MNXM726339,MNXM726339[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4012],s,MNXM1363724,MNXM1363724[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4013],s,MNXM653,MNXM653[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[4014],s,MNXM653,MNXM653[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4015],s,MNXM1364158,MNXM1364158[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[4016],s,MNXM58,MNXM58[er],er,TRUE,MetanetX conversion,FALSE,kegg
+s[4017],s,MNXM1105935,MNXM1105935[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[4018],s,MNXM731401,MNXM731401[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[4019],s,MNXM731165,MNXM731165[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[4020],s,MNXM731165,MNXM731165[g],g,TRUE,MetanetX conversion,FALSE,kegg
+s[4021],s,MNXM1091725,MNXM1091725[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[4022],s,MNXM1364643,MNXM1364643[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4023],s,MNXM1364643,MNXM1364643[c],c,TRUE,MetanetX conversion,FALSE,kegg
+s[4024],s,s,s[c],c,FALSE,Unchanged,FALSE,None
+s[4026],s,MNXM1372251,MNXM1372251[m],m,TRUE,MetanetX conversion,FALSE,kegg
+s[4027],s,MNXM1372251,MNXM1372251[v],v,TRUE,MetanetX conversion,FALSE,kegg
+s[4048],s,MNXM682,MNXM682[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, kegg"
+s[4098],s,MNXM332,MNXM332[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, kegg"
+s[4123],s,MNXM729799,MNXM729799[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, kegg"
+s[4124],s,MNXM729799,MNXM729799[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, kegg"

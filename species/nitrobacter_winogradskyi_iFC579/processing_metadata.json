@@ -1,27 +1,41 @@
 {
   "model_id": "iFC579",
   "species_directory": "nitrobacter_winogradskyi_iFC579",
-  "start_time": "2025-06-08 20:04:36",
+  "start_time": "2025-06-09 16:39:19",
   "input_file": "iFC579_input.xml",
-  "input_file_original_name": "iFC579_input.xml",
   "output_file": "iFC579_processed.xml",
-  "problems_detected": [
-    "4 metabolites reverted to original IDs due to duplicates",
-    "4 metabolites could not be converted to MetanetX IDs"
-  ],
+  "problems_detected": [],
   "warnings": [],
   "conversion_summary": {
-    "duplicate_ids_reverted": 4,
+    "model_id": "iFC579",
     "total_metabolites": 1007,
-    "successfully_converted": 1003,
+    "successful_conversions": 1003,
+    "metanetx_conversions": 999,
+    "unchanged_metabolites": 4,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
     "conversion_rate": 99.6,
-    "unconverted_metabolites": 4
+    "metanetx_rate": 99.2
   },
   "sbml_read_mode": "standard",
   "pattern_detected": "simple_bigg",
   "metabolites_total": 1007,
-  "metabolites_standardized": 1003,
-  "end_time": "2025-06-08 20:05:04",
-  "processing_time_seconds": 27.2557,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iFC579",
+      "total_metabolites": 1007,
+      "successful_conversions": 1003,
+      "metanetx_conversions": 999,
+      "unchanged_metabolites": 4,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 99.6,
+      "metanetx_rate": 99.2
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrobacter_winogradskyi_iFC579/conversion_logs/iFC579_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrobacter_winogradskyi_iFC579/conversion_logs/iFC579_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:39:47",
+  "processing_time_seconds": 28.4047,
   "success": true
 }

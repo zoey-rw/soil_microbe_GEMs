@@ -1,8 +1,42 @@
 {
-  "model_id": "hanpo_z",
-  "organism_name": "hansenula polymorpha",
-  "migration_timestamp": "2025-06-07 12:18:08",
-  "processing_status": "migrated",
-  "pattern_detected": "unknown",
-  "notes": "Migrated from old directory structure"
+  "model_id": "z",
+  "species_directory": "hansenula_polymorpha_hanpo_z",
+  "start_time": "2025-06-09 16:36:51",
+  "input_file": "hanpo_input.xml",
+  "output_file": "z_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "z",
+    "total_metabolites": 2118,
+    "successful_conversions": 1302,
+    "metanetx_conversions": 1288,
+    "unchanged_metabolites": 816,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 61.5,
+    "metanetx_rate": 60.8
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "bigg_kegg_metanetx_seed",
+  "databases_found": ["metanetx", "bigg", "seed", "kegg"],
+  "metabolites_total": 2118,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "z",
+      "total_metabolites": 2118,
+      "successful_conversions": 1302,
+      "metanetx_conversions": 1288,
+      "unchanged_metabolites": 816,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 61.5,
+      "metanetx_rate": 60.8
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/hansenula_polymorpha_hanpo_z/conversion_logs/z_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/hansenula_polymorpha_hanpo_z/conversion_logs/z_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:37:32",
+  "processing_time_seconds": 40.4399,
+  "success": true
 }

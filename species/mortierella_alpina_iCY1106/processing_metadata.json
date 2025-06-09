@@ -1,27 +1,41 @@
 {
   "model_id": "iCY1106",
   "species_directory": "mortierella_alpina_iCY1106",
-  "start_time": "2025-06-08 20:04:02",
+  "start_time": "2025-06-09 16:38:44",
   "input_file": "iCY1106_github_orig.xml",
-  "input_file_original_name": "iCY1106_github_orig.xml",
   "output_file": "iCY1106_processed.xml",
-  "problems_detected": [
-    "1342 metabolites reverted to original IDs due to duplicates",
-    "1342 metabolites could not be converted to MetanetX IDs"
-  ],
+  "problems_detected": [],
   "warnings": [],
   "conversion_summary": {
-    "duplicate_ids_reverted": 1342,
+    "model_id": "iCY1106",
     "total_metabolites": 1732,
-    "successfully_converted": 390,
+    "successful_conversions": 390,
+    "metanetx_conversions": 386,
+    "unchanged_metabolites": 1342,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 97,
     "conversion_rate": 22.5,
-    "unconverted_metabolites": 1342
+    "metanetx_rate": 22.3
   },
   "sbml_read_mode": "standard",
   "pattern_detected": "simple_bigg",
   "metabolites_total": 1732,
-  "metabolites_standardized": 390,
-  "end_time": "2025-06-08 20:04:36",
-  "processing_time_seconds": 34.4089,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iCY1106",
+      "total_metabolites": 1732,
+      "successful_conversions": 390,
+      "metanetx_conversions": 386,
+      "unchanged_metabolites": 1342,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 97,
+      "conversion_rate": 22.5,
+      "metanetx_rate": 22.3
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/mortierella_alpina_iCY1106/conversion_logs/iCY1106_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/mortierella_alpina_iCY1106/conversion_logs/iCY1106_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:39:19",
+  "processing_time_seconds": 35.2119,
   "success": true
 }

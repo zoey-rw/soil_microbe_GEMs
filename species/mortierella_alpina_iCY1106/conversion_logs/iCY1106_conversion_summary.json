@@ -1,0 +1,56 @@
+{
+  "statistics": {
+    "model_id": "iCY1106",
+    "total_metabolites": 1732,
+    "successful_conversions": 390,
+    "metanetx_conversions": 386,
+    "unchanged_metabolites": 1342,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 97,
+    "conversion_rate": 22.5,
+    "metanetx_rate": 22.3
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 386,
+      "percentage": 22.3
+    },
+    {
+      "conversion_type": "Other conversion",
+      "count": 4,
+      "percentage": 0.2
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 1342,
+      "percentage": 77.5
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 191,
+      "Other conversion": 1,
+      "Unchanged": 723
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 59,
+      "Other conversion": 1,
+      "Unchanged": 159
+    },
+    {
+      "compartment": "m",
+      "MetanetX conversion": 109,
+      "Other conversion": 1,
+      "Unchanged": 430
+    },
+    {
+      "compartment": "p",
+      "MetanetX conversion": 27,
+      "Other conversion": 1,
+      "Unchanged": 30
+    }
+  ]
+}

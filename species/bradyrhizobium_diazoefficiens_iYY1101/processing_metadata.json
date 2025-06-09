@@ -1,27 +1,41 @@
 {
   "model_id": "iYY1101",
   "species_directory": "bradyrhizobium_diazoefficiens_iYY1101",
-  "start_time": "2025-06-08 20:01:33",
+  "start_time": "2025-06-09 16:35:19",
   "input_file": "Supplementary_file_-_S4.xml",
-  "input_file_original_name": "Supplementary_file_-_S4.xml",
   "output_file": "iYY1101_processed.xml",
-  "problems_detected": [
-    "30 metabolites reverted to original IDs due to duplicates",
-    "28 metabolites could not be converted to MetanetX IDs"
-  ],
+  "problems_detected": [],
   "warnings": [],
   "conversion_summary": {
-    "duplicate_ids_reverted": 30,
+    "model_id": "iYY1101",
     "total_metabolites": 537,
-    "successfully_converted": 509,
+    "successful_conversions": 509,
+    "metanetx_conversions": 507,
+    "unchanged_metabolites": 28,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
     "conversion_rate": 94.8,
-    "unconverted_metabolites": 28
+    "metanetx_rate": 94.4
   },
   "sbml_read_mode": "standard",
   "pattern_detected": "simple_bigg",
   "metabolites_total": 537,
-  "metabolites_standardized": 509,
-  "end_time": "2025-06-08 20:01:56",
-  "processing_time_seconds": 23.5127,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iYY1101",
+      "total_metabolites": 537,
+      "successful_conversions": 509,
+      "metanetx_conversions": 507,
+      "unchanged_metabolites": 28,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 94.8,
+      "metanetx_rate": 94.4
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bradyrhizobium_diazoefficiens_iYY1101/conversion_logs/iYY1101_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bradyrhizobium_diazoefficiens_iYY1101/conversion_logs/iYY1101_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:35:48",
+  "processing_time_seconds": 28.4959,
   "success": true
 }

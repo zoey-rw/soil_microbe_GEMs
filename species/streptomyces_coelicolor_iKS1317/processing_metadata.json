@@ -1,29 +1,42 @@
 {
   "model_id": "iKS1317",
   "species_directory": "streptomyces_coelicolor_iKS1317",
-  "start_time": "2025-06-08 20:07:39",
-  "input_file": "sco_original.xml",
-  "input_file_original_name": "sco_original.xml",
+  "start_time": "2025-06-09 16:43:00",
+  "input_file": "iKS1317_input.xml",
   "output_file": "iKS1317_processed.xml",
-  "problems_detected": [
-    "454 metabolites reverted to original IDs due to duplicates",
-    "203 metabolites could not be converted to MetanetX IDs"
-  ],
+  "problems_detected": [],
   "warnings": [],
   "conversion_summary": {
-    "deprecated_ids_replaced": 591,
-    "duplicate_ids_reverted": 454,
+    "model_id": "iKS1317",
     "total_metabolites": 2064,
-    "successfully_converted": 1861,
-    "conversion_rate": 90.2,
-    "unconverted_metabolites": 203
+    "successful_conversions": 1870,
+    "metanetx_conversions": 1870,
+    "unchanged_metabolites": 194,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 90.6,
+    "metanetx_rate": 90.6
   },
   "sbml_read_mode": "standard",
   "pattern_detected": "bigg_chebi_kegg_metanetx",
   "databases_found": ["metanetx", "bigg", "kegg", "chebi"],
   "metabolites_total": 2064,
-  "metabolites_standardized": 1861,
-  "end_time": "2025-06-08 20:08:18",
-  "processing_time_seconds": 39.2914,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iKS1317",
+      "total_metabolites": 2064,
+      "successful_conversions": 1870,
+      "metanetx_conversions": 1870,
+      "unchanged_metabolites": 194,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 90.6,
+      "metanetx_rate": 90.6
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/streptomyces_coelicolor_iKS1317/conversion_logs/iKS1317_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/streptomyces_coelicolor_iKS1317/conversion_logs/iKS1317_conversion_summary.json"
+  },
+  "end_time": "2025-06-09 16:43:44",
+  "processing_time_seconds": 44.1048,
   "success": true
 }

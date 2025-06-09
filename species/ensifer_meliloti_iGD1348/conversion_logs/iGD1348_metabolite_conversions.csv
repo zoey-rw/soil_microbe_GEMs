@@ -1,0 +1,1161 @@
+orig_met,without_compartment,new_met,new_met_out,compartment,conversion_successful,conversion_type,encoding_issues_fixed,database_sources
+cpd00001__91__c0__93__,cpd00001,MNXM2,MNXM2[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00001__91__e0__93__,cpd00001,MNXM2,MNXM2[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00002__91__c0__93__,cpd00002,MNXM3,MNXM3[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00003__91__c0__93__,cpd00003,MNXM8,MNXM8[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00004__91__c0__93__,cpd00004,MNXM10,MNXM10[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00005__91__c0__93__,cpd00005,MNXM738702,MNXM738702[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00006__91__c0__93__,cpd00006,MNXM5,MNXM5[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00007__91__c0__93__,cpd00007,MNXM735437,MNXM735437[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00007__91__e0__93__,cpd00007,MNXM735437,MNXM735437[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00008__91__c0__93__,cpd00008,MNXM40333,MNXM40333[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00009__91__c0__93__,cpd00009,MNXM9,MNXM9[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00009__91__e0__93__,cpd00009,MNXM9,MNXM9[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00010__91__c0__93__,cpd00010,MNXM727276,MNXM727276[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00011__91__c0__93__,cpd00011,MNXM13,MNXM13[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00011__91__e0__93__,cpd00011,MNXM13,MNXM13[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00012__91__c0__93__,cpd00012,MNXM11,MNXM11[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00012__91__e0__93__,cpd00012,MNXM11,MNXM11[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00013__91__c0__93__,cpd00013,MNXM729302,MNXM729302[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00013__91__e0__93__,cpd00013,MNXM729302,MNXM729302[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00014__91__c0__93__,cpd00014,MNXM17,MNXM17[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00015__91__c0__93__,cpd00015,MNXM33,MNXM33[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00016__91__c0__93__,cpd00016,MNXM161,MNXM161[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00017__91__c0__93__,cpd00017,MNXM16,MNXM16[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00018__91__c0__93__,cpd00018,MNXM728294,MNXM728294[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00019__91__c0__93__,cpd00019,MNXM19,MNXM19[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00020__91__c0__93__,cpd00020,MNXM23,MNXM23[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00020__91__e0__93__,cpd00020,MNXM23,MNXM23[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00022__91__c0__93__,cpd00022,MNXM21,MNXM21[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00023__91__c0__93__,cpd00023,MNXM741172,MNXM741172[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00023__91__e0__93__,cpd00023,MNXM741172,MNXM741172[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00024__91__c0__93__,cpd00024,MNXM1369648,MNXM1369648[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00025__91__c0__93__,cpd00025,MNXM732619,MNXM732619[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00026__91__c0__93__,cpd00026,MNXM52,MNXM52[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00027__91__c0__93__,cpd00027,MNXM735623,MNXM735623[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00027__91__e0__93__,cpd00027,MNXM735623,MNXM735623[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00028__91__c0__93__,cpd00028,MNXM526203,MNXM526203[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00029__91__c0__93__,cpd00029,MNXM26,MNXM26[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00029__91__e0__93__,cpd00029,MNXM26,MNXM26[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00030__91__c0__93__,cpd00030,MNXM2255,MNXM2255[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00030__91__e0__93__,cpd00030,MNXM2255,MNXM2255[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00031__91__c0__93__,cpd00031,MNXM30,MNXM30[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00032__91__c0__93__,cpd00032,MNXM46,MNXM46[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00033__91__c0__93__,cpd00033,MNXM29,MNXM29[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00033__91__e0__93__,cpd00033,MNXM29,MNXM29[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00034__91__c0__93__,cpd00034,MNXM729214,MNXM729214[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00034__91__e0__93__,cpd00034,MNXM729214,MNXM729214[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00035__91__c0__93__,cpd00035,MNXM733981,MNXM733981[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00035__91__e0__93__,cpd00035,MNXM733981,MNXM733981[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00036__91__c0__93__,cpd00036,MNXM25,MNXM25[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00036__91__e0__93__,cpd00036,MNXM25,MNXM25[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00037__91__c0__93__,cpd00037,MNXM736709,MNXM736709[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00038__91__c0__93__,cpd00038,MNXM51,MNXM51[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00039__91__c0__93__,cpd00039,MNXM1104802,MNXM1104802[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00039__91__e0__93__,cpd00039,MNXM1104802,MNXM1104802[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00040__91__c0__93__,cpd00040,MNXM69,MNXM69[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00041__91__c0__93__,cpd00041,MNXM735837,MNXM735837[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00041__91__e0__93__,cpd00041,MNXM735837,MNXM735837[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00042__91__c0__93__,cpd00042,MNXM738320,MNXM738320[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00043__91__c0__93__,cpd00043,MNXM722709,MNXM722709[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00044b__91__c0__93__,cpd00044b,cpd00044b,cpd00044b[c],c,FALSE,Unchanged,TRUE,None
+cpd00045__91__c0__93__,cpd00045,MNXM45,MNXM45[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00046__91__c0__93__,cpd00046,MNXM31,MNXM31[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00047__91__c0__93__,cpd00047,MNXM39,MNXM39[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00047__91__e0__93__,cpd00047,MNXM39,MNXM39[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00048__91__c0__93__,cpd00048,MNXM58,MNXM58[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00048__91__e0__93__,cpd00048,MNXM58,MNXM58[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00050__91__c0__93__,cpd00050,MNXM727218,MNXM727218[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00051__91__c0__93__,cpd00051,MNXM739526,MNXM739526[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00051__91__e0__93__,cpd00051,MNXM739526,MNXM739526[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00052__91__c0__93__,cpd00052,MNXM63,MNXM63[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00053__91__c0__93__,cpd00053,MNXM37,MNXM37[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00053__91__e0__93__,cpd00053,MNXM37,MNXM37[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00054__91__c0__93__,cpd00054,MNXM737786,MNXM737786[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00054__91__e0__93__,cpd00054,MNXM737786,MNXM737786[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00055__91__c0__93__,cpd00055,MNXM56,MNXM56[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00056__91__c0__93__,cpd00056,MNXM256,MNXM256[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00058__91__c0__93__,cpd00058,MNXM632,MNXM632[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00058__91__e0__93__,cpd00058,MNXM632,MNXM632[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00060__91__c0__93__,cpd00060,MNXM738803,MNXM738803[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00060__91__e0__93__,cpd00060,MNXM738803,MNXM738803[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00061__91__c0__93__,cpd00061,MNXM73,MNXM73[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00062__91__c0__93__,cpd00062,MNXM121,MNXM121[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00063__91__c0__93__,cpd00063,MNXM128,MNXM128[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00063__91__e0__93__,cpd00063,MNXM128,MNXM128[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00064__91__c0__93__,cpd00064,MNXM741174,MNXM741174[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00064__91__e0__93__,cpd00064,MNXM741174,MNXM741174[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00065__91__c0__93__,cpd00065,MNXM94,MNXM94[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00066__91__c0__93__,cpd00066,MNXM741663,MNXM741663[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00066__91__e0__93__,cpd00066,MNXM741663,MNXM741663[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00067__91__c0__93__,cpd00067,MNXM1,MNXM1[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00067__91__e0__93__,cpd00067,MNXM1,MNXM1[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00069__91__c0__93__,cpd00069,MNXM76,MNXM76[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00069__91__e0__93__,cpd00069,MNXM76,MNXM76[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00070__91__c0__93__,cpd00070,MNXM40,MNXM40[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00071__91__c0__93__,cpd00071,MNXM75,MNXM75[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00072__91__c0__93__,cpd00072,MNXM155029,MNXM155029[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00073__91__c0__93__,cpd00073,MNXM117,MNXM117[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00073__91__e0__93__,cpd00073,MNXM117,MNXM117[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00074__91__c0__93__,cpd00074,MNXM89,MNXM89[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00075__91__c0__93__,cpd00075,MNXM107,MNXM107[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00075__91__e0__93__,cpd00075,MNXM107,MNXM107[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00076__91__c0__93__,cpd00076,MNXM167,MNXM167[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00076__91__e0__93__,cpd00076,MNXM167,MNXM167[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00078__91__c0__93__,cpd00078,MNXM92,MNXM92[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00079__91__c0__93__,cpd00079,MNXM160,MNXM160[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00080__91__c0__93__,cpd00080,MNXM66,MNXM66[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00080__91__e0__93__,cpd00080,MNXM66,MNXM66[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00081__91__c0__93__,cpd00081,MNXM726339,MNXM726339[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00082__91__c0__93__,cpd00082,MNXM1380,MNXM1380[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00082__91__e0__93__,cpd00082,MNXM1380,MNXM1380[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00082b__91__c0__93__,cpd00082b,cpd00082b,cpd00082b[c],c,FALSE,Unchanged,TRUE,None
+cpd00083__91__c0__93__,cpd00083,MNXM82,MNXM82[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00084__91__c0__93__,cpd00084,MNXM738067,MNXM738067[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00084__91__e0__93__,cpd00084,MNXM738067,MNXM738067[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00085__91__c0__93__,cpd00085,MNXM144,MNXM144[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00086__91__c0__93__,cpd00086,MNXM86,MNXM86[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00087__91__c0__93__,cpd00087,MNXM89609,MNXM89609[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00089__91__c0__93__,cpd00089,MNXM89588,MNXM89588[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00091__91__c0__93__,cpd00091,MNXM80,MNXM80[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00092__91__c0__93__,cpd00092,MNXM1369194,MNXM1369194[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00092__91__e0__93__,cpd00092,MNXM1369194,MNXM1369194[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00093__91__c0__93__,cpd00093,MNXM188,MNXM188[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00094__91__c0__93__,cpd00094,MNXM159,MNXM159[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00095__91__c0__93__,cpd00095,MNXM77,MNXM77[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00096__91__c0__93__,cpd00096,MNXM220,MNXM220[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00098__91__c0__93__,cpd00098,MNXM90,MNXM90[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00098__91__e0__93__,cpd00098,MNXM90,MNXM90[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00100__91__c0__93__,cpd00100,MNXM89612,MNXM89612[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00100__91__e0__93__,cpd00100,MNXM89612,MNXM89612[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00101__91__c0__93__,cpd00101,MNXM116,MNXM116[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00102__91__c0__93__,cpd00102,MNXM74,MNXM74[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00103__91__c0__93__,cpd00103,MNXM91,MNXM91[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00104__91__c0__93__,cpd00104,MNXM304,MNXM304[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00104__91__e0__93__,cpd00104,MNXM304,MNXM304[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00105__91__c0__93__,cpd00105,MNXM732914,MNXM732914[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00105__91__e0__93__,cpd00105,MNXM732914,MNXM732914[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00106__91__c0__93__,cpd00106,MNXM93,MNXM93[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00106__91__e0__93__,cpd00106,MNXM93,MNXM93[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00107__91__c0__93__,cpd00107,MNXM1106760,MNXM1106760[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00107__91__e0__93__,cpd00107,MNXM1106760,MNXM1106760[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00108__91__c0__93__,cpd00108,MNXM735266,MNXM735266[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00108__91__e0__93__,cpd00108,MNXM735266,MNXM735266[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00109__91__c0__93__,cpd00109,MNXM5749,MNXM5749[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00110__91__c0__93__,cpd00110,MNXM746,MNXM746[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00111__91__c0__93__,cpd00111,MNXM151,MNXM151[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00113__91__c0__93__,cpd00113,MNXM83,MNXM83[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00114__91__c0__93__,cpd00114,MNXM125,MNXM125[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00115__91__c0__93__,cpd00115,MNXM286,MNXM286[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00116__91__c0__93__,cpd00116,MNXM729799,MNXM729799[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00117__91__c0__93__,cpd00117,MNXM156,MNXM156[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00117__91__e0__93__,cpd00117,MNXM156,MNXM156[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00118__91__c0__93__,cpd00118,MNXM118,MNXM118[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00118__91__e0__93__,cpd00118,MNXM118,MNXM118[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00119__91__c0__93__,cpd00119,MNXM134,MNXM134[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00119__91__e0__93__,cpd00119,MNXM134,MNXM134[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00120__91__c0__93__,cpd00120,MNXM233,MNXM233[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00121__91__c0__93__,cpd00121,MNXM727692,MNXM727692[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00121__91__e0__93__,cpd00121,MNXM727692,MNXM727692[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00122__91__c0__93__,cpd00122,MNXM728393,MNXM728393[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00122__91__e0__93__,cpd00122,MNXM728393,MNXM728393[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00123__91__c0__93__,cpd00123,MNXM732866,MNXM732866[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00125__91__c0__93__,cpd00125,MNXM722725,MNXM722725[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00125b__91__c0__93__,cpd00125b,cpd00125b,cpd00125b[c],c,FALSE,Unchanged,TRUE,None
+cpd00126__91__c0__93__,cpd00126,MNXM113,MNXM113[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00128__91__c0__93__,cpd00128,MNXM168,MNXM168[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00128__91__e0__93__,cpd00128,MNXM168,MNXM168[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00129__91__c0__93__,cpd00129,MNXM114,MNXM114[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00129__91__e0__93__,cpd00129,MNXM114,MNXM114[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00130__91__c0__93__,cpd00130,MNXM98,MNXM98[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00130__91__e0__93__,cpd00130,MNXM98,MNXM98[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00132__91__c0__93__,cpd00132,MNXM147,MNXM147[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00132__91__e0__93__,cpd00132,MNXM147,MNXM147[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00134__91__c0__93__,cpd00134,MNXM88,MNXM88[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00135__91__c0__93__,cpd00135,MNXM123,MNXM123[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00136__91__c0__93__,cpd00136,MNXM164,MNXM164[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00137__91__c0__93__,cpd00137,MNXM131,MNXM131[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00137__91__e0__93__,cpd00137,MNXM131,MNXM131[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00138__91__c0__93__,cpd00138,MNXM182,MNXM182[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00138__91__e0__93__,cpd00138,MNXM182,MNXM182[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00139__91__c0__93__,cpd00139,MNXM222,MNXM222[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00141__91__c0__93__,cpd00141,MNXM1094052,MNXM1094052[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00142__91__c0__93__,cpd00142,MNXM729594,MNXM729594[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00142__91__e0__93__,cpd00142,MNXM729594,MNXM729594[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00143__91__c0__93__,cpd00143,MNXM589160,MNXM589160[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00144__91__c0__93__,cpd00144,MNXM87,MNXM87[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00145__91__c0__93__,cpd00145,MNXM392,MNXM392[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00146__91__c0__93__,cpd00146,MNXM138,MNXM138[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00147__91__c0__93__,cpd00147,MNXM150,MNXM150[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00147__91__e0__93__,cpd00147,MNXM150,MNXM150[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00149__91__c0__93__,cpd00149,MNXM90960,MNXM90960[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00149__91__e0__93__,cpd00149,MNXM90960,MNXM90960[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00151__91__c0__93__,cpd00151,MNXM1370229,MNXM1370229[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00151__91__e0__93__,cpd00151,MNXM1370229,MNXM1370229[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00152__91__c0__93__,cpd00152,MNXM328,MNXM328[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00152__91__e0__93__,cpd00152,MNXM328,MNXM328[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00154__91__c0__93__,cpd00154,MNXM113989,MNXM113989[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00154__91__e0__93__,cpd00154,MNXM113989,MNXM113989[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00155__91__c0__93__,cpd00155,MNXM738128,MNXM738128[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00155__91__e0__93__,cpd00155,MNXM738128,MNXM738128[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00156__91__c0__93__,cpd00156,MNXM199,MNXM199[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00156__91__e0__93__,cpd00156,MNXM199,MNXM199[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00157__91__c0__93__,cpd00157,MNXM460,MNXM460[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00158__91__c0__93__,cpd00158,MNXM722749,MNXM722749[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00158__91__e0__93__,cpd00158,MNXM722749,MNXM722749[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00159__91__c0__93__,cpd00159,MNXM179,MNXM179[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00159__91__e0__93__,cpd00159,MNXM179,MNXM179[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00161__91__c0__93__,cpd00161,MNXM142,MNXM142[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00161__91__e0__93__,cpd00161,MNXM142,MNXM142[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00163__91__c0__93__,cpd00163,MNXM733447,MNXM733447[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00166__91__c0__93__,cpd00166,MNXM489,MNXM489[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00169__91__c0__93__,cpd00169,MNXM162261,MNXM162261[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00171__91__c0__93__,cpd00171,MNXM145,MNXM145[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00176__91__c0__93__,cpd00176,MNXM440,MNXM440[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00177__91__c0__93__,cpd00177,MNXM735047,MNXM735047[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00179__91__c0__93__,cpd00179,MNXM165,MNXM165[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00179__91__e0__93__,cpd00179,MNXM165,MNXM165[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00182__91__c0__93__,cpd00182,MNXM212,MNXM212[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00182__91__e0__93__,cpd00182,MNXM212,MNXM212[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00184__91__c0__93__,cpd00184,MNXM420,MNXM420[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00184__91__e0__93__,cpd00184,MNXM420,MNXM420[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00186__91__c0__93__,cpd00186,MNXM331,MNXM331[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00186__91__e0__93__,cpd00186,MNXM331,MNXM331[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00187__91__c0__93__,cpd00187,MNXM255,MNXM255[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00187__91__e0__93__,cpd00187,MNXM255,MNXM255[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00191__91__c0__93__,cpd00191,MNXM1369747,MNXM1369747[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00193__91__c0__93__,cpd00193,MNXM287,MNXM287[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00193b__91__c0__93__,cpd00193b,cpd00193b,cpd00193b[c],c,FALSE,Unchanged,TRUE,None
+cpd00196__91__c0__93__,cpd00196,MNXM280,MNXM280[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00197__91__c0__93__,cpd00197,MNXM204,MNXM204[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00197__91__e0__93__,cpd00197,MNXM204,MNXM204[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00198__91__c0__93__,cpd00198,MNXM186,MNXM186[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00199__91__c0__93__,cpd00199,MNXM172,MNXM172[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00200__91__c0__93__,cpd00200,MNXM404,MNXM404[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00201__91__c0__93__,cpd00201,MNXM237,MNXM237[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00202__91__c0__93__,cpd00202,MNXM132,MNXM132[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00203__91__c0__93__,cpd00203,MNXM733153,MNXM733153[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00204__91__c0__93__,cpd00204,MNXM726637,MNXM726637[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00204__91__e0__93__,cpd00204,MNXM726637,MNXM726637[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00205__91__c0__93__,cpd00205,MNXM95,MNXM95[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00205__91__e0__93__,cpd00205,MNXM95,MNXM95[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00207__91__c0__93__,cpd00207,MNXM733114,MNXM733114[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00207__91__e0__93__,cpd00207,MNXM733114,MNXM733114[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00208__91__c0__93__,cpd00208,MNXM734837,MNXM734837[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00208__91__e0__93__,cpd00208,MNXM734837,MNXM734837[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00209__91__c0__93__,cpd00209,MNXM732398,MNXM732398[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00209__91__e0__93__,cpd00209,MNXM732398,MNXM732398[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00213__91__c0__93__,cpd00213,MNXM1024,MNXM1024[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00214__91__c0__93__,cpd00214,MNXM108,MNXM108[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00216__91__c0__93__,cpd00216,MNXM337,MNXM337[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00218__91__c0__93__,cpd00218,MNXM274,MNXM274[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00219__91__c0__93__,cpd00219,MNXM737312,MNXM737312[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00220__91__c0__93__,cpd00220,MNXM270,MNXM270[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00221__91__c0__93__,cpd00221,MNXM285,MNXM285[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00222__91__c0__93__,cpd00222,MNXM341,MNXM341[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00222__91__e0__93__,cpd00222,MNXM341,MNXM341[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00223__91__c0__93__,cpd00223,MNXM40615,MNXM40615[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00224__91__c0__93__,cpd00224,MNXM1370556,MNXM1370556[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00224__91__e0__93__,cpd00224,MNXM1370556,MNXM1370556[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00226__91__c0__93__,cpd00226,MNXM732487,MNXM732487[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00226__91__e0__93__,cpd00226,MNXM732487,MNXM732487[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00227__91__c0__93__,cpd00227,MNXM353,MNXM353[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00227__91__e0__93__,cpd00227,MNXM353,MNXM353[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00229__91__c0__93__,cpd00229,MNXM734589,MNXM734589[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00235__91__c0__93__,cpd00235,MNXM40579,MNXM40579[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00236__91__c0__93__,cpd00236,MNXM258,MNXM258[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00238__91__c0__93__,cpd00238,MNXM733314,MNXM733314[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00239__91__c0__93__,cpd00239,MNXM89582,MNXM89582[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00241__91__c0__93__,cpd00241,MNXM344,MNXM344[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00242__91__c0__93__,cpd00242,MNXM1094693,MNXM1094693[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00242__91__e0__93__,cpd00242,MNXM1094693,MNXM1094693[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00246__91__c0__93__,cpd00246,MNXM334,MNXM334[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00246__91__e0__93__,cpd00246,MNXM334,MNXM334[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00247__91__c0__93__,cpd00247,MNXM235,MNXM235[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00249__91__c0__93__,cpd00249,MNXM288,MNXM288[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00249__91__e0__93__,cpd00249,MNXM288,MNXM288[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00254__91__c0__93__,cpd00254,MNXM653,MNXM653[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00254__91__e0__93__,cpd00254,MNXM653,MNXM653[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00258__91__c0__93__,cpd00258,MNXM735691,MNXM735691[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00259__91__c0__93__,cpd00259,MNXM597,MNXM597[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00260__91__c0__93__,cpd00260,MNXM89661,MNXM89661[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00263__91__c0__93__,cpd00263,MNXM419,MNXM419[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00264__91__c0__93__,cpd00264,MNXM124,MNXM124[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00264__91__e0__93__,cpd00264,MNXM124,MNXM124[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00274__91__c0__93__,cpd00274,MNXM722752,MNXM722752[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00274__91__e0__93__,cpd00274,MNXM722752,MNXM722752[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00276__91__c0__93__,cpd00276,MNXM533,MNXM533[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00276__91__e0__93__,cpd00276,MNXM533,MNXM533[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00277__91__c0__93__,cpd00277,MNXM647,MNXM647[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00279__91__c0__93__,cpd00279,MNXM133,MNXM133[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00281__91__c0__93__,cpd00281,MNXM192,MNXM192[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00281__91__e0__93__,cpd00281,MNXM192,MNXM192[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00282__91__c0__93__,cpd00282,MNXM252,MNXM252[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00283__91__c0__93__,cpd00283,MNXM100,MNXM100[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00284__91__c0__93__,cpd00284,MNXM734080,MNXM734080[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00286__91__c0__93__,cpd00286,MNXM733031,MNXM733031[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00287__91__c0__93__,cpd00287,MNXM305,MNXM305[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00288__91__c0__93__,cpd00288,MNXM370,MNXM370[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00289__91__c0__93__,cpd00289,MNXM728266,MNXM728266[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00290__91__c0__93__,cpd00290,MNXM417,MNXM417[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00292__91__c0__93__,cpd00292,MNXM197,MNXM197[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00293__91__c0__93__,cpd00293,MNXM63556,MNXM63556[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00294__91__c0__93__,cpd00294,MNXM432,MNXM432[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00295__91__c0__93__,cpd00295,MNXM436,MNXM436[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00296__91__c0__93__,cpd00296,MNXM546,MNXM546[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00297__91__c0__93__,cpd00297,MNXM152,MNXM152[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00298__91__c0__93__,cpd00298,MNXM257,MNXM257[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00299__91__c0__93__,cpd00299,MNXM234,MNXM234[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00300__91__c0__93__,cpd00300,MNXM441,MNXM441[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00300__91__e0__93__,cpd00300,MNXM441,MNXM441[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00305__91__c0__93__,cpd00305,MNXM730135,MNXM730135[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00305__91__e0__93__,cpd00305,MNXM730135,MNXM730135[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00307__91__c0__93__,cpd00307,MNXM761,MNXM761[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00307__91__e0__93__,cpd00307,MNXM761,MNXM761[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00308__91__c0__93__,cpd00308,MNXM477,MNXM477[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00308__91__e0__93__,cpd00308,MNXM477,MNXM477[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00309__91__c0__93__,cpd00309,MNXM174,MNXM174[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00309__91__e0__93__,cpd00309,MNXM174,MNXM174[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00311__91__c0__93__,cpd00311,MNXM401,MNXM401[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00311__91__e0__93__,cpd00311,MNXM401,MNXM401[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00314__91__c0__93__,cpd00314,MNXM615,MNXM615[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00314__91__e0__93__,cpd00314,MNXM615,MNXM615[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00322__91__c0__93__,cpd00322,MNXM231,MNXM231[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00322__91__e0__93__,cpd00322,MNXM231,MNXM231[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00330__91__c0__93__,cpd00330,MNXM281,MNXM281[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00331__91__c0__93__,cpd00331,MNXM1092518,MNXM1092518[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00334__91__c0__93__,cpd00334,MNXM732880,MNXM732880[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00337__91__c0__93__,cpd00337,MNXM506,MNXM506[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00338__91__c0__93__,cpd00338,MNXM405,MNXM405[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00340__91__c0__93__,cpd00340,MNXM770,MNXM770[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00342__91__c0__93__,cpd00342,MNXM817,MNXM817[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00343__91__c0__93__,cpd00343,MNXM465,MNXM465[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00344__91__c0__93__,cpd00344,MNXM90092,MNXM90092[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00345__91__c0__93__,cpd00345,MNXM733947,MNXM733947[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00346__91__c0__93__,cpd00346,MNXM361,MNXM361[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00347__91__c0__93__,cpd00347,MNXM511,MNXM511[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00347b__91__c0__93__,cpd00347b,cpd00347b,cpd00347b[c],c,FALSE,Unchanged,TRUE,None
+cpd00349__91__c0__93__,cpd00349,MNXM1294,MNXM1294[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00350__91__c0__93__,cpd00350,MNXM34,MNXM34[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00356__91__c0__93__,cpd00356,MNXM360,MNXM360[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00357__91__c0__93__,cpd00357,MNXM88255,MNXM88255[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00358__91__c0__93__,cpd00358,MNXM452,MNXM452[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00366__91__c0__93__,cpd00366,MNXM1820,MNXM1820[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00366__91__e0__93__,cpd00366,MNXM1820,MNXM1820[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00367__91__c0__93__,cpd00367,MNXM338,MNXM338[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00367__91__e0__93__,cpd00367,MNXM338,MNXM338[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00378__91__c0__93__,cpd00378,MNXM1231,MNXM1231[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00378__91__e0__93__,cpd00378,MNXM1231,MNXM1231[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00382__91__c0__93__,cpd00382,MNXM621,MNXM621[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00382__91__e0__93__,cpd00382,MNXM621,MNXM621[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00383__91__c0__93__,cpd00383,MNXM602,MNXM602[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00386__91__c0__93__,cpd00386,MNXM1608,MNXM1608[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00386__91__e0__93__,cpd00386,MNXM1608,MNXM1608[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00387__91__c0__93__,cpd00387,MNXM561,MNXM561[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00388__91__c0__93__,cpd00388,MNXM584,MNXM584[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00392__91__c0__93__,cpd00392,MNXM734799,MNXM734799[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00392__91__e0__93__,cpd00392,MNXM734799,MNXM734799[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00393__91__c0__93__,cpd00393,MNXM617,MNXM617[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00396__91__c0__93__,cpd00396,MNXM1151,MNXM1151[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00396__91__e0__93__,cpd00396,MNXM1151,MNXM1151[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00408__91__c0__93__,cpd00408,MNXM593,MNXM593[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00412__91__c0__93__,cpd00412,MNXM492,MNXM492[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00415__91__c0__93__,cpd00415,MNXM376,MNXM376[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00417__91__c0__93__,cpd00417,MNXM740330,MNXM740330[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00417__91__e0__93__,cpd00417,MNXM740330,MNXM740330[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00418__91__c0__93__,cpd00418,MNXM730229,MNXM730229[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00418__91__e0__93__,cpd00418,MNXM730229,MNXM730229[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00421__91__c0__93__,cpd00421,MNXM332,MNXM332[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00425__91__c0__93__,cpd00425,MNXM796,MNXM796[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00426__91__c0__93__,cpd00426,MNXM345,MNXM345[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00427__91__c0__93__,cpd00427,MNXM1836,MNXM1836[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00428__91__c0__93__,cpd00428,MNXM310,MNXM310[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00438__91__c0__93__,cpd00438,MNXM625,MNXM625[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00441__91__c0__93__,cpd00441,MNXM1094294,MNXM1094294[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00441__91__e0__93__,cpd00441,MNXM1094294,MNXM1094294[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00443__91__c0__93__,cpd00443,MNXM421,MNXM421[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00447__91__c0__93__,cpd00447,MNXM457,MNXM457[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00448__91__c0__93__,cpd00448,MNXM435,MNXM435[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00449a__91__c0__93__,cpd00449a,cpd00449a,cpd00449a[c],c,FALSE,Unchanged,TRUE,None
+cpd00449b__91__c0__93__,cpd00449b,cpd00449b,cpd00449b[c],c,FALSE,Unchanged,TRUE,None
+cpd00449c__91__c0__93__,cpd00449c,cpd00449c,cpd00449c[c],c,FALSE,Unchanged,TRUE,None
+cpd00457__91__c0__93__,cpd00457,MNXM229,MNXM229[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00465__91__c0__93__,cpd00465,MNXM722784,MNXM722784[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00472__91__c0__93__,cpd00472,MNXM1092,MNXM1092[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00475__91__c0__93__,cpd00475,MNXM295,MNXM295[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00477__91__c0__93__,cpd00477,MNXM730,MNXM730[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00478__91__c0__93__,cpd00478,MNXM454,MNXM454[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00481__91__c0__93__,cpd00481,MNXM470,MNXM470[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00482__91__c0__93__,cpd00482,MNXM275,MNXM275[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00485__91__c0__93__,cpd00485,MNXM836,MNXM836[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00497__91__c0__93__,cpd00497,MNXM733647,MNXM733647[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00498__91__c0__93__,cpd00498,MNXM163143,MNXM163143[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00504__91__c0__93__,cpd00504,MNXM644,MNXM644[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00506__91__c0__93__,cpd00506,MNXM54306,MNXM54306[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00508__91__c0__93__,cpd00508,MNXM439,MNXM439[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00509__91__c0__93__,cpd00509,MNXM1063,MNXM1063[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00510__91__c0__93__,cpd00510,MNXM35009,MNXM35009[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00516__91__c0__93__,cpd00516,MNXM529,MNXM529[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00519__91__c0__93__,cpd00519,MNXM89955,MNXM89955[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00520__91__c0__93__,cpd00520,MNXM727325,MNXM727325[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00521__91__c0__93__,cpd00521,MNXM451,MNXM451[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00522__91__c0__93__,cpd00522,MNXM2371,MNXM2371[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00523__91__c0__93__,cpd00523,MNXM448,MNXM448[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00524__91__c0__93__,cpd00524,MNXM676,MNXM676[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00525__91__c0__93__,cpd00525,MNXM722734,MNXM722734[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00528__91__c0__93__,cpd00528,MNXM739757,MNXM739757[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00528__91__e0__93__,cpd00528,MNXM739757,MNXM739757[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00533__91__c0__93__,cpd00533,MNXM411,MNXM411[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00540__91__c0__93__,cpd00540,MNXM289,MNXM289[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00540__91__e0__93__,cpd00540,MNXM289,MNXM289[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00567__91__c0__93__,cpd00567,MNXM162989,MNXM162989[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00567__91__e0__93__,cpd00567,MNXM162989,MNXM162989[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00573__91__c0__93__,cpd00573,MNXM1565,MNXM1565[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00581__91__c0__93__,cpd00581,MNXM700,MNXM700[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00588__91__c0__93__,cpd00588,MNXM736685,MNXM736685[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00588__91__e0__93__,cpd00588,MNXM736685,MNXM736685[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00589__91__c0__93__,cpd00589,MNXM92401,MNXM92401[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00589__91__e0__93__,cpd00589,MNXM92401,MNXM92401[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00596__91__c0__93__,cpd00596,MNXM1088,MNXM1088[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00605__91__c0__93__,cpd00605,MNXM1540,MNXM1540[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00616__91__c0__93__,cpd00616,MNXM696,MNXM696[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00626__91__c0__93__,cpd00626,MNXM728217,MNXM728217[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00630__91__c0__93__,cpd00630,MNXM716,MNXM716[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00638__91__c0__93__,cpd00638,MNXM309,MNXM309[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00641__91__c0__93__,cpd00641,MNXM1281,MNXM1281[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00644__91__c0__93__,cpd00644,MNXM364,MNXM364[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00650__91__c0__93__,cpd00650,MNXM732506,MNXM732506[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00653__91__c0__93__,cpd00653,MNXM1734,MNXM1734[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00655__91__c0__93__,cpd00655,MNXM481,MNXM481[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00659__91__e0__93__,cpd00659,MNXM738430,MNXM738430[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00668__91__c0__93__,cpd00668,MNXM426,MNXM426[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00673__91__c0__93__,cpd00673,MNXM1373476,MNXM1373476[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00683__91__c0__93__,cpd00683,MNXM722728,MNXM722728[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00689__91__c0__93__,cpd00689,MNXM554,MNXM554[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00699__91__c0__93__,cpd00699,MNXM736874,MNXM736874[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00712__91__c0__93__,cpd00712,MNXM959,MNXM959[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00722__91__c0__93__,cpd00722,MNXM418,MNXM418[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00726__91__c0__93__,cpd00726,MNXM350,MNXM350[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00731__91__c0__93__,cpd00731,MNXM739337,MNXM739337[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00738__91__c0__93__,cpd00738,MNXM1107213,MNXM1107213[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00751__91__c0__93__,cpd00751,MNXM659,MNXM659[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00751__91__e0__93__,cpd00751,MNXM659,MNXM659[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00755__91__c0__93__,cpd00755,MNXM547,MNXM547[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00759__91__c0__93__,cpd00759,MNXM741595,MNXM741595[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00760__91__c0__93__,cpd00760,MNXM569,MNXM569[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00763__91__c0__93__,cpd00763,MNXM739481,MNXM739481[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00771__91__c0__93__,cpd00771,MNXM2141,MNXM2141[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00773__91__c0__93__,cpd00773,MNXM722797,MNXM722797[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00774__91__c0__93__,cpd00774,MNXM414,MNXM414[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00780__91__c0__93__,cpd00780,MNXM708,MNXM708[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00781__91__c0__93__,cpd00781,MNXM963,MNXM963[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00791__91__c0__93__,cpd00791,MNXM351,MNXM351[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00793__91__c0__93__,cpd00793,MNXM662,MNXM662[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00794__91__c0__93__,cpd00794,MNXM732202,MNXM732202[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00794__91__e0__93__,cpd00794,MNXM732202,MNXM732202[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00797__91__c0__93__,cpd00797,MNXM663,MNXM663[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00797__91__e0__93__,cpd00797,MNXM663,MNXM663[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00805__91__c0__93__,cpd00805,MNXM795,MNXM795[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00807__91__c0__93__,cpd00807,MNXM1482,MNXM1482[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00809__91__c0__93__,cpd00809,MNXM1334,MNXM1334[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00810__91__c0__93__,cpd00810,MNXM519,MNXM519[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00811__91__c0__93__,cpd00811,MNXM736072,MNXM736072[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00817__91__c0__93__,cpd00817,MNXM1184,MNXM1184[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00819__91__c0__93__,cpd00819,MNXM1674,MNXM1674[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00822__91__c0__93__,cpd00822,MNXM820,MNXM820[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00831__91__c0__93__,cpd00831,MNXM1675,MNXM1675[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00832__91__c0__93__,cpd00832,MNXM395,MNXM395[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00832__91__e0__93__,cpd00832,MNXM395,MNXM395[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00834__91__c0__93__,cpd00834,MNXM75169,MNXM75169[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00836__91__c0__93__,cpd00836,MNXM4815,MNXM4815[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00842__91__c0__93__,cpd00842,MNXM446,MNXM446[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00843__91__c0__93__,cpd00843,MNXM475,MNXM475[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00851__91__c0__93__,cpd00851,MNXM87584,MNXM87584[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00851__91__e0__93__,cpd00851,MNXM87584,MNXM87584[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00856__91__c0__93__,cpd00856,MNXM1134,MNXM1134[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00858__91__c0__93__,cpd00858,MNXM1093051,MNXM1093051[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00860__91__c0__93__,cpd00860,MNXM735015,MNXM735015[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00863__91__c0__93__,cpd00863,MNXM1103551,MNXM1103551[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00867__91__c0__93__,cpd00867,MNXM646,MNXM646[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00868__91__c0__93__,cpd00868,MNXM153,MNXM153[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00871__91__c0__93__,cpd00871,MNXM1106709,MNXM1106709[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00873__91__c0__93__,cpd00873,MNXM732154,MNXM732154[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00875__91__c0__93__,cpd00875,MNXM989,MNXM989[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00876__91__c0__93__,cpd00876,MNXM396,MNXM396[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00890__91__c0__93__,cpd00890,MNXM722770,MNXM722770[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00891__91__c0__93__,cpd00891,MNXM738783,MNXM738783[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00894__91__c0__93__,cpd00894,MNXM1369404,MNXM1369404[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00911__91__c0__93__,cpd00911,MNXM735972,MNXM735972[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00918__91__c0__93__,cpd00918,MNXM1062,MNXM1062[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00919__91__c0__93__,cpd00919,MNXM722779,MNXM722779[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00919__91__e0__93__,cpd00919,MNXM722779,MNXM722779[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00930__91__c0__93__,cpd00930,MNXM1456,MNXM1456[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00931__91__c0__93__,cpd00931,MNXM1368993,MNXM1368993[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00932__91__c0__93__,cpd00932,MNXM1365,MNXM1365[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00938__91__c0__93__,cpd00938,MNXM1521,MNXM1521[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00939__91__c0__93__,cpd00939,MNXM874,MNXM874[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00945__91__c0__93__,cpd00945,MNXM90136,MNXM90136[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00954__91__c0__93__,cpd00954,MNXM937,MNXM937[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00956__91__c0__93__,cpd00956,MNXM1455,MNXM1455[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00957__91__c0__93__,cpd00957,MNXM90905,MNXM90905[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00971__91__c0__93__,cpd00971,MNXM27,MNXM27[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00971__91__e0__93__,cpd00971,MNXM27,MNXM27[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00978__91__c0__93__,cpd00978,MNXM572,MNXM572[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd00982__91__c0__93__,cpd00982,MNXM38,MNXM38[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01012__91__c0__93__,cpd01012,MNXM4505,MNXM4505[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01012__91__e0__93__,cpd01012,MNXM4505,MNXM4505[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01017__91__c0__93__,cpd01017,MNXM683,MNXM683[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01017__91__e0__93__,cpd01017,MNXM683,MNXM683[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01030__91__c0__93__,cpd01030,MNXM2561,MNXM2561[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01030__91__e0__93__,cpd01030,MNXM2561,MNXM2561[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01078__91__c0__93__,cpd01078,MNXM741485,MNXM741485[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01078__91__e0__93__,cpd01078,MNXM741485,MNXM741485[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01092__91__c0__93__,cpd01092,MNXM738834,MNXM738834[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01092__91__e0__93__,cpd01092,MNXM738834,MNXM738834[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01107__91__c0__93__,cpd01107,MNXM1043,MNXM1043[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01133__91__c0__93__,cpd01133,MNXM729340,MNXM729340[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01133__91__e0__93__,cpd01133,MNXM729340,MNXM729340[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01155__91__c0__93__,cpd01155,MNXM943,MNXM943[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01185__91__c0__93__,cpd01185,MNXM736561,MNXM736561[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01192__91__c0__93__,cpd01192,MNXM722992,MNXM722992[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01192__91__e0__93__,cpd01192,MNXM722992,MNXM722992[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01200__91__c0__93__,cpd01200,MNXM3518,MNXM3518[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01200__91__e0__93__,cpd01200,MNXM3518,MNXM3518[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01217__91__c0__93__,cpd01217,MNXM687,MNXM687[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01217__91__e0__93__,cpd01217,MNXM687,MNXM687[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01242__91__c0__93__,cpd01242,MNXM2474,MNXM2474[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01242__91__e0__93__,cpd01242,MNXM2474,MNXM2474[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01260__91__c0__93__,cpd01260,MNXM734853,MNXM734853[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01262__91__c0__93__,cpd01262,MNXM722790,MNXM722790[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01262__91__e0__93__,cpd01262,MNXM722790,MNXM722790[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01270__91__c0__93__,cpd01270,MNXM208,MNXM208[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01293__91__c0__93__,cpd01293,MNXM964,MNXM964[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01293__91__e0__93__,cpd01293,MNXM964,MNXM964[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01307__91__c0__93__,cpd01307,MNXM1018,MNXM1018[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01307__91__e0__93__,cpd01307,MNXM1018,MNXM1018[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01324__91__c0__93__,cpd01324,MNXM735455,MNXM735455[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01326__91__c0__93__,cpd01326,MNXM741241,MNXM741241[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01335__91__c0__93__,cpd01335,MNXM342,MNXM342[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01476__91__c0__93__,cpd01476,MNXM346,MNXM346[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01507__91__c0__93__,cpd01507,MNXM1264,MNXM1264[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01524__91__c0__93__,cpd01524,MNXM48446,MNXM48446[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01524__91__e0__93__,cpd01524,MNXM48446,MNXM48446[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01553__91__c0__93__,cpd01553,MNXM1855,MNXM1855[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01620__91__c0__93__,cpd01620,MNXM739347,MNXM739347[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01646__91__c0__93__,cpd01646,MNXM730929,MNXM730929[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01695__91__c0__93__,cpd01695,MNXM224,MNXM224[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01710__91__c0__93__,cpd01710,MNXM1369559,MNXM1369559[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01716__91__c0__93__,cpd01716,MNXM611,MNXM611[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01720__91__c0__93__,cpd01720,MNXM802,MNXM802[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01775__91__c0__93__,cpd01775,MNXM728133,MNXM728133[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01777__91__c0__93__,cpd01777,MNXM729421,MNXM729421[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01844__91__c0__93__,cpd01844,MNXM1499,MNXM1499[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01882__91__c0__93__,cpd01882,MNXM471,MNXM471[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01914__91__c0__93__,cpd01914,MNXM2246,MNXM2246[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01914__91__e0__93__,cpd01914,MNXM2246,MNXM2246[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01966__91__c0__93__,cpd01966,MNXM389,MNXM389[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01977__91__c0__93__,cpd01977,MNXM1177,MNXM1177[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01982__91__c0__93__,cpd01982,MNXM90003,MNXM90003[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd01997__91__c0__93__,cpd01997,MNXM50981,MNXM50981[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02012__91__c0__93__,cpd02012,MNXM734252,MNXM734252[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02018__91__c0__93__,cpd02018,MNXM3307,MNXM3307[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02024__91__c0__93__,cpd02024,MNXM803,MNXM803[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02030__91__c0__93__,cpd02030,MNXM1265,MNXM1265[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02060__91__c0__93__,cpd02060,MNXM739105,MNXM739105[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02068__91__c0__93__,cpd02068,MNXM91417,MNXM91417[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02069__91__c0__93__,cpd02069,MNXM541,MNXM541[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02083__91__c0__93__,cpd02083,MNXM735625,MNXM735625[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02095__91__c0__93__,cpd02095,MNXM840,MNXM840[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02097__91__c0__93__,cpd02097,MNXM1280,MNXM1280[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02113__91__c0__93__,cpd02113,MNXM51660,MNXM51660[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02120__91__c0__93__,cpd02120,MNXM50760,MNXM50760[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02124__91__c0__93__,cpd02124,MNXM737649,MNXM737649[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02125__91__c0__93__,cpd02125,MNXM738797,MNXM738797[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02140__91__c0__93__,cpd02140,MNXM388,MNXM388[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02143__91__c0__93__,cpd02143,MNXM3005,MNXM3005[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02147__91__c0__93__,cpd02147,MNXM1407,MNXM1407[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02152__91__c0__93__,cpd02152,MNXM550,MNXM550[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02168__91__c0__93__,cpd02168,MNXM78028,MNXM78028[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02175__91__c0__93__,cpd02175,MNXM2813,MNXM2813[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02175__91__e0__93__,cpd02175,MNXM2813,MNXM2813[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02182__91__c0__93__,cpd02182,MNXM1253,MNXM1253[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02187__91__c0__93__,cpd02187,MNXM947,MNXM947[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02201__91__c0__93__,cpd02201,MNXM735771,MNXM735771[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02203__91__c0__93__,cpd02203,MNXM4547,MNXM4547[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02210__91__c0__93__,cpd02210,MNXM866,MNXM866[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02211__91__c0__93__,cpd02211,MNXM114087,MNXM114087[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02229__91__c0__93__,cpd02229,MNXM1107137,MNXM1107137[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02233__91__c0__93__,cpd02233,MNXM1692,MNXM1692[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02233__91__e0__93__,cpd02233,MNXM1692,MNXM1692[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02234__91__c0__93__,cpd02234,MNXM726352,MNXM726352[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02235__91__c0__93__,cpd02235,MNXM957,MNXM957[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02255__91__c0__93__,cpd02255,MNXM829,MNXM829[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02274__91__c0__93__,cpd02274,MNXM3304,MNXM3304[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02274__91__e0__93__,cpd02274,MNXM3304,MNXM3304[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02311__91__c0__93__,cpd02311,MNXM741298,MNXM741298[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02333__91__c0__93__,cpd02333,MNXM555,MNXM555[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02375__91__c0__93__,cpd02375,MNXM92089,MNXM92089[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02387__91__c0__93__,cpd02387,MNXM4285,MNXM4285[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02394__91__c0__93__,cpd02394,MNXM463,MNXM463[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02431__91__c0__93__,cpd02431,MNXM1617,MNXM1617[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02465__91__c0__93__,cpd02465,MNXM480,MNXM480[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02498__91__c0__93__,cpd02498,MNXM734,MNXM734[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02535__91__c0__93__,cpd02535,MNXM1202,MNXM1202[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02546__91__c0__93__,cpd02546,MNXM737872,MNXM737872[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02547__91__c0__93__,cpd02547,MNXM1697,MNXM1697[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02552__91__c0__93__,cpd02552,MNXM1384,MNXM1384[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02557__91__c0__93__,cpd02557,MNXM1373575,MNXM1373575[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02569__91__c0__93__,cpd02569,MNXM1638,MNXM1638[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02605__91__c0__93__,cpd02605,MNXM1602,MNXM1602[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02611__91__c0__93__,cpd02611,MNXM89939,MNXM89939[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02626__91__c0__93__,cpd02626,MNXM1992,MNXM1992[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02631__91__c0__93__,cpd02631,MNXM726869,MNXM726869[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02642__91__c0__93__,cpd02642,MNXM1489,MNXM1489[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02654__91__c0__93__,cpd02654,MNXM960,MNXM960[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02656__91__c0__93__,cpd02656,MNXM1313,MNXM1313[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02666__91__c0__93__,cpd02666,MNXM483,MNXM483[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02678__91__c0__93__,cpd02678,MNXM736359,MNXM736359[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02691__91__c0__93__,cpd02691,MNXM701,MNXM701[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02693__91__c0__93__,cpd02693,MNXM6092,MNXM6092[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02698__91__c0__93__,cpd02698,MNXM729177,MNXM729177[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02700__91__c0__93__,cpd02700,MNXM740144,MNXM740144[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02711__91__c0__93__,cpd02711,MNXM649,MNXM649[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02720__91__c0__93__,cpd02720,MNXM1365818,MNXM1365818[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02721__91__c0__93__,cpd02721,MNXM91569,MNXM91569[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02724__91__c0__93__,cpd02724,MNXM1563,MNXM1563[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02730__91__c0__93__,cpd02730,MNXM146080,MNXM146080[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02745__91__c0__93__,cpd02745,MNXM733170,MNXM733170[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02775__91__c0__93__,cpd02775,MNXM790,MNXM790[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02820__91__c0__93__,cpd02820,MNXM731472,MNXM731472[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02826__91__c0__93__,cpd02826,MNXM162804,MNXM162804[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02835__91__c0__93__,cpd02835,MNXM727269,MNXM727269[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02843__91__c0__93__,cpd02843,MNXM1422,MNXM1422[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02851__91__c0__93__,cpd02851,MNXM365,MNXM365[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02857__91__c0__93__,cpd02857,MNXM1219,MNXM1219[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02882__91__c0__93__,cpd02882,MNXM791,MNXM791[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02884__91__c0__93__,cpd02884,MNXM736424,MNXM736424[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02886__91__c0__93__,cpd02886,MNXM2157,MNXM2157[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02893__91__c0__93__,cpd02893,MNXM737371,MNXM737371[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02894__91__c0__93__,cpd02894,MNXM1135,MNXM1135[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02904__91__c0__93__,cpd02904,MNXM1224,MNXM1224[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02920__91__c0__93__,cpd02920,MNXM91459,MNXM91459[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02921__91__c0__93__,cpd02921,MNXM32478,MNXM32478[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02930__91__c0__93__,cpd02930,MNXM731936,MNXM731936[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02961__91__c0__93__,cpd02961,MNXM162359,MNXM162359[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02964__91__c0__93__,cpd02964,MNXM1446,MNXM1446[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02968__91__c0__93__,cpd02968,MNXM88443,MNXM88443[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02978__91__c0__93__,cpd02978,MNXM1370282,MNXM1370282[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02979__91__c0__93__,cpd02979,MNXM1397,MNXM1397[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02991__91__c0__93__,cpd02991,MNXM1408,MNXM1408[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd02993__91__c0__93__,cpd02993,MNXM731760,MNXM731760[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03002__91__c0__93__,cpd03002,MNXM1569,MNXM1569[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03034__91__c0__93__,cpd03034,MNXM1363403,MNXM1363403[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03049b__91__c0__93__,cpd03049b,cpd03049b,cpd03049b[c],c,FALSE,Unchanged,TRUE,None
+cpd03049p__91__c0__93__,cpd03049p,cpd03049p,cpd03049p[c],c,FALSE,Unchanged,TRUE,None
+cpd03063__91__c0__93__,cpd03063,MNXM9987,MNXM9987[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03078__91__c0__93__,cpd03078,MNXM1339,MNXM1339[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03113__91__c0__93__,cpd03113,MNXM825,MNXM825[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03114__91__c0__93__,cpd03114,MNXM739928,MNXM739928[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03115__91__c0__93__,cpd03115,MNXM767,MNXM767[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03116__91__c0__93__,cpd03116,MNXM739912,MNXM739912[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03117__91__c0__93__,cpd03117,MNXM739547,MNXM739547[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03118__91__c0__93__,cpd03118,MNXM739357,MNXM739357[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03119__91__c0__93__,cpd03119,MNXM739385,MNXM739385[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03120__91__c0__93__,cpd03120,MNXM740090,MNXM740090[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03121__91__c0__93__,cpd03121,MNXM706,MNXM706[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03122__91__c0__93__,cpd03122,MNXM740046,MNXM740046[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03123__91__c0__93__,cpd03123,MNXM717,MNXM717[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03124__91__c0__93__,cpd03124,MNXM553,MNXM553[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03125__91__c0__93__,cpd03125,MNXM753,MNXM753[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03126__91__c0__93__,cpd03126,MNXM581,MNXM581[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03127__91__c0__93__,cpd03127,MNXM654,MNXM654[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03128__91__c0__93__,cpd03128,MNXM486,MNXM486[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03129__91__c0__93__,cpd03129,MNXM738441,MNXM738441[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03130__91__c0__93__,cpd03130,MNXM784,MNXM784[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03187__91__c0__93__,cpd03187,MNXM1093495,MNXM1093495[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03189__91__c0__93__,cpd03189,MNXM3480,MNXM3480[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03198__91__c0__93__,cpd03198,MNXM728398,MNXM728398[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03198__91__e0__93__,cpd03198,MNXM728398,MNXM728398[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03205__91__c0__93__,cpd03205,MNXM1910,MNXM1910[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03279__91__c0__93__,cpd03279,MNXM935,MNXM935[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03385__91__c0__93__,cpd03385,MNXM3034,MNXM3034[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03420__91__c0__93__,cpd03420,MNXM1367585,MNXM1367585[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03423__91__c0__93__,cpd03423,MNXM729592,MNXM729592[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03443__91__c0__93__,cpd03443,MNXM1369665,MNXM1369665[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03444__91__c0__93__,cpd03444,MNXM1369628,MNXM1369628[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03445__91__c0__93__,cpd03445,MNXM1369421,MNXM1369421[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03446__91__c0__93__,cpd03446,MNXM1369561,MNXM1369561[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03447__91__c0__93__,cpd03447,MNXM1903,MNXM1903[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03448__91__c0__93__,cpd03448,MNXM1373893,MNXM1373893[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03449__91__c0__93__,cpd03449,MNXM91072,MNXM91072[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03470__91__c0__93__,cpd03470,MNXM1371470,MNXM1371470[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03494__91__c0__93__,cpd03494,MNXM732761,MNXM732761[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03495__91__c0__93__,cpd03495,MNXM1242,MNXM1242[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03517__91__c0__93__,cpd03517,MNXM722791,MNXM722791[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03518__91__c0__93__,cpd03518,MNXM53766,MNXM53766[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03519__91__c0__93__,cpd03519,MNXM2773,MNXM2773[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03566__91__c0__93__,cpd03566,MNXM4377,MNXM4377[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03572__91__c0__93__,cpd03572,MNXM90341,MNXM90341[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03584__91__c0__93__,cpd03584,MNXM722903,MNXM722903[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03585__91__c0__93__,cpd03585,MNXM1206,MNXM1206[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03586__91__c0__93__,cpd03586,MNXM740598,MNXM740598[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03606__91__c0__93__,cpd03606,MNXM1514,MNXM1514[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03607__91__c0__93__,cpd03607,MNXM759,MNXM759[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03666__91__c0__93__,cpd03666,MNXM4269,MNXM4269[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03671__91__c0__93__,cpd03671,MNXM969,MNXM969[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03696__91__c0__93__,cpd03696,MNXM2683,MNXM2683[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03696__91__e0__93__,cpd03696,MNXM2683,MNXM2683[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03760__91__c0__93__,cpd03760,MNXM729283,MNXM729283[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03761__91__c0__93__,cpd03761,MNXM1368835,MNXM1368835[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03813__91__c0__93__,cpd03813,MNXM5116,MNXM5116[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03832__91__c0__93__,cpd03832,MNXM727803,MNXM727803[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03833__91__c0__93__,cpd03833,MNXM1367604,MNXM1367604[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03834__91__c0__93__,cpd03834,MNXM1368634,MNXM1368634[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03835__91__c0__93__,cpd03835,MNXM729938,MNXM729938[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03839__91__c0__93__,cpd03839,MNXM729931,MNXM729931[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03884__91__c0__93__,cpd03884,MNXM8509,MNXM8509[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03884__91__e0__93__,cpd03884,MNXM8509,MNXM8509[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03913__91__c0__93__,cpd03913,MNXM726057,MNXM726057[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03914__91__c0__93__,cpd03914,MNXM741313,MNXM741313[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03915__91__c0__93__,cpd03915,MNXM741370,MNXM741370[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03916__91__c0__93__,cpd03916,MNXM92085,MNXM92085[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03917__91__c0__93__,cpd03917,MNXM877,MNXM877[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03919__91__c0__93__,cpd03919,MNXM856,MNXM856[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd03920__91__c0__93__,cpd03920,MNXM1105,MNXM1105[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd04242__91__c0__93__,cpd04242,MNXM1102163,MNXM1102163[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd04349__91__c0__93__,cpd04349,MNXM727315,MNXM727315[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd04349__91__e0__93__,cpd04349,MNXM727315,MNXM727315[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd04539__91__c0__93__,cpd04539,MNXM1979,MNXM1979[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd05158__91__c0__93__,cpd05158,MNXM18038,MNXM18038[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd05158__91__e0__93__,cpd05158,MNXM18038,MNXM18038[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd07061__91__c0__93__,cpd07061,MNXM18941,MNXM18941[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd07061__91__e0__93__,cpd07061,MNXM18941,MNXM18941[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08210__91__c0__93__,cpd08210,MNXM1458,MNXM1458[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08286__91__c0__93__,cpd08286,MNXM730435,MNXM730435[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08287__91__c0__93__,cpd08287,MNXM730948,MNXM730948[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08288__91__c0__93__,cpd08288,MNXM1641,MNXM1641[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08289__91__c0__93__,cpd08289,MNXM622,MNXM622[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08301__91__c0__93__,cpd08301,MNXM1168,MNXM1168[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08358__91__c0__93__,cpd08358,MNXM3379,MNXM3379[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08449__91__c0__93__,cpd08449,MNXM1213,MNXM1213[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08615__91__c0__93__,cpd08615,MNXM1371512,MNXM1371512[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd08928__91__c0__93__,cpd08928,MNXM1492,MNXM1492[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd09879__91__c0__93__,cpd09879,MNXM726277,MNXM726277[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd10162__91__c0__93__,cpd10162,MNXM1101302,MNXM1101302[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd10515__91__c0__93__,cpd10515,MNXM726710,MNXM726710[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd10515__91__e0__93__,cpd10515,MNXM726710,MNXM726710[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd10516__91__c0__93__,cpd10516,MNXM196,MNXM196[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd10516__91__e0__93__,cpd10516,MNXM196,MNXM196[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11225__91__c0__93__,cpd11225,MNXM1102294,MNXM1102294[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11312__91__c0__93__,cpd11312,MNXM737852,MNXM737852[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11313__91__c0__93__,cpd11313,MNXM727786,MNXM727786[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11340__91__c0__93__,cpd11340,MNXM731265,MNXM731265[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11341__91__c0__93__,cpd11341,MNXM1378,MNXM1378[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11408__91__c0__93__,cpd11408,MNXM1406,MNXM1406[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11416__91__c0__93__,cpd11416,BIOMASS,BIOMASS[c],c,TRUE,Other conversion,TRUE,seed
+cpd11420__91__c0__93__,cpd11420,MNXM729075,MNXM729075[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11421__91__c0__93__,cpd11421,MNXM96993,MNXM96993[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11461__91__c0__93__,cpd11461,MNXM634,MNXM634[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11463__91__c0__93__,cpd11463,MNXM78340,MNXM78340[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11464__91__c0__93__,cpd11464,MNXM2645,MNXM2645[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11464a__91__c0__93__,cpd11464a,cpd11464a,cpd11464a[c],c,FALSE,Unchanged,TRUE,None
+cpd11465__91__c0__93__,cpd11465,MNXM3229,MNXM3229[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11465a__91__c0__93__,cpd11465a,cpd11465a,cpd11465a[c],c,FALSE,Unchanged,TRUE,None
+cpd11466__91__c0__93__,cpd11466,MNXM564,MNXM564[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11466a__91__c0__93__,cpd11466a,cpd11466a,cpd11466a[c],c,FALSE,Unchanged,TRUE,None
+cpd11467__91__c0__93__,cpd11467,MNXM24297,MNXM24297[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11467a__91__c0__93__,cpd11467a,cpd11467a,cpd11467a[c],c,FALSE,Unchanged,TRUE,None
+cpd11468__91__c0__93__,cpd11468,MNXM5723,MNXM5723[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11468a__91__c0__93__,cpd11468a,cpd11468a,cpd11468a[c],c,FALSE,Unchanged,TRUE,None
+cpd11469__91__c0__93__,cpd11469,MNXM23842,MNXM23842[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11469a__91__c0__93__,cpd11469a,cpd11469a,cpd11469a[c],c,FALSE,Unchanged,TRUE,None
+cpd11470__91__c0__93__,cpd11470,MNXM979,MNXM979[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11470a__91__c0__93__,cpd11470a,cpd11470a,cpd11470a[c],c,FALSE,Unchanged,TRUE,None
+cpd11471__91__c0__93__,cpd11471,MNXM23766,MNXM23766[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11471a__91__c0__93__,cpd11471a,cpd11471a,cpd11471a[c],c,FALSE,Unchanged,TRUE,None
+cpd11472__91__c0__93__,cpd11472,MNXM23683,MNXM23683[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11472a__91__c0__93__,cpd11472a,cpd11472a,cpd11472a[c],c,FALSE,Unchanged,TRUE,None
+cpd11473__91__c0__93__,cpd11473,MNXM24502,MNXM24502[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11473a__91__c0__93__,cpd11473a,cpd11473a,cpd11473a[c],c,FALSE,Unchanged,TRUE,None
+cpd11474__91__c0__93__,cpd11474,MNXM1473,MNXM1473[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11474a__91__c0__93__,cpd11474a,cpd11474a,cpd11474a[c],c,FALSE,Unchanged,TRUE,None
+cpd11475__91__c0__93__,cpd11475,MNXM733432,MNXM733432[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11475a__91__c0__93__,cpd11475a,cpd11475a,cpd11475a[c],c,FALSE,Unchanged,TRUE,None
+cpd11476__91__c0__93__,cpd11476,MNXM844,MNXM844[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11476a__91__c0__93__,cpd11476a,cpd11476a,cpd11476a[c],c,FALSE,Unchanged,TRUE,None
+cpd11477__91__c0__93__,cpd11477,MNXM29072,MNXM29072[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11477a__91__c0__93__,cpd11477a,cpd11477a,cpd11477a[c],c,FALSE,Unchanged,TRUE,None
+cpd11478__91__c0__93__,cpd11478,MNXM91793,MNXM91793[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11478a__91__c0__93__,cpd11478a,cpd11478a,cpd11478a[c],c,FALSE,Unchanged,TRUE,None
+cpd11479__91__c0__93__,cpd11479,MNXM733048,MNXM733048[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11479a__91__c0__93__,cpd11479a,cpd11479a,cpd11479a[c],c,FALSE,Unchanged,TRUE,None
+cpd11480__91__c0__93__,cpd11480,MNXM733304,MNXM733304[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11480a__91__c0__93__,cpd11480a,cpd11480a,cpd11480a[c],c,FALSE,Unchanged,TRUE,None
+cpd11481__91__c0__93__,cpd11481,MNXM733096,MNXM733096[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11481a__91__c0__93__,cpd11481a,cpd11481a,cpd11481a[c],c,FALSE,Unchanged,TRUE,None
+cpd11482__91__c0__93__,cpd11482,MNXM7127,MNXM7127[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11482a__91__c0__93__,cpd11482a,cpd11482a,cpd11482a[c],c,FALSE,Unchanged,TRUE,None
+cpd11483__91__c0__93__,cpd11483,MNXM725895,MNXM725895[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11483a__91__c0__93__,cpd11483a,cpd11483a,cpd11483a[c],c,FALSE,Unchanged,TRUE,None
+cpd11484__91__c0__93__,cpd11484,MNXM7733,MNXM7733[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11484a__91__c0__93__,cpd11484a,cpd11484a,cpd11484a[c],c,FALSE,Unchanged,TRUE,None
+cpd11485__91__c0__93__,cpd11485,MNXM4345,MNXM4345[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11485a__91__c0__93__,cpd11485a,cpd11485a,cpd11485a[c],c,FALSE,Unchanged,TRUE,None
+cpd11486__91__c0__93__,cpd11486,MNXM25602,MNXM25602[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11486a__91__c0__93__,cpd11486a,cpd11486a,cpd11486a[c],c,FALSE,Unchanged,TRUE,None
+cpd11487__91__c0__93__,cpd11487,MNXM26616,MNXM26616[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11487a__91__c0__93__,cpd11487a,cpd11487a,cpd11487a[c],c,FALSE,Unchanged,TRUE,None
+cpd11488__91__c0__93__,cpd11488,MNXM727386,MNXM727386[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11488a__91__c0__93__,cpd11488a,cpd11488a,cpd11488a[c],c,FALSE,Unchanged,TRUE,None
+cpd11489__91__c0__93__,cpd11489,MNXM28933,MNXM28933[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11489a__91__c0__93__,cpd11489a,cpd11489a,cpd11489a[c],c,FALSE,Unchanged,TRUE,None
+cpd11490__91__c0__93__,cpd11490,MNXM28031,MNXM28031[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11490a__91__c0__93__,cpd11490a,cpd11490a,cpd11490a[c],c,FALSE,Unchanged,TRUE,None
+cpd11491__91__c0__93__,cpd11491,MNXM26095,MNXM26095[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11491a__91__c0__93__,cpd11491a,cpd11491a,cpd11491a[c],c,FALSE,Unchanged,TRUE,None
+cpd11492__91__c0__93__,cpd11492,MNXM731937,MNXM731937[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11492a__91__c0__93__,cpd11492a,cpd11492a,cpd11492a[c],c,FALSE,Unchanged,TRUE,None
+cpd11493__91__c0__93__,cpd11493,MNXM925,MNXM925[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11570__91__c0__93__,cpd11570,MNXM10116,MNXM10116[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11570a__91__c0__93__,cpd11570a,cpd11570a,cpd11570a[c],c,FALSE,Unchanged,TRUE,None
+cpd11571__91__c0__93__,cpd11571,MNXM10035,MNXM10035[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11571a__91__c0__93__,cpd11571a,cpd11571a,cpd11571a[c],c,FALSE,Unchanged,TRUE,None
+cpd11572__91__c0__93__,cpd11572,MNXM9168,MNXM9168[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11572a__91__c0__93__,cpd11572a,cpd11572a,cpd11572a[c],c,FALSE,Unchanged,TRUE,None
+cpd11574__91__c0__93__,cpd11574,MNXM726090,MNXM726090[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11574__91__e0__93__,cpd11574,MNXM726090,MNXM726090[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11580__91__c0__93__,cpd11580,MNXM55276,MNXM55276[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11580__91__e0__93__,cpd11580,MNXM55276,MNXM55276[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11581__91__c0__93__,cpd11581,MNXM8664,MNXM8664[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11581__91__e0__93__,cpd11581,MNXM8664,MNXM8664[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11582__91__c0__93__,cpd11582,MNXM8264,MNXM8264[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11582__91__e0__93__,cpd11582,MNXM8264,MNXM8264[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11583__91__c0__93__,cpd11583,MNXM729871,MNXM729871[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11583__91__e0__93__,cpd11583,MNXM729871,MNXM729871[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11584__91__c0__93__,cpd11584,MNXM722856,MNXM722856[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11584__91__e0__93__,cpd11584,MNXM722856,MNXM722856[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11585__91__c0__93__,cpd11585,MNXM1369179,MNXM1369179[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11585__91__e0__93__,cpd11585,MNXM1369179,MNXM1369179[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11586__91__c0__93__,cpd11586,MNXM8263,MNXM8263[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11586__91__e0__93__,cpd11586,MNXM8263,MNXM8263[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11587__91__c0__93__,cpd11587,MNXM1370308,MNXM1370308[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11587__91__e0__93__,cpd11587,MNXM1370308,MNXM1370308[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11588__91__c0__93__,cpd11588,MNXM8670,MNXM8670[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11588__91__e0__93__,cpd11588,MNXM8670,MNXM8670[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11589__91__c0__93__,cpd11589,MNXM55269,MNXM55269[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11589__91__e0__93__,cpd11589,MNXM55269,MNXM55269[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11590__91__c0__93__,cpd11590,MNXM8868,MNXM8868[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11590__91__e0__93__,cpd11590,MNXM8868,MNXM8868[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11591__91__c0__93__,cpd11591,MNXM55287,MNXM55287[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11591__91__e0__93__,cpd11591,MNXM55287,MNXM55287[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11592__91__c0__93__,cpd11592,MNXM8667,MNXM8667[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11592__91__e0__93__,cpd11592,MNXM8667,MNXM8667[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11593__91__c0__93__,cpd11593,MNXM1370306,MNXM1370306[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11593__91__e0__93__,cpd11593,MNXM1370306,MNXM1370306[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11603__91__c0__93__,cpd11603,MNXM61743,MNXM61743[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11603__91__e0__93__,cpd11603,MNXM61743,MNXM61743[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11613__91__c0__93__,cpd11613,MNXM90337,MNXM90337[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11620__91__c0__93__,cpd11620,MNXM169,MNXM169[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11621__91__c0__93__,cpd11621,MNXM178,MNXM178[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11640__91__c0__93__,cpd11640,MNXM195,MNXM195[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11640__91__e0__93__,cpd11640,MNXM195,MNXM195[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11751__91__c0__93__,cpd11751,MNXM90668,MNXM90668[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11770__91__c0__93__,cpd11770,MNXM741304,MNXM741304[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11830__91__c0__93__,cpd11830,MNXM740461,MNXM740461[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11906__91__c0__93__,cpd11906,MNXM89576,MNXM89576[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11907__91__c0__93__,cpd11907,MNXM90751,MNXM90751[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11908__91__c0__93__,cpd11908,MNXM90665,MNXM90665[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11909__91__c0__93__,cpd11909,MNXM90752,MNXM90752[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11910__91__c0__93__,cpd11910,MNXM162355,MNXM162355[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11911__91__c0__93__,cpd11911,MNXM71,MNXM71[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11912__91__c0__93__,cpd11912,MNXM90886,MNXM90886[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11913__91__c0__93__,cpd11913,MNXM90340,MNXM90340[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11914__91__c0__93__,cpd11914,MNXM90878,MNXM90878[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11915__91__c0__93__,cpd11915,MNXM90879,MNXM90879[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11916__91__c0__93__,cpd11916,MNXM90880,MNXM90880[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11917__91__c0__93__,cpd11917,MNXM90881,MNXM90881[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11918__91__c0__93__,cpd11918,MNXM90882,MNXM90882[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11919__91__c0__93__,cpd11919,MNXM90753,MNXM90753[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11920__91__c0__93__,cpd11920,MNXM90667,MNXM90667[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11921__91__c0__93__,cpd11921,MNXM91028,MNXM91028[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11922__91__c0__93__,cpd11922,MNXM90883,MNXM90883[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11923__91__c0__93__,cpd11923,MNXM90755,MNXM90755[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd11924__91__c0__93__,cpd11924,MNXM90885,MNXM90885[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12003__91__c0__93__,cpd12003,MNXM739504,MNXM739504[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12005__91__c0__93__,cpd12005,MNXM998,MNXM998[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12036__91__c0__93__,cpd12036,MNXM741228,MNXM741228[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12060__91__c0__93__,cpd12060,MNXM741204,MNXM741204[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12100__91__c0__93__,cpd12100,MNXM741181,MNXM741181[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12105__91__c0__93__,cpd12105,MNXM741321,MNXM741321[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12132__91__c0__93__,cpd12132,MNXM741351,MNXM741351[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12133__91__c0__93__,cpd12133,MNXM741265,MNXM741265[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12164__91__c0__93__,cpd12164,MNXM732981,MNXM732981[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12194__91__c0__93__,cpd12194,MNXM741213,MNXM741213[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12225__91__c0__93__,cpd12225,MNXM731213,MNXM731213[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12226__91__c0__93__,cpd12226,MNXM90839,MNXM90839[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12227__91__c0__93__,cpd12227,MNXM89752,MNXM89752[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12228__91__c0__93__,cpd12228,MNXM741218,MNXM741218[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12229__91__c0__93__,cpd12229,MNXM741233,MNXM741233[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12255__91__c0__93__,cpd12255,MNXM729656,MNXM729656[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12256__91__c0__93__,cpd12256,MNXM741223,MNXM741223[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12285__91__c0__93__,cpd12285,MNXM741601,MNXM741601[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12313__91__c0__93__,cpd12313,MNXM741176,MNXM741176[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12335__91__c0__93__,cpd12335,MNXM741194,MNXM741194[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12336__91__c0__93__,cpd12336,MNXM741199,MNXM741199[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12489__91__c0__93__,cpd12489,MNXM5086,MNXM5086[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12543__91__c0__93__,cpd12543,MNXM738259,MNXM738259[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12689__91__c0__93__,cpd12689,MNXM707,MNXM707[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12828__91__c0__93__,cpd12828,MNXM91213,MNXM91213[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12829__91__c0__93__,cpd12829,MNXM89811,MNXM89811[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12836__91__c0__93__,cpd12836,MNXM97437,MNXM97437[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12847__91__c0__93__,cpd12847,MNXM96175,MNXM96175[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd12848__91__c0__93__,cpd12848,MNXM96075,MNXM96075[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd14545__91__c0__93__,cpd14545,MNXM1984,MNXM1984[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd14698__91__c0__93__,cpd14698,MNXM91966,MNXM91966[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd14699__91__c0__93__,cpd14699,MNXM730790,MNXM730790[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd14700__91__c0__93__,cpd14700,MNXM91912,MNXM91912[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd14702__91__c0__93__,cpd14702,MNXM91911,MNXM91911[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd14703__91__c0__93__,cpd14703,MNXM738205,MNXM738205[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15268__91__c0__93__,cpd15268,MNXM162484,MNXM162484[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15268a__91__c0__93__,cpd15268a,cpd15268a,cpd15268a[c],c,FALSE,Unchanged,TRUE,None
+cpd15302__91__c0__93__,cpd15302,MNXM6281,MNXM6281[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15560__91__c0__93__,cpd15560,MNXM1369704,MNXM1369704[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15561__91__c0__93__,cpd15561,MNXM191,MNXM191[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15563__91__c0__93__,cpd15563,MNXM741408,MNXM741408[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15565__91__c0__93__,cpd15565,MNXM90476,MNXM90476[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15603__91__c0__93__,cpd15603,MNXM8666,MNXM8666[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15603__91__e0__93__,cpd15603,MNXM8666,MNXM8666[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15604__91__c0__93__,cpd15604,MNXM126241,MNXM126241[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15604__91__e0__93__,cpd15604,MNXM126241,MNXM126241[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15605__91__c0__93__,cpd15605,MNXM8669,MNXM8669[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15605__91__e0__93__,cpd15605,MNXM8669,MNXM8669[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15606__91__c0__93__,cpd15606,MNXM8671,MNXM8671[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15606__91__e0__93__,cpd15606,MNXM8671,MNXM8671[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15665__91__c0__93__,cpd15665,MNXM7630,MNXM7630[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd15666__91__c0__93__,cpd15666,MNXM5258,MNXM5258[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd16440__91__c0__93__,cpd16440,MNXM96150,MNXM96150[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd16540__91__c0__93__,cpd16540,MNXM2337,MNXM2337[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd18011__91__c0__93__,cpd18011,MNXM16902,MNXM16902[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd19004__91__c0__93__,cpd19004,MNXM738562,MNXM738562[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd19438__91__c0__93__,cpd19438,MNXM726815,MNXM726815[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd19439__91__c0__93__,cpd19439,MNXM731650,MNXM731650[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd20885__91__c0__93__,cpd20885,MNXM730185,MNXM730185[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd20885__91__e0__93__,cpd20885,MNXM730185,MNXM730185[e],e,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpd23713__91__c0__93__,cpd23713,MNXM12042,MNXM12042[c],c,TRUE,MetanetX conversion,TRUE,"metanetx, seed"
+cpdADO1P__91__c0__93__,cpdADO1P,cpdADO1P,cpdADO1P[c],c,FALSE,Unchanged,TRUE,None
+cpdARA1P__91__c0__93__,cpdARA1P,cpdARA1P,cpdARA1P[c],c,FALSE,Unchanged,TRUE,None
+cpdCL__91__c0__93__,cpdCL,cpdCL,cpdCL[c],c,FALSE,Unchanged,TRUE,None
+cpdCL1__91__c0__93__,cpdCL1,cpdCL1,cpdCL1[c],c,FALSE,Unchanged,TRUE,None
+cpdCL10__91__c0__93__,cpdCL10,cpdCL10,cpdCL10[c],c,FALSE,Unchanged,TRUE,None
+cpdCL11__91__c0__93__,cpdCL11,cpdCL11,cpdCL11[c],c,FALSE,Unchanged,TRUE,None
+cpdCL2__91__c0__93__,cpdCL2,cpdCL2,cpdCL2[c],c,FALSE,Unchanged,TRUE,None
+cpdCL3__91__c0__93__,cpdCL3,cpdCL3,cpdCL3[c],c,FALSE,Unchanged,TRUE,None
+cpdCL4__91__c0__93__,cpdCL4,cpdCL4,cpdCL4[c],c,FALSE,Unchanged,TRUE,None
+cpdCL5__91__c0__93__,cpdCL5,cpdCL5,cpdCL5[c],c,FALSE,Unchanged,TRUE,None
+cpdCL6__91__c0__93__,cpdCL6,cpdCL6,cpdCL6[c],c,FALSE,Unchanged,TRUE,None
+cpdCL7__91__c0__93__,cpdCL7,cpdCL7,cpdCL7[c],c,FALSE,Unchanged,TRUE,None
+cpdCL8__91__c0__93__,cpdCL8,cpdCL8,cpdCL8[c],c,FALSE,Unchanged,TRUE,None
+cpdCL9__91__c0__93__,cpdCL9,cpdCL9,cpdCL9[c],c,FALSE,Unchanged,TRUE,None
+cpdDMPE1__91__c0__93__,cpdDMPE1,cpdDMPE1,cpdDMPE1[c],c,FALSE,Unchanged,TRUE,None
+cpdDMPE2__91__c0__93__,cpdDMPE2,cpdDMPE2,cpdDMPE2[c],c,FALSE,Unchanged,TRUE,None
+cpdDMPE3__91__c0__93__,cpdDMPE3,cpdDMPE3,cpdDMPE3[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSHn__91__c0__93__,cpdEPSHn,cpdEPSHn,cpdEPSHn[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSHn1__91__c0__93__,cpdEPSHn1,cpdEPSHn1,cpdEPSHn1[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi10__91__c0__93__,cpdEPSi10,cpdEPSi10,cpdEPSi10[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi11__91__c0__93__,cpdEPSi11,cpdEPSi11,cpdEPSi11[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi2__91__c0__93__,cpdEPSi2,cpdEPSi2,cpdEPSi2[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi3__91__c0__93__,cpdEPSi3,cpdEPSi3,cpdEPSi3[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi4__91__c0__93__,cpdEPSi4,cpdEPSi4,cpdEPSi4[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi5__91__c0__93__,cpdEPSi5,cpdEPSi5,cpdEPSi5[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi6__91__c0__93__,cpdEPSi6,cpdEPSi6,cpdEPSi6[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi7__91__c0__93__,cpdEPSi7,cpdEPSi7,cpdEPSi7[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi8__91__c0__93__,cpdEPSi8,cpdEPSi8,cpdEPSi8[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSi9__91__c0__93__,cpdEPSi9,cpdEPSi9,cpdEPSi9[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSIIi1__91__c0__93__,cpdEPSIIi1,cpdEPSIIi1,cpdEPSIIi1[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSIIi2__91__c0__93__,cpdEPSIIi2,cpdEPSIIi2,cpdEPSIIi2[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSIIi3__91__c0__93__,cpdEPSIIi3,cpdEPSIIi3,cpdEPSIIi3[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSIIn_1__91__c0__93__,cpdEPSIIn_1,cpdEPSIIn_1,cpdEPSIIn_1[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSLn__91__c0__93__,cpdEPSLn,cpdEPSLn,cpdEPSLn[c],c,FALSE,Unchanged,TRUE,None
+cpdEPSLn1__91__c0__93__,cpdEPSLn1,cpdEPSLn1,cpdEPSLn1[c],c,FALSE,Unchanged,TRUE,None
+cpdERYI2__91__c0__93__,cpdERYI2,cpdERYI2,cpdERYI2[c],c,FALSE,Unchanged,TRUE,None
+cpdERYI3__91__c0__93__,cpdERYI3,cpdERYI3,cpdERYI3[c],c,FALSE,Unchanged,TRUE,None
+cpdERYI4__91__c0__93__,cpdERYI4,cpdERYI4,cpdERYI4[c],c,FALSE,Unchanged,TRUE,None
+cpdESPII__91__c0__93__,cpdESPII,cpdESPII,cpdESPII[c],c,FALSE,Unchanged,TRUE,None
+cpdFe4S4__91__c0__93__,cpdFe4S4,cpdFe4S4,cpdFe4S4[c],c,FALSE,Unchanged,TRUE,None
+cpdFixed__91__c0__93__,cpdFixed,cpdFixed,cpdFixed[c],c,FALSE,Unchanged,TRUE,None
+cpdFixed__91__e0__93__,cpdFixed,cpdFixed,cpdFixed[e],e,FALSE,Unchanged,TRUE,None
+cpdkGLU__91__c0__93__,cpdkGLU,cpdkGLU,cpdkGLU[c],c,FALSE,Unchanged,TRUE,None
+cpdLipAco__91__c0__93__,cpdLipAco,cpdLipAco,cpdLipAco[c],c,FALSE,Unchanged,TRUE,None
+cpdLipAg__91__c0__93__,cpdLipAg,cpdLipAg,cpdLipAg[c],c,FALSE,Unchanged,TRUE,None
+cpdLipidA__91__c0__93__,cpdLipidA,cpdLipidA,cpdLipidA[c],c,FALSE,Unchanged,TRUE,None
+cpdLPS__91__c0__93__,cpdLPS,cpdLPS,cpdLPS[c],c,FALSE,Unchanged,TRUE,None
+cpdLPS3__91__c0__93__,cpdLPS3,cpdLPS3,cpdLPS3[c],c,FALSE,Unchanged,TRUE,None
+cpdMALT__91__c0__93__,cpdMALT,cpdMALT,cpdMALT[c],c,FALSE,Unchanged,TRUE,None
+cpdMALT__91__e0__93__,cpdMALT,cpdMALT,cpdMALT[e],e,FALSE,Unchanged,TRUE,None
+cpdMALT1__91__c0__93__,cpdMALT1,cpdMALT1,cpdMALT1[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE__91__c0__93__,cpdMMPE,cpdMMPE,cpdMMPE[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE1__91__c0__93__,cpdMMPE1,cpdMMPE1,cpdMMPE1[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE2__91__c0__93__,cpdMMPE2,cpdMMPE2,cpdMMPE2[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE3__91__c0__93__,cpdMMPE3,cpdMMPE3,cpdMMPE3[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE4__91__c0__93__,cpdMMPE4,cpdMMPE4,cpdMMPE4[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE5__91__c0__93__,cpdMMPE5,cpdMMPE5,cpdMMPE5[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE6__91__c0__93__,cpdMMPE6,cpdMMPE6,cpdMMPE6[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE7__91__c0__93__,cpdMMPE7,cpdMMPE7,cpdMMPE7[c],c,FALSE,Unchanged,TRUE,None
+cpdMMPE8__91__c0__93__,cpdMMPE8,cpdMMPE8,cpdMMPE8[c],c,FALSE,Unchanged,TRUE,None
+cpdNAGALAMP__91__c0__93__,cpdNAGALAMP,cpdNAGALAMP,cpdNAGALAMP[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM1__91__c0__93__,cpdNFIM1,cpdNFIM1,cpdNFIM1[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM10__91__c0__93__,cpdNFIM10,cpdNFIM10,cpdNFIM10[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM2__91__c0__93__,cpdNFIM2,cpdNFIM2,cpdNFIM2[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM3__91__c0__93__,cpdNFIM3,cpdNFIM3,cpdNFIM3[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM4__91__c0__93__,cpdNFIM4,cpdNFIM4,cpdNFIM4[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM5__91__c0__93__,cpdNFIM5,cpdNFIM5,cpdNFIM5[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM6__91__c0__93__,cpdNFIM6,cpdNFIM6,cpdNFIM6[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM7__91__c0__93__,cpdNFIM7,cpdNFIM7,cpdNFIM7[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM8__91__c0__93__,cpdNFIM8,cpdNFIM8,cpdNFIM8[c],c,FALSE,Unchanged,TRUE,None
+cpdNFIM9__91__c0__93__,cpdNFIM9,cpdNFIM9,cpdNFIM9[c],c,FALSE,Unchanged,TRUE,None
+cpdNMLP__91__c0__93__,cpdNMLP,cpdNMLP,cpdNMLP[c],c,FALSE,Unchanged,TRUE,None
+cpdNodF__91__c0__93__,cpdNodF,cpdNodF,cpdNodF[c],c,FALSE,Unchanged,TRUE,None
+cpdNodF__91__e0__93__,cpdNodF,cpdNodF,cpdNodF[e],e,FALSE,Unchanged,TRUE,None
+cpdOL__91__c0__93__,cpdOL,cpdOL,cpdOL[c],c,FALSE,Unchanged,TRUE,None
+cpdOL1__91__c0__93__,cpdOL1,cpdOL1,cpdOL1[c],c,FALSE,Unchanged,TRUE,None
+cpdOL10__91__c0__93__,cpdOL10,cpdOL10,cpdOL10[c],c,FALSE,Unchanged,TRUE,None
+cpdOL11__91__c0__93__,cpdOL11,cpdOL11,cpdOL11[c],c,FALSE,Unchanged,TRUE,None
+cpdOL12__91__c0__93__,cpdOL12,cpdOL12,cpdOL12[c],c,FALSE,Unchanged,TRUE,None
+cpdOL2__91__c0__93__,cpdOL2,cpdOL2,cpdOL2[c],c,FALSE,Unchanged,TRUE,None
+cpdOL3__91__c0__93__,cpdOL3,cpdOL3,cpdOL3[c],c,FALSE,Unchanged,TRUE,None
+cpdOL4__91__c0__93__,cpdOL4,cpdOL4,cpdOL4[c],c,FALSE,Unchanged,TRUE,None
+cpdOL5__91__c0__93__,cpdOL5,cpdOL5,cpdOL5[c],c,FALSE,Unchanged,TRUE,None
+cpdOL6__91__c0__93__,cpdOL6,cpdOL6,cpdOL6[c],c,FALSE,Unchanged,TRUE,None
+cpdOL7__91__c0__93__,cpdOL7,cpdOL7,cpdOL7[c],c,FALSE,Unchanged,TRUE,None
+cpdOL8__91__c0__93__,cpdOL8,cpdOL8,cpdOL8[c],c,FALSE,Unchanged,TRUE,None
+cpdOL9__91__c0__93__,cpdOL9,cpdOL9,cpdOL9[c],c,FALSE,Unchanged,TRUE,None
+cpdPAL1__91__c0__93__,cpdPAL1,cpdPAL1,cpdPAL1[c],c,FALSE,Unchanged,TRUE,None
+cpdPC__91__c0__93__,cpdPC,cpdPC,cpdPC[c],c,FALSE,Unchanged,TRUE,None
+cpdPC1__91__c0__93__,cpdPC1,cpdPC1,cpdPC1[c],c,FALSE,Unchanged,TRUE,None
+cpdPC2__91__c0__93__,cpdPC2,cpdPC2,cpdPC2[c],c,FALSE,Unchanged,TRUE,None
+cpdPC3__91__c0__93__,cpdPC3,cpdPC3,cpdPC3[c],c,FALSE,Unchanged,TRUE,None
+cpdPC4__91__c0__93__,cpdPC4,cpdPC4,cpdPC4[c],c,FALSE,Unchanged,TRUE,None
+cpdPC5__91__c0__93__,cpdPC5,cpdPC5,cpdPC5[c],c,FALSE,Unchanged,TRUE,None
+cpdPC6__91__c0__93__,cpdPC6,cpdPC6,cpdPC6[c],c,FALSE,Unchanged,TRUE,None
+cpdPC7__91__c0__93__,cpdPC7,cpdPC7,cpdPC7[c],c,FALSE,Unchanged,TRUE,None
+cpdPC8__91__c0__93__,cpdPC8,cpdPC8,cpdPC8[c],c,FALSE,Unchanged,TRUE,None
+cpdPE__91__c0__93__,cpdPE,cpdPE,cpdPE[c],c,FALSE,Unchanged,TRUE,None
+cpdPE1__91__c0__93__,cpdPE1,cpdPE1,cpdPE1[c],c,FALSE,Unchanged,TRUE,None
+cpdPE10__91__c0__93__,cpdPE10,cpdPE10,cpdPE10[c],c,FALSE,Unchanged,TRUE,None
+cpdPE11__91__c0__93__,cpdPE11,cpdPE11,cpdPE11[c],c,FALSE,Unchanged,TRUE,None
+cpdPE2__91__c0__93__,cpdPE2,cpdPE2,cpdPE2[c],c,FALSE,Unchanged,TRUE,None
+cpdPE3__91__c0__93__,cpdPE3,cpdPE3,cpdPE3[c],c,FALSE,Unchanged,TRUE,None
+cpdPE4__91__c0__93__,cpdPE4,cpdPE4,cpdPE4[c],c,FALSE,Unchanged,TRUE,None
+cpdPE5__91__c0__93__,cpdPE5,cpdPE5,cpdPE5[c],c,FALSE,Unchanged,TRUE,None
+cpdPE6__91__c0__93__,cpdPE6,cpdPE6,cpdPE6[c],c,FALSE,Unchanged,TRUE,None
+cpdPE7__91__c0__93__,cpdPE7,cpdPE7,cpdPE7[c],c,FALSE,Unchanged,TRUE,None
+cpdPE8__91__c0__93__,cpdPE8,cpdPE8,cpdPE8[c],c,FALSE,Unchanged,TRUE,None
+cpdPE9__91__c0__93__,cpdPE9,cpdPE9,cpdPE9[c],c,FALSE,Unchanged,TRUE,None
+cpdPG__91__c0__93__,cpdPG,cpdPG,cpdPG[c],c,FALSE,Unchanged,TRUE,None
+cpdPG1__91__c0__93__,cpdPG1,cpdPG1,cpdPG1[c],c,FALSE,Unchanged,TRUE,None
+cpdPG10__91__c0__93__,cpdPG10,cpdPG10,cpdPG10[c],c,FALSE,Unchanged,TRUE,None
+cpdPG11__91__c0__93__,cpdPG11,cpdPG11,cpdPG11[c],c,FALSE,Unchanged,TRUE,None
+cpdPG12__91__c0__93__,cpdPG12,cpdPG12,cpdPG12[c],c,FALSE,Unchanged,TRUE,None
+cpdPG13__91__c0__93__,cpdPG13,cpdPG13,cpdPG13[c],c,FALSE,Unchanged,TRUE,None
+cpdPG14__91__c0__93__,cpdPG14,cpdPG14,cpdPG14[c],c,FALSE,Unchanged,TRUE,None
+cpdPG15__91__c0__93__,cpdPG15,cpdPG15,cpdPG15[c],c,FALSE,Unchanged,TRUE,None
+cpdPG16__91__c0__93__,cpdPG16,cpdPG16,cpdPG16[c],c,FALSE,Unchanged,TRUE,None
+cpdPG17__91__c0__93__,cpdPG17,cpdPG17,cpdPG17[c],c,FALSE,Unchanged,TRUE,None
+cpdPG18__91__c0__93__,cpdPG18,cpdPG18,cpdPG18[c],c,FALSE,Unchanged,TRUE,None
+cpdPG19__91__c0__93__,cpdPG19,cpdPG19,cpdPG19[c],c,FALSE,Unchanged,TRUE,None
+cpdPG2__91__c0__93__,cpdPG2,cpdPG2,cpdPG2[c],c,FALSE,Unchanged,TRUE,None
+cpdPG20__91__c0__93__,cpdPG20,cpdPG20,cpdPG20[c],c,FALSE,Unchanged,TRUE,None
+cpdPG21__91__c0__93__,cpdPG21,cpdPG21,cpdPG21[c],c,FALSE,Unchanged,TRUE,None
+cpdPG22__91__c0__93__,cpdPG22,cpdPG22,cpdPG22[c],c,FALSE,Unchanged,TRUE,None
+cpdPG23__91__c0__93__,cpdPG23,cpdPG23,cpdPG23[c],c,FALSE,Unchanged,TRUE,None
+cpdPG24__91__c0__93__,cpdPG24,cpdPG24,cpdPG24[c],c,FALSE,Unchanged,TRUE,None
+cpdPG25__91__c0__93__,cpdPG25,cpdPG25,cpdPG25[c],c,FALSE,Unchanged,TRUE,None
+cpdPG26__91__c0__93__,cpdPG26,cpdPG26,cpdPG26[c],c,FALSE,Unchanged,TRUE,None
+cpdPG27__91__c0__93__,cpdPG27,cpdPG27,cpdPG27[c],c,FALSE,Unchanged,TRUE,None
+cpdPG28__91__c0__93__,cpdPG28,cpdPG28,cpdPG28[c],c,FALSE,Unchanged,TRUE,None
+cpdPG3__91__c0__93__,cpdPG3,cpdPG3,cpdPG3[c],c,FALSE,Unchanged,TRUE,None
+cpdPG34__91__c0__93__,cpdPG34,cpdPG34,cpdPG34[c],c,FALSE,Unchanged,TRUE,None
+cpdPG35__91__c0__93__,cpdPG35,cpdPG35,cpdPG35[c],c,FALSE,Unchanged,TRUE,None
+cpdPG36__91__c0__93__,cpdPG36,cpdPG36,cpdPG36[c],c,FALSE,Unchanged,TRUE,None
+cpdPG37__91__c0__93__,cpdPG37,cpdPG37,cpdPG37[c],c,FALSE,Unchanged,TRUE,None
+cpdPG38__91__c0__93__,cpdPG38,cpdPG38,cpdPG38[c],c,FALSE,Unchanged,TRUE,None
+cpdPG39__91__c0__93__,cpdPG39,cpdPG39,cpdPG39[c],c,FALSE,Unchanged,TRUE,None
+cpdPG4__91__c0__93__,cpdPG4,cpdPG4,cpdPG4[c],c,FALSE,Unchanged,TRUE,None
+cpdPG40__91__c0__93__,cpdPG40,cpdPG40,cpdPG40[c],c,FALSE,Unchanged,TRUE,None
+cpdPG5__91__c0__93__,cpdPG5,cpdPG5,cpdPG5[c],c,FALSE,Unchanged,TRUE,None
+cpdPG6__91__c0__93__,cpdPG6,cpdPG6,cpdPG6[c],c,FALSE,Unchanged,TRUE,None
+cpdPG7__91__c0__93__,cpdPG7,cpdPG7,cpdPG7[c],c,FALSE,Unchanged,TRUE,None
+cpdPG8__91__c0__93__,cpdPG8,cpdPG8,cpdPG8[c],c,FALSE,Unchanged,TRUE,None
+cpdPG9__91__c0__93__,cpdPG9,cpdPG9,cpdPG9[c],c,FALSE,Unchanged,TRUE,None
+cpdPolyPn__91__c0__93__,cpdPolyPn,cpdPolyPn,cpdPolyPn[c],c,FALSE,Unchanged,TRUE,None
+cpdPolyPn1__91__c0__93__,cpdPolyPn1,cpdPolyPn1,cpdPolyPn1[c],c,FALSE,Unchanged,TRUE,None
+cpdProFM__91__c0__93__,cpdProFM,cpdProFM,cpdProFM[c],c,FALSE,Unchanged,TRUE,None
+cpdRHA1__91__c0__93__,cpdRHA1,cpdRHA1,cpdRHA1[c],c,FALSE,Unchanged,TRUE,None
+cpdRHBC1__91__c0__93__,cpdRHBC1,cpdRHBC1,cpdRHBC1[c],c,FALSE,Unchanged,TRUE,None
+cpdRHBC2__91__c0__93__,cpdRHBC2,cpdRHBC2,cpdRHBC2[c],c,FALSE,Unchanged,TRUE,None
+cpdRHBC3__91__c0__93__,cpdRHBC3,cpdRHBC3,cpdRHBC3[c],c,FALSE,Unchanged,TRUE,None
+cpdRHBC4__91__c0__93__,cpdRHBC4,cpdRHBC4,cpdRHBC4[c],c,FALSE,Unchanged,TRUE,None
+cpdRHBC4__91__e0__93__,cpdRHBC4,cpdRHBC4,cpdRHBC4[e],e,FALSE,Unchanged,TRUE,None
+cpdRIB1P__91__c0__93__,cpdRIB1P,cpdRIB1P,cpdRIB1P[c],c,FALSE,Unchanged,TRUE,None
+cpdSL__91__c0__93__,cpdSL,cpdSL,cpdSL[c],c,FALSE,Unchanged,TRUE,None
+cpdSL1__91__c0__93__,cpdSL1,cpdSL1,cpdSL1[c],c,FALSE,Unchanged,TRUE,None
+cpdSL10__91__c0__93__,cpdSL10,cpdSL10,cpdSL10[c],c,FALSE,Unchanged,TRUE,None
+cpdSL11__91__c0__93__,cpdSL11,cpdSL11,cpdSL11[c],c,FALSE,Unchanged,TRUE,None
+cpdSL12__91__c0__93__,cpdSL12,cpdSL12,cpdSL12[c],c,FALSE,Unchanged,TRUE,None
+cpdSL13__91__c0__93__,cpdSL13,cpdSL13,cpdSL13[c],c,FALSE,Unchanged,TRUE,None
+cpdSL14__91__c0__93__,cpdSL14,cpdSL14,cpdSL14[c],c,FALSE,Unchanged,TRUE,None
+cpdSL15__91__c0__93__,cpdSL15,cpdSL15,cpdSL15[c],c,FALSE,Unchanged,TRUE,None
+cpdSL16__91__c0__93__,cpdSL16,cpdSL16,cpdSL16[c],c,FALSE,Unchanged,TRUE,None
+cpdSL17__91__c0__93__,cpdSL17,cpdSL17,cpdSL17[c],c,FALSE,Unchanged,TRUE,None
+cpdSL18__91__c0__93__,cpdSL18,cpdSL18,cpdSL18[c],c,FALSE,Unchanged,TRUE,None
+cpdSL19__91__c0__93__,cpdSL19,cpdSL19,cpdSL19[c],c,FALSE,Unchanged,TRUE,None
+cpdSL2__91__c0__93__,cpdSL2,cpdSL2,cpdSL2[c],c,FALSE,Unchanged,TRUE,None
+cpdSL20__91__c0__93__,cpdSL20,cpdSL20,cpdSL20[c],c,FALSE,Unchanged,TRUE,None
+cpdSL21__91__c0__93__,cpdSL21,cpdSL21,cpdSL21[c],c,FALSE,Unchanged,TRUE,None
+cpdSL22__91__c0__93__,cpdSL22,cpdSL22,cpdSL22[c],c,FALSE,Unchanged,TRUE,None
+cpdSL23__91__c0__93__,cpdSL23,cpdSL23,cpdSL23[c],c,FALSE,Unchanged,TRUE,None
+cpdSL24__91__c0__93__,cpdSL24,cpdSL24,cpdSL24[c],c,FALSE,Unchanged,TRUE,None
+cpdSL3__91__c0__93__,cpdSL3,cpdSL3,cpdSL3[c],c,FALSE,Unchanged,TRUE,None
+cpdSL4__91__c0__93__,cpdSL4,cpdSL4,cpdSL4[c],c,FALSE,Unchanged,TRUE,None
+cpdSL5__91__c0__93__,cpdSL5,cpdSL5,cpdSL5[c],c,FALSE,Unchanged,TRUE,None
+cpdSL6__91__c0__93__,cpdSL6,cpdSL6,cpdSL6[c],c,FALSE,Unchanged,TRUE,None
+cpdSL7__91__c0__93__,cpdSL7,cpdSL7,cpdSL7[c],c,FALSE,Unchanged,TRUE,None
+cpdSL8__91__c0__93__,cpdSL8,cpdSL8,cpdSL8[c],c,FALSE,Unchanged,TRUE,None
+cpdSL9__91__c0__93__,cpdSL9,cpdSL9,cpdSL9[c],c,FALSE,Unchanged,TRUE,None
+cpdSymCoF__91__c0__93__,cpdSymCoF,cpdSymCoF,cpdSymCoF[c],c,FALSE,Unchanged,TRUE,None
+cpdTRE1__91__c0__93__,cpdTRE1,cpdTRE1,cpdTRE1[c],c,FALSE,Unchanged,TRUE,None
+cpdUS1__91__c0__93__,cpdUS1,cpdUS1,cpdUS1[c],c,FALSE,Unchanged,TRUE,None
+cpdUS10__91__c0__93__,cpdUS10,cpdUS10,cpdUS10[c],c,FALSE,Unchanged,TRUE,None
+cpdUS11__91__c0__93__,cpdUS11,cpdUS11,cpdUS11[c],c,FALSE,Unchanged,TRUE,None
+cpdUS12__91__c0__93__,cpdUS12,cpdUS12,cpdUS12[c],c,FALSE,Unchanged,TRUE,None
+cpdUS13__91__c0__93__,cpdUS13,cpdUS13,cpdUS13[c],c,FALSE,Unchanged,TRUE,None
+cpdUS14__91__c0__93__,cpdUS14,cpdUS14,cpdUS14[c],c,FALSE,Unchanged,TRUE,None
+cpdUS15__91__c0__93__,cpdUS15,cpdUS15,cpdUS15[c],c,FALSE,Unchanged,TRUE,None
+cpdUS16__91__c0__93__,cpdUS16,cpdUS16,cpdUS16[c],c,FALSE,Unchanged,TRUE,None
+cpdUS2__91__c0__93__,cpdUS2,cpdUS2,cpdUS2[c],c,FALSE,Unchanged,TRUE,None
+cpdUS3__91__c0__93__,cpdUS3,cpdUS3,cpdUS3[c],c,FALSE,Unchanged,TRUE,None
+cpdUS4__91__c0__93__,cpdUS4,cpdUS4,cpdUS4[c],c,FALSE,Unchanged,TRUE,None
+cpdUS5__91__c0__93__,cpdUS5,cpdUS5,cpdUS5[c],c,FALSE,Unchanged,TRUE,None
+cpdUS6__91__c0__93__,cpdUS6,cpdUS6,cpdUS6[c],c,FALSE,Unchanged,TRUE,None
+cpdUS7__91__c0__93__,cpdUS7,cpdUS7,cpdUS7[c],c,FALSE,Unchanged,TRUE,None
+cpdUS8__91__c0__93__,cpdUS8,cpdUS8,cpdUS8[c],c,FALSE,Unchanged,TRUE,None
+cpdUS9__91__c0__93__,cpdUS9,cpdUS9,cpdUS9[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA__91__c0__93__,cpdVLCFA,cpdVLCFA,cpdVLCFA[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA1__91__c0__93__,cpdVLCFA1,cpdVLCFA1,cpdVLCFA1[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA10__91__c0__93__,cpdVLCFA10,cpdVLCFA10,cpdVLCFA10[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA11__91__c0__93__,cpdVLCFA11,cpdVLCFA11,cpdVLCFA11[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA12__91__c0__93__,cpdVLCFA12,cpdVLCFA12,cpdVLCFA12[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA13__91__c0__93__,cpdVLCFA13,cpdVLCFA13,cpdVLCFA13[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA14__91__c0__93__,cpdVLCFA14,cpdVLCFA14,cpdVLCFA14[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA15__91__c0__93__,cpdVLCFA15,cpdVLCFA15,cpdVLCFA15[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA16__91__c0__93__,cpdVLCFA16,cpdVLCFA16,cpdVLCFA16[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA17__91__c0__93__,cpdVLCFA17,cpdVLCFA17,cpdVLCFA17[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA2__91__c0__93__,cpdVLCFA2,cpdVLCFA2,cpdVLCFA2[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA3__91__c0__93__,cpdVLCFA3,cpdVLCFA3,cpdVLCFA3[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA4__91__c0__93__,cpdVLCFA4,cpdVLCFA4,cpdVLCFA4[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA5__91__c0__93__,cpdVLCFA5,cpdVLCFA5,cpdVLCFA5[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA6__91__c0__93__,cpdVLCFA6,cpdVLCFA6,cpdVLCFA6[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA7__91__c0__93__,cpdVLCFA7,cpdVLCFA7,cpdVLCFA7[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA8__91__c0__93__,cpdVLCFA8,cpdVLCFA8,cpdVLCFA8[c],c,FALSE,Unchanged,TRUE,None
+cpdVLCFA9__91__c0__93__,cpdVLCFA9,cpdVLCFA9,cpdVLCFA9[c],c,FALSE,Unchanged,TRUE,None
+cpdXYL1P__91__c0__93__,cpdXYL1P,cpdXYL1P,cpdXYL1P[c],c,FALSE,Unchanged,TRUE,None

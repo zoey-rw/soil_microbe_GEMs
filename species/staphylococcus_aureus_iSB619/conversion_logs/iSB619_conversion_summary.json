@@ -1,0 +1,30 @@
+{
+  "statistics": {
+    "model_id": "iSB619",
+    "total_metabolites": 655,
+    "successful_conversions": 655,
+    "metanetx_conversions": 655,
+    "unchanged_metabolites": 0,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 100,
+    "metanetx_rate": 100
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 655,
+      "percentage": 100
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 571
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 84
+    }
+  ]
+}

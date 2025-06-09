@@ -1,0 +1,37 @@
+{
+  "statistics": {
+    "model_id": "iKS1317",
+    "total_metabolites": 2064,
+    "successful_conversions": 1870,
+    "metanetx_conversions": 1870,
+    "unchanged_metabolites": 194,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 90.6,
+    "metanetx_rate": 90.6
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 1870,
+      "percentage": 90.6
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 194,
+      "percentage": 9.4
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 1626,
+      "Unchanged": 185
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 244,
+      "Unchanged": 9
+    }
+  ]
+}

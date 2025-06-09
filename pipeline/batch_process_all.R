@@ -538,20 +538,14 @@ library(jsonlite)
 library(xml2)  # For RDF parsing
 
 
-
-source("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/pipeline/process_sbml_species.R")
-source("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/pipeline/sbml_processing_utils.R")
+source("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/pipeline/process_sbml_species.R")
+source("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/pipeline/sbml_processing_utils.R")
 
 ref_data <- readRDS("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/reference_data/metanetx_reference_data.rds")
 deprecated_recode <- readRDS("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/reference_data/deprecated_recode_mets.rds")
 
 # Load reference data
 if (!exists("ref_data")) ref_data <- get_reference_data()
-
-# Pre-processing a couple files that otherwise could not be read into R
-problematic_xml = "/projectnb/talbot-lab-data/metabolic_models/curated_models/iGD1348z/iGD1348_rxn_removed.xml"
-# Preprocessing with detailed logging:
-cleaned_xml <- preprocess_sbml_file(problematic_xml, output_path = "/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/species/ensifer_meliloti_iGD1348/iGD1348_input.xml")
 
 # ran successfully
 test_species <- c("azotobacter_vinelandii_iAA1300", 
@@ -564,10 +558,10 @@ test_species <- c("azotobacter_vinelandii_iAA1300",
                   "rhizophagus_irregularis_iRi1574", "saccharomyces_cerevisiae_iMM904", 
                   "staphylococcus_aureus_iSB619", "streptomyces_coelicolor_iKS1317")
 
-results <- batch_process_input("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/species", 
+results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", 
                                ref_data, deprecated_recode, test_species)
 # Running on all avail files
-results <- batch_process_input("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/species", ref_data, deprecated_recode)
+results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", ref_data, deprecated_recode)
 
 
 # USES PYTHON
