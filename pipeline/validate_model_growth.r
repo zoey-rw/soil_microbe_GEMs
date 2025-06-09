@@ -16,29 +16,10 @@ validate_model_growth <- function(species_dir, python_cmd = NULL) {
     model_id <- str_extract(basename(species_dir), "[^_]+$")
     
     # Find input and processed files
-    input_files <- list.files(species_dir, pattern = "\\.xml$", full.names = TRUE)
-    processed_files <- input_files[str_detect(basename(input_files), "_processed")]
-    
-    # Better filtering for input files
-    processed_patterns <- c("_processed", "_cobra_validated", "_modified_cobra", "COBRA-sbml3")
-    processed_files_all <- input_files[str_detect(basename(input_files), paste(processed_patterns, collapse = "|"))]
-    input_candidates <- setdiff(input_files, processed_files_all)
-    
-    if (length(input_candidates) == 0 || length(processed_files) == 0) {
-        return(list(success = FALSE, error = "Missing input or processed files"))
-    }
-    
-    # Use same file selection logic as main processor
-    input_file <- input_candidates[1]
-    if (length(input_candidates) > 1) {
-        model_id_files <- input_candidates[str_detect(basename(input_candidates), model_id)]
-        if (length(model_id_files) > 0) {
-            file_lengths <- nchar(basename(model_id_files))
-            input_file <- model_id_files[which.min(file_lengths)]
-        }
-    }
-    
-    processed_file <- processed_files[1]
+    # Replace existing file discovery logic with:
+    files <- discover_sbml_files(species_dir, model_id)
+    input_file <- files$input_file
+    processed_file <- files$processed_files[1]  # Take first processed file
     
     validation_results <- list(
         model_id = model_id,

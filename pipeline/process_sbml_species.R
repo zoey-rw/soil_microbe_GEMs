@@ -12,6 +12,7 @@ library(jsonlite)
 
 # Source utilities
 source(here("pipeline", "processing_utils.R"))
+source(here("pipeline", "sbml_processing_utils.R"))
 
 #' Determine annotation pattern from detected databases
 #' @param databases Vector of detected database names
@@ -137,23 +138,7 @@ extract_metabolite_annotations <- function(sbml_model, pattern_info) {
     
     cat("Base data frame created with", nrow(met_df), "rows\n")
     
-    # Enhanced compartment processing
-    compart_key <- sbml_model@mod_compart
-    names(compart_key) <- 1:length(sbml_model@mod_compart)
-    
-    # Standardize compartment names
-    compart_key <- recode(compart_key,
-                          "Cytosol" = "c", "Cytoplasm" = "c", "cytosol" = "c", 
-                          "extracellular space" = "e", "extracellular" = "e", "Extra_organism" = "e",
-                          "Periplasm" = "p", "periplasm" = "p",
-                          "Mitochondria" = "m", "mitochondria" = "m",
-                          "Nucleus" = "n", "nucleus" = "n",
-                          "Vacuole" = "v", "vacuole" = "v",
-                          "Endoplasmic_reticulum" = "r", "endoplasmic_reticulum" = "r")
-    
-    # Remove trailing zeros from compartment names
-    compart_key <- gsub("0$", "", compart_key)
-    
+    compart_key <- standardize_compartments(sbml_model)
     met_df$compartment <- recode(met_df$compartment_no, !!!compart_key)
     
     # Use fixed metabolite IDs for compartment removal
@@ -518,27 +503,9 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
         dir.create(log_dir, recursive = TRUE)
     }
     
-    # Find input file
-    xml_files <- list.files(species_dir, pattern = "\\.xml$", full.names = TRUE)
-    processed_patterns <- c("_processed", "_cobra_validated", "_modified_cobra", "COBRA-sbml3")
-    processed_files <- xml_files[str_detect(basename(xml_files), paste(processed_patterns, collapse = "|"))]
-    input_candidates <- setdiff(xml_files, processed_files)
-    
-    if (length(input_candidates) == 0) {
-        return(list(success = FALSE, error = "No input XML file found"))
-    }
-    
-    # Select best input file
-    input_file <- input_candidates[1]
-    if (length(input_candidates) > 1) {
-        model_id_files <- input_candidates[str_detect(basename(input_candidates), actual_model_id)]
-        if (length(model_id_files) > 0) {
-            file_lengths <- nchar(basename(model_id_files))
-            input_file <- model_id_files[which.min(file_lengths)]
-        }
-    }
-    
-    output_file <- file.path(species_dir, paste0(actual_model_id, "_processed.xml"))
+    files <- discover_sbml_files(species_dir, actual_model_id)
+    input_file <- files$input_file
+    output_file <- files$output_file
     
     # Initialize processing log
     start_time <- Sys.time()
@@ -556,7 +523,7 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
     tryCatch({
         # Read SBML model
         cat("Reading SBML model...\n")
-        sbml_result <- read_sbml_with_fallbacks(input_file, config)
+        sbml_result <- read_sbml_simple(input_file)
         sbml_model <- sbml_result$model
         processing_log <- c(processing_log, sbml_result$metadata)
         

@@ -6,6 +6,71 @@ library(tidyverse)
 library(jsonlite)
 library(sybilSBML)
 
+# simple configuration constants
+
+# File patterns used across multiple files
+PROCESSED_FILE_PATTERNS <- c("_processed", "_cobra_validated", "_modified_cobra", "COBRA-sbml3")
+INPUT_FILE_EXTENSIONS <- c("\\.xml$", "\\.sbml$")
+
+# SBML reading fallback parameters (reduces duplication)
+SBML_FALLBACK_PARAMS <- list(
+    standard = list(),
+    safe = list(validateSBML = FALSE, bndCond = FALSE),
+    minimal = list(validateSBML = FALSE, bndCond = FALSE, mergeMet = FALSE, balanceReact = FALSE),
+    emergency = list(validateSBML = FALSE, bndCond = FALSE, mergeMet = FALSE, balanceReact = FALSE, def_bnd = 999999)
+)
+
+# Database priority order (consolidates the scattered priorities)
+DATABASE_PRIORITY <- c("metanetx", "bigg", "seed", "kegg", "chebi", "hmdb", "pubchem")
+
+# Common compartment mappings
+COMPARTMENT_MAPPINGS <- c(
+    "Cytosol" = "c", "Cytoplasm" = "c", "cytosol" = "c",
+    "extracellular space" = "e", "extracellular" = "e", "Extra_organism" = "e",
+    "Periplasm" = "p", "periplasm" = "p",
+    "Mitochondria" = "m", "mitochondria" = "m",
+    "Nucleus" = "n", "nucleus" = "n",
+    "Vacuole" = "v", "vacuole" = "v",
+    "Endoplasmic_reticulum" = "r", "endoplasmic_reticulum" = "r"
+)
+
+#' Standardized file discovery for SBML processing
+#' @param species_dir Path to species directory  
+#' @param model_id Model identifier for file selection
+#' @return List with input_file and output_file paths
+discover_sbml_files <- function(species_dir, model_id) {
+    
+    # Consistent patterns across all files
+    xml_files <- list.files(species_dir, pattern = "\\.xml$", full.names = TRUE)
+    processed_patterns <- c("_processed", "_cobra_validated", "_modified_cobra", "COBRA-sbml3")
+    
+    # Separate processed from input files
+    processed_files <- xml_files[str_detect(basename(xml_files), paste(processed_patterns, collapse = "|"))]
+    input_candidates <- setdiff(xml_files, processed_files)
+    
+    if (length(input_candidates) == 0) {
+        stop("No input XML file found in ", species_dir)
+    }
+    
+    # Consistent file selection logic
+    input_file <- input_candidates[1]
+    if (length(input_candidates) > 1) {
+        model_id_files <- input_candidates[str_detect(basename(input_candidates), model_id)]
+        if (length(model_id_files) > 0) {
+            file_lengths <- nchar(basename(model_id_files))
+            input_file <- model_id_files[which.min(file_lengths)]
+        }
+    }
+    
+    output_file <- file.path(species_dir, paste0(model_id, "_processed.xml"))
+    
+    return(list(
+        input_file = input_file,
+        output_file = output_file,
+        processed_files = processed_files
+    ))
+}
+
 # =============================================================================
 # CHARACTER ENCODING AND VALIDATION UTILITIES
 # =============================================================================
@@ -191,6 +256,31 @@ preprocess_sbml_file_enhanced <- function(file_path, output_path = NULL) {
     return(list(file_path = output_path, changes_log = changes_log))
 }
 
+# Simplified version using constants
+read_sbml_simple <- function(input_file) {
+    for (mode_name in names(SBML_FALLBACK_PARAMS)) {
+        tryCatch({
+            params <- SBML_FALLBACK_PARAMS[[mode_name]]
+            if (mode_name == "emergency") {
+                # Try preprocessing first
+                preprocess_result <- preprocess_sbml_file_enhanced(input_file)
+                sbml_model <- do.call(readSBMLmod, c(list(file = preprocess_result$file_path), params))
+                unlink(preprocess_result$file_path)
+            } else {
+                sbml_model <- do.call(readSBMLmod, c(list(file = input_file), params))
+            }
+            
+            cat("✓ SBML read with", mode_name, "mode\n")
+            return(list(model = sbml_model, read_mode = mode_name))
+            
+        }, error = function(e) {
+            if (mode_name == names(SBML_FALLBACK_PARAMS)[length(SBML_FALLBACK_PARAMS)]) {
+                stop("All SBML read attempts failed: ", e$message)
+            }
+        })
+    }
+}
+
 #' Attempt to read SBML with multiple fallback strategies
 #' @param input_file Path to SBML file
 #' @param config Configuration list
@@ -248,35 +338,18 @@ read_sbml_with_fallbacks <- function(input_file, config = list()) {
 # COMPARTMENT PROCESSING UTILITIES
 # =============================================================================
 
-#' Standardize compartment names and mappings
+#' Standardize compartment names using centralized mappings
 #' @param sbml_model SBML model object
-#' @return List with standardized compartment key and model
+#' @return Named vector of standardized compartment mappings
 standardize_compartments <- function(sbml_model) {
-    
     compart_key <- sbml_model@mod_compart
     names(compart_key) <- 1:length(sbml_model@mod_compart)
     
-    # Standardize compartment names
-    compart_key <- recode(compart_key,
-                          "Cytosol" = "c", "Cytoplasm" = "c", "cytosol" = "c", 
-                          "extracellular space" = "e", "extracellular" = "e", "Extra_organism" = "e",
-                          "Periplasm" = "p", "periplasm" = "p",
-                          "Mitochondria" = "m", "mitochondria" = "m",
-                          "Nucleus" = "n", "nucleus" = "n",
-                          "Vacuole" = "v", "vacuole" = "v",
-                          "Endoplasmic_reticulum" = "r", "endoplasmic_reticulum" = "r",
-                          "C_p" = "p", "C_m" = "m", "C_c" = "c", "C_e" = "e")
+    # Use the centralized COMPARTMENT_MAPPINGS constant
+    compart_key <- recode(compart_key, !!!COMPARTMENT_MAPPINGS)
+    compart_key <- gsub("0$", "", compart_key)  # Remove trailing zeros
     
-    # Remove trailing zeros from compartment names
-    compart_key <- gsub("0$", "", compart_key)
-    
-    # Update model compartments
-    sbml_model@mod_compart <- compart_key
-    
-    return(list(
-        model = sbml_model,
-        compartment_key = compart_key
-    ))
+    return(compart_key)
 }
 
 # =============================================================================
