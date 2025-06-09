@@ -1,0 +1,19 @@
+
+<reaction name="D-glucose transporter" reversible="false">
+#becomes:
+<reaction id="R_Dglucose_transporter" name="D-glucose transporter" reversible="false">
+
+
+<reaction name="Maltose/sucrose H : symporter" reversible="true">
+#becomes:
+<reaction id="R_Maltose_sucrose_symporter" name="Maltose/sucrose H : symporter" reversible="true">
+
+
+<reaction name="malate/succinate mitochondrial shuttle" reversible="true">
+#becomes:
+<reaction id="R_malate_succinate_shuttle" name="malate/succinate mitochondrial shuttle" reversible="true">
+
+
+<reaction name="5-hydroxyisourate transporter" reversible="true">
+#becomes:
+<reaction id="R_5hydroxyisourate_transporter" name="5-hydroxyisourate transporter" reversible="true">

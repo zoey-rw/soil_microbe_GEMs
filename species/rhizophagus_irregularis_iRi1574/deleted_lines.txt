@@ -1,0 +1,123 @@
+ <parameter sboTerm="SBO:0000626" id="minus_inf" value="-INF" constant="true"/>
+      <parameter sboTerm="SBO:0000626" id="plus_inf" value="INF" constant="true"/>
+      <reaction metaid="meta_R_r1644_e0" sboTerm="SBO:0000632" id="R_r1644_e0" name="sink_CO_n3" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m1055__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_r1645_e0" sboTerm="SBO:0000632" id="R_r1645_e0" name="sink_CO_n4" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m1056__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_r1646_e0" sboTerm="SBO:0000632" id="R_r1646_e0" name="sink_CO_n5" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m1057__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+     <reaction metaid="meta_R_r1647_e0" sboTerm="SBO:0000632" id="R_r1647_e0" name="sink_CO_n6" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m1058__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_r1633_e0" sboTerm="SBO:0000627" id="R_r1633_e0" name="myristate_uptake" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfProducts>
+          <speciesReference species="M_m1331__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_r1007_e0" sboTerm="SBO:0000627" id="R_r1007_e0" name="palmitate_uptake" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>References: 28726631|16151123</p>
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfProducts>
+          <speciesReference species="M_m0384__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
+      <reaction metaid="meta_R_r1008_e0" sboTerm="SBO:0000632" id="R_r1008_e0" name="ammonium_sink" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m0113__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_r1009_e0" sboTerm="SBO:0000627" id="R_r1009_e0" name="h2o_uptake" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m0526__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_r1010_e0" sboTerm="SBO:0000627" id="R_r1010_e0" name="h_plus_uptake" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m0545__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_r1011_e0" sboTerm="SBO:0000627" id="R_r1011_e0" name="co2_uptake" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m0422__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_r1012_e0" sboTerm="SBO:0000627" id="R_r1012_e0" name="o2_uptake" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m0443__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_r1013_e0" sboTerm="SBO:0000627" id="R_r1013_e0" name="cobalt_uptake" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_0_bound">
+        <notes>
+          <html xmlns="http://www.w3.org/1999/xhtml">
+            <p>ECNumbers: null</p>
+          </html>
+        </notes>
+        <listOfReactants>
+          <speciesReference species="M_m0836__91__e0__93__" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>

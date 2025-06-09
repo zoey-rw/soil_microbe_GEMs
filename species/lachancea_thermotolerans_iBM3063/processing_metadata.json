@@ -1,0 +1,28 @@
+{
+  "model_id": "iBM3063",
+  "species_directory": "lachancea_thermotolerans_iBM3063",
+  "start_time": "2025-06-08 20:02:52",
+  "input_file": "iBM3063_input.xml",
+  "input_file_original_name": "iBM3063_input.xml",
+  "output_file": "iBM3063_processed.xml",
+  "problems_detected": [
+    "230 metabolites reverted to original IDs due to duplicates",
+    "141 metabolites could not be converted to MetanetX IDs"
+  ],
+  "warnings": [],
+  "conversion_summary": {
+    "duplicate_ids_reverted": 230,
+    "total_metabolites": 2732,
+    "successfully_converted": 2591,
+    "conversion_rate": 94.8,
+    "unconverted_metabolites": 141
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "simple_bigg",
+  "databases_found": ["metanetx", "kegg", "chebi"],
+  "metabolites_total": 2732,
+  "metabolites_standardized": 2591,
+  "end_time": "2025-06-08 20:03:37",
+  "processing_time_seconds": 44.7599,
+  "success": true
+}

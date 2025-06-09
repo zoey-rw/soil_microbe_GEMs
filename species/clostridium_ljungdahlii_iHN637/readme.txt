@@ -1,0 +1,1 @@
+# Using the "updated" file from paper supplement: model with updated EC numbers, but without enzyme constraints and validation

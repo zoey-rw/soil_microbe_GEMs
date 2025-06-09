@@ -1,0 +1,29 @@
+{
+  "model_id": "iGD1348",
+  "species_directory": "ensifer_meliloti_iGD1348",
+  "start_time": "2025-06-08 20:02:22",
+  "input_file": "iGD1348_input.xml",
+  "input_file_original_name": "iGD1348_input.xml",
+  "output_file": "iGD1348_processed.xml",
+  "problems_detected": [
+    "260 metabolites reverted to original IDs due to duplicates",
+    "260 metabolites could not be converted to MetanetX IDs"
+  ],
+  "warnings": [],
+  "conversion_summary": {
+    "deprecated_ids_replaced": 264,
+    "duplicate_ids_reverted": 260,
+    "total_metabolites": 1160,
+    "successfully_converted": 900,
+    "conversion_rate": 77.6,
+    "unconverted_metabolites": 260
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "metanetx_seed",
+  "databases_found": ["metanetx", "seed"],
+  "metabolites_total": 1160,
+  "metabolites_standardized": 900,
+  "end_time": "2025-06-08 20:02:52",
+  "processing_time_seconds": 30.4649,
+  "success": true
+}

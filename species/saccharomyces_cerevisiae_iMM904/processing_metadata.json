@@ -1,0 +1,27 @@
+{
+  "model_id": "iMM904",
+  "species_directory": "saccharomyces_cerevisiae_iMM904",
+  "start_time": "2025-06-08 20:06:43",
+  "input_file": "iMM904_input.xml",
+  "input_file_original_name": "iMM904_input.xml",
+  "output_file": "iMM904_processed.xml",
+  "problems_detected": [
+    "10 metabolites reverted to original IDs due to duplicates"
+  ],
+  "warnings": [],
+  "conversion_summary": {
+    "deprecated_ids_replaced": 341,
+    "duplicate_ids_reverted": 10,
+    "total_metabolites": 1226,
+    "successfully_converted": 1226,
+    "conversion_rate": 100
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "bigg_chebi_kegg_metanetx_seed",
+  "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi"],
+  "metabolites_total": 1226,
+  "metabolites_standardized": 1226,
+  "end_time": "2025-06-08 20:07:14",
+  "processing_time_seconds": 30.965,
+  "success": true
+}

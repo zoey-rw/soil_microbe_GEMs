@@ -1,0 +1,52 @@
+species:
+- model_id: iHN637
+  organism: clostridium ljungdahlii
+  directory: clostridium_ljungdahlii_iHN637
+- model_id: iJN1462
+  organism: pseudomonas putida
+  directory: pseudomonas_putida_iJN1462
+- model_id: iRi1574
+  organism: rhizophagus irregularis
+  directory: rhizophagus_irregularis_iRi1574
+- model_id: iSB619
+  organism: staphylococcus aureus
+  directory: staphylococcus_aureus_iSB619
+- model_id: iGC535
+  organism: nitrosomonas europaea
+  directory: nitrosomonas_europaea_iGC535
+- model_id: iBM3063
+  organism: lachancea thermotolerans
+  directory: lachancea_thermotolerans_iBM3063
+- model_id: iBB1018
+  organism: bacillus subtilis
+  directory: bacillus_subtilis_iBB1018
+- model_id: iMG746
+  organism: methanosarcina barkeri
+  directory: methanosarcina_barkeri_iMG746
+- model_id: iMM904
+  organism: saccharomyces cerevisiae
+  directory: saccharomyces_cerevisiae_iMM904
+- model_id: iNmo686
+  organism: nitrospira moscoviensis
+  directory: nitrospira_moscoviensis_iNmo686
+- model_id: iYY1101
+  organism: bradyrhizobium diazoefficiens
+  directory: bradyrhizobium_diazoefficiens_iYY1101
+- model_id: iGD1348
+  organism: ensifer meliloti
+  directory: ensifer_meliloti_iGD1348
+- model_id: iCY1106
+  organism: mortierella alpina
+  directory: mortierella_alpina_iCY1106
+- model_id: hanpo_z
+  organism: hansenula polymorpha
+  directory: hansenula_polymorpha_hanpo_z
+- model_id: iAA1300z
+  organism: azotobacter vinelandii
+  directory: azotobacter_vinelandii_iAA1300z
+- model_id: iFC579
+  organism: nitrobacter winogradskyi
+  directory: nitrobacter_winogradskyi_iFC579
+- model_id: iKS1317
+  organism: streptomyces coelicolor
+  directory: streptomyces_coelicolor_iKS1317

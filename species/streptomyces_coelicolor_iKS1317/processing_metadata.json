@@ -1,0 +1,29 @@
+{
+  "model_id": "iKS1317",
+  "species_directory": "streptomyces_coelicolor_iKS1317",
+  "start_time": "2025-06-08 20:07:39",
+  "input_file": "sco_original.xml",
+  "input_file_original_name": "sco_original.xml",
+  "output_file": "iKS1317_processed.xml",
+  "problems_detected": [
+    "454 metabolites reverted to original IDs due to duplicates",
+    "203 metabolites could not be converted to MetanetX IDs"
+  ],
+  "warnings": [],
+  "conversion_summary": {
+    "deprecated_ids_replaced": 591,
+    "duplicate_ids_reverted": 454,
+    "total_metabolites": 2064,
+    "successfully_converted": 1861,
+    "conversion_rate": 90.2,
+    "unconverted_metabolites": 203
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "bigg_chebi_kegg_metanetx",
+  "databases_found": ["metanetx", "bigg", "kegg", "chebi"],
+  "metabolites_total": 2064,
+  "metabolites_standardized": 1861,
+  "end_time": "2025-06-08 20:08:18",
+  "processing_time_seconds": 39.2914,
+  "success": true
+}

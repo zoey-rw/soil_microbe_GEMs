@@ -1,0 +1,27 @@
+{
+  "model_id": "iYY1101",
+  "species_directory": "bradyrhizobium_diazoefficiens_iYY1101",
+  "start_time": "2025-06-08 20:01:33",
+  "input_file": "Supplementary_file_-_S4.xml",
+  "input_file_original_name": "Supplementary_file_-_S4.xml",
+  "output_file": "iYY1101_processed.xml",
+  "problems_detected": [
+    "30 metabolites reverted to original IDs due to duplicates",
+    "28 metabolites could not be converted to MetanetX IDs"
+  ],
+  "warnings": [],
+  "conversion_summary": {
+    "duplicate_ids_reverted": 30,
+    "total_metabolites": 537,
+    "successfully_converted": 509,
+    "conversion_rate": 94.8,
+    "unconverted_metabolites": 28
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "simple_bigg",
+  "metabolites_total": 537,
+  "metabolites_standardized": 509,
+  "end_time": "2025-06-08 20:01:56",
+  "processing_time_seconds": 23.5127,
+  "success": true
+}

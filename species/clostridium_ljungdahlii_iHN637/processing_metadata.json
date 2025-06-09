@@ -1,0 +1,24 @@
+{
+  "model_id": "iHN637",
+  "species_directory": "clostridium_ljungdahlii_iHN637",
+  "start_time": "2025-06-08 20:01:56",
+  "input_file": "updated_iHN637.xml",
+  "input_file_original_name": "updated_iHN637.xml",
+  "output_file": "iHN637_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "deprecated_ids_replaced": 220,
+    "total_metabolites": 698,
+    "successfully_converted": 698,
+    "conversion_rate": 100
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "bigg_chebi_kegg_metanetx_seed",
+  "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi"],
+  "metabolites_total": 698,
+  "metabolites_standardized": 698,
+  "end_time": "2025-06-08 20:02:22",
+  "processing_time_seconds": 25.262,
+  "success": true
+}

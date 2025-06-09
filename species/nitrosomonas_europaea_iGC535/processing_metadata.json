@@ -1,0 +1,27 @@
+{
+  "model_id": "iGC535",
+  "species_directory": "nitrosomonas_europaea_iGC535",
+  "start_time": "2025-06-08 20:05:04",
+  "input_file": "iGC535_HCO3High.xml",
+  "input_file_original_name": "iGC535_HCO3High.xml",
+  "output_file": "iGC535_processed.xml",
+  "problems_detected": [
+    "33 metabolites reverted to original IDs due to duplicates",
+    "18 metabolites could not be converted to MetanetX IDs"
+  ],
+  "warnings": [],
+  "conversion_summary": {
+    "duplicate_ids_reverted": 33,
+    "total_metabolites": 1114,
+    "successfully_converted": 1096,
+    "conversion_rate": 98.4,
+    "unconverted_metabolites": 18
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "simple_bigg",
+  "metabolites_total": 1114,
+  "metabolites_standardized": 1096,
+  "end_time": "2025-06-08 20:05:31",
+  "processing_time_seconds": 27.2371,
+  "success": true
+}

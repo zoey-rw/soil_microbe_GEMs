@@ -1,0 +1,29 @@
+{
+  "model_id": "iJN1462",
+  "species_directory": "pseudomonas_putida_iJN1462",
+  "start_time": "2025-06-08 20:05:31",
+  "input_file": "emi14843-sup-0003-supinfos3.xml",
+  "input_file_original_name": "emi14843-sup-0003-supinfos3.xml",
+  "output_file": "iJN1462_processed.xml",
+  "problems_detected": [
+    "551 metabolites reverted to original IDs due to duplicates",
+    "530 metabolites could not be converted to MetanetX IDs"
+  ],
+  "warnings": [],
+  "conversion_summary": {
+    "deprecated_ids_replaced": 465,
+    "duplicate_ids_reverted": 551,
+    "total_metabolites": 2145,
+    "successfully_converted": 1615,
+    "conversion_rate": 75.3,
+    "unconverted_metabolites": 530
+  },
+  "sbml_read_mode": "standard",
+  "pattern_detected": "bigg_kegg_metanetx_seed",
+  "databases_found": ["metanetx", "bigg", "seed", "kegg"],
+  "metabolites_total": 2145,
+  "metabolites_standardized": 1615,
+  "end_time": "2025-06-08 20:06:13",
+  "processing_time_seconds": 41.7694,
+  "success": true
+}

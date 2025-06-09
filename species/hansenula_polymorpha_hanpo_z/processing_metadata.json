@@ -1,0 +1,8 @@
+{
+  "model_id": "hanpo_z",
+  "organism_name": "hansenula polymorpha",
+  "migration_timestamp": "2025-06-07 12:18:08",
+  "processing_status": "migrated",
+  "pattern_detected": "unknown",
+  "notes": "Migrated from old directory structure"
+}

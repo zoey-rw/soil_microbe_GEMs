@@ -1,0 +1,17 @@
+"species","processing_success","processing_time","pattern_detected","metabolites_total","metabolites_converted","conversion_rate","problems_detected","error_message"
+"azotobacter_vinelandii_iAA1300",TRUE,39.2485258579254,"bigg_chebi_kegg_metanetx_seed",1958,1548,79.1,2,NA
+"bacillus_subtilis_iBB1018",TRUE,32.4966089725494,"bigg_chebi_kegg_metanetx_seed",1291,991,76.8,2,NA
+"bradyrhizobium_diazoefficiens_iYY1101",TRUE,23.5126821994781,"simple_bigg",537,509,94.8,2,NA
+"clostridium_ljungdahlii_iHN637",TRUE,25.2620184421539,"bigg_chebi_kegg_metanetx_seed",698,698,100,0,NA
+"ensifer_meliloti_iGD1348",TRUE,30.4649398326874,"metanetx_seed",1160,900,77.6,2,NA
+"lachancea_thermotolerans_iBM3063",TRUE,44.7598555088043,"simple_bigg",2732,2591,94.8,2,NA
+"methanosarcina_barkeri_iMG746",TRUE,24.9584093093872,"simple_bigg",718,592,82.5,3,NA
+"mortierella_alpina_iCY1106",TRUE,34.408855676651,"simple_bigg",1732,390,22.5,2,NA
+"nitrobacter_winogradskyi_iFC579",TRUE,27.2557244300842,"simple_bigg",1007,1003,99.6,2,NA
+"nitrosomonas_europaea_iGC535",TRUE,27.2370584011078,"simple_bigg",1114,1096,98.4,2,NA
+"nitrospira_moscoviensis_iNmo686",FALSE,NA,NA,NA,NA,NA,NA,"No input XML file found"
+"pseudomonas_putida_iJN1462",TRUE,41.7693598270416,"bigg_kegg_metanetx_seed",2145,1615,75.3,2,NA
+"rhizophagus_irregularis_iRi1574",TRUE,30.0552244186401,"bigg_kegg_metanetx_pubchem_seed",1285,1121,87.2,2,NA
+"saccharomyces_cerevisiae_iMM904",TRUE,30.9650039672852,"bigg_chebi_kegg_metanetx_seed",1226,1226,100,1,NA
+"staphylococcus_aureus_iSB619",TRUE,25.11248087883,"bigg_chebi_kegg_metanetx_seed",655,655,100,0,NA
+"streptomyces_coelicolor_iKS1317",TRUE,39.2914111614227,"bigg_chebi_kegg_metanetx",2064,1861,90.2,2,NA
