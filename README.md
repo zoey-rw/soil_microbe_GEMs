@@ -11,19 +11,19 @@ Metabolite standardization: Converts annotations to MetanetX identifiers while p
 Error recovery: Handles problematic SBML structures including Matrix errors and malformed group elements
 Validation: Verifies growth rates match original publications using COBRApy
 
-Supported Annotation Patterns
-The pipeline handles annotation patterns found across the 60-species database: BiGG, ChEBI, KEGG, MetanetX, etc.
-Complex multi-database combinations
+### Supported Annotation Patterns
+The pipeline handles various annotation patterns and structures, including BiGG, ChEBI, KEGG, MetanetX, etc.
 
-File Structure
+### File Structure
 Each species directory contains:
 
-Original SBML file(s)
+*_input.xml - Original SBML file(s)
 *_processed.xml - Standardized model with MetanetX annotations
 processing_metadata.json - Processing log and conversion statistics
 validation_results.json - COBRApy validation results
+When available, files associated with original publication
 
-Community model integration
+### Community model integration
 Processed models are compatible with standard constraint-based modeling frameworks:
 
     [![COBRApy](https://img.shields.io/badge/-COBRApy-028?&logo=GitHub)](https://github.com/opencobra/cobrapy)&nbsp; standard Flux-Balance Analysis (FBA), Flux-Variability Analysis (FVA) 
