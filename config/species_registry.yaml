@@ -1,52 +1,529 @@
+# Species Registry for SBML Processing Pipeline
+# Standardized format with duplicate removal and consistent structure
+
 species:
-- model_id: iHN637
-  organism: clostridium ljungdahlii
-  directory: clostridium_ljungdahlii_iHN637
-- model_id: iJN1462
-  organism: pseudomonas putida
-  directory: pseudomonas_putida_iJN1462
-- model_id: iRi1574
-  organism: rhizophagus irregularis
-  directory: rhizophagus_irregularis_iRi1574
-- model_id: iSB619
-  organism: staphylococcus aureus
-  directory: staphylococcus_aureus_iSB619
-- model_id: iGC535
-  organism: nitrosomonas europaea
-  directory: nitrosomonas_europaea_iGC535
-- model_id: iBM3063
-  organism: lachancea thermotolerans
-  directory: lachancea_thermotolerans_iBM3063
-- model_id: iBB1018
-  organism: bacillus subtilis
-  directory: bacillus_subtilis_iBB1018
-- model_id: iMG746
-  organism: methanosarcina barkeri
-  directory: methanosarcina_barkeri_iMG746
-- model_id: iMM904
-  organism: saccharomyces cerevisiae
-  directory: saccharomyces_cerevisiae_iMM904
-- model_id: iNmo686
-  organism: nitrospira moscoviensis
-  directory: nitrospira_moscoviensis_iNmo686
-- model_id: iYY1101
-  organism: bradyrhizobium diazoefficiens
-  directory: bradyrhizobium_diazoefficiens_iYY1101
-- model_id: iGD1348
-  organism: ensifer meliloti
-  directory: ensifer_meliloti_iGD1348
-- model_id: iCY1106
-  organism: mortierella alpina
-  directory: mortierella_alpina_iCY1106
-- model_id: hanpo_z
-  organism: hansenula polymorpha
-  directory: hansenula_polymorpha_hanpo_z
-- model_id: iAA1300z
-  organism: azotobacter vinelandii
-  directory: azotobacter_vinelandii_iAA1300z
-- model_id: iFC579
-  organism: nitrobacter winogradskyi
-  directory: nitrobacter_winogradskyi_iFC579
-- model_id: iKS1317
-  organism: streptomyces coelicolor
-  directory: streptomyces_coelicolor_iKS1317
+  iHN637:
+    model_id: "iHN637"
+    organism: "clostridium ljungdahlii"
+    directory: "clostridium_ljungdahlii_iHN637"
+    kingdom: "Bacteria"
+    phylum: "Bacillota"
+    genus: "Clostridium"
+    species_strain: "ljungdahlii DSM 13528"
+    description: "acetogen, nitrate-reducer"
+    publication:
+      citation: null
+      source_link: "BiGG iHN637"
+      download_source: "BiGG database"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iJN1462:
+    model_id: "iJN1462"
+    organism: "pseudomonas putida"
+    directory: "pseudomonas_putida_iJN1462"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Pseudomonas"
+    species_strain: "putida KT2440"
+    description: null
+    publication:
+      citation: "Nogales et al. 2020"
+      source_link: "paper supplement"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iRi1574:
+    model_id: "iRi1574"
+    organism: "rhizophagus irregularis"
+    directory: "rhizophagus_irregularis_iRi1574"
+    kingdom: "Fungi"
+    phylum: "Glomeromycota"
+    genus: "Rhizophagus"
+    species_strain: "irregularis"
+    description: "Arbuscular mycorrhizae"
+    publication:
+      citation: "Wendering & Nikoloski 2022"
+      source_link: "https://github.com/pwendering/RhiirGEM/blob/master/model/iRi1574.xml"
+      download_source: "GitHub repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iSB619:
+    model_id: "iSB619"
+    organism: "staphylococcus aureus"
+    directory: "staphylococcus_aureus_iSB619"
+    kingdom: "Bacteria"
+    phylum: "Bacillota"
+    genus: "Staphylococcus"
+    species_strain: "aureus subsp. aureus N315"
+    description: null
+    publication:
+      citation: null
+      source_link: "BiGG iSB619"
+      download_source: "BiGG database"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iGC535:
+    model_id: "iGC535"
+    organism: "nitrosomonas europaea"
+    directory: "nitrosomonas_europaea_iGC535"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Nitrosomonas"
+    species_strain: "europaea"
+    description: "ammonia-oxidizer"
+    publication:
+      citation: "Canto-Encalada et al 2022"
+      source_link: "https://github.com/cristalzucsd/Nitrosomonaseuropaea/tree/main/SBML_Models"
+      download_source: "GitHub repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iBM3063:
+    model_id: "iBM3063"
+    organism: "lachancea thermotolerans"
+    directory: "lachancea_thermotolerans_iBM3063"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Lachancea"
+    species_strain: "thermotolerans"
+    description: "non-Sac yeast - only sometimes in soil"
+    publication:
+      citation: "Battjes et al. 2023"
+      source_link: "linked from paper supplement"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iBB1018:
+    model_id: "iBB1018"
+    organism: "bacillus subtilis"
+    directory: "bacillus_subtilis_iBB1018"
+    kingdom: "Bacteria"
+    phylum: "Bacillota"
+    genus: "Bacillus"
+    species_strain: "subtilis subsp. subtilis str. 168"
+    description: null
+    publication:
+      citation: "Blazquez et al. 2023"
+      source_link: "https://raw.githubusercontent.com/SBGlab/Bacillus_Subtilis_multistrain_GEM/refs/heads/main/iBB1018/iBB1018.xml"
+      download_source: "GitHub repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iMG746:
+    model_id: "iMG746"
+    organism: "methanosarcina barkeri"
+    directory: "methanosarcina_barkeri_iMG746"
+    kingdom: "Archaea"
+    phylum: "Euryarchaeota"
+    genus: "Methanosarcina"
+    species_strain: "barkeri str. Fusaro"
+    description: null
+    publication:
+      citation: "Gonnerman et al. 2013"
+      source_link: "paper supplement"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iMM904:
+    model_id: "iMM904"
+    organism: "saccharomyces cerevisiae"
+    directory: "saccharomyces_cerevisiae_iMM904"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Saccharomyces"
+    species_strain: "cerevisiae S288C"
+    description: null
+    publication:
+      citation: null
+      source_link: "BiGG iMM904"
+      download_source: "BiGG database"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iNmo686:
+    model_id: "iNmo686"
+    organism: "nitrospira moscoviensis"
+    directory: "nitrospira_moscoviensis_iNmo686"
+    kingdom: "Bacteria"
+    phylum: "Nitrospirota"
+    genus: "Nitrospira"
+    species_strain: "moscoviensis"
+    description: "nitrite-oxidizer"
+    publication:
+      citation: "Lawson et al. 2021"
+      source_link: "Lawson Github"
+      download_source: "GitHub repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iYY1101:
+    model_id: "iYY1101"
+    organism: "bradyrhizobium diazoefficiens"
+    directory: "bradyrhizobium_diazoefficiens_iYY1101"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Bradyrhizobium"
+    species_strain: "diazoefficiens USDA110"
+    description: "rhizobium"
+    publication:
+      citation: "Yang et al. 2017"
+      source_link: "Supp Info"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iGD1348:
+    model_id: "iGD1348"
+    organism: "ensifer meliloti"
+    directory: "ensifer_meliloti_iGD1348"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Ensifer"
+    species_strain: "meliloti"
+    description: "rhizobium"
+    publication:
+      citation: "diCenzo et al. 2020"
+      source_link: "diCenzo Github"
+      download_source: "GitHub repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iCY1106:
+    model_id: "iCY1106"
+    organism: "mortierella alpina"
+    directory: "mortierella_alpina_iCY1106"
+    kingdom: "Fungi"
+    phylum: "Mucoromycota"
+    genus: "Mortierella"
+    species_strain: "alpina"
+    description: null
+    publication:
+      citation: "Ye et al. 2015"
+      source_link: null
+      download_source: "Publication"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  hanpo_z:
+    model_id: "hanpo_z"
+    organism: "hansenula polymorpha"
+    directory: "hansenula_polymorpha_hanpo_z"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Hansenula"
+    species_strain: "polymorpha"
+    description: "methylotrophic yeast"
+    publication:
+      citation: "Zorrilla et al. 2021"
+      source_link: "https://github.com/SysBioChalmers/hanpo-GEM"
+      download_source: "GitHub repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iAA1300z:
+    model_id: "iAA1300z"
+    organism: "azotobacter vinelandii"
+    directory: "azotobacter_vinelandii_iAA1300z"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Azotobacter"
+    species_strain: "vinelandii"
+    description: "nitrogen-fixing bacterium"
+    publication:
+      citation: "Alleman et al. 2021"
+      source_link: "github"
+      download_source: "GitHub repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iFC579:
+    model_id: "iFC579"
+    organism: "nitrobacter winogradskyi"
+    directory: "nitrobacter_winogradskyi_iFC579"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Nitrobacter"
+    species_strain: "winogradskyi"
+    description: null
+    publication:
+      citation: null
+      source_link: null
+      download_source: null
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iKS1317:
+    model_id: "iKS1317"
+    organism: "streptomyces coelicolor"
+    directory: "streptomyces_coelicolor_iKS1317"
+    kingdom: "Bacteria"
+    phylum: "Actinomycetota"
+    genus: "Streptomyces"
+    species_strain: "coelicolor A3(2)"
+    description: "filamentous bacteria"
+    publication:
+      citation: "Sulheim et al. 2020"
+      source_link: "SysBio Chalmers Github"
+      download_source: "GitHub repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iAF692:
+    model_id: "iAF692"
+    organism: "methanosarcina barkeri"
+    directory: "methanosarcina_barkeri_iAF692"
+    kingdom: "Archaea"
+    phylum: "Euryarchaeota"
+    genus: "Methanosarcina"
+    species_strain: "barkeri str. Fusaro"
+    description: "anaerobic methanogen"
+    publication:
+      citation: null
+      source_link: "BiGG iAF692"
+      download_source: "BiGG database"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Sourced from BiGG database"
+
+  iJL1454:
+    model_id: "iJL1454"
+    organism: "aspergillus terreus"
+    directory: "aspergillus_terreus_iJL1454"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Aspergillus"
+    species_strain: "terreus"
+    description: null
+    publication:
+      citation: "Liu et al. 2013"
+      source_link: null
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Fungal model from Liu et al. 2013"
+
+  iMT1174:
+    model_id: "iMT1174"
+    organism: "rhodococcus jostii"
+    directory: "rhodococcus_jostii_iMT1174"
+    kingdom: "Bacteria"
+    phylum: "Actinomycetota"
+    genus: "Rhodococcus"
+    species_strain: "jostii RHA1"
+    description: null
+    publication:
+      citation: "Tajparast 2015"
+      source_link: "https://static-content.springer.com/esm/art%3A10.1186%2Fs12918-015-0190-y/MediaObjects/12918_2015_190_MOESM3_ESM.xlsx"
+      download_source: "Springer supplementary material"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iNX1344:
+    model_id: "iNX1344"
+    organism: "agrobacterium tumefaciens"
+    directory: "agrobacterium_tumefaciens_iNX1344"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Agrobacterium"
+    species_strain: "tumefaciens"
+    description: "plant pathogen"
+    publication:
+      citation: "Xu et al. 2021"
+      source_link: "Supplementary zip archive"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Initial validation failed - SBML format issues addressed"
+
+  iRZ1179:
+    model_id: "iRZ1179"
+    organism: "paenarthrobacter aurescens"
+    directory: "paenarthrobacter_aurescens_iRZ1179"
+    kingdom: "Bacteria"
+    phylum: "Actinomycetota"
+    genus: "Paenarthrobacter"
+    species_strain: "aurescens TC1"
+    description: null
+    publication:
+      citation: "Ofaim et al. 2020"
+      source_link: "Supplementary Table 2"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "File format/schema issues identified during validation"
+
+  iZBM1060:
+    model_id: "iZBM1060"
+    organism: "ganoderma lucidum"
+    directory: "ganoderma_lucidum_iZBM1060"
+    kingdom: "Fungi"
+    phylum: "Basidiomycota"
+    genus: "Ganoderma"
+    species_strain: "lucidum strain CGMCC5.26"
+    description: "filamentous fungi"
+    publication:
+      citation: "Ma et al. 2018"
+      source_link: null
+      download_source: "Publication"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iAL1006:
+    model_id: "iAL1006"
+    organism: "penicillium rubens"
+    directory: "penicillium_rubens_iAL1006"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Penicillium"
+    species_strain: "rubens"
+    description: null
+    publication:
+      citation: "Xu et al. 2019"
+      source_link: null
+      download_source: "sent via email by corresponding author"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  Xu_arthro:
+    model_id: "Xu_arthro"
+    organism: "arthrobacter aurescens"
+    directory: "arthrobacter_aurescens_Xu_arthro"
+    kingdom: "Bacteria"
+    phylum: "Actinomycetota"
+    genus: "Arthrobacter"
+    species_strain: "aurescens TC1"
+    description: null
+    publication:
+      citation: "Xu et al. 2019"
+      source_link: null
+      download_source: "sent via email by corresponding author"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  Xu_cesiri:
+    model_id: "Xu_cesiri"
+    organism: "cesiribacter andamanensis"
+    directory: "cesiribacter_andamanensis_Xu_cesiri"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Cesiribacter"
+    species_strain: "andamanensis AMV16"
+    description: null
+    publication:
+      citation: "Xu et al. 2019"
+      source_link: null
+      download_source: "sent via email by corresponding author"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  Xu_halom:
+    model_id: "Xu_halom"
+    organism: "halomonas stevensii"
+    directory: "halomonas_stevensii_Xu_halom"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Halomonas"
+    species_strain: "stevensii S18214"
+    description: null
+    publication:
+      citation: "Xu et al. 2019"
+      source_link: null
+      download_source: "sent via email by corresponding author"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  Xu_bacill:
+    model_id: "Xu_bacill"
+    organism: "bacillus pseudofirmus"
+    directory: "bacillus_pseudofirmus_Xu_bacill"
+    kingdom: "Bacteria"
+    phylum: "Bacillota"
+    genus: "Bacillus"
+    species_strain: "pseudofirmus OF4"
+    description: null
+    publication:
+      citation: "Xu et al. 2019"
+      source_link: null
+      download_source: "sent via email by corresponding author"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iRhto1880:
+    model_id: "iRhto1880"
+    organism: "Rhodotorula toruloides"
+    directory: "rhodotorula_toruloides_iRhto1880"
+    kingdom: "Fungi"
+    phylum: "Basidiomycota"
+    genus: "Rhodotorula"
+    species_strain: "toruloides IFO0880"
+    description: null
+    publication:
+      citation: "Dinh et al. 2019
+      source_link: "https://github.com/maranasgroup/iRhto_memote"
+      download_source: "Github repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
