@@ -1,0 +1,4 @@
+base_metabolite,frequency,models_present,always_metanetx,sometimes_metanetx,standardization_rate
+MNXM1,17,,TRUE,TRUE,1
+MNXM729302,17,,TRUE,TRUE,1
+MNXM9,17,,TRUE,TRUE,1

@@ -1,0 +1,5 @@
+base_metabolite,models_present,total_occurrences,metanetx_conversions,standardized_instances,conversion_rate,standardization_rate,example_ids
+ac,,1,0,1,0,100,
+co2,,1,0,1,0,100,
+h2o,,2,0,2,0,100,
+o2,,1,0,1,0,100,
