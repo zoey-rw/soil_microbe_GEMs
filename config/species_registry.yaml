@@ -338,13 +338,13 @@ species:
     description: null
     publication:
       citation: "Liu et al. 2013"
-      source_link: null
-      download_source: "Publication supplement"
+      source_link: "RhiirGEM Github"
+      download_source: "https://github.com/pwendering/RhiirGEM/blob/e8824d7c81a075f726800deaf72ee9400440aafd/results/fungal-models/A_terreus_iJL1454_modified.xlsx"
     processing_status:
       processed: false
       validated: false
       annotation_pattern: null
-    curation_notes: "Fungal model from Liu et al. 2013"
+    curation_notes: "Fungal model from Liu et al. 2013, modified for RhiirGEM modeling project"
 
   iMT1174:
     model_id: "iMT1174"
@@ -520,10 +520,87 @@ species:
     species_strain: "toruloides IFO0880"
     description: null
     publication:
-      citation: "Dinh et al. 2019
+      citation: "Dinh et al. 2019"
       source_link: "https://github.com/maranasgroup/iRhto_memote"
       download_source: "Github repository"
     processing_status:
       processed: false
       validated: false
       annotation_pattern: null
+
+  iJDZ836:
+    model_id: "iJDZ836"
+    organism: "Neurospora cassa"
+    directory: "neurospora_crassa_iJDZ836"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Neurospora"
+    species_strain: "crassa"
+    description: null
+    publication:
+      citation: "Dreyfuss et al. 2013"
+      source_link: "https://github.com/pwendering/RhiirGEM/blob/e8824d7c81a075f726800deaf72ee9400440aafd/results/fungal-models/N_crassa_iJDZ836.xml"
+      download_source: "Github repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Fungal model from Dreyfuss et al. 2013, modified for RhiirGEM modeling project"
+
+  Treesei:
+    model_id: "Treesei"
+    organism: "Trichoderma reesei"
+    directory: "Trichoderma reesei_treesei"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Trichoderma"
+    species_strain: "reesei"
+    description: null
+    publication:
+      citation: "Castillo et al. 2016"
+      source_link: "https://www.ebi.ac.uk/biomodels/MODEL1302010019#Files"
+      download_source: "Biomodels repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+
+  iIG743:
+    model_id: "iIG743"
+    organism: "Sphingopyxis granuli strain TFA"
+    directory: "sphingopyxis_granuli_iIG743"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Sphingopyxis"
+    species_strain: "granuli strain TFA"
+    description: "aerobic and chemo-organotrophic"
+    publication:
+      citation: "Garcia-Romero 2020"
+      source_link: "https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-65258-9/MediaObjects/41598_2020_65258_MOESM2_ESM.xlsx"
+      download_source: "Paper supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Excel format - not readable as SBML"
+
+
+  ctest:
+    model_id: "ctest"
+    organism: "Comamonas testosteroni"
+    directory: "comamonas_testosteroni_ctest"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Pseudomonas"
+    species_strain: "testosteroni T-2"
+    description: "aerobic steroid degradation"
+    publication:
+      citation: "Wilkes et al. 2020"
+      source_link: "paper supplement"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Partial network in nonstandard Excel format"
