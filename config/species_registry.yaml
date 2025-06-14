@@ -604,3 +604,115 @@ species:
       validated: false
       annotation_pattern: null
     curation_notes: "Partial network in nonstandard Excel format"
+
+  iAS473:
+    model_id: "iAS473"
+    organism: "Methylacidiphilum fumariolicum"
+    directory: "methylacidiphilum_fumariolicum_iAS473"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Pseudomonas"
+    species_strain: "testosteroni T-2"
+    description: "thermophile, aerobic methanotroph"
+    publication:
+      citation: "Saldivar et al. 2024"
+      source_link: "https://www.ebi.ac.uk/biomodels/MODEL2308220001"
+      download_source: "Biomodels repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Files available for growth on other substrates"
+
+  iSD1509:
+    model_id: "iSD1509"
+    organism: "Pseudomonas aeruginosa"
+    directory: "pseudomonas_aeruginosa_iSD1509"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Pseudomonas"
+    species_strain: "Pseudomonas aeruginosa PA14"
+    description: "broad host range pathogen"
+    publication:
+      citation: "Dahal et al., 2022"
+      source_link: "https://www.ebi.ac.uk/biomodels/MODEL2205090001"
+      download_source: "Biomodels repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iMR557:
+    model_id: "iMR557"
+    organism: "Methanococcus maripaludis S2"
+    directory: "methanococcus_maripaludis_iMR557"
+    kingdom: "Bacteria"
+    phylum: "Methanobacteriota"
+    genus: "Methanococcus"
+    species_strain: "Methanococcus maripaludis S2"
+    description: "chemolithoautotrophic methanogen found in salt marshes"
+    publication:
+      citation: "Vo et al., 2023"
+      source_link: "https://www.ebi.ac.uk/biomodels/MODEL2306080001"
+      download_source: "Biomodels repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iPrub22:
+    model_id: "iPrub22"
+    organism: "penicillium rubens"
+    directory: "penicillium_rubens_iPrub22"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Penicillium"
+    species_strain: "rubens Wisconsin 54-1255"
+    description: null
+    publication:
+      citation: "Nègre et al. 2023"
+      source_link: "https://www.ebi.ac.uk/biomodels/MODEL2306150001"
+      download_source: "Biomodels repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  Afu2023:
+    model_id: "Afu2023"
+    organism: "aspergillus fumigatus"
+    directory: "aspergillus_fumigatus_Afu2023"
+    kingdom: "Fungi"
+    phylum: "Ascomycota"
+    genus: "Aspergillus"
+    species_strain: "fumigatus"
+    description: "human pathogen, found in soils and compost"
+    publication:
+      citation: "Mirhakkak et al. 2023"
+      source_link: "https://www.ebi.ac.uk/biomodels/MODEL2211100001"
+      download_source: "Biomodels repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Files available for specific strains"
+
+  iMTZ22IC:
+    model_id: "iMTZ22IC"
+    organism: "Methanothermobacter thermautotrophicus Z-245"
+    directory: "methanothermobacter_thermautotrophicus_iMTZ22IC"
+    kingdom: "Archaea"
+    phylum: "Methanobacteria"
+    genus: "Methanothermobacter"
+    species_strain: "thermautotrophicus Z-245"
+    description: "thermophile, methanogen"
+    publication:
+      citation: "Casini et al. 2023"
+      source_link: "https://www.ebi.ac.uk/biomodels/MODEL2211290002"
+      download_source: "Biomodels repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Files available for other strains"
+
