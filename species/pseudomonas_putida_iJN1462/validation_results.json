@@ -1,16 +1,15 @@
 {
   "model_id": "iJN1462",
-  "validation_timestamp": "2025-06-14 21:54:11",
+  "validation_timestamp": "2025-06-15 00:54:22",
   "input_file": "iJN1462_input.xml",
   "processed_file": "iJN1462_processed.xml",
   "input_readable_cobra": false,
-  "processed_readable_cobra": false,
+  "processed_readable_cobra": true,
   "growth_rate_input": {},
-  "growth_rate_processed": {},
+  "growth_rate_processed": 0.6156,
   "simulation_equivalent": false,
   "validation_notes": [
     "Input file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .",
-    "Processed file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .",
     "Cannot compare growth rates - one or both files unreadable"
   ],
   "python_setup": {
@@ -18,6 +17,10 @@
     "python_version": "Python 3.9.6",
     "cobra_available": true,
     "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "processed_model_size": {
+    "metabolites": 2145,
+    "reactions": 2929
   },
   "success": true
 }
