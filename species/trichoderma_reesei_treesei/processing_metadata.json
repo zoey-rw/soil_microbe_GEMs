@@ -1,7 +1,7 @@
 {
   "model_id": "treesei",
   "species_directory": "trichoderma_reesei_treesei",
-  "start_time": "2025-06-14 20:40:45",
+  "start_time": "2025-06-15 15:09:53",
   "input_file": "MODEL1302010019_url.xml",
   "output_file": "treesei_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/trichoderma_reesei_treesei/conversion_logs/treesei_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/trichoderma_reesei_treesei/conversion_logs/treesei_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:41:15",
-  "processing_time_seconds": 30.0487,
+  "end_time": "2025-06-15 15:10:26",
+  "processing_time_seconds": 33.0858,
   "success": true
 }

@@ -1,7 +1,7 @@
 {
   "model_id": "Afu2023",
   "species_directory": "aspergillus_fumigatus_Afu2023",
-  "start_time": "2025-06-14 19:54:42",
+  "start_time": "2025-06-15 14:41:15",
   "input_file": "Pan_Aspergillus_fumigatus.xml",
   "output_file": "Afu2023_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/aspergillus_fumigatus_Afu2023/conversion_logs/Afu2023_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/aspergillus_fumigatus_Afu2023/conversion_logs/Afu2023_conversion_summary.json"
   },
-  "end_time": "2025-06-14 19:55:38",
-  "processing_time_seconds": 55.8487,
+  "end_time": "2025-06-15 14:42:09",
+  "processing_time_seconds": 54.2229,
   "success": true
 }

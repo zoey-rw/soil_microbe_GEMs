@@ -1,7 +1,7 @@
 {
   "model_id": "cesiri",
   "species_directory": "cesiribacter_andamanensis_Xu_cesiri",
-  "start_time": "2025-06-14 19:57:15",
+  "start_time": "2025-06-15 14:43:45",
   "input_file": "Cesiribacter_andamanensis_AMV16.gf.with_additional_reactions.xml",
   "output_file": "cesiri_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/cesiribacter_andamanensis_Xu_cesiri/conversion_logs/cesiri_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/cesiribacter_andamanensis_Xu_cesiri/conversion_logs/cesiri_conversion_summary.json"
   },
-  "end_time": "2025-06-14 19:57:47",
-  "processing_time_seconds": 31.2976,
+  "end_time": "2025-06-15 14:44:16",
+  "processing_time_seconds": 30.5362,
   "success": true
 }

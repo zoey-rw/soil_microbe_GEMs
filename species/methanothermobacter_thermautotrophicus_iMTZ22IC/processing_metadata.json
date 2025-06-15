@@ -1,7 +1,7 @@
 {
   "model_id": "iMTZ22IC",
   "species_directory": "methanothermobacter_thermautotrophicus_iMTZ22IC",
-  "start_time": "2025-06-14 20:01:26",
+  "start_time": "2025-06-15 14:48:18",
   "input_file": "iMTZ22IC_input.xml",
   "output_file": "iMTZ22IC_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanothermobacter_thermautotrophicus_iMTZ22IC/conversion_logs/iMTZ22IC_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanothermobacter_thermautotrophicus_iMTZ22IC/conversion_logs/iMTZ22IC_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:01:49",
-  "processing_time_seconds": 23.3592,
+  "end_time": "2025-06-15 14:48:41",
+  "processing_time_seconds": 23.1001,
   "success": true
 }

@@ -1,0 +1,7 @@
+"species","processing_success","processing_time","pattern_detected","metabolites_total","metabolites_converted","conversion_rate","problems_detected","error_message"
+"saccharomyces_cerevisiae_iMM904",TRUE,39.8782269954681,"bigg_chebi_kegg_metanetx_seed",1226,NA,100,0,NA
+"sphingopyxis_granuli_iIG743",FALSE,NA,NA,NA,NA,NA,NA,NA
+"staphylococcus_aureus_iSB619",TRUE,28.6729922294617,"bigg_chebi_kegg_metanetx_seed",655,NA,100,0,NA
+"streptomyces_coelicolor_iKS1317",TRUE,42.7524480819702,"bigg_chebi_kegg_metanetx",2064,NA,90.6,0,NA
+"trichoderma_reesei_treesei",TRUE,33.0857775211334,"simple_bigg",1984,NA,99.8,0,NA
+"variovorax_SRS16_iRZ1425",FALSE,NA,NA,NA,NA,NA,NA,"All SBML read attempts failed: Document is empty [4]"

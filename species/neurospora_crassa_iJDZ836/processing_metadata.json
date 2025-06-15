@@ -1,7 +1,7 @@
 {
   "model_id": "iJDZ836",
   "species_directory": "neurospora_crassa_iJDZ836",
-  "start_time": "2025-06-14 20:02:49",
+  "start_time": "2025-06-15 14:49:56",
   "input_file": "N_crassa_iJDZ836.xml",
   "output_file": "iJDZ836_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/neurospora_crassa_iJDZ836/conversion_logs/iJDZ836_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/neurospora_crassa_iJDZ836/conversion_logs/iJDZ836_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:03:20",
-  "processing_time_seconds": 31.6141,
+  "end_time": "2025-06-15 14:50:28",
+  "processing_time_seconds": 31.062,
   "success": true
 }

@@ -1,7 +1,7 @@
 {
   "model_id": "iMG746",
   "species_directory": "methanosarcina_barkeri_iMG746",
-  "start_time": "2025-06-14 20:01:01",
+  "start_time": "2025-06-15 14:47:54",
   "input_file": "iMG746_input.xml",
   "output_file": "iMG746_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanosarcina_barkeri_iMG746/conversion_logs/iMG746_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanosarcina_barkeri_iMG746/conversion_logs/iMG746_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:01:26",
-  "processing_time_seconds": 24.6498,
+  "end_time": "2025-06-15 14:48:18",
+  "processing_time_seconds": 24.0357,
   "success": true
 }

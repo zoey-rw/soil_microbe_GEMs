@@ -13110,7 +13110,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
       </reaction>
       <reaction metaid="R_MoeAB" id="R_MoeAB" name="MoeA: molybdopterin molybdotransferase" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_ISG36_04800 or G_ISG36_06625) and G_ISG36_07555) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -13152,7 +13152,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
       </reaction>
       <reaction metaid="R_MobAB" id="R_MobAB" name="MobA: molybdenum cofactor guanylyltransferase" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_ISG36_00695 or G_ISG36_02475) and G_ISG36_07495) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -19260,7 +19260,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
       </reaction>
       <reaction metaid="R_ACLS" id="R_ACLS" name="ilvH: acetolactate synthase" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_ISG36_06975 and (G_ISG36_06980 or G_ISG36_07735 or G_ISG36_02260) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -19912,7 +19912,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
       </reaction>
       <reaction metaid="R_ACHBS" id="R_ACHBS" name="2-aceto-2-hydroxybutanoate synthase, acetolactate synthase" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_ISG36_06975 and (G_ISG36_06980 or G_ISG36_07735 or G_ISG36_02260) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -24194,7 +24194,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
       </reaction>
       <reaction metaid="R_GLUS_F420" id="R_GLUS_F420" name="Glutamate synthase (F420)" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_ISG36_00925 and (G_ISG36_00930 or G_ISG36_00510) and G_ISG36_00935 and (G_ISG36_00940 or G_ISG36_00505) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -35700,7 +35700,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM5788_e" name="hpp e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_hpp_e" name="hpp e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35719,7 +35719,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1984_e" name="dhgly e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_dhgly_e" name="dhgly e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35738,7 +35738,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM75_e" name="acald e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_acald_e" name="acald e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35757,7 +35757,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM274_e" name="nac e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_nac_e" name="nac e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35776,7 +35776,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM734590_e" name="gcald e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_gcald_e" name="gcald e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35795,7 +35795,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM117_e" name="urea e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_urea_e" name="urea e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35814,7 +35814,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM733831_e" name="amob e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_amob_e" name="amob e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35852,7 +35852,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM216_e" name="ncam e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_ncam_e" name="ncam e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35871,7 +35871,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM13_e" name="co2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_co2_e" name="co2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35890,7 +35890,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM739586_e" name="ch4 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_ch4_e" name="ch4 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35909,7 +35909,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1108018_e" name="h2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_h2_e" name="h2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35928,7 +35928,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM731950_e" name="ni2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_ni2_e" name="ni2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35947,7 +35947,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90960_e" name="cobalt2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_cobalt2_e" name="cobalt2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35966,7 +35966,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372038_e" name="fe2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_fe2_e" name="fe2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -35985,7 +35985,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372251_e" name="zn2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_zn2_e" name="zn2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36004,7 +36004,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM653_e" name="mg2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_mg2_e" name="mg2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36023,7 +36023,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM128_e" name="ca2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_ca2_e" name="ca2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36042,7 +36042,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM95_e" name="k e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_k_e" name="k e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36061,7 +36061,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM726090_e" name="mobd e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_mobd_e" name="mobd e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36080,7 +36080,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1543954_e" name="tungs e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_tungs_e" name="tungs e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36099,7 +36099,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM27_e" name="na1 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_na1_e" name="na1 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36118,7 +36118,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM9_e" name="pi e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_pi_e" name="pi e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36137,7 +36137,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1_e" name="h e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_h_e" name="h e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36156,7 +36156,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1094052_e" name="ppa e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_ppa_e" name="ppa e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36175,7 +36175,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM304_e" name="btn e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_btn_e" name="btn e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36194,7 +36194,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1364475_e" name="2dglc e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_2dglc_e" name="2dglc e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36213,7 +36213,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM51036_e" name="n2 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_n2_e" name="n2 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36232,7 +36232,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM738068_e" name="cys L e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_cys__L_e" name="cys L e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36251,7 +36251,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_WATER_e" name="h2o e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_h2o_e" name="h2o e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36270,7 +36270,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1136254_e" name="glyc R e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_glyc__R_e" name="glyc R e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36289,7 +36289,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729302_e" name="nh3 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_nh3_e" name="nh3 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36308,7 +36308,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM39_e" name="for e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_for_e" name="for e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36327,7 +36327,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM26_e" name="ac e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_ac_e" name="ac e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36346,7 +36346,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM405_e" name="5aop e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_5aop_e" name="5aop e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36365,7 +36365,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM23_e" name="pyr e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_pyr_e" name="pyr e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36384,7 +36384,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM25_e" name="succ e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_succ_e" name="succ e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36403,7 +36403,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM726637_e" name="co e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_co_e" name="co e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36422,7 +36422,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1366923_e" name="h2s e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_h2s_e" name="h2s e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36441,7 +36441,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM737265_e" name="pac e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_pac_e" name="pac e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36460,7 +36460,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735208_e" name="4hphac e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_4hphac_e" name="4hphac e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36479,7 +36479,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM383_e" name="ind3ac e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_ind3ac_e" name="ind3ac e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36498,7 +36498,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM421_e" name="4abz e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_4abz_e" name="4abz e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36517,7 +36517,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM737340_e" name="fum e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_fum_e" name="fum e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36536,7 +36536,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM114_e" name="pro L e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_pro__L_e" name="pro L e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>
@@ -36555,7 +36555,7 @@ Methanogenesis allows methanogenic archaea (methanogens) to generate cellular en
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1103313_e" name="dad 5 e Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_dad_5_e" name="dad 5 e Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
         </notes>

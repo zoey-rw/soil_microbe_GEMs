@@ -1,7 +1,7 @@
 {
   "model_id": "iFC579",
   "species_directory": "nitrobacter_winogradskyi_iFC579",
-  "start_time": "2025-06-14 20:03:20",
+  "start_time": "2025-06-15 14:50:28",
   "input_file": "iFC579_input.xml",
   "output_file": "iFC579_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrobacter_winogradskyi_iFC579/conversion_logs/iFC579_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrobacter_winogradskyi_iFC579/conversion_logs/iFC579_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:03:47",
-  "processing_time_seconds": 26.7261,
+  "end_time": "2025-06-15 14:50:54",
+  "processing_time_seconds": 26.1062,
   "success": true
 }

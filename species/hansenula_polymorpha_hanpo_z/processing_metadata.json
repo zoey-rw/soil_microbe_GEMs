@@ -1,7 +1,7 @@
 {
   "model_id": "z",
   "species_directory": "hansenula_polymorpha_hanpo_z",
-  "start_time": "2025-06-14 19:59:17",
+  "start_time": "2025-06-15 14:46:13",
   "input_file": "hanpo_input.xml",
   "output_file": "z_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/hansenula_polymorpha_hanpo_z/conversion_logs/z_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/hansenula_polymorpha_hanpo_z/conversion_logs/z_conversion_summary.json"
   },
-  "end_time": "2025-06-14 19:59:55",
-  "processing_time_seconds": 37.7416,
+  "end_time": "2025-06-15 14:46:50",
+  "processing_time_seconds": 36.6602,
   "success": true
 }

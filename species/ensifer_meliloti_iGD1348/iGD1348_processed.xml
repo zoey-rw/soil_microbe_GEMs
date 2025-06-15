@@ -33560,7 +33560,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_cpdLPS3_e" name="Source of cpdLPS3" reversible="true" fast="false">
+      <reaction id="R_SOURCE_cpdLPS3" name="Source of cpdLPS3" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpdLPS3_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40501,7 +40501,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2_e" name="EX H2O (water) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00001_e0" name="EX H2O (water) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM2_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40517,7 +40517,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1_e" name="EX H (proton) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00067_e0" name="EX H (proton) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40533,7 +40533,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM13_e" name="EX CO2 (carbon dioxide) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00011_e0" name="EX CO2 (carbon dioxide) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM13_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40549,7 +40549,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM726637_e" name="EX CO (carbon monoxide) c0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00204_e0" name="EX CO (carbon monoxide) c0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM726637_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40565,7 +40565,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735437_e" name="EX O2 (oxygen) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00007_e0" name="EX O2 (oxygen) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM735437_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40581,7 +40581,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90960_e" name="EX Co2 (cobalt) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00149_e0" name="EX Co2 (cobalt) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM90960_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40597,7 +40597,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM9_e" name="EX PO4 (phosphate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00009_e0" name="EX PO4 (phosphate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM9_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40613,7 +40613,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM653_e" name="EX Mg (magnesium) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00254_e0" name="EX Mg (magnesium) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM653_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40629,7 +40629,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM128_e" name="EX Ca2 (calcium) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00063_e0" name="EX Ca2 (calcium) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM128_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40645,7 +40645,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2255_e" name="EX Mn2 (manganese) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00030_e0" name="EX Mn2 (manganese) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM2255_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40661,7 +40661,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM726710_e" name="EX Fe2 (iron) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd10515_e0" name="EX Fe2 (iron) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM726710_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40677,7 +40677,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM196_e" name="EX Fe3 (iron) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd10516_e0" name="EX Fe3 (iron) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM196_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40693,7 +40693,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729214_e" name="EX Zn2 (zinc) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00034_e0" name="EX Zn2 (zinc) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM729214_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40709,7 +40709,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM95_e" name="EX K (potassium) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00205_e0" name="EX K (potassium) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM95_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40725,7 +40725,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM27_e" name="EX Na (sodium) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00971_e0" name="EX Na (sodium) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM27_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40741,7 +40741,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM304_e" name="EX Biotin e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00104_e0" name="EX Biotin e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM304_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40757,7 +40757,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729302_e" name="EX NH3 (ammonia) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00013_e0" name="EX NH3 (ammonia) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM729302_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40773,7 +40773,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM58_e" name="EX SO4 (sulfate) e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00048_e0" name="EX SO4 (sulfate) e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM58_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40789,7 +40789,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM167_e" name="EX Sucrose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00076_e0" name="EX Sucrose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM167_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40805,7 +40805,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735623_e" name="EX D-glucose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00027_e0" name="EX D-glucose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM735623_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -40821,7 +40821,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM25_e" name="EX Succinate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00036_e0" name="EX Succinate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM25_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54135,7 +54135,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM87584_e" name="EX trans-4-hydroxy-L-proline e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00851_e0" name="EX trans-4-hydroxy-L-proline e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM87584_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54151,7 +54151,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2813_e" name="EX cis-4-hydroxy-D-proline e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd02175_e0" name="EX cis-4-hydroxy-D-proline e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM2813_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54167,7 +54167,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1370556_e" name="EX L-arabinose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00224_e0" name="EX L-arabinose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1370556_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54183,7 +54183,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM162989_e" name="EX D-proline e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00567_e0" name="EX D-proline e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM162989_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54199,7 +54199,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM114_e" name="EX L-proline e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00129_e0" name="EX L-proline e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM114_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54215,7 +54215,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM741174_e" name="EX L-ornithine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00064_e0" name="EX L-ornithine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM741174_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54231,7 +54231,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM98_e" name="EX L-malate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00130_e0" name="EX L-malate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM98_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54247,7 +54247,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM93_e" name="EX Fumarate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00106_e0" name="EX Fumarate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM93_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54263,7 +54263,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM204_e" name="EX Protocatechuate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00197_e0" name="EX Protocatechuate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM204_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54279,7 +54279,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM734799_e" name="EX Erythritol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00392_e0" name="EX Erythritol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM734799_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54295,7 +54295,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1820_e" name="EX Adonitol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00366_e0" name="EX Adonitol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1820_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54311,7 +54311,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM740330_e" name="EX L-arabitol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00417_e0" name="EX L-arabitol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM740330_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54327,7 +54327,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735266_e" name="EX D-galactose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00108_e0" name="EX D-galactose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM735266_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54343,7 +54343,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM134_e" name="EX L-Histidine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00119_e0" name="EX L-Histidine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM134_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54359,7 +54359,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1106760_e" name="EX L-Leucine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00107_e0" name="EX L-Leucine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1106760_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54375,7 +54375,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM199_e" name="EX L-Valine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00156_e0" name="EX L-Valine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM199_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54391,7 +54391,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM231_e" name="EX L-Isoleucine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00322_e0" name="EX L-Isoleucine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM231_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54407,7 +54407,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM728398_e" name="EX Melibiose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd03198_e0" name="EX Melibiose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM728398_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54423,7 +54423,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM621_e" name="EX Raffinose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00382_e0" name="EX Raffinose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM621_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54439,7 +54439,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729340_e" name="EX Stachyose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01133_e0" name="EX Stachyose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM729340_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54455,7 +54455,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM147_e" name="EX L-Asparagine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00132_e0" name="EX L-Asparagine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM147_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54471,7 +54471,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735837_e" name="EX L-Aspartate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00041_e0" name="EX L-Aspartate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM735837_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54487,7 +54487,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM741172_e" name="EX L-Glutamate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00023_e0" name="EX L-Glutamate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM741172_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54503,7 +54503,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM37_e" name="EX L-Glutamine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00053_e0" name="EX L-Glutamine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM37_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54519,7 +54519,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM722749_e" name="EX D-Cellobiose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00158_e0" name="EX D-Cellobiose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM722749_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54535,7 +54535,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM18038_e" name="EX Gentiobiose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd05158_e0" name="EX Gentiobiose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM18038_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54551,7 +54551,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM722992_e" name="EX Mannobiose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpdMNBE_e0" name="EX Mannobiose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM722992_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54567,7 +54567,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2561_e" name="EX Salicin e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01030_e0" name="EX Salicin e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM2561_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54583,7 +54583,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2683_e" name="EX Arbutin e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd03696_e0" name="EX Arbutin e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM2683_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54599,7 +54599,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM728393_e" name="EX N-Acetyl-D-Glucosamine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00122_e0" name="EX N-Acetyl-D-Glucosamine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM728393_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54615,7 +54615,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM533_e" name="EX D-Glucosamine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00276_e0" name="EX D-Glucosamine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM533_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54631,7 +54631,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM395_e" name="EX N-Acetyl-D-Galactosamine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00832_e0" name="EX N-Acetyl-D-Galactosamine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM395_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54647,7 +54647,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM48446_e" name="EX D-Galactosamine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01524_e0" name="EX D-Galactosamine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM48446_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54663,7 +54663,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM92401_e" name="EX D-Tagatose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00589_e0" name="EX D-Tagatose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM92401_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54679,7 +54679,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM89612_e" name="EX Glycerol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00100_e0" name="EX Glycerol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM89612_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54695,7 +54695,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM732202_e" name="EX D-Trehalose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00794_e0" name="EX D-Trehalose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM732202_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54711,7 +54711,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM165_e" name="EX Maltose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00179_e0" name="EX Maltose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM165_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54727,7 +54727,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM730185_e" name="EX Turanose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd20885_e0" name="EX Turanose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM730185_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54743,7 +54743,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM722790_e" name="EX Amylotriose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01262_e0" name="EX Amylotriose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM722790_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54759,7 +54759,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM3518_e" name="EX Palatinose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01200_e0" name="EX Palatinose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM3518_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54775,7 +54775,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_cpdMALT_e" name="EX Maltitol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpdMALT_e0" name="EX Maltitol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpdMALT_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54791,7 +54791,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM182_e" name="EX D-Mannose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00138_e0" name="EX D-Mannose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM182_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54807,7 +54807,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8509_e" name="EX D-Psicose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd03884_e0" name="EX D-Psicose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8509_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54823,7 +54823,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM113989_e" name="EX Xylose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00154_e0" name="EX Xylose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM113989_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54839,7 +54839,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM727692_e" name="EX M inositol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00121_e0" name="EX M inositol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM727692_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54855,7 +54855,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM615_e" name="EX D-Mannitol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00314_e0" name="EX D-Mannitol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM615_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54871,7 +54871,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM736685_e" name="EX D-Sorbitol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00588_e0" name="EX D-Sorbitol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM736685_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54887,7 +54887,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1018_e" name="EX D-Arabitol e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01307_e0" name="EX D-Arabitol e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1018_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54903,7 +54903,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM732914_e" name="EX D Ribose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00105_e0" name="EX D Ribose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM732914_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54919,7 +54919,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM23_e" name="EX Pyruvic Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00020_e0" name="EX Pyruvic Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM23_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54935,7 +54935,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM76_e" name="EX L-Tyrosine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00069_e0" name="EX L-Tyrosine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM76_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54951,7 +54951,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM663_e" name="EX (R)-3-Hydroxybutyric acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00797_e0" name="EX (R)-3-Hydroxybutyric acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM663_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54967,7 +54967,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729594_e" name="EX Acetoacetic Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00142_e0" name="EX Acetoacetic Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM729594_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54983,7 +54983,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM739526_e" name="EX L-arginine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00051_e0" name="EX L-arginine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM739526_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -54999,7 +54999,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1380_e" name="EX D-Fructose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00082_e0" name="EX D-Fructose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1380_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55015,7 +55015,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1151_e" name="EX L-rhamnose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00396_e0" name="EX L-rhamnose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1151_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55031,7 +55031,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM734837_e" name="EX alpha-D-Lactose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00208_e0" name="EX alpha-D-Lactose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM734837_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55047,7 +55047,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM727315_e" name="EX Lactulose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd04349_e0" name="EX Lactulose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM727315_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55063,7 +55063,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM3304_e" name="EX Methyl beta-D-galactopyranoside e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd02274_e0" name="EX Methyl beta-D-galactopyranoside e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM3304_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55079,7 +55079,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM733981_e" name="EX L-Alanine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00035_e0" name="EX L-Alanine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM733981_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55095,7 +55095,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM212_e" name="EX Adenosine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00182_e0" name="EX Adenosine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM212_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55111,7 +55111,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM334_e" name="EX Inosine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00246_e0" name="EX Inosine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM334_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55127,7 +55127,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM288_e" name="EX Uridine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00249_e0" name="EX Uridine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM288_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55143,7 +55143,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8670_e" name="EX gly pro L e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11588_e0" name="EX gly pro L e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8670_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55159,7 +55159,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM55269_e" name="EX gly asp L e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11589_e0" name="EX gly asp L e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM55269_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55175,7 +55175,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8667_e" name="EX gly glu L e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11592_e0" name="EX gly glu L e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8667_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55191,7 +55191,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1370306_e" name="EX ala L asp L e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11593_e0" name="EX ala L asp L e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1370306_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55207,7 +55207,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1370308_e" name="EX Ala Gln e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11587_e0" name="EX Ala Gln e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1370308_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55223,7 +55223,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8263_e" name="EX ala L glu L e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11586_e0" name="EX ala L glu L e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8263_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55239,7 +55239,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1369179_e" name="EX L alanylglycine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11585_e0" name="EX L alanylglycine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1369179_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55255,7 +55255,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM722856_e" name="EX Ala His e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11584_e0" name="EX Ala His e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM722856_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55271,7 +55271,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729871_e" name="EX Ala Leu e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11583_e0" name="EX Ala Leu e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM729871_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55287,7 +55287,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8264_e" name="EX ala L Thr L e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11582_e0" name="EX ala L Thr L e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8264_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55303,7 +55303,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM55276_e" name="EX Gly Gln e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11580_e0" name="EX Gly Gln e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM55276_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55319,7 +55319,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM55287_e" name="EX Gly Met e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11591_e0" name="EX Gly Met e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM55287_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55335,7 +55335,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8868_e" name="EX Met-Ala e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11590_e0" name="EX Met-Ala e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8868_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55351,7 +55351,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8664_e" name="EX gly asn L e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11581_e0" name="EX gly asn L e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8664_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55367,7 +55367,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM61743_e" name="EX beta-Methyl-D-Glucoside e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11603_e0" name="EX beta-Methyl-D-Glucoside e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM61743_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55383,7 +55383,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM659_e" name="EX L-Fucose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00751_e0" name="EX L-Fucose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM659_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55399,7 +55399,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM737786_e" name="EX L-Serine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00054_e0" name="EX L-Serine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM737786_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55415,7 +55415,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM192_e" name="EX gamma-Aminobutyric acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00281_e0" name="EX gamma-Aminobutyric acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM192_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55431,7 +55431,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM477_e" name="EX Malonate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00308_e0" name="EX Malonate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM477_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55447,7 +55447,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM26_e" name="EX Acetic Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00029_e0" name="EX Acetic Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM26_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55463,7 +55463,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM39_e" name="EX Formic Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00047_e0" name="EX Formic Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM39_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55479,7 +55479,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90_e" name="EX Choline e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00098_e0" name="EX Choline e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM90_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55495,7 +55495,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM289_e" name="EX Glycine betaine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00540_e0" name="EX Glycine betaine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM289_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55511,7 +55511,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM18941_e" name="EX stachydrine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd07061_e0" name="EX stachydrine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM18941_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55527,7 +55527,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM168_e" name="EX Adenine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00128_e0" name="EX Adenine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM168_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55543,7 +55543,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM738834_e" name="EX Allantoin e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01092_e0" name="EX Allantoin e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM738834_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55559,7 +55559,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM156_e" name="EX D-Alanine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00117_e0" name="EX D-Alanine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM156_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55575,7 +55575,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM331_e" name="EX D-Glutamic Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00186_e0" name="EX D-Glutamic Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM331_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55591,7 +55591,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM733114_e" name="EX Guanine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00207_e0" name="EX Guanine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM733114_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55607,7 +55607,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM401_e" name="EX Guanosine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00311_e0" name="EX Guanosine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM401_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55623,7 +55623,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM722752_e" name="EX L-Citrulline e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00274_e0" name="EX L-Citrulline e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM722752_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55639,7 +55639,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM117_e" name="EX Urea e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00073_e0" name="EX Urea e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM117_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55655,7 +55655,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM964_e" name="EX L-Pyroglutamic Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01293_e0" name="EX L-Pyroglutamic Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM964_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55671,7 +55671,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1231_e" name="EX Formamide e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00378_e0" name="EX Formamide e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1231_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55687,7 +55687,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM255_e" name="EX Methylamine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00187_e0" name="EX Methylamine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM255_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55703,7 +55703,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1094693_e" name="EX H2CO3 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00242_e0" name="EX H2CO3 e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1094693_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55719,7 +55719,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM107_e" name="EX Nitrite e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00075_e0" name="EX Nitrite e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM107_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55735,7 +55735,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM732398_e" name="EX Nitrate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00209_e0" name="EX Nitrate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM732398_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55751,7 +55751,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM420_e" name="EX Thymidine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00184_e0" name="EX Thymidine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM420_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55767,7 +55767,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1370229_e" name="EX Thymine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00151_e0" name="EX Thymine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1370229_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55783,7 +55783,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1369194_e" name="EX Uracil e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00092_e0" name="EX Uracil e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1369194_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55799,7 +55799,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM441_e" name="EX Uric Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00300_e0" name="EX Uric Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM441_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55815,7 +55815,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM174_e" name="EX XAN e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00309_e0" name="EX XAN e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM174_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55831,7 +55831,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM687_e" name="EX Xanthosine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01217_e0" name="EX Xanthosine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM687_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55847,7 +55847,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM118_e" name="EX Putrescine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00118_e0" name="EX Putrescine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM118_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55863,7 +55863,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM328_e" name="EX Agmatine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00152_e0" name="EX Agmatine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM328_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55879,7 +55879,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM739757_e" name="EX N2 gas e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00528_e0" name="EX N2 gas e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM739757_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55895,7 +55895,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1094294_e" name="EX trimethylamine c0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00441_e0" name="EX trimethylamine c0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1094294_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55911,7 +55911,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM741485_e" name="EX Selenide e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01078_e0" name="EX Selenide e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM741485_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55927,7 +55927,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM11_e" name="EX PPi e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00012_e0" name="EX PPi e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM11_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55943,7 +55943,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM29_e" name="EX Glycine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00033_e0" name="EX Glycine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM29_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55959,7 +55959,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1104802_e" name="EX L Lysine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00039_e0" name="EX L Lysine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1104802_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55975,7 +55975,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM632_e" name="EX Cu2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00058_e0" name="EX Cu2 e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM632_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -55991,7 +55991,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM738803_e" name="EX L Methionine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00060_e0" name="EX L Methionine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM738803_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56007,7 +56007,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM741663_e" name="EX L-Phenylalanine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00066_e0" name="EX L-Phenylalanine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM741663_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56023,7 +56023,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM66_e" name="EX Glycerol 3 phosphate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00080_e0" name="EX Glycerol 3 phosphate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM66_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56039,7 +56039,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM738067_e" name="EX L-Cysteine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00084_e0" name="EX L-Cysteine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM738067_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56055,7 +56055,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM131_e" name="EX Citrate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00137_e0" name="EX Citrate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM131_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56071,7 +56071,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM150_e" name="EX 5 Methylthioadenosine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00147_e0" name="EX 5 Methylthioadenosine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM150_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56087,7 +56087,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM738128_e" name="EX Glycogen e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00155_e0" name="EX Glycogen e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM738128_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56103,7 +56103,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM179_e" name="EX L-Lactic Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00159_e0" name="EX L-Lactic Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM179_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56119,7 +56119,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM142_e" name="EX L-Threonine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00161_e0" name="EX L-Threonine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM142_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56135,7 +56135,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM341_e" name="EX GLCN e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00222_e0" name="EX GLCN e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM341_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56151,7 +56151,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM732487_e" name="EX HYXN e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00226_e0" name="EX HYXN e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM732487_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56167,7 +56167,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM353_e" name="EX L-Homoserine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00227_e0" name="EX L-Homoserine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM353_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56183,7 +56183,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM124_e" name="EX Spermidine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00264_e0" name="EX Spermidine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM124_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56199,7 +56199,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM730135_e" name="EX Thiamin e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00305_e0" name="EX Thiamin e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM730135_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56215,7 +56215,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM761_e" name="EX Cytosine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00307_e0" name="EX Cytosine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM761_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56231,7 +56231,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM338_e" name="EX Cytidine e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00367_e0" name="EX Cytidine e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM338_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56247,7 +56247,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1608_e" name="EX D-Malic Acid e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00386_e0" name="EX D-Malic Acid e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1608_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56263,7 +56263,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM722779_e" name="EX homocitrate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00919_e0" name="EX homocitrate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM722779_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56279,7 +56279,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM4505_e" name="EX Cd2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01012_e0" name="EX Cd2 e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM4505_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56295,7 +56295,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM683_e" name="EX Cys Gly e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01017_e0" name="EX Cys Gly e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM683_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56311,7 +56311,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2474_e" name="EX Thyminose e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01242_e0" name="EX Thyminose e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM2474_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56327,7 +56327,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2246_e" name="EX L Methionine S oxide e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01914_e0" name="EX L Methionine S oxide e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM2246_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56343,7 +56343,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1692_e" name="EX 2-aminoethylphosphonate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd02233_e0" name="EX 2-aminoethylphosphonate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1692_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56359,7 +56359,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM726090_e" name="EX molybdate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11574_e0" name="EX molybdate e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM726090_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56375,7 +56375,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM195_e" name="H2 gas e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd11640_e0" name="H2 gas e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM195_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56391,7 +56391,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM6281_e" name="EX glycogenn 1 c0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd15302_c0" name="EX glycogenn 1 c0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM6281_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56407,7 +56407,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8666_e" name="EX Gly Cys e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd15603_e0" name="EX Gly Cys e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8666_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56423,7 +56423,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM126241_e" name="EX Gly Leu e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd15604_e0" name="EX Gly Leu e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM126241_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56439,7 +56439,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8669_e" name="EX Gly Phe e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd15605_e0" name="EX Gly Phe e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8669_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56455,7 +56455,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM8671_e" name="EX Gly Tyr e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd15606_e0" name="EX Gly Tyr e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM8671_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -56471,7 +56471,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_cpdFixed_e" name="Fixed ammonia e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpdFixed_e0" name="Fixed ammonia e0" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_cpdFixed_e" stoichiometry="1" constant="true"/>
         </listOfReactants>

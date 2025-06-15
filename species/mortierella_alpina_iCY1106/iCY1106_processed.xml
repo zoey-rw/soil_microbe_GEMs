@@ -63422,7 +63422,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_ppbg_e" name="porphobilinogen transporter" reversible="true" fast="false">
+      <reaction id="R_tr_ppbgcm" name="porphobilinogen transporter" reversible="true" fast="false">
         <listOfProducts>
           <speciesReference species="M_ppbg_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
@@ -64238,7 +64238,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_dglc_e" name="d-glucose exchange" reversible="true" fast="false">
+      <reaction id="R_ex_dglc_e" name="d-glucose exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_dglc_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64254,7 +64254,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM9_e" name="orthophosphate exchange" reversible="true" fast="false">
+      <reaction id="R_ex_pi_e" name="orthophosphate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM9_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64270,7 +64270,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735438_e" name="oxygen exchange" reversible="true" fast="false">
+      <reaction id="R_ex_o2_e" name="oxygen exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM735438_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64286,7 +64286,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_hno3_e" name="nitrate exchange" reversible="true" fast="false">
+      <reaction id="R_ex_hno3_e" name="nitrate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_hno3_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64302,7 +64302,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_slf_e" name="sulfate exchange" reversible="true" fast="false">
+      <reaction id="R_ex_slf_e" name="sulfate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_slf_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64334,7 +64334,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_WATER_e" name="water exchange" reversible="true" fast="false">
+      <reaction id="R_ex_h2o_e" name="water exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_WATER_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64350,7 +64350,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1_e" name="H+ exchange" reversible="true" fast="false">
+      <reaction id="R_ex_h_e" name="H+ exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64446,7 +64446,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_gln_e" name="l-glutamine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_gln_e" name="l-glutamine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_gln_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64462,7 +64462,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_glu_e" name="l-glutamate exchange" reversible="true" fast="false">
+      <reaction id="R_ex_glu_e" name="l-glutamate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_glu_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64478,7 +64478,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_met_e" name="L-methionine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_met_e" name="L-methionine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_met_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64494,7 +64494,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_asp_e" name="l-aspartate exchange" reversible="true" fast="false">
+      <reaction id="R_ex_asp_e" name="l-aspartate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_asp_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64510,7 +64510,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_ala_e" name="l-alanine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_ala_e" name="l-alanine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_ala_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64526,7 +64526,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_ser_e" name="l-serine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_ser_e" name="l-serine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_ser_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64542,7 +64542,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_leu_e" name="l-leucine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_leu_e" name="l-leucine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_leu_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64558,7 +64558,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_arg_e" name="l-arginine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_arg_e" name="l-arginine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_arg_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64574,7 +64574,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_asn_e" name="l-asparagine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_asn_e" name="l-asparagine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_asn_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64590,7 +64590,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_his_e" name="l-histidine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_his_e" name="l-histidine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_his_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64606,7 +64606,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_lys_e" name="l-lysine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_lys_e" name="l-lysine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_lys_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64622,7 +64622,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_pro_e" name="l-proline exchange" reversible="true" fast="false">
+      <reaction id="R_ex_pro_e" name="l-proline exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_pro_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64638,7 +64638,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_val_e" name="l-valine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_val_e" name="l-valine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_val_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64654,7 +64654,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_cys_e" name="l-cysteine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_cys_e" name="l-cysteine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_cys_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64670,7 +64670,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_phe_e" name="l-phenylalanine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_phe_e" name="l-phenylalanine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_phe_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64686,7 +64686,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_ile_e" name="l-isoleucine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_ile_e" name="l-isoleucine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_ile_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64702,7 +64702,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_tyr_e" name="l-tyrosine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_tyr_e" name="l-tyrosine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_tyr_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64718,7 +64718,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM29_e" name="l-glycine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_gly_e" name="l-glycine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM29_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64734,7 +64734,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_thr_e" name="l-threonine exchange" reversible="true" fast="false">
+      <reaction id="R_ex_thr_e" name="l-threonine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_thr_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -64750,7 +64750,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_trp_e" name="l-tryptophan exchange" reversible="true" fast="false">
+      <reaction id="R_ex_trp_e" name="l-tryptophan exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_trp_e" stoichiometry="1" constant="true"/>
         </listOfReactants>

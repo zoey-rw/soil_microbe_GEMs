@@ -1,7 +1,7 @@
 {
   "model_id": "arthro",
   "species_directory": "arthrobacter_aurescens_Xu_arthro",
-  "start_time": "2025-06-14 19:54:03",
+  "start_time": "2025-06-15 14:40:38",
   "input_file": "290340.10.model.gf.full.atrazine.xml",
   "output_file": "arthro_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/arthrobacter_aurescens_Xu_arthro/conversion_logs/arthro_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/arthrobacter_aurescens_Xu_arthro/conversion_logs/arthro_conversion_summary.json"
   },
-  "end_time": "2025-06-14 19:54:42",
-  "processing_time_seconds": 39.1515,
+  "end_time": "2025-06-15 14:41:15",
+  "processing_time_seconds": 36.4181,
   "success": true
 }

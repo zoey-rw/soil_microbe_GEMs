@@ -1,7 +1,7 @@
 {
   "model_id": "iYY1101",
   "species_directory": "bradyrhizobium_diazoefficiens_iYY1101",
-  "start_time": "2025-06-14 19:56:51",
+  "start_time": "2025-06-15 14:43:21",
   "input_file": "Supplementary_file_-_S4.xml",
   "output_file": "iYY1101_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bradyrhizobium_diazoefficiens_iYY1101/conversion_logs/iYY1101_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bradyrhizobium_diazoefficiens_iYY1101/conversion_logs/iYY1101_conversion_summary.json"
   },
-  "end_time": "2025-06-14 19:57:15",
-  "processing_time_seconds": 23.8818,
+  "end_time": "2025-06-15 14:43:45",
+  "processing_time_seconds": 23.7894,
   "success": true
 }

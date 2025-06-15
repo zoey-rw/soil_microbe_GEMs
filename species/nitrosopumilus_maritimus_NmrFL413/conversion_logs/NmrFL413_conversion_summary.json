@@ -1,0 +1,38 @@
+{
+  "statistics": {
+    "model_id": "NmrFL413",
+    "total_metabolites": 825,
+    "successful_conversions": 803,
+    "metanetx_conversions": 802,
+    "unchanged_metabolites": 22,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 97.3,
+    "metanetx_rate": 97.2
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 802,
+      "percentage": 97.2
+    },
+    {
+      "conversion_type": "Other conversion",
+      "count": 1,
+      "percentage": 0.1
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 22,
+      "percentage": 2.7
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 802,
+      "Other conversion": 1,
+      "Unchanged": 22
+    }
+  ]
+}

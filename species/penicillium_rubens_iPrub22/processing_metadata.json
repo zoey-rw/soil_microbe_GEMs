@@ -1,7 +1,7 @@
 {
   "model_id": "iPrub22",
   "species_directory": "penicillium_rubens_iPrub22",
-  "start_time": "2025-06-14 20:39:17",
+  "start_time": "2025-06-15 14:53:14",
   "input_file": "iPrub22.sbml",
   "output_file": "iPrub22_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/penicillium_rubens_iPrub22/conversion_logs/iPrub22_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/penicillium_rubens_iPrub22/conversion_logs/iPrub22_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:40:45",
-  "processing_time_seconds": 88.0297,
+  "end_time": "2025-06-15 14:54:40",
+  "processing_time_seconds": 85.4455,
   "success": true
 }

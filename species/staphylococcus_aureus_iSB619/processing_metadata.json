@@ -1,7 +1,7 @@
 {
   "model_id": "iSB619",
   "species_directory": "staphylococcus_aureus_iSB619",
-  "start_time": "2025-06-14 20:08:45",
+  "start_time": "2025-06-15 15:08:42",
   "input_file": "iSB619_input.xml",
   "output_file": "iSB619_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/staphylococcus_aureus_iSB619/conversion_logs/iSB619_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/staphylococcus_aureus_iSB619/conversion_logs/iSB619_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:09:11",
-  "processing_time_seconds": 26.4519,
+  "end_time": "2025-06-15 15:09:10",
+  "processing_time_seconds": 28.673,
   "success": true
 }

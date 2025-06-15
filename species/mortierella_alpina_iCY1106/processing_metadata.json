@@ -1,7 +1,7 @@
 {
   "model_id": "iCY1106",
   "species_directory": "mortierella_alpina_iCY1106",
-  "start_time": "2025-06-14 20:02:16",
+  "start_time": "2025-06-15 14:49:25",
   "input_file": "iCY1106_github_orig.xml",
   "output_file": "iCY1106_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/mortierella_alpina_iCY1106/conversion_logs/iCY1106_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/mortierella_alpina_iCY1106/conversion_logs/iCY1106_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:02:49",
-  "processing_time_seconds": 33.1651,
+  "end_time": "2025-06-15 14:49:56",
+  "processing_time_seconds": 31.5891,
   "success": true
 }

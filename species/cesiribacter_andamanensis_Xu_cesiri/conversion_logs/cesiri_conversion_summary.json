@@ -30,7 +30,7 @@
   "by_compartment": [
     {
       "compartment": "c",
-      "MetanetX conversion": 1273,
+      "MetanetX conversion": 1433,
       "Other conversion": 2,
       "Unchanged": 2
     },
@@ -38,11 +38,6 @@
       "compartment": "e",
       "MetanetX conversion": 69,
       "Other conversion": 1,
-      "Unchanged": 0
-    },
-    {
-      "MetanetX conversion": 160,
-      "Other conversion": 0,
       "Unchanged": 0
     }
   ]

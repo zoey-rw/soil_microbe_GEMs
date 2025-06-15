@@ -1,0 +1,13 @@
+{
+  "model_id": "iRZ1425",
+  "species_directory": "variovorax_SRS16_iRZ1425",
+  "start_time": "2025-06-15 15:10:26",
+  "input_file": "iRZ1425.xml",
+  "output_file": "iRZ1425_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": [],
+  "success": false,
+  "error": "All SBML read attempts failed: Document is empty [4]",
+  "end_time": "2025-06-15 15:10:49"
+}

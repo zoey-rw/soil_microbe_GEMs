@@ -1,7 +1,7 @@
 {
   "model_id": "iGC535",
   "species_directory": "nitrosomonas_europaea_iGC535",
-  "start_time": "2025-06-14 20:03:47",
+  "start_time": "2025-06-15 14:50:54",
   "input_file": "iGC535_input.xml",
   "output_file": "iGC535_processed.xml",
   "problems_detected": [],
@@ -9,32 +9,33 @@
   "conversion_summary": {
     "model_id": "iGC535",
     "total_metabolites": 1114,
-    "successful_conversions": 1096,
-    "metanetx_conversions": 1093,
-    "unchanged_metabolites": 18,
+    "successful_conversions": 1089,
+    "metanetx_conversions": 1089,
+    "unchanged_metabolites": 25,
     "failed_conversions": 0,
     "encoding_fixes_applied": 0,
-    "conversion_rate": 98.4,
-    "metanetx_rate": 98.1
+    "conversion_rate": 97.8,
+    "metanetx_rate": 97.8
   },
-  "pattern_detected": "simple_bigg",
+  "pattern_detected": "bigg_chebi_kegg_metanetx_seed",
+  "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi"],
   "metabolites_total": 1114,
   "conversion_log_files": {
     "statistics": {
       "model_id": "iGC535",
       "total_metabolites": 1114,
-      "successful_conversions": 1096,
-      "metanetx_conversions": 1093,
-      "unchanged_metabolites": 18,
+      "successful_conversions": 1089,
+      "metanetx_conversions": 1089,
+      "unchanged_metabolites": 25,
       "failed_conversions": 0,
       "encoding_fixes_applied": 0,
-      "conversion_rate": 98.4,
-      "metanetx_rate": 98.1
+      "conversion_rate": 97.8,
+      "metanetx_rate": 97.8
     },
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrosomonas_europaea_iGC535/conversion_logs/iGC535_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrosomonas_europaea_iGC535/conversion_logs/iGC535_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:04:14",
-  "processing_time_seconds": 27.3401,
+  "end_time": "2025-06-15 14:51:23",
+  "processing_time_seconds": 29.1017,
   "success": true
 }

@@ -1,7 +1,7 @@
 {
   "model_id": "iSD1509",
   "species_directory": "pseudomonas_aeruginosa_iSD1509",
-  "start_time": "2025-06-14 20:05:45",
+  "start_time": "2025-06-15 14:54:40",
   "input_file": "iSD1509.xml",
   "output_file": "iSD1509_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/pseudomonas_aeruginosa_iSD1509/conversion_logs/iSD1509_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/pseudomonas_aeruginosa_iSD1509/conversion_logs/iSD1509_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:06:22",
-  "processing_time_seconds": 37.3017,
+  "end_time": "2025-06-15 14:55:16",
+  "processing_time_seconds": 35.954,
   "success": true
 }

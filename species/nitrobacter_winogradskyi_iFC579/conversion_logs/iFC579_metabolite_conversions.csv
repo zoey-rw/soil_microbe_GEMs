@@ -774,7 +774,7 @@ cpd00277[c],cpd00277,MNXM647,MNXM647[c],c,TRUE,MetanetX conversion,FALSE
 cpd03736[c],cpd03736,MNXM731017,MNXM731017[c],c,TRUE,MetanetX conversion,FALSE
 cpd01777[c],cpd01777,MNXM729422,MNXM729422[c],c,TRUE,MetanetX conversion,FALSE
 cpd00047[c],cpd00047,MNXM39,MNXM39[c],c,TRUE,MetanetX conversion,FALSE
-cpd00047[e],cpd00047,MNXM39,MNXM39[NA],NA,TRUE,MetanetX conversion,FALSE
+cpd00047[e],cpd00047,MNXM39,MNXM39[e],e,TRUE,MetanetX conversion,FALSE
 cpd10516[e],cpd10516,MNXM1372039,MNXM1372039[e],e,TRUE,MetanetX conversion,FALSE
 cpd10516[c],cpd10516,MNXM1372039,MNXM1372039[c],c,TRUE,MetanetX conversion,FALSE
 cpd02930[c],cpd02930,MNXM1372492,MNXM1372492[c],c,TRUE,MetanetX conversion,FALSE

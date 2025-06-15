@@ -38774,7 +38774,7 @@
       </reaction>
       <reaction metaid="R_OIVD2" id="R_OIVD2" name="2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxobutanoate)" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_KZZ20_RS08245 or G_KZZ20_RS07910) and G_KZZ20_RS02165 and G_KZZ20_RS02155) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -39863,7 +39863,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM5988_e" name="cob(III)alamin sink" reversible="true" fast="false">
+      <reaction id="R_SK_cbl3_c" name="cob(III)alamin sink" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44693,7 +44693,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_cyt554oxi_e" name="cytochrome c554 sink" reversible="true" fast="false">
+      <reaction id="R_SK_cyt554oxi_p" name="cytochrome c554 sink" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44833,7 +44833,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM84_e" name="ammonium exchange" reversible="true" fast="false">
+      <reaction id="R_EX_nh4_e" name="ammonium exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44853,7 +44853,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM114217_e" name="dioxygen exchange" reversible="true" fast="false">
+      <reaction id="R_EX_o2_e" name="dioxygen exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44873,7 +44873,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2_e" name="H2O exchange" reversible="true" fast="false">
+      <reaction id="R_EX_h2o_e" name="H2O exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44893,7 +44893,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1_e" name="H+ exchange" reversible="true" fast="false">
+      <reaction id="R_EX_h_e" name="H+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44913,7 +44913,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM9_e" name="phosphate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_pi_e" name="phosphate exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44933,7 +44933,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM58_e" name="sulfate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_so4_e" name="sulfate exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44953,7 +44953,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM105788_e" name="Fe2+ exchange" reversible="true" fast="false">
+      <reaction id="R_EX_fe2_e" name="Fe2+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44973,7 +44973,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM653_e" name="Mg2+ exchange" reversible="true" fast="false">
+      <reaction id="R_EX_mg2_e" name="Mg2+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -44993,7 +44993,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM95_e" name="K+ exchange" reversible="true" fast="false">
+      <reaction id="R_EX_k_e" name="K+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -45013,7 +45013,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM27_e" name="Na+ exchange" reversible="true" fast="false">
+      <reaction id="R_EX_na1_e" name="Na+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -45033,7 +45033,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM114034_e" name="Zn2+ exchange" reversible="true" fast="false">
+      <reaction id="R_EX_zn2_e" name="Zn2+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -45053,7 +45053,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90270_e" name="molybdate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_mobd_e" name="molybdate exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -45073,7 +45073,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM632_e" name="Copper exchange" reversible="true" fast="false">
+      <reaction id="R_EX_cu2_e" name="Copper exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -45093,7 +45093,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90960_e" name="Cobalt  exchange" reversible="true" fast="false">
+      <reaction id="R_EX_cobalt2_e" name="Cobalt  exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -45113,7 +45113,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM128_e" name="Calcium exchange" reversible="true" fast="false">
+      <reaction id="R_EX_ca2_e" name="Calcium exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -45133,7 +45133,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735978_e" name="Chloride exchange" reversible="true" fast="false">
+      <reaction id="R_EX_cl_e" name="Chloride exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -45153,7 +45153,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2255_e" name="Manganese exchange" reversible="true" fast="false">
+      <reaction id="R_EX_mn2_e" name="Manganese exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>

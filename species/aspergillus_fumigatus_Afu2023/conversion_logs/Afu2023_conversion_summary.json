@@ -24,7 +24,7 @@
   ],
   "by_compartment": [
     {
-      "compartment": "cytoplasm",
+      "compartment": "c",
       "MetanetX conversion": 1325,
       "Unchanged": 169
     },
@@ -39,12 +39,12 @@
       "Unchanged": 2
     },
     {
-      "compartment": "lipid_particle",
+      "compartment": "lipid_part",
       "MetanetX conversion": 45,
       "Unchanged": 1
     },
     {
-      "compartment": "mitochondrion",
+      "compartment": "m",
       "MetanetX conversion": 772,
       "Unchanged": 100
     },

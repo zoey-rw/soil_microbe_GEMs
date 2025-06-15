@@ -1,7 +1,7 @@
 {
   "model_id": "iMR557",
   "species_directory": "methanococcus_maripaludis_iMR557",
-  "start_time": "2025-06-14 20:00:38",
+  "start_time": "2025-06-15 14:47:31",
   "input_file": "iMR557.xml",
   "output_file": "iMR557_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanococcus_maripaludis_iMR557/conversion_logs/iMR557_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanococcus_maripaludis_iMR557/conversion_logs/iMR557_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:01:01",
-  "processing_time_seconds": 23.2597,
+  "end_time": "2025-06-15 14:47:54",
+  "processing_time_seconds": 22.3726,
   "success": true
 }

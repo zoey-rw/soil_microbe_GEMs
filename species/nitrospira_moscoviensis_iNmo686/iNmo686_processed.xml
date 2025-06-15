@@ -4257,7 +4257,7 @@
       </reaction>
       <reaction id="R_rxn00285_c0" name="R00405" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS03220 or G_NITMOv2_RS10505) and G_NITMOv2_RS03225) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -4543,7 +4543,7 @@
       </reaction>
       <reaction id="R_rxn00474_c0" name="R00674" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS10560 and G_NITMOv2_RS10565) or G_NITMOv2_RS08145) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -4620,7 +4620,7 @@
       </reaction>
       <reaction id="R_rxn00527_c0" name="R00734" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS17320 or G_NITMOv2_RS20540 or G_NITMOv2_RS09465 or G_NITMOv2_RS22100) and G_NITMOv2_RS01580) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -6085,7 +6085,7 @@
       </reaction>
       <reaction id="R_rxn01682_c0" name="R02340" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS10565 and G_NITMOv2_RS10560) or G_NITMOv2_RS08145) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -6561,7 +6561,7 @@
       </reaction>
       <reaction id="R_rxn02789_c0" name="R03968" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS22070 or G_NITMOv2_RS22065 or (G_NITMOv2_RS22065 and G_NITMOv2_RS22070) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -6585,7 +6585,7 @@
       </reaction>
       <reaction id="R_rxn02811_c0" name="R04001" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS22070 or G_NITMOv2_RS22065 or (G_NITMOv2_RS22065 and G_NITMOv2_RS22070) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -7116,7 +7116,7 @@
       </reaction>
       <reaction id="R_rxn08527_c0" name="FRD2" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS21355 or G_NITMOv2_RS03215 or (G_NITMOv2_RS21350 and (G_NITMOv2_RS21355 or G_NITMOv2_RS03215)) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -7378,7 +7378,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_WATER_e" name="EX H2O e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00001_e0" name="EX H2O e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7398,7 +7398,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735438_e" name="EX O2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00007_e0" name="EX O2 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7418,7 +7418,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM9_e" name="EX Phosphate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00009_e0" name="EX Phosphate e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7438,7 +7438,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM13_e" name="EX CO2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00011_e0" name="EX CO2 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7478,7 +7478,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2255_e" name="EX Mn2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00030_e0" name="EX Mn2 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7498,7 +7498,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372251_e" name="EX Zn2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00034_e0" name="EX Zn2 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7538,7 +7538,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM58_e" name="EX Sulfate e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00048_e0" name="EX Sulfate e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7558,7 +7558,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM731166_e" name="EX Cu2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00058_e0" name="EX Cu2 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7578,7 +7578,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM128_e" name="EX Ca2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00063_e0" name="EX Ca2 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7618,7 +7618,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM107_e" name="EX Nitrite e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00075_e0" name="EX Nitrite e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7638,7 +7638,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735978_e" name="EX Cl e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00099_e0" name="EX Cl e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7698,7 +7698,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90960_e" name="EX Co2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00149_e0" name="EX Co2 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7718,7 +7718,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM95_e" name="EX K e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00205_e0" name="EX K e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7758,7 +7758,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM653_e" name="EX Mg e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00254_e0" name="EX Mg e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7818,7 +7818,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM27_e" name="EX Na e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00971_e0" name="EX Na e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7938,7 +7938,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372038_e" name="EX Fe2 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd10515_e0" name="EX Fe2 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -7958,7 +7958,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372039_e" name="EX fe3 e0" reversible="true" fast="false">
+      <reaction id="R_EX_cpd10516_e0" name="EX fe3 e0" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -8776,7 +8776,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1_e" name="EX H+ c" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00067_c0" name="EX H+ c" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -9679,7 +9679,7 @@
       </reaction>
       <reaction id="R_rxn00293_c0" name="R00416" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS15770 and G_NITMOv2_RS15770) or G_NITMOv2_RS17790 or G_NITMOv2_RS12950 or G_NITMOv2_RS11140) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -10889,7 +10889,7 @@
       </reaction>
       <reaction id="R_rxn01211_c0" name="R01655" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS19135 or (G_NITMOv2_RS03085 and G_NITMOv2_RS03085) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -11117,7 +11117,7 @@
       </reaction>
       <reaction id="R_rxn01466_c0" name="R02003" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS02640 and G_NITMOv2_RS17170) or G_NITMOv2_RS02640) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -17933,7 +17933,7 @@
       </reaction>
       <reaction id="R_rxn09310_c0" name="THZPSN" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS11080 or G_NITMOv2_RS11060) and G_NITMOv2_RS04560 and G_NITMOv2_RS15860 and G_NITMOv2_RS16330) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -18350,7 +18350,7 @@
       </reaction>
       <reaction id="R_rxn00011_c0" name="R00014" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS03920 and G_NITMOv2_RS03925) or G_NITMOv2_RS18600 or (G_NITMOv2_RS00285 and G_NITMOv2_RS00290) or G_NITMOv2_RS14525) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -18892,7 +18892,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM78334_e" name="rxn13782" reversible="true" fast="false">
+      <reaction id="R_rxn13782_c0" name="rxn13782" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS05740 and G_NITMOv2_RS04495 and G_NITMOv2_RS08155 and G_NITMOv2_RS05580 and G_NITMOv2_RS05670 and G_NITMOv2_RS19835 and G_NITMOv2_RS03025 and G_NITMOv2_RS05665 and G_NITMOv2_RS14635 and G_NITMOv2_RS05645 and G_NITMOv2_RS05730 and G_NITMOv2_RS05695 and G_NITMOv2_RS00525 and G_NITMOv2_RS05600 and G_NITMOv2_RS20590 and G_NITMOv2_RS08060 and G_NITMOv2_RS05650 and G_NITMOv2_RS16375 and G_NITMOv2_RS03785 and G_NITMOv2_RS16390 and G_NITMOv2_RS08075 and G_NITMOv2_RS04490 and G_NITMOv2_RS05625 and G_NITMOv2_RS03005 and G_NITMOv2_RS08080 and G_NITMOv2_RS20485 and G_NITMOv2_RS22290 and G_NITMOv2_RS15790 and G_NITMOv2_RS05605 and G_NITMOv2_RS05635 and G_NITMOv2_RS01455 and G_NITMOv2_RS05675 and G_NITMOv2_RS21070 and G_NITMOv2_RS10535 and G_NITMOv2_RS05660 and G_NITMOv2_RS05615 and G_NITMOv2_RS05720 and G_NITMOv2_RS05595 and G_NITMOv2_RS05690 and G_NITMOv2_RS14640 and G_NITMOv2_RS05630 and G_NITMOv2_RS05530 and (G_NITMOv2_RS01430 or G_NITMOv2_RS09985) and G_NITMOv2_RS16715 and G_NITMOv2_RS01470 and G_NITMOv2_RS05655 and G_NITMOv2_RS05575 and G_NITMOv2_RS01445 and G_NITMOv2_RS07720 and G_NITMOv2_RS08395 and G_NITMOv2_RS05620 and G_NITMOv2_RS04370 and G_NITMOv2_RS05555 and G_NITMOv2_RS01255 and G_NITMOv2_RS21055 and G_NITMOv2_RS06225 and G_NITMOv2_RS05610 and G_NITMOv2_RS01450 and G_NITMOv2_RS05725 and G_NITMOv2_RS15750 and G_NITMOv2_RS17030 and G_NITMOv2_RS03015 and G_NITMOv2_RS08380 and G_NITMOv2_RS05685 and G_NITMOv2_RS11410 and G_NITMOv2_RS20755 and G_NITMOv2_RS05640 and G_NITMOv2_RS05680 and G_NITMOv2_RS15735 and G_NITMOv2_RS05560 and G_NITMOv2_RS11485 and G_NITMOv2_RS01460) </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -18912,7 +18912,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM51417_e" name="rxn13783" reversible="true" fast="false">
+      <reaction id="R_rxn13783_c0" name="rxn13783" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS04030 and G_NITMOv2_RS03885 and G_NITMOv2_RS03320 and G_NITMOv2_RS10605 and G_NITMOv2_RS00015 and (G_NITMOv2_RS03010 or G_NITMOv2_RS14080) and G_NITMOv2_RS00020 and G_NITMOv2_RS00890 and G_NITMOv2_RS06190 and (G_NITMOv2_RS00010 or G_NITMOv2_RS07090 or G_NITMOv2_RS14460) and (G_NITMOv2_RS06920 or G_NITMOv2_RS15785) and G_N_moscoviensis_SEED__46__CDS__46__5987 and G_NITMOv2_RS18905 and (G_NITMOv2_RS02990 or G_NITMOv2_RS07930 or G_NITMOv2_RS09420) and G_NITMOv2_RS00005 and G_NITMOv2_RS00720) </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -18932,9 +18932,9 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM81014_e" name="rxn13784" reversible="true" fast="false">
+      <reaction id="R_rxn13784_c0" name="rxn13784" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (G_NITMOv2_RS01680 or G_NITMOv2_RS03890) and G_NITMOv2_RS05735 and (G_NITMOv2_RS20615 or G_NITMOv2_RS14175) and G_NITMOv2_RS03060 and G_NITMOv2_RS05565 and G_NITMOv2_RS01310 and G_NITMOv2_RS16380 and G_NITMOv2_RS17210 and G_N_moscoviensis_SEED__46__CDS__46__5856) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfProducts>

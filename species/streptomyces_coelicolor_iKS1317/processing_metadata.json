@@ -1,7 +1,7 @@
 {
   "model_id": "iKS1317",
   "species_directory": "streptomyces_coelicolor_iKS1317",
-  "start_time": "2025-06-14 20:09:11",
+  "start_time": "2025-06-15 15:09:10",
   "input_file": "iKS1317_input.xml",
   "output_file": "iKS1317_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/streptomyces_coelicolor_iKS1317/conversion_logs/iKS1317_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/streptomyces_coelicolor_iKS1317/conversion_logs/iKS1317_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:09:53",
-  "processing_time_seconds": 41.4331,
+  "end_time": "2025-06-15 15:09:53",
+  "processing_time_seconds": 42.7524,
   "success": true
 }

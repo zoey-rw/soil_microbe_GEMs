@@ -1,0 +1,2 @@
+"species","processing_success","processing_time","pattern_detected","metabolites_total","metabolites_converted","conversion_rate","problems_detected","error_message"
+"agrobacterium_tumefaciens_iNX1344",FALSE,NA,NA,NA,NA,NA,NA,"Opening and ending tag mismatch: dummy line 0 and p [76]"

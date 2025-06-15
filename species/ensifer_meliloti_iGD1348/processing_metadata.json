@@ -1,7 +1,7 @@
 {
   "model_id": "iGD1348",
   "species_directory": "ensifer_meliloti_iGD1348",
-  "start_time": "2025-06-14 19:58:14",
+  "start_time": "2025-06-15 14:44:42",
   "input_file": "iGD1348_input.xml",
   "output_file": "iGD1348_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/ensifer_meliloti_iGD1348/conversion_logs/iGD1348_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/ensifer_meliloti_iGD1348/conversion_logs/iGD1348_conversion_summary.json"
   },
-  "end_time": "2025-06-14 19:58:45",
-  "processing_time_seconds": 30.5913,
+  "end_time": "2025-06-15 14:45:11",
+  "processing_time_seconds": 29.3046,
   "success": true
 }

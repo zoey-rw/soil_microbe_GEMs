@@ -10412,7 +10412,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM421_e" name="4 Aminobenzoate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_4abz_e" name="4 Aminobenzoate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM421_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10444,7 +10444,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM26_e" name="Acetate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_ac_e" name="Acetate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM26_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10668,7 +10668,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM13_e" name="CO2 exchange" reversible="true" fast="false">
+      <reaction id="R_EX_co2_e" name="CO2 exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM13_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10700,7 +10700,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90960_e" name="Co2 exchange" reversible="true" fast="false">
+      <reaction id="R_EX_cobalt2_e" name="Co2 exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM90960_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10732,7 +10732,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM738068_e" name="L Cysteine exchange" reversible="true" fast="false">
+      <reaction id="R_EX_cys_L_e" name="L Cysteine exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM738068_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10956,7 +10956,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_WATER_e" name="H2O exchange" reversible="true" fast="false">
+      <reaction id="R_EX_h2o_e" name="H2O exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_WATER_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10972,7 +10972,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1366923_e" name="Hydrogen sulfide exchange" reversible="true" fast="false">
+      <reaction id="R_EX_h2s_e" name="Hydrogen sulfide exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1366923_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -10988,7 +10988,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1_e" name="H exchange" reversible="true" fast="false">
+      <reaction id="R_EX_h_e" name="H exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11164,7 +11164,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM51036_e" name="N2 exchange" reversible="true" fast="false">
+      <reaction id="R_EX_n2_e" name="N2 exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM51036_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11180,7 +11180,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM27_e" name="Sodium exchange" reversible="true" fast="false">
+      <reaction id="R_EX_na1_e" name="Sodium exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM27_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11196,7 +11196,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM274_e" name="Nicotinate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_nac_e" name="Nicotinate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM274_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11212,7 +11212,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729302_e" name="Ammonia exchange" reversible="true" fast="false">
+      <reaction id="R_EX_nh4_e" name="Ammonia exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM729302_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11228,7 +11228,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM731950_e" name="Ni2 exchange" reversible="true" fast="false">
+      <reaction id="R_EX_ni2_e" name="Ni2 exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM731950_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11260,7 +11260,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM9_e" name="Phosphate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_pi_e" name="Phosphate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM9_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11340,7 +11340,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM726339_e" name="Sulfite exchange" reversible="true" fast="false">
+      <reaction id="R_EX_so3_e" name="Sulfite exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM726339_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -22759,7 +22759,7 @@
       <reaction id="R_TMAMT" name="Trimethylamine methyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (Mbar_A1054 or Mbar_A3639) and Mbar_A1502 and Mbar_A1503) or (Mbar_A0841 or Mbar_A1688) and Mbar_A1502 and Mbar_A1503)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: Methanogenesis</p>
           </body>
         </notes>
@@ -23396,7 +23396,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1094693_e" name="Carbonate export" reversible="true" fast="false">
+      <reaction id="R_EX_hco3_e" name="Carbonate export" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1094693_e" stoichiometry="1" constant="true"/>
         </listOfReactants>

@@ -4760,7 +4760,7 @@
       <reaction id="R_3OAS100" name="Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr0770 or (bll2529 or bll3808 or bll3809 or blr4085)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00061</p>
             <p>EC Number: 2.3.1.41</p>
             <p>Confidence Level: </p>
@@ -4793,7 +4793,7 @@
       <reaction id="R_3OAS120" name="Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr0770 or (bll2529 or bll3808 or bll3809 or blr4085)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00061</p>
             <p>EC Number: 2.3.1.41</p>
             <p>Confidence Level: </p>
@@ -4826,7 +4826,7 @@
       <reaction id="R_3OAS140" name="dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr0770 or (bll2529 or bll3808 or bll3809 or blr4085)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00061</p>
             <p>EC Number: 2.3.1.41</p>
             <p>Confidence Level: </p>
@@ -4859,7 +4859,7 @@
       <reaction id="R_3OAS160" name="Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr0770 or (bll2529 or bll3808 or bll3809 or blr4085)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00061</p>
             <p>EC Number: 2.3.1.41</p>
             <p>Confidence Level: </p>
@@ -4892,7 +4892,7 @@
       <reaction id="R_3OAS60" name="butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr0770 or (bll2529 or bll3808 or bll3809 or blr4085)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00061</p>
             <p>EC Number: 2.3.1.41</p>
             <p>Confidence Level: </p>
@@ -4925,7 +4925,7 @@
       <reaction id="R_3OAS80" name="hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr0770 or (bll2529 or bll3808 or bll3809 or blr4085)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00061</p>
             <p>EC Number: 2.3.1.41</p>
             <p>Confidence Level: </p>
@@ -5607,7 +5607,7 @@
       <reaction id="R_ACCOACr" name="Acetyl-CoA:carbon-dioxide ligase (ADP-forming)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr0191 and blr0747 and (bll3638 or bll4290) and (bll3639 or bll4291)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00620 bja00640</p>
             <p>EC Number: 6.4.1.2</p>
             <p>Confidence Level: </p>
@@ -5754,7 +5754,7 @@
       <reaction id="R_ACHBS" name="pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll2965 or bll6503 or bll6813 or bll7231 or blr4023) and bll6501)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00290</p>
             <p>EC Number: 2.2.1.6</p>
             <p>Confidence Level: </p>
@@ -5785,7 +5785,7 @@
       <reaction id="R_ACLS" name="pyruvate:pyruvate acetaldehydetransferase (decarboxylating); (S)-2-acetolactate pyruvate-lyase (carboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll2965 or bll6503 or bll6813 or bll7231 or blr4023) and bll6501)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00660 bja00290 bja00650</p>
             <p>EC Number: 2.2.1.6</p>
             <p>Confidence Level: </p>
@@ -5869,7 +5869,7 @@
       <reaction id="R_ACOAD10" name="(S)-2-methylbutanoyl-CoA:acceptor 2,3-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270) or blr3955)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00280</p>
             <p>EC Number: 1.3.8.1 1.3.8.7</p>
             <p>Confidence Level: </p>
@@ -5900,7 +5900,7 @@
       <reaction id="R_ACOAD1f" name="Butanoyl-CoA:oxygen 2-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr2426 or (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.3.8.7 1.3.8.1 1.3.99.3</p>
             <p>Confidence Level: </p>
@@ -5931,7 +5931,7 @@
       <reaction id="R_ACOAD2f" name="Hexanoyl-CoA:(acceptor) 2,3-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr2426 or (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.3.8.1 1.3.8.7 1.3.99.3</p>
             <p>Confidence Level: </p>
@@ -5962,7 +5962,7 @@
       <reaction id="R_ACOAD3f" name="Octanoyl-CoA:oxygen 2-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr2426 or (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.3.8.7 1.3.99.3</p>
             <p>Confidence Level: </p>
@@ -5993,7 +5993,7 @@
       <reaction id="R_ACOAD4f" name="Decanoyl-CoA:(acceptor) 2,3-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr2426 or (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.3.8.7 1.3.99.3</p>
             <p>Confidence Level: </p>
@@ -6024,7 +6024,7 @@
       <reaction id="R_ACOAD5f" name="Lauroyl-CoA:(acceptor) 2,3-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr2426 or (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.3.8.7 1.3.99.3</p>
             <p>Confidence Level: </p>
@@ -6055,7 +6055,7 @@
       <reaction id="R_ACOAD6f" name="Tetradecanoyl-CoA:(acceptor) 2,3-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr2426 or (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.3.8.7 1.3.99.3</p>
             <p>Confidence Level: </p>
@@ -6086,7 +6086,7 @@
       <reaction id="R_ACOAD7f" name="Palmitoyl-CoA:oxygen 2-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr2426 or (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.3.8.7 1.3.99.3</p>
             <p>Confidence Level: </p>
@@ -6117,7 +6117,7 @@
       <reaction id="R_ACOAD8" name="3-Methylbutanoyl-CoA:(acceptor) 2,3-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr4419 or (bll0958 or bll2940 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00280</p>
             <p>EC Number: 1.3.8.4 1.3.8.7</p>
             <p>Confidence Level: </p>
@@ -6958,7 +6958,7 @@
       <reaction id="R_AKGD" name="2-Oxoglutarate dehydrogenase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0452 and bll0451 and (bll0449 or bll4778 or blr3722 or blr6334)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00020</p>
             <p>EC Number: 1.8.1.4 1.2.4.2 2.3.1.61</p>
             <p>Confidence Level: </p>
@@ -7149,7 +7149,7 @@
       <reaction id="R_ALDD2x" name="Acetaldehyde:NAD+ oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll4784 or (bll6322 or bll7607 or blr2816 or blr3776 or blr5873)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00010 bja00620</p>
             <p>EC Number: 1.2.1.3</p>
             <p>Confidence Level: </p>
@@ -7182,7 +7182,7 @@
       <reaction id="R_ALDD2y" name="Acetaldehyde:NADP+ oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll4784 or (bll6322 or bll7607 or blr2816 or blr3776 or blr5873)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00620</p>
             <p>EC Number: 1.2.1.3</p>
             <p>Confidence Level: </p>
@@ -7215,7 +7215,7 @@
       <reaction id="R_ALDH" name="(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll4784 or (bll6322 or bll7607 or blr2816 or blr3776 or blr5873)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00280</p>
             <p>EC Number: 1.2.1.3</p>
             <p>Confidence Level: </p>
@@ -7849,7 +7849,7 @@
       <reaction id="R_ASPabc" name="L-Aspartate transport via ABC system" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0102 or bll4384 or bll7600 or blr3096) and (bll7598 or blr3098) and (bll7597 or bll7599) and blr3097)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: Transport</p>
             <p>EC Number: </p>
             <p>Confidence Level: </p>
@@ -8188,7 +8188,7 @@
       <reaction id="R_ATACAT" name="ATP:acetate adenylyltransferase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0975 or (bll7367 or blr0107 or blr0573 or blr3958)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00620</p>
             <p>EC Number: 6.2.1.1</p>
             <p>Confidence Level: </p>
@@ -8374,7 +8374,7 @@
       <reaction id="R_ATPS4r" name="ATP synthase (four protons for one ATP) (periplasm)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll1185 or bll1186) and bsl1187 and bll1188 and bll0439 and bll0440 and bll0441 and bll0442 and bll0443)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00190</p>
             <p>EC Number: 3.6.3.14</p>
             <p>Confidence Level: </p>
@@ -8982,7 +8982,7 @@
       <reaction id="R_COBLATt6" name="Cobalt transport out via proton antiport" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr3031 or blr4936) and blr4935 and blr4938)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: Transport</p>
             <p>EC Number: </p>
             <p>Confidence Level: </p>
@@ -9013,7 +9013,7 @@
       <reaction id="R_COBOU" name="cytochrome oxidase bo3 (ubiquinol-8: 4 protons) (periplasm)" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll3782 or bll3783 or blr1175) and (bll3784 or bll4480 or blr1171) and (bll3785 or bll4481 or blr1170) and blr2763 and blr2764 and blr2766 and bsr2765)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00190</p>
             <p>EC Number: </p>
             <p>Confidence Level: </p>
@@ -11313,7 +11313,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90_e" name="Choline exchange" reversible="true" fast="false">
+      <reaction id="R_EX_chol_e" name="Choline exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM90_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11345,7 +11345,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM13_e" name="CO2 exchange" reversible="true" fast="false">
+      <reaction id="R_EX_co2_e" name="CO2 exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM13_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11377,7 +11377,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372038_e" name="Fe2+ exchange" reversible="true" fast="false">
+      <reaction id="R_EX_fe2_e" name="Fe2+ exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1372038_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11473,7 +11473,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1_e" name="Hydrogen ions exchange" reversible="true" fast="false">
+      <reaction id="R_EX_h_e" name="Hydrogen ions exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11505,7 +11505,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_WATER_e" name="H2O exchange" reversible="true" fast="false">
+      <reaction id="R_EX_h2o_e" name="H2O exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_WATER_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11569,7 +11569,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729302_e" name="NH3 exchange" reversible="true" fast="false">
+      <reaction id="R_EX_nh4_e" name="NH3 exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM729302_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11585,7 +11585,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735438_e" name="Oxygen exchange" reversible="true" fast="false">
+      <reaction id="R_EX_o2_e" name="Oxygen exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM735438_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11649,7 +11649,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM9_e" name="Phosphate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_pi_e" name="Phosphate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM9_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11681,7 +11681,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM58_e" name="Sulfate exchange" reversible="true" fast="false">
+      <reaction id="R_EX_so4_e" name="Sulfate exchange" reversible="true" fast="false">
         <listOfReactants>
           <speciesReference species="M_MNXM58_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
@@ -11971,7 +11971,7 @@
       <reaction id="R_FDH" name="Formate:NAD+ oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll3136 or bll5478 or blr2317) and (bll3137 or bll5476) and (bll3138 or bll5475) and blr2316 and bsl3134)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00630 bja00680</p>
             <p>EC Number: 1.2.1.2</p>
             <p>Confidence Level: </p>
@@ -12103,7 +12103,7 @@
       <reaction id="R_FE2t" name="Fe2+ transport in via catecholate siderophore receptor" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr3904 or (blr4504 and bll7968) or (bsr6522 and blr6523)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: Transport</p>
             <p>EC Number: </p>
             <p>Confidence Level: </p>
@@ -13206,7 +13206,7 @@
       <reaction id="R_GLCAabc" name="alpha-D-Glucose transport via ABC system" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr4842 and blr4843 and blr4844 and (blr4557 or blr4845 or blr3570 or bll6352 or blr3917 or blr3571)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: Transport</p>
             <p>EC Number: </p>
             <p>Confidence Level: </p>
@@ -13240,7 +13240,7 @@
       <reaction id="R_GLCabc" name="beta-D-Glucose transport via ABC system" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (blr4842 and blr4843 and blr4844 and (blr4557 or blr4845 or blr3570 or bll6352 or blr3917 or blr3571)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: Transport</p>
             <p>EC Number: </p>
             <p>Confidence Level: </p>
@@ -13339,7 +13339,7 @@
       <reaction id="R_GLUabc" name="L-Glutamate transport via ABC system" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0102 or bll4384 or bll7600 or blr3096) and (bll7598 or blr3098) and (bll7597 or bll7599) and blr3097)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: Transport</p>
             <p>EC Number: </p>
             <p>Confidence Level: </p>
@@ -13655,7 +13655,7 @@
       <reaction id="R_GLYCTO1" name="Glycolate:oxygen 2-oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll7540 and bll7541 and (bll7543 or blr4823)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00630</p>
             <p>EC Number: 1.1.3.15</p>
             <p>Confidence Level: </p>
@@ -14200,7 +14200,7 @@
       <reaction id="R_HACD1" name="(S)-3-Hydroxybutanoyl-CoA:NAD+ oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll7821 or (blr1160 or blr2428)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071 bja00310 bja00380 bja00650</p>
             <p>EC Number: 1.1.1.35</p>
             <p>Confidence Level: </p>
@@ -14232,7 +14232,7 @@
       <reaction id="R_HACD2" name="(S)-hydroxyhexanoyl-CoA:NAD+ oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll7821 or (blr1160 or blr2428)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.1.1.35</p>
             <p>Confidence Level: </p>
@@ -14264,7 +14264,7 @@
       <reaction id="R_HACD3" name="(S)-hydroxyoctanoyl-CoA:NAD+ oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll7821 or (blr1160 or blr2428)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.1.1.35</p>
             <p>Confidence Level: </p>
@@ -14296,7 +14296,7 @@
       <reaction id="R_HACD4" name="(S)-hydroxydecanoyl-CoA:NAD+ oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll7821 or (blr1160 or blr2428)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.1.1.35</p>
             <p>Confidence Level: </p>
@@ -14328,7 +14328,7 @@
       <reaction id="R_HACD5" name="(S)-3-hydroxydodecanoyl-CoA:NAD+ oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll7821 or (blr1160 or blr2428)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.1.1.35</p>
             <p>Confidence Level: </p>
@@ -14360,7 +14360,7 @@
       <reaction id="R_HACD6" name="(S)-3-Hydroxytetradecanoyl-CoA:NAD+ oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll7821 or (blr1160 or blr2428)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.1.1.35</p>
             <p>Confidence Level: </p>
@@ -14392,7 +14392,7 @@
       <reaction id="R_HACD7" name="(S)-3-Hydroxyhexadecanoyl-CoA:NAD+ oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll7821 or (blr1160 or blr2428)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00071</p>
             <p>EC Number: 1.1.1.35</p>
             <p>Confidence Level: </p>
@@ -14580,7 +14580,7 @@
       <reaction id="R_HCO3E" name="carbonate hydro-lyase (carbon-dioxide-forming); carbonic acid hydro-lyase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll4863 or bll2065 or bll4865 or blr0500) or bll1137)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00910</p>
             <p>EC Number: 4.2.1.1</p>
             <p>Confidence Level: </p>
@@ -15281,7 +15281,7 @@
       <reaction id="R_IBCOAOR" name="2-methylpropanoyl-CoA:(acceptor) 2,3-oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0958 or bll2940 or bll3855 or bll5455 or bll6283 or bll6363 or bll6377 or bll6791 or blr0119 or blr0120 or blr0138 or blr0981 or blr2947 or blr2989 or blr3304 or blr3437 or blr7270) or blr3955)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00280</p>
             <p>EC Number: 1.3..8.1 1.3..8.7</p>
             <p>Confidence Level: </p>
@@ -16335,7 +16335,7 @@
       <reaction id="R_MAN6PI" name="D-mannose-6-phosphate aldose-ketose-isomerase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll5145 or bll5968) and bll5919)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00051 bja00520</p>
             <p>EC Number: 5.3.1.8</p>
             <p>Confidence Level: </p>
@@ -18978,7 +18978,7 @@
       <reaction id="R_PDH" name="pyruvate dehydrogenase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll4782 and bll4783 and (blr2815 or blr3720) and (bll4779 or blr3721) and (bll0449 or bll4778 or blr3722 or blr6334)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00010</p>
             <p>EC Number: 1.2.4.1 2.2.1.6 2.3.1.12 1.8.1.4</p>
             <p>Confidence Level: </p>
@@ -19986,7 +19986,7 @@
       <reaction id="R_PPATD" name="Pyruvate:pyruvate acetaldehydetransferase (decarboxylating)" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll6501 and bll6503 and bll6813 and (bll2965 or bll7231 or blr4023)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00770</p>
             <p>EC Number: 2.2.1.6</p>
             <p>Confidence Level: </p>
@@ -21644,7 +21644,7 @@
       <reaction id="R_RNDR1" name="2&apos;-Deoxyadenosine 5&apos;-diphosphate:oxidized-thioredoxin 2&apos;-oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0006 and (bll0007 or bll4274)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00230</p>
             <p>EC Number: 1.17.4.1</p>
             <p>Confidence Level: </p>
@@ -21676,7 +21676,7 @@
       <reaction id="R_RNDR2" name="2&apos;-Deoxyguanosine 5&apos;-diphosphate:oxidized-thioredoxin 2&apos;-oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0006 and (bll0007 or bll4274)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00230</p>
             <p>EC Number: 1.17.4.1</p>
             <p>Confidence Level: </p>
@@ -21708,7 +21708,7 @@
       <reaction id="R_RNDR3" name="2&apos;-Deoxycytidine diphosphate:oxidized-thioredoxin 2&apos;-oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0006 and (bll0007 or bll4274)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00240</p>
             <p>EC Number: 1.17.4.1</p>
             <p>Confidence Level: </p>
@@ -21740,7 +21740,7 @@
       <reaction id="R_RNDR4" name="2&apos;-Deoxyuridine 5&apos;-diphosphate:oxidized-thioredoxin 2&apos;-oxidoreductase" reversible="false" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll0006 and (bll0007 or bll4274)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00240</p>
             <p>EC Number: 1.17.4.1</p>
             <p>Confidence Level: </p>
@@ -22400,7 +22400,7 @@
       <reaction id="R_SULR" name="hydrogen-sulfide:NADP+ oxidoreductase" reversible="true" fast="false">
         <notes>
           <body xmlns="http://www.w3.org/1999/xhtml">
-            <p>GENE_ASSOCIATION: (bll4570 or bll7967) and blr1479)</p>
+            <p>GENE_ASSOCIATION: </p>
             <p>SUBSYSTEM: bja00920</p>
             <p>EC Number: 1.8.1.2</p>
             <p>Confidence Level: </p>

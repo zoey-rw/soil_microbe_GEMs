@@ -24,22 +24,22 @@
   ],
   "by_compartment": [
     {
-      "compartment": "C_c",
+      "compartment": "c_c",
       "MetanetX conversion": 76,
       "Unchanged": 769
     },
     {
-      "compartment": "C_e",
+      "compartment": "c_e",
       "MetanetX conversion": 0,
       "Unchanged": 160
     },
     {
-      "compartment": "C_m",
+      "compartment": "c_m",
       "MetanetX conversion": 0,
       "Unchanged": 242
     },
     {
-      "compartment": "C_p",
+      "compartment": "c_p",
       "MetanetX conversion": 0,
       "Unchanged": 105
     }

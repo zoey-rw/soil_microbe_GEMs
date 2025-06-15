@@ -24,37 +24,37 @@
   ],
   "by_compartment": [
     {
-      "compartment": "CCO__45__CYTOSOL",
+      "compartment": "c",
       "MetanetX conversion": 181,
       "Unchanged": 524
     },
     {
-      "compartment": "CCO__45__EXTRACELLULAR",
-      "MetanetX conversion": 0,
-      "Unchanged": 140
-    },
-    {
-      "compartment": "CCO__45__GLYOXYSOME",
+      "compartment": "cco_45_gly",
       "MetanetX conversion": 0,
       "Unchanged": 78
     },
     {
-      "compartment": "CCO__45__MIT",
+      "compartment": "cco_45_mit",
       "MetanetX conversion": 0,
       "Unchanged": 66
     },
     {
-      "compartment": "CCO__45__NUC__45__LUM",
+      "compartment": "cco_45_nuc",
       "MetanetX conversion": 0,
       "Unchanged": 11
     },
     {
-      "compartment": "CCO__45__PERI__45__FUNGI",
+      "compartment": "e",
+      "MetanetX conversion": 0,
+      "Unchanged": 140
+    },
+    {
+      "compartment": "p",
       "MetanetX conversion": 0,
       "Unchanged": 2
     },
     {
-      "compartment": "CCO__45__VAC__45__LUM",
+      "compartment": "v",
       "MetanetX conversion": 0,
       "Unchanged": 6
     }

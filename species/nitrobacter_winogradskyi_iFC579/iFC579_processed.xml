@@ -3881,7 +3881,7 @@
           <html:p>CHARGE: -1 </html:p>
         </notes>
       </species>
-      <species id="M_MNXM39_NA" name="Formate-CHO2" compartment="NA" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
+      <species id="M_MNXM39_e" name="Formate-CHO2" compartment="NA" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false">
         <notes>
           <html:p>CHARGE: -1 </html:p>
         </notes>
@@ -9512,7 +9512,7 @@
       </reaction>
       <reaction id="R_rxn10043" name="cytochrome-c oxidase (H+/e- = 2)" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1001 or (peg__SBML_DOT__2531 and peg__SBML_DOT__2532) or (peg__SBML_DOT__693 and peg__SBML_DOT__694) or peg__SBML_DOT__698 or (peg__SBML_DOT__996 and peg__SBML_DOT__997) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -11827,7 +11827,7 @@
       </reaction>
       <reaction id="R_rxn05343" name="Octanoyl-[acyl-carrier protein]malonyl-[acyl-carrier-protein]" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1307 and peg__SBML_DOT__1406) or peg__SBML_DOT__30) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -15052,7 +15052,7 @@
       </reaction>
       <reaction id="R_rxn00058" name="Ferrocytochrome-c oxygen oxidoreductase" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1001 or (peg__SBML_DOT__2531 and peg__SBML_DOT__2532) or (peg__SBML_DOT__693 and peg__SBML_DOT__694) or peg__SBML_DOT__698 or (peg__SBML_DOT__996 and peg__SBML_DOT__997) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -17273,7 +17273,7 @@
       </reaction>
       <reaction id="R_rxn05345" name="dodecanoyl-[acyl-carrier-protein]malonyl-[acyl-carrier-protein]" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1307 and peg__SBML_DOT__1406) or peg__SBML_DOT__30) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -18528,7 +18528,7 @@
       </reaction>
       <reaction id="R_rxn05350" name="hexanoyl-[acyl-carrier protein]malonyl-[acyl-carrier-protein]" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1307 and peg__SBML_DOT__1406) or peg__SBML_DOT__30) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -18711,7 +18711,7 @@
       </reaction>
       <reaction id="R_rxn05344" name="Tetradecanoyl-[acyl-carrier protein]malonyl-[acyl-carrier-protein]" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1307 and peg__SBML_DOT__1406) or peg__SBML_DOT__30) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -18920,7 +18920,7 @@
       </reaction>
       <reaction id="R_rxn01489" name="Geranylgeranyl-diphosphategeranylgeranyl-diphosphate" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1247 and peg__SBML_DOT__1248) or peg__SBML_DOT__1600) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -23824,7 +23824,7 @@
       </reaction>
       <reaction id="R_rxn05031" name="prephytoene diphosphategeranylgeranyl-diphosphate" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1247 and peg__SBML_DOT__1248) or peg__SBML_DOT__1600) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -25830,7 +25830,7 @@
       </reaction>
       <reaction id="R_rxn05348" name="Decanoyl-[acyl-carrier protein]malonyl-[acyl-carrier-protein]" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1307 and peg__SBML_DOT__1406) or peg__SBML_DOT__30) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -26269,7 +26269,7 @@
       </reaction>
       <reaction id="R_rxn05346" name="butyryl-[acyl-carrier protein]malonyl-[acyl-carrier-protein]" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1307 and peg__SBML_DOT__1406) or peg__SBML_DOT__30) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -29197,7 +29197,7 @@
       </reaction>
       <reaction id="R_rxn02945" name="prephytoene diphosphategeranylgeranyl-diphosphate" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1247 and peg__SBML_DOT__1248) or peg__SBML_DOT__1600) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -31090,7 +31090,7 @@
       </reaction>
       <reaction id="R_rxn05347" name="Acyl-[acyl-carrier-protein]malonyl-[acyl-carrier-protein]" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1307 and peg__SBML_DOT__1406) or peg__SBML_DOT__30) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -32018,7 +32018,7 @@
         </notes>
         <listOfReactants>
           <speciesReference species="M_MNXM1_e" stoichiometry="1" constant="true"/>
-          <speciesReference species="M_MNXM39_NA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM39_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <listOfProducts>
           <speciesReference species="M_MNXM1_c" stoichiometry="1" constant="true"/>
@@ -32159,7 +32159,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM653_e" name="EX Mg e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00254_e" name="EX Mg e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32219,7 +32219,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM27_e" name="EX Na+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00971_e" name="EX Na+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32279,7 +32279,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372251_e" name="EX Zn2+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00034_e" name="EX Zn2+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32299,7 +32299,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM90960_e" name="EX Co2+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00149_e" name="EX Co2+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32319,7 +32319,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM128_e" name="EX Ca2+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00063_e" name="EX Ca2+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32359,7 +32359,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_WATER_e" name="EX H2O e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00001_e" name="EX H2O e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32379,7 +32379,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM731166_e" name="EX Cu2+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00058_e" name="EX Cu2+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32399,7 +32399,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM733186_e" name="EX Cd2+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd01012_e" name="EX Cd2+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32459,7 +32459,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM13_e" name="EX CO2 e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00011_e" name="EX CO2 e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32479,7 +32479,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1562_e" name="EX Hg2+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00531_e" name="EX Hg2+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32499,7 +32499,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM58_e" name="EX Sulfate e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00048_e" name="EX Sulfate e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32579,7 +32579,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM95_e" name="EX K+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00205_e" name="EX K+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32619,7 +32619,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM733435_e" name="EX Ferrichrome e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd03724_e" name="EX Ferrichrome e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32659,7 +32659,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735978_e" name="EX Cl- e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00099_e" name="EX Cl- e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32679,7 +32679,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM9_e" name="EX Phosphate e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00009_e" name="EX Phosphate e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32699,7 +32699,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM107_e" name="EX Nitrite e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00075_e" name="EX Nitrite e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32719,7 +32719,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372039_e" name="EX fe3 e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd10516_e" name="EX fe3 e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32759,7 +32759,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1372038_e" name="EX Fe2+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd10515_e" name="EX Fe2+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32799,7 +32799,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1363718_e" name="EX Pb e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd04097_e" name="EX Pb e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32819,7 +32819,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM2255_e" name="EX Mn2+ e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00030_e" name="EX Mn2+ e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32885,7 +32885,7 @@
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
-          <speciesReference species="M_MNXM39_NA" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_MNXM39_e" stoichiometry="1" constant="true"/>
         </listOfReactants>
         <kineticLaw>
           <math xmlns="http://www.w3.org/1998/Math/MathML">
@@ -32899,7 +32899,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM729302_e" name="Ammonia exchange reaction" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00013_e" name="Ammonia exchange reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32921,7 +32921,7 @@
       </reaction>
       <reaction id="R_rxn10113" name="cytochrome oxidase bo3 (ubiquinol-8 2.5 protons) (modified)" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (peg__SBML_DOT__1004 and peg__SBML_DOT__1005) or (peg__SBML_DOT__2559 and peg__SBML_DOT__2579) or peg__SBML_DOT__2877) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <listOfReactants>
@@ -32946,7 +32946,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM1107902_e" name="NO Exchange Reaction" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00418_e" name="NO Exchange Reaction" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION: UNIVERSAL </html:p>
           <html:p>SUBSYSTEM:  </html:p>
@@ -32986,7 +32986,7 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction id="R_EX_MNXM735438_e" name="EX O2 e" reversible="true" fast="false">
+      <reaction id="R_EX_cpd00007_e" name="EX O2 e" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>

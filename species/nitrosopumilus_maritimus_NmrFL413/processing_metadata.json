@@ -1,0 +1,40 @@
+{
+  "model_id": "NmrFL413",
+  "species_directory": "nitrosopumilus_maritimus_NmrFL413",
+  "start_time": "2025-06-15 14:51:23",
+  "input_file": "13568_2018_635_MOESM2_ESM.xml",
+  "output_file": "NmrFL413_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "NmrFL413",
+    "total_metabolites": 825,
+    "successful_conversions": 803,
+    "metanetx_conversions": 802,
+    "unchanged_metabolites": 22,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 97.3,
+    "metanetx_rate": 97.2
+  },
+  "pattern_detected": "simple_bigg",
+  "metabolites_total": 825,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "NmrFL413",
+      "total_metabolites": 825,
+      "successful_conversions": 803,
+      "metanetx_conversions": 802,
+      "unchanged_metabolites": 22,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 97.3,
+      "metanetx_rate": 97.2
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrosopumilus_maritimus_NmrFL413/conversion_logs/NmrFL413_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrosopumilus_maritimus_NmrFL413/conversion_logs/NmrFL413_conversion_summary.json"
+  },
+  "end_time": "2025-06-15 14:51:47",
+  "processing_time_seconds": 24.0784,
+  "success": true
+}

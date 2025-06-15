@@ -1,0 +1,2 @@
+"species","processing_success","processing_time","pattern_detected","metabolites_total","metabolites_converted","conversion_rate","problems_detected","error_message"
+"pseudomonas_putida_iJN1462",TRUE,41.5315625667572,"bigg_kegg_metanetx_seed",2145,NA,75.3,0,NA

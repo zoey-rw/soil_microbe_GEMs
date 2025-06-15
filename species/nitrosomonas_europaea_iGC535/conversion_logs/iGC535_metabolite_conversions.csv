@@ -1,1115 +1,1115 @@
-orig_met,without_compartment,new_met,new_met_out,compartment,conversion_successful,conversion_type,encoding_issues_fixed
-hco3[c],hco3,MNXM1094693,MNXM1094693[c],c,TRUE,MetanetX conversion,FALSE
-hco3[e],hco3,MNXM1094693,MNXM1094693[e],e,TRUE,MetanetX conversion,FALSE
-na1[e],na1,MNXM27,MNXM27[e],e,TRUE,MetanetX conversion,FALSE
-na1[c],na1,MNXM27,MNXM27[c],c,TRUE,MetanetX conversion,FALSE
-o2[c],o2,MNXM735438,MNXM735438[c],c,TRUE,MetanetX conversion,FALSE
-o2[p],o2,MNXM735438,MNXM735438[p],p,TRUE,MetanetX conversion,FALSE
-o2[e],o2,MNXM735438,MNXM735438[e],e,TRUE,MetanetX conversion,FALSE
-10fthf[c],10fthf,MNXM1102376,MNXM1102376[c],c,TRUE,MetanetX conversion,FALSE
-12ppd__S[c],12ppd__S,MNXM1255,MNXM1255[c],c,TRUE,MetanetX conversion,FALSE
-13dpg[c],13dpg,MNXM1364640,MNXM1364640[c],c,TRUE,MetanetX conversion,FALSE
-1ddecg3p[c],1ddecg3p,MNXM1103432,MNXM1103432[c],c,TRUE,MetanetX conversion,FALSE
-1hdec9eg3p[c],1hdec9eg3p,MNXM66496,MNXM66496[c],c,TRUE,MetanetX conversion,FALSE
-1hdecg3p[c],1hdecg3p,MNXM732965,MNXM732965[c],c,TRUE,MetanetX conversion,FALSE
-1odec11eg3p[c],1odec11eg3p,MNXM1524321,1odec11eg3p[c],c,TRUE,MetanetX conversion,FALSE
-1odecg3p[c],1odecg3p,MNXM734212,MNXM734212[c],c,TRUE,MetanetX conversion,FALSE
-1pyr5c[c],1pyr5c,MNXM1105060,MNXM1105060[c],c,TRUE,MetanetX conversion,FALSE
-1tdecg3p[c],1tdecg3p,MNXM1372713,1tdecg3p[c],c,TRUE,MetanetX conversion,FALSE
-23dhdp[c],23dhdp,MNXM807,MNXM807[c],c,TRUE,MetanetX conversion,FALSE
-23dhmb[c],23dhmb,MNXM734,MNXM734[c],c,TRUE,MetanetX conversion,FALSE
-23dhmp[c],23dhmp,MNXM1202,MNXM1202[c],c,TRUE,MetanetX conversion,FALSE
-25aics[c],25aics,MNXM1104647,MNXM1104647[c],c,TRUE,MetanetX conversion,FALSE
-25dhpp[c],25dhpp,MNXM1103734,25dhpp[c],c,TRUE,MetanetX conversion,FALSE
-26dap_LL[c],26dap_LL,MNXM644,MNXM644[c],c,TRUE,MetanetX conversion,FALSE
-26dap__M[c],26dap__M,MNXM529,MNXM529[c],c,TRUE,MetanetX conversion,FALSE
-2ahbut[c],2ahbut,MNXM726902,MNXM726902[c],c,TRUE,MetanetX conversion,FALSE
-2ahhmd[c],2ahhmd,MNXM1541975,MNXM1541975[c],c,TRUE,MetanetX conversion,FALSE
-2ahhmp[c],2ahhmp,MNXM728662,2ahhmp[c],c,TRUE,MetanetX conversion,FALSE
-2cpr5p[c],2cpr5p,MNXM1455,MNXM1455[c],c,TRUE,MetanetX conversion,FALSE
-2dda7p[c],2dda7p,MNXM1219,MNXM1219[c],c,TRUE,MetanetX conversion,FALSE
-2dhp[c],2dhp,MNXM959,MNXM959[c],c,TRUE,MetanetX conversion,FALSE
-2dmmql8[c],2dmmql8,MNXM558,MNXM558[c],c,TRUE,MetanetX conversion,FALSE
-2h3oppan[c],2h3oppan,MNXM475,MNXM475[c],c,TRUE,MetanetX conversion,FALSE
-2ippm[c],2ippm,MNXM1369559,MNXM1369559[c],c,TRUE,MetanetX conversion,FALSE
-2mahmp[c],2mahmp,MNXM1101289,MNXM1101289[c],c,TRUE,MetanetX conversion,FALSE
-2me4p[c],2me4p,MNXM730435,MNXM730435[c],c,TRUE,MetanetX conversion,FALSE
-2mecdp[c],2mecdp,MNXM1168,MNXM1168[c],c,TRUE,MetanetX conversion,FALSE
-2obut[c],2obut,MNXM159,MNXM159[c],c,TRUE,MetanetX conversion,FALSE
-2p4c2me[c],2p4c2me,MNXM1641,MNXM1641[c],c,TRUE,MetanetX conversion,FALSE
-2pg[c],2pg,MNXM275,MNXM275[c],c,TRUE,MetanetX conversion,FALSE
-34hpp[c],34hpp,MNXM153,MNXM153[c],c,TRUE,MetanetX conversion,FALSE
-3c2hmp[c],3c2hmp,MNXM741109,MNXM741109[c],c,TRUE,MetanetX conversion,FALSE
-3c3hmp[c],3c3hmp,MNXM730929,MNXM730929[c],c,TRUE,MetanetX conversion,FALSE
-3c4mop[c],3c4mop,MNXM1602,MNXM1602[c],c,TRUE,MetanetX conversion,FALSE
-3dhq[c],3dhq,MNXM736874,MNXM736874[c],c,TRUE,MetanetX conversion,FALSE
-3dhsk[c],3dhsk,MNXM611,MNXM611[c],c,TRUE,MetanetX conversion,FALSE
-3haACP[c],3haACP,MNXM738485,MNXM738485[c],c,TRUE,MetanetX conversion,FALSE
-3hcddec5eACP[c],3hcddec5eACP,MNXM5389,MNXM5389[c],c,TRUE,MetanetX conversion,FALSE
-3hcmrs7eACP[c],3hcmrs7eACP,MNXM1374988,MNXM1374988[c],c,TRUE,MetanetX conversion,FALSE
-3hcpalm9eACP[c],3hcpalm9eACP,MNXM6556,MNXM6556[c],c,TRUE,MetanetX conversion,FALSE
-3hcvac11eACP[c],3hcvac11eACP,MNXM6557,MNXM6557[c],c,TRUE,MetanetX conversion,FALSE
-3hddecACP[c],3hddecACP,MNXM733304,MNXM733304[c],c,TRUE,MetanetX conversion,FALSE
-3hdecACP[c],3hdecACP,MNXM1374989,MNXM1374989[c],c,TRUE,MetanetX conversion,FALSE
-3hhexACP[c],3hhexACP,MNXM733048,MNXM733048[c],c,TRUE,MetanetX conversion,FALSE
-3hmrsACP[c],3hmrsACP,MNXM1374990,MNXM1374990[c],c,TRUE,MetanetX conversion,FALSE
-3hoctACP[c],3hoctACP,MNXM725895,MNXM725895[c],c,TRUE,MetanetX conversion,FALSE
-3hoctaACP[c],3hoctaACP,MNXM735180,MNXM735180[c],c,TRUE,MetanetX conversion,FALSE
-3hpalmACP[c],3hpalmACP,MNXM733096,MNXM733096[c],c,TRUE,MetanetX conversion,FALSE
-3ig3p[c],3ig3p,MNXM730763,MNXM730763[c],c,TRUE,MetanetX conversion,FALSE
-3mob[c],3mob,MNXM732866,MNXM732866[c],c,TRUE,MetanetX conversion,FALSE
-3mop[c],3mop,MNXM1363947,MNXM1363947[c],c,TRUE,MetanetX conversion,FALSE
-3ocddec5eACP[c],3ocddec5eACP,MNXM6837,MNXM6837[c],c,TRUE,MetanetX conversion,FALSE
-3ocmrs7eACP[c],3ocmrs7eACP,MNXM6838,MNXM6838[c],c,TRUE,MetanetX conversion,FALSE
-3ocpalm9eACP[c],3ocpalm9eACP,MNXM6839,MNXM6839[c],c,TRUE,MetanetX conversion,FALSE
-3ocvac11eACP[c],3ocvac11eACP,MNXM1374991,MNXM1374991[c],c,TRUE,MetanetX conversion,FALSE
-3oddecACP[c],3oddecACP,MNXM728596,MNXM728596[c],c,TRUE,MetanetX conversion,FALSE
-3odecACP[c],3odecACP,MNXM1374992,MNXM1374992[c],c,TRUE,MetanetX conversion,FALSE
-3ohexACP[c],3ohexACP,MNXM728604,MNXM728604[c],c,TRUE,MetanetX conversion,FALSE
-3omrsACP[c],3omrsACP,MNXM1374993,MNXM1374993[c],c,TRUE,MetanetX conversion,FALSE
-3ooctACP[c],3ooctACP,MNXM728608,MNXM728608[c],c,TRUE,MetanetX conversion,FALSE
-3ooctdACP[c],3ooctdACP,MNXM3491,MNXM3491[c],c,TRUE,MetanetX conversion,FALSE
-3opalmACP[c],3opalmACP,MNXM728600,MNXM728600[c],c,TRUE,MetanetX conversion,FALSE
-3pg[c],3pg,MNXM727604,MNXM727604[c],c,TRUE,MetanetX conversion,FALSE
-3php[c],3php,MNXM541,MNXM541[c],c,TRUE,MetanetX conversion,FALSE
-3psme[c],3psme,MNXM1365,MNXM1365[c],c,TRUE,MetanetX conversion,FALSE
-4abut[c],4abut,MNXM192,MNXM192[c],c,TRUE,MetanetX conversion,FALSE
-4abutn[c],4abutn,MNXM422,MNXM422[c],c,TRUE,MetanetX conversion,FALSE
-4abz[c],4abz,MNXM421,MNXM421[c],c,TRUE,MetanetX conversion,FALSE
-4adcho[c],4adcho,MNXM1458,MNXM1458[c],c,TRUE,MetanetX conversion,FALSE
-4ahmmp[c],4ahmmp,MNXM1104899,MNXM1104899[c],c,TRUE,MetanetX conversion,FALSE
-4ampm[c],4ampm,MNXM1104391,MNXM1104391[c],c,TRUE,MetanetX conversion,FALSE
-4c2me[c],4c2me,MNXM730948,MNXM730948[c],c,TRUE,MetanetX conversion,FALSE
-4hthr[c],4hthr,MNXM1802,MNXM1802[c],c,TRUE,MetanetX conversion,FALSE
-4mop[c],4mop,MNXM404,MNXM404[c],c,TRUE,MetanetX conversion,FALSE
-4mpetz[c],4mpetz,MNXM960,MNXM960[c],c,TRUE,MetanetX conversion,FALSE
-4pasp[c],4pasp,MNXM1177,MNXM1177[c],c,TRUE,MetanetX conversion,FALSE
-4ppan[c],4ppan,MNXM735771,MNXM735771[c],c,TRUE,MetanetX conversion,FALSE
-4ppcys[c],4ppcys,MNXM730898,MNXM730898[c],c,TRUE,MetanetX conversion,FALSE
-4r5au[c],4r5au,MNXM1372980,MNXM1372980[c],c,TRUE,MetanetX conversion,FALSE
-5aizc[c],5aizc,MNXM737371,MNXM737371[c],c,TRUE,MetanetX conversion,FALSE
-5aop[c],5aop,MNXM405,MNXM405[c],c,TRUE,MetanetX conversion,FALSE
-5aprbu[c],5aprbu,MNXM1365818,MNXM1365818[c],c,TRUE,MetanetX conversion,FALSE
-5apru[c],5apru,MNXM1368993,MNXM1368993[c],c,TRUE,MetanetX conversion,FALSE
-5hbzid[c],5hbzid,MNXM1105098,MNXM1105098[c],c,TRUE,MetanetX conversion,FALSE
-5mta[c],5mta,MNXM1101977,MNXM1101977[c],c,TRUE,MetanetX conversion,FALSE
-5mthf[c],5mthf,MNXM1364093,MNXM1364093[c],c,TRUE,MetanetX conversion,FALSE
-5prdmbz[c],5prdmbz,MNXM1224,MNXM1224[c],c,TRUE,MetanetX conversion,FALSE
-6hmhptpp[c],6hmhptpp,MNXM727068,MNXM727068[c],c,TRUE,MetanetX conversion,FALSE
-6pgc[c],6pgc,MNXM734080,MNXM734080[c],c,TRUE,MetanetX conversion,FALSE
-ACP[c],ACP,MNXM1373297,MNXM1373297[c],c,TRUE,MetanetX conversion,FALSE
-ac[c],ac,MNXM26,MNXM26[c],c,TRUE,MetanetX conversion,FALSE
-acACP[c],acACP,MNXM727672,MNXM727672[c],c,TRUE,MetanetX conversion,FALSE
-acald[c],acald,MNXM75,MNXM75[c],c,TRUE,MetanetX conversion,FALSE
-accoa[c],accoa,MNXM1104266,MNXM1104266[c],c,TRUE,MetanetX conversion,FALSE
-acg5p[c],acg5p,MNXM1384,MNXM1384[c],c,TRUE,MetanetX conversion,FALSE
-acg5sa[c],acg5sa,MNXM1062,MNXM1062[c],c,TRUE,MetanetX conversion,FALSE
-acgam1p[c],acgam1p,MNXM1105798,MNXM1105798[c],c,TRUE,MetanetX conversion,FALSE
-acglu[c],acglu,MNXM1371649,MNXM1371649[c],c,TRUE,MetanetX conversion,FALSE
-achms[c],achms,MNXM1372419,MNXM1372419[c],c,TRUE,MetanetX conversion,FALSE
-acmana[c],acmana,MNXM1105881,MNXM1105881[c],c,TRUE,MetanetX conversion,FALSE
-acorn[c],acorn,MNXM817,MNXM817[c],c,TRUE,MetanetX conversion,FALSE
-acser[c],acser,MNXM418,MNXM418[c],c,TRUE,MetanetX conversion,FALSE
-actACP[c],actACP,MNXM1375056,MNXM1375056[c],c,TRUE,MetanetX conversion,FALSE
-actn__R[c],actn__R,MNXM664,MNXM664[c],c,TRUE,MetanetX conversion,FALSE
-actp[c],actp,MNXM280,MNXM280[c],c,TRUE,MetanetX conversion,FALSE
-adcobdam[c],adcobdam,MNXM735498,MNXM735498[c],c,TRUE,MetanetX conversion,FALSE
-adcobhex[c],adcobhex,MNXM877,MNXM877[c],c,TRUE,MetanetX conversion,FALSE
-ade[c],ade,MNXM168,MNXM168[c],c,TRUE,MetanetX conversion,FALSE
-adocbip[c],adocbip,MNXM1104880,MNXM1104880[c],c,TRUE,MetanetX conversion,FALSE
-adocbl[c],adocbl,MNXM1104551,MNXM1104551[c],c,TRUE,MetanetX conversion,FALSE
-adp[c],adp,MNXM40333,MNXM40333[c],c,TRUE,MetanetX conversion,FALSE
-agdpcbi[c],agdpcbi,MNXM1101279,MNXM1101279[c],c,TRUE,MetanetX conversion,FALSE
-ahcys[c],ahcys,MNXM1102167,MNXM1102167[c],c,TRUE,MetanetX conversion,FALSE
-aicar[c],aicar,MNXM1103365,MNXM1103365[c],c,TRUE,MetanetX conversion,FALSE
-air[c],air,MNXM1105983,MNXM1105983[c],c,TRUE,MetanetX conversion,FALSE
-akg[c],akg,MNXM1369648,MNXM1369648[c],c,TRUE,MetanetX conversion,FALSE
-ala_B[c],ala_B,MNXM144,MNXM144[c],c,TRUE,MetanetX conversion,FALSE
-ala__D[c],ala__D,MNXM1105731,MNXM1105731[c],c,TRUE,MetanetX conversion,FALSE
-ala__L[c],ala__L,MNXM1105732,MNXM1105732[c],c,TRUE,MetanetX conversion,FALSE
-alaala[c],alaala,MNXM1364149,MNXM1364149[c],c,TRUE,MetanetX conversion,FALSE
-alac__S[c],alac__S,MNXM1103847,MNXM1103847[c],c,TRUE,MetanetX conversion,FALSE
-alltn[c],alltn,MNXM738834,MNXM738834[c],c,TRUE,MetanetX conversion,FALSE
-alltt[c],alltt,MNXM584,MNXM584[c],c,TRUE,MetanetX conversion,FALSE
-alpro[c],alpro,MNXM740461,MNXM740461[c],c,TRUE,MetanetX conversion,FALSE
-amet[c],amet,MNXM1363866,MNXM1363866[c],c,TRUE,MetanetX conversion,FALSE
-ametam[c],ametam,MNXM1103325,MNXM1103325[c],c,TRUE,MetanetX conversion,FALSE
-amp[c],amp,MNXM728294,MNXM728294[c],c,TRUE,MetanetX conversion,FALSE
-anth[c],anth,MNXM188,MNXM188[c],c,TRUE,MetanetX conversion,FALSE
-applp[c],applp,MNXM1697,MNXM1697[c],c,TRUE,MetanetX conversion,FALSE
-aps[c],aps,MNXM1103086,MNXM1103086[c],c,TRUE,MetanetX conversion,FALSE
-arab__L[c],arab__L,MNXM734859,MNXM734859[c],c,TRUE,MetanetX conversion,FALSE
-arg__L[c],arg__L,MNXM739527,MNXM739527[c],c,TRUE,MetanetX conversion,FALSE
-argsuc[c],argsuc,MNXM722743,MNXM722743[c],c,TRUE,MetanetX conversion,FALSE
-asn__L[c],asn__L,MNXM1107821,MNXM1107821[c],c,TRUE,MetanetX conversion,FALSE
-asp__L[c],asp__L,MNXM1364673,MNXM1364673[c],c,TRUE,MetanetX conversion,FALSE
-aspsa[c],aspsa,MNXM361,MNXM361[c],c,TRUE,MetanetX conversion,FALSE
-atp[c],atp,MNXM3,MNXM3[c],c,TRUE,MetanetX conversion,FALSE
-btd_RR[c],btd_RR,MNXM2757,MNXM2757[c],c,TRUE,MetanetX conversion,FALSE
-btn[c],btn,MNXM304,MNXM304[c],c,TRUE,MetanetX conversion,FALSE
-but2eACP[c],but2eACP,MNXM728705,MNXM728705[c],c,TRUE,MetanetX conversion,FALSE
-butACP[c],butACP,MNXM90458,MNXM90458[c],c,TRUE,MetanetX conversion,FALSE
-ca2[c],ca2,MNXM128,MNXM128[c],c,TRUE,MetanetX conversion,FALSE
-cbasp[c],cbasp,MNXM465,MNXM465[c],c,TRUE,MetanetX conversion,FALSE
-cbp[c],cbp,MNXM138,MNXM138[c],c,TRUE,MetanetX conversion,FALSE
-cddec5eACP[c],cddec5eACP,MNXM163784,MNXM163784[c],c,TRUE,MetanetX conversion,FALSE
-cdec3eACP[c],cdec3eACP,MNXM7186,MNXM7186[c],c,TRUE,MetanetX conversion,FALSE
-cdp[c],cdp,MNXM1102191,MNXM1102191[c],c,TRUE,MetanetX conversion,FALSE
-cdpdhdec9eg[c],cdpdhdec9eg,MNXM1372899,MNXM1372899[c],c,TRUE,MetanetX conversion,FALSE
-cdpdhdecg[c],cdpdhdecg,MNXM1364097,MNXM1364097[c],c,TRUE,MetanetX conversion,FALSE
-cdpdodec11eg[c],cdpdodec11eg,MNXM736319,MNXM736319[c],c,TRUE,MetanetX conversion,FALSE
-cdpdtdecg[c],cdpdtdecg,MNXM736328,MNXM736328[c],c,TRUE,MetanetX conversion,FALSE
-cdpglyc[c],cdpglyc,MNXM740148,MNXM740148[c],c,TRUE,MetanetX conversion,FALSE
-chor[c],chor,MNXM337,MNXM337[c],c,TRUE,MetanetX conversion,FALSE
-cit[c],cit,MNXM1107752,MNXM1107752[c],c,TRUE,MetanetX conversion,FALSE
-citr__L[c],citr__L,MNXM732471,MNXM732471[c],c,TRUE,MetanetX conversion,FALSE
-cl[c],cl,MNXM735978,MNXM735978[c],c,TRUE,MetanetX conversion,FALSE
-clpn120[c],clpn120,MNXM1542989,MNXM1542989[c],c,TRUE,MetanetX conversion,FALSE
-clpn140[c],clpn140,MNXM740794,MNXM740794[c],c,TRUE,MetanetX conversion,FALSE
-clpn160[c],clpn160,MNXM736425,MNXM736425[c],c,TRUE,MetanetX conversion,FALSE
-clpn161[c],clpn161,MNXM1542991,MNXM1542991[c],c,TRUE,MetanetX conversion,FALSE
-clpn180[c],clpn180,MNXM5079,MNXM5079[c],c,TRUE,MetanetX conversion,FALSE
-clpn181[c],clpn181,MNXM1542992,MNXM1542992[c],c,TRUE,MetanetX conversion,FALSE
-cmp[c],cmp,MNXM1103302,MNXM1103302[c],c,TRUE,MetanetX conversion,FALSE
-co[c],co,MNXM726637,MNXM726637[c],c,TRUE,MetanetX conversion,FALSE
-co1dam[c],co1dam,MNXM1373366,MNXM1373366[c],c,TRUE,MetanetX conversion,FALSE
-co2[c],co2,MNXM13,MNXM13[c],c,TRUE,MetanetX conversion,FALSE
-co2dam[c],co2dam,MNXM1373363,MNXM1373363[c],c,TRUE,MetanetX conversion,FALSE
-coa[c],coa,MNXM727276,MNXM727276[c],c,TRUE,MetanetX conversion,FALSE
-cobalt2[c],cobalt2,MNXM90960,MNXM90960[c],c,TRUE,MetanetX conversion,FALSE
-cobya[c],cobya,MNXM741356,MNXM741356[c],c,TRUE,MetanetX conversion,FALSE
-codhpre6[c],codhpre6,MNXM733197,MNXM733197[c],c,TRUE,MetanetX conversion,FALSE
-copre2[c],copre2,MNXM1092650,MNXM1092650[c],c,TRUE,MetanetX conversion,FALSE
-copre3[c],copre3,MNXM741455,MNXM741455[c],c,TRUE,MetanetX conversion,FALSE
-copre4[c],copre4,MNXM732833,MNXM732833[c],c,TRUE,MetanetX conversion,FALSE
-copre5[c],copre5,MNXM736804,MNXM736804[c],c,TRUE,MetanetX conversion,FALSE
-copre6[c],copre6,MNXM1372941,MNXM1372941[c],c,TRUE,MetanetX conversion,FALSE
-copre8[c],copre8,MNXM1107793,MNXM1107793[c],c,TRUE,MetanetX conversion,FALSE
-cpppg3[c],cpppg3,MNXM735625,MNXM735625[c],c,TRUE,MetanetX conversion,FALSE
-ctp[c],ctp,MNXM1103718,MNXM1103718[c],c,TRUE,MetanetX conversion,FALSE
-cu2[c],cu2,MNXM731166,MNXM731166[c],c,TRUE,MetanetX conversion,FALSE
-cys__L[c],cys__L,MNXM738068,MNXM738068[c],c,TRUE,MetanetX conversion,FALSE
-cyst__L[c],cyst__L,MNXM319,MNXM319[c],c,TRUE,MetanetX conversion,FALSE
-dad_5[c],dad_5,MNXM1103313,MNXM1103313[c],c,TRUE,MetanetX conversion,FALSE
-dadp[c],dadp,MNXM735047,MNXM735047[c],c,TRUE,MetanetX conversion,FALSE
-damp[c],damp,MNXM432,MNXM432[c],c,TRUE,MetanetX conversion,FALSE
-datp[c],datp,MNXM286,MNXM286[c],c,TRUE,MetanetX conversion,FALSE
-db4p[c],db4p,MNXM1102294,MNXM1102294[c],c,TRUE,MetanetX conversion,FALSE
-dcaACP[c],dcaACP,MNXM1375058,MNXM1375058[c],c,TRUE,MetanetX conversion,FALSE
-dcamp[c],dcamp,MNXM1103622,MNXM1103622[c],c,TRUE,MetanetX conversion,FALSE
-dcdp[c],dcdp,MNXM411,MNXM411[c],c,TRUE,MetanetX conversion,FALSE
-dcmp[c],dcmp,MNXM266,MNXM266[c],c,TRUE,MetanetX conversion,FALSE
-dctp[c],dctp,MNXM360,MNXM360[c],c,TRUE,MetanetX conversion,FALSE
-ddcaACP[c],ddcaACP,MNXM726234,MNXM726234[c],c,TRUE,MetanetX conversion,FALSE
-dgdp[c],dgdp,MNXM436,MNXM436[c],c,TRUE,MetanetX conversion,FALSE
-dgmp[c],dgmp,MNXM736654,MNXM736654[c],c,TRUE,MetanetX conversion,FALSE
-dgtp[c],dgtp,MNXM344,MNXM344[c],c,TRUE,MetanetX conversion,FALSE
-dhap[c],dhap,MNXM77,MNXM77[c],c,TRUE,MetanetX conversion,FALSE
-dhf[c],dhf,MNXM281,MNXM281[c],c,TRUE,MetanetX conversion,FALSE
-dhlpro[c],dhlpro,MNXM731214,MNXM731214[c],c,TRUE,MetanetX conversion,FALSE
-dhnpt[c],dhnpt,MNXM1372340,MNXM1372340[c],c,TRUE,MetanetX conversion,FALSE
-dhor__S[c],dhor__S,MNXM252,MNXM252[c],c,TRUE,MetanetX conversion,FALSE
-dhpt[c],dhpt,MNXM722728,MNXM722728[c],c,TRUE,MetanetX conversion,FALSE
-dmbzid[c],dmbzid,MNXM1531,MNXM1531[c],c,TRUE,MetanetX conversion,FALSE
-dmlz[c],dmlz,MNXM1364569,MNXM1364569[c],c,TRUE,MetanetX conversion,FALSE
-dmpp[c],dmpp,MNXM132,MNXM132[c],c,TRUE,MetanetX conversion,FALSE
-dnad[c],dnad,MNXM1103300,MNXM1103300[c],c,TRUE,MetanetX conversion,FALSE
-dpcoa[c],dpcoa,MNXM1104543,MNXM1104543[c],c,TRUE,MetanetX conversion,FALSE
-dscl[c],dscl,MNXM1373208,MNXM1373208[c],c,TRUE,MetanetX conversion,FALSE
-dtdp[c],dtdp,MNXM152,MNXM152[c],c,TRUE,MetanetX conversion,FALSE
-dtdp4d6dg[c],dtdp4d6dg,MNXM1364107,MNXM1364107[c],c,TRUE,MetanetX conversion,FALSE
-dtdp4d6dm[c],dtdp4d6dm,MNXM1104310,MNXM1104310[c],c,TRUE,MetanetX conversion,FALSE
-dtdpglu[c],dtdpglu,MNXM1105949,MNXM1105949[c],c,TRUE,MetanetX conversion,FALSE
-dtdprmn[c],dtdprmn,MNXM1106112,MNXM1106112[c],c,TRUE,MetanetX conversion,FALSE
-dtmp[c],dtmp,MNXM257,MNXM257[c],c,TRUE,MetanetX conversion,FALSE
-dttp[c],dttp,MNXM394,MNXM394[c],c,TRUE,MetanetX conversion,FALSE
-dudp[c],dudp,MNXM572,MNXM572[c],c,TRUE,MetanetX conversion,FALSE
-dump[c],dump,MNXM234,MNXM234[c],c,TRUE,MetanetX conversion,FALSE
-dxyl5p[c],dxyl5p,MNXM622,MNXM622[c],c,TRUE,MetanetX conversion,FALSE
-e4p[c],e4p,MNXM258,MNXM258[c],c,TRUE,MetanetX conversion,FALSE
-eig3p[c],eig3p,MNXM1422,MNXM1422[c],c,TRUE,MetanetX conversion,FALSE
-f1p[c],f1p,MNXM1104787,MNXM1104787[c],c,TRUE,MetanetX conversion,FALSE
-f6p[c],f6p,MNXM1107898,MNXM1107898[c],c,TRUE,MetanetX conversion,FALSE
-fad[c],fad,MNXM1364297,MNXM1364297[c],c,TRUE,MetanetX conversion,FALSE
-fdp[c],fdp,MNXM1364374,MNXM1364374[c],c,TRUE,MetanetX conversion,FALSE
-fdxo_42[c],fdxo_42,MNXM145541,MNXM145541[c],c,TRUE,MetanetX conversion,FALSE
-fdxr_42[c],fdxr_42,MNXM145542,MNXM145542[c],c,TRUE,MetanetX conversion,FALSE
-fe2[c],fe2,MNXM1372038,MNXM1372038[c],c,TRUE,MetanetX conversion,FALSE
-fgam[c],fgam,MNXM1094915,MNXM1094915[c],c,TRUE,MetanetX conversion,FALSE
-fmn[c],fmn,MNXM1364295,MNXM1364295[c],c,TRUE,MetanetX conversion,FALSE
-fol[c],fol,MNXM617,MNXM617[c],c,TRUE,MetanetX conversion,FALSE
-for[c],for,MNXM39,MNXM39[c],c,TRUE,MetanetX conversion,FALSE
-fpram[c],fpram,MNXM1363732,MNXM1363732[c],c,TRUE,MetanetX conversion,FALSE
-fprica[c],fprica,MNXM1104518,MNXM1104518[c],c,TRUE,MetanetX conversion,FALSE
-frdp[c],frdp,MNXM1363934,MNXM1363934[c],c,TRUE,MetanetX conversion,FALSE
-fum[c],fum,MNXM737340,MNXM737340[c],c,TRUE,MetanetX conversion,FALSE
-g1p[c],g1p,MNXM1364357,MNXM1364357[c],c,TRUE,MetanetX conversion,FALSE
-g3p[c],g3p,MNXM1373252,MNXM1373252[c],c,TRUE,MetanetX conversion,FALSE
-gal[c],gal,MNXM1364662,MNXM1364662[c],c,TRUE,MetanetX conversion,FALSE
-gam1p[c],gam1p,MNXM1364196,MNXM1364196[c],c,TRUE,MetanetX conversion,FALSE
-gam6p[c],gam6p,MNXM1104065,MNXM1104065[c],c,TRUE,MetanetX conversion,FALSE
-gar[c],gar,MNXM1104522,MNXM1104522[c],c,TRUE,MetanetX conversion,FALSE
-gcald[c],gcald,MNXM734590,MNXM734590[c],c,TRUE,MetanetX conversion,FALSE
-gdp[c],gdp,MNXM1103285,MNXM1103285[c],c,TRUE,MetanetX conversion,FALSE
-gdpmann[c],gdpmann,MNXM1104188,MNXM1104188[c],c,TRUE,MetanetX conversion,FALSE
-gdptp[c],gdptp,MNXM1561,MNXM1561[c],c,TRUE,MetanetX conversion,FALSE
-ggdp[c],ggdp,MNXM728266,MNXM728266[c],c,TRUE,MetanetX conversion,FALSE
-glc__D[c],glc__D,MNXM1364206,MNXM1364206[c],c,TRUE,MetanetX conversion,FALSE
-gln__L[c],gln__L,MNXM37,MNXM37[c],c,TRUE,MetanetX conversion,FALSE
-glu__D[c],glu__D,MNXM331,MNXM331[c],c,TRUE,MetanetX conversion,FALSE
-glu__L[c],glu__L,MNXM741173,MNXM741173[c],c,TRUE,MetanetX conversion,FALSE
-glu1sa[c],glu1sa,MNXM1453,MNXM1453[c],c,TRUE,MetanetX conversion,FALSE
-glu5p[c],glu5p,MNXM1280,MNXM1280[c],c,TRUE,MetanetX conversion,FALSE
-glu5sa[c],glu5sa,MNXM1093051,MNXM1093051[c],c,TRUE,MetanetX conversion,FALSE
-glutrna[c],glutrna,MNXM731032,MNXM731032[c],c,TRUE,MetanetX conversion,FALSE
-gly[c],gly,MNXM29,MNXM29[c],c,TRUE,MetanetX conversion,FALSE
-glyb[c],glyb,MNXM289,MNXM289[c],c,TRUE,MetanetX conversion,FALSE
-glyc[c],glyc,MNXM89612,MNXM89612[c],c,TRUE,MetanetX conversion,FALSE
-glyc__R[c],glyc__R,MNXM1136254,MNXM1136254[c],c,TRUE,MetanetX conversion,FALSE
-glyc3p[c],glyc3p,MNXM66,MNXM66[c],c,TRUE,MetanetX conversion,FALSE
-gmp[c],gmp,MNXM1101285,MNXM1101285[c],c,TRUE,MetanetX conversion,FALSE
-grdp[c],grdp,MNXM100,MNXM100[c],c,TRUE,MetanetX conversion,FALSE
-gtp[c],gtp,MNXM1103553,MNXM1103553[c],c,TRUE,MetanetX conversion,FALSE
-h[c],h,MNXM1,MNXM1[c],c,TRUE,MetanetX conversion,FALSE
-h2[c],h2,MNXM1108018,MNXM1108018[c],c,TRUE,MetanetX conversion,FALSE
-h2mb4p[c],h2mb4p,MNXM1371512,MNXM1371512[c],c,TRUE,MetanetX conversion,FALSE
-h2o[c],h2o,WATER,WATER[c],c,TRUE,Other conversion,FALSE
-h2s[c],h2s,MNXM1366923,MNXM1366923[c],c,TRUE,MetanetX conversion,FALSE
-hcit[c],hcit,MNXM1364134,MNXM1364134[c],c,TRUE,MetanetX conversion,FALSE
-hcys__L[c],hcys__L,MNXM123,MNXM123[c],c,TRUE,MetanetX conversion,FALSE
-hdca[c],hdca,MNXM108,MNXM108[c],c,TRUE,MetanetX conversion,FALSE
-hdeACP[c],hdeACP,MNXM89949,MNXM89949[c],c,TRUE,MetanetX conversion,FALSE
-hexACP[c],hexACP,MNXM728619,MNXM728619[c],c,TRUE,MetanetX conversion,FALSE
-his__L[c],his__L,MNXM1107769,MNXM1107769[c],c,TRUE,MetanetX conversion,FALSE
-hisp[c],hisp,MNXM1482,MNXM1482[c],c,TRUE,MetanetX conversion,FALSE
-histd[c],histd,MNXM1281,MNXM1281[c],c,TRUE,MetanetX conversion,FALSE
-hmbil[c],hmbil,MNXM547,MNXM547[c],c,TRUE,MetanetX conversion,FALSE
-hom__L[c],hom__L,MNXM353,MNXM353[c],c,TRUE,MetanetX conversion,FALSE
-iasp[c],iasp,MNXM1371470,MNXM1371470[c],c,TRUE,MetanetX conversion,FALSE
-icit[c],icit,MNXM89661,MNXM89661[c],c,TRUE,MetanetX conversion,FALSE
-ile__L[c],ile__L,MNXM728337,MNXM728337[c],c,TRUE,MetanetX conversion,FALSE
-iletrna[c],iletrna,MNXM1543464,MNXM1543464[c],c,TRUE,MetanetX conversion,FALSE
-imacp[c],imacp,MNXM1456,MNXM1456[c],c,TRUE,MetanetX conversion,FALSE
-imp[c],imp,MNXM1101868,MNXM1101868[c],c,TRUE,MetanetX conversion,FALSE
-indole[c],indole,MNXM735090,MNXM735090[c],c,TRUE,MetanetX conversion,FALSE
-ipdp[c],ipdp,MNXM83,MNXM83[c],c,TRUE,MetanetX conversion,FALSE
-k[c],k,MNXM95,MNXM95[c],c,TRUE,MetanetX conversion,FALSE
-lac__D[c],lac__D,MNXM1372481,MNXM1372481[c],c,TRUE,MetanetX conversion,FALSE
-lald__L[c],lald__L,MNXM732880,MNXM732880[c],c,TRUE,MetanetX conversion,FALSE
-leu__L[c],leu__L,MNXM1106761,MNXM1106761[c],c,TRUE,MetanetX conversion,FALSE
-leutrna[c],leutrna,MNXM1543586,MNXM1543586[c],c,TRUE,MetanetX conversion,FALSE
-lpro[c],lpro,MNXM741247,MNXM741247[c],c,TRUE,MetanetX conversion,FALSE
-lys__L[c],lys__L,MNXM1364416,MNXM1364416[c],c,TRUE,MetanetX conversion,FALSE
-mal__L[c],mal__L,MNXM1107192,MNXM1107192[c],c,TRUE,MetanetX conversion,FALSE
-malACP[c],malACP,MNXM731937,MNXM731937[c],c,TRUE,MetanetX conversion,FALSE
-malcoa[c],malcoa,MNXM1106093,MNXM1106093[c],c,TRUE,MetanetX conversion,FALSE
-malt[c],malt,MNXM1106000,MNXM1106000[c],c,TRUE,MetanetX conversion,FALSE
-malthx[c],malthx,MNXM1093344,MNXM1093344[c],c,TRUE,MetanetX conversion,FALSE
-malttr[c],malttr,MNXM1104527,MNXM1104527[c],c,TRUE,MetanetX conversion,FALSE
-man1p[c],man1p,MNXM1106057,MNXM1106057[c],c,TRUE,MetanetX conversion,FALSE
-man6p[c],man6p,MNXM1103551,MNXM1103551[c],c,TRUE,MetanetX conversion,FALSE
-met__L[c],met__L,MNXM738804,MNXM738804[c],c,TRUE,MetanetX conversion,FALSE
-methf[c],methf,MNXM511,MNXM511[c],c,TRUE,MetanetX conversion,FALSE
-mettrna[c],mettrna,MNXM1543652,MNXM1543652[c],c,TRUE,MetanetX conversion,FALSE
-mg2[c],mg2,MNXM653,MNXM653[c],c,TRUE,MetanetX conversion,FALSE
-mlthf[c],mlthf,MNXM1102150,MNXM1102150[c],c,TRUE,MetanetX conversion,FALSE
-mn2[c],mn2,MNXM2255,MNXM2255[c],c,TRUE,MetanetX conversion,FALSE
-mobd[c],mobd,MNXM726090,MNXM726090[c],c,TRUE,MetanetX conversion,FALSE
-mql8[c],mql8,MNXM1369676,MNXM1369676[c],c,TRUE,MetanetX conversion,FALSE
-mqn8[c],mqn8,MNXM1371034,MNXM1371034[c],c,TRUE,MetanetX conversion,FALSE
-mththf[c],mththf,MNXM30887,MNXM30887[c],c,TRUE,MetanetX conversion,FALSE
-myrsACP[c],myrsACP,MNXM728548,MNXM728548[c],c,TRUE,MetanetX conversion,FALSE
-nac[c],nac,MNXM274,MNXM274[c],c,TRUE,MetanetX conversion,FALSE
-nad[c],nad,MNXM8,MNXM8[c],c,TRUE,MetanetX conversion,FALSE
-nadh[c],nadh,MNXM10,MNXM10[c],c,TRUE,MetanetX conversion,FALSE
-nadp[c],nadp,MNXM5,MNXM5[c],c,TRUE,MetanetX conversion,FALSE
-nadph[c],nadph,MNXM738702,MNXM738702[c],c,TRUE,MetanetX conversion,FALSE
-nh4[c],nh4,MNXM729302,MNXM729302[c],c,TRUE,MetanetX conversion,FALSE
-nicrnt[c],nicrnt,MNXM1108016,MNXM1108016[c],c,TRUE,MetanetX conversion,FALSE
-oaa[c],oaa,MNXM46,MNXM46[c],c,TRUE,MetanetX conversion,FALSE
-ocACP[c],ocACP,MNXM90185,MNXM90185[c],c,TRUE,MetanetX conversion,FALSE
-ocdca[c],ocdca,MNXM236,MNXM236[c],c,TRUE,MetanetX conversion,FALSE
-ocdcaACP[c],ocdcaACP,MNXM3075,MNXM3075[c],c,TRUE,MetanetX conversion,FALSE
-octdp[c],octdp,MNXM1373575,MNXM1373575[c],c,TRUE,MetanetX conversion,FALSE
-octeACP[c],octeACP,MNXM89950,MNXM89950[c],c,TRUE,MetanetX conversion,FALSE
-orn[c],orn,MNXM741175,MNXM741175[c],c,TRUE,MetanetX conversion,FALSE
-orot[c],orot,MNXM235,MNXM235[c],c,TRUE,MetanetX conversion,FALSE
-orot5p[c],orot5p,MNXM1103557,MNXM1103557[c],c,TRUE,MetanetX conversion,FALSE
-pa140[c],pa140,MNXM737414,MNXM737414[c],c,TRUE,MetanetX conversion,FALSE
-pa160[c],pa160,MNXM731668,MNXM731668[c],c,TRUE,MetanetX conversion,FALSE
-pa161[c],pa161,MNXM66504,MNXM66504[c],c,TRUE,MetanetX conversion,FALSE
-pa181[c],pa181,MNXM90511,MNXM90511[c],c,TRUE,MetanetX conversion,FALSE
-palmACP[c],palmACP,MNXM728536,MNXM728536[c],c,TRUE,MetanetX conversion,FALSE
-pan4p[c],pan4p,MNXM373,MNXM373[c],c,TRUE,MetanetX conversion,FALSE
-pant__R[c],pant__R,MNXM593,MNXM593[c],c,TRUE,MetanetX conversion,FALSE
-pe140[c],pe140,MNXM733473,MNXM733473[c],c,TRUE,MetanetX conversion,FALSE
-pe160[c],pe160,MNXM32178,MNXM32178[c],c,TRUE,MetanetX conversion,FALSE
-pe161[c],pe161,MNXM739592,MNXM739592[c],c,TRUE,MetanetX conversion,FALSE
-pe181[c],pe181,MNXM2150,MNXM2150[c],c,TRUE,MetanetX conversion,FALSE
-pep[c],pep,MNXM73,MNXM73[c],c,TRUE,MetanetX conversion,FALSE
-pg120[c],pg120,MNXM1771,MNXM1771[c],c,TRUE,MetanetX conversion,FALSE
-pg140[c],pg140,MNXM737417,MNXM737417[c],c,TRUE,MetanetX conversion,FALSE
-pg160[c],pg160,MNXM734041,MNXM734041[c],c,TRUE,MetanetX conversion,FALSE
-pg161[c],pg161,MNXM73693,MNXM73693[c],c,TRUE,MetanetX conversion,FALSE
-pg180[c],pg180,MNXM737492,MNXM737492[c],c,TRUE,MetanetX conversion,FALSE
-pg181[c],pg181,MNXM731815,MNXM731815[c],c,TRUE,MetanetX conversion,FALSE
-pgp140[c],pgp140,MNXM5272,MNXM5272[c],c,TRUE,MetanetX conversion,FALSE
-pgp160[c],pgp160,MNXM734044,MNXM734044[c],c,TRUE,MetanetX conversion,FALSE
-pgp161[c],pgp161,MNXM739994,MNXM739994[c],c,TRUE,MetanetX conversion,FALSE
-pgp181[c],pgp181,MNXM5269,MNXM5269[c],c,TRUE,MetanetX conversion,FALSE
-phe__L[c],phe__L,MNXM741664,MNXM741664[c],c,TRUE,MetanetX conversion,FALSE
-phetrna[c],phetrna,MNXM1543782,MNXM1543782[c],c,TRUE,MetanetX conversion,FALSE
-phom[c],phom,MNXM1334,MNXM1334[c],c,TRUE,MetanetX conversion,FALSE
-phpyr[c],phpyr,MNXM730221,MNXM730221[c],c,TRUE,MetanetX conversion,FALSE
-phthr[c],phthr,MNXM759,MNXM759[c],c,TRUE,MetanetX conversion,FALSE
-pi[c],pi,MNXM9,MNXM9[c],c,TRUE,MetanetX conversion,FALSE
-pmtcoa[c],pmtcoa,MNXM1106160,MNXM1106160[c],c,TRUE,MetanetX conversion,FALSE
-pnto__R[c],pnto__R,MNXM1372754,MNXM1372754[c],c,TRUE,MetanetX conversion,FALSE
-ppa[c],ppa,MNXM1094052,MNXM1094052[c],c,TRUE,MetanetX conversion,FALSE
-ppap[c],ppap,MNXM1499,MNXM1499[c],c,TRUE,MetanetX conversion,FALSE
-ppbng[c],ppbng,MNXM554,MNXM554[c],c,TRUE,MetanetX conversion,FALSE
-ppcoa[c],ppcoa,MNXM1364414,MNXM1364414[c],c,TRUE,MetanetX conversion,FALSE
-pphn[c],pphn,MNXM737312,MNXM737312[c],c,TRUE,MetanetX conversion,FALSE
-ppi[c],ppi,MNXM11,MNXM11[c],c,TRUE,MetanetX conversion,FALSE
-pppg9[c],pppg9,MNXM351,MNXM351[c],c,TRUE,MetanetX conversion,FALSE
-pppi[c],pppi,MNXM332,MNXM332[c],c,TRUE,MetanetX conversion,FALSE
-pram[c],pram,MNXM1364117,MNXM1364117[c],c,TRUE,MetanetX conversion,FALSE
-pran[c],pran,MNXM1489,MNXM1489[c],c,TRUE,MetanetX conversion,FALSE
-prbamp[c],prbamp,MNXM1524824,MNXM1524824[c],c,TRUE,MetanetX conversion,FALSE
-prbatp[c],prbatp,MNXM1372184,MNXM1372184[c],c,TRUE,MetanetX conversion,FALSE
-prfp[c],prfp,MNXM1397,MNXM1397[c],c,TRUE,MetanetX conversion,FALSE
-prlp[c],prlp,MNXM1408,MNXM1408[c],c,TRUE,MetanetX conversion,FALSE
-pro__L[c],pro__L,MNXM114,MNXM114[c],c,TRUE,MetanetX conversion,FALSE
-prpp[c],prpp,MNXM1104453,MNXM1104453[c],c,TRUE,MetanetX conversion,FALSE
-ps140[c],ps140,MNXM7665,MNXM7665[c],c,TRUE,MetanetX conversion,FALSE
-ps160[c],ps160,MNXM734047,MNXM734047[c],c,TRUE,MetanetX conversion,FALSE
-ps161[c],ps161,MNXM7660,MNXM7660[c],c,TRUE,MetanetX conversion,FALSE
-ps181[c],ps181,MNXM7662,MNXM7662[c],c,TRUE,MetanetX conversion,FALSE
-pser__L[c],pser__L,MNXM1094062,MNXM1094062[c],c,TRUE,MetanetX conversion,FALSE
-ptrc[c],ptrc,MNXM118,MNXM118[c],c,TRUE,MetanetX conversion,FALSE
-pydx5p[c],pydx5p,MNXM161,MNXM161[c],c,TRUE,MetanetX conversion,FALSE
-pyr[c],pyr,MNXM23,MNXM23[c],c,TRUE,MetanetX conversion,FALSE
-quln[c],quln,MNXM555,MNXM555[c],c,TRUE,MetanetX conversion,FALSE
-r5p[c],r5p,MNXM1364029,MNXM1364029[c],c,TRUE,MetanetX conversion,FALSE
-rdmbzi[c],rdmbzi,MNXM729592,MNXM729592[c],c,TRUE,MetanetX conversion,FALSE
-rhcys[c],rhcys,MNXM731817,MNXM731817[c],c,TRUE,MetanetX conversion,FALSE
-rib__D[c],rib__D,MNXM1108051,MNXM1108051[c],c,TRUE,MetanetX conversion,FALSE
-ribflv[c],ribflv,MNXM270,MNXM270[c],c,TRUE,MetanetX conversion,FALSE
-ru5p__D[c],ru5p__D,MNXM145,MNXM145[c],c,TRUE,MetanetX conversion,FALSE
-s17bp[c],s17bp,MNXM507505,MNXM507505[c],c,TRUE,MetanetX conversion,FALSE
-s7p[c],s7p,MNXM733314,MNXM733314[c],c,TRUE,MetanetX conversion,FALSE
-seln[c],seln,MNXM1369599,MNXM1369599[c],c,TRUE,MetanetX conversion,FALSE
-selnp[c],selnp,MNXM1339,MNXM1339[c],c,TRUE,MetanetX conversion,FALSE
-ser__L[c],ser__L,MNXM737787,MNXM737787[c],c,TRUE,MetanetX conversion,FALSE
-sertrna[c],sertrna,MNXM1091293,MNXM1091293[c],c,TRUE,MetanetX conversion,FALSE
-skm[c],skm,MNXM602,MNXM602[c],c,TRUE,MetanetX conversion,FALSE
-skm5p[c],skm5p,MNXM1265,MNXM1265[c],c,TRUE,MetanetX conversion,FALSE
-sl26da[c],sl26da,MNXM729177,MNXM729177[c],c,TRUE,MetanetX conversion,FALSE
-sl2a6o[c],sl2a6o,MNXM1563,MNXM1563[c],c,TRUE,MetanetX conversion,FALSE
-so3[c],so3,MNXM726339,MNXM726339[c],c,TRUE,MetanetX conversion,FALSE
-so4[c],so4,MNXM58,MNXM58[c],c,TRUE,MetanetX conversion,FALSE
-spmd[c],spmd,MNXM124,MNXM124[c],c,TRUE,MetanetX conversion,FALSE
-stcoa[c],stcoa,MNXM1104352,stcoa[c],c,TRUE,MetanetX conversion,FALSE
-succ[c],succ,MNXM25,MNXM25[c],c,TRUE,MetanetX conversion,FALSE
-suchms[c],suchms,MNXM820,MNXM820[c],c,TRUE,MetanetX conversion,FALSE
-sucsal[c],sucsal,MNXM172,MNXM172[c],c,TRUE,MetanetX conversion,FALSE
-t3c11vaceACP[c],t3c11vaceACP,MNXM1375068,MNXM1375068[c],c,TRUE,MetanetX conversion,FALSE
-t3c5ddeceACP[c],t3c5ddeceACP,MNXM5959,MNXM5959[c],c,TRUE,MetanetX conversion,FALSE
-t3c7mrseACP[c],t3c7mrseACP,MNXM5960,MNXM5960[c],c,TRUE,MetanetX conversion,FALSE
-t3c9palmeACP[c],t3c9palmeACP,MNXM1375069,MNXM1375069[c],c,TRUE,MetanetX conversion,FALSE
-taur[c],taur,MNXM282,MNXM282[c],c,TRUE,MetanetX conversion,FALSE
-tdcoa[c],tdcoa,MNXM1104283,MNXM1104283[c],c,TRUE,MetanetX conversion,FALSE
-tddec2eACP[c],tddec2eACP,MNXM1375070,MNXM1375070[c],c,TRUE,MetanetX conversion,FALSE
-tdeACP[c],tdeACP,MNXM1525003,MNXM1525003[c],c,TRUE,MetanetX conversion,FALSE
-tdec2eACP[c],tdec2eACP,MNXM733432,MNXM733432[c],c,TRUE,MetanetX conversion,FALSE
-teca_CL[c],teca_CL,MNXM148269,MNXM148269[c],c,TRUE,MetanetX conversion,FALSE
-thdp[c],thdp,MNXM480,MNXM480[c],c,TRUE,MetanetX conversion,FALSE
-thex2eACP[c],thex2eACP,MNXM728713,MNXM728713[c],c,TRUE,MetanetX conversion,FALSE
-thf[c],thf,MNXM1103936,MNXM1103936[c],c,TRUE,MetanetX conversion,FALSE
-thfglu[c],thfglu,MNXM1104336,MNXM1104336[c],c,TRUE,MetanetX conversion,FALSE
-thm[c],thm,MNXM730135,MNXM730135[c],c,TRUE,MetanetX conversion,FALSE
-thmmp[c],thmmp,MNXM662,MNXM662[c],c,TRUE,MetanetX conversion,FALSE
-thmpp[c],thmpp,MNXM256,MNXM256[c],c,TRUE,MetanetX conversion,FALSE
-thr__L[c],thr__L,MNXM142,MNXM142[c],c,TRUE,MetanetX conversion,FALSE
-thrp[c],thrp,MNXM1492,MNXM1492[c],c,TRUE,MetanetX conversion,FALSE
-tmrs2eACP[c],tmrs2eACP,MNXM728721,MNXM728721[c],c,TRUE,MetanetX conversion,FALSE
-toct2eACP[c],toct2eACP,MNXM728588,MNXM728588[c],c,TRUE,MetanetX conversion,FALSE
-toctd2eACP[c],toctd2eACP,MNXM1375071,MNXM1375071[c],c,TRUE,MetanetX conversion,FALSE
-tpalm2eACP[c],tpalm2eACP,MNXM1375072,MNXM1375072[c],c,TRUE,MetanetX conversion,FALSE
-trdox[c],trdox,MNXM1090214,MNXM1090214[c],c,TRUE,MetanetX conversion,FALSE
-trdrd[c],trdrd,MNXM741334,MNXM741334[c],c,TRUE,MetanetX conversion,FALSE
-trnaglu[c],trnaglu,MNXM1091273,MNXM1091273[c],c,TRUE,MetanetX conversion,FALSE
-trnaile[c],trnaile,MNXM1543937,MNXM1543937[c],c,TRUE,MetanetX conversion,FALSE
-trnaleu[c],trnaleu,MNXM1543938,MNXM1543938[c],c,TRUE,MetanetX conversion,FALSE
-trnamet[c],trnamet,MNXM1543940,MNXM1543940[c],c,TRUE,MetanetX conversion,FALSE
-trnaphe[c],trnaphe,MNXM1543941,MNXM1543941[c],c,TRUE,MetanetX conversion,FALSE
-trnaser[c],trnaser,MNXM1543944,MNXM1543944[c],c,TRUE,MetanetX conversion,FALSE
-trnaval[c],trnaval,MNXM1543950,MNXM1543950[c],c,TRUE,MetanetX conversion,FALSE
-trp__L[c],trp__L,MNXM741553,MNXM741553[c],c,TRUE,MetanetX conversion,FALSE
-ttdca[c],ttdca,MNXM314,MNXM314[c],c,TRUE,MetanetX conversion,FALSE
-tyr__L[c],tyr__L,MNXM76,MNXM76[c],c,TRUE,MetanetX conversion,FALSE
-uaagmda[c],uaagmda,MNXM739668,MNXM739668[c],c,TRUE,MetanetX conversion,FALSE
-uaccg[c],uaccg,MNXM731472,MNXM731472[c],c,TRUE,MetanetX conversion,FALSE
-uacgam[c],uacgam,MNXM1104529,MNXM1104529[c],c,TRUE,MetanetX conversion,FALSE
-uacmam[c],uacmam,MNXM1101258,MNXM1101258[c],c,TRUE,MetanetX conversion,FALSE
-uagmda[c],uagmda,MNXM732761,MNXM732761[c],c,TRUE,MetanetX conversion,FALSE
-uama[c],uama,MNXM732162,MNXM732162[c],c,TRUE,MetanetX conversion,FALSE
-uamag[c],uamag,MNXM741611,MNXM741611[c],c,TRUE,MetanetX conversion,FALSE
-uamr[c],uamr,MNXM1107410,MNXM1107410[c],c,TRUE,MetanetX conversion,FALSE
-udcpdp[c],udcpdp,MNXM1365109,MNXM1365109[c],c,TRUE,MetanetX conversion,FALSE
-udcpp[c],udcpp,MNXM733031,MNXM733031[c],c,TRUE,MetanetX conversion,FALSE
-udp[c],udp,MNXM1102128,MNXM1102128[c],c,TRUE,MetanetX conversion,FALSE
-udpg[c],udpg,MNXM1364158,MNXM1364158[c],c,TRUE,MetanetX conversion,FALSE
-udpgal[c],udpgal,MNXM1104754,MNXM1104754[c],c,TRUE,MetanetX conversion,FALSE
-udpglcur[c],udpglcur,MNXM1104890,MNXM1104890[c],c,TRUE,MetanetX conversion,FALSE
-ugmd[c],ugmd,MNXM1446,MNXM1446[c],c,TRUE,MetanetX conversion,FALSE
-ugmda[c],ugmda,MNXM732166,MNXM732166[c],c,TRUE,MetanetX conversion,FALSE
-ump[c],ump,MNXM1104823,MNXM1104823[c],c,TRUE,MetanetX conversion,FALSE
-uppg3[c],uppg3,MNXM414,MNXM414[c],c,TRUE,MetanetX conversion,FALSE
-utp[c],utp,MNXM1101474,MNXM1101474[c],c,TRUE,MetanetX conversion,FALSE
-val__L[c],val__L,MNXM199,MNXM199[c],c,TRUE,MetanetX conversion,FALSE
-valtrna[c],valtrna,MNXM1544015,MNXM1544015[c],c,TRUE,MetanetX conversion,FALSE
-xmp[c],xmp,MNXM1104385,MNXM1104385[c],c,TRUE,MetanetX conversion,FALSE
-xu5p__D[c],xu5p__D,MNXM186,MNXM186[c],c,TRUE,MetanetX conversion,FALSE
-xyl__D[c],xyl__D,MNXM169454,MNXM169454[c],c,TRUE,MetanetX conversion,FALSE
-zn2[c],zn2,MNXM1372251,MNXM1372251[c],c,TRUE,MetanetX conversion,FALSE
-ac[e],ac,MNXM26,MNXM26[e],e,TRUE,MetanetX conversion,FALSE
-ala__D[e],ala__D,MNXM1105731,MNXM1105731[e],e,TRUE,MetanetX conversion,FALSE
-alaala[e],alaala,MNXM1364149,MNXM1364149[e],e,TRUE,MetanetX conversion,FALSE
-alltn[e],alltn,MNXM738834,MNXM738834[e],e,TRUE,MetanetX conversion,FALSE
-arab__L[e],arab__L,MNXM734859,MNXM734859[e],e,TRUE,MetanetX conversion,FALSE
-arg__L[e],arg__L,MNXM739527,MNXM739527[e],e,TRUE,MetanetX conversion,FALSE
-asn__L[e],asn__L,MNXM1107821,MNXM1107821[e],e,TRUE,MetanetX conversion,FALSE
-asp__L[e],asp__L,MNXM1364673,MNXM1364673[e],e,TRUE,MetanetX conversion,FALSE
-btd_RR[e],btd_RR,MNXM2757,MNXM2757[e],e,TRUE,MetanetX conversion,FALSE
-btn[e],btn,MNXM304,MNXM304[e],e,TRUE,MetanetX conversion,FALSE
-btoh[e],btoh,MNXM3230,MNXM3230[e],e,TRUE,MetanetX conversion,FALSE
-but[e],but,MNXM458,MNXM458[e],e,TRUE,MetanetX conversion,FALSE
-ca2[e],ca2,MNXM128,MNXM128[e],e,TRUE,MetanetX conversion,FALSE
-citr__L[e],citr__L,MNXM732471,MNXM732471[e],e,TRUE,MetanetX conversion,FALSE
-cl[e],cl,MNXM735978,MNXM735978[e],e,TRUE,MetanetX conversion,FALSE
-co[e],co,MNXM726637,MNXM726637[e],e,TRUE,MetanetX conversion,FALSE
-co2[e],co2,MNXM13,MNXM13[e],e,TRUE,MetanetX conversion,FALSE
-cobalt2[e],cobalt2,MNXM90960,MNXM90960[e],e,TRUE,MetanetX conversion,FALSE
-csn[e],csn,MNXM761,MNXM761[e],e,TRUE,MetanetX conversion,FALSE
-cu2[e],cu2,MNXM731166,MNXM731166[e],e,TRUE,MetanetX conversion,FALSE
-cys__L[e],cys__L,MNXM738068,MNXM738068[e],e,TRUE,MetanetX conversion,FALSE
-etoh[e],etoh,MNXM1108092,MNXM1108092[e],e,TRUE,MetanetX conversion,FALSE
-fe2[e],fe2,MNXM1372038,MNXM1372038[e],e,TRUE,MetanetX conversion,FALSE
-fol[e],fol,MNXM617,MNXM617[e],e,TRUE,MetanetX conversion,FALSE
-for[e],for,MNXM39,MNXM39[e],e,TRUE,MetanetX conversion,FALSE
-fru[e],fru,MNXM1364246,MNXM1364246[e],e,TRUE,MetanetX conversion,FALSE
-gal[e],gal,MNXM1364662,MNXM1364662[e],e,TRUE,MetanetX conversion,FALSE
-galctn__D[e],galctn__D,MNXM1734,MNXM1734[e],e,TRUE,MetanetX conversion,FALSE
-galur[e],galur,MNXM736226,MNXM736226[e],e,TRUE,MetanetX conversion,FALSE
-glc__D[e],glc__D,MNXM1364206,MNXM1364206[e],e,TRUE,MetanetX conversion,FALSE
-glcn[e],glcn,MNXM341,MNXM341[e],e,TRUE,MetanetX conversion,FALSE
-glcur[e],glcur,MNXM1105765,MNXM1105765[e],e,TRUE,MetanetX conversion,FALSE
-gln__L[e],gln__L,MNXM37,MNXM37[e],e,TRUE,MetanetX conversion,FALSE
-glu__L[e],glu__L,MNXM741173,MNXM741173[e],e,TRUE,MetanetX conversion,FALSE
-gly[e],gly,MNXM29,MNXM29[e],e,TRUE,MetanetX conversion,FALSE
-glyb[e],glyb,MNXM289,MNXM289[e],e,TRUE,MetanetX conversion,FALSE
-glyc[e],glyc,MNXM89612,MNXM89612[e],e,TRUE,MetanetX conversion,FALSE
-h[e],h,MNXM1,MNXM1[e],e,TRUE,MetanetX conversion,FALSE
-h2[e],h2,MNXM1108018,MNXM1108018[e],e,TRUE,MetanetX conversion,FALSE
-h2o[e],h2o,WATER,WATER[e],e,TRUE,Other conversion,FALSE
-his__L[e],his__L,MNXM1107769,MNXM1107769[e],e,TRUE,MetanetX conversion,FALSE
-ile__L[e],ile__L,MNXM728337,MNXM728337[e],e,TRUE,MetanetX conversion,FALSE
-k[e],k,MNXM95,MNXM95[e],e,TRUE,MetanetX conversion,FALSE
-lac__D[e],lac__D,MNXM1372481,MNXM1372481[e],e,TRUE,MetanetX conversion,FALSE
-lac__L[e],lac__L,MNXM1372482,MNXM1372482[e],e,TRUE,MetanetX conversion,FALSE
-leu__L[e],leu__L,MNXM1106761,MNXM1106761[e],e,TRUE,MetanetX conversion,FALSE
-lys__L[e],lys__L,MNXM1364416,MNXM1364416[e],e,TRUE,MetanetX conversion,FALSE
-malt[e],malt,MNXM1106000,MNXM1106000[e],e,TRUE,MetanetX conversion,FALSE
-malthx[e],malthx,MNXM1093344,MNXM1093344[e],e,TRUE,MetanetX conversion,FALSE
-malttr[e],malttr,MNXM1104527,MNXM1104527[e],e,TRUE,MetanetX conversion,FALSE
-man[e],man,MNXM1364255,MNXM1364255[e],e,TRUE,MetanetX conversion,FALSE
-met__L[e],met__L,MNXM738804,MNXM738804[e],e,TRUE,MetanetX conversion,FALSE
-mg2[e],mg2,MNXM653,MNXM653[e],e,TRUE,MetanetX conversion,FALSE
-mn2[e],mn2,MNXM2255,MNXM2255[e],e,TRUE,MetanetX conversion,FALSE
-mobd[e],mobd,MNXM726090,MNXM726090[e],e,TRUE,MetanetX conversion,FALSE
-murein4p3p[e],murein4p3p,MNXM1543665,MNXM1543665[e],e,TRUE,MetanetX conversion,FALSE
-murein4p4p[e],murein4p4p,MNXM1543666,MNXM1543666[e],e,TRUE,MetanetX conversion,FALSE
-murein4px4p[e],murein4px4p,MNXM1543667,MNXM1543667[e],e,TRUE,MetanetX conversion,FALSE
-murein4px4px4p[e],murein4px4px4p,MNXM1107894,MNXM1107894[e],e,TRUE,MetanetX conversion,FALSE
-murein5p3p[e],murein5p3p,MNXM1543670,MNXM1543670[e],e,TRUE,MetanetX conversion,FALSE
-murein5p4p[e],murein5p4p,MNXM1543671,MNXM1543671[e],e,TRUE,MetanetX conversion,FALSE
-murein5p5p[e],murein5p5p,MNXM1543672,MNXM1543672[e],e,TRUE,MetanetX conversion,FALSE
-murein5p5p5p[e],murein5p5p5p,MNXM1543673,MNXM1543673[e],e,TRUE,MetanetX conversion,FALSE
-murein5px3p[e],murein5px3p,MNXM1543674,MNXM1543674[e],e,TRUE,MetanetX conversion,FALSE
-murein5px4p[e],murein5px4p,MNXM1543675,MNXM1543675[e],e,TRUE,MetanetX conversion,FALSE
-murein5px4px4p[e],murein5px4px4p,MNXM1543676,MNXM1543676[e],e,TRUE,MetanetX conversion,FALSE
-nh4[e],nh4,MNXM729302,MNXM729302[e],e,TRUE,MetanetX conversion,FALSE
-no2[e],no2,MNXM107,MNXM107[e],e,TRUE,MetanetX conversion,FALSE
-no3[e],no3,MNXM732398,MNXM732398[e],e,TRUE,MetanetX conversion,FALSE
-pi[e],pi,MNXM9,MNXM9[e],e,TRUE,MetanetX conversion,FALSE
-pro__L[e],pro__L,MNXM114,MNXM114[e],e,TRUE,MetanetX conversion,FALSE
-ptrc[e],ptrc,MNXM118,MNXM118[e],e,TRUE,MetanetX conversion,FALSE
-pydxn[e],pydxn,MNXM419,MNXM419[e],e,TRUE,MetanetX conversion,FALSE
-pyr[e],pyr,MNXM23,MNXM23[e],e,TRUE,MetanetX conversion,FALSE
-rib__D[e],rib__D,MNXM1108051,MNXM1108051[e],e,TRUE,MetanetX conversion,FALSE
-ribflv[e],ribflv,MNXM270,MNXM270[e],e,TRUE,MetanetX conversion,FALSE
-rmn[e],rmn,MNXM1364455,MNXM1364455[e],e,TRUE,MetanetX conversion,FALSE
-ser__D[e],ser__D,MNXM694,MNXM694[e],e,TRUE,MetanetX conversion,FALSE
-ser__L[e],ser__L,MNXM737787,MNXM737787[e],e,TRUE,MetanetX conversion,FALSE
-so4[e],so4,MNXM58,MNXM58[e],e,TRUE,MetanetX conversion,FALSE
-spmd[e],spmd,MNXM124,MNXM124[e],e,TRUE,MetanetX conversion,FALSE
-taur[e],taur,MNXM282,MNXM282[e],e,TRUE,MetanetX conversion,FALSE
-thm[e],thm,MNXM730135,MNXM730135[e],e,TRUE,MetanetX conversion,FALSE
-trp__L[e],trp__L,MNXM741553,MNXM741553[e],e,TRUE,MetanetX conversion,FALSE
-uaagmda[e],uaagmda,MNXM739668,MNXM739668[e],e,TRUE,MetanetX conversion,FALSE
-udcpdp[e],udcpdp,MNXM1365109,MNXM1365109[e],e,TRUE,MetanetX conversion,FALSE
-udcpp[e],udcpp,MNXM733031,MNXM733031[e],e,TRUE,MetanetX conversion,FALSE
-ura[e],ura,MNXM1369194,MNXM1369194[e],e,TRUE,MetanetX conversion,FALSE
-val__L[e],val__L,MNXM199,MNXM199[e],e,TRUE,MetanetX conversion,FALSE
-xan[e],xan,MNXM174,MNXM174[e],e,TRUE,MetanetX conversion,FALSE
-xyl__D[e],xyl__D,MNXM169454,MNXM169454[e],e,TRUE,MetanetX conversion,FALSE
-zn2[e],zn2,MNXM1372251,MNXM1372251[e],e,TRUE,MetanetX conversion,FALSE
-14glucan[p],14glucan,MNXM733515,MNXM733515[p],p,TRUE,MetanetX conversion,FALSE
-14glucan[c],14glucan,MNXM733515,MNXM733515[c],c,TRUE,MetanetX conversion,FALSE
-2ddecg3p[c],2ddecg3p,MNXM479374,MNXM479374[c],c,TRUE,MetanetX conversion,FALSE
-2ddecg3p[p],2ddecg3p,MNXM479374,MNXM479374[p],p,TRUE,MetanetX conversion,FALSE
-2tdecg3p[p],2tdecg3p,MNXM481597,MNXM481597[p],p,TRUE,MetanetX conversion,FALSE
-2tdecg3p[c],2tdecg3p,MNXM481597,MNXM481597[c],c,TRUE,MetanetX conversion,FALSE
-2tdec7eg3p[p],2tdec7eg3p,MNXM1416069,MNXM1416069[p],p,TRUE,MetanetX conversion,FALSE
-2tdec7eg3p[c],2tdec7eg3p,MNXM1416069,MNXM1416069[c],c,TRUE,MetanetX conversion,FALSE
-2hdecg3p[p],2hdecg3p,MNXM1371213,MNXM1371213[p],p,TRUE,MetanetX conversion,FALSE
-2hdecg3p[c],2hdecg3p,MNXM1371213,MNXM1371213[c],c,TRUE,MetanetX conversion,FALSE
-2hdec9eg3p[c],2hdec9eg3p,MNXM473825,MNXM473825[c],c,TRUE,MetanetX conversion,FALSE
-2hdec9eg3p[p],2hdec9eg3p,MNXM473825,MNXM473825[p],p,TRUE,MetanetX conversion,FALSE
-2odecg3p[c],2odecg3p,MNXM1371222,MNXM1371222[c],c,TRUE,MetanetX conversion,FALSE
-2odecg3p[p],2odecg3p,MNXM1371222,MNXM1371222[p],p,TRUE,MetanetX conversion,FALSE
-2odec11eg3p[c],2odec11eg3p,MNXM1524321,2odec11eg3p[c],c,TRUE,MetanetX conversion,FALSE
-2odec11eg3p[p],2odec11eg3p,MNXM1524321,2odec11eg3p[p],p,TRUE,MetanetX conversion,FALSE
-2agpe120[c],2agpe120,MNXM34808,MNXM34808[c],c,TRUE,MetanetX conversion,FALSE
-2agpe120[p],2agpe120,MNXM34808,MNXM34808[p],p,TRUE,MetanetX conversion,FALSE
-2agpe140[p],2agpe140,MNXM34809,MNXM34809[p],p,TRUE,MetanetX conversion,FALSE
-2agpe140[c],2agpe140,MNXM34809,MNXM34809[c],c,TRUE,MetanetX conversion,FALSE
-2agpe141[p],2agpe141,MNXM1416059,MNXM1416059[p],p,TRUE,MetanetX conversion,FALSE
-2agpe141[c],2agpe141,MNXM1416059,MNXM1416059[c],c,TRUE,MetanetX conversion,FALSE
-2agpe160[c],2agpe160,MNXM34810,MNXM34810[c],c,TRUE,MetanetX conversion,FALSE
-2agpe160[p],2agpe160,MNXM34810,MNXM34810[p],p,TRUE,MetanetX conversion,FALSE
-2agpe161[p],2agpe161,MNXM1132942,MNXM1132942[p],p,TRUE,MetanetX conversion,FALSE
-2agpe161[c],2agpe161,MNXM1132942,MNXM1132942[c],c,TRUE,MetanetX conversion,FALSE
-2agpe180[p],2agpe180,MNXM34811,MNXM34811[p],p,TRUE,MetanetX conversion,FALSE
-2agpe180[c],2agpe180,MNXM34811,MNXM34811[c],c,TRUE,MetanetX conversion,FALSE
-2agpe181[p],2agpe181,MNXM3449,MNXM3449[p],p,TRUE,MetanetX conversion,FALSE
-2agpe181[c],2agpe181,MNXM3449,MNXM3449[c],c,TRUE,MetanetX conversion,FALSE
-pe120[c],pe120,MNXM733471,MNXM733471[c],c,TRUE,MetanetX conversion,FALSE
-ddca[c],ddca,MNXM402,MNXM402[c],c,TRUE,MetanetX conversion,FALSE
-pe141[c],pe141,MNXM1416064,MNXM1416064[c],c,TRUE,MetanetX conversion,FALSE
-ttdcea[c],ttdcea,MNXM1364617,MNXM1364617[c],c,TRUE,MetanetX conversion,FALSE
-hdcea[c],hdcea,MNXM1107900,MNXM1107900[c],c,TRUE,MetanetX conversion,FALSE
-pe180[c],pe180,MNXM733922,MNXM733922[c],c,TRUE,MetanetX conversion,FALSE
-ocdcea[c],ocdcea,MNXM1364559,MNXM1364559[c],c,TRUE,MetanetX conversion,FALSE
-2agpg120[c],2agpg120,MNXM3450,MNXM3450[c],c,TRUE,MetanetX conversion,FALSE
-2agpg120[p],2agpg120,MNXM3450,MNXM3450[p],p,TRUE,MetanetX conversion,FALSE
-2agpg140[c],2agpg140,MNXM34739,MNXM34739[c],c,TRUE,MetanetX conversion,FALSE
-2agpg140[p],2agpg140,MNXM34739,MNXM34739[p],p,TRUE,MetanetX conversion,FALSE
-2agpg141[p],2agpg141,MNXM1416062,MNXM1416062[p],p,TRUE,MetanetX conversion,FALSE
-2agpg141[c],2agpg141,MNXM1416062,MNXM1416062[c],c,TRUE,MetanetX conversion,FALSE
-2agpg160[c],2agpg160,MNXM34740,MNXM34740[c],c,TRUE,MetanetX conversion,FALSE
-2agpg160[p],2agpg160,MNXM34740,MNXM34740[p],p,TRUE,MetanetX conversion,FALSE
-2agpg161[c],2agpg161,MNXM3453,MNXM3453[c],c,TRUE,MetanetX conversion,FALSE
-2agpg161[p],2agpg161,MNXM3453,MNXM3453[p],p,TRUE,MetanetX conversion,FALSE
-2agpg180[c],2agpg180,MNXM1372260,MNXM1372260[c],c,TRUE,MetanetX conversion,FALSE
-2agpg180[p],2agpg180,MNXM1372260,MNXM1372260[p],p,TRUE,MetanetX conversion,FALSE
-2agpg181[p],2agpg181,MNXM3455,MNXM3455[p],p,TRUE,MetanetX conversion,FALSE
-2agpg181[c],2agpg181,MNXM3455,MNXM3455[c],c,TRUE,MetanetX conversion,FALSE
-pg141[c],pg141,MNXM1416066,MNXM1416066[c],c,TRUE,MetanetX conversion,FALSE
-3hbz[c],3hbz,MNXM1091763,MNXM1091763[c],c,TRUE,MetanetX conversion,FALSE
-3hbzcoa[c],3hbzcoa,MNXM1091764,MNXM1091764[c],c,TRUE,MetanetX conversion,FALSE
-oxadpcoa[c],oxadpcoa,MNXM1105939,MNXM1105939[c],c,TRUE,MetanetX conversion,FALSE
-succoa[c],succoa,MNXM1104774,MNXM1104774[c],c,TRUE,MetanetX conversion,FALSE
-LalaDgluMdap[p],LalaDgluMdap,MNXM1107671,MNXM1107671[p],p,TRUE,MetanetX conversion,FALSE
-LalaDgluMdap[c],LalaDgluMdap,MNXM1107671,MNXM1107671[c],c,TRUE,MetanetX conversion,FALSE
-h2o[p],h2o,WATER,WATER[p],p,TRUE,Other conversion,FALSE
-LalaDgluMdapDala[p],LalaDgluMdapDala,MNXM1542254,MNXM1542254[p],p,TRUE,MetanetX conversion,FALSE
-ala__D[p],ala__D,MNXM1105731,MNXM1105731[p],p,TRUE,MetanetX conversion,FALSE
-LalaDgluMdapDala[c],LalaDgluMdapDala,MNXM1542254,MNXM1542254[c],c,TRUE,MetanetX conversion,FALSE
-dca[c],dca,MNXM1043,MNXM1043[c],c,TRUE,MetanetX conversion,FALSE
-octa[c],octa,MNXM750,MNXM750[c],c,TRUE,MetanetX conversion,FALSE
-aacoa[c],aacoa,MNXM1103802,MNXM1103802[c],c,TRUE,MetanetX conversion,FALSE
-btcoa[c],btcoa,MNXM1104300,MNXM1104300[c],c,TRUE,MetanetX conversion,FALSE
-3ohcoa[c],3ohcoa,MNXM1104699,MNXM1104699[c],c,TRUE,MetanetX conversion,FALSE
-3oocoa[c],3oocoa,MNXM1093448,MNXM1093448[c],c,TRUE,MetanetX conversion,FALSE
-hxcoa[c],hxcoa,MNXM1103616,MNXM1103616[c],c,TRUE,MetanetX conversion,FALSE
-occoa[c],occoa,MNXM1093479,MNXM1093479[c],c,TRUE,MetanetX conversion,FALSE
-3odcoa[c],3odcoa,MNXM1104685,MNXM1104685[c],c,TRUE,MetanetX conversion,FALSE
-3oddcoa[c],3oddcoa,MNXM1364155,MNXM1364155[c],c,TRUE,MetanetX conversion,FALSE
-dcacoa[c],dcacoa,MNXM1092836,MNXM1092836[c],c,TRUE,MetanetX conversion,FALSE
-ddcacoa[c],ddcacoa,MNXM1092909,MNXM1092909[c],c,TRUE,MetanetX conversion,FALSE
-3otdcoa[c],3otdcoa,MNXM1103776,MNXM1103776[c],c,TRUE,MetanetX conversion,FALSE
-3ohdcoa[c],3ohdcoa,MNXM1104713,MNXM1104713[c],c,TRUE,MetanetX conversion,FALSE
-3ohodcoa[c],3ohodcoa,MNXM1104352,3ohodcoa[c],c,TRUE,MetanetX conversion,FALSE
-fadh2[c],fadh2,MNXM1105762,MNXM1105762[c],c,TRUE,MetanetX conversion,FALSE
-b2coa[c],b2coa,MNXM1364064,MNXM1364064[c],c,TRUE,MetanetX conversion,FALSE
-hx2coa[c],hx2coa,MNXM1104717,MNXM1104717[c],c,TRUE,MetanetX conversion,FALSE
-oc2coa[c],oc2coa,MNXM1106007,MNXM1106007[c],c,TRUE,MetanetX conversion,FALSE
-dc2coa[c],dc2coa,MNXM1104631,MNXM1104631[c],c,TRUE,MetanetX conversion,FALSE
-dd2coa[c],dd2coa,MNXM1104661,MNXM1104661[c],c,TRUE,MetanetX conversion,FALSE
-td2coa[c],td2coa,MNXM1104173,MNXM1104173[c],c,TRUE,MetanetX conversion,FALSE
-hdd2coa[c],hdd2coa,MNXM1104633,MNXM1104633[c],c,TRUE,MetanetX conversion,FALSE
-od2coa[c],od2coa,MNXM1104783,MNXM1104783[c],c,TRUE,MetanetX conversion,FALSE
-ddcap[c],ddcap,MNXM147470,MNXM147470[c],c,TRUE,MetanetX conversion,FALSE
-ttdcap[c],ttdcap,MNXM147613,MNXM147613[c],c,TRUE,MetanetX conversion,FALSE
-ttdceap[c],ttdceap,MNXM147614,MNXM147614[c],c,TRUE,MetanetX conversion,FALSE
-hdcap[c],hdcap,MNXM147481,MNXM147481[c],c,TRUE,MetanetX conversion,FALSE
-hdceap[c],hdceap,MNXM147482,MNXM147482[c],c,TRUE,MetanetX conversion,FALSE
-ocdcap[c],ocdcap,MNXM147528,MNXM147528[c],c,TRUE,MetanetX conversion,FALSE
-ocdceap[c],ocdceap,MNXM147529,MNXM147529[c],c,TRUE,MetanetX conversion,FALSE
-idp[c],idp,MNXM1104559,MNXM1104559[c],c,TRUE,MetanetX conversion,FALSE
-itp[c],itp,MNXM1103428,MNXM1103428[c],c,TRUE,MetanetX conversion,FALSE
-adn[c],adn,MNXM1105760,MNXM1105760[c],c,TRUE,MetanetX conversion,FALSE
-adprib[c],adprib,MNXM1104545,MNXM1104545[c],c,TRUE,MetanetX conversion,FALSE
-anhgm3p[c],anhgm3p,MNXM1542911,MNXM1542911[c],c,TRUE,MetanetX conversion,FALSE
-anhgm[c],anhgm,MNXM1542910,MNXM1542910[c],c,TRUE,MetanetX conversion,FALSE
-anhgm3p[p],anhgm3p,MNXM1542911,MNXM1542911[p],p,TRUE,MetanetX conversion,FALSE
-anhgm[p],anhgm,MNXM1542910,MNXM1542910[p],p,TRUE,MetanetX conversion,FALSE
-anhm3p[c],anhm3p,MNXM1542914,MNXM1542914[c],c,TRUE,MetanetX conversion,FALSE
-acgam[c],acgam,MNXM1105935,MNXM1105935[c],c,TRUE,MetanetX conversion,FALSE
-anhgm4p[c],anhgm4p,MNXM1542912,MNXM1542912[c],c,TRUE,MetanetX conversion,FALSE
-anhgm4p[p],anhgm4p,MNXM1542912,MNXM1542912[p],p,TRUE,MetanetX conversion,FALSE
-anhm4p[c],anhm4p,MNXM1542915,MNXM1542915[c],c,TRUE,MetanetX conversion,FALSE
-anhm[c],anhm,MNXM1542913,MNXM1542913[c],c,TRUE,MetanetX conversion,FALSE
-urea[c],urea,MNXM117,MNXM117[c],c,TRUE,MetanetX conversion,FALSE
-agm[c],agm,MNXM328,MNXM328[c],c,TRUE,MetanetX conversion,FALSE
-5caiz[c],5caiz,MNXM1542101,MNXM1542101[c],c,TRUE,MetanetX conversion,FALSE
-alaala[p],alaala,MNXM1364149,MNXM1364149[p],p,TRUE,MetanetX conversion,FALSE
-pyam5p[c],pyam5p,MNXM366,MNXM366[c],c,TRUE,MetanetX conversion,FALSE
-cgly[c],cgly,MNXM683,MNXM683[c],c,TRUE,MetanetX conversion,FALSE
-progly[c],progly,MNXM1371126,MNXM1371126[c],c,TRUE,MetanetX conversion,FALSE
-acmum6p[c],acmum6p,MNXM1104008,MNXM1104008[c],c,TRUE,MetanetX conversion,FALSE
-pimACP[c],pimACP,MNXM727687,pimACP[c],c,TRUE,MetanetX conversion,FALSE
-8aonn[c],8aonn,MNXM726864,MNXM726864[c],c,TRUE,MetanetX conversion,FALSE
-ap4a[c],ap4a,MNXM1103833,MNXM1103833[c],c,TRUE,MetanetX conversion,FALSE
-ap5a[c],ap5a,MNXM2412,MNXM2412[c],c,TRUE,MetanetX conversion,FALSE
-arg__L[p],arg__L,MNXM739527,MNXM739527[p],p,TRUE,MetanetX conversion,FALSE
-q8h2[c],q8h2,MNXM191,MNXM191[c],c,TRUE,MetanetX conversion,FALSE
-q8[c],q8,MNXM1369705,MNXM1369705[c],c,TRUE,MetanetX conversion,FALSE
-h2o2[c],h2o2,MNXM732620,MNXM732620[c],c,TRUE,MetanetX conversion,FALSE
-h[p],h,MNXM1,MNXM1[p],p,TRUE,MetanetX conversion,FALSE
-2fe1s[c],2fe1s,MNXM147395,MNXM147395[c],c,TRUE,MetanetX conversion,FALSE
-2fe2s[c],2fe2s,MNXM1107419,MNXM1107419[c],c,TRUE,MetanetX conversion,FALSE
-dtbt[c],dtbt,MNXM1020,MNXM1020[c],c,TRUE,MetanetX conversion,FALSE
-butso3[c],butso3,MNXM730561,MNXM730561[c],c,TRUE,MetanetX conversion,FALSE
-butso3[p],butso3,MNXM730561,MNXM730561[p],p,TRUE,MetanetX conversion,FALSE
-adocbi[c],adocbi,MNXM1103715,MNXM1103715[c],c,TRUE,MetanetX conversion,FALSE
-cbi[c],cbi,MNXM1372277,MNXM1372277[c],c,TRUE,MetanetX conversion,FALSE
-cbl1[c],cbl1,MNXM1364163,MNXM1364163[c],c,TRUE,MetanetX conversion,FALSE
-cgly[p],cgly,MNXM683,MNXM683[p],p,TRUE,MetanetX conversion,FALSE
-chol[c],chol,MNXM90,MNXM90[c],c,TRUE,MetanetX conversion,FALSE
-chol[p],chol,MNXM90,MNXM90[p],p,TRUE,MetanetX conversion,FALSE
-lipa_cold[p],lipa_cold,MNXM1543589,MNXM1543589[p],p,TRUE,MetanetX conversion,FALSE
-colipa[p],colipa,MNXM47647,MNXM47647[p],p,TRUE,MetanetX conversion,FALSE
-colipa[c],colipa,MNXM47647,MNXM47647[c],c,TRUE,MetanetX conversion,FALSE
-crn__D[p],crn__D,MNXM1102523,MNXM1102523[p],p,TRUE,MetanetX conversion,FALSE
-crn__D[c],crn__D,MNXM1102523,MNXM1102523[c],c,TRUE,MetanetX conversion,FALSE
-crn[p],crn,MNXM1105736,MNXM1105736[p],p,TRUE,MetanetX conversion,FALSE
-crn[c],crn,MNXM1105736,MNXM1105736[c],c,TRUE,MetanetX conversion,FALSE
-ctbt[p],ctbt,MNXM1543095,MNXM1543095[p],p,TRUE,MetanetX conversion,FALSE
-ctbt[c],ctbt,MNXM1543095,MNXM1543095[c],c,TRUE,MetanetX conversion,FALSE
-cu[p],cu,MNXM1543096,MNXM1543096[p],p,TRUE,MetanetX conversion,FALSE
-cu[c],cu,MNXM1543096,MNXM1543096[c],c,TRUE,MetanetX conversion,FALSE
-3sala[c],3sala,MNXM1364692,MNXM1364692[c],c,TRUE,MetanetX conversion,FALSE
-so2[c],so2,MNXM4835,MNXM4835[c],c,TRUE,MetanetX conversion,FALSE
-cys__L[p],cys__L,MNXM738068,MNXM738068[p],p,TRUE,MetanetX conversion,FALSE
-dann[c],dann,MNXM1140,MNXM1140[c],c,TRUE,MetanetX conversion,FALSE
-dhna[c],dhna,MNXM552,MNXM552[c],c,TRUE,MetanetX conversion,FALSE
-14dhncoa[c],14dhncoa,MNXM1091615,MNXM1091615[c],c,TRUE,MetanetX conversion,FALSE
-25drapp[c],25drapp,MNXM1103734,25drapp[c],c,TRUE,MetanetX conversion,FALSE
-2omhmbl[c],2omhmbl,MNXM1364065,MNXM1364065[c],c,TRUE,MetanetX conversion,FALSE
-dsbdrd[c],dsbdrd,MNXM1543187,MNXM1543187[c],c,TRUE,MetanetX conversion,FALSE
-dsbdox[c],dsbdox,MNXM1543186,MNXM1543186[c],c,TRUE,MetanetX conversion,FALSE
-dutp[c],dutp,MNXM452,MNXM452[c],c,TRUE,MetanetX conversion,FALSE
-4per[c],4per,MNXM1407,MNXM1407[c],c,TRUE,MetanetX conversion,FALSE
-gmeACP[c],gmeACP,MNXM727160,MNXM727160[c],c,TRUE,MetanetX conversion,FALSE
-egmeACP[c],egmeACP,MNXM727020,MNXM727020[c],c,TRUE,MetanetX conversion,FALSE
-pmeACP[c],pmeACP,MNXM727683,MNXM727683[c],c,TRUE,MetanetX conversion,FALSE
-epmeACP[c],epmeACP,MNXM727025,MNXM727025[c],c,TRUE,MetanetX conversion,FALSE
-ethso3[c],ethso3,MNXM7343,MNXM7343[c],c,TRUE,MetanetX conversion,FALSE
-ethso3[p],ethso3,MNXM7343,MNXM7343[p],p,TRUE,MetanetX conversion,FALSE
-Sfglutth[c],Sfglutth,MNXM741595,MNXM741595[c],c,TRUE,MetanetX conversion,FALSE
-hmgth[c],hmgth,MNXM726277,MNXM726277[c],c,TRUE,MetanetX conversion,FALSE
-ppp9[c],ppp9,MNXM1364652,MNXM1364652[c],c,TRUE,MetanetX conversion,FALSE
-pheme[c],pheme,MNXM1369759,MNXM1369759[c],c,TRUE,MetanetX conversion,FALSE
-fe2[p],fe2,MNXM1372038,MNXM1372038[p],p,TRUE,MetanetX conversion,FALSE
-fe3[p],fe3,MNXM1372039,MNXM1372039[p],p,TRUE,MetanetX conversion,FALSE
-rbflvrd[c],rbflvrd,MNXM727501,MNXM727501[c],c,TRUE,MetanetX conversion,FALSE
-fmnh2[c],fmnh2,MNXM1107623,MNXM1107623[c],c,TRUE,MetanetX conversion,FALSE
-glyc2p[c],glyc2p,MNXM2527,MNXM2527[c],c,TRUE,MetanetX conversion,FALSE
-g3pc[c],g3pc,MNXM1370177,MNXM1370177[c],c,TRUE,MetanetX conversion,FALSE
-g3pc[p],g3pc,MNXM1370177,MNXM1370177[p],p,TRUE,MetanetX conversion,FALSE
-g3pe[p],g3pe,MNXM1364369,MNXM1364369[p],p,TRUE,MetanetX conversion,FALSE
-g3pe[c],g3pe,MNXM1364369,MNXM1364369[c],c,TRUE,MetanetX conversion,FALSE
-g3pg[c],g3pg,MNXM1106891,MNXM1106891[c],c,TRUE,MetanetX conversion,FALSE
-g3pg[p],g3pg,MNXM1106891,MNXM1106891[p],p,TRUE,MetanetX conversion,FALSE
-g3pi[c],g3pi,MNXM1517,MNXM1517[c],c,TRUE,MetanetX conversion,FALSE
-g3pi[p],g3pi,MNXM1517,MNXM1517[p],p,TRUE,MetanetX conversion,FALSE
-g3ps[c],g3ps,MNXM1543282,MNXM1543282[c],c,TRUE,MetanetX conversion,FALSE
-g3ps[p],g3ps,MNXM1543282,MNXM1543282[p],p,TRUE,MetanetX conversion,FALSE
-g6p[c],g6p,MNXM1364259,MNXM1364259[c],c,TRUE,MetanetX conversion,FALSE
-6pgl[c],6pgl,MNXM1104491,MNXM1104491[c],c,TRUE,MetanetX conversion,FALSE
-ppgpp[c],ppgpp,MNXM1189,MNXM1189[c],c,TRUE,MetanetX conversion,FALSE
-bglycogen[c],bglycogen,MNXM1542941,MNXM1542941[c],c,TRUE,MetanetX conversion,FALSE
-glycogen[c],glycogen,MNXM738130,MNXM738130[c],c,TRUE,MetanetX conversion,FALSE
-glcn[p],glcn,MNXM341,MNXM341[p],p,TRUE,MetanetX conversion,FALSE
-glc__D[p],glc__D,MNXM1364206,MNXM1364206[p],p,TRUE,MetanetX conversion,FALSE
-adpglc[c],adpglc,MNXM1105977,MNXM1105977[c],c,TRUE,MetanetX conversion,FALSE
-gln__L[p],gln__L,MNXM37,MNXM37[p],p,TRUE,MetanetX conversion,FALSE
-glyb[p],glyb,MNXM289,MNXM289[p],p,TRUE,MetanetX conversion,FALSE
-glyc2p[p],glyc2p,MNXM2527,MNXM2527[p],p,TRUE,MetanetX conversion,FALSE
-glyc3p[p],glyc3p,MNXM66,MNXM66[p],p,TRUE,MetanetX conversion,FALSE
-glyclt[c],glyclt,MNXM222,MNXM222[c],c,TRUE,MetanetX conversion,FALSE
-glx[c],glx,MNXM69,MNXM69[c],c,TRUE,MetanetX conversion,FALSE
-2dmmq8[c],2dmmq8,MNXM2178,MNXM2178[c],c,TRUE,MetanetX conversion,FALSE
-gthrd[c],gthrd,MNXM490899,MNXM490899[c],c,TRUE,MetanetX conversion,FALSE
-lgt__S[c],lgt__S,MNXM1093274,MNXM1093274[c],c,TRUE,MetanetX conversion,FALSE
-gp4g[c],gp4g,MNXM1102064,MNXM1102064[c],c,TRUE,MetanetX conversion,FALSE
-grxrd[c],grxrd,MNXM1543352,MNXM1543352[c],c,TRUE,MetanetX conversion,FALSE
-grxox[c],grxox,MNXM1543351,MNXM1543351[c],c,TRUE,MetanetX conversion,FALSE
-gthox[c],gthox,MNXM1372264,MNXM1372264[c],c,TRUE,MetanetX conversion,FALSE
-gthrd[p],gthrd,MNXM490899,MNXM490899[p],p,TRUE,MetanetX conversion,FALSE
-glucys[c],glucys,MNXM735669,MNXM735669[c],c,TRUE,MetanetX conversion,FALSE
-4hbz[c],4hbz,MNXM164,MNXM164[c],c,TRUE,MetanetX conversion,FALSE
-3ophb[c],3ophb,MNXM1369666,MNXM1369666[c],c,TRUE,MetanetX conversion,FALSE
-6hmhpt[c],6hmhpt,MNXM728662,6hmhpt[c],c,TRUE,MetanetX conversion,FALSE
-iscu_2fe2s[c],iscu_2fe2s,MNXM147129,MNXM147129[c],c,TRUE,MetanetX conversion,FALSE
-iscu[c],iscu,MNXM147128,MNXM147128[c],c,TRUE,MetanetX conversion,FALSE
-iscu_4fe4s[c],iscu_4fe4s,MNXM148286,MNXM148286[c],c,TRUE,MetanetX conversion,FALSE
-4fe4s[c],4fe4s,MNXM732007,MNXM732007[c],c,TRUE,MetanetX conversion,FALSE
-indole[p],indole,MNXM735090,MNXM735090[p],p,TRUE,MetanetX conversion,FALSE
-isetac[p],isetac,MNXM1630,MNXM1630[p],p,TRUE,MetanetX conversion,FALSE
-isetac[c],isetac,MNXM1630,MNXM1630[c],c,TRUE,MetanetX conversion,FALSE
-kdo2lipid4[p],kdo2lipid4,MNXM1104740,MNXM1104740[p],p,TRUE,MetanetX conversion,FALSE
-kdo2lipid4[c],kdo2lipid4,MNXM1104740,MNXM1104740[c],c,TRUE,MetanetX conversion,FALSE
-k[p],k,MNXM95,MNXM95[p],p,TRUE,MetanetX conversion,FALSE
-mthgxl[c],mthgxl,MNXM310,MNXM310[c],c,TRUE,MetanetX conversion,FALSE
-lipa_cold[c],lipa_cold,MNXM1543589,MNXM1543589[c],c,TRUE,MetanetX conversion,FALSE
-lipa[c],lipa,MNXM730505,MNXM730505[c],c,TRUE,MetanetX conversion,FALSE
-lipa[p],lipa,MNXM730505,MNXM730505[p],p,TRUE,MetanetX conversion,FALSE
-octapb[c],octapb,MNXM147531,MNXM147531[c],c,TRUE,MetanetX conversion,FALSE
-lipopb[c],lipopb,MNXM147499,MNXM147499[c],c,TRUE,MetanetX conversion,FALSE
-malthx[p],malthx,MNXM1093344,MNXM1093344[p],p,TRUE,MetanetX conversion,FALSE
-maltpt[c],maltpt,MNXM1104039,MNXM1104039[c],c,TRUE,MetanetX conversion,FALSE
-maltpt[p],maltpt,MNXM1104039,MNXM1104039[p],p,TRUE,MetanetX conversion,FALSE
-malttr[p],malttr,MNXM1104527,MNXM1104527[p],p,TRUE,MetanetX conversion,FALSE
-maltttr[p],maltttr,MNXM1104617,MNXM1104617[p],p,TRUE,MetanetX conversion,FALSE
-maltttr[c],maltttr,MNXM1104617,MNXM1104617[c],c,TRUE,MetanetX conversion,FALSE
-malt[p],malt,MNXM1106000,MNXM1106000[p],p,TRUE,MetanetX conversion,FALSE
-murein5p5p[p],murein5p5p,MNXM1543672,MNXM1543672[p],p,TRUE,MetanetX conversion,FALSE
-murein5px4p[p],murein5px4p,MNXM1543675,MNXM1543675[p],p,TRUE,MetanetX conversion,FALSE
-murein5p5p5p[p],murein5p5p5p,MNXM1543673,MNXM1543673[p],p,TRUE,MetanetX conversion,FALSE
-murein5px4px4p[p],murein5px4px4p,MNXM1543676,MNXM1543676[p],p,TRUE,MetanetX conversion,FALSE
-murein4px4p[p],murein4px4p,MNXM1543667,MNXM1543667[p],p,TRUE,MetanetX conversion,FALSE
-murein4px4px4p[p],murein4px4px4p,MNXM1107894,MNXM1107894[p],p,TRUE,MetanetX conversion,FALSE
-murein5p4p[p],murein5p4p,MNXM1543671,MNXM1543671[p],p,TRUE,MetanetX conversion,FALSE
-murein4p4p[p],murein4p4p,MNXM1543666,MNXM1543666[p],p,TRUE,MetanetX conversion,FALSE
-murein5p3p[p],murein5p3p,MNXM1543670,MNXM1543670[p],p,TRUE,MetanetX conversion,FALSE
-murein4p3p[p],murein4p3p,MNXM1543665,MNXM1543665[p],p,TRUE,MetanetX conversion,FALSE
-murein3px4p[p],murein3px4p,MNXM1373863,MNXM1373863[p],p,TRUE,MetanetX conversion,FALSE
-murein4px4p4p[p],murein4px4p4p,MNXM1543668,MNXM1543668[p],p,TRUE,MetanetX conversion,FALSE
-met__D[c],met__D,MNXM1275,MNXM1275[c],c,TRUE,MetanetX conversion,FALSE
-met__D[p],met__D,MNXM1275,MNXM1275[p],p,TRUE,MetanetX conversion,FALSE
-metsox_S__L[c],metsox_S__L,MNXM1106045,MNXM1106045[c],c,TRUE,MetanetX conversion,FALSE
-metsox_R__L[c],metsox_R__L,MNXM2245,MNXM2245[c],c,TRUE,MetanetX conversion,FALSE
-met__L[p],met__L,MNXM738804,MNXM738804[p],p,TRUE,MetanetX conversion,FALSE
-mi1p__D[c],mi1p__D,MNXM1365116,MNXM1365116[c],c,TRUE,MetanetX conversion,FALSE
-inost[c],inost,MNXM1105941,MNXM1105941[c],c,TRUE,MetanetX conversion,FALSE
-murein3p3p[p],murein3p3p,MNXM1543661,MNXM1543661[p],p,TRUE,MetanetX conversion,FALSE
-mobd[p],mobd,MNXM726090,MNXM726090[p],p,TRUE,MetanetX conversion,FALSE
-moadamp[c],moadamp,MNXM148352,MNXM148352[c],c,TRUE,MetanetX conversion,FALSE
-moadcoo[c],moadcoo,MNXM148353,MNXM148353[c],c,TRUE,MetanetX conversion,FALSE
-mso3[c],mso3,MNXM1485,MNXM1485[c],c,TRUE,MetanetX conversion,FALSE
-mso3[p],mso3,MNXM1485,MNXM1485[p],p,TRUE,MetanetX conversion,FALSE
-nmn[c],nmn,MNXM355,MNXM355[c],c,TRUE,MetanetX conversion,FALSE
-nadhx__R[c],nadhx__R,MNXM1093417,MNXM1093417[c],c,TRUE,MetanetX conversion,FALSE
-nadhx__S[c],nadhx__S,MNXM1093418,MNXM1093418[c],c,TRUE,MetanetX conversion,FALSE
-nadphx__R[c],nadphx__R,MNXM1093419,MNXM1093419[c],c,TRUE,MetanetX conversion,FALSE
-nadphx__S[c],nadphx__S,MNXM1093420,MNXM1093420[c],c,TRUE,MetanetX conversion,FALSE
-duri[c],duri,MNXM492,MNXM492[c],c,TRUE,MetanetX conversion,FALSE
-xtsn[c],xtsn,MNXM1103769,MNXM1103769[c],c,TRUE,MetanetX conversion,FALSE
-ins[c],ins,MNXM1103335,MNXM1103335[c],c,TRUE,MetanetX conversion,FALSE
-dimp[c],dimp,MNXM1922,MNXM1922[c],c,TRUE,MetanetX conversion,FALSE
-din[c],din,MNXM935,MNXM935[c],c,TRUE,MetanetX conversion,FALSE
-uri[c],uri,MNXM1103104,MNXM1103104[c],c,TRUE,MetanetX conversion,FALSE
-dcyt[c],dcyt,MNXM704,MNXM704[c],c,TRUE,MetanetX conversion,FALSE
-cytd[c],cytd,MNXM1364050,MNXM1364050[c],c,TRUE,MetanetX conversion,FALSE
-thymd[c],thymd,MNXM420,MNXM420[c],c,TRUE,MetanetX conversion,FALSE
-dad_2[c],dad_2,MNXM625,MNXM625[c],c,TRUE,MetanetX conversion,FALSE
-dgsn[c],dgsn,MNXM647,MNXM647[c],c,TRUE,MetanetX conversion,FALSE
-gsn[c],gsn,MNXM1103400,MNXM1103400[c],c,TRUE,MetanetX conversion,FALSE
-ditp[c],ditp,MNXM728062,MNXM728062[c],c,TRUE,MetanetX conversion,FALSE
-xtp[c],xtp,MNXM1102152,MNXM1102152[c],c,TRUE,MetanetX conversion,FALSE
-hgmeACP[c],hgmeACP,MNXM741743,MNXM741743[c],c,TRUE,MetanetX conversion,FALSE
-ogmeACP[c],ogmeACP,MNXM147799,MNXM147799[c],c,TRUE,MetanetX conversion,FALSE
-malcoame[c],malcoame,MNXM1372239,MNXM1372239[c],c,TRUE,MetanetX conversion,FALSE
-ohpb[c],ohpb,MNXM1514,MNXM1514[c],c,TRUE,MetanetX conversion,FALSE
-2ohph[c],2ohph,MNXM1369422,MNXM1369422[c],c,TRUE,MetanetX conversion,FALSE
-2omph[c],2omph,MNXM1369562,MNXM1369562[c],c,TRUE,MetanetX conversion,FALSE
-2ombzl[c],2ombzl,MNXM1373896,MNXM1373896[c],c,TRUE,MetanetX conversion,FALSE
-2ommbl[c],2ommbl,MNXM1364056,MNXM1364056[c],c,TRUE,MetanetX conversion,FALSE
-2oph[c],2oph,MNXM1369629,MNXM1369629[c],c,TRUE,MetanetX conversion,FALSE
-hpmeACP[c],hpmeACP,MNXM725917,MNXM725917[c],c,TRUE,MetanetX conversion,FALSE
-opmeACP[c],opmeACP,MNXM147801,MNXM147801[c],c,TRUE,MetanetX conversion,FALSE
-3oxdhscoa[c],3oxdhscoa,MNXM735195,MNXM735195[c],c,TRUE,MetanetX conversion,FALSE
-23dhacoa[c],23dhacoa,MNXM739676,MNXM739676[c],c,TRUE,MetanetX conversion,FALSE
-pa120[p],pa120,MNXM90509,MNXM90509[p],p,TRUE,MetanetX conversion,FALSE
-pa120[c],pa120,MNXM90509,MNXM90509[c],c,TRUE,MetanetX conversion,FALSE
-pa140[p],pa140,MNXM737414,MNXM737414[p],p,TRUE,MetanetX conversion,FALSE
-pa141[c],pa141,MNXM1416063,MNXM1416063[c],c,TRUE,MetanetX conversion,FALSE
-pa141[p],pa141,MNXM1416063,MNXM1416063[p],p,TRUE,MetanetX conversion,FALSE
-pa160[p],pa160,MNXM731668,MNXM731668[p],p,TRUE,MetanetX conversion,FALSE
-pa161[p],pa161,MNXM66504,MNXM66504[p],p,TRUE,MetanetX conversion,FALSE
-pa180[c],pa180,MNXM737489,MNXM737489[c],c,TRUE,MetanetX conversion,FALSE
-pa180[p],pa180,MNXM737489,MNXM737489[p],p,TRUE,MetanetX conversion,FALSE
-pa181[p],pa181,MNXM90511,MNXM90511[p],p,TRUE,MetanetX conversion,FALSE
-paps[c],paps,MNXM1104555,MNXM1104555[c],c,TRUE,MetanetX conversion,FALSE
-pap[c],pap,MNXM1103458,MNXM1103458[c],c,TRUE,MetanetX conversion,FALSE
-pdx5p[c],pdx5p,MNXM454,MNXM454[c],c,TRUE,MetanetX conversion,FALSE
-pe120[p],pe120,MNXM733471,MNXM733471[p],p,TRUE,MetanetX conversion,FALSE
-pe140[p],pe140,MNXM733473,MNXM733473[p],p,TRUE,MetanetX conversion,FALSE
-pe141[p],pe141,MNXM1416064,MNXM1416064[p],p,TRUE,MetanetX conversion,FALSE
-pe160[p],pe160,MNXM32178,MNXM32178[p],p,TRUE,MetanetX conversion,FALSE
-pe161[p],pe161,MNXM739592,MNXM739592[p],p,TRUE,MetanetX conversion,FALSE
-pe180[p],pe180,MNXM733922,MNXM733922[p],p,TRUE,MetanetX conversion,FALSE
-pe181[p],pe181,MNXM2150,MNXM2150[p],p,TRUE,MetanetX conversion,FALSE
-pg120[p],pg120,MNXM1771,MNXM1771[p],p,TRUE,MetanetX conversion,FALSE
-pg140[p],pg140,MNXM737417,MNXM737417[p],p,TRUE,MetanetX conversion,FALSE
-pg141[p],pg141,MNXM1416066,MNXM1416066[p],p,TRUE,MetanetX conversion,FALSE
-pg160[p],pg160,MNXM734041,MNXM734041[p],p,TRUE,MetanetX conversion,FALSE
-pg161[p],pg161,MNXM73693,MNXM73693[p],p,TRUE,MetanetX conversion,FALSE
-pg180[p],pg180,MNXM737492,MNXM737492[p],p,TRUE,MetanetX conversion,FALSE
-pg181[p],pg181,MNXM731815,MNXM731815[p],p,TRUE,MetanetX conversion,FALSE
-pgp120[p],pgp120,MNXM5266,MNXM5266[p],p,TRUE,MetanetX conversion,FALSE
-pgp120[c],pgp120,MNXM5266,MNXM5266[c],c,TRUE,MetanetX conversion,FALSE
-pgp140[p],pgp140,MNXM5272,MNXM5272[p],p,TRUE,MetanetX conversion,FALSE
-pgp141[c],pgp141,MNXM1416067,MNXM1416067[c],c,TRUE,MetanetX conversion,FALSE
-pgp141[p],pgp141,MNXM1416067,MNXM1416067[p],p,TRUE,MetanetX conversion,FALSE
-pgp160[p],pgp160,MNXM734044,MNXM734044[p],p,TRUE,MetanetX conversion,FALSE
-pgp161[p],pgp161,MNXM739994,MNXM739994[p],p,TRUE,MetanetX conversion,FALSE
-pgp180[c],pgp180,MNXM739997,MNXM739997[c],c,TRUE,MetanetX conversion,FALSE
-pgp180[p],pgp180,MNXM739997,MNXM739997[p],p,TRUE,MetanetX conversion,FALSE
-pgp181[p],pgp181,MNXM5269,MNXM5269[p],p,TRUE,MetanetX conversion,FALSE
-cdpdddecg[c],cdpdddecg,MNXM4507,MNXM4507[c],c,TRUE,MetanetX conversion,FALSE
-cdpdtdec7eg[c],cdpdtdec7eg,MNXM1416070,MNXM1416070[c],c,TRUE,MetanetX conversion,FALSE
-cdpdodecg[c],cdpdodecg,MNXM736453,MNXM736453[c],c,TRUE,MetanetX conversion,FALSE
-pheme[p],pheme,MNXM1369759,MNXM1369759[p],p,TRUE,MetanetX conversion,FALSE
-pi[p],pi,MNXM9,MNXM9[p],p,TRUE,MetanetX conversion,FALSE
-meoh[c],meoh,MNXM729799,MNXM729799[c],c,TRUE,MetanetX conversion,FALSE
-12ppd__R[c],12ppd__R,MNXM1364775,MNXM1364775[c],c,TRUE,MetanetX conversion,FALSE
-lald__D[c],lald__D,MNXM909,MNXM909[c],c,TRUE,MetanetX conversion,FALSE
-progly[p],progly,MNXM1371126,MNXM1371126[p],p,TRUE,MetanetX conversion,FALSE
-pro__L[p],pro__L,MNXM114,MNXM114[p],p,TRUE,MetanetX conversion,FALSE
-ptrc[p],ptrc,MNXM118,MNXM118[p],p,TRUE,MetanetX conversion,FALSE
-sufbcd_2fe2s[c],sufbcd_2fe2s,MNXM147308,MNXM147308[c],c,TRUE,MetanetX conversion,FALSE
-sufsesh[c],sufsesh,MNXM147310,MNXM147310[c],c,TRUE,MetanetX conversion,FALSE
-sufse[c],sufse,MNXM147309,MNXM147309[c],c,TRUE,MetanetX conversion,FALSE
-sufbcd[c],sufbcd,MNXM147307,MNXM147307[c],c,TRUE,MetanetX conversion,FALSE
-sufbcd_2fe2s2[c],sufbcd_2fe2s2,MNXM148512,MNXM148512[c],c,TRUE,MetanetX conversion,FALSE
-sufbcd_4fe4s[c],sufbcd_4fe4s,MNXM148511,MNXM148511[c],c,TRUE,MetanetX conversion,FALSE
-sel[p],sel,MNXM2282,MNXM2282[p],p,TRUE,MetanetX conversion,FALSE
-sel[c],sel,MNXM2282,MNXM2282[c],c,TRUE,MetanetX conversion,FALSE
-scl[c],scl,MNXM740871,MNXM740871[c],c,TRUE,MetanetX conversion,FALSE
-sheme[c],sheme,MNXM1104857,MNXM1104857[c],c,TRUE,MetanetX conversion,FALSE
-slnt[p],slnt,MNXM1157,MNXM1157[p],p,TRUE,MetanetX conversion,FALSE
-slnt[c],slnt,MNXM1157,MNXM1157[c],c,TRUE,MetanetX conversion,FALSE
-spmd[p],spmd,MNXM124,MNXM124[p],p,TRUE,MetanetX conversion,FALSE
-o2s[c],o2s,MNXM1107906,MNXM1107906[c],c,TRUE,MetanetX conversion,FALSE
-sulfac[c],sulfac,MNXM1949,MNXM1949[c],c,TRUE,MetanetX conversion,FALSE
-sulfac[p],sulfac,MNXM1949,MNXM1949[p],p,TRUE,MetanetX conversion,FALSE
-so4[p],so4,MNXM58,MNXM58[p],p,TRUE,MetanetX conversion,FALSE
-taur[p],taur,MNXM282,MNXM282[p],p,TRUE,MetanetX conversion,FALSE
-dtdp4addg[c],dtdp4addg,MNXM1107704,MNXM1107704[c],c,TRUE,MetanetX conversion,FALSE
-5fthf[c],5fthf,MNXM1091982,MNXM1091982[c],c,TRUE,MetanetX conversion,FALSE
-thm[p],thm,MNXM730135,MNXM730135[p],p,TRUE,MetanetX conversion,FALSE
-athr__L[c],athr__L,MNXM2125,MNXM2125[c],c,TRUE,MetanetX conversion,FALSE
-iscssh[c],iscssh,MNXM1375063,MNXM1375063[c],c,TRUE,MetanetX conversion,FALSE
-dhgly[c],dhgly,MNXM1984,MNXM1984[c],c,TRUE,MetanetX conversion,FALSE
-iscs[c],iscs,MNXM146401,MNXM146401[c],c,TRUE,MetanetX conversion,FALSE
-tsul[c],tsul,MNXM1094289,MNXM1094289[c],c,TRUE,MetanetX conversion,FALSE
-tsul[p],tsul,MNXM1094289,MNXM1094289[p],p,TRUE,MetanetX conversion,FALSE
-4crsol[c],4crsol,MNXM828,MNXM828[c],c,TRUE,MetanetX conversion,FALSE
-udcpdp[p],udcpdp,MNXM1365109,MNXM1365109[p],p,TRUE,MetanetX conversion,FALSE
-udcpp[p],udcpp,MNXM733031,MNXM733031[p],p,TRUE,MetanetX conversion,FALSE
-um4p[c],um4p,MNXM147329,MNXM147329[c],c,TRUE,MetanetX conversion,FALSE
-apoACP[c],apoACP,MNXM1526028,MNXM1526028[c],c,TRUE,MetanetX conversion,FALSE
-trnaala[c],trnaala,MNXM1543929,MNXM1543929[c],c,TRUE,MetanetX conversion,FALSE
-alatrna[c],alatrna,MNXM1542889,MNXM1542889[c],c,TRUE,MetanetX conversion,FALSE
-glyald[c],glyald,MNXM435,MNXM435[c],c,TRUE,MetanetX conversion,FALSE
-etoh[c],etoh,MNXM1108092,MNXM1108092[c],c,TRUE,MetanetX conversion,FALSE
-pmcoa[c],pmcoa,MNXM727687,pmcoa[c],c,TRUE,MetanetX conversion,FALSE
-asptrna[c],asptrna,MNXM1542936,MNXM1542936[c],c,TRUE,MetanetX conversion,FALSE
-trnaasp[c],trnaasp,MNXM1543932,MNXM1543932[c],c,TRUE,MetanetX conversion,FALSE
-s[c],s,MNXM1107418,MNXM1107418[c],c,TRUE,MetanetX conversion,FALSE
-cd2[c],cd2,MNXM733186,MNXM733186[c],c,TRUE,MetanetX conversion,FALSE
-cd2[p],cd2,MNXM733186,MNXM733186[p],p,TRUE,MetanetX conversion,FALSE
-cobalt2[p],cobalt2,MNXM90960,MNXM90960[p],p,TRUE,MetanetX conversion,FALSE
-trnacys[c],trnacys,MNXM1543933,MNXM1543933[c],c,TRUE,MetanetX conversion,FALSE
-cystrna[c],cystrna,MNXM1543098,MNXM1543098[c],c,TRUE,MetanetX conversion,FALSE
-dhpmp[c],dhpmp,MNXM1107940,MNXM1107940[c],c,TRUE,MetanetX conversion,FALSE
-ahdt[c],ahdt,MNXM1370282,MNXM1370282[c],c,TRUE,MetanetX conversion,FALSE
-tdp[c],tdp,MNXM83408,MNXM83408[c],c,TRUE,MetanetX conversion,FALSE
-ttp[c],ttp,MNXM148527,MNXM148527[c],c,TRUE,MetanetX conversion,FALSE
-fe[e],fe,MNXM147471,MNXM147471[e],e,TRUE,MetanetX conversion,FALSE
-fe[p],fe,MNXM147471,MNXM147471[p],p,TRUE,MetanetX conversion,FALSE
-fe[c],fe,MNXM147471,MNXM147471[c],c,TRUE,MetanetX conversion,FALSE
-fmettrna[c],fmettrna,MNXM1543258,MNXM1543258[c],c,TRUE,MetanetX conversion,FALSE
-trnagln[c],trnagln,MNXM1543934,MNXM1543934[c],c,TRUE,MetanetX conversion,FALSE
-glntrna[c],glntrna,MNXM1543316,MNXM1543316[c],c,TRUE,MetanetX conversion,FALSE
-trnagly[c],trnagly,MNXM1543935,MNXM1543935[c],c,TRUE,MetanetX conversion,FALSE
-glytrna[c],glytrna,MNXM1543333,MNXM1543333[c],c,TRUE,MetanetX conversion,FALSE
-histrna[c],histrna,MNXM1543373,MNXM1543373[c],c,TRUE,MetanetX conversion,FALSE
-trnahis[c],trnahis,MNXM1543936,MNXM1543936[c],c,TRUE,MetanetX conversion,FALSE
-1ddecg3p[p],1ddecg3p,MNXM1103432,MNXM1103432[p],p,TRUE,MetanetX conversion,FALSE
-ddca[p],ddca,MNXM402,MNXM402[p],p,TRUE,MetanetX conversion,FALSE
-ttdca[p],ttdca,MNXM314,MNXM314[p],p,TRUE,MetanetX conversion,FALSE
-1tdecg3p[p],1tdecg3p,MNXM1372713,1tdecg3p[p],p,TRUE,MetanetX conversion,FALSE
-1tdec7eg3p[p],1tdec7eg3p,MNXM91053,MNXM91053[p],p,TRUE,MetanetX conversion,FALSE
-ttdcea[p],ttdcea,MNXM1364617,MNXM1364617[p],p,TRUE,MetanetX conversion,FALSE
-1hdecg3p[p],1hdecg3p,MNXM732965,MNXM732965[p],p,TRUE,MetanetX conversion,FALSE
-hdca[p],hdca,MNXM108,MNXM108[p],p,TRUE,MetanetX conversion,FALSE
-hdcea[p],hdcea,MNXM1107900,MNXM1107900[p],p,TRUE,MetanetX conversion,FALSE
-1hdec9eg3p[p],1hdec9eg3p,MNXM66496,MNXM66496[p],p,TRUE,MetanetX conversion,FALSE
-ocdca[p],ocdca,MNXM236,MNXM236[p],p,TRUE,MetanetX conversion,FALSE
-1odecg3p[p],1odecg3p,MNXM734212,MNXM734212[p],p,TRUE,MetanetX conversion,FALSE
-1odec11eg3p[p],1odec11eg3p,MNXM1524321,1odec11eg3p[p],p,TRUE,MetanetX conversion,FALSE
-ocdcea[p],ocdcea,MNXM1364559,MNXM1364559[p],p,TRUE,MetanetX conversion,FALSE
-1agpe120[p],1agpe120,MNXM32692,MNXM32692[p],p,TRUE,MetanetX conversion,FALSE
-1agpe140[p],1agpe140,MNXM1370007,MNXM1370007[p],p,TRUE,MetanetX conversion,FALSE
-1agpe141[p],1agpe141,MNXM6599,MNXM6599[p],p,TRUE,MetanetX conversion,FALSE
-1agpe160[p],1agpe160,MNXM32511,MNXM32511[p],p,TRUE,MetanetX conversion,FALSE
-1agpe161[p],1agpe161,MNXM60809,MNXM60809[p],p,TRUE,MetanetX conversion,FALSE
-1agpe180[p],1agpe180,MNXM722840,MNXM722840[p],p,TRUE,MetanetX conversion,FALSE
-1agpe181[p],1agpe181,MNXM9584,MNXM9584[p],p,TRUE,MetanetX conversion,FALSE
-1agpg120[p],1agpg120,MNXM147673,MNXM147673[p],p,TRUE,MetanetX conversion,FALSE
-1agpg140[p],1agpg140,MNXM1372713,1agpg140[p],p,TRUE,MetanetX conversion,FALSE
-1agpg141[p],1agpg141,MNXM1416061,MNXM1416061[p],p,TRUE,MetanetX conversion,FALSE
-1agpg160[p],1agpg160,MNXM1470142,MNXM1470142[p],p,TRUE,MetanetX conversion,FALSE
-1agpg161[p],1agpg161,MNXM6606,MNXM6606[p],p,TRUE,MetanetX conversion,FALSE
-1agpg180[p],1agpg180,MNXM739301,MNXM739301[p],p,TRUE,MetanetX conversion,FALSE
-1agpg181[p],1agpg181,MNXM739929,MNXM739929[p],p,TRUE,MetanetX conversion,FALSE
-trnalys[c],trnalys,MNXM1543939,MNXM1543939[c],c,TRUE,MetanetX conversion,FALSE
-lystrna[c],lystrna,MNXM1543604,MNXM1543604[c],c,TRUE,MetanetX conversion,FALSE
-mn2[p],mn2,MNXM2255,MNXM2255[p],p,TRUE,MetanetX conversion,FALSE
-protrna[c],protrna,MNXM1543803,MNXM1543803[c],c,TRUE,MetanetX conversion,FALSE
-trnapro[c],trnapro,MNXM1543942,MNXM1543942[c],c,TRUE,MetanetX conversion,FALSE
-trnasecys[c],trnasecys,MNXM1543943,MNXM1543943[c],c,TRUE,MetanetX conversion,FALSE
-sertrna_sec[c],sertrna_sec,MNXM1543863,MNXM1543863[c],c,TRUE,MetanetX conversion,FALSE
-trnathr[c],trnathr,MNXM1543945,MNXM1543945[c],c,TRUE,MetanetX conversion,FALSE
-thrtrna[c],thrtrna,MNXM1543898,MNXM1543898[c],c,TRUE,MetanetX conversion,FALSE
-4hba[c],4hba,MNXM107505,MNXM107505[c],c,TRUE,MetanetX conversion,FALSE
-tmp[c],tmp,MNXM87343,MNXM87343[c],c,TRUE,MetanetX conversion,FALSE
-urea[p],urea,MNXM117,MNXM117[p],p,TRUE,MetanetX conversion,FALSE
-urea[e],urea,MNXM117,MNXM117[e],e,TRUE,MetanetX conversion,FALSE
-zn2[p],zn2,MNXM1372251,MNXM1372251[p],p,TRUE,MetanetX conversion,FALSE
-nh4[p],nh4,MNXM729302,MNXM729302[p],p,TRUE,MetanetX conversion,FALSE
-no[p],no,MNXM1107902,MNXM1107902[p],p,TRUE,MetanetX conversion,FALSE
-cyt554red[p],cyt554red,cyt554red,cyt554red[p],p,FALSE,Unchanged,FALSE
-cyt554oxi[c],cyt554oxi,cyt554oxi,cyt554oxi[c],c,FALSE,Unchanged,FALSE
-no2[p],no2,MNXM107,MNXM107[p],p,TRUE,MetanetX conversion,FALSE
-ham[p],ham,MNXM730229,MNXM730229[p],p,TRUE,MetanetX conversion,FALSE
-n2o[p],n2o,MNXM1374221,MNXM1374221[p],p,TRUE,MetanetX conversion,FALSE
-no[c],no,MNXM1107902,MNXM1107902[c],c,TRUE,MetanetX conversion,FALSE
-no2[c],no2,MNXM107,MNXM107[c],c,TRUE,MetanetX conversion,FALSE
-n2o[c],n2o,MNXM1374221,MNXM1374221[c],c,TRUE,MetanetX conversion,FALSE
-ham[c],ham,MNXM730229,MNXM730229[c],c,TRUE,MetanetX conversion,FALSE
-no[e],no,MNXM1107902,MNXM1107902[e],e,TRUE,MetanetX conversion,FALSE
-ham[e],ham,MNXM730229,MNXM730229[e],e,TRUE,MetanetX conversion,FALSE
-n2o[e],n2o,MNXM1374221,MNXM1374221[e],e,TRUE,MetanetX conversion,FALSE
-amob[c],amob,MNXM733831,MNXM733831[c],c,TRUE,MetanetX conversion,FALSE
-meoh[p],meoh,MNXM729799,MNXM729799[p],p,TRUE,MetanetX conversion,FALSE
-meoh[e],meoh,MNXM729799,MNXM729799[e],e,TRUE,MetanetX conversion,FALSE
-glu__L[p],glu__L,MNXM741173,MNXM741173[p],p,TRUE,MetanetX conversion,FALSE
-glyc[p],glyc,MNXM89612,MNXM89612[p],p,TRUE,MetanetX conversion,FALSE
-glyclt[p],glyclt,MNXM222,MNXM222[p],p,TRUE,MetanetX conversion,FALSE
-h2[p],h2,MNXM1108018,MNXM1108018[p],p,TRUE,MetanetX conversion,FALSE
-no3[p],no3,MNXM732398,MNXM732398[p],p,TRUE,MetanetX conversion,FALSE
-pyr[p],pyr,MNXM23,MNXM23[p],p,TRUE,MetanetX conversion,FALSE
-ac[p],ac,MNXM26,MNXM26[p],p,TRUE,MetanetX conversion,FALSE
-succ[p],succ,MNXM25,MNXM25[p],p,TRUE,MetanetX conversion,FALSE
-fum[p],fum,MNXM737340,MNXM737340[p],p,TRUE,MetanetX conversion,FALSE
-akg[p],akg,MNXM1369648,MNXM1369648[p],p,TRUE,MetanetX conversion,FALSE
-xyl__D[p],xyl__D,MNXM169454,MNXM169454[p],p,TRUE,MetanetX conversion,FALSE
-thr__L[p],thr__L,MNXM142,MNXM142[p],p,TRUE,MetanetX conversion,FALSE
-val__L[p],val__L,MNXM199,MNXM199[p],p,TRUE,MetanetX conversion,FALSE
-na1[p],na1,MNXM27,MNXM27[p],p,TRUE,MetanetX conversion,FALSE
-gal[p],gal,MNXM1364662,MNXM1364662[p],p,TRUE,MetanetX conversion,FALSE
-galur[p],galur,MNXM736226,MNXM736226[p],p,TRUE,MetanetX conversion,FALSE
-cbl1[p],cbl1,MNXM1364163,MNXM1364163[p],p,TRUE,MetanetX conversion,FALSE
-arab__L[p],arab__L,MNXM734859,MNXM734859[p],p,TRUE,MetanetX conversion,FALSE
-co2[p],co2,MNXM13,MNXM13[p],p,TRUE,MetanetX conversion,FALSE
-asp__L[p],asp__L,MNXM1364673,MNXM1364673[p],p,TRUE,MetanetX conversion,FALSE
-his__L[p],his__L,MNXM1107769,MNXM1107769[p],p,TRUE,MetanetX conversion,FALSE
-ile__L[p],ile__L,MNXM728337,MNXM728337[p],p,TRUE,MetanetX conversion,FALSE
-ala__L[p],ala__L,MNXM1105732,MNXM1105732[p],p,TRUE,MetanetX conversion,FALSE
-glcur[p],glcur,MNXM1105765,MNXM1105765[p],p,TRUE,MetanetX conversion,FALSE
-octa[p],octa,MNXM750,MNXM750[p],p,TRUE,MetanetX conversion,FALSE
-orn[p],orn,MNXM741175,MNXM741175[p],p,TRUE,MetanetX conversion,FALSE
-fru[p],fru,MNXM1364246,MNXM1364246[p],p,TRUE,MetanetX conversion,FALSE
-cbi[p],cbi,MNXM1372277,MNXM1372277[p],p,TRUE,MetanetX conversion,FALSE
-but[p],but,MNXM458,MNXM458[p],p,TRUE,MetanetX conversion,FALSE
-dca[p],dca,MNXM1043,MNXM1043[p],p,TRUE,MetanetX conversion,FALSE
-leu__L[p],leu__L,MNXM1106761,MNXM1106761[p],p,TRUE,MetanetX conversion,FALSE
-lys__L[p],lys__L,MNXM1364416,MNXM1364416[p],p,TRUE,MetanetX conversion,FALSE
-man[p],man,MNXM1364255,MNXM1364255[p],p,TRUE,MetanetX conversion,FALSE
-tsul[e],tsul,MNXM1094289,MNXM1094289[e],e,TRUE,MetanetX conversion,FALSE
-for[p],for,MNXM39,MNXM39[p],p,TRUE,MetanetX conversion,FALSE
-ethso3[e],ethso3,MNXM7343,MNXM7343[e],e,TRUE,MetanetX conversion,FALSE
-butso3[e],butso3,MNXM730561,MNXM730561[e],e,TRUE,MetanetX conversion,FALSE
-sulfac[e],sulfac,MNXM1949,MNXM1949[e],e,TRUE,MetanetX conversion,FALSE
-so3[p],so3,MNXM726339,MNXM726339[p],p,TRUE,MetanetX conversion,FALSE
-so3[e],so3,MNXM726339,MNXM726339[e],e,TRUE,MetanetX conversion,FALSE
-isetac[e],isetac,MNXM1630,MNXM1630[e],e,TRUE,MetanetX conversion,FALSE
-mso3[e],mso3,MNXM1485,MNXM1485[e],e,TRUE,MetanetX conversion,FALSE
-skm[p],skm,MNXM602,MNXM602[p],p,TRUE,MetanetX conversion,FALSE
-mal__L[p],mal__L,MNXM1107192,MNXM1107192[p],p,TRUE,MetanetX conversion,FALSE
-adocbl[p],adocbl,MNXM1104551,MNXM1104551[p],p,TRUE,MetanetX conversion,FALSE
-h2o2[p],h2o2,MNXM732620,MNXM732620[p],p,TRUE,MetanetX conversion,FALSE
-rib__D[p],rib__D,MNXM1108051,MNXM1108051[p],p,TRUE,MetanetX conversion,FALSE
-cu2[p],cu2,MNXM731166,MNXM731166[p],p,TRUE,MetanetX conversion,FALSE
-mg2[p],mg2,MNXM653,MNXM653[p],p,TRUE,MetanetX conversion,FALSE
-fe3[e],fe3,MNXM1372039,MNXM1372039[e],e,TRUE,MetanetX conversion,FALSE
-cd2[e],cd2,MNXM733186,MNXM733186[e],e,TRUE,MetanetX conversion,FALSE
-etoh[p],etoh,MNXM1108092,MNXM1108092[p],p,TRUE,MetanetX conversion,FALSE
-cl[p],cl,MNXM735978,MNXM735978[p],p,TRUE,MetanetX conversion,FALSE
-cu[e],cu,MNXM1543096,MNXM1543096[e],e,TRUE,MetanetX conversion,FALSE
-ca2[p],ca2,MNXM128,MNXM128[p],p,TRUE,MetanetX conversion,FALSE
-orot[p],orot,MNXM235,MNXM235[p],p,TRUE,MetanetX conversion,FALSE
-ppa[p],ppa,MNXM1094052,MNXM1094052[p],p,TRUE,MetanetX conversion,FALSE
-ppa[e],ppa,MNXM1094052,MNXM1094052[e],e,TRUE,MetanetX conversion,FALSE
-fe3[c],fe3,MNXM1372039,MNXM1372039[c],c,TRUE,MetanetX conversion,FALSE
-mththf[p],mththf,MNXM30887,MNXM30887[p],p,TRUE,MetanetX conversion,FALSE
-hco3[p],hco3,MNXM1094693,MNXM1094693[p],p,TRUE,MetanetX conversion,FALSE
-uaagmda[p],uaagmda,MNXM739668,MNXM739668[p],p,TRUE,MetanetX conversion,FALSE
-2a3o4pob[c],2a3o4pob,MNXM1091685,MNXM1091685[c],c,TRUE,MetanetX conversion,FALSE
-ch4[e],ch4,MNXM739586,MNXM739586[e],e,TRUE,MetanetX conversion,FALSE
-ch4[p],ch4,MNXM739586,MNXM739586[p],p,TRUE,MetanetX conversion,FALSE
-benz[e],benz,benz,benz[e],e,FALSE,Unchanged,FALSE
-benz[p],benz,benz,benz[p],p,FALSE,Unchanged,FALSE
-phenol[p],phenol,MNXM320,MNXM320[p],p,TRUE,MetanetX conversion,FALSE
-phenol[e],phenol,MNXM320,MNXM320[e],e,TRUE,MetanetX conversion,FALSE
-hqn[p],hqn,MNXM376,MNXM376[p],p,TRUE,MetanetX conversion,FALSE
-hqn[e],hqn,MNXM376,MNXM376[e],e,TRUE,MetanetX conversion,FALSE
-tol[e],tol,MNXM889,MNXM889[e],e,TRUE,MetanetX conversion,FALSE
-tol[p],tol,MNXM889,MNXM889[p],p,TRUE,MetanetX conversion,FALSE
-bzalc[p],bzalc,MNXM562,MNXM562[p],p,TRUE,MetanetX conversion,FALSE
-bzal[p],bzal,MNXM371,MNXM371[p],p,TRUE,MetanetX conversion,FALSE
-bzal[e],bzal,MNXM371,MNXM371[e],e,TRUE,MetanetX conversion,FALSE
-chlben[e],chlben,chlben,chlben[e],e,FALSE,Unchanged,FALSE
-chlben[p],chlben,chlben,chlben[p],p,FALSE,Unchanged,FALSE
-chlphenol[p],chlphenol,chlphenol,chlphenol[p],p,FALSE,Unchanged,FALSE
-chlphenol[e],chlphenol,chlphenol,chlphenol[e],e,FALSE,Unchanged,FALSE
-nphtl[e],nphtl,nphtl,nphtl[e],e,FALSE,Unchanged,FALSE
-nphtl[p],nphtl,nphtl,nphtl[p],p,FALSE,Unchanged,FALSE
-2nphtol[p],2nphtol,2nphtol,2nphtol[p],p,FALSE,Unchanged,FALSE
-1nphtol[p],1nphtol,1nphtol,1nphtol[p],p,FALSE,Unchanged,FALSE
-2nphtol[e],2nphtol,2nphtol,2nphtol[e],e,FALSE,Unchanged,FALSE
-1nphtol[e],1nphtol,1nphtol,1nphtol[e],e,FALSE,Unchanged,FALSE
-cyt552oxi[p],cyt552oxi,cyt552oxi,cyt552oxi[p],p,FALSE,Unchanged,FALSE
-cyt552red[p],cyt552red,cyt552red,cyt552red[p],p,FALSE,Unchanged,FALSE
-rb15bp[c],rb15bp,MNXM1106709,MNXM1106709[c],c,TRUE,MetanetX conversion,FALSE
-2pglyc[c],2pglyc,MNXM2074,MNXM2074[c],c,TRUE,MetanetX conversion,FALSE
-r1p[c],r1p,MNXM1103205,MNXM1103205[c],c,TRUE,MetanetX conversion,FALSE
-cyt552mred[c],cyt552mred,cyt552mred,cyt552mred[c],c,FALSE,Unchanged,FALSE
-cyt552moxi[c],cyt552moxi,cyt552moxi,cyt552moxi[c],c,FALSE,Unchanged,FALSE
+orig_met,without_compartment,new_met,new_met_out,compartment,conversion_successful,conversion_type,encoding_issues_fixed,database_sources
+hco3[c],hco3,MNXM1094693,MNXM1094693[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hco3[e],hco3,MNXM1094693,MNXM1094693[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+na1[e],na1,MNXM27,MNXM27[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+na1[c],na1,MNXM27,MNXM27[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+o2[c],o2,MNXM735437,MNXM735437[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+o2[p],o2,MNXM735437,MNXM735437[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+o2[e],o2,MNXM735437,MNXM735437[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+10fthf[c],10fthf,MNXM237,MNXM237[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+12ppd__S[c],12ppd__S,MNXM1255,MNXM1255[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+13dpg[c],13dpg,MNXM733153,MNXM733153[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+1ddecg3p[c],1ddecg3p,MNXM4232,MNXM4232[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1hdec9eg3p[c],1hdec9eg3p,MNXM91047,MNXM91047[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+1hdecg3p[c],1hdecg3p,MNXM90586,MNXM90586[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+1odec11eg3p[c],1odec11eg3p,MNXM91049,MNXM91049[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+1odecg3p[c],1odecg3p,MNXM734212,MNXM734212[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1pyr5c[c],1pyr5c,MNXM1617,MNXM1617[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+1tdecg3p[c],1tdecg3p,MNXM3426,MNXM3426[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+23dhdp[c],23dhdp,MNXM807,MNXM807[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+23dhmb[c],23dhmb,MNXM734,MNXM734[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+23dhmp[c],23dhmp,MNXM1202,MNXM1202[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+25aics[c],25aics,MNXM738774,MNXM738774[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+25dhpp[c],25dhpp,MNXM90906,MNXM90906[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+26dap_LL[c],26dap_LL,MNXM644,MNXM644[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+26dap__M[c],26dap__M,MNXM529,MNXM529[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2ahbut[c],2ahbut,MNXM726902,MNXM726902[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2ahhmd[c],2ahhmd,MNXM91459,MNXM91459[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2ahhmp[c],2ahhmp,MNXM728662,MNXM728662[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2cpr5p[c],2cpr5p,MNXM1455,MNXM1455[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2dda7p[c],2dda7p,MNXM1219,MNXM1219[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2dhp[c],2dhp,MNXM959,MNXM959[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2dmmql8[c],2dmmql8,MNXM558,MNXM558[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+2h3oppan[c],2h3oppan,MNXM475,MNXM475[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2ippm[c],2ippm,MNXM1369559,MNXM1369559[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2mahmp[c],2mahmp,MNXM1135,MNXM1135[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2me4p[c],2me4p,MNXM730435,MNXM730435[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2mecdp[c],2mecdp,MNXM1168,MNXM1168[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2obut[c],2obut,MNXM159,MNXM159[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2p4c2me[c],2p4c2me,MNXM1641,MNXM1641[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2pg[c],2pg,MNXM275,MNXM275[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+34hpp[c],34hpp,MNXM153,MNXM153[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3c2hmp[c],3c2hmp,MNXM741108,MNXM741108[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3c3hmp[c],3c3hmp,MNXM985,MNXM985[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3c4mop[c],3c4mop,MNXM1602,MNXM1602[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3dhq[c],3dhq,MNXM736874,MNXM736874[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3dhsk[c],3dhsk,MNXM611,MNXM611[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3haACP[c],3haACP,MNXM738485,MNXM738485[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3hcddec5eACP[c],3hcddec5eACP,MNXM5389,MNXM5389[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3hcmrs7eACP[c],3hcmrs7eACP,MNXM5390,MNXM5390[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3hcpalm9eACP[c],3hcpalm9eACP,MNXM6556,MNXM6556[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3hcvac11eACP[c],3hcvac11eACP,MNXM6557,MNXM6557[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3hddecACP[c],3hddecACP,MNXM733304,MNXM733304[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3hdecACP[c],3hdecACP,MNXM7127,MNXM7127[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+3hhexACP[c],3hhexACP,MNXM733048,MNXM733048[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3hmrsACP[c],3hmrsACP,MNXM7733,MNXM7733[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+3hoctACP[c],3hoctACP,MNXM725895,MNXM725895[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+3hoctaACP[c],3hoctaACP,MNXM6417,MNXM6417[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+3hpalmACP[c],3hpalmACP,MNXM733096,MNXM733096[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+3ig3p[c],3ig3p,MNXM866,MNXM866[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3mob[c],3mob,MNXM732866,MNXM732866[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3mop[c],3mop,MNXM439,MNXM439[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3ocddec5eACP[c],3ocddec5eACP,MNXM6837,MNXM6837[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3ocmrs7eACP[c],3ocmrs7eACP,MNXM6838,MNXM6838[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3ocpalm9eACP[c],3ocpalm9eACP,MNXM6839,MNXM6839[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3ocvac11eACP[c],3ocvac11eACP,MNXM6840,MNXM6840[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3oddecACP[c],3oddecACP,MNXM28933,MNXM28933[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3odecACP[c],3odecACP,MNXM26616,MNXM26616[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3ohexACP[c],3ohexACP,MNXM25602,MNXM25602[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3omrsACP[c],3omrsACP,MNXM26095,MNXM26095[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3ooctACP[c],3ooctACP,MNXM28031,MNXM28031[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3ooctdACP[c],3ooctdACP,MNXM3491,MNXM3491[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+3opalmACP[c],3opalmACP,MNXM4345,MNXM4345[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3pg[c],3pg,MNXM727604,MNXM727604[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3php[c],3php,MNXM541,MNXM541[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3psme[c],3psme,MNXM1365,MNXM1365[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4abut[c],4abut,MNXM192,MNXM192[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4abutn[c],4abutn,MNXM422,MNXM422[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4abz[c],4abz,MNXM421,MNXM421[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4adcho[c],4adcho,MNXM1458,MNXM1458[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4ahmmp[c],4ahmmp,MNXM874,MNXM874[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4ampm[c],4ampm,MNXM733872,MNXM733872[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+4c2me[c],4c2me,MNXM730948,MNXM730948[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4hthr[c],4hthr,MNXM1802,MNXM1802[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4mop[c],4mop,MNXM404,MNXM404[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4mpetz[c],4mpetz,MNXM960,MNXM960[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4pasp[c],4pasp,MNXM1177,MNXM1177[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4ppan[c],4ppan,MNXM735771,MNXM735771[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4ppcys[c],4ppcys,MNXM483,MNXM483[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4r5au[c],4r5au,MNXM791,MNXM791[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5aizc[c],5aizc,MNXM737371,MNXM737371[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5aop[c],5aop,MNXM405,MNXM405[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5aprbu[c],5aprbu,MNXM1365818,MNXM1365818[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5apru[c],5apru,MNXM1368993,MNXM1368993[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5hbzid[c],5hbzid,MNXM6924,MNXM6924[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+5mta[c],5mta,MNXM150,MNXM150[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5mthf[c],5mthf,MNXM733947,MNXM733947[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5prdmbz[c],5prdmbz,MNXM1224,MNXM1224[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+6hmhptpp[c],6hmhptpp,MNXM727068,MNXM727068[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+6pgc[c],6pgc,MNXM734080,MNXM734080[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ACP[c],ACP,MNXM925,MNXM925[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ac[c],ac,MNXM26,MNXM26[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acACP[c],acACP,MNXM727672,MNXM727672[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acald[c],acald,MNXM75,MNXM75[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+accoa[c],accoa,MNXM21,MNXM21[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acg5p[c],acg5p,MNXM1384,MNXM1384[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acg5sa[c],acg5sa,MNXM1062,MNXM1062[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acgam1p[c],acgam1p,MNXM91871,MNXM91871[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acglu[c],acglu,MNXM730,MNXM730[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+achms[c],achms,MNXM739518,MNXM739518[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acmana[c],acmana,MNXM2403,MNXM2403[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acorn[c],acorn,MNXM817,MNXM817[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+acser[c],acser,MNXM418,MNXM418[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+actACP[c],actACP,MNXM727386,MNXM727386[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+actn__R[c],actn__R,MNXM664,MNXM664[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+actp[c],actp,MNXM280,MNXM280[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+adcobdam[c],adcobdam,MNXM92085,MNXM92085[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+adcobhex[c],adcobhex,MNXM877,MNXM877[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ade[c],ade,MNXM168,MNXM168[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+adocbip[c],adocbip,MNXM856,MNXM856[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+adocbl[c],adocbl,MNXM90703,MNXM90703[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+adp[c],adp,MNXM40333,MNXM40333[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+agdpcbi[c],agdpcbi,MNXM1105,MNXM1105[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ahcys[c],ahcys,MNXM19,MNXM19[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+aicar[c],aicar,MNXM365,MNXM365[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+air[c],air,MNXM162266,MNXM162266[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+akg[c],akg,MNXM1369648,MNXM1369648[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ala_B[c],ala_B,MNXM144,MNXM144[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ala__D[c],ala__D,MNXM156,MNXM156[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ala__L[c],ala__L,MNXM733981,MNXM733981[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alaala[c],alaala,MNXM739337,MNXM739337[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alac__S[c],alac__S,MNXM114079,MNXM114079[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alltn[c],alltn,MNXM738834,MNXM738834[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alltt[c],alltt,MNXM584,MNXM584[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alpro[c],alpro,MNXM740461,MNXM740461[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+amet[c],amet,MNXM16,MNXM16[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ametam[c],ametam,MNXM321,MNXM321[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+amp[c],amp,MNXM728294,MNXM728294[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+anth[c],anth,MNXM188,MNXM188[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+applp[c],applp,MNXM1697,MNXM1697[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+aps[c],aps,MNXM287,MNXM287[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+arab__L[c],arab__L,MNXM91126,MNXM91126[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+arg__L[c],arg__L,MNXM739526,MNXM739526[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+argsuc[c],argsuc,MNXM722743,MNXM722743[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+asn__L[c],asn__L,MNXM147,MNXM147[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+asp__L[c],asp__L,MNXM735837,MNXM735837[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+aspsa[c],aspsa,MNXM361,MNXM361[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+atp[c],atp,MNXM3,MNXM3[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+btd_RR[c],btd_RR,MNXM2757,MNXM2757[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+btn[c],btn,MNXM304,MNXM304[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+but2eACP[c],but2eACP,MNXM3229,MNXM3229[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+butACP[c],butACP,MNXM90458,MNXM90458[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ca2[c],ca2,MNXM128,MNXM128[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cbasp[c],cbasp,MNXM465,MNXM465[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cbp[c],cbp,MNXM138,MNXM138[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cddec5eACP[c],cddec5eACP,MNXM163784,MNXM163784[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+cdec3eACP[c],cdec3eACP,MNXM7186,MNXM7186[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+cdp[c],cdp,MNXM220,MNXM220[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cdpdhdec9eg[c],cdpdhdec9eg,MNXM736316,MNXM736316[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+cdpdhdecg[c],cdpdhdecg,MNXM734067,MNXM734067[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+cdpdodec11eg[c],cdpdodec11eg,MNXM736319,MNXM736319[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+cdpdtdecg[c],cdpdtdecg,MNXM736328,MNXM736328[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+cdpglyc[c],cdpglyc,MNXM775,MNXM775[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+chor[c],chor,MNXM337,MNXM337[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cit[c],cit,MNXM131,MNXM131[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+citr__L[c],citr__L,MNXM732470,MNXM732470[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cl[c],cl,MNXM735978,MNXM735978[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+clpn120[c],clpn120,MNXM5078,MNXM5078[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+clpn140[c],clpn140,MNXM740794,MNXM740794[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+clpn160[c],clpn160,MNXM736425,MNXM736425[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+clpn161[c],clpn161,MNXM736306,MNXM736306[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+clpn180[c],clpn180,MNXM5079,MNXM5079[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+clpn181[c],clpn181,MNXM736311,MNXM736311[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+cmp[c],cmp,MNXM31,MNXM31[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+co[c],co,MNXM726637,MNXM726637[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+co1dam[c],co1dam,MNXM92189,MNXM92189[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+co2[c],co2,MNXM13,MNXM13[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+co2dam[c],co2dam,MNXM91520,MNXM91520[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+coa[c],coa,MNXM727276,MNXM727276[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cobalt2[c],cobalt2,MNXM90960,MNXM90960[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cobya[c],cobya,MNXM92210,MNXM92210[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+codhpre6[c],codhpre6,MNXM733197,MNXM733197[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+copre2[c],copre2,MNXM1420,MNXM1420[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+copre3[c],copre3,MNXM92204,MNXM92204[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+copre4[c],copre4,MNXM732833,MNXM732833[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+copre5[c],copre5,MNXM736803,MNXM736803[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+copre6[c],copre6,MNXM91523,MNXM91523[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+copre8[c],copre8,MNXM728586,MNXM728586[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cpppg3[c],cpppg3,MNXM735625,MNXM735625[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ctp[c],ctp,MNXM63,MNXM63[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cu2[c],cu2,MNXM632,MNXM632[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cys__L[c],cys__L,MNXM738067,MNXM738067[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cyst__L[c],cyst__L,MNXM319,MNXM319[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dad_5[c],dad_5,MNXM316,MNXM316[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dadp[c],dadp,MNXM735047,MNXM735047[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+damp[c],damp,MNXM432,MNXM432[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+datp[c],datp,MNXM286,MNXM286[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+db4p[c],db4p,MNXM1102294,MNXM1102294[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dcaACP[c],dcaACP,MNXM90236,MNXM90236[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+dcamp[c],dcamp,MNXM565,MNXM565[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dcdp[c],dcdp,MNXM411,MNXM411[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dcmp[c],dcmp,MNXM266,MNXM266[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dctp[c],dctp,MNXM360,MNXM360[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ddcaACP[c],ddcaACP,MNXM89851,MNXM89851[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+dgdp[c],dgdp,MNXM436,MNXM436[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dgmp[c],dgmp,MNXM546,MNXM546[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dgtp[c],dgtp,MNXM344,MNXM344[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dhap[c],dhap,MNXM77,MNXM77[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dhf[c],dhf,MNXM281,MNXM281[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dhlpro[c],dhlpro,MNXM731213,MNXM731213[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dhnpt[c],dhnpt,MNXM162359,MNXM162359[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dhor__S[c],dhor__S,MNXM252,MNXM252[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dhpt[c],dhpt,MNXM722728,MNXM722728[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dmbzid[c],dmbzid,MNXM1531,MNXM1531[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dmlz[c],dmlz,MNXM1313,MNXM1313[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dmpp[c],dmpp,MNXM132,MNXM132[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dnad[c],dnad,MNXM309,MNXM309[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dpcoa[c],dpcoa,MNXM481,MNXM481[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dscl[c],dscl,MNXM739347,MNXM739347[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dtdp[c],dtdp,MNXM152,MNXM152[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dtdp4d6dg[c],dtdp4d6dg,MNXM451,MNXM451[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dtdp4d6dm[c],dtdp4d6dm,MNXM2371,MNXM2371[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dtdpglu[c],dtdpglu,MNXM728217,MNXM728217[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dtdprmn[c],dtdprmn,MNXM899,MNXM899[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dtmp[c],dtmp,MNXM257,MNXM257[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dttp[c],dttp,MNXM394,MNXM394[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dudp[c],dudp,MNXM572,MNXM572[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dump[c],dump,MNXM234,MNXM234[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dxyl5p[c],dxyl5p,MNXM622,MNXM622[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+e4p[c],e4p,MNXM258,MNXM258[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+eig3p[c],eig3p,MNXM1422,MNXM1422[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+f1p[c],f1p,MNXM145568,MNXM145568[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+f6p[c],f6p,MNXM89621,MNXM89621[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fad[c],fad,MNXM33,MNXM33[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fdp[c],fdp,MNXM417,MNXM417[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fdxo_42[c],fdxo_42,MNXM145541,MNXM145541[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+fdxr_42[c],fdxr_42,MNXM145542,MNXM145542[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+fe2[c],fe2,MNXM726710,MNXM726710[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fgam[c],fgam,MNXM736359,MNXM736359[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fmn[c],fmn,MNXM727218,MNXM727218[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fol[c],fol,MNXM617,MNXM617[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+for[c],for,MNXM39,MNXM39[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fpram[c],fpram,MNXM479745,MNXM479745[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+fprica[c],fprica,MNXM736424,MNXM736424[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+frdp[c],frdp,MNXM34,MNXM34[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fum[c],fum,MNXM93,MNXM93[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g1p[c],g1p,MNXM89588,MNXM89588[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3p[c],g3p,MNXM74,MNXM74[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gal[c],gal,MNXM735266,MNXM735266[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gam1p[c],gam1p,MNXM969,MNXM969[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gam6p[c],gam6p,MNXM370,MNXM370[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gar[c],gar,MNXM463,MNXM463[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gcald[c],gcald,MNXM734589,MNXM734589[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gdp[c],gdp,MNXM30,MNXM30[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gdpmann[c],gdpmann,MNXM82,MNXM82[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gdptp[c],gdptp,MNXM1561,MNXM1561[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ggdp[c],ggdp,MNXM728266,MNXM728266[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glc__D[c],glc__D,MNXM735623,MNXM735623[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gln__L[c],gln__L,MNXM37,MNXM37[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glu__D[c],glu__D,MNXM331,MNXM331[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glu__L[c],glu__L,MNXM741172,MNXM741172[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glu1sa[c],glu1sa,MNXM1453,MNXM1453[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glu5p[c],glu5p,MNXM1280,MNXM1280[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glu5sa[c],glu5sa,MNXM1093051,MNXM1093051[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glutrna[c],glutrna,MNXM89752,MNXM89752[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gly[c],gly,MNXM29,MNXM29[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyb[c],glyb,MNXM289,MNXM289[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyc[c],glyc,MNXM89612,MNXM89612[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyc__R[c],glyc__R,MNXM189,MNXM189[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyc3p[c],glyc3p,MNXM66,MNXM66[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gmp[c],gmp,MNXM113,MNXM113[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+grdp[c],grdp,MNXM100,MNXM100[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gtp[c],gtp,MNXM51,MNXM51[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h[c],h,MNXM1,MNXM1[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h2[c],h2,MNXM195,MNXM195[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h2mb4p[c],h2mb4p,MNXM1371512,MNXM1371512[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h2o[c],h2o,MNXM2,MNXM2[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h2s[c],h2s,MNXM89582,MNXM89582[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hcit[c],hcit,MNXM5782,MNXM5782[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+hcys__L[c],hcys__L,MNXM123,MNXM123[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hdca[c],hdca,MNXM108,MNXM108[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hdeACP[c],hdeACP,MNXM89949,MNXM89949[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+hexACP[c],hexACP,MNXM90722,MNXM90722[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+his__L[c],his__L,MNXM134,MNXM134[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hisp[c],hisp,MNXM1482,MNXM1482[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+histd[c],histd,MNXM1281,MNXM1281[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hmbil[c],hmbil,MNXM547,MNXM547[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hom__L[c],hom__L,MNXM353,MNXM353[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+iasp[c],iasp,MNXM1371470,MNXM1371470[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+icit[c],icit,MNXM89661,MNXM89661[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ile__L[c],ile__L,MNXM231,MNXM231[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+iletrna[c],iletrna,MNXM741223,MNXM741223[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+imacp[c],imacp,MNXM1456,MNXM1456[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+imp[c],imp,MNXM125,MNXM125[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+indole[c],indole,MNXM735090,MNXM735090[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ipdp[c],ipdp,MNXM83,MNXM83[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+k[c],k,MNXM95,MNXM95[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lac__D[c],lac__D,MNXM285,MNXM285[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lald__L[c],lald__L,MNXM732880,MNXM732880[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+leu__L[c],leu__L,MNXM1106760,MNXM1106760[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+leutrna[c],leutrna,MNXM739504,MNXM739504[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lpro[c],lpro,MNXM998,MNXM998[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lys__L[c],lys__L,MNXM1104802,MNXM1104802[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mal__L[c],mal__L,MNXM98,MNXM98[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malACP[c],malACP,MNXM731937,MNXM731937[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malcoa[c],malcoa,MNXM40,MNXM40[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malt[c],malt,MNXM165,MNXM165[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malthx[c],malthx,MNXM728029,MNXM728029[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malttr[c],malttr,MNXM736635,MNXM736635[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+man1p[c],man1p,MNXM721,MNXM721[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+man6p[c],man6p,MNXM735946,MNXM735946[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+met__L[c],met__L,MNXM738803,MNXM738803[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+methf[c],methf,MNXM511,MNXM511[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mettrna[c],mettrna,MNXM741321,MNXM741321[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+mg2[c],mg2,MNXM653,MNXM653[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mlthf[c],mlthf,MNXM183,MNXM183[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+mn2[c],mn2,MNXM2255,MNXM2255[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mobd[c],mobd,MNXM726090,MNXM726090[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mql8[c],mql8,MNXM1369676,MNXM1369676[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+mqn8[c],mqn8,MNXM1371034,MNXM1371034[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+mththf[c],mththf,MNXM30887,MNXM30887[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+myrsACP[c],myrsACP,MNXM89779,MNXM89779[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+nac[c],nac,MNXM274,MNXM274[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nad[c],nad,MNXM8,MNXM8[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nadh[c],nadh,MNXM10,MNXM10[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nadp[c],nadp,MNXM5,MNXM5[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nadph[c],nadph,MNXM738702,MNXM738702[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nh4[c],nh4,MNXM729302,MNXM729302[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nicrnt[c],nicrnt,MNXM732154,MNXM732154[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+oaa[c],oaa,MNXM46,MNXM46[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ocACP[c],ocACP,MNXM90185,MNXM90185[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ocdca[c],ocdca,MNXM236,MNXM236[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ocdcaACP[c],ocdcaACP,MNXM3075,MNXM3075[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+octdp[c],octdp,MNXM1373575,MNXM1373575[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+octeACP[c],octeACP,MNXM89950,MNXM89950[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+orn[c],orn,MNXM741174,MNXM741174[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+orot[c],orot,MNXM235,MNXM235[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+orot5p[c],orot5p,MNXM519,MNXM519[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pa140[c],pa140,MNXM737414,MNXM737414[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pa160[c],pa160,MNXM731668,MNXM731668[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pa161[c],pa161,MNXM90510,MNXM90510[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pa181[c],pa181,MNXM90511,MNXM90511[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+palmACP[c],palmACP,MNXM2026,MNXM2026[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pan4p[c],pan4p,MNXM373,MNXM373[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pant__R[c],pant__R,MNXM593,MNXM593[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pe140[c],pe140,MNXM733473,MNXM733473[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pe160[c],pe160,MNXM32178,MNXM32178[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pe161[c],pe161,MNXM739592,MNXM739592[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pe181[c],pe181,MNXM2150,MNXM2150[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pep[c],pep,MNXM73,MNXM73[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pg120[c],pg120,MNXM1771,MNXM1771[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pg140[c],pg140,MNXM737417,MNXM737417[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+pg160[c],pg160,MNXM734041,MNXM734041[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pg161[c],pg161,MNXM739991,MNXM739991[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pg180[c],pg180,MNXM75102,MNXM75102[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pg181[c],pg181,MNXM731815,MNXM731815[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pgp140[c],pgp140,MNXM5272,MNXM5272[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pgp160[c],pgp160,MNXM734044,MNXM734044[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pgp161[c],pgp161,MNXM739994,MNXM739994[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pgp181[c],pgp181,MNXM5269,MNXM5269[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+phe__L[c],phe__L,MNXM741663,MNXM741663[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+phetrna[c],phetrna,MNXM741194,MNXM741194[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+phom[c],phom,MNXM1334,MNXM1334[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+phpyr[c],phpyr,MNXM730221,MNXM730221[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+phthr[c],phthr,MNXM759,MNXM759[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pi[c],pi,MNXM9,MNXM9[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pmtcoa[c],pmtcoa,MNXM88,MNXM88[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pnto__R[c],pnto__R,MNXM364,MNXM364[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ppa[c],ppa,MNXM162260,MNXM162260[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ppap[c],ppap,MNXM1499,MNXM1499[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ppbng[c],ppbng,MNXM554,MNXM554[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ppcoa[c],ppcoa,MNXM86,MNXM86[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pphn[c],pphn,MNXM737312,MNXM737312[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ppi[c],ppi,MNXM11,MNXM11[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pppg9[c],pppg9,MNXM351,MNXM351[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pppi[c],pppi,MNXM332,MNXM332[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pram[c],pram,MNXM90003,MNXM90003[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pran[c],pran,MNXM1489,MNXM1489[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+prbamp[c],prbamp,MNXM729421,MNXM729421[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+prbatp[c],prbatp,MNXM728133,MNXM728133[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+prfp[c],prfp,MNXM1397,MNXM1397[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+prlp[c],prlp,MNXM1408,MNXM1408[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pro__L[c],pro__L,MNXM114,MNXM114[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+prpp[c],prpp,MNXM91,MNXM91[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ps140[c],ps140,MNXM7665,MNXM7665[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ps160[c],ps160,MNXM734047,MNXM734047[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+ps161[c],ps161,MNXM7660,MNXM7660[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ps181[c],ps181,MNXM7662,MNXM7662[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pser__L[c],pser__L,MNXM1107213,MNXM1107213[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ptrc[c],ptrc,MNXM118,MNXM118[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pydx5p[c],pydx5p,MNXM161,MNXM161[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pyr[c],pyr,MNXM23,MNXM23[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+quln[c],quln,MNXM555,MNXM555[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+r5p[c],r5p,MNXM15900,MNXM15900[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+rdmbzi[c],rdmbzi,MNXM729592,MNXM729592[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+rhcys[c],rhcys,MNXM731817,MNXM731817[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+rib__D[c],rib__D,MNXM732914,MNXM732914[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ribflv[c],ribflv,MNXM270,MNXM270[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ru5p__D[c],ru5p__D,MNXM145,MNXM145[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+s17bp[c],s17bp,MNXM1294,MNXM1294[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+s7p[c],s7p,MNXM733314,MNXM733314[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+seln[c],seln,MNXM741485,MNXM741485[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+selnp[c],selnp,MNXM1339,MNXM1339[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ser__L[c],ser__L,MNXM737786,MNXM737786[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+sertrna[c],sertrna,MNXM741351,MNXM741351[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+skm[c],skm,MNXM602,MNXM602[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+skm5p[c],skm5p,MNXM1265,MNXM1265[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+sl26da[c],sl26da,MNXM729177,MNXM729177[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+sl2a6o[c],sl2a6o,MNXM1563,MNXM1563[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+so3[c],so3,MNXM726339,MNXM726339[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+so4[c],so4,MNXM58,MNXM58[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+spmd[c],spmd,MNXM124,MNXM124[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+stcoa[c],stcoa,MNXM733343,MNXM733343[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+succ[c],succ,MNXM25,MNXM25[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+suchms[c],suchms,MNXM820,MNXM820[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+sucsal[c],sucsal,MNXM172,MNXM172[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+t3c11vaceACP[c],t3c11vaceACP,MNXM5958,MNXM5958[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+t3c5ddeceACP[c],t3c5ddeceACP,MNXM5959,MNXM5959[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+t3c7mrseACP[c],t3c7mrseACP,MNXM5960,MNXM5960[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+t3c9palmeACP[c],t3c9palmeACP,MNXM5961,MNXM5961[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+taur[c],taur,MNXM282,MNXM282[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tdcoa[c],tdcoa,MNXM224,MNXM224[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tddec2eACP[c],tddec2eACP,MNXM23842,MNXM23842[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tdeACP[c],tdeACP,MNXM162426,MNXM162426[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+tdec2eACP[c],tdec2eACP,MNXM733432,MNXM733432[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+teca_CL[c],teca_CL,MNXM148269,MNXM148269[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+thdp[c],thdp,MNXM480,MNXM480[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thex2eACP[c],thex2eACP,MNXM24502,MNXM24502[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thf[c],thf,MNXM79,MNXM79[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thfglu[c],thfglu,MNXM723480,MNXM723480[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thm[c],thm,MNXM730135,MNXM730135[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+thmmp[c],thmmp,MNXM662,MNXM662[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thmpp[c],thmpp,MNXM256,MNXM256[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thr__L[c],thr__L,MNXM142,MNXM142[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thrp[c],thrp,MNXM1492,MNXM1492[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tmrs2eACP[c],tmrs2eACP,MNXM24297,MNXM24297[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+toct2eACP[c],toct2eACP,MNXM23766,MNXM23766[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+toctd2eACP[c],toctd2eACP,MNXM2573,MNXM2573[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tpalm2eACP[c],tpalm2eACP,MNXM29072,MNXM29072[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trdox[c],trdox,MNXM729075,MNXM729075[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trdrd[c],trdrd,MNXM96993,MNXM96993[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnaglu[c],trnaglu,MNXM90886,MNXM90886[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnaile[c],trnaile,MNXM90879,MNXM90879[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnaleu[c],trnaleu,MNXM90880,MNXM90880[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnamet[c],trnamet,MNXM90882,MNXM90882[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnaphe[c],trnaphe,MNXM90753,MNXM90753[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnaser[c],trnaser,MNXM91028,MNXM91028[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnaval[c],trnaval,MNXM90885,MNXM90885[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trp__L[c],trp__L,MNXM94,MNXM94[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ttdca[c],ttdca,MNXM162239,MNXM162239[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+tyr__L[c],tyr__L,MNXM76,MNXM76[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uaagmda[c],uaagmda,MNXM739668,MNXM739668[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uaccg[c],uaccg,MNXM731472,MNXM731472[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uacgam[c],uacgam,MNXM736709,MNXM736709[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uacmam[c],uacmam,MNXM722740,MNXM722740[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uagmda[c],uagmda,MNXM732761,MNXM732761[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uama[c],uama,MNXM732162,MNXM732162[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uamag[c],uamag,MNXM955,MNXM955[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uamr[c],uamr,MNXM722733,MNXM722733[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+udcpdp[c],udcpdp,MNXM5043,MNXM5043[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+udcpp[c],udcpp,MNXM733031,MNXM733031[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+udp[c],udp,MNXM17,MNXM17[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+udpg[c],udpg,MNXM739642,MNXM739642[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+udpgal[c],udpgal,MNXM741191,MNXM741191[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+udpglcur[c],udpglcur,MNXM87,MNXM87[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ugmd[c],ugmd,MNXM162592,MNXM162592[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+ugmda[c],ugmda,MNXM732166,MNXM732166[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ump[c],ump,MNXM80,MNXM80[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uppg3[c],uppg3,MNXM414,MNXM414[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+utp[c],utp,MNXM121,MNXM121[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+val__L[c],val__L,MNXM199,MNXM199[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+valtrna[c],valtrna,MNXM741265,MNXM741265[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+xmp[c],xmp,MNXM733647,MNXM733647[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+xu5p__D[c],xu5p__D,MNXM186,MNXM186[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+xyl__D[c],xyl__D,MNXM734573,MNXM734573[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+zn2[c],zn2,MNXM729214,MNXM729214[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ac[e],ac,MNXM26,MNXM26[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ala__D[e],ala__D,MNXM156,MNXM156[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alaala[e],alaala,MNXM739337,MNXM739337[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alltn[e],alltn,MNXM738834,MNXM738834[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+arab__L[e],arab__L,MNXM91126,MNXM91126[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+arg__L[e],arg__L,MNXM739526,MNXM739526[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+asn__L[e],asn__L,MNXM147,MNXM147[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+asp__L[e],asp__L,MNXM735837,MNXM735837[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+btd_RR[e],btd_RR,MNXM2757,MNXM2757[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+btn[e],btn,MNXM304,MNXM304[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+btoh[e],btoh,MNXM3230,MNXM3230[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+but[e],but,MNXM458,MNXM458[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ca2[e],ca2,MNXM128,MNXM128[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+citr__L[e],citr__L,MNXM732470,MNXM732470[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cl[e],cl,MNXM735978,MNXM735978[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+co[e],co,MNXM726637,MNXM726637[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+co2[e],co2,MNXM13,MNXM13[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cobalt2[e],cobalt2,MNXM90960,MNXM90960[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+csn[e],csn,MNXM761,MNXM761[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cu2[e],cu2,MNXM632,MNXM632[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cys__L[e],cys__L,MNXM738067,MNXM738067[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+etoh[e],etoh,MNXM733717,MNXM733717[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fe2[e],fe2,MNXM726710,MNXM726710[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fol[e],fol,MNXM617,MNXM617[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+for[e],for,MNXM39,MNXM39[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fru[e],fru,MNXM175,MNXM175[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gal[e],gal,MNXM735266,MNXM735266[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+galctn__D[e],galctn__D,MNXM1734,MNXM1734[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+galur[e],galur,MNXM48464,MNXM48464[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glc__D[e],glc__D,MNXM735623,MNXM735623[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glcn[e],glcn,MNXM341,MNXM341[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glcur[e],glcur,MNXM1102441,MNXM1102441[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gln__L[e],gln__L,MNXM37,MNXM37[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glu__L[e],glu__L,MNXM741172,MNXM741172[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gly[e],gly,MNXM29,MNXM29[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyb[e],glyb,MNXM289,MNXM289[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyc[e],glyc,MNXM89612,MNXM89612[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h[e],h,MNXM1,MNXM1[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h2[e],h2,MNXM195,MNXM195[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h2o[e],h2o,MNXM2,MNXM2[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+his__L[e],his__L,MNXM134,MNXM134[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ile__L[e],ile__L,MNXM231,MNXM231[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+k[e],k,MNXM95,MNXM95[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lac__D[e],lac__D,MNXM285,MNXM285[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lac__L[e],lac__L,MNXM179,MNXM179[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+leu__L[e],leu__L,MNXM1106760,MNXM1106760[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lys__L[e],lys__L,MNXM1104802,MNXM1104802[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malt[e],malt,MNXM165,MNXM165[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malthx[e],malthx,MNXM728029,MNXM728029[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malttr[e],malttr,MNXM736635,MNXM736635[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+man[e],man,MNXM182,MNXM182[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+met__L[e],met__L,MNXM738803,MNXM738803[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mg2[e],mg2,MNXM653,MNXM653[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mn2[e],mn2,MNXM2255,MNXM2255[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mobd[e],mobd,MNXM726090,MNXM726090[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+murein4p3p[e],murein4p3p,MNXM741016,MNXM741016[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein4p4p[e],murein4p4p,MNXM88347,MNXM88347[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein4px4p[e],murein4px4p,MNXM737824,MNXM737824[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein4px4px4p[e],murein4px4px4p,MNXM6451,MNXM6451[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5p3p[e],murein5p3p,MNXM738662,MNXM738662[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5p4p[e],murein5p4p,MNXM738656,MNXM738656[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5p5p[e],murein5p5p,MNXM88345,MNXM88345[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5p5p5p[e],murein5p5p5p,MNXM740230,MNXM740230[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5px3p[e],murein5px3p,MNXM5970,MNXM5970[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5px4p[e],murein5px4p,MNXM88338,MNXM88338[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5px4px4p[e],murein5px4px4p,MNXM87121,MNXM87121[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+nh4[e],nh4,MNXM729302,MNXM729302[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+no2[e],no2,MNXM107,MNXM107[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+no3[e],no3,MNXM732398,MNXM732398[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pi[e],pi,MNXM9,MNXM9[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pro__L[e],pro__L,MNXM114,MNXM114[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ptrc[e],ptrc,MNXM118,MNXM118[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pydxn[e],pydxn,MNXM419,MNXM419[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pyr[e],pyr,MNXM23,MNXM23[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+rib__D[e],rib__D,MNXM732914,MNXM732914[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ribflv[e],ribflv,MNXM270,MNXM270[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+rmn[e],rmn,MNXM733618,MNXM733618[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ser__D[e],ser__D,MNXM694,MNXM694[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ser__L[e],ser__L,MNXM737786,MNXM737786[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+so4[e],so4,MNXM58,MNXM58[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+spmd[e],spmd,MNXM124,MNXM124[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+taur[e],taur,MNXM282,MNXM282[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thm[e],thm,MNXM730135,MNXM730135[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+trp__L[e],trp__L,MNXM94,MNXM94[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uaagmda[e],uaagmda,MNXM739668,MNXM739668[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+udcpdp[e],udcpdp,MNXM5043,MNXM5043[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+udcpp[e],udcpp,MNXM733031,MNXM733031[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ura[e],ura,MNXM1369194,MNXM1369194[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+val__L[e],val__L,MNXM199,MNXM199[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+xan[e],xan,MNXM174,MNXM174[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+xyl__D[e],xyl__D,MNXM734573,MNXM734573[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+zn2[e],zn2,MNXM729214,MNXM729214[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+14glucan[p],14glucan,MNXM733514,MNXM733514[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+14glucan[c],14glucan,MNXM733514,MNXM733514[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2ddecg3p[c],2ddecg3p,MNXM5461,MNXM5461[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2ddecg3p[p],2ddecg3p,MNXM5461,MNXM5461[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2tdecg3p[p],2tdecg3p,MNXM5491,MNXM5491[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2tdecg3p[c],2tdecg3p,MNXM5491,MNXM5491[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2tdec7eg3p[p],2tdec7eg3p,MNXM5490,MNXM5490[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2tdec7eg3p[c],2tdec7eg3p,MNXM5490,MNXM5490[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2hdecg3p[p],2hdecg3p,MNXM1371212,MNXM1371212[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2hdecg3p[c],2hdecg3p,MNXM1371212,MNXM1371212[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2hdec9eg3p[c],2hdec9eg3p,MNXM5464,MNXM5464[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2hdec9eg3p[p],2hdec9eg3p,MNXM5464,MNXM5464[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2odecg3p[c],2odecg3p,MNXM1371222,MNXM1371222[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2odecg3p[p],2odecg3p,MNXM1371222,MNXM1371222[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2odec11eg3p[c],2odec11eg3p,MNXM5480,MNXM5480[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2odec11eg3p[p],2odec11eg3p,MNXM5480,MNXM5480[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpe120[c],2agpe120,MNXM34808,MNXM34808[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpe120[p],2agpe120,MNXM34808,MNXM34808[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpe140[p],2agpe140,MNXM34809,MNXM34809[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpe140[c],2agpe140,MNXM34809,MNXM34809[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpe141[p],2agpe141,MNXM3447,MNXM3447[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpe141[c],2agpe141,MNXM3447,MNXM3447[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpe160[c],2agpe160,MNXM34810,MNXM34810[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+2agpe160[p],2agpe160,MNXM34810,MNXM34810[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+2agpe161[p],2agpe161,MNXM3448,MNXM3448[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpe161[c],2agpe161,MNXM3448,MNXM3448[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpe180[p],2agpe180,MNXM34811,MNXM34811[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+2agpe180[c],2agpe180,MNXM34811,MNXM34811[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+2agpe181[p],2agpe181,MNXM3449,MNXM3449[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpe181[c],2agpe181,MNXM3449,MNXM3449[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pe120[c],pe120,MNXM733471,MNXM733471[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ddca[c],ddca,MNXM162258,MNXM162258[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pe141[c],pe141,MNXM3693,MNXM3693[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ttdcea[c],ttdcea,MNXM641,MNXM641[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+hdcea[c],hdcea,MNXM950,MNXM950[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pe180[c],pe180,MNXM733921,MNXM733921[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+ocdcea[c],ocdcea,MNXM306,MNXM306[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2agpg120[c],2agpg120,MNXM3450,MNXM3450[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpg120[p],2agpg120,MNXM3450,MNXM3450[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpg140[c],2agpg140,MNXM34739,MNXM34739[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpg140[p],2agpg140,MNXM34739,MNXM34739[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpg141[p],2agpg141,MNXM3452,MNXM3452[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpg141[c],2agpg141,MNXM3452,MNXM3452[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpg160[c],2agpg160,MNXM34740,MNXM34740[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpg160[p],2agpg160,MNXM34740,MNXM34740[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpg161[c],2agpg161,MNXM3453,MNXM3453[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpg161[p],2agpg161,MNXM3453,MNXM3453[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpg180[c],2agpg180,MNXM729358,MNXM729358[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpg180[p],2agpg180,MNXM729358,MNXM729358[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+2agpg181[p],2agpg181,MNXM3455,MNXM3455[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2agpg181[c],2agpg181,MNXM3455,MNXM3455[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pg141[c],pg141,MNXM2029,MNXM2029[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+3hbz[c],3hbz,3hbz,3hbz[c],c,FALSE,Unchanged,FALSE,None
+3hbzcoa[c],3hbzcoa,3hbzcoa,3hbzcoa[c],c,FALSE,Unchanged,FALSE,None
+oxadpcoa[c],oxadpcoa,MNXM1264,MNXM1264[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+succoa[c],succoa,MNXM92,MNXM92[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+LalaDgluMdap[p],LalaDgluMdap,MNXM90242,MNXM90242[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+LalaDgluMdap[c],LalaDgluMdap,MNXM90242,MNXM90242[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+h2o[p],h2o,MNXM2,MNXM2[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+LalaDgluMdapDala[p],LalaDgluMdapDala,MNXM59271,MNXM59271[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+ala__D[p],ala__D,MNXM156,MNXM156[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+LalaDgluMdapDala[c],LalaDgluMdapDala,MNXM59271,MNXM59271[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+dca[c],dca,MNXM1043,MNXM1043[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+octa[c],octa,MNXM750,MNXM750[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+aacoa[c],aacoa,MNXM133,MNXM133[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+btcoa[c],btcoa,MNXM233,MNXM233[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3ohcoa[c],3ohcoa,MNXM717,MNXM717[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3oocoa[c],3oocoa,MNXM706,MNXM706[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hxcoa[c],hxcoa,MNXM162502,MNXM162502[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+occoa[c],occoa,MNXM342,MNXM342[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3odcoa[c],3odcoa,MNXM739385,MNXM739385[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3oddcoa[c],3oddcoa,MNXM739547,MNXM739547[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dcacoa[c],dcacoa,MNXM730251,MNXM730251[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ddcacoa[c],ddcacoa,MNXM734853,MNXM734853[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3otdcoa[c],3otdcoa,MNXM707,MNXM707[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3ohdcoa[c],3ohdcoa,MNXM739928,MNXM739928[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3ohodcoa[c],3ohodcoa,MNXM513,MNXM513[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fadh2[c],fadh2,MNXM38,MNXM38[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+b2coa[c],b2coa,MNXM732506,MNXM732506[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hx2coa[c],hx2coa,MNXM753,MNXM753[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+oc2coa[c],oc2coa,MNXM784,MNXM784[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dc2coa[c],dc2coa,MNXM738441,MNXM738441[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dd2coa[c],dd2coa,MNXM739105,MNXM739105[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+td2coa[c],td2coa,MNXM654,MNXM654[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hdd2coa[c],hdd2coa,MNXM581,MNXM581[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+od2coa[c],od2coa,MNXM741606,MNXM741606[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ddcap[c],ddcap,MNXM147470,MNXM147470[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ttdcap[c],ttdcap,MNXM147613,MNXM147613[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ttdceap[c],ttdceap,MNXM147614,MNXM147614[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+hdcap[c],hdcap,MNXM147481,MNXM147481[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+hdceap[c],hdceap,MNXM147482,MNXM147482[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ocdcap[c],ocdcap,MNXM147528,MNXM147528[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ocdceap[c],ocdceap,MNXM147529,MNXM147529[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+idp[c],idp,MNXM737254,MNXM737254[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+itp[c],itp,MNXM423,MNXM423[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+adn[c],adn,MNXM212,MNXM212[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+adprib[c],adprib,MNXM737048,MNXM737048[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+anhgm3p[c],anhgm3p,MNXM63489,MNXM63489[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+anhgm[c],anhgm,MNXM3060,MNXM3060[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+anhgm3p[p],anhgm3p,MNXM63489,MNXM63489[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+anhgm[p],anhgm,MNXM3060,MNXM3060[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+anhm3p[c],anhm3p,MNXM734072,MNXM734072[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+acgam[c],acgam,MNXM728393,MNXM728393[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+anhgm4p[c],anhgm4p,MNXM739017,MNXM739017[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+anhgm4p[p],anhgm4p,MNXM739017,MNXM739017[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+anhm4p[c],anhm4p,MNXM737948,MNXM737948[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+anhm[c],anhm,MNXM90585,MNXM90585[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+urea[c],urea,MNXM117,MNXM117[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+agm[c],agm,MNXM328,MNXM328[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5caiz[c],5caiz,MNXM728322,MNXM728322[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alaala[p],alaala,MNXM739337,MNXM739337[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pyam5p[c],pyam5p,MNXM366,MNXM366[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cgly[c],cgly,MNXM683,MNXM683[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+progly[c],progly,MNXM739963,MNXM739963[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+acmum6p[c],acmum6p,MNXM90332,MNXM90332[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pimACP[c],pimACP,MNXM727685,MNXM727685[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+8aonn[c],8aonn,MNXM726863,MNXM726863[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ap4a[c],ap4a,MNXM726640,MNXM726640[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ap5a[c],ap5a,MNXM2412,MNXM2412[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+arg__L[p],arg__L,MNXM739526,MNXM739526[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+q8h2[c],q8h2,MNXM191,MNXM191[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+q8[c],q8,MNXM1369704,MNXM1369704[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h2o2[c],h2o2,MNXM732619,MNXM732619[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h[p],h,MNXM1,MNXM1[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2fe1s[c],2fe1s,MNXM147395,MNXM147395[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+2fe2s[c],2fe2s,MNXM729433,MNXM729433[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+dtbt[c],dtbt,MNXM1020,MNXM1020[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+butso3[c],butso3,MNXM7138,MNXM7138[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+butso3[p],butso3,MNXM7138,MNXM7138[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+adocbi[c],adocbi,MNXM90790,MNXM90790[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+cbi[c],cbi,MNXM729644,MNXM729644[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+cbl1[c],cbl1,MNXM91519,MNXM91519[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+cgly[p],cgly,MNXM683,MNXM683[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+chol[c],chol,MNXM90,MNXM90[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+chol[p],chol,MNXM90,MNXM90[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lipa_cold[p],lipa_cold,MNXM738728,MNXM738728[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+colipa[p],colipa,MNXM47647,MNXM47647[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+colipa[c],colipa,MNXM47647,MNXM47647[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+crn__D[p],crn__D,MNXM1102523,MNXM1102523[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+crn__D[c],crn__D,MNXM1102523,MNXM1102523[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+crn[p],crn,MNXM731667,MNXM731667[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+crn[c],crn,MNXM731667,MNXM731667[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ctbt[p],ctbt,MNXM730037,MNXM730037[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ctbt[c],ctbt,MNXM730037,MNXM730037[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cu[p],cu,MNXM734750,MNXM734750[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+cu[c],cu,MNXM734750,MNXM734750[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+3sala[c],3sala,MNXM498,MNXM498[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+so2[c],so2,MNXM4835,MNXM4835[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cys__L[p],cys__L,MNXM738067,MNXM738067[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dann[c],dann,MNXM1140,MNXM1140[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dhna[c],dhna,MNXM552,MNXM552[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+14dhncoa[c],14dhncoa,MNXM147663,MNXM147663[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+25drapp[c],25drapp,MNXM648,MNXM648[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+2omhmbl[c],2omhmbl,MNXM732601,MNXM732601[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+dsbdrd[c],dsbdrd,MNXM8620,MNXM8620[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+dsbdox[c],dsbdox,MNXM97001,MNXM97001[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+dutp[c],dutp,MNXM452,MNXM452[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4per[c],4per,MNXM1407,MNXM1407[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gmeACP[c],gmeACP,MNXM727158,MNXM727158[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+egmeACP[c],egmeACP,MNXM727018,MNXM727018[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+pmeACP[c],pmeACP,MNXM727681,MNXM727681[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+epmeACP[c],epmeACP,MNXM727023,MNXM727023[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+ethso3[c],ethso3,MNXM7343,MNXM7343[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+ethso3[p],ethso3,MNXM7343,MNXM7343[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+Sfglutth[c],Sfglutth,MNXM741595,MNXM741595[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hmgth[c],hmgth,MNXM726277,MNXM726277[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ppp9[c],ppp9,MNXM346,MNXM346[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pheme[c],pheme,MNXM1369759,MNXM1369759[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+fe2[p],fe2,MNXM726710,MNXM726710[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fe3[p],fe3,MNXM196,MNXM196[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+rbflvrd[c],rbflvrd,MNXM727499,MNXM727499[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fmnh2[c],fmnh2,MNXM208,MNXM208[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyc2p[c],glyc2p,MNXM2527,MNXM2527[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3pc[c],g3pc,MNXM1370176,MNXM1370176[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3pc[p],g3pc,MNXM1370176,MNXM1370176[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3pe[p],g3pe,MNXM734941,MNXM734941[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3pe[c],g3pe,MNXM734941,MNXM734941[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3pg[c],g3pg,MNXM598,MNXM598[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3pg[p],g3pg,MNXM598,MNXM598[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3pi[c],g3pi,MNXM1517,MNXM1517[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3pi[p],g3pi,MNXM1517,MNXM1517[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+g3ps[c],g3ps,MNXM741693,MNXM741693[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+g3ps[p],g3ps,MNXM741693,MNXM741693[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+g6p[c],g6p,MNXM160,MNXM160[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+6pgl[c],6pgl,MNXM735972,MNXM735972[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ppgpp[c],ppgpp,MNXM1189,MNXM1189[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+bglycogen[c],bglycogen,MNXM8348,MNXM8348[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+glycogen[c],glycogen,MNXM738128,MNXM738128[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glcn[p],glcn,MNXM341,MNXM341[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glc__D[p],glc__D,MNXM735623,MNXM735623[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+adpglc[c],adpglc,MNXM561,MNXM561[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gln__L[p],gln__L,MNXM37,MNXM37[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyb[p],glyb,MNXM289,MNXM289[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyc2p[p],glyc2p,MNXM2527,MNXM2527[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyc3p[p],glyc3p,MNXM66,MNXM66[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyclt[c],glyclt,MNXM222,MNXM222[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glx[c],glx,MNXM69,MNXM69[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2dmmq8[c],2dmmq8,MNXM2178,MNXM2178[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+gthrd[c],gthrd,MNXM738320,MNXM738320[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lgt__S[c],lgt__S,MNXM1253,MNXM1253[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gp4g[c],gp4g,MNXM1582,MNXM1582[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+grxrd[c],grxrd,MNXM741333,MNXM741333[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+grxox[c],grxox,MNXM90831,MNXM90831[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+gthox[c],gthox,MNXM151,MNXM151[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gthrd[p],gthrd,MNXM738320,MNXM738320[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glucys[c],glucys,MNXM735669,MNXM735669[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4hbz[c],4hbz,MNXM164,MNXM164[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+3ophb[c],3ophb,MNXM1369665,MNXM1369665[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+6hmhpt[c],6hmhpt,MNXM937,MNXM937[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+iscu_2fe2s[c],iscu_2fe2s,MNXM147129,MNXM147129[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+iscu[c],iscu,MNXM147128,MNXM147128[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+iscu_4fe4s[c],iscu_4fe4s,MNXM148286,MNXM148286[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+4fe4s[c],4fe4s,MNXM37766,MNXM37766[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+indole[p],indole,MNXM735090,MNXM735090[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+isetac[p],isetac,MNXM1630,MNXM1630[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+isetac[c],isetac,MNXM1630,MNXM1630[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+kdo2lipid4[p],kdo2lipid4,MNXM740598,MNXM740598[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+kdo2lipid4[c],kdo2lipid4,MNXM740598,MNXM740598[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+k[p],k,MNXM95,MNXM95[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mthgxl[c],mthgxl,MNXM310,MNXM310[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lipa_cold[c],lipa_cold,MNXM738728,MNXM738728[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+lipa[c],lipa,MNXM946,MNXM946[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lipa[p],lipa,MNXM946,MNXM946[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+octapb[c],octapb,MNXM147531,MNXM147531[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+lipopb[c],lipopb,MNXM147499,MNXM147499[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+malthx[p],malthx,MNXM728029,MNXM728029[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+maltpt[c],maltpt,MNXM729591,MNXM729591[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+maltpt[p],maltpt,MNXM729591,MNXM729591[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+malttr[p],malttr,MNXM736635,MNXM736635[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+maltttr[p],maltttr,MNXM738268,MNXM738268[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+maltttr[c],maltttr,MNXM738268,MNXM738268[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+malt[p],malt,MNXM165,MNXM165[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+murein5p5p[p],murein5p5p,MNXM88345,MNXM88345[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5px4p[p],murein5px4p,MNXM88338,MNXM88338[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5p5p5p[p],murein5p5p5p,MNXM740230,MNXM740230[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5px4px4p[p],murein5px4px4p,MNXM87121,MNXM87121[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein4px4p[p],murein4px4p,MNXM737824,MNXM737824[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein4px4px4p[p],murein4px4px4p,MNXM6451,MNXM6451[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5p4p[p],murein5p4p,MNXM738656,MNXM738656[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein4p4p[p],murein4p4p,MNXM88347,MNXM88347[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein5p3p[p],murein5p3p,MNXM738662,MNXM738662[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein4p3p[p],murein4p3p,MNXM741016,MNXM741016[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein3px4p[p],murein3px4p,MNXM1373862,MNXM1373862[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+murein4px4p4p[p],murein4px4p4p,MNXM87122,MNXM87122[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+met__D[c],met__D,MNXM1275,MNXM1275[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+met__D[p],met__D,MNXM1275,MNXM1275[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+metsox_S__L[c],metsox_S__L,MNXM2246,MNXM2246[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+metsox_R__L[c],metsox_R__L,MNXM2245,MNXM2245[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+met__L[p],met__L,MNXM738803,MNXM738803[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mi1p__D[c],mi1p__D,MNXM646,MNXM646[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+inost[c],inost,MNXM727692,MNXM727692[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+murein3p3p[p],murein3p3p,MNXM741021,MNXM741021[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+mobd[p],mobd,MNXM726090,MNXM726090[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+moadamp[c],moadamp,MNXM148352,MNXM148352[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+moadcoo[c],moadcoo,MNXM148353,MNXM148353[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+mso3[c],mso3,MNXM1485,MNXM1485[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mso3[p],mso3,MNXM1485,MNXM1485[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nmn[c],nmn,MNXM355,MNXM355[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nadhx__R[c],nadhx__R,nadhx__R,nadhx__R[c],c,FALSE,Unchanged,FALSE,None
+nadhx__S[c],nadhx__S,nadhx__S,nadhx__S[c],c,FALSE,Unchanged,FALSE,None
+nadphx__R[c],nadphx__R,nadphx__R,nadphx__R[c],c,FALSE,Unchanged,FALSE,None
+nadphx__S[c],nadphx__S,nadphx__S,nadphx__S[c],c,FALSE,Unchanged,FALSE,None
+duri[c],duri,MNXM492,MNXM492[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+xtsn[c],xtsn,MNXM687,MNXM687[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ins[c],ins,MNXM334,MNXM334[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dimp[c],dimp,MNXM1922,MNXM1922[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+din[c],din,MNXM935,MNXM935[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uri[c],uri,MNXM288,MNXM288[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dcyt[c],dcyt,MNXM704,MNXM704[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cytd[c],cytd,MNXM338,MNXM338[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thymd[c],thymd,MNXM420,MNXM420[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dad_2[c],dad_2,MNXM625,MNXM625[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dgsn[c],dgsn,MNXM647,MNXM647[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gsn[c],gsn,MNXM401,MNXM401[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ditp[c],ditp,MNXM728062,MNXM728062[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+xtp[c],xtp,MNXM1860,MNXM1860[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hgmeACP[c],hgmeACP,MNXM741741,MNXM741741[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+ogmeACP[c],ogmeACP,MNXM147799,MNXM147799[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+malcoame[c],malcoame,MNXM97130,MNXM97130[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+ohpb[c],ohpb,MNXM1514,MNXM1514[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2ohph[c],2ohph,MNXM1369421,MNXM1369421[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2omph[c],2omph,MNXM1369561,MNXM1369561[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2ombzl[c],2ombzl,MNXM1373896,MNXM1373896[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+2ommbl[c],2ommbl,MNXM732068,MNXM732068[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+2oph[c],2oph,MNXM1369628,MNXM1369628[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hpmeACP[c],hpmeACP,MNXM725915,MNXM725915[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+opmeACP[c],opmeACP,MNXM147801,MNXM147801[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+3oxdhscoa[c],3oxdhscoa,MNXM735195,MNXM735195[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+23dhacoa[c],23dhacoa,MNXM9750,MNXM9750[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+pa120[p],pa120,MNXM90509,MNXM90509[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pa120[c],pa120,MNXM90509,MNXM90509[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pa140[p],pa140,MNXM737414,MNXM737414[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pa141[c],pa141,MNXM90512,MNXM90512[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pa141[p],pa141,MNXM90512,MNXM90512[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pa160[p],pa160,MNXM731668,MNXM731668[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pa161[p],pa161,MNXM90510,MNXM90510[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pa180[c],pa180,MNXM737489,MNXM737489[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pa180[p],pa180,MNXM737489,MNXM737489[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pa181[p],pa181,MNXM90511,MNXM90511[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+paps[c],paps,MNXM49,MNXM49[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pap[c],pap,MNXM45,MNXM45[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pdx5p[c],pdx5p,MNXM454,MNXM454[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pe120[p],pe120,MNXM733471,MNXM733471[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pe140[p],pe140,MNXM733473,MNXM733473[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pe141[p],pe141,MNXM3693,MNXM3693[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pe160[p],pe160,MNXM32178,MNXM32178[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pe161[p],pe161,MNXM739592,MNXM739592[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pe180[p],pe180,MNXM733921,MNXM733921[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pe181[p],pe181,MNXM2150,MNXM2150[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pg120[p],pg120,MNXM1771,MNXM1771[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pg140[p],pg140,MNXM737417,MNXM737417[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+pg141[p],pg141,MNXM2029,MNXM2029[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pg160[p],pg160,MNXM734041,MNXM734041[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pg161[p],pg161,MNXM739991,MNXM739991[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pg180[p],pg180,MNXM75102,MNXM75102[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pg181[p],pg181,MNXM731815,MNXM731815[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pgp120[p],pgp120,MNXM5266,MNXM5266[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pgp120[c],pgp120,MNXM5266,MNXM5266[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pgp140[p],pgp140,MNXM5272,MNXM5272[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pgp141[c],pgp141,MNXM5271,MNXM5271[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pgp141[p],pgp141,MNXM5271,MNXM5271[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+pgp160[p],pgp160,MNXM734044,MNXM734044[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pgp161[p],pgp161,MNXM739994,MNXM739994[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pgp180[c],pgp180,MNXM739997,MNXM739997[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pgp180[p],pgp180,MNXM739997,MNXM739997[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+pgp181[p],pgp181,MNXM5269,MNXM5269[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+cdpdddecg[c],cdpdddecg,MNXM4507,MNXM4507[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+cdpdtdec7eg[c],cdpdtdec7eg,MNXM736325,MNXM736325[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+cdpdodecg[c],cdpdodecg,MNXM736453,MNXM736453[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pheme[p],pheme,MNXM1369759,MNXM1369759[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+pi[p],pi,MNXM9,MNXM9[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+meoh[c],meoh,MNXM729799,MNXM729799[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+12ppd__R[c],12ppd__R,MNXM90191,MNXM90191[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lald__D[c],lald__D,MNXM909,MNXM909[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+progly[p],progly,MNXM739963,MNXM739963[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+pro__L[p],pro__L,MNXM114,MNXM114[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ptrc[p],ptrc,MNXM118,MNXM118[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+sufbcd_2fe2s[c],sufbcd_2fe2s,MNXM147308,MNXM147308[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+sufsesh[c],sufsesh,MNXM147310,MNXM147310[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+sufse[c],sufse,MNXM147309,MNXM147309[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+sufbcd[c],sufbcd,MNXM147307,MNXM147307[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+sufbcd_2fe2s2[c],sufbcd_2fe2s2,MNXM148512,MNXM148512[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+sufbcd_4fe4s[c],sufbcd_4fe4s,MNXM148511,MNXM148511[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+sel[p],sel,MNXM2282,MNXM2282[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+sel[c],sel,MNXM2282,MNXM2282[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+scl[c],scl,MNXM740870,MNXM740870[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+sheme[c],sheme,MNXM82173,MNXM82173[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+slnt[p],slnt,MNXM1157,MNXM1157[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+slnt[c],slnt,MNXM1157,MNXM1157[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+spmd[p],spmd,MNXM124,MNXM124[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+o2s[c],o2s,MNXM330,MNXM330[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+sulfac[c],sulfac,MNXM1949,MNXM1949[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+sulfac[p],sulfac,MNXM1949,MNXM1949[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+so4[p],so4,MNXM58,MNXM58[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+taur[p],taur,MNXM282,MNXM282[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dtdp4addg[c],dtdp4addg,MNXM114295,MNXM114295[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+5fthf[c],5fthf,MNXM1392,MNXM1392[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thm[p],thm,MNXM730135,MNXM730135[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+athr__L[c],athr__L,MNXM2125,MNXM2125[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+iscssh[c],iscssh,MNXM146402,MNXM146402[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+dhgly[c],dhgly,MNXM1984,MNXM1984[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+iscs[c],iscs,MNXM146401,MNXM146401[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+tsul[c],tsul,MNXM323,MNXM323[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tsul[p],tsul,MNXM323,MNXM323[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4crsol[c],4crsol,MNXM828,MNXM828[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+udcpdp[p],udcpdp,MNXM5043,MNXM5043[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+udcpp[p],udcpp,MNXM733031,MNXM733031[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+um4p[c],um4p,MNXM147329,MNXM147329[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+apoACP[c],apoACP,MNXM2214,MNXM2214[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+trnaala[c],trnaala,MNXM89576,MNXM89576[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+alatrna[c],alatrna,MNXM741209,MNXM741209[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+glyald[c],glyald,MNXM435,MNXM435[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+etoh[c],etoh,MNXM733717,MNXM733717[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pmcoa[c],pmcoa,MNXM951,MNXM951[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+asptrna[c],asptrna,MNXM90839,MNXM90839[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+trnaasp[c],trnaasp,MNXM90752,MNXM90752[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+s[c],s,MNXM89,MNXM89[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+cd2[c],cd2,MNXM4505,MNXM4505[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cd2[p],cd2,MNXM4505,MNXM4505[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cobalt2[p],cobalt2,MNXM90960,MNXM90960[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnacys[c],trnacys,MNXM162355,MNXM162355[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cystrna[c],cystrna,MNXM729656,MNXM729656[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+dhpmp[c],dhpmp,MNXM731006,MNXM731006[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ahdt[c],ahdt,MNXM1370282,MNXM1370282[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tdp[c],tdp,MNXM83408,MNXM83408[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+ttp[c],ttp,MNXM148527,MNXM148527[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+fe[e],fe,MNXM147471,MNXM147471[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+fe[p],fe,MNXM147471,MNXM147471[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+fe[c],fe,MNXM147471,MNXM147471[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+fmettrna[c],fmettrna,MNXM741601,MNXM741601[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnagln[c],trnagln,MNXM71,MNXM71[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glntrna[c],glntrna,MNXM741204,MNXM741204[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnagly[c],trnagly,MNXM90340,MNXM90340[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glytrna[c],glytrna,MNXM741181,MNXM741181[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+histrna[c],histrna,MNXM741218,MNXM741218[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnahis[c],trnahis,MNXM90878,MNXM90878[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+1ddecg3p[p],1ddecg3p,MNXM4232,MNXM4232[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+ddca[p],ddca,MNXM162258,MNXM162258[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ttdca[p],ttdca,MNXM162239,MNXM162239[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+1tdecg3p[p],1tdecg3p,MNXM3426,MNXM3426[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1tdec7eg3p[p],1tdec7eg3p,MNXM91053,MNXM91053[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+ttdcea[p],ttdcea,MNXM641,MNXM641[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+1hdecg3p[p],1hdecg3p,MNXM90586,MNXM90586[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+hdca[p],hdca,MNXM108,MNXM108[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hdcea[p],hdcea,MNXM950,MNXM950[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+1hdec9eg3p[p],1hdec9eg3p,MNXM91047,MNXM91047[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+ocdca[p],ocdca,MNXM236,MNXM236[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+1odecg3p[p],1odecg3p,MNXM734212,MNXM734212[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1odec11eg3p[p],1odec11eg3p,MNXM91049,MNXM91049[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+ocdcea[p],ocdcea,MNXM306,MNXM306[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+1agpe120[p],1agpe120,MNXM32692,MNXM32692[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+1agpe140[p],1agpe140,MNXM1370007,MNXM1370007[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1agpe141[p],1agpe141,MNXM6599,MNXM6599[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+1agpe160[p],1agpe160,MNXM32511,MNXM32511[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1agpe161[p],1agpe161,MNXM6601,MNXM6601[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+1agpe180[p],1agpe180,MNXM722840,MNXM722840[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+1agpe181[p],1agpe181,MNXM9584,MNXM9584[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+1agpg120[p],1agpg120,MNXM147673,MNXM147673[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+1agpg140[p],1agpg140,MNXM6603,MNXM6603[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1agpg141[p],1agpg141,MNXM6604,MNXM6604[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+1agpg160[p],1agpg160,MNXM6605,MNXM6605[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1agpg161[p],1agpg161,MNXM6606,MNXM6606[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+1agpg180[p],1agpg180,MNXM739301,MNXM739301[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+1agpg181[p],1agpg181,MNXM739929,MNXM739929[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+trnalys[c],trnalys,MNXM90881,MNXM90881[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lystrna[c],lystrna,MNXM741241,MNXM741241[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mn2[p],mn2,MNXM2255,MNXM2255[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+protrna[c],protrna,MNXM732981,MNXM732981[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnapro[c],trnapro,MNXM90667,MNXM90667[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnasecys[c],trnasecys,MNXM93990,MNXM93990[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+sertrna_sec[c],sertrna_sec,MNXM90476,MNXM90476[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+trnathr[c],trnathr,MNXM90883,MNXM90883[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thrtrna[c],thrtrna,MNXM741233,MNXM741233[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+4hba[c],4hba,MNXM107505,MNXM107505[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tmp[c],tmp,MNXM87343,MNXM87343[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+urea[p],urea,MNXM117,MNXM117[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+urea[e],urea,MNXM117,MNXM117[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+zn2[p],zn2,MNXM729214,MNXM729214[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+nh4[p],nh4,MNXM729302,MNXM729302[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+no[p],no,MNXM228,MNXM228[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+cyt554red[p],cyt554red,cyt554red,cyt554red[p],p,FALSE,Unchanged,FALSE,None
+cyt554oxi[c],cyt554oxi,cyt554oxi,cyt554oxi[c],c,FALSE,Unchanged,FALSE,None
+no2[p],no2,MNXM107,MNXM107[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ham[p],ham,MNXM433,MNXM433[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+n2o[p],n2o,MNXM738430,MNXM738430[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+no[c],no,MNXM228,MNXM228[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+no2[c],no2,MNXM107,MNXM107[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+n2o[c],n2o,MNXM738430,MNXM738430[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ham[c],ham,MNXM433,MNXM433[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+no[e],no,MNXM228,MNXM228[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+ham[e],ham,MNXM433,MNXM433[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+n2o[e],n2o,MNXM738430,MNXM738430[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+amob[c],amob,MNXM733831,MNXM733831[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+meoh[p],meoh,MNXM729799,MNXM729799[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+meoh[e],meoh,MNXM729799,MNXM729799[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glu__L[p],glu__L,MNXM741172,MNXM741172[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyc[p],glyc,MNXM89612,MNXM89612[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glyclt[p],glyclt,MNXM222,MNXM222[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+h2[p],h2,MNXM195,MNXM195[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+no3[p],no3,MNXM732398,MNXM732398[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+pyr[p],pyr,MNXM23,MNXM23[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ac[p],ac,MNXM26,MNXM26[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+succ[p],succ,MNXM25,MNXM25[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fum[p],fum,MNXM93,MNXM93[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+akg[p],akg,MNXM1369648,MNXM1369648[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+xyl__D[p],xyl__D,MNXM734573,MNXM734573[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+thr__L[p],thr__L,MNXM142,MNXM142[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+val__L[p],val__L,MNXM199,MNXM199[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+na1[p],na1,MNXM27,MNXM27[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+gal[p],gal,MNXM735266,MNXM735266[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+galur[p],galur,MNXM48464,MNXM48464[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cbl1[p],cbl1,MNXM91519,MNXM91519[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+arab__L[p],arab__L,MNXM91126,MNXM91126[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+co2[p],co2,MNXM13,MNXM13[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+asp__L[p],asp__L,MNXM735837,MNXM735837[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+his__L[p],his__L,MNXM134,MNXM134[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ile__L[p],ile__L,MNXM231,MNXM231[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ala__L[p],ala__L,MNXM733981,MNXM733981[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+glcur[p],glcur,MNXM1102441,MNXM1102441[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+octa[p],octa,MNXM750,MNXM750[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+orn[p],orn,MNXM741174,MNXM741174[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fru[p],fru,MNXM175,MNXM175[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cbi[p],cbi,MNXM729644,MNXM729644[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, chebi"
+but[p],but,MNXM458,MNXM458[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+dca[p],dca,MNXM1043,MNXM1043[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+leu__L[p],leu__L,MNXM1106760,MNXM1106760[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+lys__L[p],lys__L,MNXM1104802,MNXM1104802[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+man[p],man,MNXM182,MNXM182[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tsul[e],tsul,MNXM323,MNXM323[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+for[p],for,MNXM39,MNXM39[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ethso3[e],ethso3,MNXM7343,MNXM7343[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+butso3[e],butso3,MNXM7138,MNXM7138[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed"
+sulfac[e],sulfac,MNXM1949,MNXM1949[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+so3[p],so3,MNXM726339,MNXM726339[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+so3[e],so3,MNXM726339,MNXM726339[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+isetac[e],isetac,MNXM1630,MNXM1630[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mso3[e],mso3,MNXM1485,MNXM1485[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+skm[p],skm,MNXM602,MNXM602[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mal__L[p],mal__L,MNXM98,MNXM98[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+adocbl[p],adocbl,MNXM90703,MNXM90703[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
+h2o2[p],h2o2,MNXM732619,MNXM732619[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+rib__D[p],rib__D,MNXM732914,MNXM732914[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cu2[p],cu2,MNXM632,MNXM632[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mg2[p],mg2,MNXM653,MNXM653[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+fe3[e],fe3,MNXM196,MNXM196[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cd2[e],cd2,MNXM4505,MNXM4505[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+etoh[p],etoh,MNXM733717,MNXM733717[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cl[p],cl,MNXM735978,MNXM735978[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cu[e],cu,MNXM734750,MNXM734750[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, chebi"
+ca2[p],ca2,MNXM128,MNXM128[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+orot[p],orot,MNXM235,MNXM235[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ppa[p],ppa,MNXM162260,MNXM162260[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+ppa[e],ppa,MNXM162260,MNXM162260[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg"
+fe3[c],fe3,MNXM196,MNXM196[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+mththf[p],mththf,MNXM30887,MNXM30887[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, kegg, chebi"
+hco3[p],hco3,MNXM1094693,MNXM1094693[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+uaagmda[p],uaagmda,MNXM739668,MNXM739668[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2a3o4pob[c],2a3o4pob,2a3o4pob,2a3o4pob[c],c,FALSE,Unchanged,FALSE,None
+ch4[e],ch4,MNXM739586,MNXM739586[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+ch4[p],ch4,MNXM739586,MNXM739586[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+benz[e],benz,benz,benz[e],e,FALSE,Unchanged,FALSE,None
+benz[p],benz,benz,benz[p],p,FALSE,Unchanged,FALSE,None
+phenol[p],phenol,MNXM320,MNXM320[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+phenol[e],phenol,MNXM320,MNXM320[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hqn[p],hqn,MNXM376,MNXM376[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+hqn[e],hqn,MNXM376,MNXM376[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tol[e],tol,MNXM889,MNXM889[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+tol[p],tol,MNXM889,MNXM889[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+bzalc[p],bzalc,MNXM562,MNXM562[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+bzal[p],bzal,MNXM371,MNXM371[p],p,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+bzal[e],bzal,MNXM371,MNXM371[e],e,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+chlben[e],chlben,chlben,chlben[e],e,FALSE,Unchanged,FALSE,None
+chlben[p],chlben,chlben,chlben[p],p,FALSE,Unchanged,FALSE,None
+chlphenol[p],chlphenol,chlphenol,chlphenol[p],p,FALSE,Unchanged,FALSE,None
+chlphenol[e],chlphenol,chlphenol,chlphenol[e],e,FALSE,Unchanged,FALSE,None
+nphtl[e],nphtl,nphtl,nphtl[e],e,FALSE,Unchanged,FALSE,None
+nphtl[p],nphtl,nphtl,nphtl[p],p,FALSE,Unchanged,FALSE,None
+2nphtol[p],2nphtol,2nphtol,2nphtol[p],p,FALSE,Unchanged,FALSE,None
+1nphtol[p],1nphtol,1nphtol,1nphtol[p],p,FALSE,Unchanged,FALSE,None
+2nphtol[e],2nphtol,2nphtol,2nphtol[e],e,FALSE,Unchanged,FALSE,None
+1nphtol[e],1nphtol,1nphtol,1nphtol[e],e,FALSE,Unchanged,FALSE,None
+cyt552oxi[p],cyt552oxi,cyt552oxi,cyt552oxi[p],p,FALSE,Unchanged,FALSE,None
+cyt552red[p],cyt552red,cyt552red,cyt552red[p],p,FALSE,Unchanged,FALSE,None
+rb15bp[c],rb15bp,MNXM1106709,MNXM1106709[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+2pglyc[c],2pglyc,MNXM2074,MNXM2074[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+r1p[c],r1p,MNXM295,MNXM295[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg, chebi"
+cyt552mred[c],cyt552mred,cyt552mred,cyt552mred[c],c,FALSE,Unchanged,FALSE,None
+cyt552moxi[c],cyt552moxi,cyt552moxi,cyt552moxi[c],c,FALSE,Unchanged,FALSE,None

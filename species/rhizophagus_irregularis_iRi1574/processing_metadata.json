@@ -1,7 +1,7 @@
 {
   "model_id": "iRi1574",
   "species_directory": "rhizophagus_irregularis_iRi1574",
-  "start_time": "2025-06-14 20:07:04",
+  "start_time": "2025-06-15 14:55:57",
   "input_file": "iRi1574_input.xml",
   "output_file": "iRi1574_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhizophagus_irregularis_iRi1574/conversion_logs/iRi1574_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhizophagus_irregularis_iRi1574/conversion_logs/iRi1574_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:07:34",
-  "processing_time_seconds": 30.6436,
+  "end_time": "2025-06-15 14:56:27",
+  "processing_time_seconds": 29.8393,
   "success": true
 }

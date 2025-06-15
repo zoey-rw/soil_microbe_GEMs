@@ -21116,14 +21116,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM2_e" id="R_EX_MNXM2_e" name="H2O exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_h2o_e" id="R_EX_h2o_e" name="H2O exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM2_e">
+            <rdf:Description rdf:about="#R_EX_h2o_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_h2o_e"/>
@@ -21469,14 +21469,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM95_e" id="R_EX_MNXM95_e" name="K+ exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_k_e" id="R_EX_k_e" name="K+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM95_e">
+            <rdf:Description rdf:about="#R_EX_k_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_k_e"/>
@@ -22434,14 +22434,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM653_e" id="R_EX_MNXM653_e" name="Mg exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_mg2_e" id="R_EX_mg2_e" name="Mg exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM653_e">
+            <rdf:Description rdf:about="#R_EX_mg2_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_mg2_e"/>
@@ -22544,14 +22544,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM2255_e" id="R_EX_MNXM2255_e" name="Mn2+ exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_mn2_e" id="R_EX_mn2_e" name="Mn2+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM2255_e">
+            <rdf:Description rdf:about="#R_EX_mn2_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_mn2_e"/>
@@ -22584,14 +22584,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM27_e" id="R_EX_MNXM27_e" name="Sodium exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_na1_e" id="R_EX_na1_e" name="Sodium exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM27_e">
+            <rdf:Description rdf:about="#R_EX_na1_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_na1_e"/>
@@ -22675,14 +22675,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM729302_e" id="R_EX_MNXM729302_e" name="Ammonia exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_nh4_e" id="R_EX_nh4_e" name="Ammonia exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM729302_e">
+            <rdf:Description rdf:about="#R_EX_nh4_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_nh4_e"/>
@@ -22734,14 +22734,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM3673_e" id="R_EX_MNXM3673_e" name="Ni2+ exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_ni2_e" id="R_EX_ni2_e" name="Ni2+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM3673_e">
+            <rdf:Description rdf:about="#R_EX_ni2_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_ni2_e"/>
@@ -22848,14 +22848,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM9_e" id="R_EX_MNXM9_e" name="Phosphate exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_pi_e" id="R_EX_pi_e" name="Phosphate exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM9_e">
+            <rdf:Description rdf:about="#R_EX_pi_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_pi_e"/>
@@ -22928,14 +22928,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM726090_e" id="R_EX_MNXM726090_e" name="Molybdate exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_mobd_e" id="R_EX_mobd_e" name="Molybdate exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM726090_e">
+            <rdf:Description rdf:about="#R_EX_mobd_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_mobd_e"/>
@@ -23184,14 +23184,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM729214_e" id="R_EX_MNXM729214_e" name="Zinc exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_zn2_e" id="R_EX_zn2_e" name="Zinc exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM729214_e">
+            <rdf:Description rdf:about="#R_EX_zn2_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_zn2_e"/>
@@ -23938,14 +23938,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM270_e" id="R_EX_MNXM270_e" name="Riboflavin exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_ribflv_e" id="R_EX_ribflv_e" name="Riboflavin exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM270_e">
+            <rdf:Description rdf:about="#R_EX_ribflv_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_ribflv_e"/>
@@ -24155,14 +24155,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM304_e" id="R_EX_MNXM304_e" name="Biotin exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_btn_e" id="R_EX_btn_e" name="Biotin exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM304_e">
+            <rdf:Description rdf:about="#R_EX_btn_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_btn_e"/>
@@ -24192,14 +24192,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM58_e" id="R_EX_MNXM58_e" name="Sulfate exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_so4_e" id="R_EX_so4_e" name="Sulfate exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM58_e">
+            <rdf:Description rdf:about="#R_EX_so4_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_so4_e"/>
@@ -24431,14 +24431,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM730135_e" id="R_EX_MNXM730135_e" name="Thiamin exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_thm_e" id="R_EX_thm_e" name="Thiamin exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM730135_e">
+            <rdf:Description rdf:about="#R_EX_thm_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_thm_e"/>
@@ -24953,14 +24953,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM128_e" id="R_EX_MNXM128_e" name="Calcium exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_ca2_e" id="R_EX_ca2_e" name="Calcium exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM128_e">
+            <rdf:Description rdf:about="#R_EX_ca2_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_ca2_e"/>
@@ -25480,14 +25480,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM735978_e" id="R_EX_MNXM735978_e" name="Chloride exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_cl_e" id="R_EX_cl_e" name="Chloride exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM735978_e">
+            <rdf:Description rdf:about="#R_EX_cl_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_cl_e"/>
@@ -26052,14 +26052,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM90960_e" id="R_EX_MNXM90960_e" name="Co2+ exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_cobalt2_e" id="R_EX_cobalt2_e" name="Co2+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM90960_e">
+            <rdf:Description rdf:about="#R_EX_cobalt2_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_cobalt2_e"/>
@@ -26295,14 +26295,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM632_e" id="R_EX_MNXM632_e" name="Cu2+ exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_cu2_e" id="R_EX_cu2_e" name="Cu2+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM632_e">
+            <rdf:Description rdf:about="#R_EX_cu2_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_cu2_e"/>
@@ -26455,7 +26455,7 @@
       </reaction>
       <reaction metaid="R_ACHBS" id="R_ACHBS" name="2-aceto-2-hydroxybutanoate synthase" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS10025 and (CLJU_RS10020 or CLJU_RS11515) or (CLJU_RS19160 and CLJU_RS10025) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -26686,7 +26686,7 @@
       </reaction>
       <reaction metaid="R_ACLS" id="R_ACLS" name="Acetolactate synthase" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS19160 and (CLJU_RS10025 and CLJU_RS10025) or (CLJU_RS10020 or CLJU_RS11515) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -26898,14 +26898,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM726710_e" id="R_EX_MNXM726710_e" name="Fe2+ exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_fe2_e" id="R_EX_fe2_e" name="Fe2+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM726710_e">
+            <rdf:Description rdf:about="#R_EX_fe2_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_fe2_e"/>
@@ -27041,14 +27041,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM617_e" id="R_EX_MNXM617_e" name="EX fol LPAREN e RPAREN" reversible="true" fast="false">
+      <reaction metaid="R_EX_fol_e" id="R_EX_fol_e" name="EX fol LPAREN e RPAREN" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM617_e">
+            <rdf:Description rdf:about="#R_EX_fol_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_fol_e"/>
@@ -27322,14 +27322,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM175_e" id="R_EX_MNXM175_e" name="D-Fructose exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_fru_e" id="R_EX_fru_e" name="D-Fructose exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM175_e">
+            <rdf:Description rdf:about="#R_EX_fru_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_fru_e"/>
@@ -27374,7 +27374,7 @@
       </reaction>
       <reaction metaid="R_ACOAD1z" id="R_ACOAD1z" name="Acyl-CoA dehydrogenase (butanoyl-CoA), ferredoxin coupled" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS19410 and (CLJU_RS19400 and CLJU_RS19405) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -28949,14 +28949,14 @@
           </listOfLocalParameters>
         </kineticLaw>
       </reaction>
-      <reaction metaid="R_EX_MNXM1_e" id="R_EX_MNXM1_e" name="H+ exchange" reversible="true" fast="false">
+      <reaction metaid="R_EX_h_e" id="R_EX_h_e" name="H+ exchange" reversible="true" fast="false">
         <notes>
           <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vCard="http://www.w3.org/2001/vcard-rdf/3.0#" xmlns:vCard4="http://www.w3.org/2006/vcard/ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#R_EX_MNXM1_e">
+            <rdf:Description rdf:about="#R_EX_h_e">
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/bigg.reaction/EX_h_e"/>
@@ -32712,7 +32712,7 @@
       </reaction>
       <reaction metaid="R_ARGt2r" id="R_ARGt2r" name="L arganine reversible transport via proton symport" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS02325 and CLJU_RS02330) or CLJU_RS10530 or CLJU_RS13850) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -37076,7 +37076,7 @@
       </reaction>
       <reaction metaid="R_FRUpts" id="R_FRUpts" name="D-fructose transport via PEP:Pyr PTS" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS10110 or (CLJU_RS12835 and CLJU_RS12840) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -39437,7 +39437,7 @@
       </reaction>
       <reaction metaid="R_GCCa" id="R_GCCa" name="Glycine-cleavage complex" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS11890 or CLJU_RS18485) and (CLJU_RS11880 and CLJU_RS11885) and CLJU_RS18515) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -45383,7 +45383,7 @@
       </reaction>
       <reaction metaid="R_NH4t" id="R_NH4t" name="Ammonia reversible transport" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS21510 and CLJU_RS21515) or CLJU_RS01975) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -50742,7 +50742,7 @@
       </reaction>
       <reaction metaid="R_SERD_L" id="R_SERD_L" name="L-serine deaminase" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS07395 or (CLJU_RS16390 and CLJU_RS16395) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -55679,7 +55679,7 @@
       </reaction>
       <reaction metaid="R_ATPS4r" id="R_ATPS4r" name="ATP synthase (four protons for one ATP)" reversible="true" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS01160 and CLJU_RS01165 and CLJU_RS01170) and (CLJU_RS01175 and CLJU_RS01180 and CLJU_RS01185 and CLJU_RS01190 and CLJU_RS01195) and CLJU_RS01155) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -58042,7 +58042,7 @@
       </reaction>
       <reaction metaid="R_GCCc" id="R_GCCc" name="Glycine-cleavage complex" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS11890 or CLJU_RS18485) and (CLJU_RS11880 and CLJU_RS11885) and CLJU_RS18515) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
@@ -58131,7 +58131,7 @@
       </reaction>
       <reaction metaid="R_GLYCL" id="R_GLYCL" name="Glycine Cleavage System" reversible="false" fast="false">
         <notes>
-          <html:p>GENE_ASSOCIATION: (CLJU_RS11890 or CLJU_RS18485) and (CLJU_RS11880 and CLJU_RS11885) and CLJU_RS11895 and CLJU_RS18515) </html:p>
+          <html:p>GENE_ASSOCIATION:  </html:p>
           <html:p>SUBSYSTEM:  </html:p>
         </notes>
         <annotation>
