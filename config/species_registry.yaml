@@ -810,3 +810,23 @@ species:
       validated: false
       annotation_pattern: null
     curation_notes: "Sourced from BiGG database"
+
+
+  iCS1224:
+    model_id: "iCS1224"
+    organism: "Rhizobium leguminosarum bv. viciae 3841"
+    directory: "rhizobium_leguminosarum_iCS1224"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Rhizobium"
+    species_strain: "leguminosarum bv. viciae 3841"
+    description: "rhizobium"
+    publication:
+      citation: null
+      source_link: "https://github.com/CarolinSchulte/Rlv3841-lifestyles"
+      download_source: "Github repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Converted from Matlab via cobra.io"
