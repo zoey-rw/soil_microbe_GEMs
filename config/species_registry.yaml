@@ -754,3 +754,39 @@ species:
       annotation_pattern: null
     curation_notes: "Usually phototrophic"
 
+  NmrFL413:
+    model_id: "NmrFL413"
+    organism: "Nitrosopumilus maritimus"
+    directory: "nitrosopumilus_maritimus_NmrFL413"
+    kingdom: "Archaea"
+    phylum: "Thermoproteota"
+    genus: "Nitrosopumilus"
+    species_strain: "maritimus” strain SCM1"
+    description: "marine ammonia-oxidizing archaea"
+    publication:
+      citation: "Li et al. 2018"
+      source_link: "Supp Info"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+
+  iRZ1425:
+    model_id: "iRZ1425"
+    organism: "Variovorax sp. strain SRS 16"
+    directory: "variovorax_SRS16_iRZ1425"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Variovorax"
+    species_strain: "SRS 16"
+    description: "herbicide degrader"
+    publication:
+      citation: "Dhakar et al. 2021"
+      source_link: "Supp Info"
+      download_source: "Publication supplement"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Biomass reaction not fully specified"
