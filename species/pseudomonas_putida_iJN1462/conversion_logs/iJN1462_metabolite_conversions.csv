@@ -2142,5 +2142,5 @@ rephac[c],rephac,MNXM2919,rephac[c],c,TRUE,MetanetX conversion,FALSE,metanetx
 13ppd[c],13ppd,MNXM2861,MNXM2861[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
 cholp[c],cholp,MNXM229,MNXM229[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
 ethamp[c],ethamp,MNXM187,MNXM187[c],c,TRUE,MetanetX conversion,FALSE,"metanetx, bigg, seed, kegg"
-acmtsoxin[e],acmtsoxin,acmtsoxin,acmtsoxin[NA],NA,FALSE,Unchanged,FALSE,None
-acmtsoxin[p],acmtsoxin,acmtsoxin,acmtsoxin[NA],NA,FALSE,Unchanged,FALSE,None
+acmtsoxin[e],acmtsoxin,acmtsoxin,acmtsoxin[e],e,FALSE,Unchanged,FALSE,None
+acmtsoxin[p],acmtsoxin,acmtsoxin,acmtsoxin[p],p,FALSE,Unchanged,FALSE,None

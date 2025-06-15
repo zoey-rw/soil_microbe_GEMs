@@ -31,16 +31,12 @@
     {
       "compartment": "e",
       "MetanetX conversion": 243,
-      "Unchanged": 104
+      "Unchanged": 105
     },
     {
       "compartment": "p",
       "MetanetX conversion": 350,
-      "Unchanged": 112
-    },
-    {
-      "MetanetX conversion": 0,
-      "Unchanged": 2
+      "Unchanged": 113
     }
   ]
 }
