@@ -1,0 +1,577 @@
+orig_met,without_compartment,new_met,new_met_out,compartment,conversion_successful,conversion_type,encoding_issues_fixed
+cpd00001__91__c0__93__,cpd00001,WATER,WATER[c],c,TRUE,Other conversion,TRUE
+cpd00001__91__e0__93__,cpd00001,WATER,WATER[e],e,TRUE,Other conversion,TRUE
+cpd00002__91__c0__93__,cpd00002,MNXM3,MNXM3[c],c,TRUE,MetanetX conversion,TRUE
+cpd00003__91__c0__93__,cpd00003,MNXM8,MNXM8[c],c,TRUE,MetanetX conversion,TRUE
+cpd00004__91__c0__93__,cpd00004,MNXM10,MNXM10[c],c,TRUE,MetanetX conversion,TRUE
+cpd00005__91__c0__93__,cpd00005,MNXM738702,MNXM738702[c],c,TRUE,MetanetX conversion,TRUE
+cpd00006__91__c0__93__,cpd00006,MNXM5,MNXM5[c],c,TRUE,MetanetX conversion,TRUE
+cpd00007__91__c0__93__,cpd00007,MNXM735438,MNXM735438[c],c,TRUE,MetanetX conversion,TRUE
+cpd00007__91__e0__93__,cpd00007,MNXM735438,MNXM735438[e],e,TRUE,MetanetX conversion,TRUE
+cpd00008__91__c0__93__,cpd00008,MNXM40333,MNXM40333[c],c,TRUE,MetanetX conversion,TRUE
+cpd00009__91__c0__93__,cpd00009,MNXM9,MNXM9[c],c,TRUE,MetanetX conversion,TRUE
+cpd00010__91__c0__93__,cpd00010,MNXM727276,MNXM727276[c],c,TRUE,MetanetX conversion,TRUE
+cpd00011__91__c0__93__,cpd00011,MNXM13,MNXM13[c],c,TRUE,MetanetX conversion,TRUE
+cpd00011__91__e0__93__,cpd00011,MNXM13,MNXM13[e],e,TRUE,MetanetX conversion,TRUE
+cpd00012__91__c0__93__,cpd00012,MNXM11,MNXM11[c],c,TRUE,MetanetX conversion,TRUE
+cpd00013__91__c0__93__,cpd00013,MNXM729302,MNXM729302[c],c,TRUE,MetanetX conversion,TRUE
+cpd00014__91__c0__93__,cpd00014,MNXM1102128,MNXM1102128[c],c,TRUE,MetanetX conversion,TRUE
+cpd00015__91__c0__93__,cpd00015,MNXM1364297,MNXM1364297[c],c,TRUE,MetanetX conversion,TRUE
+cpd00016__91__c0__93__,cpd00016,MNXM161,MNXM161[c],c,TRUE,MetanetX conversion,TRUE
+cpd00017__91__c0__93__,cpd00017,MNXM1363866,MNXM1363866[c],c,TRUE,MetanetX conversion,TRUE
+cpd00018__91__c0__93__,cpd00018,MNXM728294,MNXM728294[c],c,TRUE,MetanetX conversion,TRUE
+cpd00019__91__c0__93__,cpd00019,MNXM1102167,MNXM1102167[c],c,TRUE,MetanetX conversion,TRUE
+cpd00020__91__c0__93__,cpd00020,MNXM23,MNXM23[c],c,TRUE,MetanetX conversion,TRUE
+cpd00022__91__c0__93__,cpd00022,MNXM1104266,MNXM1104266[c],c,TRUE,MetanetX conversion,TRUE
+cpd00023__91__c0__93__,cpd00023,MNXM741173,MNXM741173[c],c,TRUE,MetanetX conversion,TRUE
+cpd00024__91__c0__93__,cpd00024,MNXM1369648,MNXM1369648[c],c,TRUE,MetanetX conversion,TRUE
+cpd00025__91__c0__93__,cpd00025,MNXM732620,MNXM732620[c],c,TRUE,MetanetX conversion,TRUE
+cpd00026__91__c0__93__,cpd00026,MNXM1364158,MNXM1364158[c],c,TRUE,MetanetX conversion,TRUE
+cpd00027__91__c0__93__,cpd00027,MNXM1364206,MNXM1364206[c],c,TRUE,MetanetX conversion,TRUE
+cpd00028__91__c0__93__,cpd00028,MNXM1369759,MNXM1369759[c],c,TRUE,MetanetX conversion,TRUE
+cpd00029__91__c0__93__,cpd00029,MNXM26,MNXM26[c],c,TRUE,MetanetX conversion,TRUE
+cpd00030__91__c0__93__,cpd00030,MNXM2255,MNXM2255[c],c,TRUE,MetanetX conversion,TRUE
+cpd00030__91__e0__93__,cpd00030,MNXM2255,MNXM2255[e],e,TRUE,MetanetX conversion,TRUE
+cpd00031__91__c0__93__,cpd00031,MNXM1103285,MNXM1103285[c],c,TRUE,MetanetX conversion,TRUE
+cpd00032__91__c0__93__,cpd00032,MNXM46,MNXM46[c],c,TRUE,MetanetX conversion,TRUE
+cpd00033__91__c0__93__,cpd00033,MNXM29,MNXM29[c],c,TRUE,MetanetX conversion,TRUE
+cpd00034__91__c0__93__,cpd00034,MNXM1372251,MNXM1372251[c],c,TRUE,MetanetX conversion,TRUE
+cpd00034__91__e0__93__,cpd00034,MNXM1372251,MNXM1372251[e],e,TRUE,MetanetX conversion,TRUE
+cpd00035__91__c0__93__,cpd00035,MNXM1105732,MNXM1105732[c],c,TRUE,MetanetX conversion,TRUE
+cpd00035__91__e0__93__,cpd00035,MNXM1105732,MNXM1105732[e],e,TRUE,MetanetX conversion,TRUE
+cpd00036__91__c0__93__,cpd00036,MNXM25,MNXM25[c],c,TRUE,MetanetX conversion,TRUE
+cpd00037__91__c0__93__,cpd00037,MNXM1104529,MNXM1104529[c],c,TRUE,MetanetX conversion,TRUE
+cpd00038__91__c0__93__,cpd00038,MNXM1103553,MNXM1103553[c],c,TRUE,MetanetX conversion,TRUE
+cpd00039__91__c0__93__,cpd00039,MNXM1364416,MNXM1364416[c],c,TRUE,MetanetX conversion,TRUE
+cpd00040__91__c0__93__,cpd00040,MNXM69,MNXM69[c],c,TRUE,MetanetX conversion,TRUE
+cpd00041__91__c0__93__,cpd00041,MNXM1364673,MNXM1364673[c],c,TRUE,MetanetX conversion,TRUE
+cpd00041__91__e0__93__,cpd00041,MNXM1364673,MNXM1364673[e],e,TRUE,MetanetX conversion,TRUE
+cpd00042__91__c0__93__,cpd00042,MNXM490899,MNXM490899[c],c,TRUE,MetanetX conversion,TRUE
+cpd00043__91__c0__93__,cpd00043,MNXM1104754,MNXM1104754[c],c,TRUE,MetanetX conversion,TRUE
+cpd00046__91__c0__93__,cpd00046,MNXM1103302,MNXM1103302[c],c,TRUE,MetanetX conversion,TRUE
+cpd00047__91__c0__93__,cpd00047,MNXM39,MNXM39[c],c,TRUE,MetanetX conversion,TRUE
+cpd00048__91__c0__93__,cpd00048,MNXM58,MNXM58[c],c,TRUE,MetanetX conversion,TRUE
+cpd00048__91__e0__93__,cpd00048,MNXM58,MNXM58[e],e,TRUE,MetanetX conversion,TRUE
+cpd00050__91__c0__93__,cpd00050,MNXM1364295,MNXM1364295[c],c,TRUE,MetanetX conversion,TRUE
+cpd00051__91__c0__93__,cpd00051,MNXM739527,MNXM739527[c],c,TRUE,MetanetX conversion,TRUE
+cpd00052__91__c0__93__,cpd00052,MNXM1103718,MNXM1103718[c],c,TRUE,MetanetX conversion,TRUE
+cpd00053__91__c0__93__,cpd00053,MNXM37,MNXM37[c],c,TRUE,MetanetX conversion,TRUE
+cpd00053__91__e0__93__,cpd00053,MNXM37,MNXM37[e],e,TRUE,MetanetX conversion,TRUE
+cpd00054__91__c0__93__,cpd00054,MNXM737787,MNXM737787[c],c,TRUE,MetanetX conversion,TRUE
+cpd00054__91__e0__93__,cpd00054,MNXM737787,MNXM737787[e],e,TRUE,MetanetX conversion,TRUE
+cpd00056__91__c0__93__,cpd00056,MNXM256,MNXM256[c],c,TRUE,MetanetX conversion,TRUE
+cpd00058__91__c0__93__,cpd00058,MNXM731166,MNXM731166[c],c,TRUE,MetanetX conversion,TRUE
+cpd00058__91__e0__93__,cpd00058,MNXM731166,MNXM731166[e],e,TRUE,MetanetX conversion,TRUE
+cpd00060__91__c0__93__,cpd00060,MNXM738804,MNXM738804[c],c,TRUE,MetanetX conversion,TRUE
+cpd00060__91__e0__93__,cpd00060,MNXM738804,MNXM738804[e],e,TRUE,MetanetX conversion,TRUE
+cpd00061__91__c0__93__,cpd00061,MNXM73,MNXM73[c],c,TRUE,MetanetX conversion,TRUE
+cpd00062__91__c0__93__,cpd00062,MNXM1101474,MNXM1101474[c],c,TRUE,MetanetX conversion,TRUE
+cpd00063__91__c0__93__,cpd00063,MNXM128,MNXM128[c],c,TRUE,MetanetX conversion,TRUE
+cpd00063__91__e0__93__,cpd00063,MNXM128,MNXM128[e],e,TRUE,MetanetX conversion,TRUE
+cpd00064__91__c0__93__,cpd00064,MNXM741175,MNXM741175[c],c,TRUE,MetanetX conversion,TRUE
+cpd00065__91__c0__93__,cpd00065,MNXM741553,MNXM741553[c],c,TRUE,MetanetX conversion,TRUE
+cpd00065__91__e0__93__,cpd00065,MNXM741553,MNXM741553[e],e,TRUE,MetanetX conversion,TRUE
+cpd00066__91__c0__93__,cpd00066,MNXM741664,MNXM741664[c],c,TRUE,MetanetX conversion,TRUE
+cpd00066__91__e0__93__,cpd00066,MNXM741664,MNXM741664[e],e,TRUE,MetanetX conversion,TRUE
+cpd00067__91__c0__93__,cpd00067,MNXM1,MNXM1[c],c,TRUE,MetanetX conversion,TRUE
+cpd00067__91__e0__93__,cpd00067,MNXM1,MNXM1[e],e,TRUE,MetanetX conversion,TRUE
+cpd00069__91__c0__93__,cpd00069,MNXM76,MNXM76[c],c,TRUE,MetanetX conversion,TRUE
+cpd00069__91__e0__93__,cpd00069,MNXM76,MNXM76[e],e,TRUE,MetanetX conversion,TRUE
+cpd00070__91__c0__93__,cpd00070,MNXM1106093,MNXM1106093[c],c,TRUE,MetanetX conversion,TRUE
+cpd00071__91__c0__93__,cpd00071,MNXM75,MNXM75[c],c,TRUE,MetanetX conversion,TRUE
+cpd00072__91__c0__93__,cpd00072,MNXM1107898,MNXM1107898[c],c,TRUE,MetanetX conversion,TRUE
+cpd00074__91__c0__93__,cpd00074,MNXM1107418,MNXM1107418[c],c,TRUE,MetanetX conversion,TRUE
+cpd00078__91__c0__93__,cpd00078,MNXM1104774,MNXM1104774[c],c,TRUE,MetanetX conversion,TRUE
+cpd00079__91__c0__93__,cpd00079,MNXM1364259,MNXM1364259[c],c,TRUE,MetanetX conversion,TRUE
+cpd00080__91__c0__93__,cpd00080,MNXM66,MNXM66[c],c,TRUE,MetanetX conversion,TRUE
+cpd00083__91__c0__93__,cpd00083,MNXM1104188,MNXM1104188[c],c,TRUE,MetanetX conversion,TRUE
+cpd00084__91__c0__93__,cpd00084,MNXM738068,MNXM738068[c],c,TRUE,MetanetX conversion,TRUE
+cpd00084__91__e0__93__,cpd00084,MNXM738068,MNXM738068[e],e,TRUE,MetanetX conversion,TRUE
+cpd00085__91__c0__93__,cpd00085,MNXM144,MNXM144[c],c,TRUE,MetanetX conversion,TRUE
+cpd00087__91__c0__93__,cpd00087,MNXM1103936,MNXM1103936[c],c,TRUE,MetanetX conversion,TRUE
+cpd00089__91__c0__93__,cpd00089,MNXM1364359,MNXM1364359[c],c,TRUE,MetanetX conversion,TRUE
+cpd00091__91__c0__93__,cpd00091,MNXM1104823,MNXM1104823[c],c,TRUE,MetanetX conversion,TRUE
+cpd00092__91__c0__93__,cpd00092,MNXM1369195,MNXM1369195[c],c,TRUE,MetanetX conversion,TRUE
+cpd00093__91__c0__93__,cpd00093,MNXM188,MNXM188[c],c,TRUE,MetanetX conversion,TRUE
+cpd00094__91__c0__93__,cpd00094,MNXM159,MNXM159[c],c,TRUE,MetanetX conversion,TRUE
+cpd00096__91__c0__93__,cpd00096,MNXM1102191,MNXM1102191[c],c,TRUE,MetanetX conversion,TRUE
+cpd00099__91__c0__93__,cpd00099,MNXM735978,MNXM735978[c],c,TRUE,MetanetX conversion,TRUE
+cpd00099__91__e0__93__,cpd00099,MNXM735978,MNXM735978[e],e,TRUE,MetanetX conversion,TRUE
+cpd00100__91__c0__93__,cpd00100,MNXM89612,MNXM89612[c],c,TRUE,MetanetX conversion,TRUE
+cpd00100__91__e0__93__,cpd00100,MNXM89612,MNXM89612[e],e,TRUE,MetanetX conversion,TRUE
+cpd00101__91__c0__93__,cpd00101,MNXM1364029,MNXM1364029[c],c,TRUE,MetanetX conversion,TRUE
+cpd00102__91__c0__93__,cpd00102,MNXM1373253,MNXM1373253[c],c,TRUE,MetanetX conversion,TRUE
+cpd00103__91__c0__93__,cpd00103,MNXM1104453,MNXM1104453[c],c,TRUE,MetanetX conversion,TRUE
+cpd00104__91__c0__93__,cpd00104,MNXM304,MNXM304[c],c,TRUE,MetanetX conversion,TRUE
+cpd00104__91__e0__93__,cpd00104,MNXM304,MNXM304[e],e,TRUE,MetanetX conversion,TRUE
+cpd00105__91__c0__93__,cpd00105,MNXM1108051,MNXM1108051[c],c,TRUE,MetanetX conversion,TRUE
+cpd00106__91__c0__93__,cpd00106,MNXM737340,MNXM737340[c],c,TRUE,MetanetX conversion,TRUE
+cpd00107__91__c0__93__,cpd00107,MNXM1106761,MNXM1106761[c],c,TRUE,MetanetX conversion,TRUE
+cpd00109__91__c0__93__,cpd00109,MNXM731953,MNXM731953[c],c,TRUE,MetanetX conversion,TRUE
+cpd00110__91__c0__93__,cpd00110,MNXM731962,MNXM731962[c],c,TRUE,MetanetX conversion,TRUE
+cpd00111__91__c0__93__,cpd00111,MNXM1372264,MNXM1372264[c],c,TRUE,MetanetX conversion,TRUE
+cpd00113__91__c0__93__,cpd00113,MNXM83,MNXM83[c],c,TRUE,MetanetX conversion,TRUE
+cpd00114__91__c0__93__,cpd00114,MNXM1101868,MNXM1101868[c],c,TRUE,MetanetX conversion,TRUE
+cpd00115__91__c0__93__,cpd00115,MNXM286,MNXM286[c],c,TRUE,MetanetX conversion,TRUE
+cpd00117__91__c0__93__,cpd00117,MNXM1105731,MNXM1105731[c],c,TRUE,MetanetX conversion,TRUE
+cpd00118__91__c0__93__,cpd00118,MNXM118,MNXM118[c],c,TRUE,MetanetX conversion,TRUE
+cpd00119__91__c0__93__,cpd00119,MNXM1107769,MNXM1107769[c],c,TRUE,MetanetX conversion,TRUE
+cpd00119__91__e0__93__,cpd00119,MNXM1107769,MNXM1107769[e],e,TRUE,MetanetX conversion,TRUE
+cpd00123__91__c0__93__,cpd00123,MNXM732866,MNXM732866[c],c,TRUE,MetanetX conversion,TRUE
+cpd00125__91__c0__93__,cpd00125,MNXM1102150,MNXM1102150[c],c,TRUE,MetanetX conversion,TRUE
+cpd00126__91__c0__93__,cpd00126,MNXM1101285,MNXM1101285[c],c,TRUE,MetanetX conversion,TRUE
+cpd00128__91__c0__93__,cpd00128,MNXM168,MNXM168[c],c,TRUE,MetanetX conversion,TRUE
+cpd00129__91__c0__93__,cpd00129,MNXM114,MNXM114[c],c,TRUE,MetanetX conversion,TRUE
+cpd00129__91__e0__93__,cpd00129,MNXM114,MNXM114[e],e,TRUE,MetanetX conversion,TRUE
+cpd00130__91__c0__93__,cpd00130,MNXM1107192,MNXM1107192[c],c,TRUE,MetanetX conversion,TRUE
+cpd00132p__91__c0__93__,cpd00132p,cpd00132p,cpd00132p[c],c,FALSE,Unchanged,TRUE
+cpd00135__91__c0__93__,cpd00135,MNXM123,MNXM123[c],c,TRUE,MetanetX conversion,TRUE
+cpd00136__91__c0__93__,cpd00136,MNXM164,MNXM164[c],c,TRUE,MetanetX conversion,TRUE
+cpd00137__91__c0__93__,cpd00137,MNXM1107752,MNXM1107752[c],c,TRUE,MetanetX conversion,TRUE
+cpd00139__91__c0__93__,cpd00139,MNXM222,MNXM222[c],c,TRUE,MetanetX conversion,TRUE
+cpd00139__91__e0__93__,cpd00139,MNXM222,MNXM222[e],e,TRUE,MetanetX conversion,TRUE
+cpd00142__91__c0__93__,cpd00142,MNXM729595,MNXM729595[c],c,TRUE,MetanetX conversion,TRUE
+cpd00143__91__c0__93__,cpd00143,MNXM730221,MNXM730221[c],c,TRUE,MetanetX conversion,TRUE
+cpd00144__91__c0__93__,cpd00144,MNXM1104890,MNXM1104890[c],c,TRUE,MetanetX conversion,TRUE
+cpd00146__91__c0__93__,cpd00146,MNXM138,MNXM138[c],c,TRUE,MetanetX conversion,TRUE
+cpd00149__91__c0__93__,cpd00149,MNXM90960,MNXM90960[c],c,TRUE,MetanetX conversion,TRUE
+cpd00149__91__e0__93__,cpd00149,MNXM90960,MNXM90960[e],e,TRUE,MetanetX conversion,TRUE
+cpd00155__91__c0__93__,cpd00155,MNXM738131,MNXM738131[c],c,TRUE,MetanetX conversion,TRUE
+cpd00156__91__c0__93__,cpd00156,MNXM199,MNXM199[c],c,TRUE,MetanetX conversion,TRUE
+cpd00156__91__e0__93__,cpd00156,MNXM199,MNXM199[e],e,TRUE,MetanetX conversion,TRUE
+cpd00161__91__c0__93__,cpd00161,MNXM142,MNXM142[c],c,TRUE,MetanetX conversion,TRUE
+cpd00161__91__e0__93__,cpd00161,MNXM142,MNXM142[e],e,TRUE,MetanetX conversion,TRUE
+cpd00166__91__c0__93__,cpd00166,MNXM1104551,MNXM1104551[c],c,TRUE,MetanetX conversion,TRUE
+cpd00169__91__c0__93__,cpd00169,MNXM727604,MNXM727604[c],c,TRUE,MetanetX conversion,TRUE
+cpd00171__91__c0__93__,cpd00171,MNXM145,MNXM145[c],c,TRUE,MetanetX conversion,TRUE
+cpd00177__91__c0__93__,cpd00177,MNXM735047,MNXM735047[c],c,TRUE,MetanetX conversion,TRUE
+cpd00179__91__c0__93__,cpd00179,MNXM1106000,MNXM1106000[c],c,TRUE,MetanetX conversion,TRUE
+cpd00182__91__c0__93__,cpd00182,MNXM1105760,MNXM1105760[c],c,TRUE,MetanetX conversion,TRUE
+cpd00186__91__c0__93__,cpd00186,MNXM331,MNXM331[c],c,TRUE,MetanetX conversion,TRUE
+cpd00191__91__c0__93__,cpd00191,MNXM1369748,MNXM1369748[c],c,TRUE,MetanetX conversion,TRUE
+cpd00198__91__c0__93__,cpd00198,MNXM186,MNXM186[c],c,TRUE,MetanetX conversion,TRUE
+cpd00200__91__c0__93__,cpd00200,MNXM404,MNXM404[c],c,TRUE,MetanetX conversion,TRUE
+cpd00201__91__c0__93__,cpd00201,MNXM1102376,MNXM1102376[c],c,TRUE,MetanetX conversion,TRUE
+cpd00202__91__c0__93__,cpd00202,MNXM132,MNXM132[c],c,TRUE,MetanetX conversion,TRUE
+cpd00203__91__c0__93__,cpd00203,MNXM1364640,MNXM1364640[c],c,TRUE,MetanetX conversion,TRUE
+cpd00205__91__c0__93__,cpd00205,MNXM95,MNXM95[c],c,TRUE,MetanetX conversion,TRUE
+cpd00205__91__e0__93__,cpd00205,MNXM95,MNXM95[e],e,TRUE,MetanetX conversion,TRUE
+cpd00213__91__c0__93__,cpd00213,MNXM1024,MNXM1024[c],c,TRUE,MetanetX conversion,TRUE
+cpd00216__91__c0__93__,cpd00216,MNXM337,MNXM337[c],c,TRUE,MetanetX conversion,TRUE
+cpd00218__91__c0__93__,cpd00218,MNXM274,MNXM274[c],c,TRUE,MetanetX conversion,TRUE
+cpd00219__91__c0__93__,cpd00219,MNXM737312,MNXM737312[c],c,TRUE,MetanetX conversion,TRUE
+cpd00220__91__c0__93__,cpd00220,MNXM270,MNXM270[c],c,TRUE,MetanetX conversion,TRUE
+cpd00221__91__c0__93__,cpd00221,MNXM1372481,MNXM1372481[c],c,TRUE,MetanetX conversion,TRUE
+cpd00226__91__c0__93__,cpd00226,MNXM732487,MNXM732487[c],c,TRUE,MetanetX conversion,TRUE
+cpd00227__91__c0__93__,cpd00227,MNXM353,MNXM353[c],c,TRUE,MetanetX conversion,TRUE
+cpd00229__91__c0__93__,cpd00229,MNXM734590,MNXM734590[c],c,TRUE,MetanetX conversion,TRUE
+cpd00235__91__c0__93__,cpd00235,MNXM1364256,MNXM1364256[c],c,TRUE,MetanetX conversion,TRUE
+cpd00236__91__c0__93__,cpd00236,MNXM258,MNXM258[c],c,TRUE,MetanetX conversion,TRUE
+cpd00238__91__c0__93__,cpd00238,MNXM733314,MNXM733314[c],c,TRUE,MetanetX conversion,TRUE
+cpd00239__91__c0__93__,cpd00239,MNXM1366923,MNXM1366923[c],c,TRUE,MetanetX conversion,TRUE
+cpd00241__91__c0__93__,cpd00241,MNXM344,MNXM344[c],c,TRUE,MetanetX conversion,TRUE
+cpd00242__91__c0__93__,cpd00242,MNXM1094693,MNXM1094693[c],c,TRUE,MetanetX conversion,TRUE
+cpd00246__91__c0__93__,cpd00246,MNXM1103335,MNXM1103335[c],c,TRUE,MetanetX conversion,TRUE
+cpd00247__91__c0__93__,cpd00247,MNXM235,MNXM235[c],c,TRUE,MetanetX conversion,TRUE
+cpd00249__91__c0__93__,cpd00249,MNXM1103104,MNXM1103104[c],c,TRUE,MetanetX conversion,TRUE
+cpd00254__91__c0__93__,cpd00254,MNXM653,MNXM653[c],c,TRUE,MetanetX conversion,TRUE
+cpd00254__91__e0__93__,cpd00254,MNXM653,MNXM653[e],e,TRUE,MetanetX conversion,TRUE
+cpd00258__91__c0__93__,cpd00258,MNXM1372833,MNXM1372833[c],c,TRUE,MetanetX conversion,TRUE
+cpd00260__91__c0__93__,cpd00260,MNXM89661,MNXM89661[c],c,TRUE,MetanetX conversion,TRUE
+cpd00263__91__c0__93__,cpd00263,MNXM419,MNXM419[c],c,TRUE,MetanetX conversion,TRUE
+cpd00272__91__c0__93__,cpd00272,MNXM1106004,MNXM1106004[c],c,TRUE,MetanetX conversion,TRUE
+cpd00279__91__c0__93__,cpd00279,MNXM1103802,MNXM1103802[c],c,TRUE,MetanetX conversion,TRUE
+cpd00282__91__c0__93__,cpd00282,MNXM252,MNXM252[c],c,TRUE,MetanetX conversion,TRUE
+cpd00283__91__c0__93__,cpd00283,MNXM100,MNXM100[c],c,TRUE,MetanetX conversion,TRUE
+cpd00284__91__c0__93__,cpd00284,MNXM734080,MNXM734080[c],c,TRUE,MetanetX conversion,TRUE
+cpd00286__91__c0__93__,cpd00286,MNXM1372579,MNXM1372579[c],c,TRUE,MetanetX conversion,TRUE
+cpd00288__91__c0__93__,cpd00288,MNXM1104065,MNXM1104065[c],c,TRUE,MetanetX conversion,TRUE
+cpd00289__91__c0__93__,cpd00289,MNXM728266,MNXM728266[c],c,TRUE,MetanetX conversion,TRUE
+cpd00295__91__c0__93__,cpd00295,MNXM436,MNXM436[c],c,TRUE,MetanetX conversion,TRUE
+cpd00296__91__c0__93__,cpd00296,MNXM736654,MNXM736654[c],c,TRUE,MetanetX conversion,TRUE
+cpd00297__91__c0__93__,cpd00297,MNXM152,MNXM152[c],c,TRUE,MetanetX conversion,TRUE
+cpd00298__91__c0__93__,cpd00298,MNXM257,MNXM257[c],c,TRUE,MetanetX conversion,TRUE
+cpd00299__91__c0__93__,cpd00299,MNXM234,MNXM234[c],c,TRUE,MetanetX conversion,TRUE
+cpd00322__91__c0__93__,cpd00322,MNXM728337,MNXM728337[c],c,TRUE,MetanetX conversion,TRUE
+cpd00322__91__e0__93__,cpd00322,MNXM728337,MNXM728337[e],e,TRUE,MetanetX conversion,TRUE
+cpd00330__91__c0__93__,cpd00330,MNXM281,MNXM281[c],c,TRUE,MetanetX conversion,TRUE
+cpd00337__91__c0__93__,cpd00337,MNXM506,MNXM506[c],c,TRUE,MetanetX conversion,TRUE
+cpd00338__91__c0__93__,cpd00338,MNXM405,MNXM405[c],c,TRUE,MetanetX conversion,TRUE
+cpd00340__91__c0__93__,cpd00340,MNXM770,MNXM770[c],c,TRUE,MetanetX conversion,TRUE
+cpd00342__91__c0__93__,cpd00342,MNXM817,MNXM817[c],c,TRUE,MetanetX conversion,TRUE
+cpd00343__91__c0__93__,cpd00343,MNXM465,MNXM465[c],c,TRUE,MetanetX conversion,TRUE
+cpd00345__91__c0__93__,cpd00345,MNXM1364094,MNXM1364094[c],c,TRUE,MetanetX conversion,TRUE
+cpd00346__91__c0__93__,cpd00346,MNXM361,MNXM361[c],c,TRUE,MetanetX conversion,TRUE
+cpd00347__91__c0__93__,cpd00347,MNXM511,MNXM511[c],c,TRUE,MetanetX conversion,TRUE
+cpd00350__91__c0__93__,cpd00350,MNXM1363934,MNXM1363934[c],c,TRUE,MetanetX conversion,TRUE
+cpd00356__91__c0__93__,cpd00356,MNXM360,MNXM360[c],c,TRUE,MetanetX conversion,TRUE
+cpd00357__91__c0__93__,cpd00357,MNXM394,MNXM394[c],c,TRUE,MetanetX conversion,TRUE
+cpd00358__91__c0__93__,cpd00358,MNXM452,MNXM452[c],c,TRUE,MetanetX conversion,TRUE
+cpd00359__91__c0__93__,cpd00359,MNXM735090,MNXM735090[c],c,TRUE,MetanetX conversion,TRUE
+cpd00383__91__c0__93__,cpd00383,MNXM602,MNXM602[c],c,TRUE,MetanetX conversion,TRUE
+cpd00383__91__e0__93__,cpd00383,MNXM602,MNXM602[e],e,TRUE,MetanetX conversion,TRUE
+cpd00387__91__c0__93__,cpd00387,MNXM1105977,MNXM1105977[c],c,TRUE,MetanetX conversion,TRUE
+cpd00393__91__c0__93__,cpd00393,MNXM617,MNXM617[c],c,TRUE,MetanetX conversion,TRUE
+cpd00408__91__c0__93__,cpd00408,MNXM593,MNXM593[c],c,TRUE,MetanetX conversion,TRUE
+cpd00412__91__c0__93__,cpd00412,MNXM492,MNXM492[c],c,TRUE,MetanetX conversion,TRUE
+cpd00421__91__c0__93__,cpd00421,MNXM332,MNXM332[c],c,TRUE,MetanetX conversion,TRUE
+cpd00426__91__c0__93__,cpd00426,MNXM345,MNXM345[c],c,TRUE,MetanetX conversion,TRUE
+cpd00428__91__c0__93__,cpd00428,MNXM310,MNXM310[c],c,TRUE,MetanetX conversion,TRUE
+cpd00443__91__c0__93__,cpd00443,MNXM421,MNXM421[c],c,TRUE,MetanetX conversion,TRUE
+cpd00449a__91__c0__93__,cpd00449a,cpd00449a,cpd00449a[c],c,FALSE,Unchanged,TRUE
+cpd00449b__91__c0__93__,cpd00449b,cpd00449b,cpd00449b[c],c,FALSE,Unchanged,TRUE
+cpd00472__91__c0__93__,cpd00472,MNXM1092,MNXM1092[c],c,TRUE,MetanetX conversion,TRUE
+cpd00475__91__c0__93__,cpd00475,MNXM1103205,MNXM1103205[c],c,TRUE,MetanetX conversion,TRUE
+cpd00477__91__c0__93__,cpd00477,MNXM1371649,MNXM1371649[c],c,TRUE,MetanetX conversion,TRUE
+cpd00478__91__c0__93__,cpd00478,MNXM454,MNXM454[c],c,TRUE,MetanetX conversion,TRUE
+cpd00481__91__c0__93__,cpd00481,MNXM1104531,MNXM1104531[c],c,TRUE,MetanetX conversion,TRUE
+cpd00482__91__c0__93__,cpd00482,MNXM275,MNXM275[c],c,TRUE,MetanetX conversion,TRUE
+cpd00485__91__c0__93__,cpd00485,MNXM1106057,MNXM1106057[c],c,TRUE,MetanetX conversion,TRUE
+cpd00498__91__c0__93__,cpd00498,MNXM726902,MNXM726902[c],c,TRUE,MetanetX conversion,TRUE
+cpd00504__91__c0__93__,cpd00504,MNXM644,MNXM644[c],c,TRUE,MetanetX conversion,TRUE
+cpd00506__91__c0__93__,cpd00506,MNXM735669,MNXM735669[c],c,TRUE,MetanetX conversion,TRUE
+cpd00508__91__c0__93__,cpd00508,MNXM1363948,MNXM1363948[c],c,TRUE,MetanetX conversion,TRUE
+cpd00509__91__c0__93__,cpd00509,MNXM1108138,MNXM1108138[c],c,TRUE,MetanetX conversion,TRUE
+cpd00510__91__c0__93__,cpd00510,MNXM732594,MNXM732594[c],c,TRUE,MetanetX conversion,TRUE
+cpd00516__91__c0__93__,cpd00516,MNXM529,MNXM529[c],c,TRUE,MetanetX conversion,TRUE
+cpd00520__91__c0__93__,cpd00520,MNXM727325,MNXM727325[c],c,TRUE,MetanetX conversion,TRUE
+cpd00521__91__c0__93__,cpd00521,MNXM1364107,MNXM1364107[c],c,TRUE,MetanetX conversion,TRUE
+cpd00525__91__c0__93__,cpd00525,MNXM741611,MNXM741611[c],c,TRUE,MetanetX conversion,TRUE
+cpd00533__91__c0__93__,cpd00533,MNXM411,MNXM411[c],c,TRUE,MetanetX conversion,TRUE
+cpd00605__91__c0__93__,cpd00605,MNXM1105971,MNXM1105971[c],c,TRUE,MetanetX conversion,TRUE
+cpd00616__91__c0__93__,cpd00616,MNXM696,MNXM696[c],c,TRUE,MetanetX conversion,TRUE
+cpd00626__91__c0__93__,cpd00626,MNXM1105949,MNXM1105949[c],c,TRUE,MetanetX conversion,TRUE
+cpd00638__91__c0__93__,cpd00638,MNXM1103300,MNXM1103300[c],c,TRUE,MetanetX conversion,TRUE
+cpd00641__91__c0__93__,cpd00641,MNXM1281,MNXM1281[c],c,TRUE,MetanetX conversion,TRUE
+cpd00644__91__c0__93__,cpd00644,MNXM1372754,MNXM1372754[c],c,TRUE,MetanetX conversion,TRUE
+cpd00651__91__c0__93__,cpd00651,MNXM2654,MNXM2654[c],c,TRUE,MetanetX conversion,TRUE
+cpd00655__91__c0__93__,cpd00655,MNXM1104543,MNXM1104543[c],c,TRUE,MetanetX conversion,TRUE
+cpd00668__91__c0__93__,cpd00668,MNXM1103847,MNXM1103847[c],c,TRUE,MetanetX conversion,TRUE
+cpd00683__91__c0__93__,cpd00683,MNXM722728,MNXM722728[c],c,TRUE,MetanetX conversion,TRUE
+cpd00689__91__c0__93__,cpd00689,MNXM554,MNXM554[c],c,TRUE,MetanetX conversion,TRUE
+cpd00712__91__c0__93__,cpd00712,MNXM959,MNXM959[c],c,TRUE,MetanetX conversion,TRUE
+cpd00731__91__c0__93__,cpd00731,MNXM1364149,MNXM1364149[c],c,TRUE,MetanetX conversion,TRUE
+cpd00755__91__c0__93__,cpd00755,MNXM547,MNXM547[c],c,TRUE,MetanetX conversion,TRUE
+cpd00763__91__c0__93__,cpd00763,MNXM1373225,MNXM1373225[c],c,TRUE,MetanetX conversion,TRUE
+cpd00773__91__c0__93__,cpd00773,MNXM1107410,MNXM1107410[c],c,TRUE,MetanetX conversion,TRUE
+cpd00774__91__c0__93__,cpd00774,MNXM414,MNXM414[c],c,TRUE,MetanetX conversion,TRUE
+cpd00780__91__c0__93__,cpd00780,MNXM1373226,MNXM1373226[c],c,TRUE,MetanetX conversion,TRUE
+cpd00807__91__c0__93__,cpd00807,MNXM1482,MNXM1482[c],c,TRUE,MetanetX conversion,TRUE
+cpd00810__91__c0__93__,cpd00810,MNXM1103557,MNXM1103557[c],c,TRUE,MetanetX conversion,TRUE
+cpd00817__91__c0__93__,cpd00817,MNXM1137677,MNXM1137677[c],c,TRUE,MetanetX conversion,TRUE
+cpd00822__91__c0__93__,cpd00822,MNXM820,MNXM820[c],c,TRUE,MetanetX conversion,TRUE
+cpd00834__91__c0__93__,cpd00834,MNXM373,MNXM373[c],c,TRUE,MetanetX conversion,TRUE
+cpd00836__91__c0__93__,cpd00836,MNXM730605,MNXM730605[c],c,TRUE,MetanetX conversion,TRUE
+cpd00842__91__c0__93__,cpd00842,MNXM1105912,MNXM1105912[c],c,TRUE,MetanetX conversion,TRUE
+cpd00860__91__c0__93__,cpd00860,MNXM735017,MNXM735017[c],c,TRUE,MetanetX conversion,TRUE
+cpd00868__91__c0__93__,cpd00868,MNXM153,MNXM153[c],c,TRUE,MetanetX conversion,TRUE
+cpd00873__91__c0__93__,cpd00873,MNXM1108016,MNXM1108016[c],c,TRUE,MetanetX conversion,TRUE
+cpd00875__91__c0__93__,cpd00875,MNXM734869,MNXM734869[c],c,TRUE,MetanetX conversion,TRUE
+cpd00890__91__c0__93__,cpd00890,MNXM732162,MNXM732162[c],c,TRUE,MetanetX conversion,TRUE
+cpd00900__91__c0__93__,cpd00900,MNXM1104155,MNXM1104155[c],c,TRUE,MetanetX conversion,TRUE
+cpd00911__91__c0__93__,cpd00911,MNXM1104491,MNXM1104491[c],c,TRUE,MetanetX conversion,TRUE
+cpd00918__91__c0__93__,cpd00918,MNXM1062,MNXM1062[c],c,TRUE,MetanetX conversion,TRUE
+cpd00930__91__c0__93__,cpd00930,MNXM1456,MNXM1456[c],c,TRUE,MetanetX conversion,TRUE
+cpd00931__91__c0__93__,cpd00931,MNXM1368994,MNXM1368994[c],c,TRUE,MetanetX conversion,TRUE
+cpd00932__91__c0__93__,cpd00932,MNXM1365,MNXM1365[c],c,TRUE,MetanetX conversion,TRUE
+cpd00954__91__c0__93__,cpd00954,MNXM728662,MNXM728662[c],c,TRUE,MetanetX conversion,TRUE
+cpd00956__91__c0__93__,cpd00956,MNXM1455,MNXM1455[c],c,TRUE,MetanetX conversion,TRUE
+cpd00957__91__c0__93__,cpd00957,MNXM1103734,MNXM1103734[c],c,TRUE,MetanetX conversion,TRUE
+cpd00971__91__c0__93__,cpd00971,MNXM27,MNXM27[c],c,TRUE,MetanetX conversion,TRUE
+cpd00971__91__e0__93__,cpd00971,MNXM27,MNXM27[e],e,TRUE,MetanetX conversion,TRUE
+cpd00978__91__c0__93__,cpd00978,MNXM572,MNXM572[c],c,TRUE,MetanetX conversion,TRUE
+cpd00982__91__c0__93__,cpd00982,MNXM1105762,MNXM1105762[c],c,TRUE,MetanetX conversion,TRUE
+cpd01017__91__c0__93__,cpd01017,MNXM683,MNXM683[c],c,TRUE,MetanetX conversion,TRUE
+cpd01262__91__c0__93__,cpd01262,MNXM1104527,MNXM1104527[c],c,TRUE,MetanetX conversion,TRUE
+cpd01262__91__e0__93__,cpd01262,MNXM1104527,MNXM1104527[e],e,TRUE,MetanetX conversion,TRUE
+cpd01270__91__c0__93__,cpd01270,MNXM1107623,MNXM1107623[c],c,TRUE,MetanetX conversion,TRUE
+cpd01298__91__c0__93__,cpd01298,MNXM1106,MNXM1106[c],c,TRUE,MetanetX conversion,TRUE
+cpd01324__91__c0__93__,cpd01324,MNXM735455,MNXM735455[c],c,TRUE,MetanetX conversion,TRUE
+cpd01620__91__c0__93__,cpd01620,MNXM1373210,MNXM1373210[c],c,TRUE,MetanetX conversion,TRUE
+cpd01646__91__c0__93__,cpd01646,MNXM730929,MNXM730929[c],c,TRUE,MetanetX conversion,TRUE
+cpd01710__91__c0__93__,cpd01710,MNXM1369560,MNXM1369560[c],c,TRUE,MetanetX conversion,TRUE
+cpd01720__91__c0__93__,cpd01720,MNXM802,MNXM802[c],c,TRUE,MetanetX conversion,TRUE
+cpd01775__91__c0__93__,cpd01775,MNXM1372185,MNXM1372185[c],c,TRUE,MetanetX conversion,TRUE
+cpd01777__91__c0__93__,cpd01777,MNXM729422,MNXM729422[c],c,TRUE,MetanetX conversion,TRUE
+cpd01977__91__c0__93__,cpd01977,MNXM1177,MNXM1177[c],c,TRUE,MetanetX conversion,TRUE
+cpd01982__91__c0__93__,cpd01982,MNXM1364117,MNXM1364117[c],c,TRUE,MetanetX conversion,TRUE
+cpd01997__91__c0__93__,cpd01997,MNXM1531,MNXM1531[c],c,TRUE,MetanetX conversion,TRUE
+cpd02030__91__c0__93__,cpd02030,MNXM1265,MNXM1265[c],c,TRUE,MetanetX conversion,TRUE
+cpd02036__91__c0__93__,cpd02036,MNXM737509,MNXM737509[c],c,TRUE,MetanetX conversion,TRUE
+cpd02120__91__c0__93__,cpd02120,MNXM807,MNXM807[c],c,TRUE,MetanetX conversion,TRUE
+cpd02140__91__c0__93__,cpd02140,MNXM1105983,MNXM1105983[c],c,TRUE,MetanetX conversion,TRUE
+cpd02147__91__c0__93__,cpd02147,MNXM1407,MNXM1407[c],c,TRUE,MetanetX conversion,TRUE
+cpd02152__91__c0__93__,cpd02152,MNXM722743,MNXM722743[c],c,TRUE,MetanetX conversion,TRUE
+cpd02168__91__c0__93__,cpd02168,MNXM731557,MNXM731557[c],c,TRUE,MetanetX conversion,TRUE
+cpd02182__91__c0__93__,cpd02182,MNXM1093274,MNXM1093274[c],c,TRUE,MetanetX conversion,TRUE
+cpd02187__91__c0__93__,cpd02187,MNXM1104781,MNXM1104781[c],c,TRUE,MetanetX conversion,TRUE
+cpd02201__91__c0__93__,cpd02201,MNXM735771,MNXM735771[c],c,TRUE,MetanetX conversion,TRUE
+cpd02210__91__c0__93__,cpd02210,MNXM730763,MNXM730763[c],c,TRUE,MetanetX conversion,TRUE
+cpd02211__91__c0__93__,cpd02211,MNXM114087,MNXM114087[c],c,TRUE,MetanetX conversion,TRUE
+cpd02229__91__c0__93__,cpd02229,MNXM1365112,MNXM1365112[c],c,TRUE,MetanetX conversion,TRUE
+cpd02234__91__c0__93__,cpd02234,MNXM1364288,MNXM1364288[c],c,TRUE,MetanetX conversion,TRUE
+cpd02375__91__c0__93__,cpd02375,MNXM1103622,MNXM1103622[c],c,TRUE,MetanetX conversion,TRUE
+cpd02394__91__c0__93__,cpd02394,MNXM1104522,MNXM1104522[c],c,TRUE,MetanetX conversion,TRUE
+cpd02465__91__c0__93__,cpd02465,MNXM480,MNXM480[c],c,TRUE,MetanetX conversion,TRUE
+cpd02498__91__c0__93__,cpd02498,MNXM734,MNXM734[c],c,TRUE,MetanetX conversion,TRUE
+cpd02535__91__c0__93__,cpd02535,MNXM1202,MNXM1202[c],c,TRUE,MetanetX conversion,TRUE
+cpd02546__91__c0__93__,cpd02546,MNXM1364701,MNXM1364701[c],c,TRUE,MetanetX conversion,TRUE
+cpd02547__91__c0__93__,cpd02547,MNXM1697,MNXM1697[c],c,TRUE,MetanetX conversion,TRUE
+cpd02552__91__c0__93__,cpd02552,MNXM1384,MNXM1384[c],c,TRUE,MetanetX conversion,TRUE
+cpd02557__91__c0__93__,cpd02557,MNXM1373576,MNXM1373576[c],c,TRUE,MetanetX conversion,TRUE
+cpd02569__91__c0__93__,cpd02569,MNXM1638,MNXM1638[c],c,TRUE,MetanetX conversion,TRUE
+cpd02605__91__c0__93__,cpd02605,MNXM1602,MNXM1602[c],c,TRUE,MetanetX conversion,TRUE
+cpd02611__91__c0__93__,cpd02611,MNXM729920,MNXM729920[c],c,TRUE,MetanetX conversion,TRUE
+cpd02642__91__c0__93__,cpd02642,MNXM1489,MNXM1489[c],c,TRUE,MetanetX conversion,TRUE
+cpd02656__91__c0__93__,cpd02656,MNXM1364570,MNXM1364570[c],c,TRUE,MetanetX conversion,TRUE
+cpd02666__91__c0__93__,cpd02666,MNXM730898,MNXM730898[c],c,TRUE,MetanetX conversion,TRUE
+cpd02678__91__c0__93__,cpd02678,MNXM1094915,MNXM1094915[c],c,TRUE,MetanetX conversion,TRUE
+cpd02693__91__c0__93__,cpd02693,MNXM741109,MNXM741109[c],c,TRUE,MetanetX conversion,TRUE
+cpd02698__91__c0__93__,cpd02698,MNXM729177,MNXM729177[c],c,TRUE,MetanetX conversion,TRUE
+cpd02711__91__c0__93__,cpd02711,MNXM649,MNXM649[c],c,TRUE,MetanetX conversion,TRUE
+cpd02720__91__c0__93__,cpd02720,MNXM1365819,MNXM1365819[c],c,TRUE,MetanetX conversion,TRUE
+cpd02724__91__c0__93__,cpd02724,MNXM1563,MNXM1563[c],c,TRUE,MetanetX conversion,TRUE
+cpd02730__91__c0__93__,cpd02730,MNXM739664,MNXM739664[c],c,TRUE,MetanetX conversion,TRUE
+cpd02745__91__c0__93__,cpd02745,MNXM1372597,MNXM1372597[c],c,TRUE,MetanetX conversion,TRUE
+cpd02820__91__c0__93__,cpd02820,MNXM731472,MNXM731472[c],c,TRUE,MetanetX conversion,TRUE
+cpd02826__91__c0__93__,cpd02826,MNXM1363732,MNXM1363732[c],c,TRUE,MetanetX conversion,TRUE
+cpd02835__91__c0__93__,cpd02835,MNXM722355,MNXM722355[c],c,TRUE,MetanetX conversion,TRUE
+cpd02843__91__c0__93__,cpd02843,MNXM1422,MNXM1422[c],c,TRUE,MetanetX conversion,TRUE
+cpd02851__91__c0__93__,cpd02851,MNXM1103365,MNXM1103365[c],c,TRUE,MetanetX conversion,TRUE
+cpd02882__91__c0__93__,cpd02882,MNXM1372981,MNXM1372981[c],c,TRUE,MetanetX conversion,TRUE
+cpd02884__91__c0__93__,cpd02884,MNXM1104518,MNXM1104518[c],c,TRUE,MetanetX conversion,TRUE
+cpd02886__91__c0__93__,cpd02886,MNXM1107761,MNXM1107761[c],c,TRUE,MetanetX conversion,TRUE
+cpd02893__91__c0__93__,cpd02893,MNXM737371,MNXM737371[c],c,TRUE,MetanetX conversion,TRUE
+cpd02904__91__c0__93__,cpd02904,MNXM1224,MNXM1224[c],c,TRUE,MetanetX conversion,TRUE
+cpd02920__91__c0__93__,cpd02920,MNXM727068,MNXM727068[c],c,TRUE,MetanetX conversion,TRUE
+cpd02921__91__c0__93__,cpd02921,MNXM1104647,MNXM1104647[c],c,TRUE,MetanetX conversion,TRUE
+cpd02930__91__c0__93__,cpd02930,MNXM1372492,MNXM1372492[c],c,TRUE,MetanetX conversion,TRUE
+cpd02961__91__c0__93__,cpd02961,MNXM1372342,MNXM1372342[c],c,TRUE,MetanetX conversion,TRUE
+cpd02964__91__c0__93__,cpd02964,MNXM1446,MNXM1446[c],c,TRUE,MetanetX conversion,TRUE
+cpd02968__91__c0__93__,cpd02968,MNXM732168,MNXM732168[c],c,TRUE,MetanetX conversion,TRUE
+cpd02978__91__c0__93__,cpd02978,MNXM1370283,MNXM1370283[c],c,TRUE,MetanetX conversion,TRUE
+cpd02979__91__c0__93__,cpd02979,MNXM1397,MNXM1397[c],c,TRUE,MetanetX conversion,TRUE
+cpd02991__91__c0__93__,cpd02991,MNXM1408,MNXM1408[c],c,TRUE,MetanetX conversion,TRUE
+cpd02993__91__c0__93__,cpd02993,MNXM731760,MNXM731760[c],c,TRUE,MetanetX conversion,TRUE
+cpd03002__91__c0__93__,cpd03002,MNXM1371492,MNXM1371492[c],c,TRUE,MetanetX conversion,TRUE
+cpd03049b__91__c0__93__,cpd03049b,cpd03049b,cpd03049b[c],c,FALSE,Unchanged,TRUE
+cpd03049p__91__c0__93__,cpd03049p,cpd03049p,cpd03049p[c],c,FALSE,Unchanged,TRUE
+cpd03091__91__c0__93__,cpd03091,MNXM1103313,MNXM1103313[c],c,TRUE,MetanetX conversion,TRUE
+cpd03187__91__c0__93__,cpd03187,MNXM1093495,MNXM1093495[c],c,TRUE,MetanetX conversion,TRUE
+cpd03189__91__c0__93__,cpd03189,MNXM3480,MNXM3480[c],c,TRUE,MetanetX conversion,TRUE
+cpd03205__91__c0__93__,cpd03205,MNXM1371262,MNXM1371262[c],c,TRUE,MetanetX conversion,TRUE
+cpd03420__91__c0__93__,cpd03420,MNXM1367586,MNXM1367586[c],c,TRUE,MetanetX conversion,TRUE
+cpd03423__91__c0__93__,cpd03423,MNXM729592,MNXM729592[c],c,TRUE,MetanetX conversion,TRUE
+cpd03443__91__c0__93__,cpd03443,MNXM1369667,MNXM1369667[c],c,TRUE,MetanetX conversion,TRUE
+cpd03444__91__c0__93__,cpd03444,MNXM1369630,MNXM1369630[c],c,TRUE,MetanetX conversion,TRUE
+cpd03445__91__c0__93__,cpd03445,MNXM1369423,MNXM1369423[c],c,TRUE,MetanetX conversion,TRUE
+cpd03446__91__c0__93__,cpd03446,MNXM1369563,MNXM1369563[c],c,TRUE,MetanetX conversion,TRUE
+cpd03447__91__c0__93__,cpd03447,MNXM1903,MNXM1903[c],c,TRUE,MetanetX conversion,TRUE
+cpd03448__91__c0__93__,cpd03448,MNXM1373894,MNXM1373894[c],c,TRUE,MetanetX conversion,TRUE
+cpd03449__91__c0__93__,cpd03449,MNXM1364066,MNXM1364066[c],c,TRUE,MetanetX conversion,TRUE
+cpd03494__91__c0__93__,cpd03494,MNXM1372553,MNXM1372553[c],c,TRUE,MetanetX conversion,TRUE
+cpd03495__91__c0__93__,cpd03495,MNXM1371090,MNXM1371090[c],c,TRUE,MetanetX conversion,TRUE
+cpd03517__91__c0__93__,cpd03517,MNXM1104306,MNXM1104306[c],c,TRUE,MetanetX conversion,TRUE
+cpd03518__91__c0__93__,cpd03518,MNXM1103590,MNXM1103590[c],c,TRUE,MetanetX conversion,TRUE
+cpd03519__91__c0__93__,cpd03519,MNXM1102965,MNXM1102965[c],c,TRUE,MetanetX conversion,TRUE
+cpd03584__91__c0__93__,cpd03584,MNXM1364571,MNXM1364571[c],c,TRUE,MetanetX conversion,TRUE
+cpd03585__91__c0__93__,cpd03585,MNXM1101307,MNXM1101307[c],c,TRUE,MetanetX conversion,TRUE
+cpd03586__91__c0__93__,cpd03586,MNXM1104740,MNXM1104740[c],c,TRUE,MetanetX conversion,TRUE
+cpd03606__91__c0__93__,cpd03606,MNXM1514,MNXM1514[c],c,TRUE,MetanetX conversion,TRUE
+cpd03607__91__c0__93__,cpd03607,MNXM759,MNXM759[c],c,TRUE,MetanetX conversion,TRUE
+cpd03666__91__c0__93__,cpd03666,MNXM4269,MNXM4269[c],c,TRUE,MetanetX conversion,TRUE
+cpd03671__91__c0__93__,cpd03671,MNXM1364197,MNXM1364197[c],c,TRUE,MetanetX conversion,TRUE
+cpd03760__91__c0__93__,cpd03760,MNXM729283,MNXM729283[c],c,TRUE,MetanetX conversion,TRUE
+cpd03761__91__c0__93__,cpd03761,MNXM1368836,MNXM1368836[c],c,TRUE,MetanetX conversion,TRUE
+cpd03802__91__c0__93__,cpd03802,MNXM1778,MNXM1778[c],c,TRUE,MetanetX conversion,TRUE
+cpd03832__91__c0__93__,cpd03832,MNXM1372159,MNXM1372159[c],c,TRUE,MetanetX conversion,TRUE
+cpd03833__91__c0__93__,cpd03833,MNXM1367605,MNXM1367605[c],c,TRUE,MetanetX conversion,TRUE
+cpd03834__91__c0__93__,cpd03834,MNXM1368635,MNXM1368635[c],c,TRUE,MetanetX conversion,TRUE
+cpd03835__91__c0__93__,cpd03835,MNXM729938,MNXM729938[c],c,TRUE,MetanetX conversion,TRUE
+cpd03839__91__c0__93__,cpd03839,MNXM729931,MNXM729931[c],c,TRUE,MetanetX conversion,TRUE
+cpd03846a__91__c0__93__,cpd03846a,cpd03846a,cpd03846a[c],c,FALSE,Unchanged,TRUE
+cpd03913__91__c0__93__,cpd03913,MNXM1371960,MNXM1371960[c],c,TRUE,MetanetX conversion,TRUE
+cpd03914__91__c0__93__,cpd03914,MNXM1373364,MNXM1373364[c],c,TRUE,MetanetX conversion,TRUE
+cpd03916__91__c0__93__,cpd03916,MNXM735498,MNXM735498[c],c,TRUE,MetanetX conversion,TRUE
+cpd03917__91__c0__93__,cpd03917,MNXM877,MNXM877[c],c,TRUE,MetanetX conversion,TRUE
+cpd03919__91__c0__93__,cpd03919,MNXM1104880,MNXM1104880[c],c,TRUE,MetanetX conversion,TRUE
+cpd03920__91__c0__93__,cpd03920,MNXM1101279,MNXM1101279[c],c,TRUE,MetanetX conversion,TRUE
+cpd04539__91__c0__93__,cpd04539,MNXM1979,MNXM1979[c],c,TRUE,MetanetX conversion,TRUE
+cpd08210__91__c0__93__,cpd08210,MNXM1458,MNXM1458[c],c,TRUE,MetanetX conversion,TRUE
+cpd08286__91__c0__93__,cpd08286,MNXM730435,MNXM730435[c],c,TRUE,MetanetX conversion,TRUE
+cpd08287__91__c0__93__,cpd08287,MNXM730948,MNXM730948[c],c,TRUE,MetanetX conversion,TRUE
+cpd08288__91__c0__93__,cpd08288,MNXM1641,MNXM1641[c],c,TRUE,MetanetX conversion,TRUE
+cpd08289__91__c0__93__,cpd08289,MNXM622,MNXM622[c],c,TRUE,MetanetX conversion,TRUE
+cpd08301__91__c0__93__,cpd08301,MNXM1168,MNXM1168[c],c,TRUE,MetanetX conversion,TRUE
+cpd08449__91__c0__93__,cpd08449,MNXM1213,MNXM1213[c],c,TRUE,MetanetX conversion,TRUE
+cpd08615__91__c0__93__,cpd08615,MNXM1371513,MNXM1371513[c],c,TRUE,MetanetX conversion,TRUE
+cpd08928__91__c0__93__,cpd08928,MNXM1492,MNXM1492[c],c,TRUE,MetanetX conversion,TRUE
+cpd10162__91__c0__93__,cpd10162,MNXM1091755,MNXM1091755[c],c,TRUE,MetanetX conversion,TRUE
+cpd10515__91__c0__93__,cpd10515,MNXM1372038,MNXM1372038[c],c,TRUE,MetanetX conversion,TRUE
+cpd10515__91__e0__93__,cpd10515,MNXM1372038,MNXM1372038[e],e,TRUE,MetanetX conversion,TRUE
+cpd10516__91__c0__93__,cpd10516,MNXM1372039,MNXM1372039[c],c,TRUE,MetanetX conversion,TRUE
+cpd11225__91__c0__93__,cpd11225,MNXM1102295,MNXM1102295[c],c,TRUE,MetanetX conversion,TRUE
+cpd11313__91__c0__93__,cpd11313,MNXM1364566,MNXM1364566[c],c,TRUE,MetanetX conversion,TRUE
+cpd11416__91__c0__93__,cpd11416,BIOMASS,BIOMASS[c],c,TRUE,Other conversion,TRUE
+cpd11420__91__c0__93__,cpd11420,MNXM729079,MNXM729079[c],c,TRUE,MetanetX conversion,TRUE
+cpd11421__91__c0__93__,cpd11421,MNXM741334,MNXM741334[c],c,TRUE,MetanetX conversion,TRUE
+cpd11461__91__c0__93__,cpd11461,MNXM634,MNXM634[c],c,TRUE,MetanetX conversion,TRUE
+cpd11463__91__c0__93__,cpd11463,MNXM733324,MNXM733324[c],c,TRUE,MetanetX conversion,TRUE
+cpd11464__91__c0__93__,cpd11464,MNXM728734,MNXM728734[c],c,TRUE,MetanetX conversion,TRUE
+cpd11464a__91__c0__93__,cpd11464a,cpd11464a,cpd11464a[c],c,FALSE,Unchanged,TRUE
+cpd11465__91__c0__93__,cpd11465,MNXM728706,MNXM728706[c],c,TRUE,MetanetX conversion,TRUE
+cpd11465a__91__c0__93__,cpd11465a,cpd11465a,cpd11465a[c],c,FALSE,Unchanged,TRUE
+cpd11466__91__c0__93__,cpd11466,MNXM728548,MNXM728548[c],c,TRUE,MetanetX conversion,TRUE
+cpd11466a__91__c0__93__,cpd11466a,cpd11466a,cpd11466a[c],c,FALSE,Unchanged,TRUE
+cpd11467__91__c0__93__,cpd11467,MNXM728724,MNXM728724[c],c,TRUE,MetanetX conversion,TRUE
+cpd11467a__91__c0__93__,cpd11467a,cpd11467a,cpd11467a[c],c,FALSE,Unchanged,TRUE
+cpd11468__91__c0__93__,cpd11468,MNXM726235,MNXM726235[c],c,TRUE,MetanetX conversion,TRUE
+cpd11468a__91__c0__93__,cpd11468a,cpd11468a,cpd11468a[c],c,FALSE,Unchanged,TRUE
+cpd11469__91__c0__93__,cpd11469,MNXM728708,MNXM728708[c],c,TRUE,MetanetX conversion,TRUE
+cpd11469a__91__c0__93__,cpd11469a,cpd11469a,cpd11469a[c],c,FALSE,Unchanged,TRUE
+cpd11470__91__c0__93__,cpd11470,MNXM728540,MNXM728540[c],c,TRUE,MetanetX conversion,TRUE
+cpd11470a__91__c0__93__,cpd11470a,cpd11470a,cpd11470a[c],c,FALSE,Unchanged,TRUE
+cpd11471__91__c0__93__,cpd11471,MNXM728591,MNXM728591[c],c,TRUE,MetanetX conversion,TRUE
+cpd11471a__91__c0__93__,cpd11471a,cpd11471a,cpd11471a[c],c,FALSE,Unchanged,TRUE
+cpd11472__91__c0__93__,cpd11472,MNXM728621,MNXM728621[c],c,TRUE,MetanetX conversion,TRUE
+cpd11472a__91__c0__93__,cpd11472a,cpd11472a,cpd11472a[c],c,FALSE,Unchanged,TRUE
+cpd11473__91__c0__93__,cpd11473,MNXM728716,MNXM728716[c],c,TRUE,MetanetX conversion,TRUE
+cpd11473a__91__c0__93__,cpd11473a,cpd11473a,cpd11473a[c],c,FALSE,Unchanged,TRUE
+cpd11474__91__c0__93__,cpd11474,MNXM728618,MNXM728618[c],c,TRUE,MetanetX conversion,TRUE
+cpd11474a__91__c0__93__,cpd11474a,cpd11474a,cpd11474a[c],c,FALSE,Unchanged,TRUE
+cpd11475__91__c0__93__,cpd11475,MNXM733433,MNXM733433[c],c,TRUE,MetanetX conversion,TRUE
+cpd11475a__91__c0__93__,cpd11475a,cpd11475a,cpd11475a[c],c,FALSE,Unchanged,TRUE
+cpd11476__91__c0__93__,cpd11476,MNXM728536,MNXM728536[c],c,TRUE,MetanetX conversion,TRUE
+cpd11476a__91__c0__93__,cpd11476a,cpd11476a,cpd11476a[c],c,FALSE,Unchanged,TRUE
+cpd11477__91__c0__93__,cpd11477,MNXM728711,MNXM728711[c],c,TRUE,MetanetX conversion,TRUE
+cpd11477a__91__c0__93__,cpd11477a,cpd11477a,cpd11477a[c],c,FALSE,Unchanged,TRUE
+cpd11478__91__c0__93__,cpd11478,MNXM728726,MNXM728726[c],c,TRUE,MetanetX conversion,TRUE
+cpd11478a__91__c0__93__,cpd11478a,cpd11478a,cpd11478a[c],c,FALSE,Unchanged,TRUE
+cpd11479__91__c0__93__,cpd11479,MNXM733050,MNXM733050[c],c,TRUE,MetanetX conversion,TRUE
+cpd11479a__91__c0__93__,cpd11479a,cpd11479a,cpd11479a[c],c,FALSE,Unchanged,TRUE
+cpd11480__91__c0__93__,cpd11480,MNXM733306,MNXM733306[c],c,TRUE,MetanetX conversion,TRUE
+cpd11480a__91__c0__93__,cpd11480a,cpd11480a,cpd11480a[c],c,FALSE,Unchanged,TRUE
+cpd11481__91__c0__93__,cpd11481,MNXM733097,MNXM733097[c],c,TRUE,MetanetX conversion,TRUE
+cpd11481a__91__c0__93__,cpd11481a,cpd11481a,cpd11481a[c],c,FALSE,Unchanged,TRUE
+cpd11482__91__c0__93__,cpd11482,MNXM728731,MNXM728731[c],c,TRUE,MetanetX conversion,TRUE
+cpd11482a__91__c0__93__,cpd11482a,cpd11482a,cpd11482a[c],c,FALSE,Unchanged,TRUE
+cpd11483__91__c0__93__,cpd11483,MNXM725897,MNXM725897[c],c,TRUE,MetanetX conversion,TRUE
+cpd11483a__91__c0__93__,cpd11483a,cpd11483a,cpd11483a[c],c,FALSE,Unchanged,TRUE
+cpd11484__91__c0__93__,cpd11484,MNXM728567,MNXM728567[c],c,TRUE,MetanetX conversion,TRUE
+cpd11484a__91__c0__93__,cpd11484a,cpd11484a,cpd11484a[c],c,FALSE,Unchanged,TRUE
+cpd11485__91__c0__93__,cpd11485,MNXM728603,MNXM728603[c],c,TRUE,MetanetX conversion,TRUE
+cpd11485a__91__c0__93__,cpd11485a,cpd11485a,cpd11485a[c],c,FALSE,Unchanged,TRUE
+cpd11486__91__c0__93__,cpd11486,MNXM728607,MNXM728607[c],c,TRUE,MetanetX conversion,TRUE
+cpd11486a__91__c0__93__,cpd11486a,cpd11486a,cpd11486a[c],c,FALSE,Unchanged,TRUE
+cpd11487__91__c0__93__,cpd11487,MNXM728595,MNXM728595[c],c,TRUE,MetanetX conversion,TRUE
+cpd11487a__91__c0__93__,cpd11487a,cpd11487a,cpd11487a[c],c,FALSE,Unchanged,TRUE
+cpd11488__91__c0__93__,cpd11488,MNXM727386,MNXM727386[c],c,TRUE,MetanetX conversion,TRUE
+cpd11488a__91__c0__93__,cpd11488a,cpd11488a,cpd11488a[c],c,FALSE,Unchanged,TRUE
+cpd11489__91__c0__93__,cpd11489,MNXM728599,MNXM728599[c],c,TRUE,MetanetX conversion,TRUE
+cpd11489a__91__c0__93__,cpd11489a,cpd11489a,cpd11489a[c],c,FALSE,Unchanged,TRUE
+cpd11490__91__c0__93__,cpd11490,MNXM728611,MNXM728611[c],c,TRUE,MetanetX conversion,TRUE
+cpd11490a__91__c0__93__,cpd11490a,cpd11490a,cpd11490a[c],c,FALSE,Unchanged,TRUE
+cpd11491__91__c0__93__,cpd11491,MNXM728615,MNXM728615[c],c,TRUE,MetanetX conversion,TRUE
+cpd11491a__91__c0__93__,cpd11491a,cpd11491a,cpd11491a[c],c,FALSE,Unchanged,TRUE
+cpd11492__91__c0__93__,cpd11492,MNXM731940,MNXM731940[c],c,TRUE,MetanetX conversion,TRUE
+cpd11492a__91__c0__93__,cpd11492a,cpd11492a,cpd11492a[c],c,FALSE,Unchanged,TRUE
+cpd11493__91__c0__93__,cpd11493,MNXM740696,MNXM740696[c],c,TRUE,MetanetX conversion,TRUE
+cpd11570a__91__c0__93__,cpd11570a,cpd11570a,cpd11570a[c],c,FALSE,Unchanged,TRUE
+cpd11571a__91__c0__93__,cpd11571a,cpd11571a,cpd11571a[c],c,FALSE,Unchanged,TRUE
+cpd11572a__91__c0__93__,cpd11572a,cpd11572a,cpd11572a[c],c,FALSE,Unchanged,TRUE
+cpd11574__91__c0__93__,cpd11574,MNXM726092,MNXM726092[c],c,TRUE,MetanetX conversion,TRUE
+cpd11574__91__e0__93__,cpd11574,MNXM726092,MNXM726092[e],e,TRUE,MetanetX conversion,TRUE
+cpd11613__91__c0__93__,cpd11613,MNXM90337,MNXM90337[c],c,TRUE,MetanetX conversion,TRUE
+cpd12489__91__c0__93__,cpd12489,MNXM5086,MNXM5086[c],c,TRUE,MetanetX conversion,TRUE
+cpd12836__91__c0__93__,cpd12836,MNXM739391,MNXM739391[c],c,TRUE,MetanetX conversion,TRUE
+cpd14956a__91__c0__93__,cpd14956a,cpd14956a,cpd14956a[c],c,FALSE,Unchanged,TRUE
+cpd15268a__91__c0__93__,cpd15268a,cpd15268a,cpd15268a[c],c,FALSE,Unchanged,TRUE
+cpd15380__91__c0__93__,cpd15380,MNXM1364679,MNXM1364679[c],c,TRUE,MetanetX conversion,TRUE
+cpd15560__91__c0__93__,cpd15560,MNXM1369705,MNXM1369705[c],c,TRUE,MetanetX conversion,TRUE
+cpd15561__91__c0__93__,cpd15561,MNXM191,MNXM191[c],c,TRUE,MetanetX conversion,TRUE
+cpd15665__91__c0__93__,cpd15665,MNXM7630,MNXM7630[c],c,TRUE,MetanetX conversion,TRUE
+cpd15666__91__c0__93__,cpd15666,MNXM5258,MNXM5258[c],c,TRUE,MetanetX conversion,TRUE
+cpd26730__91__c0__93__,cpd26730,MNXM726717,MNXM726717[c],c,TRUE,MetanetX conversion,TRUE
+cpd32630__91__c0__93__,cpd32630,MNXM1100534,MNXM1100534[c],c,TRUE,MetanetX conversion,TRUE
+cpdBGLCN__91__c0__93__,cpdBGLCN,cpdBGLCN,cpdBGLCN[c],c,FALSE,Unchanged,TRUE
+cpdBGLCN__91__e0__93__,cpdBGLCN,cpdBGLCN,cpdBGLCN[e],e,FALSE,Unchanged,TRUE
+cpdCL4__91__c0__93__,cpdCL4,cpdCL4,cpdCL4[c],c,FALSE,Unchanged,TRUE
+cpdDMPE2__91__c0__93__,cpdDMPE2,cpdDMPE2,cpdDMPE2[c],c,FALSE,Unchanged,TRUE
+cpdEPS__91__c0__93__,cpdEPS,cpdEPS,cpdEPS[c],c,FALSE,Unchanged,TRUE
+cpdEPS__91__e0__93__,cpdEPS,cpdEPS,cpdEPS[e],e,FALSE,Unchanged,TRUE
+cpdFe4S4__91__c0__93__,cpdFe4S4,cpdFe4S4,cpdFe4S4[c],c,FALSE,Unchanged,TRUE
+cpdLPS1__91__c0__93__,cpdLPS1,cpdLPS1,cpdLPS1[c],c,FALSE,Unchanged,TRUE
+cpdLPS2__91__c0__93__,cpdLPS2,cpdLPS2,cpdLPS2[c],c,FALSE,Unchanged,TRUE
+cpdLPS__91__c0__93__,cpdLPS,cpdLPS,cpdLPS[c],c,FALSE,Unchanged,TRUE
+cpdLipAco__91__c0__93__,cpdLipAco,cpdLipAco,cpdLipAco[c],c,FALSE,Unchanged,TRUE
+cpdLipAcodp1__91__c0__93__,cpdLipAcodp1,cpdLipAcodp1,cpdLipAcodp1[c],c,FALSE,Unchanged,TRUE
+cpdLipAcodp2__91__c0__93__,cpdLipAcodp2,cpdLipAcodp2,cpdLipAcodp2[c],c,FALSE,Unchanged,TRUE
+cpdLipAcodp3__91__c0__93__,cpdLipAcodp3,cpdLipAcodp3,cpdLipAcodp3[c],c,FALSE,Unchanged,TRUE
+cpdLipidA__91__c0__93__,cpdLipidA,cpdLipidA,cpdLipidA[c],c,FALSE,Unchanged,TRUE
+cpdMMPE2__91__c0__93__,cpdMMPE2,cpdMMPE2,cpdMMPE2[c],c,FALSE,Unchanged,TRUE
+cpdMMPE5__91__c0__93__,cpdMMPE5,cpdMMPE5,cpdMMPE5[c],c,FALSE,Unchanged,TRUE
+cpdMMPE__91__c0__93__,cpdMMPE,cpdMMPE,cpdMMPE[c],c,FALSE,Unchanged,TRUE
+cpdNFIM10__91__c0__93__,cpdNFIM10,cpdNFIM10,cpdNFIM10[c],c,FALSE,Unchanged,TRUE
+cpdNFIM11__91__c0__93__,cpdNFIM11,cpdNFIM11,cpdNFIM11[c],c,FALSE,Unchanged,TRUE
+cpdNFIM12__91__c0__93__,cpdNFIM12,cpdNFIM12,cpdNFIM12[c],c,FALSE,Unchanged,TRUE
+cpdNFIM13__91__c0__93__,cpdNFIM13,cpdNFIM13,cpdNFIM13[c],c,FALSE,Unchanged,TRUE
+cpdNFIM14__91__c0__93__,cpdNFIM14,cpdNFIM14,cpdNFIM14[c],c,FALSE,Unchanged,TRUE
+cpdNFIM15__91__c0__93__,cpdNFIM15,cpdNFIM15,cpdNFIM15[c],c,FALSE,Unchanged,TRUE
+cpdNFIM16__91__c0__93__,cpdNFIM16,cpdNFIM16,cpdNFIM16[c],c,FALSE,Unchanged,TRUE
+cpdNFIM17__91__c0__93__,cpdNFIM17,cpdNFIM17,cpdNFIM17[c],c,FALSE,Unchanged,TRUE
+cpdNFIM18__91__c0__93__,cpdNFIM18,cpdNFIM18,cpdNFIM18[c],c,FALSE,Unchanged,TRUE
+cpdNFIM2__91__c0__93__,cpdNFIM2,cpdNFIM2,cpdNFIM2[c],c,FALSE,Unchanged,TRUE
+cpdNFIM3__91__c0__93__,cpdNFIM3,cpdNFIM3,cpdNFIM3[c],c,FALSE,Unchanged,TRUE
+cpdNFIM4__91__c0__93__,cpdNFIM4,cpdNFIM4,cpdNFIM4[c],c,FALSE,Unchanged,TRUE
+cpdNFIM5__91__c0__93__,cpdNFIM5,cpdNFIM5,cpdNFIM5[c],c,FALSE,Unchanged,TRUE
+cpdNFIM8__91__c0__93__,cpdNFIM8,cpdNFIM8,cpdNFIM8[c],c,FALSE,Unchanged,TRUE
+cpdNFIM9__91__c0__93__,cpdNFIM9,cpdNFIM9,cpdNFIM9[c],c,FALSE,Unchanged,TRUE
+cpdNF__91__c0__93__,cpdNF,cpdNF,cpdNF[c],c,FALSE,Unchanged,TRUE
+cpdNF__91__e0__93__,cpdNF,cpdNF,cpdNF[e],e,FALSE,Unchanged,TRUE
+cpdPC2__91__c0__93__,cpdPC2,cpdPC2,cpdPC2[c],c,FALSE,Unchanged,TRUE
+cpdPC5__91__c0__93__,cpdPC5,cpdPC5,cpdPC5[c],c,FALSE,Unchanged,TRUE
+cpdPC__91__c0__93__,cpdPC,cpdPC,cpdPC[c],c,FALSE,Unchanged,TRUE
+cpdPE3__91__c0__93__,cpdPE3,cpdPE3,cpdPE3[c],c,FALSE,Unchanged,TRUE
+cpdPE4__91__c0__93__,cpdPE4,cpdPE4,cpdPE4[c],c,FALSE,Unchanged,TRUE
+cpdPE7__91__c0__93__,cpdPE7,cpdPE7,cpdPE7[c],c,FALSE,Unchanged,TRUE
+cpdPE__91__c0__93__,cpdPE,cpdPE,cpdPE[c],c,FALSE,Unchanged,TRUE
+cpdPG13__91__c0__93__,cpdPG13,cpdPG13,cpdPG13[c],c,FALSE,Unchanged,TRUE
+cpdPG14__91__c0__93__,cpdPG14,cpdPG14,cpdPG14[c],c,FALSE,Unchanged,TRUE
+cpdPG19__91__c0__93__,cpdPG19,cpdPG19,cpdPG19[c],c,FALSE,Unchanged,TRUE
+cpdPG20__91__c0__93__,cpdPG20,cpdPG20,cpdPG20[c],c,FALSE,Unchanged,TRUE
+cpdPG21__91__c0__93__,cpdPG21,cpdPG21,cpdPG21[c],c,FALSE,Unchanged,TRUE
+cpdPG22__91__c0__93__,cpdPG22,cpdPG22,cpdPG22[c],c,FALSE,Unchanged,TRUE
+cpdPL__91__c0__93__,cpdPL,cpdPL,cpdPL[c],c,FALSE,Unchanged,TRUE
+cpdUS10__91__c0__93__,cpdUS10,cpdUS10,cpdUS10[c],c,FALSE,Unchanged,TRUE
+cpdUS11__91__c0__93__,cpdUS11,cpdUS11,cpdUS11[c],c,FALSE,Unchanged,TRUE
+cpdUS12__91__c0__93__,cpdUS12,cpdUS12,cpdUS12[c],c,FALSE,Unchanged,TRUE
+cpdUS13__91__c0__93__,cpdUS13,cpdUS13,cpdUS13[c],c,FALSE,Unchanged,TRUE
+cpdUS14__91__c0__93__,cpdUS14,cpdUS14,cpdUS14[c],c,FALSE,Unchanged,TRUE
+cpdUS15__91__c0__93__,cpdUS15,cpdUS15,cpdUS15[c],c,FALSE,Unchanged,TRUE
+cpdUS1__91__c0__93__,cpdUS1,cpdUS1,cpdUS1[c],c,FALSE,Unchanged,TRUE
+cpdUS2__91__c0__93__,cpdUS2,cpdUS2,cpdUS2[c],c,FALSE,Unchanged,TRUE
+cpdUS3__91__c0__93__,cpdUS3,cpdUS3,cpdUS3[c],c,FALSE,Unchanged,TRUE
+cpdUS4__91__c0__93__,cpdUS4,cpdUS4,cpdUS4[c],c,FALSE,Unchanged,TRUE
+cpdUS5__91__c0__93__,cpdUS5,cpdUS5,cpdUS5[c],c,FALSE,Unchanged,TRUE
+cpdUS6__91__c0__93__,cpdUS6,cpdUS6,cpdUS6[c],c,FALSE,Unchanged,TRUE
+cpdUS7__91__c0__93__,cpdUS7,cpdUS7,cpdUS7[c],c,FALSE,Unchanged,TRUE
+cpdUS8__91__c0__93__,cpdUS8,cpdUS8,cpdUS8[c],c,FALSE,Unchanged,TRUE
+cpdUS9__91__c0__93__,cpdUS9,cpdUS9,cpdUS9[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA10__91__c0__93__,cpdVLCFA10,cpdVLCFA10,cpdVLCFA10[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA11__91__c0__93__,cpdVLCFA11,cpdVLCFA11,cpdVLCFA11[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA12__91__c0__93__,cpdVLCFA12,cpdVLCFA12,cpdVLCFA12[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA13__91__c0__93__,cpdVLCFA13,cpdVLCFA13,cpdVLCFA13[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA14__91__c0__93__,cpdVLCFA14,cpdVLCFA14,cpdVLCFA14[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA15__91__c0__93__,cpdVLCFA15,cpdVLCFA15,cpdVLCFA15[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA16__91__c0__93__,cpdVLCFA16,cpdVLCFA16,cpdVLCFA16[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA17__91__c0__93__,cpdVLCFA17,cpdVLCFA17,cpdVLCFA17[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA1__91__c0__93__,cpdVLCFA1,cpdVLCFA1,cpdVLCFA1[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA2__91__c0__93__,cpdVLCFA2,cpdVLCFA2,cpdVLCFA2[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA3__91__c0__93__,cpdVLCFA3,cpdVLCFA3,cpdVLCFA3[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA4__91__c0__93__,cpdVLCFA4,cpdVLCFA4,cpdVLCFA4[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA5__91__c0__93__,cpdVLCFA5,cpdVLCFA5,cpdVLCFA5[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA6__91__c0__93__,cpdVLCFA6,cpdVLCFA6,cpdVLCFA6[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA7__91__c0__93__,cpdVLCFA7,cpdVLCFA7,cpdVLCFA7[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA8__91__c0__93__,cpdVLCFA8,cpdVLCFA8,cpdVLCFA8[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA9__91__c0__93__,cpdVLCFA9,cpdVLCFA9,cpdVLCFA9[c],c,FALSE,Unchanged,TRUE
+cpdVLCFA__91__c0__93__,cpdVLCFA,cpdVLCFA,cpdVLCFA[c],c,FALSE,Unchanged,TRUE

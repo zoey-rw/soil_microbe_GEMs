@@ -1,0 +1,41 @@
+{
+  "model_id": "iCS1224",
+  "species_directory": "rhizobium_leguminosarum_iCS1224",
+  "start_time": "2025-06-15 15:26:41",
+  "input_file": "model.sbml",
+  "output_file": "iCS1224_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iCS1224",
+    "total_metabolites": 576,
+    "successful_conversions": 454,
+    "metanetx_conversions": 451,
+    "unchanged_metabolites": 122,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 576,
+    "conversion_rate": 78.8,
+    "metanetx_rate": 78.3
+  },
+  "pattern_detected": "simple_bigg",
+  "databases_found": "kegg",
+  "metabolites_total": 576,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iCS1224",
+      "total_metabolites": 576,
+      "successful_conversions": 454,
+      "metanetx_conversions": 451,
+      "unchanged_metabolites": 122,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 576,
+      "conversion_rate": 78.8,
+      "metanetx_rate": 78.3
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhizobium_leguminosarum_iCS1224/conversion_logs/iCS1224_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhizobium_leguminosarum_iCS1224/conversion_logs/iCS1224_conversion_summary.json"
+  },
+  "end_time": "2025-06-15 15:27:06",
+  "processing_time_seconds": 25.881,
+  "success": true
+}
