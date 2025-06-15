@@ -1,7 +1,7 @@
 {
   "model_id": "iRP911",
   "species_directory": "methylorubrum_extorquens_iRP911",
-  "start_time": "2025-06-15 14:49:06",
+  "start_time": "2025-06-15 15:55:57",
   "input_file": "MextorquensCoreModel_SBML.xml",
   "output_file": "iRP911_processed.xml",
   "problems_detected": [],
@@ -34,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methylorubrum_extorquens_iRP911/conversion_logs/iRP911_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methylorubrum_extorquens_iRP911/conversion_logs/iRP911_conversion_summary.json"
   },
-  "end_time": "2025-06-15 14:49:25",
-  "processing_time_seconds": 18.8417,
+  "end_time": "2025-06-15 15:56:17",
+  "processing_time_seconds": 19.6712,
   "success": true
 }
