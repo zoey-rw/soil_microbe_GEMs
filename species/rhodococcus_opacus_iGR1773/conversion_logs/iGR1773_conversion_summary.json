@@ -1,0 +1,42 @@
+{
+  "statistics": {
+    "model_id": "iGR1773",
+    "total_metabolites": 1956,
+    "successful_conversions": 1592,
+    "metanetx_conversions": 1592,
+    "unchanged_metabolites": 364,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 81.4,
+    "metanetx_rate": 81.4
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 1592,
+      "percentage": 81.4
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 364,
+      "percentage": 18.6
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c_c",
+      "MetanetX conversion": 1060,
+      "Unchanged": 262
+    },
+    {
+      "compartment": "c_e",
+      "MetanetX conversion": 267,
+      "Unchanged": 69
+    },
+    {
+      "compartment": "c_p",
+      "MetanetX conversion": 265,
+      "Unchanged": 33
+    }
+  ]
+}

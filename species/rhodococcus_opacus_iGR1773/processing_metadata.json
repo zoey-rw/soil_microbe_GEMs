@@ -1,0 +1,41 @@
+{
+  "model_id": "iGR1773",
+  "species_directory": "rhodococcus_opacus_iGR1773",
+  "start_time": "2025-06-15 15:45:09",
+  "input_file": "r_opacus_annotated_curated.xml",
+  "output_file": "iGR1773_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iGR1773",
+    "total_metabolites": 1956,
+    "successful_conversions": 1592,
+    "metanetx_conversions": 1592,
+    "unchanged_metabolites": 364,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 81.4,
+    "metanetx_rate": 81.4
+  },
+  "pattern_detected": "chebi_kegg_metanetx_seed",
+  "databases_found": ["metanetx", "seed", "kegg", "chebi"],
+  "metabolites_total": 1956,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iGR1773",
+      "total_metabolites": 1956,
+      "successful_conversions": 1592,
+      "metanetx_conversions": 1592,
+      "unchanged_metabolites": 364,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 81.4,
+      "metanetx_rate": 81.4
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhodococcus_opacus_iGR1773/conversion_logs/iGR1773_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhodococcus_opacus_iGR1773/conversion_logs/iGR1773_conversion_summary.json"
+  },
+  "end_time": "2025-06-15 15:45:50",
+  "processing_time_seconds": 41.4528,
+  "success": true
+}
