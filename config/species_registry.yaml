@@ -790,3 +790,23 @@ species:
       validated: false
       annotation_pattern: null
     curation_notes: "Biomass reaction not fully specified"
+
+
+  iAF987:
+    model_id: "iAF987"
+    organism: "Geobacter metallireducens GS-15"
+    directory: "geobacter_metallireducens_iAF987"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Geobacter"
+    species_strain: "metallireducens GS-15"
+    description: "metal-reducing proteobacterium"
+    publication:
+      citation: null
+      source_link: "BiGG iAF987"
+      download_source: "BiGG database"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Sourced from BiGG database"
