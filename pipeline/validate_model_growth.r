@@ -155,10 +155,29 @@ validate_model_growth <- function(species_dir, python_cmd = NULL) {
 import sys
 import json
 import warnings
+import os
+
+# Aggressive warning suppression
 warnings.filterwarnings("ignore")
+os.environ["PYTHONWARNINGS"] = "ignore"
+
+# Redirect stderr to devnull to suppress COBRApy warnings
+import contextlib
+from io import StringIO
+
+@contextlib.contextmanager
+def suppress_stderr():
+    with open(os.devnull, "w") as devnull:
+        old_stderr = sys.stderr
+        sys.stderr = devnull
+        try:
+            yield
+        finally:
+            sys.stderr = old_stderr
 
 try:
-    import cobra
+    with suppress_stderr():
+        import cobra
     cobra_available = True
 except ImportError:
     cobra_available = False
@@ -167,11 +186,11 @@ except ImportError:
 
 def test_model_growth(filepath):
     try:
-        # Suppress COBRApy warnings
-        with warnings.catch_warnings():
-            warnings.simplefilter("ignore")
-            model = cobra.io.read_sbml_model(filepath)
-            growth_rate = model.slim_optimize()
+        with suppress_stderr():
+            with warnings.catch_warnings():
+                warnings.simplefilter("ignore")
+                model = cobra.io.read_sbml_model(filepath)
+                growth_rate = model.slim_optimize()
         return {
             "readable": True, 
             "growth_rate": float(growth_rate),
@@ -188,10 +207,12 @@ def test_model_growth(filepath):
         }
 
 # Test input file
-input_result = test_model_growth("%s")
+with suppress_stderr():
+    input_result = test_model_growth("%s")
 
 # Test processed file  
-processed_result = test_model_growth("%s")
+with suppress_stderr():
+    processed_result = test_model_growth("%s")
 
 # Output results
 results = {
@@ -208,79 +229,95 @@ print(json.dumps(results))
     tryCatch({
         cat("Running Python validation script...\n")
         
-        # Run Python validation with timeout
-        result <- system2(python_cmd, args = temp_script, stdout = TRUE, stderr = TRUE, timeout = 60)
+        # Run Python validation with timeout and stderr suppression
+        result <- system2(python_cmd, args = temp_script, stdout = TRUE, stderr = FALSE, timeout = 60)
         
         if (length(result) > 0 && !any(attr(result, "status") %in% c(1, 127))) {
             # Parse results
             result_text <- paste(result, collapse = "\n")
             cat("Python output length:", nchar(result_text), "characters\n")
             
-            # Extract JSON from output (in case there are warnings)
-            json_match <- regexpr("\\{.*\\}", result_text)
-            if (length(json_match) > 0 && json_match[1] > 0) {
-                json_text <- regmatches(result_text, json_match)
-                if (length(json_text) > 0 && nchar(json_text[1]) > 0) {
-                    tryCatch({
-                        json_result <- fromJSON(json_text[1])
-                        
-                        validation_results$input_readable_cobra <- json_result$input$readable %||% FALSE
-                        validation_results$processed_readable_cobra <- json_result$processed$readable %||% FALSE
-                        
-                        if (!is.null(json_result$input$readable) && json_result$input$readable) {
-                            validation_results$growth_rate_input <- json_result$input$growth_rate
-                            validation_results$input_model_size <- list(
-                                metabolites = json_result$input$metabolites,
-                                reactions = json_result$input$reactions
-                            )
-                        } else {
-                            validation_results$validation_notes <- append(validation_results$validation_notes,
-                                                                          paste("Input file not readable by COBRA:", json_result$input$error %||% "unknown error"))
-                        }
-                        
-                        if (!is.null(json_result$processed$readable) && json_result$processed$readable) {
-                            validation_results$growth_rate_processed <- json_result$processed$growth_rate
-                            validation_results$processed_model_size <- list(
-                                metabolites = json_result$processed$metabolites,
-                                reactions = json_result$processed$reactions
-                            )
-                        } else {
-                            validation_results$validation_notes <- append(validation_results$validation_notes,
-                                                                          paste("Processed file not readable by COBRA:", json_result$processed$error %||% "unknown error"))
-                        }
-                        
-                        # Check equivalence
-                        if (!is.null(validation_results$growth_rate_input) && !is.null(validation_results$growth_rate_processed)) {
-                            growth_diff <- abs(validation_results$growth_rate_input - validation_results$growth_rate_processed)
-                            validation_results$simulation_equivalent <- growth_diff < 1e-6
-                            validation_results$growth_rate_difference <- growth_diff
-                            
-                            if (!validation_results$simulation_equivalent) {
-                                validation_results$validation_notes <- append(validation_results$validation_notes,
-                                                                              paste("Growth rates differ by", round(growth_diff, 8)))
-                            }
-                        } else {
-                            validation_results$simulation_equivalent <- FALSE
-                            validation_results$validation_notes <- append(validation_results$validation_notes,
-                                                                          "Cannot compare growth rates - one or both files unreadable")
-                        }
-                        
-                        validation_results$success <- TRUE
-                        
-                    }, error = function(e) {
-                        validation_results$success <- FALSE
-                        validation_results$error <- paste("JSON parsing error:", e$message)
-                        validation_results$raw_python_output <- result_text
-                    })
-                } else {
-                    validation_results$success <- FALSE
-                    validation_results$error <- "Empty JSON text extracted"
-                    validation_results$raw_python_output <- result_text
+            # Look for JSON at the end of output (skip warnings/errors at the beginning)
+            lines <- strsplit(result_text, "\n")[[1]]
+            json_line <- NULL
+            
+            # Look for the last line that looks like JSON
+            for (i in length(lines):1) {
+                if (str_detect(lines[i], "^\\s*\\{.*\\}\\s*$")) {
+                    json_line <- lines[i]
+                    break
                 }
+            }
+            
+            if (!is.null(json_line) && nchar(str_trim(json_line)) > 0) {
+                tryCatch({
+                    json_result <- fromJSON(str_trim(json_line))
+                    
+                    validation_results$input_readable_cobra <- json_result$input$readable %||% FALSE
+                    validation_results$processed_readable_cobra <- json_result$processed$readable %||% FALSE
+                    
+                    if (!is.null(json_result$input$readable) && json_result$input$readable) {
+                        validation_results$growth_rate_input <- json_result$input$growth_rate
+                        validation_results$input_model_size <- list(
+                            metabolites = json_result$input$metabolites,
+                            reactions = json_result$input$reactions
+                        )
+                    } else {
+                        validation_results$validation_notes <- append(validation_results$validation_notes,
+                                                                      paste("Input file not readable by COBRA:", json_result$input$error %||% "unknown error"))
+                    }
+                    
+                    if (!is.null(json_result$processed$readable) && json_result$processed$readable) {
+                        validation_results$growth_rate_processed <- json_result$processed$growth_rate
+                        validation_results$processed_model_size <- list(
+                            metabolites = json_result$processed$metabolites,
+                            reactions = json_result$processed$reactions
+                        )
+                    } else {
+                        validation_results$validation_notes <- append(validation_results$validation_notes,
+                                                                      paste("Processed file not readable by COBRA:", json_result$processed$error %||% "unknown error"))
+                    }
+                    
+                    # Check equivalence
+                    if (!is.null(validation_results$growth_rate_input) && !is.null(validation_results$growth_rate_processed)) {
+                        growth_diff <- abs(validation_results$growth_rate_input - validation_results$growth_rate_processed)
+                        validation_results$simulation_equivalent <- growth_diff < 1e-6
+                        validation_results$growth_rate_difference <- growth_diff
+                        
+                        if (!validation_results$simulation_equivalent) {
+                            validation_results$validation_notes <- append(validation_results$validation_notes,
+                                                                          paste("Growth rates differ by", round(growth_diff, 8)))
+                        }
+                    } else {
+                        validation_results$simulation_equivalent <- FALSE
+                        validation_results$validation_notes <- append(validation_results$validation_notes,
+                                                                      "Cannot compare growth rates - one or both files unreadable")
+                    }
+                    
+                    validation_results$success <- TRUE
+                    
+                }, error = function(e) {
+                    validation_results$success <- FALSE
+                    validation_results$error <- paste("JSON parsing error:", e$message)
+                    validation_results$json_line <- json_line
+                    # Save first and last few lines of Python output for debugging
+                    all_lines <- strsplit(result_text, "\n")[[1]]
+                    validation_results$python_output_sample <- list(
+                        first_10_lines = head(all_lines, 10),
+                        last_10_lines = tail(all_lines, 10),
+                        total_lines = length(all_lines)
+                    )
+                })
             } else {
                 validation_results$success <- FALSE
                 validation_results$error <- "No JSON found in Python output"
-                validation_results$raw_python_output <- result_text
+                # Save first and last few lines for debugging
+                all_lines <- strsplit(result_text, "\n")[[1]]
+                validation_results$python_output_sample <- list(
+                    first_10_lines = head(all_lines, 10),
+                    last_10_lines = tail(all_lines, 10),
+                    total_lines = length(all_lines)
+                )
             }
             
         } else {
