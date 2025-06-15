@@ -110,7 +110,7 @@ detect_annotation_pattern <- function(sbml_model) {
     ))
 }
 
-#' Extract metabolite annotations based on detected pattern with encoding fixes
+#' Extract metabolite annotations with compartment recovery for inconsistent SBML
 extract_metabolite_annotations <- function(sbml_model, pattern_info) {
     
     original_met_count <- length(sbml_model@met_id)
@@ -138,13 +138,87 @@ extract_metabolite_annotations <- function(sbml_model, pattern_info) {
     
     cat("Base data frame created with", nrow(met_df), "rows\n")
     
+    # Check for metabolites with missing compartment_no
+    na_comp_no <- is.na(met_df$compartment_no)
+    if (any(na_comp_no)) {
+        cat("  Found", sum(na_comp_no), "metabolites with missing compartment_no\n")
+        cat("  Attempting to recover compartment info from metabolite IDs...\n")
+        
+        # Try to extract compartment from metabolite ID
+        for (i in which(na_comp_no)) {
+            met_id <- met_df$fixed_met[i]
+            
+            # Extract compartment from patterns like [e], [p], [c], etc.
+            comp_match <- str_extract(met_id, "\\[([a-zA-Z0-9]+)\\]$")
+            if (!is.na(comp_match)) {
+                # Remove brackets to get compartment letter
+                comp_letter <- str_replace_all(comp_match, "\\[|\\]", "")
+                
+                # Map compartment letter back to compartment number
+                # Find which compartment index corresponds to this letter
+                compart_key <- standardize_compartments(sbml_model)
+                matching_comp_no <- names(compart_key)[compart_key == comp_letter]
+                
+                if (length(matching_comp_no) > 0) {
+                    met_df$compartment_no[i] <- as.numeric(matching_comp_no[1])
+                    cat("    Recovered compartment for", met_id, ": compartment_no =", matching_comp_no[1], "\n")
+                } else {
+                    cat("    Could not map compartment letter '", comp_letter, "' for", met_id, "\n")
+                }
+            }
+        }
+    }
+    
+    # Enhanced compartment processing
+    cat("  Processing compartments...\n")
     compart_key <- standardize_compartments(sbml_model)
-    met_df$compartment <- recode(met_df$compartment_no, !!!compart_key)
+    
+    # Apply compartment mapping with validation
+    met_df$compartment <- dplyr::recode(as.character(met_df$compartment_no), !!!compart_key)
+    
+    # Check for failed compartment mappings after recovery attempt
+    na_compartments <- is.na(met_df$compartment) | met_df$compartment == ""
+    if (any(na_compartments)) {
+        cat("  Warning:", sum(na_compartments), "metabolites still have missing compartments after recovery\n")
+        
+        # For remaining failures, try to extract compartment directly from ID
+        for (i in which(na_compartments)) {
+            met_id <- met_df$fixed_met[i]
+            
+            # Try different compartment patterns
+            if (grepl("\\[e\\]$|_e$", met_id)) {
+                met_df$compartment[i] <- "e"
+            } else if (grepl("\\[p\\]$|_p$", met_id)) {
+                met_df$compartment[i] <- "p"
+            } else if (grepl("\\[c\\]$|_c$", met_id)) {
+                met_df$compartment[i] <- "c"
+            } else if (grepl("\\[m\\]$|_m$", met_id)) {
+                met_df$compartment[i] <- "m"
+            } else {
+                # Default to cytosol for unknown
+                met_df$compartment[i] <- "c"
+                cat("    No compartment info found for", met_id, ", defaulting to 'c'\n")
+            }
+            
+            cat("    Direct extraction for", met_id, "-> compartment =", met_df$compartment[i], "\n")
+        }
+    }
+    
+    # Final validation - no compartments should be NA at this point
+    final_na_compartments <- is.na(met_df$compartment) | met_df$compartment == ""
+    if (any(final_na_compartments)) {
+        cat("  ERROR: Still have", sum(final_na_compartments), "metabolites with missing compartments\n")
+        problem_mets <- met_df[final_na_compartments, c("orig_met", "fixed_met", "compartment_no", "compartment")]
+        print(head(problem_mets, 10))
+        stop("CRITICAL: Could not resolve compartments for all metabolites")
+    }
     
     # Use fixed metabolite IDs for compartment removal
     met_df$without_compartment <- removeCompartment(met_df$fixed_met)
     
     cat("After compartment processing:", nrow(met_df), "rows\n")
+    cat("Final compartment distribution:\n")
+    print(table(met_df$compartment))
     
     # Process annotations only if they exist - CRITICAL: No operations that change row count
     if (pattern_info$pattern != "simple_bigg" && 
@@ -275,7 +349,6 @@ extract_metabolite_annotations <- function(sbml_model, pattern_info) {
     cat("✓ Annotation extraction completed successfully with", nrow(met_df), "rows\n")
     return(met_df)
 }
-
 #' Process RDF format annotations
 #' @param met_df Metabolite data frame
 #' @param annotation_field Annotation field vector
@@ -470,6 +543,7 @@ handle_duplicates <- function(met_df) {
     return(met_df)
 }
 
+
 #' Main processing function for a single species with enhanced logging
 #' Main processing function for a single species
 #' @param species_dir Path to species directory
@@ -563,6 +637,7 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
         
         # Handle duplicates
         cat("Handling duplicate IDs...\n")
+        #met_df <- handle_duplicates(met_df)
         met_df <- handle_duplicates(met_df)
         
         # Log conversions

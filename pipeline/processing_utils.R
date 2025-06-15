@@ -844,49 +844,93 @@ standardize_compartment_notation <- function(sbml_model) {
     return(sbml_model)
 }
 
-#' Clean GPR (Gene-Protein-Reaction) associations
+#' Clean GPR (Gene-Protein-Reaction) associations with better syntax validation
 #' @param sbml_model sybilSBML model object
 #' @return Updated sybilSBML model object
 clean_gpr_associations <- function(sbml_model) {
     
     if (length(sbml_model@gpr) > 0) {
+        cat("  Cleaning", length(sbml_model@gpr), "GPR associations...\n")
+        
+        # First pass: remove obvious problematic patterns
         sbml_model@gpr <- gsub("() and ", "", sbml_model@gpr, fixed = TRUE)
         sbml_model@gpr <- gsub("() or ", "", sbml_model@gpr, fixed = TRUE)
         sbml_model@gpr <- gsub("and ()", "", sbml_model@gpr, fixed = TRUE)
         sbml_model@gpr <- gsub("or ()", "", sbml_model@gpr, fixed = TRUE)
         
+        problems_fixed <- 0
+        
         for (i in 1:length(sbml_model@gpr)) {
             gpr <- sbml_model@gpr[i]
             
             if (!is.na(gpr) && gpr != "") {
+                original_gpr <- gpr
+                
+                # Count parentheses
                 open_parens <- str_count(gpr, "\\(")
                 close_parens <- str_count(gpr, "\\)")
                 
+                # Fix unmatched parentheses
                 if (open_parens > close_parens) {
-                    sbml_model@gpr[i] <- paste0(gpr, paste(rep(")", open_parens - close_parens), collapse = ""))
+                    # Add missing closing parentheses
+                    missing_close <- open_parens - close_parens
+                    gpr <- paste0(gpr, paste(rep(")", missing_close), collapse = ""))
+                    problems_fixed <- problems_fixed + 1
                 } else if (close_parens > open_parens) {
+                    # Remove extra closing parentheses
                     extra_close <- close_parens - open_parens
-                    gpr_cleaned <- gpr
+                    
+                    # Remove from the end first
                     for (j in 1:extra_close) {
-                        gpr_cleaned <- str_replace(gpr_cleaned, "\\)$", "")
+                        gpr <- str_replace(gpr, "\\)$", "")
                     }
-                    sbml_model@gpr[i] <- gpr_cleaned
+                    problems_fixed <- problems_fixed + 1
                 }
                 
-                sbml_model@gpr[i] <- str_replace_all(sbml_model@gpr[i], "\\s+\\)", ")")
-                sbml_model@gpr[i] <- str_replace_all(sbml_model@gpr[i], "\\(\\s+", "(")
-                sbml_model@gpr[i] <- str_replace_all(sbml_model@gpr[i], "\\)\\s*\\)", ")")
-                sbml_model@gpr[i] <- str_replace_all(sbml_model@gpr[i], "\\(\\s*\\(", "(")
+                # Clean up spacing around parentheses
+                gpr <- str_replace_all(gpr, "\\s+\\)", ")")
+                gpr <- str_replace_all(gpr, "\\(\\s+", "(")
                 
-                sbml_model@gpr[i] <- str_replace_all(sbml_model@gpr[i], "^\\s*(and|or)\\s+", "")
-                sbml_model@gpr[i] <- str_replace_all(sbml_model@gpr[i], "\\s+(and|or)\\s*$", "")
+                # Remove double parentheses
+                gpr <- str_replace_all(gpr, "\\)\\s*\\)", ")")
+                gpr <- str_replace_all(gpr, "\\(\\s*\\(", "(")
                 
-                sbml_model@gpr[i] <- str_trim(sbml_model@gpr[i])
+                # Clean up logical operators at start/end
+                gpr <- str_replace_all(gpr, "^\\s*(and|or)\\s+", "")
+                gpr <- str_replace_all(gpr, "\\s+(and|or)\\s*$", "")
                 
-                if (sbml_model@gpr[i] %in% c("", "()", "( )", " ")) {
-                    sbml_model@gpr[i] <- ""
+                # Trim whitespace
+                gpr <- str_trim(gpr)
+                
+                # Handle empty or invalid results
+                if (gpr %in% c("", "()", "( )", " ")) {
+                    gpr <- ""
+                }
+                
+                # Final validation: check if the GPR is now syntactically valid
+                if (gpr != "" && gpr != original_gpr) {
+                    # Test if parentheses are now balanced
+                    test_open <- str_count(gpr, "\\(")
+                    test_close <- str_count(gpr, "\\)")
+                    
+                    if (test_open != test_close) {
+                        cat("    Warning: Could not fix parentheses for GPR:", original_gpr, "\n")
+                        cat("    Setting to empty string\n")
+                        gpr <- ""
+                        problems_fixed <- problems_fixed + 1
+                    }
+                }
+                
+                sbml_model@gpr[i] <- gpr
+                
+                if (gpr != original_gpr && original_gpr != "") {
+                    cat("    Fixed GPR: '", original_gpr, "' -> '", gpr, "'\n")
                 }
             }
+        }
+        
+        if (problems_fixed > 0) {
+            cat("  Fixed", problems_fixed, "problematic GPR associations\n")
         }
     }
     
