@@ -2,7 +2,7 @@
   "model_id": "iMTZ22IC",
   "species_directory": "methanothermobacter_thermautotrophicus_iMTZ22IC",
   "start_time": "2025-06-14 20:01:26",
-  "input_file": "iMTZ22IC_unbound.xml",
+  "input_file": "iMTZ22IC_input.xml",
   "output_file": "iMTZ22IC_processed.xml",
   "problems_detected": [],
   "warnings": [],

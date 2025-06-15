@@ -85,8 +85,8 @@ species:
     description: "ammonia-oxidizer"
     publication:
       citation: "Canto-Encalada et al 2022"
-      source_link: "https://github.com/cristalzucsd/Nitrosomonaseuropaea/tree/main/SBML_Models"
-      download_source: "GitHub repository"
+      source_link: "https://www.ebi.ac.uk/biomodels/BIOMD0000001061#Files"
+      download_source: "Biomodels repository"
     processing_status:
       processed: false
       validated: false
@@ -715,4 +715,42 @@ species:
       validated: false
       annotation_pattern: null
     curation_notes: "Files available for other strains"
+
+  iRP911:
+    model_id: "iRP911"
+    organism: "Methylorubrum extorquens TK 0001"
+    directory: "methylorubrum_extorquens_iRP911"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Methylorubrum"
+    species_strain: "extorquens TK 0001"
+    description: "methylotroph, engineered strain"
+    publication:
+      citation: "Dietz et al. 2024"
+      source_link: "https://github.com/JoFa-IGB/MextorquensCoreModel/blob/main/MextorquensCoreModel_SBML.xml"
+      download_source: "Github repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Engineered strain producing glycolic acid"
+
+  iDT1294:
+    model_id: "iDT1294"
+    organism: "Rhodopseudomonas palustris Bis A53"
+    directory: "methylorubrum_extorquens_iRP911"
+    kingdom: "Bacteria"
+    phylum: "Pseudomonadota"
+    genus: "Rhodopseudomonas"
+    species_strain: "palustris Bis A53"
+    description: "can be photoautotrophic, photoheterotrophic, chemoautotrophic, or chemoheterotrophic"
+    publication:
+      citation: "Tec-Campos et al. 2023"
+      source_link: "https://github.com/cristalzucsd/RhodopseudomonasPalustris/blob/main/models/iDT1294.xml"
+      download_source: "Github repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null
+    curation_notes: "Usually phototrophic"
 

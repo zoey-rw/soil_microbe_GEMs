@@ -1,0 +1,28 @@
+{
+  "model_id": "Afu2023",
+  "validation_timestamp": "2025-06-14 21:53:02",
+  "input_file": "Pan_Aspergillus_fumigatus.xml",
+  "processed_file": "Afu2023_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 0.0128,
+  "growth_rate_processed": 0.0128,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 4046,
+    "reactions": 3621
+  },
+  "processed_model_size": {
+    "metabolites": 4046,
+    "reactions": 3621
+  },
+  "growth_rate_difference": 0,
+  "success": true
+}

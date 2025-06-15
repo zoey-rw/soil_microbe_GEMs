@@ -1,7 +1,7 @@
 {
   "model_id": "iGC535",
-  "validation_timestamp": "2025-06-08 20:23:08",
-  "input_file": "iGC535_HCO3High.xml",
+  "validation_timestamp": "2025-06-14 21:53:48",
+  "input_file": "iGC535_input.xml",
   "processed_file": "iGC535_processed.xml",
   "input_readable_cobra": false,
   "processed_readable_cobra": false,

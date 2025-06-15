@@ -1,7 +1,7 @@
 {
   "model_id": "iHN637",
-  "validation_timestamp": "2025-06-08 20:22:53",
-  "input_file": "updated_iHN637.xml",
+  "validation_timestamp": "2025-06-14 21:53:19",
+  "input_file": "iHN637_input.xml",
   "processed_file": "iHN637_processed.xml",
   "input_readable_cobra": true,
   "processed_readable_cobra": true,

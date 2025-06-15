@@ -1,15 +1,89 @@
 {
-  "total_species": 16,
-  "validation_attempted": 16,
-  "validation_successful": 11,
-  "validation_failed": 1,
-  "cobra_readable_input": 10,
-  "cobra_readable_processed": 10,
-  "simulation_equivalent": 9,
+  "total_species": 31,
+  "validation_attempted": 1,
+  "validation_successful": 26,
+  "validation_failed": 5,
+  "cobra_readable_input": 24,
+  "cobra_readable_processed": 21,
+  "simulation_equivalent": 20,
   "results": {
+    "arthrobacter_aurescens_Xu_arthro": {
+      "model_id": "arthro",
+      "validation_timestamp": "2025-06-14 21:52:59",
+      "input_file": "290340.10.model.gf.full.atrazine.xml",
+      "processed_file": "arthro_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0,
+      "growth_rate_processed": 0,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 2387,
+        "reactions": 2308
+      },
+      "processed_model_size": {
+        "metabolites": 2182,
+        "reactions": 2307
+      },
+      "growth_rate_difference": 0,
+      "success": true
+    },
+    "aspergillus_fumigatus_Afu2023": {
+      "model_id": "Afu2023",
+      "validation_timestamp": "2025-06-14 21:53:02",
+      "input_file": "Pan_Aspergillus_fumigatus.xml",
+      "processed_file": "Afu2023_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0.0128,
+      "growth_rate_processed": 0.0128,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 4046,
+        "reactions": 3621
+      },
+      "processed_model_size": {
+        "metabolites": 4046,
+        "reactions": 3621
+      },
+      "growth_rate_difference": 0,
+      "success": true
+    },
+    "azotobacter_vinelandii_iAA1300": {
+      "model_id": "iAA1300",
+      "validation_timestamp": "2025-06-14 21:53:08",
+      "input_file": "iAA1300_input.xml",
+      "processed_file": "iAA1300_processed.xml",
+      "input_readable_cobra": false,
+      "processed_readable_cobra": false,
+      "growth_rate_input": {},
+      "growth_rate_processed": {},
+      "simulation_equivalent": {},
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      }
+    },
     "bacillus_subtilis_iBB1018": {
       "model_id": "iBB1018",
-      "validation_timestamp": "2025-06-08 20:22:48",
+      "validation_timestamp": "2025-06-14 21:53:12",
       "input_file": "Additional File S3 iBB1018.xml",
       "processed_file": "iBB1018_processed.xml",
       "input_readable_cobra": true,
@@ -37,7 +111,7 @@
     },
     "bradyrhizobium_diazoefficiens_iYY1101": {
       "model_id": "iYY1101",
-      "validation_timestamp": "2025-06-08 20:22:51",
+      "validation_timestamp": "2025-06-14 21:53:15",
       "input_file": "Supplementary_file_-_S4.xml",
       "processed_file": "iYY1101_processed.xml",
       "input_readable_cobra": true,
@@ -63,10 +137,33 @@
       "growth_rate_difference": 0,
       "success": true
     },
+    "cesiribacter_andamanensis_Xu_cesiri": {
+      "model_id": "cesiri",
+      "validation_timestamp": "2025-06-14 21:53:17",
+      "input_file": "Cesiribacter_andamanensis_AMV16.gf.with_additional_reactions.xml",
+      "processed_file": "cesiri_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": false,
+      "growth_rate_input": 0,
+      "growth_rate_processed": {},
+      "simulation_equivalent": false,
+      "validation_notes": ["Processed file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .", "Cannot compare growth rates - one or both files unreadable"],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1542,
+        "reactions": 1528
+      },
+      "success": true
+    },
     "clostridium_ljungdahlii_iHN637": {
       "model_id": "iHN637",
-      "validation_timestamp": "2025-06-08 20:22:53",
-      "input_file": "updated_iHN637.xml",
+      "validation_timestamp": "2025-06-14 21:53:19",
+      "input_file": "iHN637_input.xml",
       "processed_file": "iHN637_processed.xml",
       "input_readable_cobra": true,
       "processed_readable_cobra": true,
@@ -93,7 +190,7 @@
     },
     "ensifer_meliloti_iGD1348": {
       "model_id": "iGD1348",
-      "validation_timestamp": "2025-06-08 20:22:55",
+      "validation_timestamp": "2025-06-14 21:53:21",
       "input_file": "iGD1348_input.xml",
       "processed_file": "iGD1348_processed.xml",
       "input_readable_cobra": true,
@@ -119,9 +216,96 @@
       "growth_rate_difference": 0,
       "success": true
     },
+    "halomonas_stevensii_Xu_halom": {
+      "model_id": "halom",
+      "validation_timestamp": "2025-06-14 21:53:24",
+      "input_file": "Halomonas_stevensii.gf.with_additional_reactions.xml",
+      "processed_file": "halom_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": false,
+      "growth_rate_input": 0,
+      "growth_rate_processed": {},
+      "simulation_equivalent": false,
+      "validation_notes": ["Processed file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .", "Cannot compare growth rates - one or both files unreadable"],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1686,
+        "reactions": 1752
+      },
+      "success": true
+    },
+    "hansenula_polymorpha_hanpo_z": {
+      "model_id": "z",
+      "validation_timestamp": "2025-06-14 21:53:25",
+      "input_file": "hanpo_input.xml",
+      "processed_file": "z_processed.xml",
+      "input_readable_cobra": false,
+      "processed_readable_cobra": false,
+      "growth_rate_input": {},
+      "growth_rate_processed": {},
+      "simulation_equivalent": {},
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      }
+    },
+    "lachancea_thermotolerans_iBM3063": {
+      "model_id": "iBM3063",
+      "validation_timestamp": "2025-06-14 21:53:28",
+      "input_file": "iBM3063_input.xml",
+      "processed_file": "iBM3063_processed.xml",
+      "input_readable_cobra": false,
+      "processed_readable_cobra": false,
+      "growth_rate_input": {},
+      "growth_rate_processed": {},
+      "simulation_equivalent": {},
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      }
+    },
+    "methanococcus_maripaludis_iMR557": {
+      "model_id": "iMR557",
+      "validation_timestamp": "2025-06-14 21:53:33",
+      "input_file": "iMR557.xml",
+      "processed_file": "iMR557_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0.5663,
+      "growth_rate_processed": 0.5663,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 726,
+        "reactions": 716
+      },
+      "processed_model_size": {
+        "metabolites": 725,
+        "reactions": 716
+      },
+      "growth_rate_difference": 2.8866e-14,
+      "success": true
+    },
     "methanosarcina_barkeri_iMG746": {
       "model_id": "iMG746",
-      "validation_timestamp": "2025-06-08 20:23:02",
+      "validation_timestamp": "2025-06-14 21:53:35",
       "input_file": "iMG746_input.xml",
       "processed_file": "iMG746_processed.xml",
       "input_readable_cobra": true,
@@ -147,9 +331,55 @@
       "growth_rate_difference": 0,
       "success": true
     },
+    "methanothermobacter_thermautotrophicus_iMTZ22IC": {
+      "model_id": "iMTZ22IC",
+      "validation_timestamp": "2025-06-14 22:43:12",
+      "input_file": "iMTZ22IC_input.xml",
+      "processed_file": "iMTZ22IC_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 12.0587,
+      "growth_rate_processed": 12.0587,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 555,
+        "reactions": 619
+      },
+      "processed_model_size": {
+        "metabolites": 555,
+        "reactions": 619
+      },
+      "growth_rate_difference": 0,
+      "success": true
+    },
+    "methylacidiphilum_fumariolicum_iAS473": {
+      "model_id": "iAS473",
+      "validation_timestamp": "2025-06-14 21:53:38",
+      "input_file": "iAS473.xml",
+      "processed_file": "iAS473_processed.xml",
+      "input_readable_cobra": false,
+      "processed_readable_cobra": false,
+      "growth_rate_input": {},
+      "growth_rate_processed": {},
+      "simulation_equivalent": {},
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      }
+    },
     "mortierella_alpina_iCY1106": {
       "model_id": "iCY1106",
-      "validation_timestamp": "2025-06-08 20:23:03",
+      "validation_timestamp": "2025-06-14 21:53:40",
       "input_file": "iCY1106_github_orig.xml",
       "processed_file": "iCY1106_processed.xml",
       "input_readable_cobra": true,
@@ -175,9 +405,32 @@
       "growth_rate_difference": 0,
       "success": true
     },
+    "neurospora_crassa_iJDZ836": {
+      "model_id": "iJDZ836",
+      "validation_timestamp": "2025-06-14 21:53:43",
+      "input_file": "N_crassa_iJDZ836.xml",
+      "processed_file": "iJDZ836_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": false,
+      "growth_rate_input": 0.3047,
+      "growth_rate_processed": {},
+      "simulation_equivalent": false,
+      "validation_notes": ["Processed file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .", "Cannot compare growth rates - one or both files unreadable"],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1008,
+        "reactions": 1845
+      },
+      "success": true
+    },
     "nitrobacter_winogradskyi_iFC579": {
       "model_id": "iFC579",
-      "validation_timestamp": "2025-06-08 20:23:06",
+      "validation_timestamp": "2025-06-14 21:53:46",
       "input_file": "iFC579_input.xml",
       "processed_file": "iFC579_processed.xml",
       "input_readable_cobra": true,
@@ -203,25 +456,63 @@
       "growth_rate_difference": 0,
       "success": true
     },
-    "nitrospira_moscoviensis_iNmo686": {
-      "success": false,
-      "error": "Missing input or processed files"
+    "nitrosomonas_europaea_iGC535": {
+      "model_id": "iGC535",
+      "validation_timestamp": "2025-06-14 21:53:48",
+      "input_file": "iGC535_input.xml",
+      "processed_file": "iGC535_processed.xml",
+      "input_readable_cobra": false,
+      "processed_readable_cobra": false,
+      "growth_rate_input": {},
+      "growth_rate_processed": {},
+      "simulation_equivalent": {},
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      }
     },
-    "pseudomonas_putida_iJN1462": {
-      "model_id": "iJN1462",
-      "validation_timestamp": "2025-06-08 20:23:10",
-      "input_file": "emi14843-sup-0003-supinfos3.xml",
-      "processed_file": "iJN1462_processed.xml",
+    "nitrospira_moscoviensis_iNmo686": {
+      "model_id": "iNmo686",
+      "validation_timestamp": "2025-06-14 21:53:50",
+      "input_file": "iNmo686_input.xml",
+      "processed_file": "iNmo686_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0.0064,
+      "growth_rate_processed": 0.0064,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 638,
+        "reactions": 678
+      },
+      "processed_model_size": {
+        "metabolites": 637,
+        "reactions": 678
+      },
+      "growth_rate_difference": 4.6577e-16,
+      "success": true
+    },
+    "paenarthrobacter_aurescens_iRZ1179": {
+      "model_id": "iRZ1179",
+      "validation_timestamp": "2025-06-14 21:53:51",
+      "input_file": "iRZ1179_original.xml",
+      "processed_file": "iRZ1179_processed.xml",
       "input_readable_cobra": false,
       "processed_readable_cobra": false,
       "growth_rate_input": {},
       "growth_rate_processed": {},
       "simulation_equivalent": false,
-      "validation_notes": [
-        "Input file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .",
-        "Processed file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .",
-        "Cannot compare growth rates - one or both files unreadable"
-      ],
+      "validation_notes": ["Input file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .", "Processed file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .", "Cannot compare growth rates - one or both files unreadable"],
       "python_setup": {
         "python_cmd": "python3",
         "python_version": "Python 3.9.6",
@@ -230,9 +521,168 @@
       },
       "success": true
     },
+    "penicillium_rubens_iAL1006": {
+      "model_id": "iAL1006",
+      "validation_timestamp": "2025-06-14 21:53:53",
+      "input_file": "iAl1006 v1.00.xml",
+      "processed_file": "iAL1006_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0,
+      "growth_rate_processed": 0,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 2429,
+        "reactions": 1820
+      },
+      "processed_model_size": {
+        "metabolites": 1352,
+        "reactions": 1660
+      },
+      "growth_rate_difference": 0,
+      "success": true
+    },
+    "penicillium_rubens_iPrub22": {
+      "model_id": "iPrub22",
+      "validation_timestamp": "2025-06-14 21:53:55",
+      "input_file": "iPrub22.sbml",
+      "processed_file": "iPrub22_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0.2944,
+      "growth_rate_processed": 0.2944,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 5464,
+        "reactions": 5919
+      },
+      "processed_model_size": {
+        "metabolites": 5452,
+        "reactions": 5918
+      },
+      "growth_rate_difference": 4.996e-16,
+      "success": true
+    },
+    "pseudomonas_aeruginosa_iSD1509": {
+      "model_id": "iSD1509",
+      "validation_timestamp": "2025-06-14 21:54:07",
+      "input_file": "iSD1509.xml",
+      "processed_file": "iSD1509_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.5909,
+      "growth_rate_processed": 1.5909,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1642,
+        "reactions": 2021
+      },
+      "processed_model_size": {
+        "metabolites": 1642,
+        "reactions": 2021
+      },
+      "growth_rate_difference": 0,
+      "success": true
+    },
+    "pseudomonas_putida_iJN1462": {
+      "model_id": "iJN1462",
+      "validation_timestamp": "2025-06-14 21:54:11",
+      "input_file": "iJN1462_input.xml",
+      "processed_file": "iJN1462_processed.xml",
+      "input_readable_cobra": false,
+      "processed_readable_cobra": false,
+      "growth_rate_input": {},
+      "growth_rate_processed": {},
+      "simulation_equivalent": false,
+      "validation_notes": ["Input file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .", "Processed file not readable by COBRA: Something went wrong reading the SBML model. Most likely the SBML model is not valid. Please check that your model is valid using the `cobra.io.sbml.validate_sbml_model` function or via the online validator at https://sbml.org/validator_servlet/ .\n\t`(model, errors) = validate_sbml_model(filename)`\nIf the model is valid and cannot be read please open an issue at https://github.com/opencobra/cobrapy/issues .", "Cannot compare growth rates - one or both files unreadable"],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "success": true
+    },
+    "rhizophagus_irregularis_iRi1574": {
+      "model_id": "iRi1574",
+      "validation_timestamp": "2025-06-14 21:54:13",
+      "input_file": "iRi1574_input.xml",
+      "processed_file": "iRi1574_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 8.8121,
+      "growth_rate_processed": 8.8121,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1286,
+        "reactions": 1574
+      },
+      "processed_model_size": {
+        "metabolites": 1285,
+        "reactions": 1574
+      },
+      "growth_rate_difference": 4.0856e-14,
+      "success": true
+    },
+    "rhodotorula_toruloides_iRhto1880": {
+      "model_id": "iRhto1880",
+      "validation_timestamp": "2025-06-14 21:54:16",
+      "input_file": "iRhtoC.xml",
+      "processed_file": "iRhto1880_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0.3902,
+      "growth_rate_processed": 0.3902,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 2038,
+        "reactions": 2251
+      },
+      "processed_model_size": {
+        "metabolites": 2029,
+        "reactions": 2251
+      },
+      "growth_rate_difference": 8.3267e-16,
+      "success": true
+    },
     "saccharomyces_cerevisiae_iMM904": {
       "model_id": "iMM904",
-      "validation_timestamp": "2025-06-08 20:23:15",
+      "validation_timestamp": "2025-06-14 21:54:19",
       "input_file": "iMM904_input.xml",
       "processed_file": "iMM904_processed.xml",
       "input_readable_cobra": true,
@@ -260,17 +710,15 @@
     },
     "staphylococcus_aureus_iSB619": {
       "model_id": "iSB619",
-      "validation_timestamp": "2025-06-08 20:23:18",
-      "input_file": "bigg_iSB619_orig.xml",
+      "validation_timestamp": "2025-06-14 21:54:23",
+      "input_file": "iSB619_input.xml",
       "processed_file": "iSB619_processed.xml",
       "input_readable_cobra": true,
       "processed_readable_cobra": true,
       "growth_rate_input": 0.1581,
       "growth_rate_processed": 0.0687,
       "simulation_equivalent": false,
-      "validation_notes": [
-        "Growth rates differ by 0.08937417"
-      ],
+      "validation_notes": "Growth rates differ by 0.08937417",
       "python_setup": {
         "python_cmd": "python3",
         "python_version": "Python 3.9.6",
@@ -290,8 +738,8 @@
     },
     "streptomyces_coelicolor_iKS1317": {
       "model_id": "iKS1317",
-      "validation_timestamp": "2025-06-08 20:23:20",
-      "input_file": "sco_original.xml",
+      "validation_timestamp": "2025-06-14 21:54:26",
+      "input_file": "iKS1317_input.xml",
       "processed_file": "iKS1317_processed.xml",
       "input_readable_cobra": true,
       "processed_readable_cobra": true,
@@ -314,6 +762,34 @@
         "reactions": 2599
       },
       "growth_rate_difference": 9.0067e-15,
+      "success": true
+    },
+    "trichoderma_reesei_treesei": {
+      "model_id": "treesei",
+      "validation_timestamp": "2025-06-14 21:54:30",
+      "input_file": "MODEL1302010019_url.xml",
+      "processed_file": "treesei_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0,
+      "growth_rate_processed": 0,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1985,
+        "reactions": 2145
+      },
+      "processed_model_size": {
+        "metabolites": 1984,
+        "reactions": 2145
+      },
+      "growth_rate_difference": 0,
       "success": true
     }
   }

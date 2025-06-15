@@ -1,0 +1,28 @@
+{
+  "model_id": "iMTZ22IC",
+  "validation_timestamp": "2025-06-14 22:43:12",
+  "input_file": "iMTZ22IC_input.xml",
+  "processed_file": "iMTZ22IC_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 12.0587,
+  "growth_rate_processed": 12.0587,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 555,
+    "reactions": 619
+  },
+  "processed_model_size": {
+    "metabolites": 555,
+    "reactions": 619
+  },
+  "growth_rate_difference": 0,
+  "success": true
+}

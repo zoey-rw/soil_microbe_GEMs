@@ -1,0 +1,1907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1" fbc:required="false" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2">
+   <model id="CNA_MextorquensCoreModel" name="MextorquensCoreModel" fbc:strict="true">
+      <listOfCompartments>
+         <compartment id="External_Species" constant="true"/>
+         <compartment id="Internal_Species" constant="true"/>
+      </listOfCompartments>
+      <listOfSpecies>
+         <species id="meoh_p" name="meoh_p" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="oxidized_cytochrome_c" name="oxidized-cytochrome-c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="fald_p" name="fald_p" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="h_p" name="h_p" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="for_p" name="for_p" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="for_c" name="for_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="h_c" name="h_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="co2_p" name="co2_p" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="fald_c" name="fald_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="mleneh4mpt_c" name="mleneh4mpt_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="h2o_c" name="h2o_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="atp_c" name="atp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="10fthf_c" name="10fthf_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="co2_c" name="co2_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="nadh_c" name="nadh_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="gly_c" name="gly_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="mlthf_c" name="mlthf_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="nh4_c" name="nh4_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ser__L_c" name="ser__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="meoh_e" name="meoh_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="for_e" name="for_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="glx_c" name="glx_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="hpyr_c" name="hpyr_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="2pg_c" name="2pg_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="pep_c" name="pep_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="oaa_c" name="oaa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="pi_c" name="pi_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="mal_c" name="mal_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="qh2_c" name="qh2_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="coa_c" name="coa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="malylcoa_c" name="malylcoa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="accoa_c" name="accoa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ala__L_c" name="ala__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="pyr_c" name="pyr_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="aacoa_c" name="aacoa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="nadph_c" name="nadph_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="3hbcoa__R_c" name="3hbcoa__R_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="phb_c" name="phb_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="succoa_c" name="succoa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="succ_c" name="succ_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ctncoa_c" name="ctncoa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ethmalcoa_c" name="ethmalcoa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="mmalcoa_c" name="mmalcoa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ppcoa_c" name="ppcoa_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="hco3_c" name="hco3_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="mmcoa__S_c" name="mmcoa__S_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="cit_c" name="cit_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="akg_c" name="akg_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="fum_c" name="fum_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="amp_c" name="amp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ppi_c" name="ppi_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="3pg_c" name="3pg_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="glu__L_c" name="glu__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="g3p_c" name="g3p_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="dhap_c" name="dhap_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="f6p_c" name="f6p_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="g6p_c" name="g6p_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="s7p_c" name="s7p_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="e4p_c" name="e4p_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="6pgc_c" name="6pgc_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="r5p_c" name="r5p_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="o2_c" name="o2_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="o2_e" name="o2_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="asp__L_c" name="asp__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ac_c" name="ac_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="arg__L_c" name="arg__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="asn__L_c" name="asn__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="so4_e" name="so4_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="so4_c" name="so4_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="nh4_e" name="nh4_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="cys__L_c" name="cys__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="gln__L_c" name="gln__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="his__L_c" name="his__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ile__L_c" name="ile__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="leu__L_c" name="leu__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="lys__L_c" name="lys__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="met__L_c" name="met__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="phe__L_c" name="phe__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="pro__L_c" name="pro__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="thr__L_c" name="thr__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="trp__L_c" name="trp__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="tyr__L_c" name="tyr__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="val__L_c" name="val__L_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="co2_e" name="co2_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="menylh4mpt_c" name="menylh4mpt_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="formh4mpt_c" name="formh4mpt_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="mfr_c" name="mfr_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="formmfr_c" name="formmfr_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="methf_c" name="methf_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="pi_e" name="pi_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="h2o_e" name="h2o_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="3mob_c" name="3mob_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="lac__D_c" name="lac__D_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="lac__D_e" name="lac__D_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="glyclt_c" name="glyclt_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="glyclt_e" name="glyclt_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="h_e" name="h_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+         <species id="h2o2_c" name="h2o2_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="tre_c" name="tre_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="glc__D_c" name="glc__D_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="rmn_c" name="rmn_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="acgam_c" name="acgam_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="ratp_c" name="ratp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="rgtp_c" name="rgtp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="rutp_c" name="rutp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="rctp_c" name="rctp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="datp_c" name="datp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="dgtp_c" name="dgtp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="dctp_c" name="dctp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="dttp_c" name="dttp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="avglip_c" name="avglip_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="sng3p_c" name="sng3p_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="Protein" name="Protein" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="Lipid" name="Lipid" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="Carbohydrate" name="Carbohydrate" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="PHB" name="PHB" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="RNA" name="RNA" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="DNA" name="DNA" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="adp_c" name="adp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="reduced_cytochrome_c" name="reduced-cytochrome-c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="h4mpt_c" name="h4mpt_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="thf_c" name="thf_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="nad_c" name="nad_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="nadp_c" name="nadp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="q_c" name="q_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="imp_c" name="imp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="gmp_c" name="gmp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="gdp_c" name="gdp_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="eig3p_c" name="eig3p_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="aicar_c" name="aicar_c" constant="false" hasOnlySubstanceUnits="false" compartment="Internal_Species" boundaryCondition="false"/>
+         <species id="Biomass_e" name="Biomass_e" constant="false" hasOnlySubstanceUnits="false" compartment="External_Species" boundaryCondition="true"/>
+      </listOfSpecies>
+      <listOfReactions>
+         <reaction id="EX001" name="EX001" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="meoh_e" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="meoh_p" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX002" name="EX002" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="for_e" stoichiometry="1" constant="true"/>
+               <speciesReference species="h_e" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="for_p" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX003" name="EX003" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="o2_e" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="o2_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX004" name="EX004" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="so4_e" stoichiometry="1" constant="true"/>
+               <speciesReference species="h_e" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="so4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX005" name="EX005" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="nh4_e" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX006a" name="EX006a" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_p" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX006b" name="EX006b" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="co2_p" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_e" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX007" name="EX007" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h2o_e" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX008" name="EX008" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_e" stoichiometry="1" constant="true"/>
+               <speciesReference species="h_e" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX009" name="EX009" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_p" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_e" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX010" name="EX010" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="lac__D_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="lac__D_e" stoichiometry="1" constant="true"/>
+               <speciesReference species="h_e" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="EX011" name="EX011" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glyclt_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="glyclt_e" stoichiometry="1" constant="true"/>
+               <speciesReference species="h_e" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R001" name="R001" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="meoh_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="oxidized_cytochrome_c" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="fald_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="h_p" stoichiometry="2" constant="true"/>
+               <speciesReference species="reduced_cytochrome_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R002" name="R002" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="oxidized_cytochrome_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="fald_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_p" stoichiometry="3" constant="true"/>
+               <speciesReference species="for_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="reduced_cytochrome_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R003" name="R003" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="oxidized_cytochrome_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="for_p" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="co2_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="reduced_cytochrome_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R004" name="R004" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="fald_p" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="fald_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R005" name="R005" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="fald_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h4mpt_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="mleneh4mpt_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R006" name="R006" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="for_p" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="for_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R007" name="R007" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="for_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="thf_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="10fthf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R008" name="R008" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="for_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R009" name="R009" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="mleneh4mpt_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="menylh4mpt_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R010" name="R010" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="mleneh4mpt_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="menylh4mpt_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R011" name="R011" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="menylh4mpt_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="formh4mpt_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R012" name="R012" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="formh4mpt_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="mfr_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="formmfr_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h4mpt_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R013" name="R013" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="formmfr_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="for_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="mfr_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R014" name="R014" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="10fthf_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="methf_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R015" name="R015" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="methf_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="mlthf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R016" name="R016" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gly_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="mlthf_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="ser__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="thf_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R017" name="R017" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="ser__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glx_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="gly_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="hpyr_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R018" name="R018" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="hpyr_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="2pg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R019" name="R019" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="2pg_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pep_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R020" name="R020" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="pep_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="hco3_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="oaa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R021" name="R021" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="oaa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pep_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R022a" name="R022a" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="oaa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="mal_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R022b" name="R022b" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="mal_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="q_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="oaa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="qh2_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R023" name="R023" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="mal_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="malylcoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R024" name="R024" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="malylcoa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="5" constant="true"/>
+               <speciesReference species="mal_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R025" name="R025" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="malylcoa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="glx_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R026" name="R026" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="accoa_c" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="aacoa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R027a" name="R027a" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="aacoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="3hbcoa__R_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R027b" name="R027b" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="3hbcoa__R_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="phb_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R028" name="R028" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="3hbcoa__R_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ctncoa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R029" name="R029" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ctncoa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="ethmalcoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R030" name="R030" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ethmalcoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="q_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="qh2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="mmalcoa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R031" name="R031" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="mmalcoa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="glx_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppcoa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R032" name="R032" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppcoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="hco3_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="mmcoa__S_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R033" name="R033" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="mmcoa__S_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="succoa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R034" name="R034" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="oaa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="cit_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R035" name="R035" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="cit_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R036" name="R036" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="succoa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R037" name="R037" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="succoa_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="succ_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R038" name="R038" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="succ_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="q_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="qh2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="fum_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R039" name="R039" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="fum_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="mal_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R040" name="R040" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="mal_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R041" name="R041" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pep_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R042" name="R042" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pep_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R043" name="R043" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R044" name="R044" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="2pg_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="3pg_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R045" name="R045" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="3pg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ser__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R046" name="R046" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="3pg_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="g3p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R047" name="R047" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="g3p_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="dhap_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R048" name="R048" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="g3p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="dhap_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="f6p_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R049" name="R049" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="f6p_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="g6p_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R050" name="R050" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="g3p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="f6p_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="e4p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="r5p_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R051" name="R051" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="r5p_c" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="g3p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="s7p_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R052" name="R052" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="g3p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="s7p_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="f6p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="e4p_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R053" name="R053" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="g6p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="6pgc_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R054" name="R054" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="6pgc_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="r5p_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R055" name="R055" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="6pgc_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="g3p_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R056" name="R056" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_p" stoichiometry="4" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R057" name="R057" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="o2_c" stoichiometry="0.5" constant="true"/>
+               <speciesReference species="reduced_cytochrome_c" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="oxidized_cytochrome_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="h_p" stoichiometry="2" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R058a" name="R058a" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="qh2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="o2_c" stoichiometry="0.5" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_p" stoichiometry="4" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="q_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R058b" name="R058b" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="qh2_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="o2_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_p" stoichiometry="4" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="q_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R059" name="R059" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="oxidized_cytochrome_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="qh2_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_p" stoichiometry="2" constant="true"/>
+               <speciesReference species="reduced_cytochrome_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="q_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R060" name="R060" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="5" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="q_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_p" stoichiometry="4" constant="true"/>
+               <speciesReference species="qh2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R061" name="R061" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="q_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="qh2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R062" name="R062" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R063" name="R063" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R064" name="R064" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="hco3_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="fum_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ac_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="arg__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R065" name="R065" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="oaa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R066a" name="R066a" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asn__L_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R066b" name="R066b" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asn__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R067a" name="R067a" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="5" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="3pg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="so4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="cys__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="4" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R067b" name="R067b" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="5" constant="true"/>
+               <speciesReference species="ser__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="so4_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ac_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="cys__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="4" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R068a" name="R068a" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R068b" name="R068b" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="glu__L_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R069a" name="R069a" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R069b" name="R069b" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R070a" name="R070a" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="r5p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="eig3p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="aicar_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R070b" name="R070b" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="eig3p_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="his__L_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R071" name="R071" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="5" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="thr__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ile__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R072" name="R072" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="3mob_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="leu__L_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R073" name="R073" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="succoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="succ_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="lys__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R074" name="R074" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="8" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="mlthf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="7" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="so4_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ac_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="met__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="thf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="7" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R075" name="R075" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pep_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="e4p_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="phe__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R076a" name="R076a" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pro__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R076b" name="R076b" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ac_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pro__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R077" name="R077" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="pi_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="thr__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R078" name="R078" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="ser__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pep_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="e4p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="r5p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="g3p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="trp__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R079" name="R079" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pep_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="e4p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="tyr__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R080" name="R080" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="3mob_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="val__L_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R081" name="R081" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="ala__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="akg_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R082" name="R082" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="hco3_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R083" name="R083" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="oxidized_cytochrome_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ac_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="reduced_cytochrome_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R084a" name="R084a" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ac_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R084b" name="R084b" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ac_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R085" name="R085" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="fum_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R086" name="R086" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="adp_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R087" name="R087" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_p" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R088" name="R088" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="3mob_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R089" name="R089" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="lac__D_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R090a" name="R090a" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glx_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="glyclt_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R090b" name="R090b" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glx_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="glyclt_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R091" name="R091" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="gly_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="o2_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="lac__D_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h2o2_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R092" name="R092" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="h2o2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="reduced_cytochrome_c" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="oxidized_cytochrome_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R093" name="R093" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h2o2_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R094" name="R094" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="ser__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pyr_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="Trehalose_CH" name="Trehalose_CH" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="g6p_c" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="tre_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="Glucose_CH" name="Glucose_CH" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="g6p_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glc__D_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="Rhamnose_CH" name="Rhamnose_CH" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="g6p_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="rmn_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="Glucosamine_CH" name="Glucosamine_CH" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="f6p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="acgam_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_AICAR" name="R_AICAR" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="5" constant="true"/>
+               <speciesReference species="10fthf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gly_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="r5p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="2" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="8" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="fum_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="4" constant="true"/>
+               <speciesReference species="thf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="aicar_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_IMP" name="R_IMP" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="10fthf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="aicar_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="thf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="imp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_GMP" name="R_GMP" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nad_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="imp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="nadh_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gmp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_AMP" name="R_AMP" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="rgtp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="imp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="fum_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gdp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_GDP" name="R_GDP" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gmp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gdp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="rATP_RNA" name="rATP_RNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="ratp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="rGTP_RNA" name="rGTP_RNA" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gdp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="rgtp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="rUTP_RNA" name="rUTP_RNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="atp_c" stoichiometry="5" constant="true"/>
+               <speciesReference species="hco3_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="r5p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="o2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="co2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="amp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h2o2_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="rutp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="4" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="rCTP_RNA" name="rCTP_RNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="rutp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="rctp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="dATP_DNA" name="dATP_DNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ratp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="datp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="dGTP_DNA" name="dGTP_DNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="rgtp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="dgtp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="dCTP_DNA" name="dCTP_DNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="rctp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="dctp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="dTTP_DNA" name="dTTP_DNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="mlthf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="dctp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="nh4_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="ppi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="dttp_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="2" constant="true"/>
+               <speciesReference species="thf_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="avg_Lip_Lip" name="avg-Lip_Lip" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="5.67" constant="true"/>
+               <speciesReference species="h2o_c" stoichiometry="1.57" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="7.24" constant="true"/>
+               <speciesReference species="accoa_c" stoichiometry="8.24" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="13.91" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="pi_c" stoichiometry="7.24" constant="true"/>
+               <speciesReference species="coa_c" stoichiometry="8.24" constant="true"/>
+               <speciesReference species="avglip_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="7.24" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="13.91" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="Glyc3P_Lip" name="Glyc3P_Lip" fast="false" fbc:lowerFluxBound="par1" fbc:upperFluxBound="par2" reversible="true">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="3" constant="true"/>
+               <speciesReference species="nadph_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="dhap_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="sng3p_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="nadp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_Protein" name="R_Protein" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="0.02846" constant="true"/>
+               <speciesReference species="gly_c" stoichiometry="1.786" constant="true"/>
+               <speciesReference species="ser__L_c" stoichiometry="0.5147" constant="true"/>
+               <speciesReference species="ala__L_c" stoichiometry="1.7634" constant="true"/>
+               <speciesReference species="glu__L_c" stoichiometry="0.4862" constant="true"/>
+               <speciesReference species="asp__L_c" stoichiometry="0.4269" constant="true"/>
+               <speciesReference species="arg__L_c" stoichiometry="0.4329" constant="true"/>
+               <speciesReference species="asn__L_c" stoichiometry="0.4269" constant="true"/>
+               <speciesReference species="cys__L_c" stoichiometry="0.0017" constant="true"/>
+               <speciesReference species="gln__L_c" stoichiometry="0.4862" constant="true"/>
+               <speciesReference species="his__L_c" stoichiometry="0.1198" constant="true"/>
+               <speciesReference species="ile__L_c" stoichiometry="0.3605" constant="true"/>
+               <speciesReference species="leu__L_c" stoichiometry="0.6855" constant="true"/>
+               <speciesReference species="lys__L_c" stoichiometry="0.4518" constant="true"/>
+               <speciesReference species="met__L_c" stoichiometry="0.0996" constant="true"/>
+               <speciesReference species="phe__L_c" stoichiometry="0.2431" constant="true"/>
+               <speciesReference species="pro__L_c" stoichiometry="0.5254" constant="true"/>
+               <speciesReference species="thr__L_c" stoichiometry="0.523" constant="true"/>
+               <speciesReference species="trp__L_c" stoichiometry="0.0011" constant="true"/>
+               <speciesReference species="tyr__L_c" stoichiometry="0.1364" constant="true"/>
+               <speciesReference species="val__L_c" stoichiometry="0.7115" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h2o_c" stoichiometry="10.18" constant="true"/>
+               <speciesReference species="Protein" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_Lipid" name="R_Lipid" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="2.495" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="2.495" constant="true"/>
+               <speciesReference species="ser__L_c" stoichiometry="1.2475" constant="true"/>
+               <speciesReference species="avglip_c" stoichiometry="2.495" constant="true"/>
+               <speciesReference species="sng3p_c" stoichiometry="1.2475" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="2.495" constant="true"/>
+               <speciesReference species="nh4_c" stoichiometry="1.2475" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="2.495" constant="true"/>
+               <speciesReference species="Lipid" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="2.495" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_Carbohydrate" name="R_Carbohydrate" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="tre_c" stoichiometry="0.1957" constant="true"/>
+               <speciesReference species="glc__D_c" stoichiometry="1.9096" constant="true"/>
+               <speciesReference species="rmn_c" stoichiometry="3.3612" constant="true"/>
+               <speciesReference species="acgam_c" stoichiometry="0.1828" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="Carbohydrate" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_PHB" name="R_PHB" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="phb_c" stoichiometry="3.1494" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="PHB" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_RNA" name="R_RNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="2.0063" constant="true"/>
+               <speciesReference species="ratp_c" stoichiometry="0.4861" constant="true"/>
+               <speciesReference species="rgtp_c" stoichiometry="0.6447" constant="true"/>
+               <speciesReference species="rutp_c" stoichiometry="0.3806" constant="true"/>
+               <speciesReference species="rctp_c" stoichiometry="0.4948" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="RNA" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_DNA" name="R_DNA" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h_c" stoichiometry="2.0717" constant="true"/>
+               <speciesReference species="datp_c" stoichiometry="0.3033" constant="true"/>
+               <speciesReference species="dgtp_c" stoichiometry="0.67569" constant="true"/>
+               <speciesReference species="dctp_c" stoichiometry="0.7649" constant="true"/>
+               <speciesReference species="dttp_c" stoichiometry="0.32781" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="DNA" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="ATPM_NGAM" name="ATPM_NGAM" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="1" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="1" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+         <reaction id="R_Growth" name="R_Growth" fast="false" fbc:lowerFluxBound="par3" fbc:upperFluxBound="par2" reversible="false">
+            <listOfReactants>
+               <speciesReference species="h2o_c" stoichiometry="63.0725" constant="true"/>
+               <speciesReference species="atp_c" stoichiometry="59.81" constant="true"/>
+               <speciesReference species="Protein" stoichiometry="0.5913" constant="true"/>
+               <speciesReference species="Lipid" stoichiometry="0.0495" constant="true"/>
+               <speciesReference species="Carbohydrate" stoichiometry="0.1643" constant="true"/>
+               <speciesReference species="PHB" stoichiometry="0.0236" constant="true"/>
+               <speciesReference species="RNA" stoichiometry="0.082" constant="true"/>
+               <speciesReference species="DNA" stoichiometry="0.03" constant="true"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species="h_c" stoichiometry="59.81" constant="true"/>
+               <speciesReference species="pi_c" stoichiometry="59.81" constant="true"/>
+               <speciesReference species="adp_c" stoichiometry="59.81" constant="true"/>
+               <speciesReference species="Biomass_e" stoichiometry="1" constant="true"/>
+            </listOfProducts>
+         </reaction>
+      </listOfReactions>
+      <listOfParameters>
+         <parameter id="par1" constant="true" value="-100" />
+         <parameter id="par3" constant="true" value="0" />
+         <parameter id="par2" constant="true" value="100" />
+      </listOfParameters>
+      <fbc:listOfObjectives fbc:activeObjective="objective1">
+         <fbc:objective fbc:id="objective1" fbc:type="maximize">
+            <fbc:listOfFluxObjectives>
+               <fbc:fluxObjective fbc:reaction="R_Growth" fbc:coefficient="1"/>
+            </fbc:listOfFluxObjectives>
+         </fbc:objective>
+      </fbc:listOfObjectives>
+   </model>
+</sbml>

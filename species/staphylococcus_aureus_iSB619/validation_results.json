@@ -1,7 +1,7 @@
 {
   "model_id": "iSB619",
-  "validation_timestamp": "2025-06-08 20:23:18",
-  "input_file": "bigg_iSB619_orig.xml",
+  "validation_timestamp": "2025-06-14 21:54:23",
+  "input_file": "iSB619_input.xml",
   "processed_file": "iSB619_processed.xml",
   "input_readable_cobra": true,
   "processed_readable_cobra": true,

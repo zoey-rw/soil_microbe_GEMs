@@ -45,6 +45,10 @@ discover_sbml_files <- function(species_dir, model_id) {
     sbml_files <- list.files(species_dir, pattern = "\\.sbml$", full.names = TRUE)
     all_files <- c(xml_files, sbml_files)
     
+    if (length(all_files) == 0) {
+        stop("No XML/SBML files found in ", species_dir)
+    }
+    
     processed_patterns <- c("_processed", "_cobra_validated", "_modified_cobra", "COBRA-sbml3")
     
     # Separate processed from input files
@@ -892,3 +896,4 @@ merge_lists <- function(list1, list2) {
     }
     return(list1)
 }
+
