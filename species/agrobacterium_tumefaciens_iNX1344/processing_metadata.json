@@ -1,0 +1,40 @@
+{
+  "model_id": "iNX1344",
+  "species_directory": "agrobacterium_tumefaciens_iNX1344",
+  "start_time": "2025-06-14 20:38:46",
+  "input_file": "iNX1344_original.xml",
+  "output_file": "iNX1344_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iNX1344",
+    "total_metabolites": 1106,
+    "successful_conversions": 296,
+    "metanetx_conversions": 296,
+    "unchanged_metabolites": 810,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 26.8,
+    "metanetx_rate": 26.8
+  },
+  "pattern_detected": "simple_bigg",
+  "metabolites_total": 1106,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iNX1344",
+      "total_metabolites": 1106,
+      "successful_conversions": 296,
+      "metanetx_conversions": 296,
+      "unchanged_metabolites": 810,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 26.8,
+      "metanetx_rate": 26.8
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/agrobacterium_tumefaciens_iNX1344/conversion_logs/iNX1344_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/agrobacterium_tumefaciens_iNX1344/conversion_logs/iNX1344_conversion_summary.json"
+  },
+  "success": false,
+  "error": "Opening and ending tag mismatch: dummy line 0 and p [76]",
+  "end_time": "2025-06-14 20:39:17"
+}

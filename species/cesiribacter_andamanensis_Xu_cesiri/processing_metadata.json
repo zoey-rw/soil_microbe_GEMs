@@ -1,0 +1,40 @@
+{
+  "model_id": "cesiri",
+  "species_directory": "cesiribacter_andamanensis_Xu_cesiri",
+  "start_time": "2025-06-14 19:57:15",
+  "input_file": "Cesiribacter_andamanensis_AMV16.gf.with_additional_reactions.xml",
+  "output_file": "cesiri_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "cesiri",
+    "total_metabolites": 1507,
+    "successful_conversions": 1505,
+    "metanetx_conversions": 1502,
+    "unchanged_metabolites": 2,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 99.9,
+    "metanetx_rate": 99.7
+  },
+  "pattern_detected": "simple_bigg",
+  "metabolites_total": 1507,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "cesiri",
+      "total_metabolites": 1507,
+      "successful_conversions": 1505,
+      "metanetx_conversions": 1502,
+      "unchanged_metabolites": 2,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 99.9,
+      "metanetx_rate": 99.7
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/cesiribacter_andamanensis_Xu_cesiri/conversion_logs/cesiri_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/cesiribacter_andamanensis_Xu_cesiri/conversion_logs/cesiri_conversion_summary.json"
+  },
+  "end_time": "2025-06-14 19:57:47",
+  "processing_time_seconds": 31.2976,
+  "success": true
+}

@@ -1,0 +1,41 @@
+{
+  "model_id": "iAS473",
+  "species_directory": "methylacidiphilum_fumariolicum_iAS473",
+  "start_time": "2025-06-14 20:01:49",
+  "input_file": "iAS473.xml",
+  "output_file": "iAS473_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iAS473",
+    "total_metabolites": 667,
+    "successful_conversions": 664,
+    "metanetx_conversions": 664,
+    "unchanged_metabolites": 3,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 99.6,
+    "metanetx_rate": 99.6
+  },
+  "pattern_detected": "bigg_chebi_kegg_metanetx_pubchem_seed",
+  "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi", "pubchem"],
+  "metabolites_total": 667,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iAS473",
+      "total_metabolites": 667,
+      "successful_conversions": 664,
+      "metanetx_conversions": 664,
+      "unchanged_metabolites": 3,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 99.6,
+      "metanetx_rate": 99.6
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methylacidiphilum_fumariolicum_iAS473/conversion_logs/iAS473_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methylacidiphilum_fumariolicum_iAS473/conversion_logs/iAS473_conversion_summary.json"
+  },
+  "end_time": "2025-06-14 20:02:16",
+  "processing_time_seconds": 26.3385,
+  "success": true
+}

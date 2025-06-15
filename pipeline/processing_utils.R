@@ -40,16 +40,19 @@ COMPARTMENT_MAPPINGS <- c(
 #' @return List with input_file and output_file paths
 discover_sbml_files <- function(species_dir, model_id) {
     
-    # Consistent patterns across all files
+    # Look for both .xml and .sbml files
     xml_files <- list.files(species_dir, pattern = "\\.xml$", full.names = TRUE)
+    sbml_files <- list.files(species_dir, pattern = "\\.sbml$", full.names = TRUE)
+    all_files <- c(xml_files, sbml_files)
+    
     processed_patterns <- c("_processed", "_cobra_validated", "_modified_cobra", "COBRA-sbml3")
     
     # Separate processed from input files
-    processed_files <- xml_files[str_detect(basename(xml_files), paste(processed_patterns, collapse = "|"))]
-    input_candidates <- setdiff(xml_files, processed_files)
+    processed_files <- all_files[str_detect(basename(all_files), paste(processed_patterns, collapse = "|"))]
+    input_candidates <- setdiff(all_files, processed_files)
     
     if (length(input_candidates) == 0) {
-        stop("No input XML file found in ", species_dir)
+        stop("No input XML/SBML file found in ", species_dir)
     }
     
     # Consistent file selection logic
@@ -200,12 +203,43 @@ preprocess_sbml_file_enhanced <- function(file_path, output_path = NULL) {
     changes_log <- list(
         original_file = file_path,
         lines_removed = 0,
-        elements_removed = list()
+        elements_removed = list(),
+        xml_fixes = list()
     )
     
     # Read file content
     sbml_content <- readLines(file_path, warn = FALSE)
     original_line_count <- length(sbml_content)
+    
+    # Fix XML structure issues
+    cat("Checking for XML structure issues...\n")
+    
+    # Fix 1: Handle malformed tags and mismatched opening/closing tags
+    for (i in seq_along(sbml_content)) {
+        line <- sbml_content[i]
+        
+        # Fix common XML issues
+        # Fix unclosed tags in notes/body sections
+        if (str_detect(line, "<p xmlns.*>\\s*$") && !str_detect(line, "</p>")) {
+            if (i < length(sbml_content) && !str_detect(sbml_content[i+1], "</p>")) {
+                # Look ahead for content and closing tag
+                next_lines <- sbml_content[(i+1):min(i+5, length(sbml_content))]
+                if (any(str_detect(next_lines, "</p>"))) {
+                    # Tag will be closed later, leave as is
+                } else {
+                    # Self-close the tag
+                    sbml_content[i] <- str_replace(line, ">\\s*$", "/>")
+                    changes_log$xml_fixes$self_closed_tags <- 
+                        (changes_log$xml_fixes$self_closed_tags %||% 0) + 1
+                }
+            }
+        }
+        
+        # Fix namespace declarations that might cause issues
+        if (str_detect(line, 'xmlns:groups=')) {
+            sbml_content[i] <- str_replace_all(line, 'groups:required="[^"]*"', '')
+        }
+    }
     
     # Remove problematic group elements
     cat("Removing group elements...\n")
@@ -234,8 +268,8 @@ preprocess_sbml_file_enhanced <- function(file_path, output_path = NULL) {
             next
         }
         
+        # Clean remaining group references
         line <- str_replace_all(line, 'groups:required="[^"]*"', '')
-        
         cleaned_content <- c(cleaned_content, line)
     }
     
@@ -251,6 +285,9 @@ preprocess_sbml_file_enhanced <- function(file_path, output_path = NULL) {
     changes_log$output_file <- output_path
     
     cat("Preprocessing complete. Removed", removed_lines, "lines\n")
+    if (length(changes_log$xml_fixes) > 0) {
+        cat("Applied XML fixes:", paste(names(changes_log$xml_fixes), collapse = ", "), "\n")
+    }
     cat("Output file:", output_path, "\n")
     
     return(list(file_path = output_path, changes_log = changes_log))
@@ -537,18 +574,74 @@ convert_single_database_safe <- function(met_df, database_column, metanetx_colum
 #' @return Updated sybilSBML model object
 update_exchange_reactions <- function(sbml_model) {
     
+    warnings_captured <- character(0)
+    
     tryCatch({
-        exchReactDF <- findExchReact(sbml_model)
-        exchReactDF <- exchReactDF[exchReactDF@uptake]
-        
-        for (i in 1:length(exchReactDF@react_id)) {
-            react_id_index <- which(sbml_model@react_id == exchReactDF@react_id[[i]])
-            met_name <- removeCompartment(exchReactDF@met_id[[i]])
-            new_react_id <- paste0("EX_", met_name, "_e")
-            sbml_model@react_id[[react_id_index]] <- new_react_id
+        # Check if required functions are available
+        if (!exists("findExchReact") || !exists("removeCompartment")) {
+            warning("Exchange reaction functions not available")
+            return(sbml_model)
         }
+        
+        # Safely attempt to find exchange reactions
+        exchReactDF <- tryCatch({
+            findExchReact(sbml_model)
+        }, error = function(e) {
+            warning("Could not find exchange reactions: ", e$message)
+            return(NULL)
+        })
+        
+        # Check if we got valid results
+        if (is.null(exchReactDF)) {
+            warning("Exchange reaction detection returned NULL")
+            return(sbml_model)
+        }
+        
+        # Check if exchReactDF has the expected structure
+        if (!methods::is(exchReactDF, "exchReact") && !is.data.frame(exchReactDF)) {
+            warning("Exchange reaction detection returned unexpected object type")
+            return(sbml_model)
+        }
+        
+        # Safely access uptake reactions
+        uptake_reactions <- tryCatch({
+            if (methods::is(exchReactDF, "exchReact")) {
+                exchReactDF[exchReactDF@uptake]
+            } else {
+                exchReactDF[exchReactDF$uptake, ]
+            }
+        }, error = function(e) {
+            warning("Could not filter uptake reactions: ", e$message)
+            return(NULL)
+        })
+        
+        if (is.null(uptake_reactions) || length(uptake_reactions@react_id) == 0) {
+            warning("No uptake reactions found")
+            return(sbml_model)
+        }
+        
+        # Process each reaction safely
+        for (i in 1:length(uptake_reactions@react_id)) {
+            tryCatch({
+                react_id_index <- which(sbml_model@react_id == uptake_reactions@react_id[[i]])
+                
+                # Check if reaction was found
+                if (length(react_id_index) == 0) {
+                    warning("Reaction ", uptake_reactions@react_id[[i]], " not found in model")
+                    next
+                }
+                
+                met_name <- removeCompartment(uptake_reactions@met_id[[i]])
+                new_react_id <- paste0("EX_", met_name, "_e")
+                sbml_model@react_id[[react_id_index]] <- new_react_id
+                
+            }, error = function(e) {
+                warning("Could not update reaction ", uptake_reactions@react_id[[i]], ": ", e$message)
+            })
+        }
+        
     }, error = function(e) {
-        cat("Warning: Could not update exchange reactions:", e$message, "\n")
+        warning("Could not update exchange reactions: ", e$message)
     })
     
     return(sbml_model)

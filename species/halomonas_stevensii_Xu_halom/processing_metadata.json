@@ -1,0 +1,40 @@
+{
+  "model_id": "halom",
+  "species_directory": "halomonas_stevensii_Xu_halom",
+  "start_time": "2025-06-14 19:58:45",
+  "input_file": "Halomonas_stevensii.gf.with_additional_reactions.xml",
+  "output_file": "halom_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "halom",
+    "total_metabolites": 1631,
+    "successful_conversions": 1629,
+    "metanetx_conversions": 1626,
+    "unchanged_metabolites": 2,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 99.9,
+    "metanetx_rate": 99.7
+  },
+  "pattern_detected": "simple_bigg",
+  "metabolites_total": 1631,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "halom",
+      "total_metabolites": 1631,
+      "successful_conversions": 1629,
+      "metanetx_conversions": 1626,
+      "unchanged_metabolites": 2,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 99.9,
+      "metanetx_rate": 99.7
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/halomonas_stevensii_Xu_halom/conversion_logs/halom_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/halomonas_stevensii_Xu_halom/conversion_logs/halom_conversion_summary.json"
+  },
+  "end_time": "2025-06-14 19:59:17",
+  "processing_time_seconds": 31.8246,
+  "success": true
+}

@@ -1,7 +1,7 @@
 {
   "model_id": "iGD1348",
   "species_directory": "ensifer_meliloti_iGD1348",
-  "start_time": "2025-06-09 16:36:19",
+  "start_time": "2025-06-14 19:58:14",
   "input_file": "iGD1348_input.xml",
   "output_file": "iGD1348_processed.xml",
   "problems_detected": [],
@@ -17,7 +17,6 @@
     "conversion_rate": 77.6,
     "metanetx_rate": 77.5
   },
-  "sbml_read_mode": "standard",
   "pattern_detected": "metanetx_seed",
   "databases_found": ["metanetx", "seed"],
   "metabolites_total": 1160,
@@ -36,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/ensifer_meliloti_iGD1348/conversion_logs/iGD1348_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/ensifer_meliloti_iGD1348/conversion_logs/iGD1348_conversion_summary.json"
   },
-  "end_time": "2025-06-09 16:36:51",
-  "processing_time_seconds": 32.1959,
+  "end_time": "2025-06-14 19:58:45",
+  "processing_time_seconds": 30.5913,
   "success": true
 }

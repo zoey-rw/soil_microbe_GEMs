@@ -1,0 +1,41 @@
+{
+  "model_id": "iMTZ22IC",
+  "species_directory": "methanothermobacter_thermautotrophicus_iMTZ22IC",
+  "start_time": "2025-06-14 20:01:26",
+  "input_file": "iMTZ22IC_unbound.xml",
+  "output_file": "iMTZ22IC_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iMTZ22IC",
+    "total_metabolites": 555,
+    "successful_conversions": 526,
+    "metanetx_conversions": 524,
+    "unchanged_metabolites": 29,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 94.8,
+    "metanetx_rate": 94.4
+  },
+  "pattern_detected": "bigg_chebi_kegg_pubchem_seed",
+  "databases_found": ["bigg", "seed", "kegg", "chebi", "pubchem"],
+  "metabolites_total": 555,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iMTZ22IC",
+      "total_metabolites": 555,
+      "successful_conversions": 526,
+      "metanetx_conversions": 524,
+      "unchanged_metabolites": 29,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 94.8,
+      "metanetx_rate": 94.4
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanothermobacter_thermautotrophicus_iMTZ22IC/conversion_logs/iMTZ22IC_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanothermobacter_thermautotrophicus_iMTZ22IC/conversion_logs/iMTZ22IC_conversion_summary.json"
+  },
+  "end_time": "2025-06-14 20:01:49",
+  "processing_time_seconds": 23.3592,
+  "success": true
+}

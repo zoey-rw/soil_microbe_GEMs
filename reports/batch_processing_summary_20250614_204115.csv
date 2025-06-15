@@ -1,0 +1,9 @@
+"species","processing_success","processing_time","pattern_detected","metabolites_total","metabolites_converted","conversion_rate","problems_detected","error_message"
+"agrobacterium_tumefaciens_iNX1344",FALSE,NA,NA,NA,NA,NA,NA,"Opening and ending tag mismatch: dummy line 0 and p [76]"
+"aspergillus_terreus_iJL1454",FALSE,NA,NA,NA,NA,NA,NA,NA
+"bacillus_pseudofirmus_Xu_bacill",FALSE,NA,NA,NA,NA,NA,NA,NA
+"methanosarcina_barkeri_iAF692",FALSE,NA,NA,NA,NA,NA,NA,NA
+"penicillium_rubens_iPrub22",TRUE,88.0296516418457,"bigg_chebi_kegg_metanetx_pubchem",5452,NA,99.5,0,NA
+"rhodococcus_jostii_iMT1174",FALSE,NA,NA,NA,NA,NA,NA,NA
+"sphingopyxis_granuli_iIG743",FALSE,NA,NA,NA,NA,NA,NA,NA
+"trichoderma_reesei_treesei",TRUE,30.0486612319946,"simple_bigg",1984,NA,99.8,0,NA

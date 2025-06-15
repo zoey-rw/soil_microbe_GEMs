@@ -1,0 +1,41 @@
+{
+  "model_id": "iAL1006",
+  "species_directory": "penicillium_rubens_iAL1006",
+  "start_time": "2025-06-14 20:05:17",
+  "input_file": "iAl1006 v1.00.xml",
+  "output_file": "iAL1006_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iAL1006",
+    "total_metabolites": 1352,
+    "successful_conversions": 76,
+    "metanetx_conversions": 76,
+    "unchanged_metabolites": 1276,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 5.6,
+    "metanetx_rate": 5.6
+  },
+  "pattern_detected": "simple_bigg",
+  "databases_found": ["chebi", "inchi"],
+  "metabolites_total": 1352,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iAL1006",
+      "total_metabolites": 1352,
+      "successful_conversions": 76,
+      "metanetx_conversions": 76,
+      "unchanged_metabolites": 1276,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 5.6,
+      "metanetx_rate": 5.6
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/penicillium_rubens_iAL1006/conversion_logs/iAL1006_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/penicillium_rubens_iAL1006/conversion_logs/iAL1006_conversion_summary.json"
+  },
+  "end_time": "2025-06-14 20:05:45",
+  "processing_time_seconds": 27.8722,
+  "success": true
+}

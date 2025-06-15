@@ -1,0 +1,72 @@
+{
+  "statistics": {
+    "model_id": "Afu2023",
+    "total_metabolites": 4046,
+    "successful_conversions": 3557,
+    "metanetx_conversions": 3557,
+    "unchanged_metabolites": 489,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 4046,
+    "conversion_rate": 87.9,
+    "metanetx_rate": 87.9
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 3557,
+      "percentage": 87.9
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 489,
+      "percentage": 12.1
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "cytoplasm",
+      "MetanetX conversion": 1325,
+      "Unchanged": 169
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 441,
+      "Unchanged": 44
+    },
+    {
+      "compartment": "golgi",
+      "MetanetX conversion": 16,
+      "Unchanged": 2
+    },
+    {
+      "compartment": "lipid_particle",
+      "MetanetX conversion": 45,
+      "Unchanged": 1
+    },
+    {
+      "compartment": "mitochondrion",
+      "MetanetX conversion": 772,
+      "Unchanged": 100
+    },
+    {
+      "compartment": "n",
+      "MetanetX conversion": 426,
+      "Unchanged": 51
+    },
+    {
+      "compartment": "peroxisome",
+      "MetanetX conversion": 270,
+      "Unchanged": 52
+    },
+    {
+      "compartment": "r",
+      "MetanetX conversion": 232,
+      "Unchanged": 70
+    },
+    {
+      "compartment": "v",
+      "MetanetX conversion": 30,
+      "Unchanged": 0
+    }
+  ]
+}

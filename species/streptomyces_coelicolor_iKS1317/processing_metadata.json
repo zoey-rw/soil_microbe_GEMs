@@ -1,7 +1,7 @@
 {
   "model_id": "iKS1317",
   "species_directory": "streptomyces_coelicolor_iKS1317",
-  "start_time": "2025-06-09 16:43:00",
+  "start_time": "2025-06-14 20:09:11",
   "input_file": "iKS1317_input.xml",
   "output_file": "iKS1317_processed.xml",
   "problems_detected": [],
@@ -17,7 +17,6 @@
     "conversion_rate": 90.6,
     "metanetx_rate": 90.6
   },
-  "sbml_read_mode": "standard",
   "pattern_detected": "bigg_chebi_kegg_metanetx",
   "databases_found": ["metanetx", "bigg", "kegg", "chebi"],
   "metabolites_total": 2064,
@@ -36,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/streptomyces_coelicolor_iKS1317/conversion_logs/iKS1317_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/streptomyces_coelicolor_iKS1317/conversion_logs/iKS1317_conversion_summary.json"
   },
-  "end_time": "2025-06-09 16:43:44",
-  "processing_time_seconds": 44.1048,
+  "end_time": "2025-06-14 20:09:53",
+  "processing_time_seconds": 41.4331,
   "success": true
 }

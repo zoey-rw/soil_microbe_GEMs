@@ -1,0 +1,41 @@
+{
+  "model_id": "iPrub22",
+  "species_directory": "penicillium_rubens_iPrub22",
+  "start_time": "2025-06-14 20:39:17",
+  "input_file": "iPrub22.sbml",
+  "output_file": "iPrub22_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iPrub22",
+    "total_metabolites": 5452,
+    "successful_conversions": 5423,
+    "metanetx_conversions": 5423,
+    "unchanged_metabolites": 29,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 4713,
+    "conversion_rate": 99.5,
+    "metanetx_rate": 99.5
+  },
+  "pattern_detected": "bigg_chebi_kegg_metanetx_pubchem",
+  "databases_found": ["metanetx", "bigg", "kegg", "chebi", "pubchem"],
+  "metabolites_total": 5452,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iPrub22",
+      "total_metabolites": 5452,
+      "successful_conversions": 5423,
+      "metanetx_conversions": 5423,
+      "unchanged_metabolites": 29,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 4713,
+      "conversion_rate": 99.5,
+      "metanetx_rate": 99.5
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/penicillium_rubens_iPrub22/conversion_logs/iPrub22_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/penicillium_rubens_iPrub22/conversion_logs/iPrub22_conversion_summary.json"
+  },
+  "end_time": "2025-06-14 20:40:45",
+  "processing_time_seconds": 88.0297,
+  "success": true
+}

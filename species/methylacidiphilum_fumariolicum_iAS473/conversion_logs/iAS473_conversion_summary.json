@@ -1,0 +1,42 @@
+{
+  "statistics": {
+    "model_id": "iAS473",
+    "total_metabolites": 667,
+    "successful_conversions": 664,
+    "metanetx_conversions": 664,
+    "unchanged_metabolites": 3,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 99.6,
+    "metanetx_rate": 99.6
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 664,
+      "percentage": 99.6
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 3,
+      "percentage": 0.4
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 567,
+      "Unchanged": 1
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 43,
+      "Unchanged": 0
+    },
+    {
+      "compartment": "p",
+      "MetanetX conversion": 54,
+      "Unchanged": 2
+    }
+  ]
+}

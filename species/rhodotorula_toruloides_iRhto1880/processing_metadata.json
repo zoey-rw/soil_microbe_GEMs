@@ -1,0 +1,41 @@
+{
+  "model_id": "iRhto1880",
+  "species_directory": "rhodotorula_toruloides_iRhto1880",
+  "start_time": "2025-06-14 20:07:34",
+  "input_file": "iRhtoC.xml",
+  "output_file": "iRhto1880_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iRhto1880",
+    "total_metabolites": 2029,
+    "successful_conversions": 1846,
+    "metanetx_conversions": 1832,
+    "unchanged_metabolites": 183,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 91,
+    "metanetx_rate": 90.3
+  },
+  "pattern_detected": "chebi_kegg_pubchem_seed",
+  "databases_found": ["seed", "kegg", "chebi", "pubchem"],
+  "metabolites_total": 2029,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iRhto1880",
+      "total_metabolites": 2029,
+      "successful_conversions": 1846,
+      "metanetx_conversions": 1832,
+      "unchanged_metabolites": 183,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 0,
+      "conversion_rate": 91,
+      "metanetx_rate": 90.3
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhodotorula_toruloides_iRhto1880/conversion_logs/iRhto1880_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/rhodotorula_toruloides_iRhto1880/conversion_logs/iRhto1880_conversion_summary.json"
+  },
+  "end_time": "2025-06-14 20:08:12",
+  "processing_time_seconds": 37.8164,
+  "success": true
+}

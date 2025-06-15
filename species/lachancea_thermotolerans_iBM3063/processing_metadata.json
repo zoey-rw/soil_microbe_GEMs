@@ -1,7 +1,7 @@
 {
   "model_id": "iBM3063",
   "species_directory": "lachancea_thermotolerans_iBM3063",
-  "start_time": "2025-06-09 16:37:32",
+  "start_time": "2025-06-14 19:59:55",
   "input_file": "iBM3063_input.xml",
   "output_file": "iBM3063_processed.xml",
   "problems_detected": [],
@@ -17,7 +17,6 @@
     "conversion_rate": 94.8,
     "metanetx_rate": 94.3
   },
-  "sbml_read_mode": "standard",
   "pattern_detected": "simple_bigg",
   "databases_found": ["metanetx", "kegg", "chebi"],
   "metabolites_total": 2732,
@@ -36,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/lachancea_thermotolerans_iBM3063/conversion_logs/iBM3063_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/lachancea_thermotolerans_iBM3063/conversion_logs/iBM3063_conversion_summary.json"
   },
-  "end_time": "2025-06-09 16:38:18",
-  "processing_time_seconds": 46.3618,
+  "end_time": "2025-06-14 20:00:38",
+  "processing_time_seconds": 43.2919,
   "success": true
 }

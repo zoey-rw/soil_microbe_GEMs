@@ -1,7 +1,7 @@
 {
   "model_id": "iBB1018",
   "species_directory": "bacillus_subtilis_iBB1018",
-  "start_time": "2025-06-09 18:54:05",
+  "start_time": "2025-06-14 19:56:18",
   "input_file": "Additional File S3 iBB1018.xml",
   "output_file": "iBB1018_processed.xml",
   "problems_detected": [],
@@ -32,10 +32,10 @@
       "conversion_rate": 76.8,
       "metanetx_rate": 76.8
     },
-    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bacillus_subtilis_iBB1018//conversion_logs/iBB1018_metabolite_conversions.csv",
-    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bacillus_subtilis_iBB1018//conversion_logs/iBB1018_conversion_summary.json"
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bacillus_subtilis_iBB1018/conversion_logs/iBB1018_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bacillus_subtilis_iBB1018/conversion_logs/iBB1018_conversion_summary.json"
   },
-  "end_time": "2025-06-09 18:54:39",
-  "processing_time_seconds": 34.7643,
+  "end_time": "2025-06-14 19:56:51",
+  "processing_time_seconds": 33.2241,
   "success": true
 }

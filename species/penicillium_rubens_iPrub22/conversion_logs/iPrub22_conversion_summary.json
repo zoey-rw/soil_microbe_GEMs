@@ -1,0 +1,37 @@
+{
+  "statistics": {
+    "model_id": "iPrub22",
+    "total_metabolites": 5452,
+    "successful_conversions": 5423,
+    "metanetx_conversions": 5423,
+    "unchanged_metabolites": 29,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 4713,
+    "conversion_rate": 99.5,
+    "metanetx_rate": 99.5
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 5423,
+      "percentage": 99.5
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 29,
+      "percentage": 0.5
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 5146,
+      "Unchanged": 26
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 277,
+      "Unchanged": 3
+    }
+  ]
+}

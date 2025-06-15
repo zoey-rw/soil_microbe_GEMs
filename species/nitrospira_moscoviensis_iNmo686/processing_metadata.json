@@ -1,7 +1,7 @@
 {
   "model_id": "iNmo686",
   "species_directory": "nitrospira_moscoviensis_iNmo686",
-  "start_time": "2025-06-09 16:40:16",
+  "start_time": "2025-06-14 20:04:14",
   "input_file": "iNmo686_input.xml",
   "output_file": "iNmo686_processed.xml",
   "problems_detected": [],
@@ -17,7 +17,6 @@
     "conversion_rate": 99.7,
     "metanetx_rate": 99.2
   },
-  "sbml_read_mode": "standard",
   "pattern_detected": "simple_bigg",
   "metabolites_total": 637,
   "conversion_log_files": {
@@ -35,7 +34,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrospira_moscoviensis_iNmo686/conversion_logs/iNmo686_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/nitrospira_moscoviensis_iNmo686/conversion_logs/iNmo686_conversion_summary.json"
   },
-  "end_time": "2025-06-09 16:40:41",
-  "processing_time_seconds": 25.4548,
+  "end_time": "2025-06-14 20:04:38",
+  "processing_time_seconds": 23.8776,
   "success": true
 }

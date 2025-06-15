@@ -1,7 +1,7 @@
 {
   "model_id": "iHN637",
   "species_directory": "clostridium_ljungdahlii_iHN637",
-  "start_time": "2025-06-09 16:35:48",
+  "start_time": "2025-06-14 19:57:47",
   "input_file": "iHN637_input.xml",
   "output_file": "iHN637_processed.xml",
   "problems_detected": [],
@@ -17,7 +17,6 @@
     "conversion_rate": 100,
     "metanetx_rate": 100
   },
-  "sbml_read_mode": "standard",
   "pattern_detected": "bigg_chebi_kegg_metanetx_seed",
   "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi"],
   "metabolites_total": 698,
@@ -36,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/clostridium_ljungdahlii_iHN637/conversion_logs/iHN637_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/clostridium_ljungdahlii_iHN637/conversion_logs/iHN637_conversion_summary.json"
   },
-  "end_time": "2025-06-09 16:36:19",
-  "processing_time_seconds": 31.2057,
+  "end_time": "2025-06-14 19:58:14",
+  "processing_time_seconds": 27.7499,
   "success": true
 }

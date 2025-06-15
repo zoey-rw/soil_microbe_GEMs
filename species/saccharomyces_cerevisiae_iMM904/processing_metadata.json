@@ -1,7 +1,7 @@
 {
   "model_id": "iMM904",
   "species_directory": "saccharomyces_cerevisiae_iMM904",
-  "start_time": "2025-06-09 16:41:58",
+  "start_time": "2025-06-14 20:08:12",
   "input_file": "iMM904_input.xml",
   "output_file": "iMM904_processed.xml",
   "problems_detected": [],
@@ -17,7 +17,6 @@
     "conversion_rate": 100,
     "metanetx_rate": 100
   },
-  "sbml_read_mode": "standard",
   "pattern_detected": "bigg_chebi_kegg_metanetx_seed",
   "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi"],
   "metabolites_total": 1226,
@@ -36,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/saccharomyces_cerevisiae_iMM904/conversion_logs/iMM904_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/saccharomyces_cerevisiae_iMM904/conversion_logs/iMM904_conversion_summary.json"
   },
-  "end_time": "2025-06-09 16:42:33",
-  "processing_time_seconds": 34.2956,
+  "end_time": "2025-06-14 20:08:45",
+  "processing_time_seconds": 32.5119,
   "success": true
 }

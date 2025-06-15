@@ -1,0 +1,41 @@
+{
+  "model_id": "iMR557",
+  "species_directory": "methanococcus_maripaludis_iMR557",
+  "start_time": "2025-06-14 20:00:38",
+  "input_file": "iMR557.xml",
+  "output_file": "iMR557_processed.xml",
+  "problems_detected": [],
+  "warnings": [],
+  "conversion_summary": {
+    "model_id": "iMR557",
+    "total_metabolites": 725,
+    "successful_conversions": 696,
+    "metanetx_conversions": 693,
+    "unchanged_metabolites": 29,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 725,
+    "conversion_rate": 96,
+    "metanetx_rate": 95.6
+  },
+  "pattern_detected": "simple_bigg",
+  "databases_found": "kegg",
+  "metabolites_total": 725,
+  "conversion_log_files": {
+    "statistics": {
+      "model_id": "iMR557",
+      "total_metabolites": 725,
+      "successful_conversions": 696,
+      "metanetx_conversions": 693,
+      "unchanged_metabolites": 29,
+      "failed_conversions": 0,
+      "encoding_fixes_applied": 725,
+      "conversion_rate": 96,
+      "metanetx_rate": 95.6
+    },
+    "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanococcus_maripaludis_iMR557/conversion_logs/iMR557_metabolite_conversions.csv",
+    "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/methanococcus_maripaludis_iMR557/conversion_logs/iMR557_conversion_summary.json"
+  },
+  "end_time": "2025-06-14 20:01:01",
+  "processing_time_seconds": 23.2597,
+  "success": true
+}

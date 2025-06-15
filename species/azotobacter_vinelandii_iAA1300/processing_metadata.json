@@ -1,7 +1,7 @@
 {
   "model_id": "iAA1300",
   "species_directory": "azotobacter_vinelandii_iAA1300",
-  "start_time": "2025-06-09 16:33:47",
+  "start_time": "2025-06-14 19:55:38",
   "input_file": "iAA1300_input.xml",
   "output_file": "iAA1300_processed.xml",
   "problems_detected": [],
@@ -17,7 +17,6 @@
     "conversion_rate": 79.1,
     "metanetx_rate": 79.1
   },
-  "sbml_read_mode": "standard",
   "pattern_detected": "bigg_chebi_kegg_metanetx_seed",
   "databases_found": ["metanetx", "bigg", "seed", "kegg", "chebi"],
   "metabolites_total": 1958,
@@ -36,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/azotobacter_vinelandii_iAA1300/conversion_logs/iAA1300_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/azotobacter_vinelandii_iAA1300/conversion_logs/iAA1300_conversion_summary.json"
   },
-  "end_time": "2025-06-09 16:34:39",
-  "processing_time_seconds": 52.563,
+  "end_time": "2025-06-14 19:56:18",
+  "processing_time_seconds": 40.4658,
   "success": true
 }

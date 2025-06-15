@@ -1,0 +1,38 @@
+{
+  "statistics": {
+    "model_id": "treesei",
+    "total_metabolites": 1984,
+    "successful_conversions": 1980,
+    "metanetx_conversions": 1979,
+    "unchanged_metabolites": 4,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 99.8,
+    "metanetx_rate": 99.7
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 1979,
+      "percentage": 99.7
+    },
+    {
+      "conversion_type": "Other conversion",
+      "count": 1,
+      "percentage": 0.1
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 4,
+      "percentage": 0.2
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 1979,
+      "Other conversion": 1,
+      "Unchanged": 4
+    }
+  ]
+}

@@ -16,103 +16,127 @@ source("validate_model_growth.R")     # Validation functions
 #' @param species_filter Optional vector of species to process (for testing)
 #' @return Summary of processing results
 batch_process_remote <- function(base_dir, ref_data, deprecated_recode, species_filter = NULL) {
-  
-  cat("=== BATCH PROCESSING (REMOTE) ===\n")
-  cat("Processing SBML files with sybilSBML...\n\n")
-  
-  # Find all species directories
-  species_dirs <- list.dirs(base_dir, recursive = FALSE, full.names = TRUE)
-  species_names <- basename(species_dirs)
-  
-  if (!is.null(species_filter)) {
-    species_dirs <- species_dirs[species_names %in% species_filter]
-    species_names <- species_names[species_names %in% species_filter]
-  }
-  
-  cat("Found", length(species_dirs), "species directories\n")
-  
-  # Initialize results tracking
-  results_summary <- data.frame(
-    species = species_names,
-    processing_success = FALSE,
-    processing_time = NA,
-    pattern_detected = NA,
-    metabolites_total = NA,
-    metabolites_converted = NA,
-    conversion_rate = NA,
-    problems_detected = NA,
-    error_message = NA,
-    stringsAsFactors = FALSE
-  )
-  
-  start_time <- Sys.time()
-  
-  # Process each species
-  for (i in seq_along(species_dirs)) {
-    species_dir <- species_dirs[i]
-    species_name <- species_names[i]
     
-    cat("\n--- Processing", i, "of", length(species_dirs), ":", species_name, "---\n")
+    cat("=== BATCH PROCESSING (REMOTE) ===\n")
+    cat("Processing SBML files with sybilSBML...\n\n")
     
-    tryCatch({
-      result <- process_single_species(species_dir, ref_data, deprecated_recode)
-      
-      if (result$success) {
-        results_summary[i, "processing_success"] <- TRUE
-        results_summary[i, "processing_time"] <- result$processing_log$processing_time_seconds
-        results_summary[i, "pattern_detected"] <- result$processing_log$pattern_detected
-        results_summary[i, "metabolites_total"] <- result$processing_log$metabolites_total
-        results_summary[i, "metabolites_converted"] <- result$processing_log$metabolites_standardized
-        results_summary[i, "conversion_rate"] <- result$processing_log$conversion_summary$conversion_rate
-        results_summary[i, "problems_detected"] <- length(result$processing_log$problems_detected)
-        
-        cat("✓ Success! Conversion rate:", result$processing_log$conversion_summary$conversion_rate, "%\n")
-      } else {
-        results_summary[i, "error_message"] <- result$error
-        cat("✗ Failed:", result$error, "\n")
-      }
-      
-    }, error = function(e) {
-      results_summary[i, "error_message"] <- e$message
-      cat("✗ Unexpected error:", e$message, "\n")
-    })
-  }
-  
-  end_time <- Sys.time()
-  total_time <- as.numeric(difftime(end_time, start_time, units = "mins"))
-  
-  # Summary statistics
-  cat("\n=== BATCH PROCESSING SUMMARY ===\n")
-  cat("Total time:", round(total_time, 2), "minutes\n")
-  cat("Species processed:", nrow(results_summary), "\n")
-  cat("Successful:", sum(results_summary$processing_success), "\n")
-  cat("Failed:", sum(!results_summary$processing_success), "\n")
-  
-  if (any(results_summary$processing_success)) {
-    cat("Average conversion rate:", round(mean(results_summary$conversion_rate, na.rm = TRUE), 1), "%\n")
-    cat("Average processing time:", round(mean(results_summary$processing_time, na.rm = TRUE), 2), "seconds\n")
-  }
-  
-  # Show failed species
-  failed_species <- results_summary[!results_summary$processing_success, ]
-  if (nrow(failed_species) > 0) {
-    cat("\nFailed species:\n")
-    for (i in 1:nrow(failed_species)) {
-      cat("  -", failed_species[i, "species"], ":", failed_species[i, "error_message"], "\n")
+    # Find all species directories
+    species_dirs <- list.dirs(base_dir, recursive = FALSE, full.names = TRUE)
+    species_names <- basename(species_dirs)
+    
+    if (!is.null(species_filter)) {
+        species_dirs <- species_dirs[species_names %in% species_filter]
+        species_names <- species_names[species_names %in% species_filter]
     }
-  }
-  
-  # Write summary report
-  summary_file <- file.path(dirname(base_dir), "reports", "batch_processing_summary.csv")
-  dir.create(dirname(summary_file), showWarnings = FALSE, recursive = TRUE)
-  write.csv(results_summary, summary_file, row.names = FALSE)
-  cat("\nDetailed results saved to:", summary_file, "\n")
-  
-  # Create transfer package preparation
-  cat("\n=== PREPARING TRANSFER PACKAGE ===\n")
-  prepare_transfer_package(base_dir, results_summary)
-  
-  return(results_summary)
+    
+    cat("Found", length(species_dirs), "species directories\n")
+    
+    # Initialize results tracking with proper defaults
+    results_summary <- data.frame(
+        species = species_names,
+        processing_success = FALSE,
+        processing_time = NA_real_,
+        pattern_detected = NA_character_,
+        metabolites_total = NA_integer_,
+        metabolites_converted = NA_integer_,
+        conversion_rate = NA_real_,
+        problems_detected = NA_integer_,
+        error_message = NA_character_,
+        stringsAsFactors = FALSE
+    )
+    
+    start_time <- Sys.time()
+    
+    # Process each species
+    for (i in seq_along(species_dirs)) {
+        species_dir <- species_dirs[i]
+        species_name <- species_names[i]
+        
+        cat("\n--- Processing", i, "of", length(species_dirs), ":", species_name, "---\n")
+        
+        tryCatch({
+            result <- process_single_species(species_dir, ref_data, deprecated_recode)
+            
+            if (result$success) {
+                results_summary[i, "processing_success"] <- TRUE
+                
+                # Safe assignment with null checking
+                if (!is.null(result$processing_log$processing_time_seconds)) {
+                    results_summary[i, "processing_time"] <- result$processing_log$processing_time_seconds
+                }
+                if (!is.null(result$processing_log$pattern_detected)) {
+                    results_summary[i, "pattern_detected"] <- result$processing_log$pattern_detected
+                }
+                if (!is.null(result$processing_log$metabolites_total)) {
+                    results_summary[i, "metabolites_total"] <- result$processing_log$metabolites_total
+                }
+                if (!is.null(result$processing_log$metabolites_standardized)) {
+                    results_summary[i, "metabolites_converted"] <- result$processing_log$metabolites_standardized
+                }
+                if (!is.null(result$processing_log$conversion_summary$conversion_rate)) {
+                    results_summary[i, "conversion_rate"] <- result$processing_log$conversion_summary$conversion_rate
+                }
+                if (!is.null(result$processing_log$problems_detected)) {
+                    results_summary[i, "problems_detected"] <- length(result$processing_log$problems_detected)
+                }
+                
+                cat("✓ Success! Conversion rate:", 
+                    ifelse(is.null(result$processing_log$conversion_summary$conversion_rate), "Unknown", 
+                           paste0(result$processing_log$conversion_summary$conversion_rate, "%")), "\n")
+            } else {
+                if (!is.null(result$error)) {
+                    results_summary[i, "error_message"] <- result$error
+                }
+                cat("✗ Failed:", ifelse(is.null(result$error), "Unknown error", result$error), "\n")
+            }
+            
+        }, error = function(e) {
+            results_summary[i, "error_message"] <- e$message
+            cat("✗ Unexpected error:", e$message, "\n")
+        })
+    }
+    
+    end_time <- Sys.time()
+    total_time <- as.numeric(difftime(end_time, start_time, units = "mins"))
+    
+    # Summary statistics with safe calculations
+    cat("\n=== BATCH PROCESSING SUMMARY ===\n")
+    cat("Total time:", round(total_time, 2), "minutes\n")
+    cat("Species processed:", nrow(results_summary), "\n")
+    cat("Successful:", sum(results_summary$processing_success, na.rm = TRUE), "\n")
+    cat("Failed:", sum(!results_summary$processing_success, na.rm = TRUE), "\n")
+    
+    if (any(results_summary$processing_success, na.rm = TRUE)) {
+        valid_rates <- results_summary$conversion_rate[!is.na(results_summary$conversion_rate)]
+        valid_times <- results_summary$processing_time[!is.na(results_summary$processing_time)]
+        
+        if (length(valid_rates) > 0) {
+            cat("Average conversion rate:", round(mean(valid_rates), 1), "%\n")
+        }
+        if (length(valid_times) > 0) {
+            cat("Average processing time:", round(mean(valid_times), 2), "seconds\n")
+        }
+    }
+    
+    # Show failed species
+    failed_species <- results_summary[!results_summary$processing_success, ]
+    if (nrow(failed_species) > 0) {
+        cat("\nFailed species:\n")
+        for (i in 1:nrow(failed_species)) {
+            error_msg <- failed_species[i, "error_message"]
+            if (is.na(error_msg)) error_msg <- "Unknown error"
+            cat("  -", failed_species[i, "species"], ":", error_msg, "\n")
+        }
+    }
+    
+    # Write summary report with timestamp
+    timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
+    summary_file <- file.path(dirname(base_dir), "reports", paste0("batch_processing_summary_", timestamp, ".csv"))
+    dir.create(dirname(summary_file), showWarnings = FALSE, recursive = TRUE)
+    write.csv(results_summary, summary_file, row.names = FALSE)
+    cat("\nDetailed results saved to:", summary_file, "\n")
+    
+    return(results_summary)
 }
 
 
@@ -540,6 +564,7 @@ library(xml2)  # For RDF parsing
 
 source("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/pipeline/process_sbml_species.R")
 source("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/pipeline/sbml_processing_utils.R")
+source("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/pipeline/processing_utils.R")
 
 ref_data <- readRDS("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/reference_data/metanetx_reference_data.rds")
 deprecated_recode <- readRDS("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/reference_data/deprecated_recode_mets.rds")
@@ -557,6 +582,10 @@ test_species <- c("azotobacter_vinelandii_iAA1300",
                   "nitrospira_moscoviensis_iNmo686", "pseudomonas_putida_iJN1462", 
                   "rhizophagus_irregularis_iRi1574", "saccharomyces_cerevisiae_iMM904", 
                   "staphylococcus_aureus_iSB619", "streptomyces_coelicolor_iKS1317")
+
+failed_species = c("agrobacterium_tumefaciens_iNX1344","aspergillus_terreus_iJL1454","bacillus_pseudofirmus_Xu_bacill",
+                   "methanosarcina_barkeri_iAF692","penicillium_rubens_iPrub22","rhodococcus_jostii_iMT1174","sphingopyxis_granuli_iIG743",
+                   "trichoderma_reesei_treesei")
 
 results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", 
                                ref_data, deprecated_recode, test_species)
