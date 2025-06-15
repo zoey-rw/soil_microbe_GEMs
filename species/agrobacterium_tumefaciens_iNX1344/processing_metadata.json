@@ -1,7 +1,7 @@
 {
   "model_id": "iNX1344",
   "species_directory": "agrobacterium_tumefaciens_iNX1344",
-  "start_time": "2025-06-14 20:38:46",
+  "start_time": "2025-06-14 21:06:34",
   "input_file": "iNX1344_original.xml",
   "output_file": "iNX1344_processed.xml",
   "problems_detected": [],
@@ -36,5 +36,5 @@
   },
   "success": false,
   "error": "Opening and ending tag mismatch: dummy line 0 and p [76]",
-  "end_time": "2025-06-14 20:39:17"
+  "end_time": "2025-06-14 21:07:04"
 }
