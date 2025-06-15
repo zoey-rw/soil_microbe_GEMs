@@ -1,6 +1,6 @@
 {
   "model_id": "cesiri",
-  "validation_timestamp": "2025-06-14 21:53:17",
+  "validation_timestamp": "2025-06-15 15:31:07",
   "input_file": "Cesiribacter_andamanensis_AMV16.gf.with_additional_reactions.xml",
   "processed_file": "cesiri_processed.xml",
   "input_readable_cobra": true,

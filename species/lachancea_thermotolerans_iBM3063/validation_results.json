@@ -1,6 +1,6 @@
 {
   "model_id": "iBM3063",
-  "validation_timestamp": "2025-06-15 01:02:33",
+  "validation_timestamp": "2025-06-15 15:33:06",
   "input_file": "iBM3063_input.xml",
   "processed_file": "iBM3063_processed.xml",
   "input_readable_cobra": true,

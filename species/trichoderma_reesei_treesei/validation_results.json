@@ -1,6 +1,6 @@
 {
   "model_id": "treesei",
-  "validation_timestamp": "2025-06-14 21:54:30",
+  "validation_timestamp": "2025-06-15 15:42:03",
   "input_file": "MODEL1302010019_url.xml",
   "processed_file": "treesei_processed.xml",
   "input_readable_cobra": true,

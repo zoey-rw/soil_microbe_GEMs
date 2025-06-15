@@ -1,6 +1,6 @@
 {
   "model_id": "Afu2023",
-  "validation_timestamp": "2025-06-14 21:53:02",
+  "validation_timestamp": "2025-06-15 15:29:00",
   "input_file": "Pan_Aspergillus_fumigatus.xml",
   "processed_file": "Afu2023_processed.xml",
   "input_readable_cobra": true,

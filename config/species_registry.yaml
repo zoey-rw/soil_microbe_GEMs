@@ -822,7 +822,7 @@ species:
     species_strain: "leguminosarum bv. viciae 3841"
     description: "rhizobium"
     publication:
-      citation: null
+      citation: "Schulte et al. 2022"
       source_link: "https://github.com/CarolinSchulte/Rlv3841-lifestyles"
       download_source: "Github repository"
     processing_status:
@@ -830,3 +830,21 @@ species:
       validated: false
       annotation_pattern: null
     curation_notes: "Specific to pea rhizosphere"
+
+  iGR1773:
+    model_id: "iGR1773"
+    organism: "Rhodococcus opacus PD630"
+    directory: "rhodococcus_opacus_iGR1773"
+    kingdom: "Bacteria"
+    phylum: "Actinomycetota"
+    genus: "Rhodococcus"
+    species_strain: "opacus PD630"
+    description: "present in agricultural soils"
+    publication:
+      citation: "Roell et al. 2023"
+      source_link: "https://github.com/LBLQMM/RhodococcusGSM/blob/main/models/r_opacus_annotated_curated.xml"
+      download_source: "Github repository"
+    processing_status:
+      processed: false
+      validated: false
+      annotation_pattern: null

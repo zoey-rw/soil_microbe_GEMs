@@ -1,6 +1,6 @@
 {
   "model_id": "arthro",
-  "validation_timestamp": "2025-06-14 21:52:59",
+  "validation_timestamp": "2025-06-15 15:28:35",
   "input_file": "290340.10.model.gf.full.atrazine.xml",
   "processed_file": "arthro_processed.xml",
   "input_readable_cobra": true,

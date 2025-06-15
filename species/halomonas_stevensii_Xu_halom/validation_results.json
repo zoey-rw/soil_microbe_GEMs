@@ -1,6 +1,6 @@
 {
   "model_id": "halom",
-  "validation_timestamp": "2025-06-14 21:53:24",
+  "validation_timestamp": "2025-06-15 15:32:28",
   "input_file": "Halomonas_stevensii.gf.with_additional_reactions.xml",
   "processed_file": "halom_processed.xml",
   "input_readable_cobra": true,
