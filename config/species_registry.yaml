@@ -829,4 +829,4 @@ species:
       processed: false
       validated: false
       annotation_pattern: null
-    curation_notes: "Converted from Matlab via cobra.io"
+    curation_notes: "Specific to pea rhizosphere"
