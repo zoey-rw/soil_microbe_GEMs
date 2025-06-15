@@ -2,7 +2,8 @@
 # Modular functions extracted from main processing pipeline
 
 library(stringr)
-library(tidyverse)
+library(dplyr)
+library(readr)
 library(jsonlite)
 library(sybilSBML)
 
@@ -23,15 +24,16 @@ SBML_FALLBACK_PARAMS <- list(
 # Database priority order (consolidates the scattered priorities)
 DATABASE_PRIORITY <- c("metanetx", "bigg", "seed", "kegg", "chebi", "hmdb", "pubchem")
 
-# Common compartment mappings
+# Common compartment mappings - comprehensive list including variations
 COMPARTMENT_MAPPINGS <- c(
-    "Cytosol" = "c", "Cytoplasm" = "c", "cytosol" = "c",
-    "extracellular space" = "e", "extracellular" = "e", "Extra_organism" = "e",
-    "Periplasm" = "p", "periplasm" = "p",
-    "Mitochondria" = "m", "mitochondria" = "m",
-    "Nucleus" = "n", "nucleus" = "n",
-    "Vacuole" = "v", "vacuole" = "v",
-    "Endoplasmic_reticulum" = "r", "endoplasmic_reticulum" = "r"
+    "Cytosol" = "c", "Cytoplasm" = "c", "cytosol" = "c", "cytoplasm" = "c",
+    "extracellular space" = "e", "extracellular" = "e", "Extra_organism" = "e", 
+    "extra_organism" = "e", "external" = "e", "medium" = "e",
+    "Periplasm" = "p", "periplasm" = "p", "periplasmic" = "e",
+    "Mitochondria" = "m", "mitochondria" = "m", "mitochondrial" = "m",
+    "Nucleus" = "n", "nucleus" = "n", "nuclear" = "n",
+    "Vacuole" = "v", "vacuole" = "v", "vacuolar" = "v",
+    "Endoplasmic_reticulum" = "r", "endoplasmic_reticulum" = "r", "ER" = "r"
 )
 
 #' Standardized file discovery for SBML processing
@@ -44,10 +46,6 @@ discover_sbml_files <- function(species_dir, model_id) {
     xml_files <- list.files(species_dir, pattern = "\\.xml$", full.names = TRUE)
     sbml_files <- list.files(species_dir, pattern = "\\.sbml$", full.names = TRUE)
     all_files <- c(xml_files, sbml_files)
-    
-    if (length(all_files) == 0) {
-        stop("No XML/SBML files found in ", species_dir)
-    }
     
     processed_patterns <- c("_processed", "_cobra_validated", "_modified_cobra", "COBRA-sbml3")
     
@@ -450,18 +448,129 @@ read_sbml_with_fallbacks <- function(input_file, config = list()) {
 # COMPARTMENT PROCESSING UTILITIES
 # =============================================================================
 
-#' Standardize compartment names using centralized mappings
+#' Standardize compartment names with robust mapping and debugging
 #' @param sbml_model SBML model object
 #' @return Named vector of standardized compartment mappings
 standardize_compartments <- function(sbml_model) {
-    compart_key <- sbml_model@mod_compart
-    names(compart_key) <- 1:length(sbml_model@mod_compart)
     
-    # Use the centralized COMPARTMENT_MAPPINGS constant
-    compart_key <- recode(compart_key, !!!COMPARTMENT_MAPPINGS)
+    # Get compartment names and create mapping
+    compartment_names <- sbml_model@mod_compart
+    compartment_indices <- 1:length(compartment_names)
+    
+    cat("  Original compartments found (", length(compartment_names), "):", paste(compartment_names, collapse = ", "), "\n")
+    
+    # Start with original compartment names
+    compart_key <- compartment_names
+    names(compart_key) <- compartment_indices
+    
+    # Apply known mappings with exact matching first
+    for (i in seq_along(compart_key)) {
+        original_name <- compart_key[i]
+        
+        # Direct exact match in mapping table
+        if (original_name %in% names(COMPARTMENT_MAPPINGS)) {
+            compart_key[i] <- COMPARTMENT_MAPPINGS[[original_name]]
+            cat("    Mapped '", original_name, "' -> '", compart_key[i], "'\n")
+        }
+    }
+    
+    # Apply additional transformations
     compart_key <- gsub("0$", "", compart_key)  # Remove trailing zeros
     
+    # Apply heuristic mappings for any remaining unrecognized compartments
+    for (i in seq_along(compart_key)) {
+        comp_name <- compart_key[i]
+        
+        # Skip if already a standard single-letter compartment
+        if (comp_name %in% c("c", "e", "p", "m", "n", "v", "r", "x")) {
+            next
+        }
+        
+        comp_lower <- tolower(comp_name)
+        original_name <- comp_name
+        
+        # Apply heuristic mapping based on keywords
+        if (grepl("cyto|intra|cell", comp_lower) && !grepl("extra", comp_lower)) {
+            compart_key[i] <- "c"
+        } else if (grepl("extra|extern|outside|medium|environment", comp_lower)) {
+            compart_key[i] <- "e"
+        } else if (grepl("peri", comp_lower)) {
+            compart_key[i] <- "p"
+        } else if (grepl("mito", comp_lower)) {
+            compart_key[i] <- "m"
+        } else if (grepl("nucl", comp_lower)) {
+            compart_key[i] <- "n"
+        } else if (grepl("vac", comp_lower)) {
+            compart_key[i] <- "v"
+        } else if (grepl("endoplasm|reticul", comp_lower)) {
+            compart_key[i] <- "r"
+        } else {
+            # Keep original name but make it safe for SBML
+            safe_name <- make_safe_compartment_name(comp_name)
+            compart_key[i] <- safe_name
+        }
+        
+        if (compart_key[i] != original_name) {
+            cat("    Heuristic mapping '", original_name, "' -> '", compart_key[i], "'\n")
+        }
+    }
+    
+    cat("  Final compartment mapping:", paste(paste(names(compart_key), compart_key, sep = "->"), collapse = ", "), "\n")
+    
+    # Critical validation: ensure no compartments became NA or empty
+    if (any(is.na(compart_key)) || any(compart_key == "")) {
+        na_indices <- which(is.na(compart_key) | compart_key == "")
+        cat("  ERROR: Some compartments became NA or empty:\n")
+        for (idx in na_indices) {
+            cat("    Index", idx, ": '", compartment_names[idx], "' -> NA/empty\n")
+        }
+        stop("CRITICAL: Compartment mapping failed - some compartments became NA")
+    }
+    
+    # Ensure we haven't accidentally created duplicates where there were none
+    original_unique <- length(unique(compartment_names))
+    final_unique <- length(unique(compart_key))
+    
+    if (final_unique < original_unique) {
+        cat("  Warning: Compartment mapping reduced unique count from", original_unique, "to", final_unique, "\n")
+        cat("  This may cause metabolite ID collisions\n")
+        
+        # Show which compartments were merged
+        merged_comps <- table(compart_key)
+        multi_mapped <- merged_comps[merged_comps > 1]
+        if (length(multi_mapped) > 0) {
+            cat("  Compartments mapped to same target:\n")
+            for (target in names(multi_mapped)) {
+                sources <- compartment_names[compart_key == target]
+                cat("    '", target, "' <- ", paste(sources, collapse = ", "), "\n")
+            }
+        }
+    }
+    
     return(compart_key)
+}
+
+#' Create safe compartment name that won't cause SBML issues
+#' @param comp_name Original compartment name  
+#' @return Safe compartment identifier
+make_safe_compartment_name <- function(comp_name) {
+    
+    # Remove problematic characters and normalize
+    safe_name <- gsub("[^a-zA-Z0-9_]", "_", comp_name)
+    safe_name <- gsub("^_+|_+$", "", safe_name)  # Remove leading/trailing underscores
+    safe_name <- gsub("_+", "_", safe_name)      # Collapse multiple underscores
+    
+    # Ensure it's not empty and starts with letter
+    if (safe_name == "" || grepl("^[0-9]", safe_name)) {
+        safe_name <- paste0("comp_", safe_name)
+    }
+    
+    # Truncate if too long
+    if (nchar(safe_name) > 10) {
+        safe_name <- substr(safe_name, 1, 10)
+    }
+    
+    return(tolower(safe_name))
 }
 
 # =============================================================================
@@ -896,4 +1005,3 @@ merge_lists <- function(list1, list2) {
     }
     return(list1)
 }
-

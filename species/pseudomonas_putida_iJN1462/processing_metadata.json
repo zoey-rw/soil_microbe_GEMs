@@ -1,7 +1,7 @@
 {
   "model_id": "iJN1462",
   "species_directory": "pseudomonas_putida_iJN1462",
-  "start_time": "2025-06-14 20:06:22",
+  "start_time": "2025-06-14 23:41:56",
   "input_file": "iJN1462_input.xml",
   "output_file": "iJN1462_processed.xml",
   "problems_detected": [],
@@ -35,7 +35,7 @@
     "log_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/pseudomonas_putida_iJN1462/conversion_logs/iJN1462_metabolite_conversions.csv",
     "summary_file": "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/pseudomonas_putida_iJN1462/conversion_logs/iJN1462_conversion_summary.json"
   },
-  "end_time": "2025-06-14 20:07:04",
-  "processing_time_seconds": 41.3674,
+  "end_time": "2025-06-14 23:42:38",
+  "processing_time_seconds": 41.5316,
   "success": true
 }
