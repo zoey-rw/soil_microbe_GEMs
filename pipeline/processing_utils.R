@@ -43,9 +43,28 @@ COMPARTMENT_MAPPINGS <- c(
 #' @return List with input_file and output_file paths
 discover_sbml_files <- function(species_dir, model_id) {
     
+    # Check if this is a carvefungi directory structure
+    input_subdir <- file.path(species_dir, "input")
+    processed_subdir <- file.path(species_dir, "processed")
+    
+    if (dir.exists(input_subdir)) {
+        # Carvefungi structure: input files in input/, output to processed/
+        search_dir <- input_subdir
+        
+        # Create processed directory if it doesn't exist
+        if (!dir.exists(processed_subdir)) {
+            dir.create(processed_subdir, recursive = TRUE)
+        }
+        output_dir <- processed_subdir
+    } else {
+        # Original structure: files directly in species directory
+        search_dir <- species_dir
+        output_dir <- species_dir
+    }
+    
     # Look for both .xml and .sbml files
-    xml_files <- list.files(species_dir, pattern = "\\.xml$", full.names = TRUE)
-    sbml_files <- list.files(species_dir, pattern = "\\.sbml$", full.names = TRUE)
+    xml_files <- list.files(search_dir, pattern = "\\.xml$", full.names = TRUE)
+    sbml_files <- list.files(search_dir, pattern = "\\.sbml$", full.names = TRUE)
     all_files <- c(xml_files, sbml_files)
     
     processed_patterns <- c("_processed", "_cobra_validated", "_modified_cobra", "COBRA-sbml3")
@@ -55,7 +74,7 @@ discover_sbml_files <- function(species_dir, model_id) {
     input_candidates <- setdiff(all_files, processed_files)
     
     if (length(input_candidates) == 0) {
-        stop("No input XML/SBML file found in ", species_dir)
+        stop("No input XML/SBML file found in ", search_dir)
     }
     
     # Consistent file selection logic
@@ -68,7 +87,7 @@ discover_sbml_files <- function(species_dir, model_id) {
         }
     }
     
-    output_file <- file.path(species_dir, paste0(model_id, "_processed.xml"))
+    output_file <- file.path(output_dir, paste0(model_id, "_processed.xml"))
     
     return(list(
         input_file = input_file,
