@@ -3,9 +3,9 @@
 ```mermaid
 flowchart TD
     A1[40+ Manually-Curated GEMs:<br/>Heterogeneous publications] --> B
-    A2[100+ Template-Based GEMs:<br/>Soil fungi, bacteria, and archaea] --> B[SBML Preprocessing:<br/>Error recovery for problematic files]
+    A2[500+ Template-Based GEMs:<br/>Soil fungi, bacteria, and archaea] --> B[SBML Preprocessing:<br/>Error recovery for problematic files]
     B --> C[Metabolite Standardization:<br/>Pattern detection, extraction & conversion]
-    C --> D[Growth Validation:<br/>Verify model equivalence using cobrapy]
+    C --> D[Growth Validation:<br/>Verify model equivalence using COBRApy]
     C --> E[Output for Multispecies Frameworks:<br/>Community modeling integration with MICOM and COMETS]
     
     style A1 fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
@@ -15,56 +15,60 @@ flowchart TD
     style D fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
     style E fill:#fafafa,stroke:#616161,stroke-width:2px
 ```
-Genome-scale Metabolic Models (GEMs) represent state-of-the-art knowledge for the genomic basis of metabolism for individual microbial species. However, the process of refining the 1000+ reactions within a GEM is time-intensive, and many published GEMs use heterogeneous metabolite annotation formats that prevent integration into multi-species modeling frameworks. For uncultured species that comprise the majority of the soil microbiome, template-based algorithms such as CarveMe and CarveFungi provide the closest approximation to manually-curated GEMs.
 
-This repository provides an automated pipeline that standardizes metabolite annotations across both manually-curated and template-based GEMs, enabling their integration into community modeling frameworks. The pipeline handles diverse annotation formats, ensures simulation equivalence, and outputs models ready for constraint-based analysis of soil microbiome interactions.
+Genome-scale Metabolic Models (GEMs) represent the genomic basis of metabolism for individual microbial species. Soil microbiomes present unique modeling challenges due to extreme diversity, complex interactions, and the predominance of uncultured species. Most soil microbes cannot be grown in pure culture, making template-based modeling approaches essential for community-level simulations.
 
-### Repository Structure
-Each organism has its own directory containing the original SBML files and processed versions. Models are sourced from various publications in different formats (primarily XML/SBML).
+Published GEMs use different metabolite annotation formats that prevent integration into multi-species modeling frameworks. This repository provides an automated pipeline that standardizes metabolite annotations across both manually-curated and template-based GEMs, enabling constraint-based modeling of soil microbial communities.
 
-### Processing Pipeline
-The repository includes an automated R pipeline that standardizes metabolite annotations across all models:
+## Processing Pipeline
 
-Pattern detection: Automatically identifies annotation formats (RDF, string-based, or multi-database combinations). 
+The R-based pipeline handles diverse annotation formats and SBML structural issues:
 
-Metabolite standardization: Converts annotations to MetanetX identifiers while preserving simulation outputs
+**Pattern detection:** Automatically identifies annotation formats (RDF, string-based, or multi-database combinations)
 
-Error recovery: Handles problematic SBML structures including Matrix errors and malformed group elements
+**Metabolite standardization:** Converts annotations to MetanetX identifiers using cross-reference databases
 
-Validation: Verifies growth rates match original publications using COBRApy
+**Error recovery:** Handles SBML validation errors, encoding issues, and malformed XML structures
 
-### Supported Annotation Patterns
-The pipeline handles various annotation patterns and structures, including BiGG, ChEBI, KEGG, MetanetX, etc.
+**Growth validation:** Verifies that processed models maintain equivalent growth rates using COBRApy
 
-### File Structure
-Each species directory contains:
+## Current Status
 
-*_input.xml - Original SBML file(s)
+36 manually-curated GEMs have been processed through the pipeline with the following results:
 
-*_processed.xml - Standardized model with MetanetX annotations
+- 34/36 successful validations (94%)
+- 32/34 input files readable by COBRApy (94%)
+- 28/34 processed files readable by COBRApy (82%)
+- 25/28 simulation equivalent when both files are readable (89%)
 
-processing_metadata.json - Processing log and conversion statistics
+The collection includes nitrogen cycle bacteria (ammonia and nitrite oxidizers), rhizobia, soil decomposers, mycorrhizal fungi, yeasts, and methanogens. These curated models are sourced from publications and the BiGG database. 
 
-validation_results.json - COBRApy validation results
+Over 500 additional models are derived from template-based algorithms such as CarveFungi and COMMIT.
 
-When available, files associated with original publication
+## File Structure
 
-### Community model integration
-Processed models are compatible with standard constraint-based modeling frameworks:
+Each species directory for curated models contains:
 
-    [![COBRApy](https://img.shields.io/badge/-COBRApy-028?&logo=GitHub)](https://github.com/opencobra/cobrapy)&nbsp; standard Flux-Balance Analysis (FBA), Flux-Variability Analysis (FVA) 
-<br>
-    [![COMETSpy](https://img.shields.io/badge/-COMETSpy-028?&logo=GitHub)](https://github.com/segrelab/cometspy)&nbsp; dynamic FBA, spatiotemporal simulations
-<br>
-    [![MICOM](https://img.shields.io/badge/-MICOM-028?&logo=GitHub)](https://github.com/micom-dev)&nbsp; community trade-offs, growth rate estimation
+- Original SBML file(s)
+- `*_processed.xml` - Standardized model with MetanetX annotations
+- `processing_metadata.json` - Conversion statistics and logs
+- `validation_results.json` - COBRApy validation results
+- Supplementary information from publication, when available
 
+## Dependencies
 
-### Processing Status
-60+ models are currently being processed through the standardization pipeline. Models undergo validation to ensure growth rates match published values after annotation standardization.
-Dependencies
+**R packages:** sybilSBML, dplyr, stringr, xml2, jsonlite
 
-R packages: sybilSBML, tidyverse, stringr, xml2, jsonlite
+**Python:** cobra (for validation)
 
-Python: cobra (for validation)
+**Reference data:** MetanetX chemical cross-references and deprecated ID mappings (beta release, 2025)
 
-Reference data: MetanetX chemical cross-references and deprecated ID mappings (beta release, 2025)
+## Community Modeling Integration
+
+Processed models are compatible with:
+
+[![COBRApy](https://img.shields.io/badge/-COBRApy-028?&logo=GitHub)](https://github.com/opencobra/cobrapy) - Flux Balance Analysis (FBA), Flux Variability Analysis (FVA)
+
+[![COMETSpy](https://img.shields.io/badge/-COMETSpy-028?&logo=GitHub)](https://github.com/segrelab/cometspy) - Dynamic FBA, spatiotemporal simulations
+
+[![MICOM](https://img.shields.io/badge/-MICOM-028?&logo=GitHub)](https://github.com/micom-dev) - Community trade-offs, growth rate estimation
