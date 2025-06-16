@@ -1,0 +1,8 @@
+"file_name","processing_success","processing_time","pattern_detected","metabolites_total","metabolites_converted","conversion_rate","problems_detected","error_message"
+"Bipolaris_maydis_ATCC_48331_GCF_000354255.1.sbml",FALSE,NA,NA,NA,NA,NA,NA,"unused argument (dirname(species_dir))"
+"Bipolaris_maydis_c5_gca_000338975.CocheC5_3.sbml",FALSE,NA,NA,NA,NA,NA,NA,"unused argument (dirname(species_dir))"
+"Bipolaris_oryzae_ATCC_44560_GCF_000523455.1.sbml",FALSE,NA,NA,NA,NA,NA,NA,"unused argument (dirname(species_dir))"
+"Bipolaris_sorokiniana_ND90Pr_GCF_000338995.1.sbml",FALSE,NA,NA,NA,NA,NA,NA,"unused argument (dirname(species_dir))"
+"Bipolaris_victoriae_FI3_GCF_000527765.1-O--70.93649516531909.sbml.sbml",FALSE,NA,NA,NA,NA,NA,NA,"unused argument (dirname(species_dir))"
+"Bipolaris_victoriae_FI3_GCF_000527765.1.sbml",FALSE,NA,NA,NA,NA,NA,NA,"unused argument (dirname(species_dir))"
+"Bipolaris_zeicola_26-R-13_GCF_000523435.1.sbml",FALSE,NA,NA,NA,NA,NA,NA,"unused argument (dirname(species_dir))"

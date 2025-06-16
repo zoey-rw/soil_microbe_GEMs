@@ -1,0 +1,8 @@
+"file_name","processing_success","processing_time","pattern_detected","metabolites_total","metabolites_converted","conversion_rate","problems_detected","error_message"
+"Bipolaris_maydis_ATCC_48331_GCF_000354255.1.sbml",TRUE,35.5059645175934,"simple_bigg",1735,NA,56.6,0,NA
+"Bipolaris_maydis_c5_gca_000338975.CocheC5_3.sbml",TRUE,39.1929786205292,"simple_bigg",1800,NA,56.5,0,NA
+"Bipolaris_oryzae_ATCC_44560_GCF_000523455.1.sbml",TRUE,35.5880813598633,"simple_bigg",1739,NA,56.8,0,NA
+"Bipolaris_sorokiniana_ND90Pr_GCF_000338995.1.sbml",TRUE,36.2054083347321,"simple_bigg",1732,NA,56.9,0,NA
+"Bipolaris_victoriae_FI3_GCF_000527765.1-O--70.93649516531909.sbml.sbml",TRUE,25.9053711891174,"simple_bigg",922,NA,74.6,0,NA
+"Bipolaris_victoriae_FI3_GCF_000527765.1.sbml",TRUE,36.4805538654327,"simple_bigg",1984,NA,59.2,0,NA
+"Bipolaris_zeicola_26-R-13_GCF_000523435.1.sbml",TRUE,34.7119109630585,"simple_bigg",1764,NA,57.4,0,NA
