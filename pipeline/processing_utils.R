@@ -28,6 +28,8 @@ DATABASE_PRIORITY <- c("metanetx", "bigg", "seed", "kegg", "chebi", "hmdb", "pub
 COMPARTMENT_MAPPINGS <- c(
     "Cytosol" = "c", "Cytoplasm" = "c", "cytosol" = "c", "cytoplasm" = "c",
     "extracellular space" = "e", "extracellular" = "e", "Extra_organism" = "e", 
+    "ExtraCellular" = "e", "Extracellular_0" = "e", "e0" = "e", "c0" = "c",
+    "Cytosol_0" = "c",
     "extra_organism" = "e", "external" = "e", "medium" = "e",
     "Periplasm" = "p", "periplasm" = "p", "periplasmic" = "e",
     "Mitochondria" = "m", "mitochondria" = "m", "mitochondrial" = "m",

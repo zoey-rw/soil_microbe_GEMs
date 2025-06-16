@@ -111,7 +111,7 @@ detect_annotation_pattern <- function(sbml_model) {
 }
 
 #' Extract metabolite annotations with compartment recovery for inconsistent SBML
-extract_metabolite_annotations <- function(sbml_model, pattern_info) {
+extract_metabolite_annotations <- function(sbml_model, pattern_info, carvefungi_mapping_dir = NULL) {
     
     original_met_count <- length(sbml_model@met_id)
     cat("Processing", original_met_count, "metabolites\n")

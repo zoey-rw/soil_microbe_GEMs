@@ -638,6 +638,185 @@ check_validation_status <- function(species_base_dir = "species") {
 }
 
 
+
+#' Process SBML files from a flat directory structure (like carvefungi)
+#' @param input_dir Directory containing SBML files directly
+#' @param output_dir Directory to save processed files
+#' @param ref_data Reference data from get_reference_data()
+#' @param deprecated_recode Deprecated ID mappings
+#' @param file_filter Optional pattern to filter files
+#' @return Summary of processing results
+process_flat_directory <- function(input_dir, output_dir, ref_data, deprecated_recode, file_filter = NULL) {
+    
+    cat("=== PROCESSING FLAT DIRECTORY ===\n")
+    cat("Input directory:", input_dir, "\n")
+    cat("Output directory:", output_dir, "\n")
+    
+    # Create output directory if needed
+    if (!dir.exists(output_dir)) {
+        dir.create(output_dir, recursive = TRUE)
+    }
+    
+    # Find all SBML files
+    xml_files <- list.files(input_dir, pattern = "\\.xml$", full.names = TRUE)
+    sbml_files <- list.files(input_dir, pattern = "\\.sbml$", full.names = TRUE)
+    all_files <- c(xml_files, sbml_files)
+    
+    # Apply filter if provided
+    if (!is.null(file_filter)) {
+        all_files <- all_files[str_detect(basename(all_files), file_filter)]
+    }
+    
+    # Remove already processed files
+    processed_patterns <- c("_processed", "_cobra_validated", "_modified_cobra")
+    input_files <- all_files[!str_detect(basename(all_files), paste(processed_patterns, collapse = "|"))]
+    
+    cat("Found", length(input_files), "input files to process\n")
+    
+    if (length(input_files) == 0) {
+        cat("No files to process\n")
+        return(NULL)
+    }
+    
+    # Initialize results tracking
+    results_summary <- data.frame(
+        file_name = basename(input_files),
+        processing_success = FALSE,
+        processing_time = NA_real_,
+        pattern_detected = NA_character_,
+        metabolites_total = NA_integer_,
+        metabolites_converted = NA_integer_,
+        conversion_rate = NA_real_,
+        problems_detected = NA_integer_,
+        error_message = NA_character_,
+        stringsAsFactors = FALSE
+    )
+    
+    start_time <- Sys.time()
+    
+    # Process each file
+    for (i in seq_along(input_files)) {
+        input_file <- input_files[i]
+        file_name <- basename(input_file)
+        model_id <- str_replace(file_name, "\\.(xml|sbml)$", "")
+        
+        cat("\n--- Processing", i, "of", length(input_files), ":", file_name, "---\n")
+        
+        # Create temporary species directory structure
+        temp_species_dir <- tempfile(pattern = "temp_species_")
+        dir.create(temp_species_dir)
+        
+        # Copy file to temp directory
+        temp_input_file <- file.path(temp_species_dir, file_name)
+        file.copy(input_file, temp_input_file)
+        
+        tryCatch({
+            # Use existing process_single_species function
+            result <- process_single_species(temp_species_dir, ref_data, deprecated_recode)
+            
+            if (result$success) {
+                results_summary[i, "processing_success"] <- TRUE
+                
+                # Copy processed file to output directory
+                processed_files <- list.files(temp_species_dir, pattern = "_processed\\.xml$", full.names = TRUE)
+                if (length(processed_files) > 0) {
+                    output_file <- file.path(output_dir, paste0(model_id, "_processed.xml"))
+                    file.copy(processed_files[1], output_file, overwrite = TRUE)
+                    cat("Saved processed file to:", output_file, "\n")
+                }
+                
+                # Copy conversion logs if they exist
+                log_dir <- file.path(temp_species_dir, "conversion_logs")
+                if (dir.exists(log_dir)) {
+                    output_log_dir <- file.path(output_dir, "conversion_logs")
+                    if (!dir.exists(output_log_dir)) {
+                        dir.create(output_log_dir, recursive = TRUE)
+                    }
+                    log_files <- list.files(log_dir, full.names = TRUE)
+                    for (log_file in log_files) {
+                        file.copy(log_file, file.path(output_log_dir, basename(log_file)), overwrite = TRUE)
+                    }
+                }
+                
+                # Store results
+                if (!is.null(result$processing_log$processing_time_seconds)) {
+                    results_summary[i, "processing_time"] <- result$processing_log$processing_time_seconds
+                }
+                if (!is.null(result$processing_log$pattern_detected)) {
+                    results_summary[i, "pattern_detected"] <- result$processing_log$pattern_detected
+                }
+                if (!is.null(result$processing_log$metabolites_total)) {
+                    results_summary[i, "metabolites_total"] <- result$processing_log$metabolites_total
+                }
+                if (!is.null(result$processing_log$conversion_summary$conversion_rate)) {
+                    results_summary[i, "conversion_rate"] <- result$processing_log$conversion_summary$conversion_rate
+                }
+                if (!is.null(result$processing_log$problems_detected)) {
+                    results_summary[i, "problems_detected"] <- length(result$processing_log$problems_detected)
+                }
+                
+                cat("✓ Success! Conversion rate:", 
+                    ifelse(is.null(result$processing_log$conversion_summary$conversion_rate), "Unknown", 
+                           paste0(result$processing_log$conversion_summary$conversion_rate, "%")), "\n")
+            } else {
+                if (!is.null(result$error)) {
+                    results_summary[i, "error_message"] <- result$error
+                }
+                cat("✗ Failed:", ifelse(is.null(result$error), "Unknown error", result$error), "\n")
+            }
+            
+        }, error = function(e) {
+            results_summary[i, "error_message"] <- e$message
+            cat("✗ Unexpected error:", e$message, "\n")
+        }, finally = {
+            # Clean up temp directory
+            unlink(temp_species_dir, recursive = TRUE)
+        })
+    }
+    
+    end_time <- Sys.time()
+    total_time <- as.numeric(difftime(end_time, start_time, units = "mins"))
+    
+    # Summary statistics
+    cat("\n=== FLAT DIRECTORY PROCESSING SUMMARY ===\n")
+    cat("Total time:", round(total_time, 2), "minutes\n")
+    cat("Files processed:", nrow(results_summary), "\n")
+    cat("Successful:", sum(results_summary$processing_success, na.rm = TRUE), "\n")
+    cat("Failed:", sum(!results_summary$processing_success, na.rm = TRUE), "\n")
+    
+    if (any(results_summary$processing_success, na.rm = TRUE)) {
+        valid_rates <- results_summary$conversion_rate[!is.na(results_summary$conversion_rate)]
+        valid_times <- results_summary$processing_time[!is.na(results_summary$processing_time)]
+        
+        if (length(valid_rates) > 0) {
+            cat("Average conversion rate:", round(mean(valid_rates), 1), "%\n")
+        }
+        if (length(valid_times) > 0) {
+            cat("Average processing time:", round(mean(valid_times), 2), "seconds\n")
+        }
+    }
+    
+    # Show failed files
+    failed_files <- results_summary[!results_summary$processing_success, ]
+    if (nrow(failed_files) > 0) {
+        cat("\nFailed files:\n")
+        for (i in 1:min(10, nrow(failed_files))) {
+            error_msg <- failed_files[i, "error_message"]
+            if (is.na(error_msg)) error_msg <- "Unknown error"
+            cat("  -", failed_files[i, "file_name"], ":", error_msg, "\n")
+        }
+    }
+    
+    # Save summary report
+    timestamp <- format(Sys.time(), "%Y%m%d_%H%M%S")
+    summary_file <- file.path(output_dir, paste0("processing_summary_", timestamp, ".csv"))
+    write.csv(results_summary, summary_file, row.names = FALSE)
+    cat("\nDetailed results saved to:", summary_file, "\n")
+    
+    return(results_summary)
+}
+
+
 # Usage for remote processing to convert to MetanetX namespace:
 # 
 # # Load reference data
@@ -713,3 +892,12 @@ status <- check_validation_status("/Users/zoeywerbin/soil_GEM_database/soil_micr
 # Create a readable report
 report_summary <- create_validation_report()
 
+
+
+test_results <- process_flat_directory(
+    input_dir = "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/carvefungi_species/input",
+    output_dir = "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/carvefungi_species/processed",
+    ref_data = ref_data,
+    deprecated_recode = deprecated_recode,
+    file_filter = "^[C]"  # Only files starting with A, B, or C
+)
