@@ -424,19 +424,43 @@ create_validation_report <- function(species_base_dir = "species",
     }))
     
     equivalent <- sum(sapply(all_results, function(x) {
-        equiv_val <- x$simulation_equivalent
-        if (is.null(equiv_val)) return(FALSE)
-        if (is.logical(equiv_val)) return(equiv_val)
-        return(FALSE)
-    }))
-    
-    report_lines <- c(report_lines,
-                      paste("- Validation successful:", successful, "/", length(all_results)),
-                      paste("- Input files COBRA-readable:", input_readable, "/", successful),
-                      paste("- Processed files COBRA-readable:", processed_readable, "/", successful),
-                      paste("- Simulation equivalent:", equivalent, "/", successful),
-                      ""
-    )
+    equiv_val <- x$simulation_equivalent
+    if (is.null(equiv_val) || is.na(equiv_val)) return(FALSE)
+    if (is.logical(equiv_val)) return(equiv_val)
+    return(FALSE)
+}))
+
+pipeline_improved <- sum(sapply(all_results, function(x) {
+    input_readable <- x$input_readable_cobra
+    processed_readable <- x$processed_readable_cobra
+    if (is.null(input_readable) || is.null(processed_readable)) return(FALSE)
+    return(!input_readable && processed_readable)
+}))
+
+pipeline_broke <- sum(sapply(all_results, function(x) {
+    input_readable <- x$input_readable_cobra
+    processed_readable <- x$processed_readable_cobra
+    if (is.null(input_readable) || is.null(processed_readable)) return(FALSE)
+    return(input_readable && !processed_readable)
+}))
+
+both_unreadable <- sum(sapply(all_results, function(x) {
+    input_readable <- x$input_readable_cobra
+    processed_readable <- x$processed_readable_cobra
+    if (is.null(input_readable) || is.null(processed_readable)) return(FALSE)
+    return(!input_readable && !processed_readable)
+}))
+
+report_lines <- c(report_lines,
+                  paste("- Validation successful:", successful, "/", length(all_results)),
+                  paste("- Input files COBRA-readable:", input_readable, "/", successful),
+                  paste("- Processed files COBRA-readable:", processed_readable, "/", successful),
+                  paste("- Simulation equivalent (when comparable):", equivalent, "/", processed_readable),
+                  paste("- Pipeline improved readability:", pipeline_improved),
+                  paste("- Pipeline broke readability:", pipeline_broke),
+                  paste("- Both files unreadable:", both_unreadable),
+                  ""
+)
     
     # Individual species results
     report_lines <- c(report_lines, "## Individual Results")
@@ -678,14 +702,13 @@ results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microb
 # Running on all avail files
 results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", ref_data, deprecated_recode)
 
-/projectnb/talbot-lab-data/metabolic_models/curated_models/CarveFungi
 # USES PYTHON
 
 # Run validation on all processed species
-validation_results <- run_post_processing_validation("/Users/zoeywerbin/soil_GEM_database/microbial_gem_database/species/", force_revalidate = T)
+validation_results <- run_post_processing_validation("/Users/zoeywerbin/soil_microbe_GEMs/species/", force_revalidate = T)
 #
 # # Check current status
-status <- check_validation_status("/Users/zoeywerbin/soil_GEM_database/microbial_gem_database/species/")
+status <- check_validation_status("/Users/zoeywerbin/soil_GEM_database/soil_microbe_GEMs/species/")
 
 # Create a readable report
 report_summary <- create_validation_report()

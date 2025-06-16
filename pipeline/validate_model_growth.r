@@ -279,21 +279,34 @@ print(json.dumps(results))
                     }
                     
                     # Check equivalence
-                    if (!is.null(validation_results$growth_rate_input) && !is.null(validation_results$growth_rate_processed)) {
-                        growth_diff <- abs(validation_results$growth_rate_input - validation_results$growth_rate_processed)
-                        validation_results$simulation_equivalent <- growth_diff < 1e-6
-                        validation_results$growth_rate_difference <- growth_diff
-                        
-                        if (!validation_results$simulation_equivalent) {
-                            validation_results$validation_notes <- append(validation_results$validation_notes,
-                                                                          paste("Growth rates differ by", round(growth_diff, 8)))
-                        }
-                    } else {
-                        validation_results$simulation_equivalent <- FALSE
-                        validation_results$validation_notes <- append(validation_results$validation_notes,
-                                                                      "Cannot compare growth rates - one or both files unreadable")
-                    }
-                    
+                    # Check equivalence - only when both files are readable
+if (!is.null(validation_results$growth_rate_input) && !is.null(validation_results$growth_rate_processed) &&
+    validation_results$input_readable_cobra && validation_results$processed_readable_cobra) {
+    
+    growth_diff <- abs(validation_results$growth_rate_input - validation_results$growth_rate_processed)
+    validation_results$simulation_equivalent <- growth_diff < 1e-6
+    validation_results$growth_rate_difference <- growth_diff
+    
+    if (!validation_results$simulation_equivalent) {
+        validation_results$validation_notes <- append(validation_results$validation_notes,
+                                                      paste("Growth rates differ by", round(growth_diff, 8)))
+    }
+} else if (!validation_results$input_readable_cobra && !validation_results$processed_readable_cobra) {
+    # Both files unreadable - cannot assess pipeline impact
+    validation_results$simulation_equivalent <- NA
+    validation_results$validation_notes <- append(validation_results$validation_notes,
+                                                  "Cannot assess equivalence - both files unreadable by COBRApy")
+} else if (!validation_results$input_readable_cobra) {
+    # Input unreadable but processed is readable - potential pipeline improvement
+    validation_results$simulation_equivalent <- NA
+    validation_results$validation_notes <- append(validation_results$validation_notes,
+                                                  "Input file unreadable - pipeline may have improved readability")
+} else {
+    # Input readable but processed is not - potential pipeline issue
+    validation_results$simulation_equivalent <- FALSE
+    validation_results$validation_notes <- append(validation_results$validation_notes,
+                                                  "Processing broke COBRApy readability - pipeline issue")
+}
                     validation_results$success <- TRUE
                     
                 }, error = function(e) {
