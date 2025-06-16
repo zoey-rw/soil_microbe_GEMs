@@ -33,7 +33,8 @@ COMPARTMENT_MAPPINGS <- c(
     "Mitochondria" = "m", "mitochondria" = "m", "mitochondrial" = "m",
     "Nucleus" = "n", "nucleus" = "n", "nuclear" = "n",
     "Vacuole" = "v", "vacuole" = "v", "vacuolar" = "v",
-    "Endoplasmic_reticulum" = "r", "endoplasmic_reticulum" = "r", "ER" = "r"
+    "Endoplasmic_reticulum" = "r", "endoplasmic_reticulum" = "r", "ER" = "r",
+    "External_Species" = "e"
 )
 
 #' Standardized file discovery for SBML processing

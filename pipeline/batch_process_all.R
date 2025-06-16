@@ -339,138 +339,185 @@ run_post_processing_validation <- function(species_base_dir = "species",
 #' @param species_base_dir Base directory containing species folders
 #' @param output_file Output file for the report (default: "validation_report.txt")
 create_validation_report <- function(species_base_dir = "species", 
-                                   output_file = "validation_report.txt") {
-  
-  cat("Creating validation report...\n")
-  
-  # Find all validation results
-  species_dirs <- list.dirs(species_base_dir, recursive = FALSE, full.names = TRUE)
-  validation_files <- file.path(species_dirs, "validation_results.json")
-  validation_files <- validation_files[file.exists(validation_files)]
-  
-  if (length(validation_files) == 0) {
-    cat("No validation results found\n")
-    return(NULL)
-  }
-  
-  # Collect all results
-  all_results <- list()
-  for (val_file in validation_files) {
-    species_name <- basename(dirname(val_file))
-    tryCatch({
-      result <- fromJSON(val_file)
-      all_results[[species_name]] <- result
-    }, error = function(e) {
-      cat("Warning: Could not read", val_file, "\n")
-    })
-  }
-  
-  # Generate report
-  report_lines <- c(
-    "# SBML Processing and Validation Report",
-    paste("Generated:", Sys.time()),
-    paste("Total species:", length(all_results)),
-    "",
-    "## Summary Statistics"
-  )
-  
-  # Calculate statistics
-  successful <- sum(sapply(all_results, function(x) x$success %||% FALSE))
-  input_readable <- sum(sapply(all_results, function(x) x$input_readable_cobra %||% FALSE))
-  processed_readable <- sum(sapply(all_results, function(x) x$processed_readable_cobra %||% FALSE))
-  equivalent <- sum(sapply(all_results, function(x) x$simulation_equivalent %||% FALSE))
-  
-  report_lines <- c(report_lines,
-    paste("- Validation successful:", successful, "/", length(all_results)),
-    paste("- Input files COBRA-readable:", input_readable, "/", successful),
-    paste("- Processed files COBRA-readable:", processed_readable, "/", successful),
-    paste("- Simulation equivalent:", equivalent, "/", successful),
-    ""
-  )
-  
-  # Individual species results
-  report_lines <- c(report_lines, "## Individual Results")
-  
-  for (species_name in names(all_results)) {
-    result <- all_results[[species_name]]
+                                     output_file = "validation_report.txt") {
     
-    status <- if (result$success %||% FALSE) "✓" else "✗"
-    line <- paste(status, species_name)
+    cat("Creating validation report...\n")
     
-    if (result$success %||% FALSE) {
-      details <- c()
-      if (!is.null(result$input_readable_cobra) && result$input_readable_cobra) {
-        details <- c(details, "input-readable")
-      }
-      if (!is.null(result$processed_readable_cobra) && result$processed_readable_cobra) {
-        details <- c(details, "processed-readable")
-      }
-      if (!is.null(result$simulation_equivalent) && result$simulation_equivalent) {
-        details <- c(details, "equivalent")
-      }
-      
-      if (length(details) > 0) {
-        line <- paste(line, "(", paste(details, collapse = ", "), ")")
-      }
-      
-      # Add growth rates if available
-      if (!is.null(result$growth_rate_input) && !is.null(result$growth_rate_processed)) {
-        growth_info <- paste("Growth:", round(result$growth_rate_input, 4), "→", round(result$growth_rate_processed, 4))
-        line <- paste(line, "-", growth_info)
-      }
-    } else {
-      error_msg <- result$error %||% "Unknown error"
-      line <- paste(line, "-", str_trunc(error_msg, 60))
+    # Find all validation results
+    species_dirs <- list.dirs(species_base_dir, recursive = FALSE, full.names = TRUE)
+    validation_files <- file.path(species_dirs, "validation_results.json")
+    validation_files <- validation_files[file.exists(validation_files)]
+    
+    if (length(validation_files) == 0) {
+        cat("No validation results found\n")
+        return(NULL)
     }
     
-    report_lines <- c(report_lines, line)
-  }
-  
-  # Problems section
-  failed_species <- names(all_results)[sapply(all_results, function(x) !(x$success %||% FALSE))]
-  if (length(failed_species) > 0) {
-    report_lines <- c(report_lines, "", "## Failed Validations")
-    for (species in failed_species) {
-      result <- all_results[[species]]
-      error_msg <- result$error %||% "Unknown error"
-      report_lines <- c(report_lines, paste("-", species, ":", error_msg))
+    # Collect all results
+    all_results <- list()
+    for (val_file in validation_files) {
+        species_name <- basename(dirname(val_file))
+        tryCatch({
+            result <- fromJSON(val_file)
+            all_results[[species_name]] <- result
+        }, error = function(e) {
+            cat("Warning: Could not read", val_file, "\n")
+        })
     }
-  }
-  
-  # Non-equivalent species
-  non_equiv <- names(all_results)[sapply(all_results, function(x) {
-    x$success %||% FALSE && !(x$simulation_equivalent %||% FALSE)
-  })]
-  
-  if (length(non_equiv) > 0) {
-    report_lines <- c(report_lines, "", "## Non-Equivalent Growth Rates")
-    for (species in non_equiv) {
-      result <- all_results[[species]]
-      if (!is.null(result$growth_rate_input) && !is.null(result$growth_rate_processed)) {
-        diff <- abs(result$growth_rate_input - result$growth_rate_processed)
-        report_lines <- c(report_lines, 
-          paste("-", species, ": input =", round(result$growth_rate_input, 6), 
-                ", processed =", round(result$growth_rate_processed, 6), 
-                ", difference =", round(diff, 8)))
-      } else {
-        report_lines <- c(report_lines, paste("-", species, ": growth rate comparison failed"))
-      }
+    
+    # Generate report
+    report_lines <- c(
+        "# SBML Processing and Validation Report",
+        paste("Generated:", Sys.time()),
+        paste("Total species:", length(all_results)),
+        "",
+        "## Summary Statistics"
+    )
+    
+    # Calculate statistics with proper logical handling
+    successful <- sum(sapply(all_results, function(x) {
+        success_val <- x$success
+        if (is.null(success_val)) return(FALSE)
+        if (is.logical(success_val)) return(success_val)
+        return(FALSE)
+    }))
+    
+    input_readable <- sum(sapply(all_results, function(x) {
+        readable_val <- x$input_readable_cobra
+        if (is.null(readable_val)) return(FALSE)
+        if (is.logical(readable_val)) return(readable_val)
+        return(FALSE)
+    }))
+    
+    processed_readable <- sum(sapply(all_results, function(x) {
+        readable_val <- x$processed_readable_cobra
+        if (is.null(readable_val)) return(FALSE)
+        if (is.logical(readable_val)) return(readable_val)
+        return(FALSE)
+    }))
+    
+    equivalent <- sum(sapply(all_results, function(x) {
+        equiv_val <- x$simulation_equivalent
+        if (is.null(equiv_val)) return(FALSE)
+        if (is.logical(equiv_val)) return(equiv_val)
+        return(FALSE)
+    }))
+    
+    report_lines <- c(report_lines,
+                      paste("- Validation successful:", successful, "/", length(all_results)),
+                      paste("- Input files COBRA-readable:", input_readable, "/", successful),
+                      paste("- Processed files COBRA-readable:", processed_readable, "/", successful),
+                      paste("- Simulation equivalent:", equivalent, "/", successful),
+                      ""
+    )
+    
+    # Individual species results
+    report_lines <- c(report_lines, "## Individual Results")
+    
+    for (species_name in names(all_results)) {
+        result <- all_results[[species_name]]
+        
+        # Safe logical extraction
+        success_val <- result$success
+        if (is.null(success_val) || !is.logical(success_val)) success_val <- FALSE
+        
+        status <- if (success_val) "✓" else "✗"
+        line <- paste(status, species_name)
+        
+        if (success_val) {
+            details <- c()
+            
+            input_readable_val <- result$input_readable_cobra
+            if (!is.null(input_readable_val) && is.logical(input_readable_val) && input_readable_val) {
+                details <- c(details, "input-readable")
+            }
+            
+            processed_readable_val <- result$processed_readable_cobra
+            if (!is.null(processed_readable_val) && is.logical(processed_readable_val) && processed_readable_val) {
+                details <- c(details, "processed-readable")
+            }
+            
+            equiv_val <- result$simulation_equivalent
+            if (!is.null(equiv_val) && is.logical(equiv_val) && equiv_val) {
+                details <- c(details, "equivalent")
+            }
+            
+            if (length(details) > 0) {
+                line <- paste(line, "(", paste(details, collapse = ", "), ")")
+            }
+            
+            # Add growth rates if available
+            if (!is.null(result$growth_rate_input) && !is.null(result$growth_rate_processed) &&
+                is.numeric(result$growth_rate_input) && is.numeric(result$growth_rate_processed)) {
+                growth_info <- paste("Growth:", round(result$growth_rate_input, 4), "→", round(result$growth_rate_processed, 4))
+                line <- paste(line, "-", growth_info)
+            }
+        } else {
+            error_msg <- result$error
+            if (is.null(error_msg)) error_msg <- "Unknown error"
+            line <- paste(line, "-", str_trunc(error_msg, 60))
+        }
+        
+        report_lines <- c(report_lines, line)
     }
-  }
-  
-  # Write report
-  writeLines(report_lines, output_file)
-  cat("Validation report written to:", output_file, "\n")
-  
-  return(list(
-    total_species = length(all_results),
-    successful = successful,
-    input_readable = input_readable,
-    processed_readable = processed_readable,
-    equivalent = equivalent,
-    failed_species = failed_species,
-    non_equivalent = non_equiv
-  ))
+    
+    # Problems section
+    failed_species <- names(all_results)[sapply(all_results, function(x) {
+        success_val <- x$success
+        if (is.null(success_val) || !is.logical(success_val)) return(TRUE)
+        return(!success_val)
+    })]
+    
+    if (length(failed_species) > 0) {
+        report_lines <- c(report_lines, "", "## Failed Validations")
+        for (species in failed_species) {
+            result <- all_results[[species]]
+            error_msg <- result$error
+            if (is.null(error_msg)) error_msg <- "Unknown error"
+            report_lines <- c(report_lines, paste("-", species, ":", error_msg))
+        }
+    }
+    
+    # Non-equivalent species
+    non_equiv <- names(all_results)[sapply(all_results, function(x) {
+        success_val <- x$success
+        equiv_val <- x$simulation_equivalent
+        
+        if (is.null(success_val) || !is.logical(success_val) || !success_val) return(FALSE)
+        if (is.null(equiv_val) || !is.logical(equiv_val)) return(TRUE)
+        return(!equiv_val)
+    })]
+    
+    if (length(non_equiv) > 0) {
+        report_lines <- c(report_lines, "", "## Non-Equivalent Growth Rates")
+        for (species in non_equiv) {
+            result <- all_results[[species]]
+            if (!is.null(result$growth_rate_input) && !is.null(result$growth_rate_processed) &&
+                is.numeric(result$growth_rate_input) && is.numeric(result$growth_rate_processed)) {
+                diff <- abs(result$growth_rate_input - result$growth_rate_processed)
+                report_lines <- c(report_lines, 
+                                  paste("-", species, ": input =", round(result$growth_rate_input, 6), 
+                                        ", processed =", round(result$growth_rate_processed, 6), 
+                                        ", difference =", round(diff, 8)))
+            } else {
+                report_lines <- c(report_lines, paste("-", species, ": growth rate comparison failed"))
+            }
+        }
+    }
+    
+    # Write report
+    writeLines(report_lines, output_file)
+    cat("Validation report written to:", output_file, "\n")
+    
+    return(list(
+        total_species = length(all_results),
+        successful = successful,
+        input_readable = input_readable,
+        processed_readable = processed_readable,
+        equivalent = equivalent,
+        failed_species = failed_species,
+        non_equivalent = non_equiv
+    ))
 }
 
 #' Quick validation status check
@@ -583,12 +630,25 @@ test_species <- c("azotobacter_vinelandii_iAA1300",
                   "rhizophagus_irregularis_iRi1574", "saccharomyces_cerevisiae_iMM904", 
                   "staphylococcus_aureus_iSB619", "streptomyces_coelicolor_iKS1317")
 
-failed_species = c("agrobacterium_tumefaciens_iNX1344","aspergillus_terreus_iJL1454","bacillus_pseudofirmus_Xu_bacill",
-                   "methanosarcina_barkeri_iAF692","penicillium_rubens_iPrub22","rhodococcus_jostii_iMT1174","sphingopyxis_granuli_iIG743",
-                   "trichoderma_reesei_treesei")
+failed_species = c("agrobacterium_tumefaciens_iNX1344",#"aspergillus_terreus_iJL1454",
+                   #"bacillus_pseudofirmus_Xu_bacill",
+                   "methanosarcina_barkeri_iAF692")
+                   #"rhodococcus_jostii_iMT1174","sphingopyxis_granuli_iIG743")
+    
+test_species = "pseudomonas_putida_iJN1462"
+
+caused_failure = "rhodopseudomonas_palustris_iDT1294"
+to_finish = c("saccharomyces_cerevisiae_iMM904","sphingopyxis_granuli_iIG743","staphylococcus_aureus_iSB619","streptomyces_coelicolor_iKS1317","trichoderma_reesei_treesei","variovorax_SRS16_iRZ1425")
 
 results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", 
-                               ref_data, deprecated_recode, test_species)
+                                ref_data, deprecated_recode, test_species)
+
+results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", 
+                               ref_data, deprecated_recode, to_finish)
+
+
+results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", 
+                                ref_data, deprecated_recode, "rhizobium_leguminosarum_iCS1224")
 # Running on all avail files
 results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", ref_data, deprecated_recode)
 

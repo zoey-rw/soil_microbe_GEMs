@@ -1,0 +1,2 @@
+"species","processing_success","processing_time","pattern_detected","metabolites_total","metabolites_converted","conversion_rate","problems_detected","error_message"
+"rhodococcus_opacus_iGR1773",TRUE,41.4527578353882,"chebi_kegg_metanetx_seed",1956,NA,81.4,0,NA
