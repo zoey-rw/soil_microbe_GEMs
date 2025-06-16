@@ -1069,3 +1069,100 @@ merge_lists <- function(list1, list2) {
     }
     return(list1)
 }
+
+
+#' Load CarveFungi name mapping if available
+#' @param species_dir Path to species directory or parent directory
+#' @return Data frame with CarveFungi mappings or NULL if not found
+load_carvefungi_mapping <- function(species_dir) {
+    
+    # Check multiple possible locations for the mapping file
+    possible_paths <- c(
+        file.path(species_dir, "CarveFungi_NameMapping.csv"),
+        file.path(dirname(species_dir), "ref_data/CarveFungi_NameMapping.csv"),
+        file.path(dirname(dirname(species_dir)), "ref_data/CarveFungi_NameMapping.csv")
+    )
+    
+    for (path in possible_paths) {
+        if (file.exists(path)) {
+            cat("  Found CarveFungi mapping file:", path, "\n")
+            tryCatch({
+                mapping <- read.csv(path, stringsAsFactors = FALSE)
+                # Standardize column names
+                names(mapping) <- tolower(names(mapping))
+                return(mapping)
+            }, error = function(e) {
+                cat("  Warning: Could not read CarveFungi mapping file:", e$message, "\n")
+                return(NULL)
+            })
+        }
+    }
+    
+    return(NULL)
+}
+
+#' Apply CarveFungi mappings to metabolite data
+#' @param met_df Metabolite data frame
+#' @param carvefungi_mapping CarveFungi mapping data frame
+#' @return Updated metabolite data frame with CarveFungi annotations
+apply_carvefungi_mappings <- function(met_df, carvefungi_mapping) {
+    
+    if (is.null(carvefungi_mapping) || nrow(carvefungi_mapping) == 0) {
+        return(met_df)
+    }
+    
+    cat("  Applying CarveFungi mappings to", nrow(met_df), "metabolites...\n")
+    
+    # Initialize database columns if they don't exist
+    database_columns <- c("kegg", "chebi", "pubchem")
+    for (db in database_columns) {
+        if (!db %in% names(met_df)) {
+            met_df[[db]] <- rep(NA_character_, nrow(met_df))
+        }
+    }
+    
+    # Match metabolites by ID (remove compartment for matching)
+    metabolite_base_ids <- removeCompartment(met_df$fixed_met)
+    
+    mappings_applied <- 0
+    
+    for (i in 1:nrow(met_df)) {
+        base_id <- metabolite_base_ids[i]
+        
+        # Look for match in CarveFungi mapping
+        mapping_match <- carvefungi_mapping[carvefungi_mapping$id == base_id, ]
+        
+        if (nrow(mapping_match) > 0) {
+            match_row <- mapping_match[1, ]  # Take first match if multiple
+            
+            # Apply KEGG mapping
+            if ("kegg" %in% names(match_row) && !is.na(match_row$kegg) && match_row$kegg != "") {
+                if (is.na(met_df$kegg[i]) || met_df$kegg[i] == "") {
+                    met_df$kegg[i] <- match_row$kegg
+                }
+            }
+            
+            # Apply ChEBI mapping
+            if ("chebi" %in% names(match_row) && !is.na(match_row$chebi) && match_row$chebi != "") {
+                if (is.na(met_df$chebi[i]) || met_df$chebi[i] == "") {
+                    # Clean ChEBI ID (remove CHEBI: prefix if present)
+                    chebi_id <- str_replace(as.character(match_row$chebi), "^CHEBI:", "")
+                    met_df$chebi[i] <- chebi_id
+                }
+            }
+            
+            # Apply PubChem mapping
+            if ("pubchem" %in% names(match_row) && !is.na(match_row$pubchem) && match_row$pubchem != "") {
+                if (is.na(met_df$pubchem[i]) || met_df$pubchem[i] == "") {
+                    met_df$pubchem[i] <- as.character(match_row$pubchem)
+                }
+            }
+            
+            mappings_applied <- mappings_applied + 1
+        }
+    }
+    
+    cat("  Applied CarveFungi mappings to", mappings_applied, "metabolites\n")
+    
+    return(met_df)
+}

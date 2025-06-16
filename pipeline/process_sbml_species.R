@@ -340,6 +340,22 @@ extract_metabolite_annotations <- function(sbml_model, pattern_info) {
         }
     }
     
+    # Check for and apply CarveFungi mappings
+    if (!is.null(carvefungi_mapping_dir)) {
+        cat("Checking for CarveFungi mappings...\n")
+        carvefungi_mapping <- load_carvefungi_mapping(carvefungi_mapping_dir)
+        if (!is.null(carvefungi_mapping)) {
+            met_df <- apply_carvefungi_mappings(met_df, carvefungi_mapping)
+            
+            # Update pattern info to reflect additional databases
+            if (!"carvefungi_enhanced" %in% pattern_info$databases) {
+                pattern_info$databases <- c(pattern_info$databases, "carvefungi_enhanced")
+                pattern_info$description <- paste(pattern_info$description, "| Enhanced with CarveFungi mappings")
+            }
+        }
+    }
+    
+    
     # Final validation - CRITICAL CHECK
     if (nrow(met_df) != original_met_count) {
         stop("CRITICAL: Row count changed from ", original_met_count, " to ", nrow(met_df), 
@@ -620,7 +636,8 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
         
         # Extract annotations
         cat("Extracting metabolite annotations...\n")
-        met_df <- extract_metabolite_annotations(sbml_model, pattern_info)
+        carvefungi_dir <- config$carvefungi_mapping_dir %||% dirname(species_dir)
+        met_df <- extract_metabolite_annotations(sbml_model, pattern_info, carvefungi_dir)
         processing_log$metabolites_total <- nrow(met_df)
         
         # Convert to MetanetX
