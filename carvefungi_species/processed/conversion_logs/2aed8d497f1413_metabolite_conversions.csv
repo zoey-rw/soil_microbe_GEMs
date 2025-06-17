@@ -1,0 +1,1038 @@
+orig_met,without_compartment,new_met,new_met_out,compartment,conversion_successful,conversion_type,encoding_issues_fixed
+2mppal[e],2mppal,MNXM5189,MNXM5189[e],e,TRUE,MetanetX conversion,FALSE
+xyluL[c],xyluL,xyluL,xyluL[c],c,FALSE,Unchanged,FALSE
+4abut[e],4abut,MNXM192,MNXM192[e],e,TRUE,MetanetX conversion,FALSE
+dad_2[e],dad_2,MNXM625,MNXM625[e],e,TRUE,MetanetX conversion,FALSE
+ahcys[c],ahcys,MNXM1102167,MNXM1102167[c],c,TRUE,MetanetX conversion,FALSE
+docosadp[e],docosadp,docosadp,docosadp[e],e,FALSE,Unchanged,FALSE
+acac[m],acac,MNXM729595,MNXM729595[m],m,TRUE,MetanetX conversion,FALSE
+glu5sa[c],glu5sa,MNXM1093051,MNXM1093051[c],c,TRUE,MetanetX conversion,FALSE
+hqn[c],hqn,MNXM376,MNXM376[c],c,TRUE,MetanetX conversion,FALSE
+ACP[m],ACP,MNXM1373297,MNXM1373297[m],m,TRUE,MetanetX conversion,FALSE
+pacald[e],pacald,MNXM473,MNXM473[e],e,TRUE,MetanetX conversion,FALSE
+fru[c],fru,MNXM1364246,MNXM1364246[c],c,TRUE,MetanetX conversion,FALSE
+oaa[c],oaa,MNXM46,MNXM46[c],c,TRUE,MetanetX conversion,FALSE
+ash_1g[c],ash_1g,ash_1g,ash_1g[c],c,FALSE,Unchanged,FALSE
+salltn[c],salltn,salltn,salltn[c],c,FALSE,Unchanged,FALSE
+argL[e],argL,argL,argL[e],e,FALSE,Unchanged,FALSE
+ergst_1g[r],ergst_1g,ergst_1g,ergst_1g[r],r,FALSE,Unchanged,FALSE
+lycop[c],lycop,MNXM736242,MNXM736242[c],c,TRUE,MetanetX conversion,FALSE
+frdp[c],frdp,MNXM1363934,MNXM1363934[c],c,TRUE,MetanetX conversion,FALSE
+ump[c],ump,MNXM1104823,MNXM1104823[c],c,TRUE,MetanetX conversion,FALSE
+ps[m],ps,ps,ps[m],m,FALSE,Unchanged,FALSE
+trnathr[c],trnathr,MNXM1543945,MNXM1543945[c],c,TRUE,MetanetX conversion,FALSE
+2mba[e],2mba,MNXM1091714,MNXM1091714[e],e,TRUE,MetanetX conversion,FALSE
+adn[c],adn,MNXM1105760,MNXM1105760[c],c,TRUE,MetanetX conversion,FALSE
+tdcoa[c],tdcoa,MNXM1104283,MNXM1104283[c],c,TRUE,MetanetX conversion,FALSE
+5aop[c],5aop,MNXM405,MNXM405[c],c,TRUE,MetanetX conversion,FALSE
+lysL[e],lysL,lysL,lysL[e],e,FALSE,Unchanged,FALSE
+fald[x],fald,MNXM1365101,MNXM1365101[x],x,TRUE,MetanetX conversion,FALSE
+iamoh[c],iamoh,MNXM1670,MNXM1670[c],c,TRUE,MetanetX conversion,FALSE
+ps[c],ps,ps,ps[c],c,FALSE,Unchanged,FALSE
+alaL[e],alaL,alaL,alaL[e],e,FALSE,Unchanged,FALSE
+2obut[c],2obut,MNXM159,MNXM159[c],c,TRUE,MetanetX conversion,FALSE
+acrn[x],acrn,MNXM726103,MNXM726103[x],x,TRUE,MetanetX conversion,FALSE
+3hoccoa[x],3hoccoa,3hoccoa,3hoccoa[x],x,FALSE,Unchanged,FALSE
+fol[e],fol,MNXM617,MNXM617[e],e,TRUE,MetanetX conversion,FALSE
+pheglx[c],pheglx,pheglx,pheglx[c],c,FALSE,Unchanged,FALSE
+meoh[x],meoh,MNXM729799,MNXM729799[x],x,TRUE,MetanetX conversion,FALSE
+4abutn[e],4abutn,MNXM422,MNXM422[e],e,TRUE,MetanetX conversion,FALSE
+2Ebtcoa[x],2Ebtcoa,2Ebtcoa,2Ebtcoa[x],x,FALSE,Unchanged,FALSE
+1pyr5c[c],1pyr5c,MNXM1105060,MNXM1105060[c],c,TRUE,MetanetX conversion,FALSE
+icit[m],icit,MNXM89661,MNXM89661[m],m,TRUE,MetanetX conversion,FALSE
+hco3[n],hco3,MNXM1094693,MNXM1094693[n],n,TRUE,MetanetX conversion,FALSE
+glyc[c],glyc,MNXM89612,MNXM89612[c],c,TRUE,MetanetX conversion,FALSE
+ethamp[c],ethamp,MNXM187,MNXM187[c],c,TRUE,MetanetX conversion,FALSE
+ac[c],ac,MNXM26,MNXM26[c],c,TRUE,MetanetX conversion,FALSE
+aspL[e],aspL,aspL,aspL[e],e,FALSE,Unchanged,FALSE
+occoa[c],occoa,MNXM1093479,MNXM1093479[c],c,TRUE,MetanetX conversion,FALSE
+crn[m],crn,MNXM1105736,MNXM1105736[m],m,TRUE,MetanetX conversion,FALSE
+arbt[e],arbt,MNXM1372603,MNXM1372603[e],e,TRUE,MetanetX conversion,FALSE
+pan4p[c],pan4p,MNXM373,MNXM373[c],c,TRUE,MetanetX conversion,FALSE
+fol[c],fol,MNXM617,MNXM617[c],c,TRUE,MetanetX conversion,FALSE
+pppg9[c],pppg9,MNXM351,MNXM351[c],c,TRUE,MetanetX conversion,FALSE
+etoh[e],etoh,MNXM1108092,MNXM1108092[e],e,TRUE,MetanetX conversion,FALSE
+ppi[m],ppi,MNXM11,MNXM11[m],m,TRUE,MetanetX conversion,FALSE
+ribflv[e],ribflv,MNXM270,MNXM270[e],e,TRUE,MetanetX conversion,FALSE
+cystrna[c],cystrna,MNXM1543098,MNXM1543098[c],c,TRUE,MetanetX conversion,FALSE
+pyam5p[c],pyam5p,MNXM366,MNXM366[c],c,TRUE,MetanetX conversion,FALSE
+aacoa[m],aacoa,MNXM1103802,MNXM1103802[m],m,TRUE,MetanetX conversion,FALSE
+phpyr[e],phpyr,MNXM730221,MNXM730221[e],e,TRUE,MetanetX conversion,FALSE
+mtpp[c],mtpp,MNXM1543660,MNXM1543660[c],c,TRUE,MetanetX conversion,FALSE
+furfurylalcohol[e],furfurylalcohol,furfurylalcohol,furfurylalcohol[e],e,FALSE,Unchanged,FALSE
+gmp[e],gmp,MNXM1101285,MNXM1101285[e],e,TRUE,MetanetX conversion,FALSE
+thrL[e],thrL,thrL,thrL[e],e,FALSE,Unchanged,FALSE
+fclL[c],fclL,fclL,fclL[c],c,FALSE,Unchanged,FALSE
+oca[c],oca,MNXM114347,MNXM114347[c],c,TRUE,MetanetX conversion,FALSE
+betald[c],betald,MNXM457,MNXM457[c],c,TRUE,MetanetX conversion,FALSE
+pep[e],pep,MNXM73,MNXM73[e],e,TRUE,MetanetX conversion,FALSE
+cit[m],cit,MNXM1107752,MNXM1107752[m],m,TRUE,MetanetX conversion,FALSE
+guaiacol[e],guaiacol,guaiacol,guaiacol[e],e,FALSE,Unchanged,FALSE
+glycogen[c],glycogen,MNXM738130,MNXM738130[c],c,TRUE,MetanetX conversion,FALSE
+m23bdo[c],m23bdo,m23bdo,m23bdo[c],c,FALSE,Unchanged,FALSE
+pheglx[e],pheglx,pheglx,pheglx[e],e,FALSE,Unchanged,FALSE
+etoh[c],etoh,MNXM1108092,MNXM1108092[c],c,TRUE,MetanetX conversion,FALSE
+2Eoccoa[x],2Eoccoa,2Eoccoa,2Eoccoa[x],x,FALSE,Unchanged,FALSE
+erythD[c],erythD,erythD,erythD[c],c,FALSE,Unchanged,FALSE
+pg[m],pg,pg,pg[m],m,FALSE,Unchanged,FALSE
+ppi[e],ppi,MNXM11,MNXM11[e],e,TRUE,MetanetX conversion,FALSE
+trnaarg[c],trnaarg,MNXM1543930,MNXM1543930[c],c,TRUE,MetanetX conversion,FALSE
+cmp[e],cmp,MNXM1103302,MNXM1103302[e],e,TRUE,MetanetX conversion,FALSE
+fe2[c],fe2,MNXM1372038,MNXM1372038[c],c,TRUE,MetanetX conversion,FALSE
+nicrns[c],nicrns,MNXM1102169,MNXM1102169[c],c,TRUE,MetanetX conversion,FALSE
+csn[e],csn,MNXM761,MNXM761[e],e,TRUE,MetanetX conversion,FALSE
+pheL[e],pheL,pheL,pheL[e],e,FALSE,Unchanged,FALSE
+zymst[e],zymst,MNXM738369,MNXM738369[e],e,TRUE,MetanetX conversion,FALSE
+oaa[m],oaa,MNXM46,MNXM46[m],m,TRUE,MetanetX conversion,FALSE
+succ[e],succ,MNXM25,MNXM25[e],e,TRUE,MetanetX conversion,FALSE
+oca[m],oca,MNXM114347,MNXM114347[m],m,TRUE,MetanetX conversion,FALSE
+abt[c],abt,MNXM740330,MNXM740330[c],c,TRUE,MetanetX conversion,FALSE
+trehalose_1g[c],trehalose_1g,trehalose_1g,trehalose_1g[c],c,FALSE,Unchanged,FALSE
+5fthf[e],5fthf,MNXM1091982,MNXM1091982[e],e,TRUE,MetanetX conversion,FALSE
+itp[c],itp,MNXM1103428,MNXM1103428[c],c,TRUE,MetanetX conversion,FALSE
+ppcoa[c],ppcoa,MNXM1364414,MNXM1364414[c],c,TRUE,MetanetX conversion,FALSE
+amp[c],amp,MNXM728294,MNXM728294[c],c,TRUE,MetanetX conversion,FALSE
+ibutoh[e],ibutoh,MNXM5188,MNXM5188[e],e,TRUE,MetanetX conversion,FALSE
+oca[e],oca,MNXM114347,MNXM114347[e],e,TRUE,MetanetX conversion,FALSE
+decdp[c],decdp,MNXM1372453,MNXM1372453[c],c,TRUE,MetanetX conversion,FALSE
+ocoh[c],ocoh,ocoh,ocoh[c],c,FALSE,Unchanged,FALSE
+lacL[x],lacL,lacL,lacL[x],x,FALSE,Unchanged,FALSE
+h2o[x],h2o,WATER,WATER[x],x,TRUE,Other conversion,FALSE
+m23bdo[e],m23bdo,m23bdo,m23bdo[e],e,FALSE,Unchanged,FALSE
+argtrna[c],argtrna,MNXM1542933,MNXM1542933[c],c,TRUE,MetanetX conversion,FALSE
+ddccoa[m],ddccoa,ddccoa,ddccoa[m],m,FALSE,Unchanged,FALSE
+hco3[m],hco3,MNXM1094693,MNXM1094693[m],m,TRUE,MetanetX conversion,FALSE
+zymst[r],zymst,MNXM738369,MNXM738369[r],r,TRUE,MetanetX conversion,FALSE
+accoa[m],accoa,MNXM1104266,MNXM1104266[m],m,TRUE,MetanetX conversion,FALSE
+3mop[m],3mop,MNXM1363947,MNXM1363947[m],m,TRUE,MetanetX conversion,FALSE
+dmgly[c],dmgly,MNXM464,MNXM464[c],c,TRUE,MetanetX conversion,FALSE
+betald[e],betald,MNXM457,MNXM457[e],e,TRUE,MetanetX conversion,FALSE
+fad[m],fad,MNXM1364297,MNXM1364297[m],m,TRUE,MetanetX conversion,FALSE
+salltn[e],salltn,salltn,salltn[e],e,FALSE,Unchanged,FALSE
+but[e],but,MNXM458,MNXM458[e],e,TRUE,MetanetX conversion,FALSE
+actnR[c],actnR,actnR,actnR[c],c,FALSE,Unchanged,FALSE
+sucsal[e],sucsal,MNXM172,MNXM172[e],e,TRUE,MetanetX conversion,FALSE
+3mbald[e],3mbald,MNXM1711,MNXM1711[e],e,TRUE,MetanetX conversion,FALSE
+melibiitol[e],melibiitol,melibiitol,melibiitol[e],e,FALSE,Unchanged,FALSE
+g6p[c],g6p,MNXM1364259,MNXM1364259[c],c,TRUE,MetanetX conversion,FALSE
+chitin[e],chitin,MNXM1542981,MNXM1542981[e],e,TRUE,MetanetX conversion,FALSE
+fclL[e],fclL,fclL,fclL[e],e,FALSE,Unchanged,FALSE
+udp[m],udp,MNXM1102128,MNXM1102128[m],m,TRUE,MetanetX conversion,FALSE
+e4p[c],e4p,MNXM258,MNXM258[c],c,TRUE,MetanetX conversion,FALSE
+fum[m],fum,MNXM737340,MNXM737340[m],m,TRUE,MetanetX conversion,FALSE
+ocal[c],ocal,ocal,ocal[c],c,FALSE,Unchanged,FALSE
+trnaphe[c],trnaphe,MNXM1543941,MNXM1543941[c],c,TRUE,MetanetX conversion,FALSE
+9Zocda[e],9Zocda,9Zocda,9Zocda[e],e,FALSE,Unchanged,FALSE
+coa[x],coa,MNXM727276,MNXM727276[x],x,TRUE,MetanetX conversion,FALSE
+ipdp[m],ipdp,MNXM83,MNXM83[m],m,TRUE,MetanetX conversion,FALSE
+for[c],for,MNXM39,MNXM39[c],c,TRUE,MetanetX conversion,FALSE
+8aonn[c],8aonn,MNXM726864,MNXM726864[c],c,TRUE,MetanetX conversion,FALSE
+aces[c],aces,MNXM729092,MNXM729092[c],c,TRUE,MetanetX conversion,FALSE
+for[e],for,MNXM39,MNXM39[e],e,TRUE,MetanetX conversion,FALSE
+glnL[e],glnL,glnL,glnL[e],e,FALSE,Unchanged,FALSE
+trpL[c],trpL,trpL,trpL[c],c,FALSE,Unchanged,FALSE
+aconm[c],aconm,MNXM735058,MNXM735058[c],c,TRUE,MetanetX conversion,FALSE
+pgp[m],pgp,pgp,pgp[m],m,FALSE,Unchanged,FALSE
+clpn[m],clpn,clpn,clpn[m],m,FALSE,Unchanged,FALSE
+hxdal[c],hxdal,hxdal,hxdal[c],c,FALSE,Unchanged,FALSE
+nadh[x],nadh,MNXM10,MNXM10[x],x,TRUE,MetanetX conversion,FALSE
+xu5pD[c],xu5pD,xu5pD,xu5pD[c],c,FALSE,Unchanged,FALSE
+hqn[e],hqn,MNXM376,MNXM376[e],e,TRUE,MetanetX conversion,FALSE
+co2[e],co2,MNXM13,MNXM13[e],e,TRUE,MetanetX conversion,FALSE
+pyr[c],pyr,MNXM23,MNXM23[c],c,TRUE,MetanetX conversion,FALSE
+guaiacol[c],guaiacol,guaiacol,guaiacol[c],c,FALSE,Unchanged,FALSE
+glutrna[c],glutrna,MNXM731032,MNXM731032[c],c,TRUE,MetanetX conversion,FALSE
+pendp[m],pendp,MNXM732668,MNXM732668[m],m,TRUE,MetanetX conversion,FALSE
+tda[c],tda,tda,tda[c],c,FALSE,Unchanged,FALSE
+ddca[m],ddca,MNXM402,MNXM402[m],m,TRUE,MetanetX conversion,FALSE
+pe[m],pe,pe,pe[m],m,FALSE,Unchanged,FALSE
+conialdh[c],conialdh,MNXM858,MNXM858[c],c,TRUE,MetanetX conversion,FALSE
+12dgr[m],12dgr,12dgr,12dgr[m],m,FALSE,Unchanged,FALSE
+pc_monounsat_1g[c],pc_monounsat_1g,pc_monounsat_1g,pc_monounsat_1g[c],c,FALSE,Unchanged,FALSE
+co2[m],co2,MNXM13,MNXM13[m],m,TRUE,MetanetX conversion,FALSE
+3mbald[c],3mbald,MNXM1711,MNXM1711[c],c,TRUE,MetanetX conversion,FALSE
+eryt[c],eryt,eryt,eryt[c],c,FALSE,Unchanged,FALSE
+fc1p[c],fc1p,MNXM1520849,MNXM1520849[c],c,TRUE,MetanetX conversion,FALSE
+pe[c],pe,pe,pe[c],c,FALSE,Unchanged,FALSE
+rbt[e],rbt,MNXM1820,MNXM1820[e],e,TRUE,MetanetX conversion,FALSE
+4mop[m],4mop,MNXM404,MNXM404[m],m,TRUE,MetanetX conversion,FALSE
+acoa[c],acoa,MNXM1526020,MNXM1526020[c],c,TRUE,MetanetX conversion,FALSE
+lacL[c],lacL,lacL,lacL[c],c,FALSE,Unchanged,FALSE
+uri[e],uri,MNXM1103104,MNXM1103104[e],e,TRUE,MetanetX conversion,FALSE
+threitolL[c],threitolL,threitolL,threitolL[c],c,FALSE,Unchanged,FALSE
+nadph[c],nadph,MNXM738702,MNXM738702[c],c,TRUE,MetanetX conversion,FALSE
+25bishydroxymethylfuran[e],25bishydroxymethylfuran,25bishydroxymethylfuran,25bishydroxymethylfuran[e],e,FALSE,Unchanged,FALSE
+metL[e],metL,metL,metL[e],e,FALSE,Unchanged,FALSE
+furfural[e],furfural,furfural,furfural[e],e,FALSE,Unchanged,FALSE
+4abutn[c],4abutn,MNXM422,MNXM422[c],c,TRUE,MetanetX conversion,FALSE
+btal[c],btal,MNXM1017,MNXM1017[c],c,TRUE,MetanetX conversion,FALSE
+bzalc[c],bzalc,MNXM562,MNXM562[c],c,TRUE,MetanetX conversion,FALSE
+L2aadp6sa[c],L2aadp6sa,MNXM1364723,MNXM1364723[c],c,TRUE,MetanetX conversion,FALSE
+ump[e],ump,MNXM1104823,MNXM1104823[e],e,TRUE,MetanetX conversion,FALSE
+csn[c],csn,MNXM761,MNXM761[c],c,TRUE,MetanetX conversion,FALSE
+hepdp[c],hepdp,MNXM731634,MNXM731634[c],c,TRUE,MetanetX conversion,FALSE
+2mbald[e],2mbald,MNXM2604,MNXM2604[e],e,TRUE,MetanetX conversion,FALSE
+tym[e],tym,MNXM603,MNXM603[e],e,TRUE,MetanetX conversion,FALSE
+lacL[e],lacL,lacL,lacL[e],e,FALSE,Unchanged,FALSE
+ficytc[m],ficytc,MNXM731967,MNXM731967[m],m,TRUE,MetanetX conversion,FALSE
+25bishydroxymethylfuran[c],25bishydroxymethylfuran,25bishydroxymethylfuran,25bishydroxymethylfuran[c],c,FALSE,Unchanged,FALSE
+2hp6mp[m],2hp6mp,MNXM1370410,MNXM1370410[m],m,TRUE,MetanetX conversion,FALSE
+pap[e],pap,MNXM1103458,MNXM1103458[e],e,TRUE,MetanetX conversion,FALSE
+cmp[m],cmp,MNXM1103302,MNXM1103302[m],m,TRUE,MetanetX conversion,FALSE
+dha[e],dha,MNXM460,MNXM460[e],e,TRUE,MetanetX conversion,FALSE
+alaD[e],alaD,alaD,alaD[e],e,FALSE,Unchanged,FALSE
+dscl[c],dscl,MNXM1373208,MNXM1373208[c],c,TRUE,MetanetX conversion,FALSE
+gly[m],gly,MNXM29,MNXM29[m],m,TRUE,MetanetX conversion,FALSE
+gsn[e],gsn,MNXM1103400,MNXM1103400[e],e,TRUE,MetanetX conversion,FALSE
+pcrn[m],pcrn,MNXM1105887,MNXM1105887[m],m,TRUE,MetanetX conversion,FALSE
+gluL[x],gluL,gluL,gluL[x],x,FALSE,Unchanged,FALSE
+man[e],man,MNXM1364255,MNXM1364255[e],e,TRUE,MetanetX conversion,FALSE
+fadh2[m],fadh2,MNXM1105762,MNXM1105762[m],m,TRUE,MetanetX conversion,FALSE
+3ooccoa[x],3ooccoa,3ooccoa,3ooccoa[x],x,FALSE,Unchanged,FALSE
+tetdcdp[c],tetdcdp,tetdcdp,tetdcdp[c],c,FALSE,Unchanged,FALSE
+iletrna[c],iletrna,MNXM1543464,MNXM1543464[c],c,TRUE,MetanetX conversion,FALSE
+ferulcoa[c],ferulcoa,MNXM1370322,MNXM1370322[c],c,TRUE,MetanetX conversion,FALSE
+adn[e],adn,MNXM1105760,MNXM1105760[e],e,TRUE,MetanetX conversion,FALSE
+fmn[c],fmn,MNXM1364295,MNXM1364295[c],c,TRUE,MetanetX conversion,FALSE
+ddccoa[c],ddccoa,ddccoa,ddccoa[c],c,FALSE,Unchanged,FALSE
+amob[c],amob,MNXM733831,MNXM733831[c],c,TRUE,MetanetX conversion,FALSE
+epimel[c],epimel,epimel,epimel[c],c,FALSE,Unchanged,FALSE
+glycogen_1g[c],glycogen_1g,glycogen_1g,glycogen_1g[c],c,FALSE,Unchanged,FALSE
+o2[m],o2,MNXM735438,MNXM735438[m],m,TRUE,MetanetX conversion,FALSE
+aspL[c],aspL,aspL,aspL[c],c,FALSE,Unchanged,FALSE
+34hpp[c],34hpp,MNXM153,MNXM153[c],c,TRUE,MetanetX conversion,FALSE
+pmtcoa[c],pmtcoa,MNXM1106160,MNXM1106160[c],c,TRUE,MetanetX conversion,FALSE
+crn[c],crn,MNXM1105736,MNXM1105736[c],c,TRUE,MetanetX conversion,FALSE
+epimel[e],epimel,epimel,epimel[e],e,FALSE,Unchanged,FALSE
+dmetha[c],dmetha,dmetha,dmetha[c],c,FALSE,Unchanged,FALSE
+2ag3p[c],2ag3p,2ag3p,2ag3p[c],c,FALSE,Unchanged,FALSE
+hpyr[c],hpyr,MNXM392,MNXM392[c],c,TRUE,MetanetX conversion,FALSE
+thrtrna[c],thrtrna,MNXM1543898,MNXM1543898[c],c,TRUE,MetanetX conversion,FALSE
+8aonn[e],8aonn,MNXM726864,MNXM726864[e],e,TRUE,MetanetX conversion,FALSE
+fgluL[c],fgluL,fgluL,fgluL[c],c,FALSE,Unchanged,FALSE
+13BDglcn_1g[c],13BDglcn_1g,13BDglcn_1g,13BDglcn_1g[c],c,FALSE,Unchanged,FALSE
+thm[e],thm,MNXM730135,MNXM730135[e],e,TRUE,MetanetX conversion,FALSE
+metha[c],metha,metha,metha[c],c,FALSE,Unchanged,FALSE
+o2[r],o2,MNXM735438,MNXM735438[r],r,TRUE,MetanetX conversion,FALSE
+dtmp[e],dtmp,MNXM257,MNXM257[e],e,TRUE,MetanetX conversion,FALSE
+xylt[c],xylt,MNXM737068,MNXM737068[c],c,TRUE,MetanetX conversion,FALSE
+pydx5p[c],pydx5p,MNXM161,MNXM161[c],c,TRUE,MetanetX conversion,FALSE
+mtpp[e],mtpp,MNXM1543660,MNXM1543660[e],e,TRUE,MetanetX conversion,FALSE
+thmtp[c],thmtp,MNXM1341,MNXM1341[c],c,TRUE,MetanetX conversion,FALSE
+dad_2[c],dad_2,MNXM625,MNXM625[c],c,TRUE,MetanetX conversion,FALSE
+hisL[e],hisL,hisL,hisL[e],e,FALSE,Unchanged,FALSE
+ggdp[e],ggdp,MNXM728266,MNXM728266[e],e,TRUE,MetanetX conversion,FALSE
+ac[e],ac,MNXM26,MNXM26[e],e,TRUE,MetanetX conversion,FALSE
+2hglutR[m],2hglutR,2hglutR,2hglutR[m],m,FALSE,Unchanged,FALSE
+trnaser[c],trnaser,MNXM1543944,MNXM1543944[c],c,TRUE,MetanetX conversion,FALSE
+henicosadp[c],henicosadp,henicosadp,henicosadp[c],c,FALSE,Unchanged,FALSE
+aspL[x],aspL,aspL,aspL[x],x,FALSE,Unchanged,FALSE
+glx[x],glx,MNXM69,MNXM69[x],x,TRUE,MetanetX conversion,FALSE
+3mop[e],3mop,MNXM1363947,MNXM1363947[e],e,TRUE,MetanetX conversion,FALSE
+ibutoh[c],ibutoh,MNXM5188,MNXM5188[c],c,TRUE,MetanetX conversion,FALSE
+rblD[c],rblD,rblD,rblD[c],c,FALSE,Unchanged,FALSE
+hco3[c],hco3,MNXM1094693,MNXM1094693[c],c,TRUE,MetanetX conversion,FALSE
+glycogen[e],glycogen,MNXM738130,MNXM738130[e],e,TRUE,MetanetX conversion,FALSE
+ficytc[c],ficytc,MNXM731967,MNXM731967[c],c,TRUE,MetanetX conversion,FALSE
+ergst[r],ergst,MNXM741449,MNXM741449[r],r,TRUE,MetanetX conversion,FALSE
+meoh[c],meoh,MNXM729799,MNXM729799[c],c,TRUE,MetanetX conversion,FALSE
+octdp[c],octdp,MNXM1373575,MNXM1373575[c],c,TRUE,MetanetX conversion,FALSE
+pi[c],pi,MNXM9,MNXM9[c],c,TRUE,MetanetX conversion,FALSE
+r1p[c],r1p,MNXM1103205,MNXM1103205[c],c,TRUE,MetanetX conversion,FALSE
+abtD[e],abtD,abtD,abtD[e],e,FALSE,Unchanged,FALSE
+lacD[x],lacD,lacD,lacD[x],x,FALSE,Unchanged,FALSE
+cpppg3[c],cpppg3,MNXM735625,MNXM735625[c],c,TRUE,MetanetX conversion,FALSE
+ddcACP[m],ddcACP,ddcACP,ddcACP[m],m,FALSE,Unchanged,FALSE
+malL[x],malL,malL,malL[x],x,FALSE,Unchanged,FALSE
+malL[m],malL,malL,malL[m],m,FALSE,Unchanged,FALSE
+nadp[c],nadp,MNXM5,MNXM5[c],c,TRUE,MetanetX conversion,FALSE
+amet[e],amet,MNXM1363866,MNXM1363866[e],e,TRUE,MetanetX conversion,FALSE
+methf[m],methf,MNXM511,MNXM511[m],m,TRUE,MetanetX conversion,FALSE
+2oxoadp[c],2oxoadp,MNXM263,MNXM263[c],c,TRUE,MetanetX conversion,FALSE
+protein_1g[c],protein_1g,protein_1g,protein_1g[c],c,FALSE,Unchanged,FALSE
+caro[c],caro,MNXM1108250,MNXM1108250[c],c,TRUE,MetanetX conversion,FALSE
+nadp[r],nadp,MNXM5,MNXM5[r],r,TRUE,MetanetX conversion,FALSE
+3mop[c],3mop,MNXM1363947,MNXM1363947[c],c,TRUE,MetanetX conversion,FALSE
+cysL[c],cysL,cysL,cysL[c],c,FALSE,Unchanged,FALSE
+malt[e],malt,MNXM1106000,MNXM1106000[e],e,TRUE,MetanetX conversion,FALSE
+pheme[m],pheme,MNXM1369759,MNXM1369759[m],m,TRUE,MetanetX conversion,FALSE
+ribD[c],ribD,ribD,ribD[c],c,FALSE,Unchanged,FALSE
+dudp[c],dudp,MNXM572,MNXM572[c],c,TRUE,MetanetX conversion,FALSE
+din[e],din,MNXM935,MNXM935[e],e,TRUE,MetanetX conversion,FALSE
+hgentis[e],hgentis,MNXM345,MNXM345[e],e,TRUE,MetanetX conversion,FALSE
+10fthf[m],10fthf,MNXM1102376,MNXM1102376[m],m,TRUE,MetanetX conversion,FALSE
+dutp[c],dutp,MNXM452,MNXM452[c],c,TRUE,MetanetX conversion,FALSE
+glycR[c],glycR,glycR,glycR[c],c,FALSE,Unchanged,FALSE
+srbL[e],srbL,srbL,srbL[e],e,FALSE,Unchanged,FALSE
+ggdp[c],ggdp,MNXM728266,MNXM728266[c],c,TRUE,MetanetX conversion,FALSE
+orn[c],orn,MNXM741175,MNXM741175[c],c,TRUE,MetanetX conversion,FALSE
+glyc3p[c],glyc3p,MNXM66,MNXM66[c],c,TRUE,MetanetX conversion,FALSE
+cmp[c],cmp,MNXM1103302,MNXM1103302[c],c,TRUE,MetanetX conversion,FALSE
+ura[e],ura,MNXM1369194,MNXM1369194[e],e,TRUE,MetanetX conversion,FALSE
+xylD[c],xylD,xylD,xylD[c],c,FALSE,Unchanged,FALSE
+dgdp[c],dgdp,MNXM436,MNXM436[c],c,TRUE,MetanetX conversion,FALSE
+pcrn[x],pcrn,MNXM1105887,MNXM1105887[x],x,TRUE,MetanetX conversion,FALSE
+dpcoa[c],dpcoa,MNXM1104543,MNXM1104543[c],c,TRUE,MetanetX conversion,FALSE
+mannan[c],mannan,MNXM1543641,MNXM1543641[c],c,TRUE,MetanetX conversion,FALSE
+gcald[e],gcald,MNXM734590,MNXM734590[e],e,TRUE,MetanetX conversion,FALSE
+trnalys[c],trnalys,MNXM1543939,MNXM1543939[c],c,TRUE,MetanetX conversion,FALSE
+pyr[e],pyr,MNXM23,MNXM23[e],e,TRUE,MetanetX conversion,FALSE
+pap[c],pap,MNXM1103458,MNXM1103458[c],c,TRUE,MetanetX conversion,FALSE
+oaa[e],oaa,MNXM46,MNXM46[e],e,TRUE,MetanetX conversion,FALSE
+pi[m],pi,MNXM9,MNXM9[m],m,TRUE,MetanetX conversion,FALSE
+but[m],but,MNXM458,MNXM458[m],m,TRUE,MetanetX conversion,FALSE
+nadph[r],nadph,MNXM738702,MNXM738702[r],r,TRUE,MetanetX conversion,FALSE
+co2[n],co2,MNXM13,MNXM13[n],n,TRUE,MetanetX conversion,FALSE
+trnatrp[c],trnatrp,MNXM1543947,MNXM1543947[c],c,TRUE,MetanetX conversion,FALSE
+dhap[x],dhap,MNXM77,MNXM77[x],x,TRUE,MetanetX conversion,FALSE
+h[m],h,MNXM1,MNXM1[m],m,TRUE,MetanetX conversion,FALSE
+xyluD[e],xyluD,xyluD,xyluD[e],e,FALSE,Unchanged,FALSE
+gluL[e],gluL,gluL,gluL[e],e,FALSE,Unchanged,FALSE
+dtdp[c],dtdp,MNXM152,MNXM152[c],c,TRUE,MetanetX conversion,FALSE
+acald[c],acald,MNXM75,MNXM75[c],c,TRUE,MetanetX conversion,FALSE
+docosadp[c],docosadp,docosadp,docosadp[c],c,FALSE,Unchanged,FALSE
+2obut[e],2obut,MNXM159,MNXM159[e],e,TRUE,MetanetX conversion,FALSE
+hisL[c],hisL,hisL,hisL[c],c,FALSE,Unchanged,FALSE
+trnaglu[c],trnaglu,MNXM1091273,MNXM1091273[c],c,TRUE,MetanetX conversion,FALSE
+confrl[e],confrl,MNXM880,MNXM880[e],e,TRUE,MetanetX conversion,FALSE
+ddca[c],ddca,MNXM402,MNXM402[c],c,TRUE,MetanetX conversion,FALSE
+atp[x],atp,MNXM3,MNXM3[x],x,TRUE,MetanetX conversion,FALSE
+occoa[m],occoa,MNXM1093479,MNXM1093479[m],m,TRUE,MetanetX conversion,FALSE
+thf[m],thf,MNXM1103936,MNXM1103936[m],m,TRUE,MetanetX conversion,FALSE
+succoa[m],succoa,MNXM1104774,MNXM1104774[m],m,TRUE,MetanetX conversion,FALSE
+pheL[c],pheL,pheL,pheL[c],c,FALSE,Unchanged,FALSE
+sucsal[m],sucsal,MNXM172,MNXM172[m],m,TRUE,MetanetX conversion,FALSE
+trnahis[c],trnahis,MNXM1543936,MNXM1543936[c],c,TRUE,MetanetX conversion,FALSE
+no2[c],no2,MNXM107,MNXM107[c],c,TRUE,MetanetX conversion,FALSE
+aspL[m],aspL,aspL,aspL[m],m,FALSE,Unchanged,FALSE
+furfurylalcohol[c],furfurylalcohol,furfurylalcohol,furfurylalcohol[c],c,FALSE,Unchanged,FALSE
+2hpmhmbq[m],2hpmhmbq,MNXM147696,MNXM147696[m],m,TRUE,MetanetX conversion,FALSE
+confrl[c],confrl,MNXM880,MNXM880[c],c,TRUE,MetanetX conversion,FALSE
+cholest[c],cholest,cholest,cholest[c],c,FALSE,Unchanged,FALSE
+3mb[c],3mb,MNXM1137663,MNXM1137663[c],c,TRUE,MetanetX conversion,FALSE
+chitin_1g[c],chitin_1g,chitin_1g,chitin_1g[c],c,FALSE,Unchanged,FALSE
+succ[c],succ,MNXM25,MNXM25[c],c,TRUE,MetanetX conversion,FALSE
+chitin[c],chitin,MNXM1542981,MNXM1542981[c],c,TRUE,MetanetX conversion,FALSE
+ump[m],ump,MNXM1104823,MNXM1104823[m],m,TRUE,MetanetX conversion,FALSE
+dcdp[c],dcdp,MNXM411,MNXM411[c],c,TRUE,MetanetX conversion,FALSE
+ru5pD[c],ru5pD,ru5pD,ru5pD[c],c,FALSE,Unchanged,FALSE
+trnamet[c],trnamet,MNXM1543940,MNXM1543940[c],c,TRUE,MetanetX conversion,FALSE
+lycop[e],lycop,MNXM736242,MNXM736242[e],e,TRUE,MetanetX conversion,FALSE
+ergst[e],ergst,MNXM741449,MNXM741449[e],e,TRUE,MetanetX conversion,FALSE
+sphgn[e],sphgn,MNXM733692,MNXM733692[e],e,TRUE,MetanetX conversion,FALSE
+fum[c],fum,MNXM737340,MNXM737340[c],c,TRUE,MetanetX conversion,FALSE
+vanlt[m],vanlt,MNXM982,MNXM982[m],m,TRUE,MetanetX conversion,FALSE
+acon_C[m],acon_C,MNXM1092518,MNXM1092518[m],m,TRUE,MetanetX conversion,FALSE
+ade[e],ade,MNXM168,MNXM168[e],e,TRUE,MetanetX conversion,FALSE
+hxcoa[x],hxcoa,MNXM1103616,MNXM1103616[x],x,TRUE,MetanetX conversion,FALSE
+fe2[m],fe2,MNXM1372038,MNXM1372038[m],m,TRUE,MetanetX conversion,FALSE
+sucsal[c],sucsal,MNXM172,MNXM172[c],c,TRUE,MetanetX conversion,FALSE
+no3[c],no3,MNXM732398,MNXM732398[c],c,TRUE,MetanetX conversion,FALSE
+ethyleneglycol[c],ethyleneglycol,ethyleneglycol,ethyleneglycol[c],c,FALSE,Unchanged,FALSE
+nadh[m],nadh,MNXM10,MNXM10[m],m,TRUE,MetanetX conversion,FALSE
+nad[c],nad,MNXM8,MNXM8[c],c,TRUE,MetanetX conversion,FALSE
+chol[c],chol,MNXM90,MNXM90[c],c,TRUE,MetanetX conversion,FALSE
+thf[c],thf,MNXM1103936,MNXM1103936[c],c,TRUE,MetanetX conversion,FALSE
+salcn[e],salcn,MNXM2561,MNXM2561[e],e,TRUE,MetanetX conversion,FALSE
+rna_1g[c],rna_1g,rna_1g,rna_1g[c],c,FALSE,Unchanged,FALSE
+alltt[e],alltt,MNXM584,MNXM584[e],e,TRUE,MetanetX conversion,FALSE
+2mbtoh[c],2mbtoh,MNXM5476,MNXM5476[c],c,TRUE,MetanetX conversion,FALSE
+thymd[e],thymd,MNXM420,MNXM420[e],e,TRUE,MetanetX conversion,FALSE
+leuL[c],leuL,leuL,leuL[c],c,FALSE,Unchanged,FALSE
+trnaleu[c],trnaleu,MNXM1543938,MNXM1543938[c],c,TRUE,MetanetX conversion,FALSE
+nh4[x],nh4,MNXM729302,MNXM729302[x],x,TRUE,MetanetX conversion,FALSE
+srbL[c],srbL,srbL,srbL[c],c,FALSE,Unchanged,FALSE
+h2o2[x],h2o2,MNXM732620,MNXM732620[x],x,TRUE,MetanetX conversion,FALSE
+cit[e],cit,MNXM1107752,MNXM1107752[e],e,TRUE,MetanetX conversion,FALSE
+fol[m],fol,MNXM617,MNXM617[m],m,TRUE,MetanetX conversion,FALSE
+hexdp[m],hexdp,MNXM726465,MNXM726465[m],m,TRUE,MetanetX conversion,FALSE
+13BDglcn[c],13BDglcn,MNXM91349,MNXM91349[c],c,TRUE,MetanetX conversion,FALSE
+hmf[e],hmf,hmf,hmf[e],e,FALSE,Unchanged,FALSE
+amp[x],amp,MNXM728294,MNXM728294[x],x,TRUE,MetanetX conversion,FALSE
+ribflv[c],ribflv,MNXM270,MNXM270[c],c,TRUE,MetanetX conversion,FALSE
+nadh[r],nadh,MNXM10,MNXM10[r],r,TRUE,MetanetX conversion,FALSE
+trnaval[c],trnaval,MNXM1543950,MNXM1543950[c],c,TRUE,MetanetX conversion,FALSE
+atp[c],atp,MNXM3,MNXM3[c],c,TRUE,MetanetX conversion,FALSE
+13dpg[c],13dpg,MNXM1364640,MNXM1364640[c],c,TRUE,MetanetX conversion,FALSE
+gal1p[c],gal1p,MNXM1364358,MNXM1364358[c],c,TRUE,MetanetX conversion,FALSE
+h2o[e],h2o,WATER,WATER[e],e,TRUE,Other conversion,FALSE
+eryth[e],eryth,MNXM59384,MNXM59384[e],e,TRUE,MetanetX conversion,FALSE
+erthrs[e],erthrs,MNXM1092958,MNXM1092958[e],e,TRUE,MetanetX conversion,FALSE
+dmpp[c],dmpp,MNXM132,MNXM132[c],c,TRUE,MetanetX conversion,FALSE
+alaL[c],alaL,alaL,alaL[c],c,FALSE,Unchanged,FALSE
+utp[m],utp,MNXM1101474,MNXM1101474[m],m,TRUE,MetanetX conversion,FALSE
+msa[c],msa,MNXM1369748,MNXM1369748[c],c,TRUE,MetanetX conversion,FALSE
+paSC[m],paSC,paSC,paSC[m],m,FALSE,Unchanged,FALSE
+glntrna[c],glntrna,MNXM1543316,MNXM1543316[c],c,TRUE,MetanetX conversion,FALSE
+cytd[e],cytd,MNXM1364050,MNXM1364050[e],e,TRUE,MetanetX conversion,FALSE
+alaD[c],alaD,alaD,alaD[c],c,FALSE,Unchanged,FALSE
+udpgal[c],udpgal,MNXM1104754,MNXM1104754[c],c,TRUE,MetanetX conversion,FALSE
+ppa[m],ppa,MNXM1094052,MNXM1094052[m],m,TRUE,MetanetX conversion,FALSE
+mmtcoa[m],mmtcoa,mmtcoa,mmtcoa[m],m,FALSE,Unchanged,FALSE
+nadp[m],nadp,MNXM5,MNXM5[m],m,TRUE,MetanetX conversion,FALSE
+ribD[e],ribD,ribD,ribD[e],e,FALSE,Unchanged,FALSE
+acrn[m],acrn,MNXM726103,MNXM726103[m],m,TRUE,MetanetX conversion,FALSE
+oaa[x],oaa,MNXM46,MNXM46[x],x,TRUE,MetanetX conversion,FALSE
+thm[c],thm,MNXM730135,MNXM730135[c],c,TRUE,MetanetX conversion,FALSE
+4abut[c],4abut,MNXM192,MNXM192[c],c,TRUE,MetanetX conversion,FALSE
+threitolD[e],threitolD,threitolD,threitolD[e],e,FALSE,Unchanged,FALSE
+fdp[c],fdp,MNXM1364374,MNXM1364374[c],c,TRUE,MetanetX conversion,FALSE
+glcD[e],glcD,glcD,glcD[e],e,FALSE,Unchanged,FALSE
+but[x],but,MNXM458,MNXM458[x],x,TRUE,MetanetX conversion,FALSE
+hmf[c],hmf,hmf,hmf[c],c,FALSE,Unchanged,FALSE
+thymd[c],thymd,MNXM420,MNXM420[c],c,TRUE,MetanetX conversion,FALSE
+gmp[c],gmp,MNXM1101285,MNXM1101285[c],c,TRUE,MetanetX conversion,FALSE
+pendcdp[c],pendcdp,pendcdp,pendcdp[c],c,FALSE,Unchanged,FALSE
+nadph[m],nadph,MNXM738702,MNXM738702[m],m,TRUE,MetanetX conversion,FALSE
+ppbng[c],ppbng,MNXM554,MNXM554[c],c,TRUE,MetanetX conversion,FALSE
+gcarote[c],gcarote,MNXM1048,MNXM1048[c],c,TRUE,MetanetX conversion,FALSE
+udcpdp[c],udcpdp,MNXM1365109,MNXM1365109[c],c,TRUE,MetanetX conversion,FALSE
+btoh[c],btoh,MNXM3230,MNXM3230[c],c,TRUE,MetanetX conversion,FALSE
+o2[e],o2,MNXM735438,MNXM735438[e],e,TRUE,MetanetX conversion,FALSE
+hLkynr[c],hLkynr,MNXM728564,MNXM728564[c],c,TRUE,MetanetX conversion,FALSE
+hexdcdp[c],hexdcdp,hexdcdp,hexdcdp[c],c,FALSE,Unchanged,FALSE
+dttp[c],dttp,MNXM394,MNXM394[c],c,TRUE,MetanetX conversion,FALSE
+h2o2[m],h2o2,MNXM732620,MNXM732620[m],m,TRUE,MetanetX conversion,FALSE
+2mppal[c],2mppal,MNXM5189,MNXM5189[c],c,TRUE,MetanetX conversion,FALSE
+5mthf[c],5mthf,MNXM1364093,MNXM1364093[c],c,TRUE,MetanetX conversion,FALSE
+paSCmonounsat_1g[c],paSCmonounsat_1g,paSCmonounsat_1g,paSCmonounsat_1g[c],c,FALSE,Unchanged,FALSE
+glx[m],glx,MNXM69,MNXM69[m],m,TRUE,MetanetX conversion,FALSE
+gcald[c],gcald,MNXM734590,MNXM734590[c],c,TRUE,MetanetX conversion,FALSE
+for[m],for,MNXM39,MNXM39[m],m,TRUE,MetanetX conversion,FALSE
+3Zoca[c],3Zoca,3Zoca,3Zoca[c],c,FALSE,Unchanged,FALSE
+thfglu[c],thfglu,MNXM1104336,MNXM1104336[c],c,TRUE,MetanetX conversion,FALSE
+btd_RR[e],btd_RR,MNXM2757,MNXM2757[e],e,TRUE,MetanetX conversion,FALSE
+nad[x],nad,MNXM8,MNXM8[x],x,TRUE,MetanetX conversion,FALSE
+q6[m],q6,MNXM1372480,MNXM1372480[m],m,TRUE,MetanetX conversion,FALSE
+etoh[m],etoh,MNXM1108092,MNXM1108092[m],m,TRUE,MetanetX conversion,FALSE
+3Zoccoa[m],3Zoccoa,3Zoccoa,3Zoccoa[m],m,FALSE,Unchanged,FALSE
+dodcdp[c],dodcdp,dodcdp,dodcdp[c],c,FALSE,Unchanged,FALSE
+thmmp[c],thmmp,MNXM662,MNXM662[c],c,TRUE,MetanetX conversion,FALSE
+phpyr[c],phpyr,MNXM730221,MNXM730221[c],c,TRUE,MetanetX conversion,FALSE
+akg[x],akg,MNXM1369648,MNXM1369648[x],x,TRUE,MetanetX conversion,FALSE
+bzalc[e],bzalc,MNXM562,MNXM562[e],e,TRUE,MetanetX conversion,FALSE
+datp[c],datp,MNXM286,MNXM286[c],c,TRUE,MetanetX conversion,FALSE
+2Ehxcoa[x],2Ehxcoa,2Ehxcoa,2Ehxcoa[x],x,FALSE,Unchanged,FALSE
+dadp[c],dadp,MNXM735047,MNXM735047[c],c,TRUE,MetanetX conversion,FALSE
+trnaasn[c],trnaasn,MNXM1543931,MNXM1543931[c],c,TRUE,MetanetX conversion,FALSE
+q6h2[m],q6h2,MNXM5319,MNXM5319[m],m,TRUE,MetanetX conversion,FALSE
+accoa[c],accoa,MNXM1104266,MNXM1104266[c],c,TRUE,MetanetX conversion,FALSE
+co2[c],co2,MNXM13,MNXM13[c],c,TRUE,MetanetX conversion,FALSE
+eryth[c],eryth,MNXM59384,MNXM59384[c],c,TRUE,MetanetX conversion,FALSE
+trnagly[c],trnagly,MNXM1543935,MNXM1543935[c],c,TRUE,MetanetX conversion,FALSE
+metL[c],metL,metL,metL[c],c,FALSE,Unchanged,FALSE
+iamoh[e],iamoh,MNXM1670,MNXM1670[e],e,TRUE,MetanetX conversion,FALSE
+pppg9[m],pppg9,MNXM351,MNXM351[m],m,TRUE,MetanetX conversion,FALSE
+din[c],din,MNXM935,MNXM935[c],c,TRUE,MetanetX conversion,FALSE
+nondp[c],nondp,nondp,nondp[c],c,FALSE,Unchanged,FALSE
+gdp[c],gdp,MNXM1103285,MNXM1103285[c],c,TRUE,MetanetX conversion,FALSE
+akg[m],akg,MNXM1369648,MNXM1369648[m],m,TRUE,MetanetX conversion,FALSE
+focytc[m],focytc,MNXM5750,MNXM5750[m],m,TRUE,MetanetX conversion,FALSE
+pserL[c],pserL,pserL,pserL[c],c,FALSE,Unchanged,FALSE
+man[c],man,MNXM1364255,MNXM1364255[c],c,TRUE,MetanetX conversion,FALSE
+glu5sa[m],glu5sa,MNXM1093051,MNXM1093051[m],m,TRUE,MetanetX conversion,FALSE
+scl[c],scl,MNXM740871,MNXM740871[c],c,TRUE,MetanetX conversion,FALSE
+2dr5p[c],2dr5p,MNXM732594,MNXM732594[c],c,TRUE,MetanetX conversion,FALSE
+xtsn[e],xtsn,MNXM1103769,MNXM1103769[e],e,TRUE,MetanetX conversion,FALSE
+rblD[e],rblD,rblD,rblD[e],e,FALSE,Unchanged,FALSE
+malL[c],malL,malL,malL[c],c,FALSE,Unchanged,FALSE
+h[e],h,MNXM1,MNXM1[e],e,TRUE,MetanetX conversion,FALSE
+udpg[c],udpg,MNXM1364158,MNXM1364158[c],c,TRUE,MetanetX conversion,FALSE
+h2o[c],h2o,WATER,WATER[c],c,TRUE,Other conversion,FALSE
+gthrd[x],gthrd,MNXM490899,MNXM490899[x],x,TRUE,MetanetX conversion,FALSE
+dhf[c],dhf,MNXM281,MNXM281[c],c,TRUE,MetanetX conversion,FALSE
+gluL[c],gluL,gluL,gluL[c],c,FALSE,Unchanged,FALSE
+vanlt[c],vanlt,MNXM982,MNXM982[c],c,TRUE,MetanetX conversion,FALSE
+acrn[c],acrn,MNXM726103,MNXM726103[c],c,TRUE,MetanetX conversion,FALSE
+nad[m],nad,MNXM8,MNXM8[m],m,TRUE,MetanetX conversion,FALSE
+melibiitol[c],melibiitol,melibiitol,melibiitol[c],c,FALSE,Unchanged,FALSE
+mmtsa[e],mmtsa,MNXM1105058,MNXM1105058[e],e,TRUE,MetanetX conversion,FALSE
+hi[m],hi,hi,hi[m],m,FALSE,Unchanged,FALSE
+urea[e],urea,MNXM117,MNXM117[e],e,TRUE,MetanetX conversion,FALSE
+ala_B[c],ala_B,MNXM144,MNXM144[c],c,TRUE,MetanetX conversion,FALSE
+btoh[e],btoh,MNXM3230,MNXM3230[e],e,TRUE,MetanetX conversion,FALSE
+ppi[x],ppi,MNXM11,MNXM11[x],x,TRUE,MetanetX conversion,FALSE
+valL[c],valL,valL,valL[c],c,FALSE,Unchanged,FALSE
+tre[c],tre,MNXM1364330,MNXM1364330[c],c,TRUE,MetanetX conversion,FALSE
+leutrna[c],leutrna,MNXM1543586,MNXM1543586[c],c,TRUE,MetanetX conversion,FALSE
+L2aadp[c],L2aadp,MNXM1369807,MNXM1369807[c],c,TRUE,MetanetX conversion,FALSE
+co2[x],co2,MNXM13,MNXM13[x],x,TRUE,MetanetX conversion,FALSE
+fru[e],fru,MNXM1364246,MNXM1364246[e],e,TRUE,MetanetX conversion,FALSE
+xylD[e],xylD,xylD,xylD[e],e,FALSE,Unchanged,FALSE
+pendp[c],pendp,MNXM732668,MNXM732668[c],c,TRUE,MetanetX conversion,FALSE
+fe2[e],fe2,MNXM1372038,MNXM1372038[e],e,TRUE,MetanetX conversion,FALSE
+mmtsa[c],mmtsa,MNXM1105058,MNXM1105058[c],c,TRUE,MetanetX conversion,FALSE
+pacald[c],pacald,MNXM473,MNXM473[c],c,TRUE,MetanetX conversion,FALSE
+acglu[e],acglu,MNXM1371649,MNXM1371649[e],e,TRUE,MetanetX conversion,FALSE
+leuL[e],leuL,leuL,leuL[e],e,FALSE,Unchanged,FALSE
+amet[m],amet,MNXM1363866,MNXM1363866[m],m,TRUE,MetanetX conversion,FALSE
+2mbald[c],2mbald,MNXM2604,MNXM2604[c],c,TRUE,MetanetX conversion,FALSE
+h2o[r],h2o,WATER,WATER[r],r,TRUE,Other conversion,FALSE
+gsn[c],gsn,MNXM1103400,MNXM1103400[c],c,TRUE,MetanetX conversion,FALSE
+aacoa[c],aacoa,MNXM1103802,MNXM1103802[c],c,TRUE,MetanetX conversion,FALSE
+lysL[c],lysL,lysL,lysL[c],c,FALSE,Unchanged,FALSE
+amp[m],amp,MNXM728294,MNXM728294[m],m,TRUE,MetanetX conversion,FALSE
+acon_C[c],acon_C,MNXM1092518,MNXM1092518[c],c,TRUE,MetanetX conversion,FALSE
+ash_1g[e],ash_1g,ash_1g,ash_1g[e],e,FALSE,Unchanged,FALSE
+trpL[e],trpL,trpL,trpL[e],e,FALSE,Unchanged,FALSE
+sarcs[e],sarcs,MNXM300,MNXM300[e],e,TRUE,MetanetX conversion,FALSE
+ocACP[c],ocACP,MNXM90185,MNXM90185[c],c,TRUE,MetanetX conversion,FALSE
+dann[c],dann,MNXM1140,MNXM1140[c],c,TRUE,MetanetX conversion,FALSE
+4abutn[m],4abutn,MNXM422,MNXM422[m],m,TRUE,MetanetX conversion,FALSE
+glyb[e],glyb,MNXM289,MNXM289[e],e,TRUE,MetanetX conversion,FALSE
+trnaasp[c],trnaasp,MNXM1543932,MNXM1543932[c],c,TRUE,MetanetX conversion,FALSE
+h[x],h,MNXM1,MNXM1[x],x,TRUE,MetanetX conversion,FALSE
+glyclt[c],glyclt,MNXM222,MNXM222[c],c,TRUE,MetanetX conversion,FALSE
+pyr[x],pyr,MNXM23,MNXM23[x],x,TRUE,MetanetX conversion,FALSE
+biomass_1g[c],biomass_1g,biomass_1g,biomass_1g[c],c,FALSE,Unchanged,FALSE
+3hbtcoa[x],3hbtcoa,3hbtcoa,3hbtcoa[x],x,FALSE,Unchanged,FALSE
+5aop[e],5aop,MNXM405,MNXM405[e],e,TRUE,MetanetX conversion,FALSE
+inost[e],inost,MNXM1105941,MNXM1105941[e],e,TRUE,MetanetX conversion,FALSE
+dgtp[c],dgtp,MNXM344,MNXM344[c],c,TRUE,MetanetX conversion,FALSE
+thmpp[c],thmpp,MNXM256,MNXM256[c],c,TRUE,MetanetX conversion,FALSE
+dolmanp[c],dolmanp,MNXM733603,MNXM733603[c],c,TRUE,MetanetX conversion,FALSE
+nondcdp[c],nondcdp,nondcdp,nondcdp[c],c,FALSE,Unchanged,FALSE
+ergst[c],ergst,MNXM741449,MNXM741449[c],c,TRUE,MetanetX conversion,FALSE
+phetrna[c],phetrna,MNXM1543782,MNXM1543782[c],c,TRUE,MetanetX conversion,FALSE
+urea[c],urea,MNXM117,MNXM117[c],c,TRUE,MetanetX conversion,FALSE
+ethyleneglycol[e],ethyleneglycol,ethyleneglycol,ethyleneglycol[e],e,FALSE,Unchanged,FALSE
+tyrtrna[c],tyrtrna,MNXM1543955,MNXM1543955[c],c,TRUE,MetanetX conversion,FALSE
+ptdmeeta[c],ptdmeeta,ptdmeeta,ptdmeeta[c],c,FALSE,Unchanged,FALSE
+hxan[c],hxan,MNXM732487,MNXM732487[c],c,TRUE,MetanetX conversion,FALSE
+xyluD[c],xyluD,xyluD,xyluD[c],c,FALSE,Unchanged,FALSE
+2hp6mbq[m],2hp6mbq,MNXM147698,MNXM147698[m],m,TRUE,MetanetX conversion,FALSE
+4abut[m],4abut,MNXM192,MNXM192[m],m,TRUE,MetanetX conversion,FALSE
+hgentis[c],hgentis,MNXM345,MNXM345[c],c,TRUE,MetanetX conversion,FALSE
+g3p[c],g3p,MNXM1373252,MNXM1373252[c],c,TRUE,MetanetX conversion,FALSE
+octdcdp[c],octdcdp,octdcdp,octdcdp[c],c,FALSE,Unchanged,FALSE
+serL[m],serL,serL,serL[m],m,FALSE,Unchanged,FALSE
+damp[c],damp,MNXM432,MNXM432[c],c,TRUE,MetanetX conversion,FALSE
+tre[e],tre,MNXM1364330,MNXM1364330[e],e,TRUE,MetanetX conversion,FALSE
+nac[c],nac,MNXM274,MNXM274[c],c,TRUE,MetanetX conversion,FALSE
+gam[c],gam,MNXM1105684,MNXM1105684[c],c,TRUE,MetanetX conversion,FALSE
+msa[e],msa,MNXM1369748,MNXM1369748[e],e,TRUE,MetanetX conversion,FALSE
+icosadp[c],icosadp,icosadp,icosadp[c],c,FALSE,Unchanged,FALSE
+btcoa[m],btcoa,MNXM1104300,MNXM1104300[m],m,TRUE,MetanetX conversion,FALSE
+acald[e],acald,MNXM75,MNXM75[e],e,TRUE,MetanetX conversion,FALSE
+alatrna[c],alatrna,MNXM1542889,MNXM1542889[c],c,TRUE,MetanetX conversion,FALSE
+man1p[c],man1p,MNXM1106057,MNXM1106057[c],c,TRUE,MetanetX conversion,FALSE
+tyrL[c],tyrL,tyrL,tyrL[c],c,FALSE,Unchanged,FALSE
+pserL[e],pserL,pserL,pserL[e],e,FALSE,Unchanged,FALSE
+uppg3[c],uppg3,MNXM414,MNXM414[c],c,TRUE,MetanetX conversion,FALSE
+ACP[c],ACP,MNXM1373297,MNXM1373297[c],c,TRUE,MetanetX conversion,FALSE
+asntrna[c],asntrna,MNXM1542935,MNXM1542935[c],c,TRUE,MetanetX conversion,FALSE
+ocoh[e],ocoh,ocoh,ocoh[e],e,FALSE,Unchanged,FALSE
+2oxoadp[m],2oxoadp,MNXM263,MNXM263[m],m,TRUE,MetanetX conversion,FALSE
+2mbtoh[e],2mbtoh,MNXM5476,MNXM5476[e],e,TRUE,MetanetX conversion,FALSE
+eryt[e],eryt,eryt,eryt[e],e,FALSE,Unchanged,FALSE
+4hoxpacd[e],4hoxpacd,MNXM479,MNXM479[e],e,TRUE,MetanetX conversion,FALSE
+dttp[e],dttp,MNXM394,MNXM394[e],e,TRUE,MetanetX conversion,FALSE
+hxan[e],hxan,MNXM732487,MNXM732487[e],e,TRUE,MetanetX conversion,FALSE
+cdpdag[c],cdpdag,cdpdag,cdpdag[c],c,FALSE,Unchanged,FALSE
+btcoa[x],btcoa,MNXM1104300,MNXM1104300[x],x,TRUE,MetanetX conversion,FALSE
+3mppal[c],3mppal,3mppal,3mppal[c],c,FALSE,Unchanged,FALSE
+furfural[c],furfural,furfural,furfural[c],c,FALSE,Unchanged,FALSE
+sheme[e],sheme,MNXM1104857,MNXM1104857[e],e,TRUE,MetanetX conversion,FALSE
+3oxoadp[m],3oxoadp,MNXM716,MNXM716[m],m,TRUE,MetanetX conversion,FALSE
+r5p[c],r5p,MNXM1364029,MNXM1364029[c],c,TRUE,MetanetX conversion,FALSE
+grdp[c],grdp,MNXM100,MNXM100[c],c,TRUE,MetanetX conversion,FALSE
+dolp[c],dolp,MNXM51499,MNXM51499[c],c,TRUE,MetanetX conversion,FALSE
+3hph5mb[m],3hph5mb,MNXM3166,MNXM3166[m],m,TRUE,MetanetX conversion,FALSE
+nad[r],nad,MNXM8,MNXM8[r],r,TRUE,MetanetX conversion,FALSE
+s17bp[c],s17bp,MNXM507505,MNXM507505[c],c,TRUE,MetanetX conversion,FALSE
+ppp9[m],ppp9,MNXM1364652,MNXM1364652[m],m,TRUE,MetanetX conversion,FALSE
+arbt[c],arbt,MNXM1372603,MNXM1372603[c],c,TRUE,MetanetX conversion,FALSE
+2mbac[e],2mbac,MNXM35277,MNXM35277[e],e,TRUE,MetanetX conversion,FALSE
+glcD[c],glcD,glcD,glcD[c],c,FALSE,Unchanged,FALSE
+mannan_1g[c],mannan_1g,mannan_1g,mannan_1g[c],c,FALSE,Unchanged,FALSE
+3Zoca[x],3Zoca,3Zoca,3Zoca[x],x,FALSE,Unchanged,FALSE
+utp[c],utp,MNXM1101474,MNXM1101474[c],c,TRUE,MetanetX conversion,FALSE
+trnaala[c],trnaala,MNXM1543929,MNXM1543929[c],c,TRUE,MetanetX conversion,FALSE
+pc[c],pc,pc,pc[c],c,FALSE,Unchanged,FALSE
+atp[m],atp,MNXM3,MNXM3[m],m,TRUE,MetanetX conversion,FALSE
+dna_1g[c],dna_1g,dna_1g,dna_1g[c],c,FALSE,Unchanged,FALSE
+orn[e],orn,MNXM741175,MNXM741175[e],e,TRUE,MetanetX conversion,FALSE
+adp[c],adp,MNXM40333,MNXM40333[c],c,TRUE,MetanetX conversion,FALSE
+sphn1p[c],sphn1p,sphn1p,sphn1p[c],c,FALSE,Unchanged,FALSE
+thfglu[e],thfglu,MNXM1104336,MNXM1104336[e],e,TRUE,MetanetX conversion,FALSE
+ptd1ino[c],ptd1ino,ptd1ino,ptd1ino[c],c,FALSE,Unchanged,FALSE
+3Zoca[m],3Zoca,3Zoca,3Zoca[m],m,FALSE,Unchanged,FALSE
+ppcoa[m],ppcoa,MNXM1364414,MNXM1364414[m],m,TRUE,MetanetX conversion,FALSE
+cit[c],cit,MNXM1107752,MNXM1107752[c],c,TRUE,MetanetX conversion,FALSE
+h[c],h,MNXM1,MNXM1[c],c,TRUE,MetanetX conversion,FALSE
+4hdbzol[c],4hdbzol,4hdbzol,4hdbzol[c],c,FALSE,Unchanged,FALSE
+nadh[c],nadh,MNXM10,MNXM10[c],c,TRUE,MetanetX conversion,FALSE
+tyrosol[c],tyrosol,tyrosol,tyrosol[c],c,FALSE,Unchanged,FALSE
+sphgn[c],sphgn,MNXM733692,MNXM733692[c],c,TRUE,MetanetX conversion,FALSE
+ppa[e],ppa,MNXM1094052,MNXM1094052[e],e,TRUE,MetanetX conversion,FALSE
+dha[c],dha,MNXM460,MNXM460[c],c,TRUE,MetanetX conversion,FALSE
+nadp[x],nadp,MNXM5,MNXM5[x],x,TRUE,MetanetX conversion,FALSE
+no2[e],no2,MNXM107,MNXM107[e],e,TRUE,MetanetX conversion,FALSE
+alltt[c],alltt,MNXM584,MNXM584[c],c,TRUE,MetanetX conversion,FALSE
+dctp[c],dctp,MNXM360,MNXM360[c],c,TRUE,MetanetX conversion,FALSE
+mettrna[c],mettrna,MNXM1543652,MNXM1543652[c],c,TRUE,MetanetX conversion,FALSE
+metha[e],metha,metha,metha[e],e,FALSE,Unchanged,FALSE
+4tmeabutn[m],4tmeabutn,MNXM738927,MNXM738927[m],m,TRUE,MetanetX conversion,FALSE
+h[n],h,MNXM1,MNXM1[n],n,TRUE,MetanetX conversion,FALSE
+gal[e],gal,MNXM1364662,MNXM1364662[e],e,TRUE,MetanetX conversion,FALSE
+btd_RR[c],btd_RR,MNXM2757,MNXM2757[c],c,TRUE,MetanetX conversion,FALSE
+tdACP[c],tdACP,tdACP,tdACP[c],c,FALSE,Unchanged,FALSE
+leuL[m],leuL,leuL,leuL[m],m,FALSE,Unchanged,FALSE
+gluL[m],gluL,gluL,gluL[m],m,FALSE,Unchanged,FALSE
+trnatyr[c],trnatyr,MNXM1543948,MNXM1543948[c],c,TRUE,MetanetX conversion,FALSE
+valL[e],valL,valL,valL[e],e,FALSE,Unchanged,FALSE
+meoh[e],meoh,MNXM729799,MNXM729799[e],e,TRUE,MetanetX conversion,FALSE
+cysL[e],cysL,cysL,cysL[e],e,FALSE,Unchanged,FALSE
+lacD[e],lacD,lacD,lacD[e],e,FALSE,Unchanged,FALSE
+lystrna[c],lystrna,MNXM1543604,MNXM1543604[c],c,TRUE,MetanetX conversion,FALSE
+s7p[c],s7p,MNXM733314,MNXM733314[c],c,TRUE,MetanetX conversion,FALSE
+mnl[c],mnl,MNXM1104590,MNXM1104590[c],c,TRUE,MetanetX conversion,FALSE
+ppi[c],ppi,MNXM11,MNXM11[c],c,TRUE,MetanetX conversion,FALSE
+metL[m],metL,metL,metL[m],m,FALSE,Unchanged,FALSE
+inost[c],inost,MNXM1105941,MNXM1105941[c],c,TRUE,MetanetX conversion,FALSE
+12dgr[c],12dgr,12dgr,12dgr[c],c,FALSE,Unchanged,FALSE
+3pg[e],3pg,MNXM727604,MNXM727604[e],e,TRUE,MetanetX conversion,FALSE
+ade[c],ade,MNXM168,MNXM168[c],c,TRUE,MetanetX conversion,FALSE
+glnL[c],glnL,glnL,glnL[c],c,FALSE,Unchanged,FALSE
+ptrc[c],ptrc,MNXM118,MNXM118[c],c,TRUE,MetanetX conversion,FALSE
+co2[r],co2,MNXM13,MNXM13[r],r,TRUE,MetanetX conversion,FALSE
+coa[m],coa,MNXM727276,MNXM727276[m],m,TRUE,MetanetX conversion,FALSE
+alaL[m],alaL,alaL,alaL[m],m,FALSE,Unchanged,FALSE
+rbt[c],rbt,MNXM1820,MNXM1820[c],c,TRUE,MetanetX conversion,FALSE
+proL[c],proL,proL,proL[c],c,FALSE,Unchanged,FALSE
+hmgth[x],hmgth,MNXM726277,MNXM726277[x],x,TRUE,MetanetX conversion,FALSE
+gal[c],gal,MNXM1364662,MNXM1364662[c],c,TRUE,MetanetX conversion,FALSE
+acac[c],acac,MNXM729595,MNXM729595[c],c,TRUE,MetanetX conversion,FALSE
+pntoR[c],pntoR,pntoR,pntoR[c],c,FALSE,Unchanged,FALSE
+ptd1ino_monounsat_1g[c],ptd1ino_monounsat_1g,ptd1ino_monounsat_1g,ptd1ino_monounsat_1g[c],c,FALSE,Unchanged,FALSE
+nh4[c],nh4,MNXM729302,MNXM729302[c],c,TRUE,MetanetX conversion,FALSE
+asnL[c],asnL,asnL,asnL[c],c,FALSE,Unchanged,FALSE
+3Zoccoa[x],3Zoccoa,3Zoccoa,3Zoccoa[x],x,FALSE,Unchanged,FALSE
+icit[c],icit,MNXM89661,MNXM89661[c],c,TRUE,MetanetX conversion,FALSE
+h2o2[c],h2o2,MNXM732620,MNXM732620[c],c,TRUE,MetanetX conversion,FALSE
+asnL[e],asnL,asnL,asnL[e],e,FALSE,Unchanged,FALSE
+gtp[c],gtp,MNXM1103553,MNXM1103553[c],c,TRUE,MetanetX conversion,FALSE
+bzal[e],bzal,MNXM371,MNXM371[e],e,TRUE,MetanetX conversion,FALSE
+orn[m],orn,MNXM741175,MNXM741175[m],m,TRUE,MetanetX conversion,FALSE
+clpn_monounsat_1g[m],clpn_monounsat_1g,clpn_monounsat_1g,clpn_monounsat_1g[m],m,FALSE,Unchanged,FALSE
+oxadpcoa[m],oxadpcoa,MNXM1105939,MNXM1105939[m],m,TRUE,MetanetX conversion,FALSE
+trdox[c],trdox,MNXM1090214,MNXM1090214[c],c,TRUE,MetanetX conversion,FALSE
+2mbac[c],2mbac,MNXM35277,MNXM35277[c],c,TRUE,MetanetX conversion,FALSE
+methf[c],methf,MNXM511,MNXM511[c],c,TRUE,MetanetX conversion,FALSE
+sbtD[e],sbtD,sbtD,sbtD[e],e,FALSE,Unchanged,FALSE
+34hplac[e],34hplac,MNXM1542012,MNXM1542012[e],e,TRUE,MetanetX conversion,FALSE
+g1p[e],g1p,MNXM1364357,MNXM1364357[e],e,TRUE,MetanetX conversion,FALSE
+lacD[c],lacD,lacD,lacD[c],c,FALSE,Unchanged,FALSE
+h2o[n],h2o,WATER,WATER[n],n,TRUE,Other conversion,FALSE
+valtrna[c],valtrna,MNXM1544015,MNXM1544015[c],c,TRUE,MetanetX conversion,FALSE
+glx[c],glx,MNXM69,MNXM69[c],c,TRUE,MetanetX conversion,FALSE
+cdpea[c],cdpea,MNXM1103456,MNXM1103456[c],c,TRUE,MetanetX conversion,FALSE
+dtmp[c],dtmp,MNXM257,MNXM257[c],c,TRUE,MetanetX conversion,FALSE
+thrL[c],thrL,thrL,thrL[c],c,FALSE,Unchanged,FALSE
+2phetoh[c],2phetoh,MNXM2476,MNXM2476[c],c,TRUE,MetanetX conversion,FALSE
+4ppan[c],4ppan,MNXM735771,MNXM735771[c],c,TRUE,MetanetX conversion,FALSE
+sbtD[c],sbtD,sbtD,sbtD[c],c,FALSE,Unchanged,FALSE
+catechol[c],catechol,MNXM731896,MNXM731896[c],c,TRUE,MetanetX conversion,FALSE
+o2[x],o2,MNXM735438,MNXM735438[x],x,TRUE,MetanetX conversion,FALSE
+btn[c],btn,MNXM304,MNXM304[c],c,TRUE,MetanetX conversion,FALSE
+amp[e],amp,MNXM728294,MNXM728294[e],e,TRUE,MetanetX conversion,FALSE
+tridcdp[c],tridcdp,tridcdp,tridcdp[c],c,FALSE,Unchanged,FALSE
+ptd2meeta[c],ptd2meeta,ptd2meeta,ptd2meeta[c],c,FALSE,Unchanged,FALSE
+mlthf[m],mlthf,MNXM1102150,MNXM1102150[m],m,TRUE,MetanetX conversion,FALSE
+vanlt[e],vanlt,MNXM982,MNXM982[e],e,TRUE,MetanetX conversion,FALSE
+cholestester[c],cholestester,cholestester,cholestester[c],c,FALSE,Unchanged,FALSE
+gdpmann[c],gdpmann,MNXM1104188,MNXM1104188[c],c,TRUE,MetanetX conversion,FALSE
+dmetha[e],dmetha,dmetha,dmetha[e],e,FALSE,Unchanged,FALSE
+bzal[c],bzal,MNXM371,MNXM371[c],c,TRUE,MetanetX conversion,FALSE
+pydam[e],pydam,MNXM548,MNXM548[e],e,TRUE,MetanetX conversion,FALSE
+4ppcys[c],4ppcys,MNXM730898,MNXM730898[c],c,TRUE,MetanetX conversion,FALSE
+xtsn[c],xtsn,MNXM1103769,MNXM1103769[c],c,TRUE,MetanetX conversion,FALSE
+retinal[c],retinal,MNXM1364312,MNXM1364312[c],c,TRUE,MetanetX conversion,FALSE
+3mb[e],3mb,MNXM1137663,MNXM1137663[e],e,TRUE,MetanetX conversion,FALSE
+4aphdob[c],4aphdob,MNXM466,MNXM466[c],c,TRUE,MetanetX conversion,FALSE
+threitolD[c],threitolD,threitolD,threitolD[c],c,FALSE,Unchanged,FALSE
+crn[x],crn,MNXM1105736,MNXM1105736[x],x,TRUE,MetanetX conversion,FALSE
+akg[c],akg,MNXM1369648,MNXM1369648[c],c,TRUE,MetanetX conversion,FALSE
+hxdal[e],hxdal,hxdal,hxdal[e],e,FALSE,Unchanged,FALSE
+acglu[c],acglu,MNXM1371649,MNXM1371649[c],c,TRUE,MetanetX conversion,FALSE
+glyclt[e],glyclt,MNXM222,MNXM222[e],e,TRUE,MetanetX conversion,FALSE
+abtD[c],abtD,abtD,abtD[c],c,FALSE,Unchanged,FALSE
+glyc3p[x],glyc3p,MNXM66,MNXM66[x],x,TRUE,MetanetX conversion,FALSE
+pe_monounsat_1g[c],pe_monounsat_1g,pe_monounsat_1g,pe_monounsat_1g[c],c,FALSE,Unchanged,FALSE
+2dr5p[e],2dr5p,MNXM732594,MNXM732594[e],e,TRUE,MetanetX conversion,FALSE
+10fthf[c],10fthf,MNXM1102376,MNXM1102376[c],c,TRUE,MetanetX conversion,FALSE
+2mba[c],2mba,MNXM1091714,MNXM1091714[c],c,TRUE,MetanetX conversion,FALSE
+hexdp[c],hexdp,MNXM726465,MNXM726465[c],c,TRUE,MetanetX conversion,FALSE
+btn[e],btn,MNXM304,MNXM304[e],e,TRUE,MetanetX conversion,FALSE
+glyc3p[m],glyc3p,MNXM66,MNXM66[m],m,TRUE,MetanetX conversion,FALSE
+fum[e],fum,MNXM737340,MNXM737340[e],e,TRUE,MetanetX conversion,FALSE
+42A3HP24DB[c],42A3HP24DB,MNXM163203,MNXM163203[c],c,TRUE,MetanetX conversion,FALSE
+trnapro[c],trnapro,MNXM1543942,MNXM1543942[c],c,TRUE,MetanetX conversion,FALSE
+Rmmtcoa[m],Rmmtcoa,Rmmtcoa,Rmmtcoa[m],m,FALSE,Unchanged,FALSE
+4hdbzld[c],4hdbzld,4hdbzld,4hdbzld[c],c,FALSE,Unchanged,FALSE
+gam[e],gam,MNXM1105684,MNXM1105684[e],e,TRUE,MetanetX conversion,FALSE
+nh4[e],nh4,MNXM729302,MNXM729302[e],e,TRUE,MetanetX conversion,FALSE
+glyc[e],glyc,MNXM89612,MNXM89612[e],e,TRUE,MetanetX conversion,FALSE
+acgam[c],acgam,MNXM1105935,MNXM1105935[c],c,TRUE,MetanetX conversion,FALSE
+amet[c],amet,MNXM1363866,MNXM1363866[c],c,TRUE,MetanetX conversion,FALSE
+xan[c],xan,MNXM174,MNXM174[c],c,TRUE,MetanetX conversion,FALSE
+9Zocda[c],9Zocda,9Zocda,9Zocda[c],c,FALSE,Unchanged,FALSE
+2hpmmbq[m],2hpmmbq,MNXM147697,MNXM147697[m],m,TRUE,MetanetX conversion,FALSE
+erthrs[c],erthrs,MNXM1092958,MNXM1092958[c],c,TRUE,MetanetX conversion,FALSE
+accoa[x],accoa,MNXM1104266,MNXM1104266[x],x,TRUE,MetanetX conversion,FALSE
+pap[m],pap,MNXM1103458,MNXM1103458[m],m,TRUE,MetanetX conversion,FALSE
+icit[e],icit,MNXM89661,MNXM89661[e],e,TRUE,MetanetX conversion,FALSE
+actnR[e],actnR,actnR,actnR[e],e,FALSE,Unchanged,FALSE
+hcysL[c],hcysL,hcysL,hcysL[c],c,FALSE,Unchanged,FALSE
+acon_T[c],acon_T,MNXM728255,MNXM728255[c],c,TRUE,MetanetX conversion,FALSE
+ileL[e],ileL,ileL,ileL[e],e,FALSE,Unchanged,FALSE
+ppcoa[x],ppcoa,MNXM1364414,MNXM1364414[x],x,TRUE,MetanetX conversion,FALSE
+aces[e],aces,MNXM729092,MNXM729092[e],e,TRUE,MetanetX conversion,FALSE
+aconm[e],aconm,MNXM735058,MNXM735058[e],e,TRUE,MetanetX conversion,FALSE
+dmgly[e],dmgly,MNXM464,MNXM464[e],e,TRUE,MetanetX conversion,FALSE
+tym[c],tym,MNXM603,MNXM603[c],c,TRUE,MetanetX conversion,FALSE
+acald[m],acald,MNXM75,MNXM75[m],m,TRUE,MetanetX conversion,FALSE
+4mop[c],4mop,MNXM404,MNXM404[c],c,TRUE,MetanetX conversion,FALSE
+crn[e],crn,MNXM1105736,MNXM1105736[e],e,TRUE,MetanetX conversion,FALSE
+3ohxcoa[x],3ohxcoa,3ohxcoa,3ohxcoa[x],x,FALSE,Unchanged,FALSE
+ocACP[m],ocACP,MNXM90185,MNXM90185[m],m,TRUE,MetanetX conversion,FALSE
+trnaile[c],trnaile,MNXM1543937,MNXM1543937[c],c,TRUE,MetanetX conversion,FALSE
+serL[c],serL,serL,serL[c],c,FALSE,Unchanged,FALSE
+dann[e],dann,MNXM1140,MNXM1140[e],e,TRUE,MetanetX conversion,FALSE
+zymst[c],zymst,MNXM738369,MNXM738369[c],c,TRUE,MetanetX conversion,FALSE
+trnacys[c],trnacys,MNXM1543933,MNXM1543933[c],c,TRUE,MetanetX conversion,FALSE
+tda[e],tda,tda,tda[e],e,FALSE,Unchanged,FALSE
+ala_B[e],ala_B,MNXM144,MNXM144[e],e,TRUE,MetanetX conversion,FALSE
+pyr[m],pyr,MNXM23,MNXM23[m],m,TRUE,MetanetX conversion,FALSE
+2hglutR[c],2hglutR,2hglutR,2hglutR[c],c,FALSE,Unchanged,FALSE
+cholestester[e],cholestester,cholestester,cholestester[e],e,FALSE,Unchanged,FALSE
+glyb[c],glyb,MNXM289,MNXM289[c],c,TRUE,MetanetX conversion,FALSE
+h2o[m],h2o,WATER,WATER[m],m,TRUE,Other conversion,FALSE
+sheme[c],sheme,MNXM1104857,MNXM1104857[c],c,TRUE,MetanetX conversion,FALSE
+Lkynr[c],Lkynr,MNXM733142,MNXM733142[c],c,TRUE,MetanetX conversion,FALSE
+34hplac[c],34hplac,MNXM1542012,MNXM1542012[c],c,TRUE,MetanetX conversion,FALSE
+ptrc[e],ptrc,MNXM118,MNXM118[e],e,TRUE,MetanetX conversion,FALSE
+idp[c],idp,MNXM1104559,MNXM1104559[c],c,TRUE,MetanetX conversion,FALSE
+acac[e],acac,MNXM729595,MNXM729595[e],e,TRUE,MetanetX conversion,FALSE
+trnagln[c],trnagln,MNXM1543934,MNXM1543934[c],c,TRUE,MetanetX conversion,FALSE
+cholest[e],cholest,cholest,cholest[e],e,FALSE,Unchanged,FALSE
+dhap[c],dhap,MNXM77,MNXM77[c],c,TRUE,MetanetX conversion,FALSE
+23dpg[c],23dpg,MNXM892,MNXM892[c],c,TRUE,MetanetX conversion,FALSE
+o2[c],o2,MNXM735438,MNXM735438[c],c,TRUE,MetanetX conversion,FALSE
+ura[c],ura,MNXM1369194,MNXM1369194[c],c,TRUE,MetanetX conversion,FALSE
+zymst_1g[r],zymst_1g,zymst_1g,zymst_1g[r],r,FALSE,Unchanged,FALSE
+3mppal[e],3mppal,3mppal,3mppal[e],e,FALSE,Unchanged,FALSE
+glx[e],glx,MNXM69,MNXM69[e],e,TRUE,MetanetX conversion,FALSE
+focytc[c],focytc,MNXM5750,MNXM5750[c],c,TRUE,MetanetX conversion,FALSE
+sterol_1g[r],sterol_1g,sterol_1g,sterol_1g[r],r,FALSE,Unchanged,FALSE
+abt[e],abt,MNXM740330,MNXM740330[e],e,TRUE,MetanetX conversion,FALSE
+2obut[m],2obut,MNXM159,MNXM159[m],m,TRUE,MetanetX conversion,FALSE
+aprut[c],aprut,MNXM1153,MNXM1153[c],c,TRUE,MetanetX conversion,FALSE
+but[c],but,MNXM458,MNXM458[c],c,TRUE,MetanetX conversion,FALSE
+protrna[c],protrna,MNXM1543803,MNXM1543803[c],c,TRUE,MetanetX conversion,FALSE
+ileL[c],ileL,ileL,ileL[c],c,FALSE,Unchanged,FALSE
+ipdp[c],ipdp,MNXM83,MNXM83[c],c,TRUE,MetanetX conversion,FALSE
+icit[x],icit,MNXM89661,MNXM89661[x],x,TRUE,MetanetX conversion,FALSE
+3pg[c],3pg,MNXM727604,MNXM727604[c],c,TRUE,MetanetX conversion,FALSE
+pcrn[c],pcrn,MNXM1105887,MNXM1105887[c],c,TRUE,MetanetX conversion,FALSE
+nadph[x],nadph,MNXM738702,MNXM738702[x],x,TRUE,MetanetX conversion,FALSE
+man6p[c],man6p,MNXM1103551,MNXM1103551[c],c,TRUE,MetanetX conversion,FALSE
+ppa[c],ppa,MNXM1094052,MNXM1094052[c],c,TRUE,MetanetX conversion,FALSE
+ac[m],ac,MNXM26,MNXM26[m],m,TRUE,MetanetX conversion,FALSE
+dump[c],dump,MNXM234,MNXM234[c],c,TRUE,MetanetX conversion,FALSE
+dhf[m],dhf,MNXM281,MNXM281[m],m,TRUE,MetanetX conversion,FALSE
+cdp[c],cdp,MNXM1102191,MNXM1102191[c],c,TRUE,MetanetX conversion,FALSE
+pep[c],pep,MNXM73,MNXM73[c],c,TRUE,MetanetX conversion,FALSE
+proL[e],proL,proL,proL[e],e,FALSE,Unchanged,FALSE
+tyrL[e],tyrL,tyrL,tyrL[e],e,FALSE,Unchanged,FALSE
+trdrd[c],trdrd,MNXM741334,MNXM741334[c],c,TRUE,MetanetX conversion,FALSE
+sertrna[c],sertrna,MNXM1091293,MNXM1091293[c],c,TRUE,MetanetX conversion,FALSE
+pntoR[e],pntoR,pntoR,pntoR[e],e,FALSE,Unchanged,FALSE
+glycR[e],glycR,glycR,glycR[e],e,FALSE,Unchanged,FALSE
+udp[c],udp,MNXM1102128,MNXM1102128[c],c,TRUE,MetanetX conversion,FALSE
+2phetoh[e],2phetoh,MNXM2476,MNXM2476[e],e,TRUE,MetanetX conversion,FALSE
+ctp[c],ctp,MNXM1103718,MNXM1103718[c],c,TRUE,MetanetX conversion,FALSE
+serL[e],serL,serL,serL[e],e,FALSE,Unchanged,FALSE
+amob[e],amob,MNXM733831,MNXM733831[e],e,TRUE,MetanetX conversion,FALSE
+catechol[e],catechol,MNXM731896,MNXM731896[e],e,TRUE,MetanetX conversion,FALSE
+coa[c],coa,MNXM727276,MNXM727276[c],c,TRUE,MetanetX conversion,FALSE
+hxda[c],hxda,hxda,hxda[c],c,FALSE,Unchanged,FALSE
+h[r],h,MNXM1,MNXM1[r],r,TRUE,MetanetX conversion,FALSE
+phospholipid_1g[c],phospholipid_1g,phospholipid_1g,phospholipid_1g[c],c,FALSE,Unchanged,FALSE
+laldL[c],laldL,laldL,laldL[c],c,FALSE,Unchanged,FALSE
+aacoa[x],aacoa,MNXM1103802,MNXM1103802[x],x,TRUE,MetanetX conversion,FALSE
+hepdcdp[c],hepdcdp,hepdcdp,hepdcdp[c],c,FALSE,Unchanged,FALSE
+mnl[e],mnl,MNXM1104590,MNXM1104590[e],e,TRUE,MetanetX conversion,FALSE
+threitolL[e],threitolL,threitolL,threitolL[e],e,FALSE,Unchanged,FALSE
+4hoxpacd[c],4hoxpacd,MNXM479,MNXM479[c],c,TRUE,MetanetX conversion,FALSE
+2hymeph[c],2hymeph,MNXM1855,MNXM1855[c],c,TRUE,MetanetX conversion,FALSE
+2hymeph[e],2hymeph,MNXM1855,MNXM1855[e],e,TRUE,MetanetX conversion,FALSE
+tyrosol[e],tyrosol,tyrosol,tyrosol[e],e,FALSE,Unchanged,FALSE
+coa[r],coa,MNXM727276,MNXM727276[r],r,TRUE,MetanetX conversion,FALSE
+cdpdag[m],cdpdag,cdpdag,cdpdag[m],m,FALSE,Unchanged,FALSE
+retn[c],retn,MNXM1364547,MNXM1364547[c],c,TRUE,MetanetX conversion,FALSE
+ahcys[m],ahcys,MNXM1102167,MNXM1102167[m],m,TRUE,MetanetX conversion,FALSE
+lacD[m],lacD,lacD,lacD[m],m,FALSE,Unchanged,FALSE
+3hhxcoa[x],3hhxcoa,3hhxcoa,3hhxcoa[x],x,FALSE,Unchanged,FALSE
+histrna[c],histrna,MNXM1543373,MNXM1543373[c],c,TRUE,MetanetX conversion,FALSE
+mmta[m],mmta,mmta,mmta[m],m,FALSE,Unchanged,FALSE
+paSC[c],paSC,paSC,paSC[c],c,FALSE,Unchanged,FALSE
+xylt[e],xylt,MNXM737068,MNXM737068[e],e,TRUE,MetanetX conversion,FALSE
+g1p[c],g1p,MNXM1364357,MNXM1364357[c],c,TRUE,MetanetX conversion,FALSE
+adp[m],adp,MNXM40333,MNXM40333[m],m,TRUE,MetanetX conversion,FALSE
+xan[e],xan,MNXM174,MNXM174[e],e,TRUE,MetanetX conversion,FALSE
+2Eoccoa[m],2Eoccoa,2Eoccoa,2Eoccoa[m],m,FALSE,Unchanged,FALSE
+acgam[e],acgam,MNXM1105935,MNXM1105935[e],e,TRUE,MetanetX conversion,FALSE
+proL[m],proL,proL,proL[m],m,FALSE,Unchanged,FALSE
+no3[e],no3,MNXM732398,MNXM732398[e],e,TRUE,MetanetX conversion,FALSE
+3h3mglutcoa[m],3h3mglutcoa,3h3mglutcoa,3h3mglutcoa[m],m,FALSE,Unchanged,FALSE
+gly[e],gly,MNXM29,MNXM29[e],e,TRUE,MetanetX conversion,FALSE
+pi[e],pi,MNXM9,MNXM9[e],e,TRUE,MetanetX conversion,FALSE
+chol[e],chol,MNXM90,MNXM90[e],e,TRUE,MetanetX conversion,FALSE
+f6p[c],f6p,MNXM1107898,MNXM1107898[c],c,TRUE,MetanetX conversion,FALSE
+sarcs[c],sarcs,MNXM300,MNXM300[c],c,TRUE,MetanetX conversion,FALSE
+5fthf[c],5fthf,MNXM1091982,MNXM1091982[c],c,TRUE,MetanetX conversion,FALSE
+pydam[c],pydam,MNXM548,MNXM548[c],c,TRUE,MetanetX conversion,FALSE
+ps_monounsat_1g[c],ps_monounsat_1g,ps_monounsat_1g,ps_monounsat_1g[c],c,FALSE,Unchanged,FALSE
+ctp[m],ctp,MNXM1103718,MNXM1103718[m],m,TRUE,MetanetX conversion,FALSE
+asptrna[c],asptrna,MNXM1542936,MNXM1542936[c],c,TRUE,MetanetX conversion,FALSE
+uri[c],uri,MNXM1103104,MNXM1103104[c],c,TRUE,MetanetX conversion,FALSE
+argL[c],argL,argL,argL[c],c,FALSE,Unchanged,FALSE
+nh4[m],nh4,MNXM729302,MNXM729302[m],m,TRUE,MetanetX conversion,FALSE
+btcoa[c],btcoa,MNXM1104300,MNXM1104300[c],c,TRUE,MetanetX conversion,FALSE
+trptrna[c],trptrna,MNXM1543951,MNXM1543951[c],c,TRUE,MetanetX conversion,FALSE
+salcn[c],salcn,MNXM2561,MNXM2561[c],c,TRUE,MetanetX conversion,FALSE
+gly[c],gly,MNXM29,MNXM29[c],c,TRUE,MetanetX conversion,FALSE
+cytd[c],cytd,MNXM1364050,MNXM1364050[c],c,TRUE,MetanetX conversion,FALSE
+succoa[c],succoa,MNXM1104774,MNXM1104774[c],c,TRUE,MetanetX conversion,FALSE
+2pg[c],2pg,MNXM275,MNXM275[c],c,TRUE,MetanetX conversion,FALSE
+malcoa[c],malcoa,MNXM1106093,MNXM1106093[c],c,TRUE,MetanetX conversion,FALSE
+glytrna[c],glytrna,MNXM1543333,MNXM1543333[c],c,TRUE,MetanetX conversion,FALSE
+ddcACP[c],ddcACP,ddcACP,ddcACP[c],c,FALSE,Unchanged,FALSE
+malt[c],malt,MNXM1106000,MNXM1106000[c],c,TRUE,MetanetX conversion,FALSE
+mlthf[c],mlthf,MNXM1102150,MNXM1102150[c],c,TRUE,MetanetX conversion,FALSE
+hmbil[c],hmbil,MNXM547,MNXM547[c],c,TRUE,MetanetX conversion,FALSE
+akg[e],akg,MNXM1369648,MNXM1369648[e],e,TRUE,MetanetX conversion,FALSE
+succ[m],succ,MNXM25,MNXM25[m],m,TRUE,MetanetX conversion,FALSE
+ndodecanol[m],ndodecanol,ndodecanol,ndodecanol[m],m,FALSE,Unchanged,FALSE
+ddcal[m],ddcal,MNXM11432,MNXM11432[m],m,TRUE,MetanetX conversion,FALSE
+acald[x],acald,MNXM75,MNXM75[x],x,TRUE,MetanetX conversion,FALSE
+34hpp[m],34hpp,MNXM153,MNXM153[m],m,TRUE,MetanetX conversion,FALSE
+34hpp[x],34hpp,MNXM153,MNXM153[x],x,TRUE,MetanetX conversion,FALSE
+34hpp[r],34hpp,MNXM153,MNXM153[r],r,TRUE,MetanetX conversion,FALSE
+ru5pD[m],ru5pD,ru5pD,ru5pD[m],m,FALSE,Unchanged,FALSE
+ru5pD[x],ru5pD,ru5pD,ru5pD[x],x,FALSE,Unchanged,FALSE
+rbt5p[x],rbt5p,MNXM744872,MNXM744872[x],x,TRUE,MetanetX conversion,FALSE
+f6p[m],f6p,MNXM1107898,MNXM1107898[m],m,TRUE,MetanetX conversion,FALSE
+f6p[x],f6p,MNXM1107898,MNXM1107898[x],x,TRUE,MetanetX conversion,FALSE
+glyald[m],glyald,MNXM435,MNXM435[m],m,TRUE,MetanetX conversion,FALSE
+phpyr[m],phpyr,MNXM730221,MNXM730221[m],m,TRUE,MetanetX conversion,FALSE
+phpyr[x],phpyr,MNXM730221,MNXM730221[x],x,TRUE,MetanetX conversion,FALSE
+phpyr[r],phpyr,MNXM730221,MNXM730221[r],r,TRUE,MetanetX conversion,FALSE
+lacL[m],lacL,lacL,lacL[m],m,FALSE,Unchanged,FALSE
+lacL[r],lacL,lacL,lacL[r],r,FALSE,Unchanged,FALSE
+pyr[r],pyr,MNXM23,MNXM23[r],r,TRUE,MetanetX conversion,FALSE
+lacD[r],lacD,lacD,lacD[r],r,FALSE,Unchanged,FALSE
+mthgxl[m],mthgxl,MNXM310,MNXM310[m],m,TRUE,MetanetX conversion,FALSE
+laldL[m],laldL,laldL,laldL[m],m,FALSE,Unchanged,FALSE
+mthgxl[x],mthgxl,MNXM310,MNXM310[x],x,TRUE,MetanetX conversion,FALSE
+laldL[x],laldL,laldL,laldL[x],x,FALSE,Unchanged,FALSE
+Sfglutth[x],Sfglutth,MNXM741595,MNXM741595[x],x,TRUE,MetanetX conversion,FALSE
+glycR[m],glycR,glycR,glycR[m],m,FALSE,Unchanged,FALSE
+hpyr[m],hpyr,MNXM392,MNXM392[m],m,TRUE,MetanetX conversion,FALSE
+msa[x],msa,MNXM1369748,MNXM1369748[x],x,TRUE,MetanetX conversion,FALSE
+ac[x],ac,MNXM26,MNXM26[x],x,TRUE,MetanetX conversion,FALSE
+ac[r],ac,MNXM26,MNXM26[r],r,TRUE,MetanetX conversion,FALSE
+mevR[m],mevR,MNXM1105057,MNXM1105057[m],m,TRUE,MetanetX conversion,FALSE
+malL[r],malL,malL,malL[r],r,FALSE,Unchanged,FALSE
+oaa[r],oaa,MNXM46,MNXM46[r],r,TRUE,MetanetX conversion,FALSE
+2hglutR[x],2hglutR,2hglutR,2hglutR[x],x,FALSE,Unchanged,FALSE
+2hglutR[r],2hglutR,2hglutR,2hglutR[r],r,FALSE,Unchanged,FALSE
+akg[r],akg,MNXM1369648,MNXM1369648[r],r,TRUE,MetanetX conversion,FALSE
+pp12ol[m],pp12ol,pp12ol,pp12ol[m],m,FALSE,Unchanged,FALSE
+pp12ol[x],pp12ol,pp12ol,pp12ol[x],x,FALSE,Unchanged,FALSE
+glx[r],glx,MNXM69,MNXM69[r],r,TRUE,MetanetX conversion,FALSE
+2oxoadp[x],2oxoadp,MNXM263,MNXM263[x],x,TRUE,MetanetX conversion,FALSE
+2oxoadp[r],2oxoadp,MNXM263,MNXM263[r],r,TRUE,MetanetX conversion,FALSE
+dhap[m],dhap,MNXM77,MNXM77[m],m,TRUE,MetanetX conversion,FALSE
+3pg[m],3pg,MNXM727604,MNXM727604[m],m,TRUE,MetanetX conversion,FALSE
+3pg[x],3pg,MNXM727604,MNXM727604[x],x,TRUE,MetanetX conversion,FALSE
+3php[x],3php,MNXM541,MNXM541[x],x,TRUE,MetanetX conversion,FALSE
+gtp[m],gtp,MNXM1103553,MNXM1103553[m],m,TRUE,MetanetX conversion,FALSE
+dgtp[m],dgtp,MNXM344,MNXM344[m],m,TRUE,MetanetX conversion,FALSE
+for[x],for,MNXM39,MNXM39[x],x,TRUE,MetanetX conversion,FALSE
+dgtp[x],dgtp,MNXM344,MNXM344[x],x,TRUE,MetanetX conversion,FALSE
+argL[m],argL,argL,argL[m],m,FALSE,Unchanged,FALSE
+pheL[m],pheL,pheL,pheL[m],m,FALSE,Unchanged,FALSE
+pheL[x],pheL,pheL,pheL[x],x,FALSE,Unchanged,FALSE
+pheL[r],pheL,pheL,pheL[r],r,FALSE,Unchanged,FALSE
+succ[x],succ,MNXM25,MNXM25[x],x,TRUE,MetanetX conversion,FALSE
+uri[m],uri,MNXM1103104,MNXM1103104[m],m,TRUE,MetanetX conversion,FALSE
+uri[x],uri,MNXM1103104,MNXM1103104[x],x,TRUE,MetanetX conversion,FALSE
+xan[m],xan,MNXM174,MNXM174[m],m,TRUE,MetanetX conversion,FALSE
+urate[m],urate,MNXM1105965,MNXM1105965[m],m,TRUE,MetanetX conversion,FALSE
+tmlys[m],tmlys,MNXM1486,MNXM1486[m],m,TRUE,MetanetX conversion,FALSE
+3htmelys[m],3htmelys,MNXM990,MNXM990[m],m,TRUE,MetanetX conversion,FALSE
+nh4[r],nh4,MNXM729302,MNXM729302[r],r,TRUE,MetanetX conversion,FALSE
+5hiu[m],5hiu,MNXM1137,MNXM1137[m],m,TRUE,MetanetX conversion,FALSE
+hLkynr[m],hLkynr,MNXM728564,MNXM728564[m],m,TRUE,MetanetX conversion,FALSE
+hLkynr[x],hLkynr,MNXM728564,MNXM728564[x],x,TRUE,MetanetX conversion,FALSE
+hLkynr[r],hLkynr,MNXM728564,MNXM728564[r],r,TRUE,MetanetX conversion,FALSE
+hxan[m],hxan,MNXM732487,MNXM732487[m],m,TRUE,MetanetX conversion,FALSE
+trdrd[m],trdrd,MNXM741334,MNXM741334[m],m,TRUE,MetanetX conversion,FALSE
+dadp[m],dadp,MNXM735047,MNXM735047[m],m,TRUE,MetanetX conversion,FALSE
+trdox[m],trdox,MNXM1090214,MNXM1090214[m],m,TRUE,MetanetX conversion,FALSE
+adp[x],adp,MNXM40333,MNXM40333[x],x,TRUE,MetanetX conversion,FALSE
+adp[r],adp,MNXM40333,MNXM40333[r],r,TRUE,MetanetX conversion,FALSE
+gdp[m],gdp,MNXM1103285,MNXM1103285[m],m,TRUE,MetanetX conversion,FALSE
+dgdp[m],dgdp,MNXM436,MNXM436[m],m,TRUE,MetanetX conversion,FALSE
+dgdp[x],dgdp,MNXM436,MNXM436[x],x,TRUE,MetanetX conversion,FALSE
+cdp[m],cdp,MNXM1102191,MNXM1102191[m],m,TRUE,MetanetX conversion,FALSE
+cdp[x],cdp,MNXM1102191,MNXM1102191[x],x,TRUE,MetanetX conversion,FALSE
+dudp[m],dudp,MNXM572,MNXM572[m],m,TRUE,MetanetX conversion,FALSE
+udp[x],udp,MNXM1102128,MNXM1102128[x],x,TRUE,MetanetX conversion,FALSE
+dudp[x],dudp,MNXM572,MNXM572[x],x,TRUE,MetanetX conversion,FALSE
+udp[r],udp,MNXM1102128,MNXM1102128[r],r,TRUE,MetanetX conversion,FALSE
+datp[m],datp,MNXM286,MNXM286[m],m,TRUE,MetanetX conversion,FALSE
+atp[r],atp,MNXM3,MNXM3[r],r,TRUE,MetanetX conversion,FALSE
+dutp[m],dutp,MNXM452,MNXM452[m],m,TRUE,MetanetX conversion,FALSE
+utp[x],utp,MNXM1101474,MNXM1101474[x],x,TRUE,MetanetX conversion,FALSE
+dutp[x],dutp,MNXM452,MNXM452[x],x,TRUE,MetanetX conversion,FALSE
+utp[r],utp,MNXM1101474,MNXM1101474[r],r,TRUE,MetanetX conversion,FALSE
+aspL[r],aspL,aspL,aspL[r],r,FALSE,Unchanged,FALSE
+btcoa[r],btcoa,MNXM1104300,MNXM1104300[r],r,TRUE,MetanetX conversion,FALSE
+pi[x],pi,MNXM9,MNXM9[x],x,TRUE,MetanetX conversion,FALSE
+g3p[m],g3p,MNXM1373252,MNXM1373252[m],m,TRUE,MetanetX conversion,FALSE
+13dpg[m],13dpg,MNXM1364640,MNXM1364640[m],m,TRUE,MetanetX conversion,FALSE
+g3p[x],g3p,MNXM1373252,MNXM1373252[x],x,TRUE,MetanetX conversion,FALSE
+13dpg[x],13dpg,MNXM1364640,MNXM1364640[x],x,TRUE,MetanetX conversion,FALSE
+sucsal[x],sucsal,MNXM172,MNXM172[x],x,TRUE,MetanetX conversion,FALSE
+sucsal[r],sucsal,MNXM172,MNXM172[r],r,TRUE,MetanetX conversion,FALSE
+accoa[r],accoa,MNXM1104266,MNXM1104266[r],r,TRUE,MetanetX conversion,FALSE
+mmta[c],mmta,mmta,mmta[c],c,FALSE,Unchanged,FALSE
+4abutn[x],4abutn,MNXM422,MNXM422[x],x,TRUE,MetanetX conversion,FALSE
+4abut[x],4abut,MNXM192,MNXM192[x],x,TRUE,MetanetX conversion,FALSE
+4abutn[r],4abutn,MNXM422,MNXM422[r],r,TRUE,MetanetX conversion,FALSE
+4abut[r],4abut,MNXM192,MNXM192[r],r,TRUE,MetanetX conversion,FALSE
+ala_B[x],ala_B,MNXM144,MNXM144[x],x,TRUE,MetanetX conversion,FALSE
+L2aadp6sa[m],L2aadp6sa,MNXM1364723,MNXM1364723[m],m,TRUE,MetanetX conversion,FALSE
+L2aadp[m],L2aadp,MNXM1369807,MNXM1369807[m],m,TRUE,MetanetX conversion,FALSE
+L2aadp6sa[x],L2aadp6sa,MNXM1364723,MNXM1364723[x],x,TRUE,MetanetX conversion,FALSE
+L2aadp[x],L2aadp,MNXM1369807,MNXM1369807[x],x,TRUE,MetanetX conversion,FALSE
+L2aadp6sa[r],L2aadp6sa,MNXM1364723,MNXM1364723[r],r,TRUE,MetanetX conversion,FALSE
+L2aadp[r],L2aadp,MNXM1369807,MNXM1369807[r],r,TRUE,MetanetX conversion,FALSE
+4tmeabut[m],4tmeabut,MNXM940,MNXM940[m],m,TRUE,MetanetX conversion,FALSE
+malcoa[x],malcoa,MNXM1106093,MNXM1106093[x],x,TRUE,MetanetX conversion,FALSE
+succoa[x],succoa,MNXM1104774,MNXM1104774[x],x,TRUE,MetanetX conversion,FALSE
+ppal[m],ppal,MNXM821,MNXM821[m],m,TRUE,MetanetX conversion,FALSE
+ppal[x],ppal,MNXM821,MNXM821[x],x,TRUE,MetanetX conversion,FALSE
+gluL[r],gluL,gluL,gluL[r],r,FALSE,Unchanged,FALSE
+amp[r],amp,MNXM728294,MNXM728294[r],r,TRUE,MetanetX conversion,FALSE
+oxa[x],oxa,MNXM291,MNXM291[x],x,TRUE,MetanetX conversion,FALSE
+sarcs[m],sarcs,MNXM300,MNXM300[m],m,TRUE,MetanetX conversion,FALSE
+ppp9[c],ppp9,MNXM1364652,MNXM1364652[c],c,TRUE,MetanetX conversion,FALSE
+alaL[x],alaL,alaL,alaL[x],x,FALSE,Unchanged,FALSE
+alaL[r],alaL,alaL,alaL[r],r,FALSE,Unchanged,FALSE
+gly[x],gly,MNXM29,MNXM29[x],x,TRUE,MetanetX conversion,FALSE
+gly[r],gly,MNXM29,MNXM29[r],r,TRUE,MetanetX conversion,FALSE
+lysL[m],lysL,lysL,lysL[m],m,FALSE,Unchanged,FALSE
+lysL[x],lysL,lysL,lysL[x],x,FALSE,Unchanged,FALSE
+lysL[r],lysL,lysL,lysL[r],r,FALSE,Unchanged,FALSE
+tyrL[m],tyrL,tyrL,tyrL[m],m,FALSE,Unchanged,FALSE
+tyrL[x],tyrL,tyrL,tyrL[x],x,FALSE,Unchanged,FALSE
+tyrL[r],tyrL,tyrL,tyrL[r],r,FALSE,Unchanged,FALSE
+serL[x],serL,serL,serL[x],x,FALSE,Unchanged,FALSE
+4met2obut[m],4met2obut,MNXM1542088,MNXM1542088[m],m,TRUE,MetanetX conversion,FALSE
+etha[m],etha,MNXM218,MNXM218[m],m,TRUE,MetanetX conversion,FALSE
+etha[x],etha,MNXM218,MNXM218[x],x,TRUE,MetanetX conversion,FALSE
+lpam[x],lpam,MNXM1024,MNXM1024[x],x,TRUE,MetanetX conversion,FALSE
+alpam[x],alpam,MNXM81220,MNXM81220[x],x,TRUE,MetanetX conversion,FALSE
+lpam[r],lpam,MNXM1024,MNXM1024[r],r,TRUE,MetanetX conversion,FALSE
+alpam[r],alpam,MNXM81220,MNXM81220[r],r,TRUE,MetanetX conversion,FALSE
+thf[x],thf,MNXM1103936,MNXM1103936[x],x,TRUE,MetanetX conversion,FALSE
+mlthf[x],mlthf,MNXM1102150,MNXM1102150[x],x,TRUE,MetanetX conversion,FALSE
+thf[r],thf,MNXM1103936,MNXM1103936[r],r,TRUE,MetanetX conversion,FALSE
+mlthf[r],mlthf,MNXM1102150,MNXM1102150[r],r,TRUE,MetanetX conversion,FALSE
+methf[x],methf,MNXM511,MNXM511[x],x,TRUE,MetanetX conversion,FALSE
+1pyr5c[m],1pyr5c,MNXM1105060,MNXM1105060[m],m,TRUE,MetanetX conversion,FALSE
+5mthf[m],5mthf,MNXM1364093,MNXM1364093[m],m,TRUE,MetanetX conversion,FALSE
+5mthf[x],5mthf,MNXM1364093,MNXM1364093[x],x,TRUE,MetanetX conversion,FALSE
+10fthf[x],10fthf,MNXM1102376,MNXM1102376[x],x,TRUE,MetanetX conversion,FALSE
+dmgly[m],dmgly,MNXM464,MNXM464[m],m,TRUE,MetanetX conversion,FALSE
+ptrc[m],ptrc,MNXM118,MNXM118[m],m,TRUE,MetanetX conversion,FALSE
+ptrc[x],ptrc,MNXM118,MNXM118[x],x,TRUE,MetanetX conversion,FALSE
+ptrc[r],ptrc,MNXM118,MNXM118[r],r,TRUE,MetanetX conversion,FALSE
+dhlam[x],dhlam,MNXM1277,MNXM1277[x],x,TRUE,MetanetX conversion,FALSE
+dhlam[r],dhlam,MNXM1277,MNXM1277[r],r,TRUE,MetanetX conversion,FALSE
+hcysL[m],hcysL,hcysL,hcysL[m],m,FALSE,Unchanged,FALSE
+dtmp[x],dtmp,MNXM257,MNXM257[x],x,TRUE,MetanetX conversion,FALSE
+dtmp[r],dtmp,MNXM257,MNXM257[r],r,TRUE,MetanetX conversion,FALSE
+pe[x],pe,pe,pe[x],x,FALSE,Unchanged,FALSE
+prot_lys[m],prot_lys,prot_lys,prot_lys[m],m,FALSE,Unchanged,FALSE
+prot_tmlys[m],prot_tmlys,prot_tmlys,prot_tmlys[m],m,FALSE,Unchanged,FALSE
+gar[m],gar,MNXM1104522,MNXM1104522[m],m,TRUE,MetanetX conversion,FALSE
+fgam[m],fgam,MNXM1094915,MNXM1094915[m],m,TRUE,MetanetX conversion,FALSE
+4gudbutn[m],4gudbutn,MNXM1312,MNXM1312[m],m,TRUE,MetanetX conversion,FALSE
+r5p[m],r5p,MNXM1364029,MNXM1364029[m],m,TRUE,MetanetX conversion,FALSE
+xu5pD[m],xu5pD,xu5pD,xu5pD[m],m,FALSE,Unchanged,FALSE
+s7p[m],s7p,MNXM733314,MNXM733314[m],m,TRUE,MetanetX conversion,FALSE
+r5p[x],r5p,MNXM1364029,MNXM1364029[x],x,TRUE,MetanetX conversion,FALSE
+xu5pD[x],xu5pD,xu5pD,xu5pD[x],x,FALSE,Unchanged,FALSE
+s7p[x],s7p,MNXM733314,MNXM733314[x],x,TRUE,MetanetX conversion,FALSE
+e4p[m],e4p,MNXM258,MNXM258[m],m,TRUE,MetanetX conversion,FALSE
+e4p[x],e4p,MNXM258,MNXM258[x],x,TRUE,MetanetX conversion,FALSE
+aprut[m],aprut,MNXM1153,MNXM1153[m],m,TRUE,MetanetX conversion,FALSE
+aprut[x],aprut,MNXM1153,MNXM1153[x],x,TRUE,MetanetX conversion,FALSE
+aprut[r],aprut,MNXM1153,MNXM1153[r],r,TRUE,MetanetX conversion,FALSE
+aacoa[r],aacoa,MNXM1103802,MNXM1103802[r],r,TRUE,MetanetX conversion,FALSE
+ade[m],ade,MNXM168,MNXM168[m],m,TRUE,MetanetX conversion,FALSE
+adn[m],adn,MNXM1105760,MNXM1105760[m],m,TRUE,MetanetX conversion,FALSE
+r1p[m],r1p,MNXM1103205,MNXM1103205[m],m,TRUE,MetanetX conversion,FALSE
+adn[x],adn,MNXM1105760,MNXM1105760[x],x,TRUE,MetanetX conversion,FALSE
+r1p[x],r1p,MNXM1103205,MNXM1103205[x],x,TRUE,MetanetX conversion,FALSE
+adn[r],adn,MNXM1105760,MNXM1105760[r],r,TRUE,MetanetX conversion,FALSE
+dad_2[m],dad_2,MNXM625,MNXM625[m],m,TRUE,MetanetX conversion,FALSE
+2dr1p[m],2dr1p,MNXM1108138,MNXM1108138[m],m,TRUE,MetanetX conversion,FALSE
+nac[m],nac,MNXM274,MNXM274[m],m,TRUE,MetanetX conversion,FALSE
+nicrns[m],nicrns,MNXM1102169,MNXM1102169[m],m,TRUE,MetanetX conversion,FALSE
+nac[x],nac,MNXM274,MNXM274[x],x,TRUE,MetanetX conversion,FALSE
+nicrns[x],nicrns,MNXM1102169,MNXM1102169[x],x,TRUE,MetanetX conversion,FALSE
+ura[x],ura,MNXM1369194,MNXM1369194[x],x,TRUE,MetanetX conversion,FALSE
+cytd[x],cytd,MNXM1364050,MNXM1364050[x],x,TRUE,MetanetX conversion,FALSE
+csn[x],csn,MNXM761,MNXM761[x],x,TRUE,MetanetX conversion,FALSE
+thymd[x],thymd,MNXM420,MNXM420[x],x,TRUE,MetanetX conversion,FALSE
+thymd[r],thymd,MNXM420,MNXM420[r],r,TRUE,MetanetX conversion,FALSE
+ump[x],ump,MNXM1104823,MNXM1104823[x],x,TRUE,MetanetX conversion,FALSE
+pheme[c],pheme,MNXM1369759,MNXM1369759[c],c,TRUE,MetanetX conversion,FALSE
+pep[m],pep,MNXM73,MNXM73[m],m,TRUE,MetanetX conversion,FALSE
+pep[x],pep,MNXM73,MNXM73[x],x,TRUE,MetanetX conversion,FALSE
+pserL[x],pserL,pserL,pserL[x],x,FALSE,Unchanged,FALSE
+42A3HP24DB[m],42A3HP24DB,MNXM163203,MNXM163203[m],m,TRUE,MetanetX conversion,FALSE
+42A3HP24DB[x],42A3HP24DB,MNXM163203,MNXM163203[x],x,TRUE,MetanetX conversion,FALSE
+42A3HP24DB[r],42A3HP24DB,MNXM163203,MNXM163203[r],r,TRUE,MetanetX conversion,FALSE
+s17bp[m],s17bp,MNXM507505,MNXM507505[m],m,TRUE,MetanetX conversion,FALSE
+s17bp[x],s17bp,MNXM507505,MNXM507505[x],x,TRUE,MetanetX conversion,FALSE
+ribD[m],ribD,ribD,ribD[m],m,FALSE,Unchanged,FALSE
+ribD[x],ribD,ribD,ribD[x],x,FALSE,Unchanged,FALSE
+2pg[m],2pg,MNXM275,MNXM275[m],m,TRUE,MetanetX conversion,FALSE
+2pg[x],2pg,MNXM275,MNXM275[x],x,TRUE,MetanetX conversion,FALSE
+5pmev[m],5pmev,MNXM738283,MNXM738283[m],m,TRUE,MetanetX conversion,FALSE
+damp[m],damp,MNXM432,MNXM432[m],m,TRUE,MetanetX conversion,FALSE
+cmp[x],cmp,MNXM1103302,MNXM1103302[x],x,TRUE,MetanetX conversion,FALSE
+ins[m],ins,MNXM1103335,MNXM1103335[m],m,TRUE,MetanetX conversion,FALSE
+polypi[x],polypi,MNXM1543787,MNXM1543787[x],x,TRUE,MetanetX conversion,FALSE
+5dpmev[m],5dpmev,MNXM733934,MNXM733934[m],m,TRUE,MetanetX conversion,FALSE
+ps[x],ps,ps,ps[x],x,FALSE,Unchanged,FALSE
+adipate[x],adipate,adipate,adipate[x],x,FALSE,Unchanged,FALSE
+adpcoa[x],adpcoa,MNXM1104115,MNXM1104115[x],x,TRUE,MetanetX conversion,FALSE
+but[r],but,MNXM458,MNXM458[r],r,TRUE,MetanetX conversion,FALSE
+acac[x],acac,MNXM729595,MNXM729595[x],x,TRUE,MetanetX conversion,FALSE
+acac[r],acac,MNXM729595,MNXM729595[r],r,TRUE,MetanetX conversion,FALSE
+urea[m],urea,MNXM117,MNXM117[m],m,TRUE,MetanetX conversion,FALSE
+5houdic[m],5houdic,MNXM1805,MNXM1805[m],m,TRUE,MetanetX conversion,FALSE
+salltn[m],salltn,salltn,salltn[m],m,FALSE,Unchanged,FALSE
+alltt[m],alltt,MNXM584,MNXM584[m],m,TRUE,MetanetX conversion,FALSE
+urdglyc[m],urdglyc,MNXM733673,MNXM733673[m],m,TRUE,MetanetX conversion,FALSE
+2dr5p[m],2dr5p,MNXM732594,MNXM732594[m],m,TRUE,MetanetX conversion,FALSE
+Rmmtcoa[c],Rmmtcoa,Rmmtcoa,Rmmtcoa[c],c,FALSE,Unchanged,FALSE
+prot[m],prot,prot,prot[m],m,FALSE,Unchanged,FALSE

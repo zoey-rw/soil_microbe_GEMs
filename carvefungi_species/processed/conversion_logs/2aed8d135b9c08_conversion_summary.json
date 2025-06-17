@@ -1,0 +1,68 @@
+{
+  "statistics": {
+    "model_id": "2aed8d135b9c08",
+    "total_metabolites": 1667,
+    "successful_conversions": 955,
+    "metanetx_conversions": 949,
+    "unchanged_metabolites": 712,
+    "failed_conversions": 0,
+    "encoding_fixes_applied": 0,
+    "conversion_rate": 57.3,
+    "metanetx_rate": 56.9
+  },
+  "by_type": [
+    {
+      "conversion_type": "MetanetX conversion",
+      "count": 949,
+      "percentage": 56.9
+    },
+    {
+      "conversion_type": "Other conversion",
+      "count": 6,
+      "percentage": 0.4
+    },
+    {
+      "conversion_type": "Unchanged",
+      "count": 712,
+      "percentage": 42.7
+    }
+  ],
+  "by_compartment": [
+    {
+      "compartment": "c",
+      "MetanetX conversion": 496,
+      "Other conversion": 1,
+      "Unchanged": 205
+    },
+    {
+      "compartment": "e",
+      "MetanetX conversion": 191,
+      "Other conversion": 1,
+      "Unchanged": 93
+    },
+    {
+      "compartment": "l",
+      "MetanetX conversion": 5,
+      "Other conversion": 1,
+      "Unchanged": 8
+    },
+    {
+      "compartment": "m",
+      "MetanetX conversion": 126,
+      "Other conversion": 1,
+      "Unchanged": 178
+    },
+    {
+      "compartment": "r",
+      "MetanetX conversion": 45,
+      "Other conversion": 1,
+      "Unchanged": 28
+    },
+    {
+      "compartment": "x",
+      "MetanetX conversion": 86,
+      "Other conversion": 1,
+      "Unchanged": 200
+    }
+  ]
+}
