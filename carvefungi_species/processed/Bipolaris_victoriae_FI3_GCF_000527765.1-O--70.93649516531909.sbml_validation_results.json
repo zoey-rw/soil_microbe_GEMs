@@ -1,0 +1,28 @@
+{
+  "model_id": "Bipolaris_victoriae_FI3_GCF_000527765.1-O--70.93649516531909.sbml",
+  "validation_timestamp": "2025-06-16 18:09:00",
+  "input_file": "Bipolaris_victoriae_FI3_GCF_000527765.1-O--70.93649516531909.sbml.sbml",
+  "processed_file": "Bipolaris_victoriae_FI3_GCF_000527765.1-O--70.93649516531909.sbml_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 9.5762,
+  "growth_rate_processed": 9.5762,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 922,
+    "reactions": 1001
+  },
+  "processed_model_size": {
+    "metabolites": 922,
+    "reactions": 1001
+  },
+  "growth_rate_difference": 1.0498e-12,
+  "success": true
+}

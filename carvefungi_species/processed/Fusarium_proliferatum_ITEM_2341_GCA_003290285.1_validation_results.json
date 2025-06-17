@@ -1,0 +1,28 @@
+{
+  "model_id": "Fusarium_proliferatum_ITEM_2341_GCA_003290285.1",
+  "validation_timestamp": "2025-06-16 23:20:54",
+  "input_file": "Fusarium_proliferatum_ITEM_2341_GCA_003290285.1.sbml",
+  "processed_file": "Fusarium_proliferatum_ITEM_2341_GCA_003290285.1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0809,
+  "growth_rate_processed": 1.0809,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1759,
+    "reactions": 2252
+  },
+  "processed_model_size": {
+    "metabolites": 1759,
+    "reactions": 2252
+  },
+  "growth_rate_difference": 0,
+  "success": true
+}

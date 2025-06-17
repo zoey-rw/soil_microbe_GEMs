@@ -1,0 +1,28 @@
+{
+  "model_id": "Penicillium_nordicum_gca_001278595.ASM127859v1",
+  "validation_timestamp": "2025-06-16 23:24:35",
+  "input_file": "Penicillium_nordicum_gca_001278595.ASM127859v1.sbml",
+  "processed_file": "Penicillium_nordicum_gca_001278595.ASM127859v1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0591,
+  "growth_rate_processed": 1.0591,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1777,
+    "reactions": 2272
+  },
+  "processed_model_size": {
+    "metabolites": 1777,
+    "reactions": 2272
+  },
+  "growth_rate_difference": 3.9302e-14,
+  "success": true
+}

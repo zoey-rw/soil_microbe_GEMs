@@ -1,0 +1,28 @@
+{
+  "model_id": "Cryptococcus_neoformans_var_grubii_tu401_1_gca_002222475.Cryp_neof_Tu401_1_V1",
+  "validation_timestamp": "2025-06-16 23:16:02",
+  "input_file": "Cryptococcus_neoformans_var_grubii_tu401_1_gca_002222475.Cryp_neof_Tu401_1_V1.sbml",
+  "processed_file": "Cryptococcus_neoformans_var_grubii_tu401_1_gca_002222475.Cryp_neof_Tu401_1_V1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0662,
+  "growth_rate_processed": 1.0662,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1527,
+    "reactions": 1906
+  },
+  "processed_model_size": {
+    "metabolites": 1527,
+    "reactions": 1906
+  },
+  "growth_rate_difference": 9.3259e-15,
+  "success": true
+}

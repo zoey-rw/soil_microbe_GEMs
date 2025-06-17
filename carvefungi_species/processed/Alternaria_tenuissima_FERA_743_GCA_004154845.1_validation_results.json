@@ -1,0 +1,28 @@
+{
+  "model_id": "Alternaria_tenuissima_FERA_743_GCA_004154845.1",
+  "validation_timestamp": "2025-06-15 22:26:22",
+  "input_file": "Alternaria_tenuissima_FERA_743_GCA_004154845.1.sbml",
+  "processed_file": "Alternaria_tenuissima_FERA_743_GCA_004154845.1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0823,
+  "growth_rate_processed": 1.0823,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1724,
+    "reactions": 2240
+  },
+  "processed_model_size": {
+    "metabolites": 1724,
+    "reactions": 2240
+  },
+  "growth_rate_difference": 2.6645e-15,
+  "success": true
+}

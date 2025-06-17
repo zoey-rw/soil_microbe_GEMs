@@ -1,0 +1,28 @@
+{
+  "model_id": "Aspergillus_eucalypticola_CBS_122712_GCF_003184535.1",
+  "validation_timestamp": "2025-06-16 18:01:58",
+  "input_file": "Aspergillus_eucalypticola_CBS_122712_GCF_003184535.1.sbml",
+  "processed_file": "Aspergillus_eucalypticola_CBS_122712_GCF_003184535.1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0785,
+  "growth_rate_processed": 1.0785,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1737,
+    "reactions": 2215
+  },
+  "processed_model_size": {
+    "metabolites": 1737,
+    "reactions": 2215
+  },
+  "growth_rate_difference": 6.6613e-16,
+  "success": true
+}

@@ -1,0 +1,28 @@
+{
+  "model_id": "Fusarium_graminearum_ITEM_124_GCA_002352725.1",
+  "validation_timestamp": "2025-06-16 23:18:52",
+  "input_file": "Fusarium_graminearum_ITEM_124_GCA_002352725.1.sbml",
+  "processed_file": "Fusarium_graminearum_ITEM_124_GCA_002352725.1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0627,
+  "growth_rate_processed": 1.0627,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1745,
+    "reactions": 2247
+  },
+  "processed_model_size": {
+    "metabolites": 1745,
+    "reactions": 2247
+  },
+  "growth_rate_difference": 1.4078e-13,
+  "success": true
+}

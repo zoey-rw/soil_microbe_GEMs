@@ -1,0 +1,28 @@
+{
+  "model_id": "Cryptococcus_amylolentus_cbs_6273_gca_001720235.Cryp_amyl_CBS6273_V2",
+  "validation_timestamp": "2025-06-16 18:11:31",
+  "input_file": "Cryptococcus_amylolentus_cbs_6273_gca_001720235.Cryp_amyl_CBS6273_V2.sbml",
+  "processed_file": "Cryptococcus_amylolentus_cbs_6273_gca_001720235.Cryp_amyl_CBS6273_V2_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0686,
+  "growth_rate_processed": 1.0686,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1545,
+    "reactions": 1944
+  },
+  "processed_model_size": {
+    "metabolites": 1545,
+    "reactions": 1944
+  },
+  "growth_rate_difference": 1.4655e-14,
+  "success": true
+}

@@ -1,0 +1,28 @@
+{
+  "model_id": "Fusarium_oxysporum_Fo_PG_GCA_003615185.1",
+  "validation_timestamp": "2025-06-16 23:20:23",
+  "input_file": "Fusarium_oxysporum_Fo_PG_GCA_003615185.1.sbml",
+  "processed_file": "Fusarium_oxysporum_Fo_PG_GCA_003615185.1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0852,
+  "growth_rate_processed": 1.0852,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1771,
+    "reactions": 2266
+  },
+  "processed_model_size": {
+    "metabolites": 1771,
+    "reactions": 2266
+  },
+  "growth_rate_difference": 1.6431e-14,
+  "success": true
+}

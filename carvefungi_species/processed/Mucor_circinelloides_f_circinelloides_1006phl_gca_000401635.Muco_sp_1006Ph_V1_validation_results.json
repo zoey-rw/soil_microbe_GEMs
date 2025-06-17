@@ -1,0 +1,28 @@
+{
+  "model_id": "Mucor_circinelloides_f_circinelloides_1006phl_gca_000401635.Muco_sp_1006Ph_V1",
+  "validation_timestamp": "2025-06-16 23:23:11",
+  "input_file": "Mucor_circinelloides_f_circinelloides_1006phl_gca_000401635.Muco_sp_1006Ph_V1.sbml",
+  "processed_file": "Mucor_circinelloides_f_circinelloides_1006phl_gca_000401635.Muco_sp_1006Ph_V1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0238,
+  "growth_rate_processed": 1.0238,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1594,
+    "reactions": 2066
+  },
+  "processed_model_size": {
+    "metabolites": 1594,
+    "reactions": 2066
+  },
+  "growth_rate_difference": 7.7716e-15,
+  "success": true
+}

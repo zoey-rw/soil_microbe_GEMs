@@ -1,0 +1,28 @@
+{
+  "model_id": "Phialophora_americana_gca_000835435.Capr_semi_CBS27337_V1",
+  "validation_timestamp": "2025-06-16 23:25:19",
+  "input_file": "Phialophora_americana_gca_000835435.Capr_semi_CBS27337_V1.sbml",
+  "processed_file": "Phialophora_americana_gca_000835435.Capr_semi_CBS27337_V1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0759,
+  "growth_rate_processed": 1.0759,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1753,
+    "reactions": 2261
+  },
+  "processed_model_size": {
+    "metabolites": 1753,
+    "reactions": 2261
+  },
+  "growth_rate_difference": 6.6613e-16,
+  "success": true
+}

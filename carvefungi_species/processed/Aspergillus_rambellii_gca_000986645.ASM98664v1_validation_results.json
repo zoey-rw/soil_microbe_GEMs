@@ -1,0 +1,28 @@
+{
+  "model_id": "Aspergillus_rambellii_gca_000986645.ASM98664v1",
+  "validation_timestamp": "2025-06-16 18:05:40",
+  "input_file": "Aspergillus_rambellii_gca_000986645.ASM98664v1.sbml",
+  "processed_file": "Aspergillus_rambellii_gca_000986645.ASM98664v1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0528,
+  "growth_rate_processed": 1.0528,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1472,
+    "reactions": 1893
+  },
+  "processed_model_size": {
+    "metabolites": 1472,
+    "reactions": 1893
+  },
+  "growth_rate_difference": 2.2649e-14,
+  "success": true
+}

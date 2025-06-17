@@ -1,0 +1,28 @@
+{
+  "model_id": "Cryptococcus_neoformans.ASM9104v1",
+  "validation_timestamp": "2025-06-16 23:16:21",
+  "input_file": "Cryptococcus_neoformans.ASM9104v1.sbml",
+  "processed_file": "Cryptococcus_neoformans.ASM9104v1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.053,
+  "growth_rate_processed": 1.053,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1556,
+    "reactions": 1951
+  },
+  "processed_model_size": {
+    "metabolites": 1556,
+    "reactions": 1951
+  },
+  "growth_rate_difference": 6.0618e-14,
+  "success": true
+}

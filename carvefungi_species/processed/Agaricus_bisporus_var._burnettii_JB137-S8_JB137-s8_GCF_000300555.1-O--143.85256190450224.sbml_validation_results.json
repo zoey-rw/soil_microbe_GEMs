@@ -1,0 +1,28 @@
+{
+  "model_id": "Agaricus_bisporus_var._burnettii_JB137-S8_JB137-s8_GCF_000300555.1-O--143.85256190450224.sbml",
+  "validation_timestamp": "2025-06-15 22:25:28",
+  "input_file": "Agaricus_bisporus_var._burnettii_JB137-S8_JB137-s8_GCF_000300555.1-O--143.85256190450224.sbml.sbml",
+  "processed_file": "Agaricus_bisporus_var._burnettii_JB137-S8_JB137-s8_GCF_000300555.1-O--143.85256190450224.sbml_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 8.2032,
+  "growth_rate_processed": 8.2032,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 926,
+    "reactions": 1026
+  },
+  "processed_model_size": {
+    "metabolites": 926,
+    "reactions": 1026
+  },
+  "growth_rate_difference": 0,
+  "success": true
+}

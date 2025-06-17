@@ -1,0 +1,28 @@
+{
+  "model_id": "Fusarium_fujikuroi_NCIM1100_GCA_900096625.1",
+  "validation_timestamp": "2025-06-16 23:18:38",
+  "input_file": "Fusarium_fujikuroi_NCIM1100_GCA_900096625.1.sbml",
+  "processed_file": "Fusarium_fujikuroi_NCIM1100_GCA_900096625.1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.0841,
+  "growth_rate_processed": 1.0841,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1743,
+    "reactions": 2260
+  },
+  "processed_model_size": {
+    "metabolites": 1743,
+    "reactions": 2260
+  },
+  "growth_rate_difference": 4.4409e-16,
+  "success": true
+}
