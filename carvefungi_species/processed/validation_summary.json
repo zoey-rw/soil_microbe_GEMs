@@ -1,11 +1,11 @@
 {
-  "total_files": 444,
-  "validation_attempted": 196,
-  "validation_successful": 444,
+  "total_files": 483,
+  "validation_attempted": 39,
+  "validation_successful": 483,
   "validation_failed": 0,
-  "cobra_readable_input": 444,
-  "cobra_readable_processed": 444,
-  "simulation_equivalent": 444,
+  "cobra_readable_input": 483,
+  "cobra_readable_processed": 483,
+  "simulation_equivalent": 483,
   "results": {
     "Acremonium_chrysogenum_atcc_11550_gca_000769265.ASM76926v1": {
       "model_id": "Acremonium_chrysogenum_atcc_11550_gca_000769265.ASM76926v1",
@@ -6952,7 +6952,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gb118_gca_002224005.Cryp_neof_Gb118_V1": {
-      "model_id": "be2e73fca423",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gb118_gca_002224005.Cryp_neof_Gb118_V1",
       "validation_timestamp": "2025-06-16 23:14:56",
       "input_file": "Cryptococcus_neoformans_var_grubii_gb118_gca_002224005.Cryp_neof_Gb118_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gb118_gca_002224005.Cryp_neof_Gb118_V1_processed.xml",
@@ -6980,7 +6980,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002215755.Cneo_seroA_V2": {
-      "model_id": "be2e5c179098",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002215755.Cneo_seroA_V2",
       "validation_timestamp": "2025-06-16 23:15:00",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002215755.Cneo_seroA_V2.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002215755.Cneo_seroA_V2_processed.xml",
@@ -7008,7 +7008,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002216725.ASM221672v1": {
-      "model_id": "be2e75d8357",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002216725.ASM221672v1",
       "validation_timestamp": "2025-06-16 23:15:03",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002216725.ASM221672v1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002216725.ASM221672v1_processed.xml",
@@ -7036,7 +7036,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002217545.Cryp_neof_grubii_cng10_V1": {
-      "model_id": "be2e1b447ce4",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002217545.Cryp_neof_grubii_cng10_V1",
       "validation_timestamp": "2025-06-16 23:15:06",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002217545.Cryp_neof_grubii_cng10_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002217545.Cryp_neof_grubii_cng10_V1_processed.xml",
@@ -7064,7 +7064,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002220045.Cneo_seroA_WM1408": {
-      "model_id": "be2e7c8d8bab",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002220045.Cneo_seroA_WM1408",
       "validation_timestamp": "2025-06-16 23:15:10",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002220045.Cneo_seroA_WM1408.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002220045.Cneo_seroA_WM1408_processed.xml",
@@ -7092,7 +7092,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222015.Cryp_neof_grubii_cng8_V1": {
-      "model_id": "be2e32c2b43",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222015.Cryp_neof_grubii_cng8_V1",
       "validation_timestamp": "2025-06-16 23:15:13",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222015.Cryp_neof_grubii_cng8_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222015.Cryp_neof_grubii_cng8_V1_processed.xml",
@@ -7120,7 +7120,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222025.Cryp_neof_grubii_cng4_V1": {
-      "model_id": "be2e6ccc5dab",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222025.Cryp_neof_grubii_cng4_V1",
       "validation_timestamp": "2025-06-16 23:15:16",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222025.Cryp_neof_grubii_cng4_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222025.Cryp_neof_grubii_cng4_V1_processed.xml",
@@ -7148,7 +7148,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222095.Cryp_neof_grubii_cng7_V1": {
-      "model_id": "be2e6f9caf4c",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222095.Cryp_neof_grubii_cng7_V1",
       "validation_timestamp": "2025-06-16 23:15:19",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222095.Cryp_neof_grubii_cng7_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222095.Cryp_neof_grubii_cng7_V1_processed.xml",
@@ -7176,7 +7176,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222115.Cryp_neof_grubii_cng5_V1": {
-      "model_id": "be2e54153a0",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222115.Cryp_neof_grubii_cng5_V1",
       "validation_timestamp": "2025-06-16 23:15:22",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222115.Cryp_neof_grubii_cng5_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222115.Cryp_neof_grubii_cng5_V1_processed.xml",
@@ -7204,7 +7204,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222135.Cryp_neof_grubii_cng1_V1": {
-      "model_id": "be2e23e7ebd6",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222135.Cryp_neof_grubii_cng1_V1",
       "validation_timestamp": "2025-06-16 23:15:26",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222135.Cryp_neof_grubii_cng1_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222135.Cryp_neof_grubii_cng1_V1_processed.xml",
@@ -7232,7 +7232,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222145.Cryp_neof_grubii_cng6_V1": {
-      "model_id": "be2e33262756",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222145.Cryp_neof_grubii_cng6_V1",
       "validation_timestamp": "2025-06-16 23:15:29",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222145.Cryp_neof_grubii_cng6_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222145.Cryp_neof_grubii_cng6_V1_processed.xml",
@@ -7260,7 +7260,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222155.Cryp_neof_grubii_cng11_V1": {
-      "model_id": "be2e2e52305",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222155.Cryp_neof_grubii_cng11_V1",
       "validation_timestamp": "2025-06-16 23:15:32",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222155.Cryp_neof_grubii_cng11_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222155.Cryp_neof_grubii_cng11_V1_processed.xml",
@@ -7288,7 +7288,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222165.Cryp_neof_grubii_cng3_V1": {
-      "model_id": "be2e52850d01",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222165.Cryp_neof_grubii_cng3_V1",
       "validation_timestamp": "2025-06-16 23:15:35",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222165.Cryp_neof_grubii_cng3_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222165.Cryp_neof_grubii_cng3_V1_processed.xml",
@@ -7316,7 +7316,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_gca_002222245.Cryp_neof_grubii_cng2_V1": {
-      "model_id": "be2e4195e541",
+      "model_id": "Cryptococcus_neoformans_var_grubii_gca_002222245.Cryp_neof_grubii_cng2_V1",
       "validation_timestamp": "2025-06-16 23:15:38",
       "input_file": "Cryptococcus_neoformans_var_grubii_gca_002222245.Cryp_neof_grubii_cng2_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_gca_002222245.Cryp_neof_grubii_cng2_V1_processed.xml",
@@ -7344,7 +7344,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_h99_gca_000149245.CNA3": {
-      "model_id": "be2e411c88e8",
+      "model_id": "Cryptococcus_neoformans_var_grubii_h99_gca_000149245.CNA3",
       "validation_timestamp": "2025-06-16 23:15:42",
       "input_file": "Cryptococcus_neoformans_var_grubii_h99_gca_000149245.CNA3.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_h99_gca_000149245.CNA3_processed.xml",
@@ -7372,7 +7372,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_mw_rsa1955_gca_002222455.Cryp_neof_MW_RSA1955_V1": {
-      "model_id": "be2e6c36c20e",
+      "model_id": "Cryptococcus_neoformans_var_grubii_mw_rsa1955_gca_002222455.Cryp_neof_MW_RSA1955_V1",
       "validation_timestamp": "2025-06-16 23:15:45",
       "input_file": "Cryptococcus_neoformans_var_grubii_mw_rsa1955_gca_002222455.Cryp_neof_MW_RSA1955_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_mw_rsa1955_gca_002222455.Cryp_neof_MW_RSA1955_V1_processed.xml",
@@ -7400,7 +7400,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_mw_rsa36_gca_002222395.Cryp_neof_MW_RSA36_V1": {
-      "model_id": "be2e4e923fd3",
+      "model_id": "Cryptococcus_neoformans_var_grubii_mw_rsa36_gca_002222395.Cryp_neof_MW_RSA36_V1",
       "validation_timestamp": "2025-06-16 23:15:49",
       "input_file": "Cryptococcus_neoformans_var_grubii_mw_rsa36_gca_002222395.Cryp_neof_MW_RSA36_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_mw_rsa36_gca_002222395.Cryp_neof_MW_RSA36_V1_processed.xml",
@@ -7428,7 +7428,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_mw_rsa852_gca_002220035.Cryp_neof_MW_RSA852_V1": {
-      "model_id": "be2e580d4cea",
+      "model_id": "Cryptococcus_neoformans_var_grubii_mw_rsa852_gca_002220035.Cryp_neof_MW_RSA852_V1",
       "validation_timestamp": "2025-06-16 23:15:52",
       "input_file": "Cryptococcus_neoformans_var_grubii_mw_rsa852_gca_002220035.Cryp_neof_MW_RSA852_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_mw_rsa852_gca_002220035.Cryp_neof_MW_RSA852_V1_processed.xml",
@@ -7456,7 +7456,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_th84_gca_002222315.Cryp_neof_Th84_V1": {
-      "model_id": "be2e10c1bdf5",
+      "model_id": "Cryptococcus_neoformans_var_grubii_th84_gca_002222315.Cryp_neof_Th84_V1",
       "validation_timestamp": "2025-06-16 23:15:55",
       "input_file": "Cryptococcus_neoformans_var_grubii_th84_gca_002222315.Cryp_neof_Th84_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_th84_gca_002222315.Cryp_neof_Th84_V1_processed.xml",
@@ -7484,7 +7484,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_tu259_1_gca_002222325.Cryp_neof_Tu259_1_V1": {
-      "model_id": "be2e16a6fac3",
+      "model_id": "Cryptococcus_neoformans_var_grubii_tu259_1_gca_002222325.Cryp_neof_Tu259_1_V1",
       "validation_timestamp": "2025-06-16 23:15:59",
       "input_file": "Cryptococcus_neoformans_var_grubii_tu259_1_gca_002222325.Cryp_neof_Tu259_1_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_tu259_1_gca_002222325.Cryp_neof_Tu259_1_V1_processed.xml",
@@ -7512,7 +7512,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_tu401_1_gca_002222475.Cryp_neof_Tu401_1_V1": {
-      "model_id": "be2e568850ae",
+      "model_id": "Cryptococcus_neoformans_var_grubii_tu401_1_gca_002222475.Cryp_neof_Tu401_1_V1",
       "validation_timestamp": "2025-06-16 23:16:02",
       "input_file": "Cryptococcus_neoformans_var_grubii_tu401_1_gca_002222475.Cryp_neof_Tu401_1_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_tu401_1_gca_002222475.Cryp_neof_Tu401_1_V1_processed.xml",
@@ -7540,7 +7540,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var_grubii_ze90_1_gca_002222385.Cryp_neof_Ze90_1_V1": {
-      "model_id": "be2e1d85b3be",
+      "model_id": "Cryptococcus_neoformans_var_grubii_ze90_1_gca_002222385.Cryp_neof_Ze90_1_V1",
       "validation_timestamp": "2025-06-16 23:16:05",
       "input_file": "Cryptococcus_neoformans_var_grubii_ze90_1_gca_002222385.Cryp_neof_Ze90_1_V1.sbml",
       "processed_file": "Cryptococcus_neoformans_var_grubii_ze90_1_gca_002222385.Cryp_neof_Ze90_1_V1_processed.xml",
@@ -7568,7 +7568,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var._grubii_H99_GCF_000149245.1": {
-      "model_id": "be2e2e39a7e1",
+      "model_id": "Cryptococcus_neoformans_var._grubii_H99_GCF_000149245.1",
       "validation_timestamp": "2025-06-16 23:16:08",
       "input_file": "Cryptococcus_neoformans_var._grubii_H99_GCF_000149245.1.sbml",
       "processed_file": "Cryptococcus_neoformans_var._grubii_H99_GCF_000149245.1_processed.xml",
@@ -7596,7 +7596,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var._grubii_V31_GCA_002215745.1": {
-      "model_id": "be2e706f0c7b",
+      "model_id": "Cryptococcus_neoformans_var._grubii_V31_GCA_002215745.1",
       "validation_timestamp": "2025-06-16 23:16:11",
       "input_file": "Cryptococcus_neoformans_var._grubii_V31_GCA_002215745.1.sbml",
       "processed_file": "Cryptococcus_neoformans_var._grubii_V31_GCA_002215745.1_processed.xml",
@@ -7624,7 +7624,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var._neoformans_B-3501A_GCF_000149385.1": {
-      "model_id": "be2e4b65d837",
+      "model_id": "Cryptococcus_neoformans_var._neoformans_B-3501A_GCF_000149385.1",
       "validation_timestamp": "2025-06-16 23:16:14",
       "input_file": "Cryptococcus_neoformans_var._neoformans_B-3501A_GCF_000149385.1.sbml",
       "processed_file": "Cryptococcus_neoformans_var._neoformans_B-3501A_GCF_000149385.1_processed.xml",
@@ -7652,7 +7652,7 @@
       "success": true
     },
     "Cryptococcus_neoformans_var._neoformans_JEC21_GCF_000091045.1": {
-      "model_id": "be2e3ee2ce34",
+      "model_id": "Cryptococcus_neoformans_var._neoformans_JEC21_GCF_000091045.1",
       "validation_timestamp": "2025-06-16 23:16:18",
       "input_file": "Cryptococcus_neoformans_var._neoformans_JEC21_GCF_000091045.1.sbml",
       "processed_file": "Cryptococcus_neoformans_var._neoformans_JEC21_GCF_000091045.1_processed.xml",
@@ -7680,7 +7680,7 @@
       "success": true
     },
     "Cryptococcus_neoformans.ASM9104v1": {
-      "model_id": "be2e477c11e9",
+      "model_id": "Cryptococcus_neoformans.ASM9104v1",
       "validation_timestamp": "2025-06-16 23:16:21",
       "input_file": "Cryptococcus_neoformans.ASM9104v1.sbml",
       "processed_file": "Cryptococcus_neoformans.ASM9104v1_processed.xml",
@@ -7708,7 +7708,7 @@
       "success": true
     },
     "Cryptococcus_wingfieldii_CBS_7118_GCF_001720155.1": {
-      "model_id": "be2e57c65bd9",
+      "model_id": "Cryptococcus_wingfieldii_CBS_7118_GCF_001720155.1",
       "validation_timestamp": "2025-06-16 23:16:24",
       "input_file": "Cryptococcus_wingfieldii_CBS_7118_GCF_001720155.1.sbml",
       "processed_file": "Cryptococcus_wingfieldii_CBS_7118_GCF_001720155.1_processed.xml",
@@ -7736,7 +7736,7 @@
       "success": true
     },
     "Elaphomyces_granulatus_gca_002240705.PX439": {
-      "model_id": "be2e774b5ff2",
+      "model_id": "Elaphomyces_granulatus_gca_002240705.PX439",
       "validation_timestamp": "2025-06-16 23:16:27",
       "input_file": "Elaphomyces_granulatus_gca_002240705.PX439.sbml",
       "processed_file": "Elaphomyces_granulatus_gca_002240705.PX439_processed.xml",
@@ -7764,7 +7764,7 @@
       "success": true
     },
     "Exophiala_aquamarina_CBS_119918_GCF_000709125.1": {
-      "model_id": "be2e737ca2f2",
+      "model_id": "Exophiala_aquamarina_CBS_119918_GCF_000709125.1",
       "validation_timestamp": "2025-06-16 23:16:30",
       "input_file": "Exophiala_aquamarina_CBS_119918_GCF_000709125.1.sbml",
       "processed_file": "Exophiala_aquamarina_CBS_119918_GCF_000709125.1_processed.xml",
@@ -7792,7 +7792,7 @@
       "success": true
     },
     "Exophiala_dermatitidis_NIH-UT8656_GCF_000230625.1": {
-      "model_id": "be2e3461e97c",
+      "model_id": "Exophiala_dermatitidis_NIH-UT8656_GCF_000230625.1",
       "validation_timestamp": "2025-06-16 23:16:34",
       "input_file": "Exophiala_dermatitidis_NIH-UT8656_GCF_000230625.1.sbml",
       "processed_file": "Exophiala_dermatitidis_NIH-UT8656_GCF_000230625.1_processed.xml",
@@ -7820,7 +7820,7 @@
       "success": true
     },
     "Exophiala_mesophila_CBS_40295_GCF_000836275.1": {
-      "model_id": "be2e3f16d3f1",
+      "model_id": "Exophiala_mesophila_CBS_40295_GCF_000836275.1",
       "validation_timestamp": "2025-06-16 23:16:38",
       "input_file": "Exophiala_mesophila_CBS_40295_GCF_000836275.1.sbml",
       "processed_file": "Exophiala_mesophila_CBS_40295_GCF_000836275.1_processed.xml",
@@ -7848,7 +7848,7 @@
       "success": true
     },
     "Exophiala_mesophila_CCFEE_6314_GCA_004011775.1": {
-      "model_id": "be2e61b23a12",
+      "model_id": "Exophiala_mesophila_CCFEE_6314_GCA_004011775.1",
       "validation_timestamp": "2025-06-16 23:16:42",
       "input_file": "Exophiala_mesophila_CCFEE_6314_GCA_004011775.1.sbml",
       "processed_file": "Exophiala_mesophila_CCFEE_6314_GCA_004011775.1_processed.xml",
@@ -7876,7 +7876,7 @@
       "success": true
     },
     "Exophiala_mesophila_CCFEE_6314_GCA_004011775.1-O--117.44078788644684.sbml": {
-      "model_id": "be2e1bc72d8c",
+      "model_id": "Exophiala_mesophila_CCFEE_6314_GCA_004011775.1-O--117.44078788644684.sbml",
       "validation_timestamp": "2025-06-16 23:16:46",
       "input_file": "Exophiala_mesophila_CCFEE_6314_GCA_004011775.1-O--117.44078788644684.sbml.sbml",
       "processed_file": "Exophiala_mesophila_CCFEE_6314_GCA_004011775.1-O--117.44078788644684.sbml_processed.xml",
@@ -7904,7 +7904,7 @@
       "success": true
     },
     "Exophiala_mesophila_gca_000836275.Exop_meso_CBS40295_V1": {
-      "model_id": "be2e280ea1b",
+      "model_id": "Exophiala_mesophila_gca_000836275.Exop_meso_CBS40295_V1",
       "validation_timestamp": "2025-06-16 23:16:48",
       "input_file": "Exophiala_mesophila_gca_000836275.Exop_meso_CBS40295_V1.sbml",
       "processed_file": "Exophiala_mesophila_gca_000836275.Exop_meso_CBS40295_V1_processed.xml",
@@ -7932,7 +7932,7 @@
       "success": true
     },
     "Exophiala_oligosperma_gca_000835515.Exop_olig_CBS72588_V1": {
-      "model_id": "be2e37c1dc27",
+      "model_id": "Exophiala_oligosperma_gca_000835515.Exop_olig_CBS72588_V1",
       "validation_timestamp": "2025-06-16 23:16:52",
       "input_file": "Exophiala_oligosperma_gca_000835515.Exop_olig_CBS72588_V1.sbml",
       "processed_file": "Exophiala_oligosperma_gca_000835515.Exop_olig_CBS72588_V1_processed.xml",
@@ -7960,7 +7960,7 @@
       "success": true
     },
     "Exophiala_sideris_gca_000835395.Exop_side_CBS121828_V1": {
-      "model_id": "be2e2d4038a0",
+      "model_id": "Exophiala_sideris_gca_000835395.Exop_side_CBS121828_V1",
       "validation_timestamp": "2025-06-16 23:16:56",
       "input_file": "Exophiala_sideris_gca_000835395.Exop_side_CBS121828_V1.sbml",
       "processed_file": "Exophiala_sideris_gca_000835395.Exop_side_CBS121828_V1_processed.xml",
@@ -7988,7 +7988,7 @@
       "success": true
     },
     "Exophiala_spinifera_CBS_89968_GCF_000836115.1": {
-      "model_id": "be2e1e0c9904",
+      "model_id": "Exophiala_spinifera_CBS_89968_GCF_000836115.1",
       "validation_timestamp": "2025-06-16 23:17:00",
       "input_file": "Exophiala_spinifera_CBS_89968_GCF_000836115.1.sbml",
       "processed_file": "Exophiala_spinifera_CBS_89968_GCF_000836115.1_processed.xml",
@@ -8016,7 +8016,7 @@
       "success": true
     },
     "Exophiala_spinifera_gca_000836115.Exop_spin_CBS89968_V1": {
-      "model_id": "be2e680cf5bd",
+      "model_id": "Exophiala_spinifera_gca_000836115.Exop_spin_CBS89968_V1",
       "validation_timestamp": "2025-06-16 23:17:04",
       "input_file": "Exophiala_spinifera_gca_000836115.Exop_spin_CBS89968_V1.sbml",
       "processed_file": "Exophiala_spinifera_gca_000836115.Exop_spin_CBS89968_V1_processed.xml",
@@ -8044,7 +8044,7 @@
       "success": true
     },
     "Exophiala_xenobiotica_CBS_118157_GCF_000835505.1": {
-      "model_id": "be2e40d1508c",
+      "model_id": "Exophiala_xenobiotica_CBS_118157_GCF_000835505.1",
       "validation_timestamp": "2025-06-16 23:17:07",
       "input_file": "Exophiala_xenobiotica_CBS_118157_GCF_000835505.1.sbml",
       "processed_file": "Exophiala_xenobiotica_CBS_118157_GCF_000835505.1_processed.xml",
@@ -8072,7 +8072,7 @@
       "success": true
     },
     "Exophiala_xenobiotica_gca_000835505.Exop_xeno_CBS118157_V1": {
-      "model_id": "be2e589955dd",
+      "model_id": "Exophiala_xenobiotica_gca_000835505.Exop_xeno_CBS118157_V1",
       "validation_timestamp": "2025-06-16 23:17:11",
       "input_file": "Exophiala_xenobiotica_gca_000835505.Exop_xeno_CBS118157_V1.sbml",
       "processed_file": "Exophiala_xenobiotica_gca_000835505.Exop_xeno_CBS118157_V1_processed.xml",
@@ -8100,7 +8100,7 @@
       "success": true
     },
     "Fusarium_ambrosium_NRRL_20438_GCA_003947045.1": {
-      "model_id": "be2e23976798",
+      "model_id": "Fusarium_ambrosium_NRRL_20438_GCA_003947045.1",
       "validation_timestamp": "2025-06-16 23:17:15",
       "input_file": "Fusarium_ambrosium_NRRL_20438_GCA_003947045.1.sbml",
       "processed_file": "Fusarium_ambrosium_NRRL_20438_GCA_003947045.1_processed.xml",
@@ -8128,7 +8128,7 @@
       "success": true
     },
     "Fusarium_avenaceum_Fa05001_GCA_000769215.1": {
-      "model_id": "be2ed7d9010",
+      "model_id": "Fusarium_avenaceum_Fa05001_GCA_000769215.1",
       "validation_timestamp": "2025-06-16 23:17:18",
       "input_file": "Fusarium_avenaceum_Fa05001_GCA_000769215.1.sbml",
       "processed_file": "Fusarium_avenaceum_Fa05001_GCA_000769215.1_processed.xml",
@@ -8156,7 +8156,7 @@
       "success": true
     },
     "Fusarium_coffeatum_FIESC_28_GCF_003316985.1": {
-      "model_id": "be2e51db6557",
+      "model_id": "Fusarium_coffeatum_FIESC_28_GCF_003316985.1",
       "validation_timestamp": "2025-06-16 23:17:22",
       "input_file": "Fusarium_coffeatum_FIESC_28_GCF_003316985.1.sbml",
       "processed_file": "Fusarium_coffeatum_FIESC_28_GCF_003316985.1_processed.xml",
@@ -8184,7 +8184,7 @@
       "success": true
     },
     "Fusarium_culmorum_PV_GCA_003033665.1": {
-      "model_id": "be2e1a1a5cf5",
+      "model_id": "Fusarium_culmorum_PV_GCA_003033665.1",
       "validation_timestamp": "2025-06-16 23:17:26",
       "input_file": "Fusarium_culmorum_PV_GCA_003033665.1.sbml",
       "processed_file": "Fusarium_culmorum_PV_GCA_003033665.1_processed.xml",
@@ -8212,7 +8212,7 @@
       "success": true
     },
     "Fusarium_culmorum.EF1": {
-      "model_id": "be2e3da9a255",
+      "model_id": "Fusarium_culmorum.EF1",
       "validation_timestamp": "2025-06-16 23:17:29",
       "input_file": "Fusarium_culmorum.EF1.sbml",
       "processed_file": "Fusarium_culmorum.EF1_processed.xml",
@@ -8240,7 +8240,7 @@
       "success": true
     },
     "Fusarium_euwallaceae_UCR1854_GCA_003957675.1": {
-      "model_id": "be2e57366b97",
+      "model_id": "Fusarium_euwallaceae_UCR1854_GCA_003957675.1",
       "validation_timestamp": "2025-06-16 23:17:33",
       "input_file": "Fusarium_euwallaceae_UCR1854_GCA_003957675.1.sbml",
       "processed_file": "Fusarium_euwallaceae_UCR1854_GCA_003957675.1_processed.xml",
@@ -8268,7 +8268,7 @@
       "success": true
     },
     "Fusarium_flagelliforme_NRRL_13405_GCA_003012295.1": {
-      "model_id": "be2e48419d43",
+      "model_id": "Fusarium_flagelliforme_NRRL_13405_GCA_003012295.1",
       "validation_timestamp": "2025-06-16 23:17:36",
       "input_file": "Fusarium_flagelliforme_NRRL_13405_GCA_003012295.1.sbml",
       "processed_file": "Fusarium_flagelliforme_NRRL_13405_GCA_003012295.1_processed.xml",
@@ -8296,7 +8296,7 @@
       "success": true
     },
     "Fusarium_floridanum_NRRL62606_GCA_003947005.1": {
-      "model_id": "be2e16c5371f",
+      "model_id": "Fusarium_floridanum_NRRL62606_GCA_003947005.1",
       "validation_timestamp": "2025-06-16 23:17:40",
       "input_file": "Fusarium_floridanum_NRRL62606_GCA_003947005.1.sbml",
       "processed_file": "Fusarium_floridanum_NRRL62606_GCA_003947005.1_processed.xml",
@@ -8324,7 +8324,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_Augusto2_GCA_009663095.1": {
-      "model_id": "be2e66922352",
+      "model_id": "Fusarium_fujikuroi_Augusto2_GCA_009663095.1",
       "validation_timestamp": "2025-06-16 23:17:43",
       "input_file": "Fusarium_fujikuroi_Augusto2_GCA_009663095.1.sbml",
       "processed_file": "Fusarium_fujikuroi_Augusto2_GCA_009663095.1_processed.xml",
@@ -8352,7 +8352,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_C1995_GCA_900096645.1": {
-      "model_id": "be2e6eb9d270",
+      "model_id": "Fusarium_fujikuroi_C1995_GCA_900096645.1",
       "validation_timestamp": "2025-06-16 23:17:47",
       "input_file": "Fusarium_fujikuroi_C1995_GCA_900096645.1.sbml",
       "processed_file": "Fusarium_fujikuroi_C1995_GCA_900096645.1_processed.xml",
@@ -8380,7 +8380,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_CSV1_GCA_009663055.1": {
-      "model_id": "be2e76a0e1f4",
+      "model_id": "Fusarium_fujikuroi_CSV1_GCA_009663055.1",
       "validation_timestamp": "2025-06-16 23:17:51",
       "input_file": "Fusarium_fujikuroi_CSV1_GCA_009663055.1.sbml",
       "processed_file": "Fusarium_fujikuroi_CSV1_GCA_009663055.1_processed.xml",
@@ -8408,7 +8408,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_gca_001023035.ASM102303v1": {
-      "model_id": "be2e53e5b80",
+      "model_id": "Fusarium_fujikuroi_gca_001023035.ASM102303v1",
       "validation_timestamp": "2025-06-16 23:17:54",
       "input_file": "Fusarium_fujikuroi_gca_001023035.ASM102303v1.sbml",
       "processed_file": "Fusarium_fujikuroi_gca_001023035.ASM102303v1_processed.xml",
@@ -8436,7 +8436,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_gca_001023045.ASM102304v1": {
-      "model_id": "be2e43cbda5b",
+      "model_id": "Fusarium_fujikuroi_gca_001023045.ASM102304v1",
       "validation_timestamp": "2025-06-16 23:17:58",
       "input_file": "Fusarium_fujikuroi_gca_001023045.ASM102304v1.sbml",
       "processed_file": "Fusarium_fujikuroi_gca_001023045.ASM102304v1_processed.xml",
@@ -8464,7 +8464,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_gca_001023065.ASM102306v1": {
-      "model_id": "be2e58c867e6",
+      "model_id": "Fusarium_fujikuroi_gca_001023065.ASM102306v1",
       "validation_timestamp": "2025-06-16 23:18:01",
       "input_file": "Fusarium_fujikuroi_gca_001023065.ASM102306v1.sbml",
       "processed_file": "Fusarium_fujikuroi_gca_001023065.ASM102306v1_processed.xml",
@@ -8492,7 +8492,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_gca_900096505.version_1": {
-      "model_id": "be2e302e4e4b",
+      "model_id": "Fusarium_fujikuroi_gca_900096505.version_1",
       "validation_timestamp": "2025-06-16 23:18:05",
       "input_file": "Fusarium_fujikuroi_gca_900096505.version_1.sbml",
       "processed_file": "Fusarium_fujikuroi_gca_900096505.version_1_processed.xml",
@@ -8520,7 +8520,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_gca_900096505.version_1-O--86.3471133838301.sbml": {
-      "model_id": "be2e2fdf9f8f",
+      "model_id": "Fusarium_fujikuroi_gca_900096505.version_1-O--86.3471133838301.sbml",
       "validation_timestamp": "2025-06-16 23:18:10",
       "input_file": "Fusarium_fujikuroi_gca_900096505.version_1-O--86.3471133838301.sbml.sbml",
       "processed_file": "Fusarium_fujikuroi_gca_900096505.version_1-O--86.3471133838301.sbml_processed.xml",
@@ -8548,7 +8548,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_GCA_900096605.1": {
-      "model_id": "be2e2727be3e",
+      "model_id": "Fusarium_fujikuroi_GCA_900096605.1",
       "validation_timestamp": "2025-06-16 23:18:12",
       "input_file": "Fusarium_fujikuroi_GCA_900096605.1.sbml",
       "processed_file": "Fusarium_fujikuroi_GCA_900096605.1_processed.xml",
@@ -8576,7 +8576,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_gca_900096685.version_1": {
-      "model_id": "be2e4069e8ee",
+      "model_id": "Fusarium_fujikuroi_gca_900096685.version_1",
       "validation_timestamp": "2025-06-16 23:18:16",
       "input_file": "Fusarium_fujikuroi_gca_900096685.version_1.sbml",
       "processed_file": "Fusarium_fujikuroi_gca_900096685.version_1_processed.xml",
@@ -8604,7 +8604,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_gca_900096705.version_1": {
-      "model_id": "be2e351436d7",
+      "model_id": "Fusarium_fujikuroi_gca_900096705.version_1",
       "validation_timestamp": "2025-06-16 23:18:20",
       "input_file": "Fusarium_fujikuroi_gca_900096705.version_1.sbml",
       "processed_file": "Fusarium_fujikuroi_gca_900096705.version_1_processed.xml",
@@ -8632,7 +8632,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_I1.3_GCA_009663115.1": {
-      "model_id": "be2eec743f4",
+      "model_id": "Fusarium_fujikuroi_I1.3_GCA_009663115.1",
       "validation_timestamp": "2025-06-16 23:18:23",
       "input_file": "Fusarium_fujikuroi_I1.3_GCA_009663115.1.sbml",
       "processed_file": "Fusarium_fujikuroi_I1.3_GCA_009663115.1_processed.xml",
@@ -8660,7 +8660,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_IMI_58289_GCF_900079805.1": {
-      "model_id": "be2e72731a3",
+      "model_id": "Fusarium_fujikuroi_IMI_58289_GCF_900079805.1",
       "validation_timestamp": "2025-06-16 23:18:27",
       "input_file": "Fusarium_fujikuroi_IMI_58289_GCF_900079805.1.sbml",
       "processed_file": "Fusarium_fujikuroi_IMI_58289_GCF_900079805.1_processed.xml",
@@ -8688,7 +8688,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_m567_GCA_900096615.1": {
-      "model_id": "be2e67f4017",
+      "model_id": "Fusarium_fujikuroi_m567_GCA_900096615.1",
       "validation_timestamp": "2025-06-16 23:18:31",
       "input_file": "Fusarium_fujikuroi_m567_GCA_900096615.1.sbml",
       "processed_file": "Fusarium_fujikuroi_m567_GCA_900096615.1_processed.xml",
@@ -8716,7 +8716,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_MRC2276_GCA_900096635.1": {
-      "model_id": "be2e76468a43",
+      "model_id": "Fusarium_fujikuroi_MRC2276_GCA_900096635.1",
       "validation_timestamp": "2025-06-16 23:18:34",
       "input_file": "Fusarium_fujikuroi_MRC2276_GCA_900096635.1.sbml",
       "processed_file": "Fusarium_fujikuroi_MRC2276_GCA_900096635.1_processed.xml",
@@ -8744,7 +8744,7 @@
       "success": true
     },
     "Fusarium_fujikuroi_NCIM1100_GCA_900096625.1": {
-      "model_id": "be2e75f3d70e",
+      "model_id": "Fusarium_fujikuroi_NCIM1100_GCA_900096625.1",
       "validation_timestamp": "2025-06-16 23:18:38",
       "input_file": "Fusarium_fujikuroi_NCIM1100_GCA_900096625.1.sbml",
       "processed_file": "Fusarium_fujikuroi_NCIM1100_GCA_900096625.1_processed.xml",
@@ -8772,7 +8772,7 @@
       "success": true
     },
     "Fusarium_fujikuroi.EF1": {
-      "model_id": "be2e2450d60e",
+      "model_id": "Fusarium_fujikuroi.EF1",
       "validation_timestamp": "2025-06-16 23:18:42",
       "input_file": "Fusarium_fujikuroi.EF1.sbml",
       "processed_file": "Fusarium_fujikuroi.EF1_processed.xml",
@@ -8800,7 +8800,7 @@
       "success": true
     },
     "Fusarium_graminearum_gca_000240135.ASM24013v3": {
-      "model_id": "be2e77c99704",
+      "model_id": "Fusarium_graminearum_gca_000240135.ASM24013v3",
       "validation_timestamp": "2025-06-16 23:18:45",
       "input_file": "Fusarium_graminearum_gca_000240135.ASM24013v3.sbml",
       "processed_file": "Fusarium_graminearum_gca_000240135.ASM24013v3_processed.xml",
@@ -8828,7 +8828,7 @@
       "success": true
     },
     "Fusarium_graminearum_gca_000599445.CS3005v1": {
-      "model_id": "be2e49b6c79f",
+      "model_id": "Fusarium_graminearum_gca_000599445.CS3005v1",
       "validation_timestamp": "2025-06-16 23:18:49",
       "input_file": "Fusarium_graminearum_gca_000599445.CS3005v1.sbml",
       "processed_file": "Fusarium_graminearum_gca_000599445.CS3005v1_processed.xml",
@@ -8856,7 +8856,7 @@
       "success": true
     },
     "Fusarium_graminearum_ITEM_124_GCA_002352725.1": {
-      "model_id": "be2e5469e65a",
+      "model_id": "Fusarium_graminearum_ITEM_124_GCA_002352725.1",
       "validation_timestamp": "2025-06-16 23:18:52",
       "input_file": "Fusarium_graminearum_ITEM_124_GCA_002352725.1.sbml",
       "processed_file": "Fusarium_graminearum_ITEM_124_GCA_002352725.1_processed.xml",
@@ -8884,7 +8884,7 @@
       "success": true
     },
     "Fusarium_graminearum.RR1": {
-      "model_id": "be2e5ea74872",
+      "model_id": "Fusarium_graminearum.RR1",
       "validation_timestamp": "2025-06-16 23:18:56",
       "input_file": "Fusarium_graminearum.RR1.sbml",
       "processed_file": "Fusarium_graminearum.RR1_processed.xml",
@@ -8912,7 +8912,7 @@
       "success": true
     },
     "Fusarium_kuroshium_GCA_003698175.1": {
-      "model_id": "be2e717c49f2",
+      "model_id": "Fusarium_kuroshium_GCA_003698175.1",
       "validation_timestamp": "2025-06-16 23:19:00",
       "input_file": "Fusarium_kuroshium_GCA_003698175.1.sbml",
       "processed_file": "Fusarium_kuroshium_GCA_003698175.1_processed.xml",
@@ -8940,7 +8940,7 @@
       "success": true
     },
     "Fusarium_langsethiae_gca_001292635.ASM129263v1": {
-      "model_id": "be2e25c75689",
+      "model_id": "Fusarium_langsethiae_gca_001292635.ASM129263v1",
       "validation_timestamp": "2025-06-16 23:19:04",
       "input_file": "Fusarium_langsethiae_gca_001292635.ASM129263v1.sbml",
       "processed_file": "Fusarium_langsethiae_gca_001292635.ASM129263v1_processed.xml",
@@ -8968,7 +8968,7 @@
       "success": true
     },
     "Fusarium_longipes_NRRL_20695_GCA_003012285.1": {
-      "model_id": "be2e4c971d09",
+      "model_id": "Fusarium_longipes_NRRL_20695_GCA_003012285.1",
       "validation_timestamp": "2025-06-16 23:19:07",
       "input_file": "Fusarium_longipes_NRRL_20695_GCA_003012285.1.sbml",
       "processed_file": "Fusarium_longipes_NRRL_20695_GCA_003012285.1_processed.xml",
@@ -8996,7 +8996,7 @@
       "success": true
     },
     "Fusarium_mangiferae_gca_900044065.Genome_assembly_version_1": {
-      "model_id": "be2e4ee7e5e0",
+      "model_id": "Fusarium_mangiferae_gca_900044065.Genome_assembly_version_1",
       "validation_timestamp": "2025-06-16 23:19:11",
       "input_file": "Fusarium_mangiferae_gca_900044065.Genome_assembly_version_1.sbml",
       "processed_file": "Fusarium_mangiferae_gca_900044065.Genome_assembly_version_1_processed.xml",
@@ -9024,7 +9024,7 @@
       "success": true
     },
     "Fusarium_nygamai_gca_002894225.CS10214v1": {
-      "model_id": "be2e3fc38160",
+      "model_id": "Fusarium_nygamai_gca_002894225.CS10214v1",
       "validation_timestamp": "2025-06-16 23:19:14",
       "input_file": "Fusarium_nygamai_gca_002894225.CS10214v1.sbml",
       "processed_file": "Fusarium_nygamai_gca_002894225.CS10214v1_processed.xml",
@@ -9052,7 +9052,7 @@
       "success": true
     },
     "Fusarium_odoratissimum_NRRL_54006_GCF_000260195.1": {
-      "model_id": "be2e13734b06",
+      "model_id": "Fusarium_odoratissimum_NRRL_54006_GCF_000260195.1",
       "validation_timestamp": "2025-06-16 23:19:18",
       "input_file": "Fusarium_odoratissimum_NRRL_54006_GCF_000260195.1.sbml",
       "processed_file": "Fusarium_odoratissimum_NRRL_54006_GCF_000260195.1_processed.xml",
@@ -9080,7 +9080,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_cubense_race_1_gca_000350345.Foc1_1.0": {
-      "model_id": "be2e631f0173",
+      "model_id": "Fusarium_oxysporum_f_sp_cubense_race_1_gca_000350345.Foc1_1.0",
       "validation_timestamp": "2025-06-16 23:19:21",
       "input_file": "Fusarium_oxysporum_f_sp_cubense_race_1_gca_000350345.Foc1_1.0.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_cubense_race_1_gca_000350345.Foc1_1.0_processed.xml",
@@ -9108,7 +9108,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_cubense_race_4_gca_000350365.Foc4_1.0": {
-      "model_id": "be2e4e5bfbbf",
+      "model_id": "Fusarium_oxysporum_f_sp_cubense_race_4_gca_000350365.Foc4_1.0",
       "validation_timestamp": "2025-06-16 23:19:25",
       "input_file": "Fusarium_oxysporum_f_sp_cubense_race_4_gca_000350365.Foc4_1.0.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_cubense_race_4_gca_000350365.Foc4_1.0_processed.xml",
@@ -9136,7 +9136,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_cubense_tropical_race_4_54006_gca_000260195.FO_II5_V1": {
-      "model_id": "be2e9db2709",
+      "model_id": "Fusarium_oxysporum_f_sp_cubense_tropical_race_4_54006_gca_000260195.FO_II5_V1",
       "validation_timestamp": "2025-06-16 23:19:29",
       "input_file": "Fusarium_oxysporum_f_sp_cubense_tropical_race_4_54006_gca_000260195.FO_II5_V1.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_cubense_tropical_race_4_54006_gca_000260195.FO_II5_V1_processed.xml",
@@ -9164,7 +9164,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_lycopersici_4287_gca_000149955.ASM14995v2": {
-      "model_id": "be2e67dfa488",
+      "model_id": "Fusarium_oxysporum_f_sp_lycopersici_4287_gca_000149955.ASM14995v2",
       "validation_timestamp": "2025-06-16 23:19:32",
       "input_file": "Fusarium_oxysporum_f_sp_lycopersici_4287_gca_000149955.ASM14995v2.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_lycopersici_4287_gca_000149955.ASM14995v2_processed.xml",
@@ -9192,7 +9192,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_lycopersici_mn25_gca_000259975.FO_MN25_V1": {
-      "model_id": "be2e3ad2a0b0",
+      "model_id": "Fusarium_oxysporum_f_sp_lycopersici_mn25_gca_000259975.FO_MN25_V1",
       "validation_timestamp": "2025-06-16 23:19:36",
       "input_file": "Fusarium_oxysporum_f_sp_lycopersici_mn25_gca_000259975.FO_MN25_V1.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_lycopersici_mn25_gca_000259975.FO_MN25_V1_processed.xml",
@@ -9220,7 +9220,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_radicis_cucumerinum_gca_001702695.ASM170269v2": {
-      "model_id": "be2e6ac2d644",
+      "model_id": "Fusarium_oxysporum_f_sp_radicis_cucumerinum_gca_001702695.ASM170269v2",
       "validation_timestamp": "2025-06-16 23:19:40",
       "input_file": "Fusarium_oxysporum_f_sp_radicis_cucumerinum_gca_001702695.ASM170269v2.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_radicis_cucumerinum_gca_001702695.ASM170269v2_processed.xml",
@@ -9248,7 +9248,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_radicis_lycopersici_26381_gca_000260155.FO_CL57_V1": {
-      "model_id": "be2e6264a310",
+      "model_id": "Fusarium_oxysporum_f_sp_radicis_lycopersici_26381_gca_000260155.FO_CL57_V1",
       "validation_timestamp": "2025-06-16 23:19:43",
       "input_file": "Fusarium_oxysporum_f_sp_radicis_lycopersici_26381_gca_000260155.FO_CL57_V1.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_radicis_lycopersici_26381_gca_000260155.FO_CL57_V1_processed.xml",
@@ -9276,7 +9276,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_raphani_54005_gca_000260235.FO_PHW815_V1": {
-      "model_id": "be2e5fa5a39b",
+      "model_id": "Fusarium_oxysporum_f_sp_raphani_54005_gca_000260235.FO_PHW815_V1",
       "validation_timestamp": "2025-06-16 23:19:47",
       "input_file": "Fusarium_oxysporum_f_sp_raphani_54005_gca_000260235.FO_PHW815_V1.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_raphani_54005_gca_000260235.FO_PHW815_V1_processed.xml",
@@ -9304,7 +9304,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f_sp_vasinfectum_25433_gca_000260175.FO_Cotton_V1": {
-      "model_id": "be2e39664d10",
+      "model_id": "Fusarium_oxysporum_f_sp_vasinfectum_25433_gca_000260175.FO_Cotton_V1",
       "validation_timestamp": "2025-06-16 23:19:51",
       "input_file": "Fusarium_oxysporum_f_sp_vasinfectum_25433_gca_000260175.FO_Cotton_V1.sbml",
       "processed_file": "Fusarium_oxysporum_f_sp_vasinfectum_25433_gca_000260175.FO_Cotton_V1_processed.xml",
@@ -9332,7 +9332,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f._sp._cepae_FoC_125_GCA_003615095.1": {
-      "model_id": "be2e254d2a21",
+      "model_id": "Fusarium_oxysporum_f._sp._cepae_FoC_125_GCA_003615095.1",
       "validation_timestamp": "2025-06-16 23:19:54",
       "input_file": "Fusarium_oxysporum_f._sp._cepae_FoC_125_GCA_003615095.1.sbml",
       "processed_file": "Fusarium_oxysporum_f._sp._cepae_FoC_125_GCA_003615095.1_processed.xml",
@@ -9360,7 +9360,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f._sp._cepae_FoC_A23_GCA_003615075.1": {
-      "model_id": "be2e107d4843",
+      "model_id": "Fusarium_oxysporum_f._sp._cepae_FoC_A23_GCA_003615075.1",
       "validation_timestamp": "2025-06-16 23:19:58",
       "input_file": "Fusarium_oxysporum_f._sp._cepae_FoC_A23_GCA_003615075.1.sbml",
       "processed_file": "Fusarium_oxysporum_f._sp._cepae_FoC_A23_GCA_003615075.1_processed.xml",
@@ -9388,7 +9388,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f._sp._cepae_FoC_Fus2_GCA_003615085.1": {
-      "model_id": "be2e7b19e45e",
+      "model_id": "Fusarium_oxysporum_f._sp._cepae_FoC_Fus2_GCA_003615085.1",
       "validation_timestamp": "2025-06-16 23:20:02",
       "input_file": "Fusarium_oxysporum_f._sp._cepae_FoC_Fus2_GCA_003615085.1.sbml",
       "processed_file": "Fusarium_oxysporum_f._sp._cepae_FoC_Fus2_GCA_003615085.1_processed.xml",
@@ -9416,7 +9416,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f._sp._cubense_TR4_GCA_007994515.1": {
-      "model_id": "be2e1a97cc35",
+      "model_id": "Fusarium_oxysporum_f._sp._cubense_TR4_GCA_007994515.1",
       "validation_timestamp": "2025-06-16 23:20:05",
       "input_file": "Fusarium_oxysporum_f._sp._cubense_TR4_GCA_007994515.1.sbml",
       "processed_file": "Fusarium_oxysporum_f._sp._cubense_TR4_GCA_007994515.1_processed.xml",
@@ -9444,7 +9444,7 @@
       "success": true
     },
     "Fusarium_oxysporum_f._sp._narcissi_N139_GCA_004141715.1": {
-      "model_id": "be2e75dab703",
+      "model_id": "Fusarium_oxysporum_f._sp._narcissi_N139_GCA_004141715.1",
       "validation_timestamp": "2025-06-16 23:20:09",
       "input_file": "Fusarium_oxysporum_f._sp._narcissi_N139_GCA_004141715.1.sbml",
       "processed_file": "Fusarium_oxysporum_f._sp._narcissi_N139_GCA_004141715.1_processed.xml",
@@ -9472,7 +9472,7 @@
       "success": true
     },
     "Fusarium_oxysporum_Fo_A13_GCA_003615115.1": {
-      "model_id": "be2e258d4ca5",
+      "model_id": "Fusarium_oxysporum_Fo_A13_GCA_003615115.1",
       "validation_timestamp": "2025-06-16 23:20:13",
       "input_file": "Fusarium_oxysporum_Fo_A13_GCA_003615115.1.sbml",
       "processed_file": "Fusarium_oxysporum_Fo_A13_GCA_003615115.1_processed.xml",
@@ -9500,7 +9500,7 @@
       "success": true
     },
     "Fusarium_oxysporum_Fo_A28_GCA_003615155.1": {
-      "model_id": "be2ea97b012",
+      "model_id": "Fusarium_oxysporum_Fo_A28_GCA_003615155.1",
       "validation_timestamp": "2025-06-16 23:20:16",
       "input_file": "Fusarium_oxysporum_Fo_A28_GCA_003615155.1.sbml",
       "processed_file": "Fusarium_oxysporum_Fo_A28_GCA_003615155.1_processed.xml",
@@ -9528,7 +9528,7 @@
       "success": true
     },
     "Fusarium_oxysporum_Fo_CB3_GCA_003615165.1": {
-      "model_id": "be2e9bf4e7b",
+      "model_id": "Fusarium_oxysporum_Fo_CB3_GCA_003615165.1",
       "validation_timestamp": "2025-06-16 23:20:20",
       "input_file": "Fusarium_oxysporum_Fo_CB3_GCA_003615165.1.sbml",
       "processed_file": "Fusarium_oxysporum_Fo_CB3_GCA_003615165.1_processed.xml",
@@ -9556,7 +9556,7 @@
       "success": true
     },
     "Fusarium_oxysporum_Fo_PG_GCA_003615185.1": {
-      "model_id": "be2ed2ea1cb",
+      "model_id": "Fusarium_oxysporum_Fo_PG_GCA_003615185.1",
       "validation_timestamp": "2025-06-16 23:20:23",
       "input_file": "Fusarium_oxysporum_Fo_PG_GCA_003615185.1.sbml",
       "processed_file": "Fusarium_oxysporum_Fo_PG_GCA_003615185.1_processed.xml",
@@ -9584,7 +9584,7 @@
       "success": true
     },
     "Fusarium_oxysporum_fosc_3_a_gca_000271745.FO_FOSC_3_a_V1": {
-      "model_id": "be2e534e6ce3",
+      "model_id": "Fusarium_oxysporum_fosc_3_a_gca_000271745.FO_FOSC_3_a_V1",
       "validation_timestamp": "2025-06-16 23:20:27",
       "input_file": "Fusarium_oxysporum_fosc_3_a_gca_000271745.FO_FOSC_3_a_V1.sbml",
       "processed_file": "Fusarium_oxysporum_fosc_3_a_gca_000271745.FO_FOSC_3_a_V1_processed.xml",
@@ -9612,7 +9612,7 @@
       "success": true
     },
     "Fusarium_oxysporum_gca_900096695.version_1": {
-      "model_id": "be2e3da2cb4",
+      "model_id": "Fusarium_oxysporum_gca_900096695.version_1",
       "validation_timestamp": "2025-06-16 23:20:31",
       "input_file": "Fusarium_oxysporum_gca_900096695.version_1.sbml",
       "processed_file": "Fusarium_oxysporum_gca_900096695.version_1_processed.xml",
@@ -9640,7 +9640,7 @@
       "success": true
     },
     "Fusarium_oxysporum.FO2": {
-      "model_id": "be2e518dfd3a",
+      "model_id": "Fusarium_oxysporum.FO2",
       "validation_timestamp": "2025-06-16 23:20:35",
       "input_file": "Fusarium_oxysporum.FO2.sbml",
       "processed_file": "Fusarium_oxysporum.FO2_processed.xml",
@@ -9668,7 +9668,7 @@
       "success": true
     },
     "Fusarium_poae_gca_001675295.FPOA1.0": {
-      "model_id": "be2e9942337",
+      "model_id": "Fusarium_poae_gca_001675295.FPOA1.0",
       "validation_timestamp": "2025-06-16 23:20:39",
       "input_file": "Fusarium_poae_gca_001675295.FPOA1.0.sbml",
       "processed_file": "Fusarium_poae_gca_001675295.FPOA1.0_processed.xml",
@@ -9696,7 +9696,7 @@
       "success": true
     },
     "Fusarium_proliferatum_ET1_GCF_900067095.1": {
-      "model_id": "be2e79c8a6c1",
+      "model_id": "Fusarium_proliferatum_ET1_GCF_900067095.1",
       "validation_timestamp": "2025-06-16 23:20:43",
       "input_file": "Fusarium_proliferatum_ET1_GCF_900067095.1.sbml",
       "processed_file": "Fusarium_proliferatum_ET1_GCF_900067095.1_processed.xml",
@@ -9724,7 +9724,7 @@
       "success": true
     },
     "Fusarium_proliferatum_Fp_A8_GCA_003615215.1": {
-      "model_id": "be2e7b1b43fc",
+      "model_id": "Fusarium_proliferatum_Fp_A8_GCA_003615215.1",
       "validation_timestamp": "2025-06-16 23:20:46",
       "input_file": "Fusarium_proliferatum_Fp_A8_GCA_003615215.1.sbml",
       "processed_file": "Fusarium_proliferatum_Fp_A8_GCA_003615215.1_processed.xml",
@@ -9752,7 +9752,7 @@
       "success": true
     },
     "Fusarium_proliferatum_gca_900029915.F._proliferatum_NRRL62905_version_1": {
-      "model_id": "be2e21f30ad2",
+      "model_id": "Fusarium_proliferatum_gca_900029915.F._proliferatum_NRRL62905_version_1",
       "validation_timestamp": "2025-06-16 23:20:50",
       "input_file": "Fusarium_proliferatum_gca_900029915.F._proliferatum_NRRL62905_version_1.sbml",
       "processed_file": "Fusarium_proliferatum_gca_900029915.F._proliferatum_NRRL62905_version_1_processed.xml",
@@ -9780,7 +9780,7 @@
       "success": true
     },
     "Fusarium_proliferatum_ITEM_2341_GCA_003290285.1": {
-      "model_id": "be2e280e4371",
+      "model_id": "Fusarium_proliferatum_ITEM_2341_GCA_003290285.1",
       "validation_timestamp": "2025-06-16 23:20:54",
       "input_file": "Fusarium_proliferatum_ITEM_2341_GCA_003290285.1.sbml",
       "processed_file": "Fusarium_proliferatum_ITEM_2341_GCA_003290285.1_processed.xml",
@@ -9808,7 +9808,7 @@
       "success": true
     },
     "Fusarium_pseudograminearum_CS3096_GCF_000303195.2": {
-      "model_id": "be2e3d7243d9",
+      "model_id": "Fusarium_pseudograminearum_CS3096_GCF_000303195.2",
       "validation_timestamp": "2025-06-16 23:20:58",
       "input_file": "Fusarium_pseudograminearum_CS3096_GCF_000303195.2.sbml",
       "processed_file": "Fusarium_pseudograminearum_CS3096_GCF_000303195.2_processed.xml",
@@ -9836,7 +9836,7 @@
       "success": true
     },
     "Fusarium_pseudograminearum.GCA_000303195.1": {
-      "model_id": "be2e69fe2e2a",
+      "model_id": "Fusarium_pseudograminearum.GCA_000303195.1",
       "validation_timestamp": "2025-06-16 23:21:02",
       "input_file": "Fusarium_pseudograminearum.GCA_000303195.1.sbml",
       "processed_file": "Fusarium_pseudograminearum.GCA_000303195.1_processed.xml",
@@ -9864,7 +9864,7 @@
       "success": true
     },
     "Fusarium_solani.v2.0": {
-      "model_id": "be2e2f9614c1",
+      "model_id": "Fusarium_solani.v2.0",
       "validation_timestamp": "2025-06-16 23:21:06",
       "input_file": "Fusarium_solani.v2.0.sbml",
       "processed_file": "Fusarium_solani.v2.0_processed.xml",
@@ -9892,7 +9892,7 @@
       "success": true
     },
     "Fusarium_sp._AF-4_NRRL62579_GCA_003946995.1": {
-      "model_id": "be2e6151bfe",
+      "model_id": "Fusarium_sp._AF-4_NRRL62579_GCA_003946995.1",
       "validation_timestamp": "2025-06-16 23:21:09",
       "input_file": "Fusarium_sp._AF-4_NRRL62579_GCA_003946995.1.sbml",
       "processed_file": "Fusarium_sp._AF-4_NRRL62579_GCA_003946995.1_processed.xml",
@@ -9920,7 +9920,7 @@
       "success": true
     },
     "Fusarium_sp._AF-6_NRRL62590_GCA_003947015.1": {
-      "model_id": "be2e1dddf1b1",
+      "model_id": "Fusarium_sp._AF-6_NRRL62590_GCA_003947015.1",
       "validation_timestamp": "2025-06-16 23:21:13",
       "input_file": "Fusarium_sp._AF-6_NRRL62590_GCA_003947015.1.sbml",
       "processed_file": "Fusarium_sp._AF-6_NRRL62590_GCA_003947015.1_processed.xml",
@@ -9948,7 +9948,7 @@
       "success": true
     },
     "Fusarium_sp._AF-8_NRRL62584_GCA_003946985.1": {
-      "model_id": "be2e2b9d1bf2",
+      "model_id": "Fusarium_sp._AF-8_NRRL62584_GCA_003946985.1",
       "validation_timestamp": "2025-06-16 23:21:17",
       "input_file": "Fusarium_sp._AF-8_NRRL62584_GCA_003946985.1.sbml",
       "processed_file": "Fusarium_sp._AF-8_NRRL62584_GCA_003946985.1_processed.xml",
@@ -9976,7 +9976,7 @@
       "success": true
     },
     "Fusarium_sporotrichioides_NRRL_3299_GCA_003012315.1": {
-      "model_id": "be2e61e5b29a",
+      "model_id": "Fusarium_sporotrichioides_NRRL_3299_GCA_003012315.1",
       "validation_timestamp": "2025-06-16 23:21:21",
       "input_file": "Fusarium_sporotrichioides_NRRL_3299_GCA_003012315.1.sbml",
       "processed_file": "Fusarium_sporotrichioides_NRRL_3299_GCA_003012315.1_processed.xml",
@@ -10004,7 +10004,7 @@
       "success": true
     },
     "Fusarium_vanettenii_77-13-4_GCF_000151355.1": {
-      "model_id": "be2e5c29d16",
+      "model_id": "Fusarium_vanettenii_77-13-4_GCF_000151355.1",
       "validation_timestamp": "2025-06-16 23:21:25",
       "input_file": "Fusarium_vanettenii_77-13-4_GCF_000151355.1.sbml",
       "processed_file": "Fusarium_vanettenii_77-13-4_GCF_000151355.1_processed.xml",
@@ -10032,7 +10032,7 @@
       "success": true
     },
     "Fusarium_vanettenii_77-13-4_GCF_000151355.1-O--120.1550486941573.sbml": {
-      "model_id": "be2e3296297a",
+      "model_id": "Fusarium_vanettenii_77-13-4_GCF_000151355.1-O--120.1550486941573.sbml",
       "validation_timestamp": "2025-06-16 23:21:29",
       "input_file": "Fusarium_vanettenii_77-13-4_GCF_000151355.1-O--120.1550486941573.sbml.sbml",
       "processed_file": "Fusarium_vanettenii_77-13-4_GCF_000151355.1-O--120.1550486941573.sbml_processed.xml",
@@ -10060,7 +10060,7 @@
       "success": true
     },
     "Fusarium_venenatum_A3-5_GCF_900007375.1": {
-      "model_id": "be2e51965684",
+      "model_id": "Fusarium_venenatum_A3-5_GCF_900007375.1",
       "validation_timestamp": "2025-06-16 23:21:31",
       "input_file": "Fusarium_venenatum_A3-5_GCF_900007375.1.sbml",
       "processed_file": "Fusarium_venenatum_A3-5_GCF_900007375.1_processed.xml",
@@ -10088,7 +10088,7 @@
       "success": true
     },
     "Fusarium_venenatum_gca_900007375.ASM90000737v1": {
-      "model_id": "be2e4091d9e3",
+      "model_id": "Fusarium_venenatum_gca_900007375.ASM90000737v1",
       "validation_timestamp": "2025-06-16 23:21:35",
       "input_file": "Fusarium_venenatum_gca_900007375.ASM90000737v1.sbml",
       "processed_file": "Fusarium_venenatum_gca_900007375.ASM90000737v1_processed.xml",
@@ -10116,7 +10116,7 @@
       "success": true
     },
     "Fusarium_verticillioides_7600_GCF_000149555.1": {
-      "model_id": "be2e4c15408c",
+      "model_id": "Fusarium_verticillioides_7600_GCF_000149555.1",
       "validation_timestamp": "2025-06-16 23:21:39",
       "input_file": "Fusarium_verticillioides_7600_GCF_000149555.1.sbml",
       "processed_file": "Fusarium_verticillioides_7600_GCF_000149555.1_processed.xml",
@@ -10144,7 +10144,7 @@
       "success": true
     },
     "Fusarium_verticillioides_BRIP14953_GCA_003316975.2": {
-      "model_id": "be2e22f2e435",
+      "model_id": "Fusarium_verticillioides_BRIP14953_GCA_003316975.2",
       "validation_timestamp": "2025-06-16 23:21:43",
       "input_file": "Fusarium_verticillioides_BRIP14953_GCA_003316975.2.sbml",
       "processed_file": "Fusarium_verticillioides_BRIP14953_GCA_003316975.2_processed.xml",
@@ -10172,7 +10172,7 @@
       "success": true
     },
     "Fusarium_verticillioides.ASM14955v1": {
-      "model_id": "be2e6d825e88",
+      "model_id": "Fusarium_verticillioides.ASM14955v1",
       "validation_timestamp": "2025-06-16 23:21:46",
       "input_file": "Fusarium_verticillioides.ASM14955v1.sbml",
       "processed_file": "Fusarium_verticillioides.ASM14955v1_processed.xml",
@@ -10200,7 +10200,7 @@
       "success": true
     },
     "Gigaspora_rosea_DAOM_194757_GCA_003550325.1": {
-      "model_id": "be2e50fc6c72",
+      "model_id": "Gigaspora_rosea_DAOM_194757_GCA_003550325.1",
       "validation_timestamp": "2025-06-16 23:21:50",
       "input_file": "Gigaspora_rosea_DAOM_194757_GCA_003550325.1.sbml",
       "processed_file": "Gigaspora_rosea_DAOM_194757_GCA_003550325.1_processed.xml",
@@ -10228,7 +10228,7 @@
       "success": true
     },
     "Glomus_cerebriforme_DAOM_227022_GCA_003550305.1": {
-      "model_id": "be2e41840c37",
+      "model_id": "Glomus_cerebriforme_DAOM_227022_GCA_003550305.1",
       "validation_timestamp": "2025-06-16 23:21:53",
       "input_file": "Glomus_cerebriforme_DAOM_227022_GCA_003550305.1.sbml",
       "processed_file": "Glomus_cerebriforme_DAOM_227022_GCA_003550305.1_processed.xml",
@@ -10256,7 +10256,7 @@
       "success": true
     },
     "Gymnopilus_dilepis_SRW20_GCA_002938385.1": {
-      "model_id": "be2e4df55b0a",
+      "model_id": "Gymnopilus_dilepis_SRW20_GCA_002938385.1",
       "validation_timestamp": "2025-06-16 23:21:57",
       "input_file": "Gymnopilus_dilepis_SRW20_GCA_002938385.1.sbml",
       "processed_file": "Gymnopilus_dilepis_SRW20_GCA_002938385.1_processed.xml",
@@ -10284,7 +10284,7 @@
       "success": true
     },
     "Gymnopus_androsaceus_JB14_GCA_009733575.1": {
-      "model_id": "be2e7d32c5cf",
+      "model_id": "Gymnopus_androsaceus_JB14_GCA_009733575.1",
       "validation_timestamp": "2025-06-16 23:22:00",
       "input_file": "Gymnopus_androsaceus_JB14_GCA_009733575.1.sbml",
       "processed_file": "Gymnopus_androsaceus_JB14_GCA_009733575.1_processed.xml",
@@ -10312,7 +10312,7 @@
       "success": true
     },
     "Laetiporus_sulphureus_93_53_gca_001632365.Laesu1": {
-      "model_id": "be2e22837c7a",
+      "model_id": "Laetiporus_sulphureus_93_53_gca_001632365.Laesu1",
       "validation_timestamp": "2025-06-16 23:22:04",
       "input_file": "Laetiporus_sulphureus_93_53_gca_001632365.Laesu1.sbml",
       "processed_file": "Laetiporus_sulphureus_93_53_gca_001632365.Laesu1_processed.xml",
@@ -10340,7 +10340,7 @@
       "success": true
     },
     "Leucosporidium_creatinivorum_gca_002105055.Leucr1": {
-      "model_id": "be2e6e609f5c",
+      "model_id": "Leucosporidium_creatinivorum_gca_002105055.Leucr1",
       "validation_timestamp": "2025-06-16 23:22:07",
       "input_file": "Leucosporidium_creatinivorum_gca_002105055.Leucr1.sbml",
       "processed_file": "Leucosporidium_creatinivorum_gca_002105055.Leucr1_processed.xml",
@@ -10368,7 +10368,7 @@
       "success": true
     },
     "Metarhizium_acridum_CQMa_102_GCF_000187405.1": {
-      "model_id": "be2e3923bfb2",
+      "model_id": "Metarhizium_acridum_CQMa_102_GCF_000187405.1",
       "validation_timestamp": "2025-06-16 23:22:11",
       "input_file": "Metarhizium_acridum_CQMa_102_GCF_000187405.1.sbml",
       "processed_file": "Metarhizium_acridum_CQMa_102_GCF_000187405.1_processed.xml",
@@ -10396,7 +10396,7 @@
       "success": true
     },
     "Metarhizium_album_arsef_1941_gca_000804445.MAM_1.0_for_version_1_of_the_Metarhizium_album_genome": {
-      "model_id": "be2e6783e3ec",
+      "model_id": "Metarhizium_album_arsef_1941_gca_000804445.MAM_1.0_for_version_1_of_the_Metarhizium_album_genome",
       "validation_timestamp": "2025-06-16 23:22:15",
       "input_file": "Metarhizium_album_arsef_1941_gca_000804445.MAM_1.0_for_version_1_of_the_Metarhizium_album_genome.sbml",
       "processed_file": "Metarhizium_album_arsef_1941_gca_000804445.MAM_1.0_for_version_1_of_the_Metarhizium_album_genome_processed.xml",
@@ -10424,7 +10424,7 @@
       "success": true
     },
     "Metarhizium_anisopliae_arsef_23_gca_000187425.MAA_2.0": {
-      "model_id": "be2e17da3856",
+      "model_id": "Metarhizium_anisopliae_arsef_23_gca_000187425.MAA_2.0",
       "validation_timestamp": "2025-06-16 23:22:18",
       "input_file": "Metarhizium_anisopliae_arsef_23_gca_000187425.MAA_2.0.sbml",
       "processed_file": "Metarhizium_anisopliae_arsef_23_gca_000187425.MAA_2.0_processed.xml",
@@ -10452,7 +10452,7 @@
       "success": true
     },
     "Metarhizium_anisopliae_arsef_549_gca_000814975.MAN_1.0": {
-      "model_id": "be2e6d536d58",
+      "model_id": "Metarhizium_anisopliae_arsef_549_gca_000814975.MAN_1.0",
       "validation_timestamp": "2025-06-16 23:22:22",
       "input_file": "Metarhizium_anisopliae_arsef_549_gca_000814975.MAN_1.0.sbml",
       "processed_file": "Metarhizium_anisopliae_arsef_549_gca_000814975.MAN_1.0_processed.xml",
@@ -10480,7 +10480,7 @@
       "success": true
     },
     "Metarhizium_anisopliae_brip_53284_gca_000426985.ASM42698v1": {
-      "model_id": "be2e35b24282",
+      "model_id": "Metarhizium_anisopliae_brip_53284_gca_000426985.ASM42698v1",
       "validation_timestamp": "2025-06-16 23:22:26",
       "input_file": "Metarhizium_anisopliae_brip_53284_gca_000426985.ASM42698v1.sbml",
       "processed_file": "Metarhizium_anisopliae_brip_53284_gca_000426985.ASM42698v1_processed.xml",
@@ -10508,7 +10508,7 @@
       "success": true
     },
     "Metarhizium_anisopliae_brip_53293_gca_000426965.ASM42696v1": {
-      "model_id": "be2e3c4a7771",
+      "model_id": "Metarhizium_anisopliae_brip_53293_gca_000426965.ASM42696v1",
       "validation_timestamp": "2025-06-16 23:22:29",
       "input_file": "Metarhizium_anisopliae_brip_53293_gca_000426965.ASM42696v1.sbml",
       "processed_file": "Metarhizium_anisopliae_brip_53293_gca_000426965.ASM42696v1_processed.xml",
@@ -10536,7 +10536,7 @@
       "success": true
     },
     "Metarhizium_anisopliae_gca_000739145.Metarhizium_anisopliae": {
-      "model_id": "be2e12b4883f",
+      "model_id": "Metarhizium_anisopliae_gca_000739145.Metarhizium_anisopliae",
       "validation_timestamp": "2025-06-16 23:22:33",
       "input_file": "Metarhizium_anisopliae_gca_000739145.Metarhizium_anisopliae.sbml",
       "processed_file": "Metarhizium_anisopliae_gca_000739145.Metarhizium_anisopliae_processed.xml",
@@ -10564,7 +10564,7 @@
       "success": true
     },
     "Metarhizium_brunneum_ARSEF_3297_GCF_000814965.1": {
-      "model_id": "be2e39bd0ef3",
+      "model_id": "Metarhizium_brunneum_ARSEF_3297_GCF_000814965.1",
       "validation_timestamp": "2025-06-16 23:22:37",
       "input_file": "Metarhizium_brunneum_ARSEF_3297_GCF_000814965.1.sbml",
       "processed_file": "Metarhizium_brunneum_ARSEF_3297_GCF_000814965.1_processed.xml",
@@ -10592,7 +10592,7 @@
       "success": true
     },
     "Metarhizium_guizhouense_arsef_977_gca_000814955.MGU_1.0": {
-      "model_id": "be2e72a29574",
+      "model_id": "Metarhizium_guizhouense_arsef_977_gca_000814955.MGU_1.0",
       "validation_timestamp": "2025-06-16 23:22:40",
       "input_file": "Metarhizium_guizhouense_arsef_977_gca_000814955.MGU_1.0.sbml",
       "processed_file": "Metarhizium_guizhouense_arsef_977_gca_000814955.MGU_1.0_processed.xml",
@@ -10620,7 +10620,7 @@
       "success": true
     },
     "Metarhizium_majus_arsef_297_gca_000814945.MAJ_1.0": {
-      "model_id": "be2e14c50eaa",
+      "model_id": "Metarhizium_majus_arsef_297_gca_000814945.MAJ_1.0",
       "validation_timestamp": "2025-06-16 23:22:44",
       "input_file": "Metarhizium_majus_arsef_297_gca_000814945.MAJ_1.0.sbml",
       "processed_file": "Metarhizium_majus_arsef_297_gca_000814945.MAJ_1.0_processed.xml",
@@ -10648,7 +10648,7 @@
       "success": true
     },
     "Metarhizium_rileyi_Cep018-CH2_GCA_007866325.1": {
-      "model_id": "be2e4c1b3ee0",
+      "model_id": "Metarhizium_rileyi_Cep018-CH2_GCA_007866325.1",
       "validation_timestamp": "2025-06-16 23:22:47",
       "input_file": "Metarhizium_rileyi_Cep018-CH2_GCA_007866325.1.sbml",
       "processed_file": "Metarhizium_rileyi_Cep018-CH2_GCA_007866325.1_processed.xml",
@@ -10676,7 +10676,7 @@
       "success": true
     },
     "Metarhizium_rileyi_rcef_4871_gca_001636745.NOR_1.0": {
-      "model_id": "be2e7cf870c1",
+      "model_id": "Metarhizium_rileyi_rcef_4871_gca_001636745.NOR_1.0",
       "validation_timestamp": "2025-06-16 23:22:51",
       "input_file": "Metarhizium_rileyi_rcef_4871_gca_001636745.NOR_1.0.sbml",
       "processed_file": "Metarhizium_rileyi_rcef_4871_gca_001636745.NOR_1.0_processed.xml",
@@ -10704,7 +10704,7 @@
       "success": true
     },
     "Metarhizium_robertsii_ARSEF_23_GCF_000187425.2": {
-      "model_id": "be2e32bde81d",
+      "model_id": "Metarhizium_robertsii_ARSEF_23_GCF_000187425.2",
       "validation_timestamp": "2025-06-16 23:22:54",
       "input_file": "Metarhizium_robertsii_ARSEF_23_GCF_000187425.2.sbml",
       "processed_file": "Metarhizium_robertsii_ARSEF_23_GCF_000187425.2_processed.xml",
@@ -10732,7 +10732,7 @@
       "success": true
     },
     "Metarhizium_robertsii_ARSEF_23_GCF_000187425.2-O--146.28500620205529.sbml": {
-      "model_id": "be2edff7ab2",
+      "model_id": "Metarhizium_robertsii_ARSEF_23_GCF_000187425.2-O--146.28500620205529.sbml",
       "validation_timestamp": "2025-06-16 23:22:58",
       "input_file": "Metarhizium_robertsii_ARSEF_23_GCF_000187425.2-O--146.28500620205529.sbml.sbml",
       "processed_file": "Metarhizium_robertsii_ARSEF_23_GCF_000187425.2-O--146.28500620205529.sbml_processed.xml",
@@ -10760,7 +10760,7 @@
       "success": true
     },
     "Metarhizium_robertsii_gca_000591435.MR2010_11_27": {
-      "model_id": "be2e3d04b10",
+      "model_id": "Metarhizium_robertsii_gca_000591435.MR2010_11_27",
       "validation_timestamp": "2025-06-16 23:23:01",
       "input_file": "Metarhizium_robertsii_gca_000591435.MR2010_11_27.sbml",
       "processed_file": "Metarhizium_robertsii_gca_000591435.MR2010_11_27_processed.xml",
@@ -10788,7 +10788,7 @@
       "success": true
     },
     "Mortierella_elongata_ag_77_gca_001651415.Mortierella_elongata_AG-77_v2.0": {
-      "model_id": "be2e595011cd",
+      "model_id": "Mortierella_elongata_ag_77_gca_001651415.Mortierella_elongata_AG-77_v2.0",
       "validation_timestamp": "2025-06-16 23:23:04",
       "input_file": "Mortierella_elongata_ag_77_gca_001651415.Mortierella_elongata_AG-77_v2.0.sbml",
       "processed_file": "Mortierella_elongata_ag_77_gca_001651415.Mortierella_elongata_AG-77_v2.0_processed.xml",
@@ -10816,7 +10816,7 @@
       "success": true
     },
     "Mucor_ambiguus_gca_000950595.ASM95059v1": {
-      "model_id": "be2e5ddc0933",
+      "model_id": "Mucor_ambiguus_gca_000950595.ASM95059v1",
       "validation_timestamp": "2025-06-16 23:23:08",
       "input_file": "Mucor_ambiguus_gca_000950595.ASM95059v1.sbml",
       "processed_file": "Mucor_ambiguus_gca_000950595.ASM95059v1_processed.xml",
@@ -10844,7 +10844,7 @@
       "success": true
     },
     "Mucor_circinelloides_f_circinelloides_1006phl_gca_000401635.Muco_sp_1006Ph_V1": {
-      "model_id": "be2e6012c675",
+      "model_id": "Mucor_circinelloides_f_circinelloides_1006phl_gca_000401635.Muco_sp_1006Ph_V1",
       "validation_timestamp": "2025-06-16 23:23:11",
       "input_file": "Mucor_circinelloides_f_circinelloides_1006phl_gca_000401635.Muco_sp_1006Ph_V1.sbml",
       "processed_file": "Mucor_circinelloides_f_circinelloides_1006phl_gca_000401635.Muco_sp_1006Ph_V1_processed.xml",
@@ -10872,7 +10872,7 @@
       "success": true
     },
     "Mucor_circinelloides_f_lusitanicus_cbs_277_49_gca_001638945.Mucci2": {
-      "model_id": "be2e137bc699",
+      "model_id": "Mucor_circinelloides_f_lusitanicus_cbs_277_49_gca_001638945.Mucci2",
       "validation_timestamp": "2025-06-16 23:23:15",
       "input_file": "Mucor_circinelloides_f_lusitanicus_cbs_277_49_gca_001638945.Mucci2.sbml",
       "processed_file": "Mucor_circinelloides_f_lusitanicus_cbs_277_49_gca_001638945.Mucci2_processed.xml",
@@ -10900,7 +10900,7 @@
       "success": true
     },
     "Oidiodendron_maius_zn_gca_000827325.Oidiodendron_maius_Zn_v1.0": {
-      "model_id": "be2e1371ede9",
+      "model_id": "Oidiodendron_maius_zn_gca_000827325.Oidiodendron_maius_Zn_v1.0",
       "validation_timestamp": "2025-06-16 23:23:18",
       "input_file": "Oidiodendron_maius_zn_gca_000827325.Oidiodendron_maius_Zn_v1.0.sbml",
       "processed_file": "Oidiodendron_maius_zn_gca_000827325.Oidiodendron_maius_Zn_v1.0_processed.xml",
@@ -10928,7 +10928,7 @@
       "success": true
     },
     "Penicillium_antarcticum_gca_002072345.ASM207234v1": {
-      "model_id": "be2e7ab9014",
+      "model_id": "Penicillium_antarcticum_gca_002072345.ASM207234v1",
       "validation_timestamp": "2025-06-16 23:23:22",
       "input_file": "Penicillium_antarcticum_gca_002072345.ASM207234v1.sbml",
       "processed_file": "Penicillium_antarcticum_gca_002072345.ASM207234v1_processed.xml",
@@ -10956,7 +10956,7 @@
       "success": true
     },
     "Penicillium_arizonense_CBS_141311_GCF_001773325.1": {
-      "model_id": "be2e49523ea6",
+      "model_id": "Penicillium_arizonense_CBS_141311_GCF_001773325.1",
       "validation_timestamp": "2025-06-16 23:23:25",
       "input_file": "Penicillium_arizonense_CBS_141311_GCF_001773325.1.sbml",
       "processed_file": "Penicillium_arizonense_CBS_141311_GCF_001773325.1_processed.xml",
@@ -10984,7 +10984,7 @@
       "success": true
     },
     "Penicillium_brasilianum_gca_001048715.Pbras_Allpaths-LG": {
-      "model_id": "be2e28df884b",
+      "model_id": "Penicillium_brasilianum_gca_001048715.Pbras_Allpaths-LG",
       "validation_timestamp": "2025-06-16 23:23:29",
       "input_file": "Penicillium_brasilianum_gca_001048715.Pbras_Allpaths-LG.sbml",
       "processed_file": "Penicillium_brasilianum_gca_001048715.Pbras_Allpaths-LG_processed.xml",
@@ -11012,7 +11012,7 @@
       "success": true
     },
     "Penicillium_brasilianum_gca_002016555.ASM201655v1": {
-      "model_id": "be2e18c3892",
+      "model_id": "Penicillium_brasilianum_gca_002016555.ASM201655v1",
       "validation_timestamp": "2025-06-16 23:23:32",
       "input_file": "Penicillium_brasilianum_gca_002016555.ASM201655v1.sbml",
       "processed_file": "Penicillium_brasilianum_gca_002016555.ASM201655v1_processed.xml",
@@ -11040,7 +11040,7 @@
       "success": true
     },
     "Penicillium_camemberti_fm_013_gca_000513335.PCAMFM013_20131106": {
-      "model_id": "be2e37676ebf",
+      "model_id": "Penicillium_camemberti_fm_013_gca_000513335.PCAMFM013_20131106",
       "validation_timestamp": "2025-06-16 23:23:36",
       "input_file": "Penicillium_camemberti_fm_013_gca_000513335.PCAMFM013_20131106.sbml",
       "processed_file": "Penicillium_camemberti_fm_013_gca_000513335.PCAMFM013_20131106_processed.xml",
@@ -11068,7 +11068,7 @@
       "success": true
     },
     "Penicillium_chrysogenum_gca_000710275.ASM71027v1": {
-      "model_id": "be2e697b47a7",
+      "model_id": "Penicillium_chrysogenum_gca_000710275.ASM71027v1",
       "validation_timestamp": "2025-06-16 23:23:40",
       "input_file": "Penicillium_chrysogenum_gca_000710275.ASM71027v1.sbml",
       "processed_file": "Penicillium_chrysogenum_gca_000710275.ASM71027v1_processed.xml",
@@ -11096,7 +11096,7 @@
       "success": true
     },
     "Penicillium_coprophilum_gca_002072405.ASM207240v1": {
-      "model_id": "be2e65b8c2fd",
+      "model_id": "Penicillium_coprophilum_gca_002072405.ASM207240v1",
       "validation_timestamp": "2025-06-16 23:23:44",
       "input_file": "Penicillium_coprophilum_gca_002072405.ASM207240v1.sbml",
       "processed_file": "Penicillium_coprophilum_gca_002072405.ASM207240v1_processed.xml",
@@ -11124,7 +11124,7 @@
       "success": true
     },
     "Penicillium_decumbens_gca_002072245.ASM207224v1": {
-      "model_id": "be2e6c56ce36",
+      "model_id": "Penicillium_decumbens_gca_002072245.ASM207224v1",
       "validation_timestamp": "2025-06-16 23:23:48",
       "input_file": "Penicillium_decumbens_gca_002072245.ASM207224v1.sbml",
       "processed_file": "Penicillium_decumbens_gca_002072245.ASM207224v1_processed.xml",
@@ -11152,7 +11152,7 @@
       "success": true
     },
     "Penicillium_digitatum_pd1_gca_000315645.PdigPd1_v1": {
-      "model_id": "be2e2297a4d6",
+      "model_id": "Penicillium_digitatum_pd1_gca_000315645.PdigPd1_v1",
       "validation_timestamp": "2025-06-16 23:23:51",
       "input_file": "Penicillium_digitatum_pd1_gca_000315645.PdigPd1_v1.sbml",
       "processed_file": "Penicillium_digitatum_pd1_gca_000315645.PdigPd1_v1_processed.xml",
@@ -11180,7 +11180,7 @@
       "success": true
     },
     "Penicillium_digitatum_Pd1_GCF_000315645.1": {
-      "model_id": "be2e6467e08a",
+      "model_id": "Penicillium_digitatum_Pd1_GCF_000315645.1",
       "validation_timestamp": "2025-06-16 23:23:55",
       "input_file": "Penicillium_digitatum_Pd1_GCF_000315645.1.sbml",
       "processed_file": "Penicillium_digitatum_Pd1_GCF_000315645.1_processed.xml",
@@ -11208,7 +11208,7 @@
       "success": true
     },
     "Penicillium_digitatum_phi26_gca_000315665.PdigPHI26_v1": {
-      "model_id": "be2e756e097a",
+      "model_id": "Penicillium_digitatum_phi26_gca_000315665.PdigPHI26_v1",
       "validation_timestamp": "2025-06-16 23:23:58",
       "input_file": "Penicillium_digitatum_phi26_gca_000315665.PdigPHI26_v1.sbml",
       "processed_file": "Penicillium_digitatum_phi26_gca_000315665.PdigPHI26_v1_processed.xml",
@@ -11236,7 +11236,7 @@
       "success": true
     },
     "Penicillium_expansum_gca_000769735.ASM76973v1": {
-      "model_id": "be2e5795096a",
+      "model_id": "Penicillium_expansum_gca_000769735.ASM76973v1",
       "validation_timestamp": "2025-06-16 23:24:02",
       "input_file": "Penicillium_expansum_gca_000769735.ASM76973v1.sbml",
       "processed_file": "Penicillium_expansum_gca_000769735.ASM76973v1_processed.xml",
@@ -11264,7 +11264,7 @@
       "success": true
     },
     "Penicillium_expansum_gca_000769745.ASM76974v1": {
-      "model_id": "be2e1c9ba742",
+      "model_id": "Penicillium_expansum_gca_000769745.ASM76974v1",
       "validation_timestamp": "2025-06-16 23:24:06",
       "input_file": "Penicillium_expansum_gca_000769745.ASM76974v1.sbml",
       "processed_file": "Penicillium_expansum_gca_000769745.ASM76974v1_processed.xml",
@@ -11292,7 +11292,7 @@
       "success": true
     },
     "Penicillium_expansum_gca_000769755.PEX1": {
-      "model_id": "be2e3a1ce98e",
+      "model_id": "Penicillium_expansum_gca_000769755.PEX1",
       "validation_timestamp": "2025-06-16 23:24:09",
       "input_file": "Penicillium_expansum_gca_000769755.PEX1.sbml",
       "processed_file": "Penicillium_expansum_gca_000769755.PEX1_processed.xml",
@@ -11320,7 +11320,7 @@
       "success": true
     },
     "Penicillium_expansum_MD-8_GCF_000769745.1": {
-      "model_id": "be2efd87458",
+      "model_id": "Penicillium_expansum_MD-8_GCF_000769745.1",
       "validation_timestamp": "2025-06-16 23:24:13",
       "input_file": "Penicillium_expansum_MD-8_GCF_000769745.1.sbml",
       "processed_file": "Penicillium_expansum_MD-8_GCF_000769745.1_processed.xml",
@@ -11348,7 +11348,7 @@
       "success": true
     },
     "Penicillium_flavigenum_gca_002072365.ASM207236v1": {
-      "model_id": "be2e1386d2b6",
+      "model_id": "Penicillium_flavigenum_gca_002072365.ASM207236v1",
       "validation_timestamp": "2025-06-16 23:24:16",
       "input_file": "Penicillium_flavigenum_gca_002072365.ASM207236v1.sbml",
       "processed_file": "Penicillium_flavigenum_gca_002072365.ASM207236v1_processed.xml",
@@ -11376,7 +11376,7 @@
       "success": true
     },
     "Penicillium_freii_gca_001513925.ASM151392v1": {
-      "model_id": "be2e11b6076e",
+      "model_id": "Penicillium_freii_gca_001513925.ASM151392v1",
       "validation_timestamp": "2025-06-16 23:24:20",
       "input_file": "Penicillium_freii_gca_001513925.ASM151392v1.sbml",
       "processed_file": "Penicillium_freii_gca_001513925.ASM151392v1_processed.xml",
@@ -11404,7 +11404,7 @@
       "success": true
     },
     "Penicillium_griseofulvum_gca_001561935.ASM156193v1": {
-      "model_id": "be2e6d4e23f9",
+      "model_id": "Penicillium_griseofulvum_gca_001561935.ASM156193v1",
       "validation_timestamp": "2025-06-16 23:24:24",
       "input_file": "Penicillium_griseofulvum_gca_001561935.ASM156193v1.sbml",
       "processed_file": "Penicillium_griseofulvum_gca_001561935.ASM156193v1_processed.xml",
@@ -11432,7 +11432,7 @@
       "success": true
     },
     "Penicillium_italicum_gca_000769765.ASM76976v1": {
-      "model_id": "be2e10fe3e5e",
+      "model_id": "Penicillium_italicum_gca_000769765.ASM76976v1",
       "validation_timestamp": "2025-06-16 23:24:27",
       "input_file": "Penicillium_italicum_gca_000769765.ASM76976v1.sbml",
       "processed_file": "Penicillium_italicum_gca_000769765.ASM76976v1_processed.xml",
@@ -11460,7 +11460,7 @@
       "success": true
     },
     "Penicillium_nalgiovense_gca_002072425.ASM207242v1": {
-      "model_id": "be2e1b7316e4",
+      "model_id": "Penicillium_nalgiovense_gca_002072425.ASM207242v1",
       "validation_timestamp": "2025-06-16 23:24:31",
       "input_file": "Penicillium_nalgiovense_gca_002072425.ASM207242v1.sbml",
       "processed_file": "Penicillium_nalgiovense_gca_002072425.ASM207242v1_processed.xml",
@@ -11488,7 +11488,7 @@
       "success": true
     },
     "Penicillium_nordicum_gca_001278595.ASM127859v1": {
-      "model_id": "be2e9a94c0b",
+      "model_id": "Penicillium_nordicum_gca_001278595.ASM127859v1",
       "validation_timestamp": "2025-06-16 23:24:35",
       "input_file": "Penicillium_nordicum_gca_001278595.ASM127859v1.sbml",
       "processed_file": "Penicillium_nordicum_gca_001278595.ASM127859v1_processed.xml",
@@ -11516,7 +11516,7 @@
       "success": true
     },
     "Penicillium_occitanis_gca_002382835.ASM238283v1": {
-      "model_id": "be2e72c2af71",
+      "model_id": "Penicillium_occitanis_gca_002382835.ASM238283v1",
       "validation_timestamp": "2025-06-16 23:24:39",
       "input_file": "Penicillium_occitanis_gca_002382835.ASM238283v1.sbml",
       "processed_file": "Penicillium_occitanis_gca_002382835.ASM238283v1_processed.xml",
@@ -11544,7 +11544,7 @@
       "success": true
     },
     "Penicillium_occitanis_gca_002382855.ASM238285v1": {
-      "model_id": "be2e356453ad",
+      "model_id": "Penicillium_occitanis_gca_002382855.ASM238285v1",
       "validation_timestamp": "2025-06-16 23:24:44",
       "input_file": "Penicillium_occitanis_gca_002382855.ASM238285v1.sbml",
       "processed_file": "Penicillium_occitanis_gca_002382855.ASM238285v1_processed.xml",
@@ -11572,7 +11572,7 @@
       "success": true
     },
     "Penicillium_oxalicum_114_2_gca_000346795.pde_v1.0": {
-      "model_id": "be2e34605f0",
+      "model_id": "Penicillium_oxalicum_114_2_gca_000346795.pde_v1.0",
       "validation_timestamp": "2025-06-16 23:24:47",
       "input_file": "Penicillium_oxalicum_114_2_gca_000346795.pde_v1.0.sbml",
       "processed_file": "Penicillium_oxalicum_114_2_gca_000346795.pde_v1.0_processed.xml",
@@ -11600,7 +11600,7 @@
       "success": true
     },
     "Penicillium_polonicum_gca_002072265.ASM207226v1": {
-      "model_id": "be2e13617f6c",
+      "model_id": "Penicillium_polonicum_gca_002072265.ASM207226v1",
       "validation_timestamp": "2025-06-16 23:24:51",
       "input_file": "Penicillium_polonicum_gca_002072265.ASM207226v1.sbml",
       "processed_file": "Penicillium_polonicum_gca_002072265.ASM207226v1_processed.xml",
@@ -11628,7 +11628,7 @@
       "success": true
     },
     "Penicillium_roqueforti_fm164_gca_000513255.PROQFM164_20130607": {
-      "model_id": "be2e141a81ad",
+      "model_id": "Penicillium_roqueforti_fm164_gca_000513255.PROQFM164_20130607",
       "validation_timestamp": "2025-06-16 23:24:55",
       "input_file": "Penicillium_roqueforti_fm164_gca_000513255.PROQFM164_20130607.sbml",
       "processed_file": "Penicillium_roqueforti_fm164_gca_000513255.PROQFM164_20130607_processed.xml",
@@ -11656,7 +11656,7 @@
       "success": true
     },
     "Penicillium_rubens_Wisconsin_54-1255_GCF_000226395.1": {
-      "model_id": "be2e7b73e1f1",
+      "model_id": "Penicillium_rubens_Wisconsin_54-1255_GCF_000226395.1",
       "validation_timestamp": "2025-06-16 23:24:59",
       "input_file": "Penicillium_rubens_Wisconsin_54-1255_GCF_000226395.1.sbml",
       "processed_file": "Penicillium_rubens_Wisconsin_54-1255_GCF_000226395.1_processed.xml",
@@ -11684,7 +11684,7 @@
       "success": true
     },
     "Penicillium_solitum_gca_002072235.ASM207223v1": {
-      "model_id": "be2e41978120",
+      "model_id": "Penicillium_solitum_gca_002072235.ASM207223v1",
       "validation_timestamp": "2025-06-16 23:25:04",
       "input_file": "Penicillium_solitum_gca_002072235.ASM207223v1.sbml",
       "processed_file": "Penicillium_solitum_gca_002072235.ASM207223v1_processed.xml",
@@ -11712,7 +11712,7 @@
       "success": true
     },
     "Penicillium_steckii_gca_002072375.ASM207237v1": {
-      "model_id": "be2e639db425",
+      "model_id": "Penicillium_steckii_gca_002072375.ASM207237v1",
       "validation_timestamp": "2025-06-16 23:25:08",
       "input_file": "Penicillium_steckii_gca_002072375.ASM207237v1.sbml",
       "processed_file": "Penicillium_steckii_gca_002072375.ASM207237v1_processed.xml",
@@ -11740,7 +11740,7 @@
       "success": true
     },
     "Penicillium_subrubescens_gca_001908125.ASM190812v1": {
-      "model_id": "be2e576ec875",
+      "model_id": "Penicillium_subrubescens_gca_001908125.ASM190812v1",
       "validation_timestamp": "2025-06-16 23:25:11",
       "input_file": "Penicillium_subrubescens_gca_001908125.ASM190812v1.sbml",
       "processed_file": "Penicillium_subrubescens_gca_001908125.ASM190812v1_processed.xml",
@@ -11768,7 +11768,7 @@
       "success": true
     },
     "Penicillium_vulpinum_gca_002072255.ASM207225v1": {
-      "model_id": "be2e794a13f8",
+      "model_id": "Penicillium_vulpinum_gca_002072255.ASM207225v1",
       "validation_timestamp": "2025-06-16 23:25:15",
       "input_file": "Penicillium_vulpinum_gca_002072255.ASM207225v1.sbml",
       "processed_file": "Penicillium_vulpinum_gca_002072255.ASM207225v1_processed.xml",
@@ -11796,7 +11796,7 @@
       "success": true
     },
     "Phialophora_americana_gca_000835435.Capr_semi_CBS27337_V1": {
-      "model_id": "be2e372327e4",
+      "model_id": "Phialophora_americana_gca_000835435.Capr_semi_CBS27337_V1",
       "validation_timestamp": "2025-06-16 23:25:19",
       "input_file": "Phialophora_americana_gca_000835435.Capr_semi_CBS27337_V1.sbml",
       "processed_file": "Phialophora_americana_gca_000835435.Capr_semi_CBS27337_V1_processed.xml",
@@ -11824,7 +11824,7 @@
       "success": true
     },
     "Phialophora_attae_gca_001299255.ASM129925v1": {
-      "model_id": "be2e93f7ce7",
+      "model_id": "Phialophora_attae_gca_001299255.ASM129925v1",
       "validation_timestamp": "2025-06-16 23:25:22",
       "input_file": "Phialophora_attae_gca_001299255.ASM129925v1.sbml",
       "processed_file": "Phialophora_attae_gca_001299255.ASM129925v1_processed.xml",
@@ -11852,7 +11852,7 @@
       "success": true
     },
     "Phialophora_attinorum_CBS_131958_GCF_001299255.1": {
-      "model_id": "be2e6ed9f6bd",
+      "model_id": "Phialophora_attinorum_CBS_131958_GCF_001299255.1",
       "validation_timestamp": "2025-06-16 23:25:26",
       "input_file": "Phialophora_attinorum_CBS_131958_GCF_001299255.1.sbml",
       "processed_file": "Phialophora_attinorum_CBS_131958_GCF_001299255.1_processed.xml",
@@ -11880,7 +11880,7 @@
       "success": true
     },
     "Piloderma_croceum_f_1598_gca_000827315.Piloderma_croceum_F_1598_v1.0": {
-      "model_id": "be2e7d66ac92",
+      "model_id": "Piloderma_croceum_f_1598_gca_000827315.Piloderma_croceum_F_1598_v1.0",
       "validation_timestamp": "2025-06-16 23:25:30",
       "input_file": "Piloderma_croceum_f_1598_gca_000827315.Piloderma_croceum_F_1598_v1.0.sbml",
       "processed_file": "Piloderma_croceum_f_1598_gca_000827315.Piloderma_croceum_F_1598_v1.0_processed.xml",
@@ -11908,7 +11908,7 @@
       "success": true
     },
     "Pleurotus_ostreatus_pc15_gca_000697685.PleosPC15_2": {
-      "model_id": "be2e43195351",
+      "model_id": "Pleurotus_ostreatus_pc15_gca_000697685.PleosPC15_2",
       "validation_timestamp": "2025-06-16 23:25:33",
       "input_file": "Pleurotus_ostreatus_pc15_gca_000697685.PleosPC15_2.sbml",
       "processed_file": "Pleurotus_ostreatus_pc15_gca_000697685.PleosPC15_2_processed.xml",
@@ -11936,7 +11936,7 @@
       "success": true
     },
     "Rhizophagus_clarus_gca_003203555.RclarusHR1_1.0": {
-      "model_id": "be2e60c52f7",
+      "model_id": "Rhizophagus_clarus_gca_003203555.RclarusHR1_1.0",
       "validation_timestamp": "2025-06-16 23:25:36",
       "input_file": "Rhizophagus_clarus_gca_003203555.RclarusHR1_1.0.sbml",
       "processed_file": "Rhizophagus_clarus_gca_003203555.RclarusHR1_1.0_processed.xml",
@@ -11964,7 +11964,7 @@
       "success": true
     },
     "Rhizophagus_irregularis_daom_181602_daom_197198_gca_002897155.Rir_HGAP_ii_V2": {
-      "model_id": "be2e5b533361",
+      "model_id": "Rhizophagus_irregularis_daom_181602_daom_197198_gca_002897155.Rir_HGAP_ii_V2",
       "validation_timestamp": "2025-06-16 23:25:39",
       "input_file": "Rhizophagus_irregularis_daom_181602_daom_197198_gca_002897155.Rir_HGAP_ii_V2.sbml",
       "processed_file": "Rhizophagus_irregularis_daom_181602_daom_197198_gca_002897155.Rir_HGAP_ii_V2_processed.xml",
@@ -11992,7 +11992,7 @@
       "success": true
     },
     "Rhizophagus_irregularis_DAOM_181602=DAOM_197198_GCF_000439145.1": {
-      "model_id": "be2e2f642c08",
+      "model_id": "Rhizophagus_irregularis_DAOM_181602=DAOM_197198_GCF_000439145.1",
       "validation_timestamp": "2025-06-16 23:25:43",
       "input_file": "Rhizophagus_irregularis_DAOM_181602=DAOM_197198_GCF_000439145.1.sbml",
       "processed_file": "Rhizophagus_irregularis_DAOM_181602=DAOM_197198_GCF_000439145.1_processed.xml",
@@ -12020,7 +12020,7 @@
       "success": true
     },
     "Rhizophagus_irregularis_daom_197198w_gca_000597685.Rir": {
-      "model_id": "be2e1705d504",
+      "model_id": "Rhizophagus_irregularis_daom_197198w_gca_000597685.Rir",
       "validation_timestamp": "2025-06-16 23:25:46",
       "input_file": "Rhizophagus_irregularis_daom_197198w_gca_000597685.Rir.sbml",
       "processed_file": "Rhizophagus_irregularis_daom_197198w_gca_000597685.Rir_processed.xml",
@@ -12048,7 +12048,7 @@
       "success": true
     },
     "Rhizophagus_irregularis_gca_001593125.ASM159312v1": {
-      "model_id": "be2e4651a994",
+      "model_id": "Rhizophagus_irregularis_gca_001593125.ASM159312v1",
       "validation_timestamp": "2025-06-16 23:25:49",
       "input_file": "Rhizophagus_irregularis_gca_001593125.ASM159312v1.sbml",
       "processed_file": "Rhizophagus_irregularis_gca_001593125.ASM159312v1_processed.xml",
@@ -12076,7 +12076,7 @@
       "success": true
     },
     "Rhizophagus_irregularis_gca_001593145.ASM159314v1": {
-      "model_id": "be2e67165558",
+      "model_id": "Rhizophagus_irregularis_gca_001593145.ASM159314v1",
       "validation_timestamp": "2025-06-16 23:25:53",
       "input_file": "Rhizophagus_irregularis_gca_001593145.ASM159314v1.sbml",
       "processed_file": "Rhizophagus_irregularis_gca_001593145.ASM159314v1_processed.xml",
@@ -12104,7 +12104,7 @@
       "success": true
     },
     "Rhizophagus_irregularis_gca_001593155.ASM159315v1": {
-      "model_id": "be2e331224bd",
+      "model_id": "Rhizophagus_irregularis_gca_001593155.ASM159315v1",
       "validation_timestamp": "2025-06-16 23:25:56",
       "input_file": "Rhizophagus_irregularis_gca_001593155.ASM159315v1.sbml",
       "processed_file": "Rhizophagus_irregularis_gca_001593155.ASM159315v1_processed.xml",
@@ -12132,7 +12132,7 @@
       "success": true
     },
     "Rhizophagus_irregularis_gca_001593205.ASM159320v1": {
-      "model_id": "be2e44c204aa",
+      "model_id": "Rhizophagus_irregularis_gca_001593205.ASM159320v1",
       "validation_timestamp": "2025-06-16 23:26:00",
       "input_file": "Rhizophagus_irregularis_gca_001593205.ASM159320v1.sbml",
       "processed_file": "Rhizophagus_irregularis_gca_001593205.ASM159320v1_processed.xml",
@@ -12160,7 +12160,7 @@
       "success": true
     },
     "Rhizophagus_sp._MUCL_43196_GCA_003549995.1": {
-      "model_id": "be2e6d1259d5",
+      "model_id": "Rhizophagus_sp._MUCL_43196_GCA_003549995.1",
       "validation_timestamp": "2025-06-16 23:26:04",
       "input_file": "Rhizophagus_sp._MUCL_43196_GCA_003549995.1.sbml",
       "processed_file": "Rhizophagus_sp._MUCL_43196_GCA_003549995.1_processed.xml",
@@ -12188,7 +12188,7 @@
       "success": true
     },
     "Rhizopus_azygosporus_CBS_357.93_GCA_003325435.1": {
-      "model_id": "be2e32968873",
+      "model_id": "Rhizopus_azygosporus_CBS_357.93_GCA_003325435.1",
       "validation_timestamp": "2025-06-16 23:26:07",
       "input_file": "Rhizopus_azygosporus_CBS_357.93_GCA_003325435.1.sbml",
       "processed_file": "Rhizopus_azygosporus_CBS_357.93_GCA_003325435.1_processed.xml",
@@ -12216,7 +12216,7 @@
       "success": true
     },
     "Rhizopus_delemar_ra_99_880_gca_000149305.RO3": {
-      "model_id": "be2e55b56b58",
+      "model_id": "Rhizopus_delemar_ra_99_880_gca_000149305.RO3",
       "validation_timestamp": "2025-06-16 23:26:11",
       "input_file": "Rhizopus_delemar_ra_99_880_gca_000149305.RO3.sbml",
       "processed_file": "Rhizopus_delemar_ra_99_880_gca_000149305.RO3_processed.xml",
@@ -12244,7 +12244,7 @@
       "success": true
     },
     "Rhizopus_microsporus_ATCC_52813_GCF_002708625.1": {
-      "model_id": "be2e7922b37",
+      "model_id": "Rhizopus_microsporus_ATCC_52813_GCF_002708625.1",
       "validation_timestamp": "2025-06-16 23:26:15",
       "input_file": "Rhizopus_microsporus_ATCC_52813_GCF_002708625.1.sbml",
       "processed_file": "Rhizopus_microsporus_ATCC_52813_GCF_002708625.1_processed.xml",
@@ -12272,7 +12272,7 @@
       "success": true
     },
     "Rhizopus_microsporus_gca_000825725.Rmicro_CBS_344.29_Allpaths-LG": {
-      "model_id": "be2e29f9133b",
+      "model_id": "Rhizopus_microsporus_gca_000825725.Rmicro_CBS_344.29_Allpaths-LG",
       "validation_timestamp": "2025-06-16 23:26:19",
       "input_file": "Rhizopus_microsporus_gca_000825725.Rmicro_CBS_344.29_Allpaths-LG.sbml",
       "processed_file": "Rhizopus_microsporus_gca_000825725.Rmicro_CBS_344.29_Allpaths-LG_processed.xml",
@@ -12300,7 +12300,7 @@
       "success": true
     },
     "Rhizopus_microsporus_gca_002083735.Rhimi_ATCC11559_1": {
-      "model_id": "be2e6bf0fa36",
+      "model_id": "Rhizopus_microsporus_gca_002083735.Rhimi_ATCC11559_1",
       "validation_timestamp": "2025-06-16 23:26:22",
       "input_file": "Rhizopus_microsporus_gca_002083735.Rhimi_ATCC11559_1.sbml",
       "processed_file": "Rhizopus_microsporus_gca_002083735.Rhimi_ATCC11559_1_processed.xml",
@@ -12328,7 +12328,7 @@
       "success": true
     },
     "Rhizopus_microsporus_gca_900000135.RMATCC62417_Allpaths-LG": {
-      "model_id": "be2e5589ffb7",
+      "model_id": "Rhizopus_microsporus_gca_900000135.RMATCC62417_Allpaths-LG",
       "validation_timestamp": "2025-06-16 23:26:26",
       "input_file": "Rhizopus_microsporus_gca_900000135.RMATCC62417_Allpaths-LG.sbml",
       "processed_file": "Rhizopus_microsporus_gca_900000135.RMATCC62417_Allpaths-LG_processed.xml",
@@ -12356,7 +12356,7 @@
       "success": true
     },
     "Rhizopus_microsporus_var_microsporus_gca_002083745.Rhimi_ATCC52814_1": {
-      "model_id": "be2e663bf4b6",
+      "model_id": "Rhizopus_microsporus_var_microsporus_gca_002083745.Rhimi_ATCC52814_1",
       "validation_timestamp": "2025-06-16 23:26:29",
       "input_file": "Rhizopus_microsporus_var_microsporus_gca_002083745.Rhimi_ATCC52814_1.sbml",
       "processed_file": "Rhizopus_microsporus_var_microsporus_gca_002083745.Rhimi_ATCC52814_1_processed.xml",
@@ -12384,7 +12384,7 @@
       "success": true
     },
     "Rhizopus_stolonifer_LSU_92-RS-03_GCA_003325415.1": {
-      "model_id": "be2e6c966194",
+      "model_id": "Rhizopus_stolonifer_LSU_92-RS-03_GCA_003325415.1",
       "validation_timestamp": "2025-06-16 23:26:32",
       "input_file": "Rhizopus_stolonifer_LSU_92-RS-03_GCA_003325415.1.sbml",
       "processed_file": "Rhizopus_stolonifer_LSU_92-RS-03_GCA_003325415.1_processed.xml",
@@ -12411,8 +12411,36 @@
       "growth_rate_difference": 4.4853e-14,
       "success": true
     },
+    "Rhodotorula_diobovata_UCD-FST_08-225_GCA_006352295.1": {
+      "model_id": "be2e75d2f99e",
+      "validation_timestamp": "2025-06-16 23:42:52",
+      "input_file": "Rhodotorula_diobovata_UCD-FST_08-225_GCA_006352295.1.sbml",
+      "processed_file": "Rhodotorula_diobovata_UCD-FST_08-225_GCA_006352295.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0994,
+      "growth_rate_processed": 1.0994,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 2015,
+        "reactions": 2616
+      },
+      "processed_model_size": {
+        "metabolites": 2015,
+        "reactions": 2616
+      },
+      "growth_rate_difference": 4.6629e-15,
+      "success": true
+    },
     "Rhodotorula_diobovata_UCD-FST_08-225_GCA_006352295.1-O--247.306813908528.sbml": {
-      "model_id": "be2e27e0c145",
+      "model_id": "Rhodotorula_diobovata_UCD-FST_08-225_GCA_006352295.1-O--247.306813908528.sbml",
       "validation_timestamp": "2025-06-16 23:26:36",
       "input_file": "Rhodotorula_diobovata_UCD-FST_08-225_GCA_006352295.1-O--247.306813908528.sbml.sbml",
       "processed_file": "Rhodotorula_diobovata_UCD-FST_08-225_GCA_006352295.1-O--247.306813908528.sbml_processed.xml",
@@ -12435,6 +12463,1070 @@
       "processed_model_size": {
         "metabolites": 1037,
         "reactions": 1141
+      },
+      "growth_rate_difference": 0,
+      "success": true
+    },
+    "Rhodotorula_graminis_WP1_GCF_001329695.1": {
+      "model_id": "be2e28850ce1",
+      "validation_timestamp": "2025-06-16 23:42:56",
+      "input_file": "Rhodotorula_graminis_WP1_GCF_001329695.1.sbml",
+      "processed_file": "Rhodotorula_graminis_WP1_GCF_001329695.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0555,
+      "growth_rate_processed": 1.0555,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1695,
+        "reactions": 2154
+      },
+      "processed_model_size": {
+        "metabolites": 1695,
+        "reactions": 2154
+      },
+      "growth_rate_difference": 2.3315e-14,
+      "success": true
+    },
+    "Rhodotorula_sp_jg_1b_gca_001541205.Rhosp1": {
+      "model_id": "be2e70e40551",
+      "validation_timestamp": "2025-06-16 23:42:59",
+      "input_file": "Rhodotorula_sp_jg_1b_gca_001541205.Rhosp1.sbml",
+      "processed_file": "Rhodotorula_sp_jg_1b_gca_001541205.Rhosp1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0759,
+      "growth_rate_processed": 1.0759,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1726,
+        "reactions": 2164
+      },
+      "processed_model_size": {
+        "metabolites": 1726,
+        "reactions": 2164
+      },
+      "growth_rate_difference": 6.6613e-16,
+      "success": true
+    },
+    "Rhodotorula_sp._CCFEE_5036_GCA_005059875.1": {
+      "model_id": "be2e670ef017",
+      "validation_timestamp": "2025-06-16 23:43:03",
+      "input_file": "Rhodotorula_sp._CCFEE_5036_GCA_005059875.1.sbml",
+      "processed_file": "Rhodotorula_sp._CCFEE_5036_GCA_005059875.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0534,
+      "growth_rate_processed": 1.0534,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1659,
+        "reactions": 2073
+      },
+      "processed_model_size": {
+        "metabolites": 1659,
+        "reactions": 2073
+      },
+      "growth_rate_difference": 6.3283e-14,
+      "success": true
+    },
+    "Rhodotorula_taiwanensis_gca_002922495.ASM292249v1": {
+      "model_id": "be2e73490e16",
+      "validation_timestamp": "2025-06-16 23:43:06",
+      "input_file": "Rhodotorula_taiwanensis_gca_002922495.ASM292249v1.sbml",
+      "processed_file": "Rhodotorula_taiwanensis_gca_002922495.ASM292249v1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0701,
+      "growth_rate_processed": 1.0701,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1704,
+        "reactions": 2165
+      },
+      "processed_model_size": {
+        "metabolites": 1704,
+        "reactions": 2165
+      },
+      "growth_rate_difference": 8.4377e-15,
+      "success": true
+    },
+    "Rhodotorula_toruloides_gca_001255795.IFO0880_HGAP3_v1": {
+      "model_id": "be2e7739f156",
+      "validation_timestamp": "2025-06-16 23:43:09",
+      "input_file": "Rhodotorula_toruloides_gca_001255795.IFO0880_HGAP3_v1.sbml",
+      "processed_file": "Rhodotorula_toruloides_gca_001255795.IFO0880_HGAP3_v1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0068,
+      "growth_rate_processed": 1.0068,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1586,
+        "reactions": 1984
+      },
+      "processed_model_size": {
+        "metabolites": 1586,
+        "reactions": 1984
+      },
+      "growth_rate_difference": 4.885e-15,
+      "success": true
+    },
+    "Rhodotorula_toruloides_GCA_003234015.1": {
+      "model_id": "be2e1cd3e4be",
+      "validation_timestamp": "2025-06-16 23:43:13",
+      "input_file": "Rhodotorula_toruloides_GCA_003234015.1.sbml",
+      "processed_file": "Rhodotorula_toruloides_GCA_003234015.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0459,
+      "growth_rate_processed": 1.0459,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1628,
+        "reactions": 2039
+      },
+      "processed_model_size": {
+        "metabolites": 1628,
+        "reactions": 2039
+      },
+      "growth_rate_difference": 1.6209e-14,
+      "success": true
+    },
+    "Rhodotorula_toruloides_NBRC_0880_GCA_000988875.2": {
+      "model_id": "be2e26e6d67b",
+      "validation_timestamp": "2025-06-16 23:43:16",
+      "input_file": "Rhodotorula_toruloides_NBRC_0880_GCA_000988875.2.sbml",
+      "processed_file": "Rhodotorula_toruloides_NBRC_0880_GCA_000988875.2_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0391,
+      "growth_rate_processed": 1.0391,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1620,
+        "reactions": 2054
+      },
+      "processed_model_size": {
+        "metabolites": 1620,
+        "reactions": 2054
+      },
+      "growth_rate_difference": 1.5543e-14,
+      "success": true
+    },
+    "Rhodotorula_toruloides_NBRC10032_GCA_007990605.1": {
+      "model_id": "be2e211865ae",
+      "validation_timestamp": "2025-06-16 23:43:20",
+      "input_file": "Rhodotorula_toruloides_NBRC10032_GCA_007990605.1.sbml",
+      "processed_file": "Rhodotorula_toruloides_NBRC10032_GCA_007990605.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0345,
+      "growth_rate_processed": 1.0345,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1615,
+        "reactions": 2031
+      },
+      "processed_model_size": {
+        "metabolites": 1615,
+        "reactions": 2031
+      },
+      "growth_rate_difference": 5.7732e-15,
+      "success": true
+    },
+    "Rhodotorula_toruloides_np11_gca_000320785.RHOziaDV1.0": {
+      "model_id": "be2e7a62e252",
+      "validation_timestamp": "2025-06-16 23:43:53",
+      "input_file": "Rhodotorula_toruloides_np11_gca_000320785.RHOziaDV1.0.sbml",
+      "processed_file": "Rhodotorula_toruloides_np11_gca_000320785.RHOziaDV1.0_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.046,
+      "growth_rate_processed": 1.046,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1669,
+        "reactions": 2118
+      },
+      "processed_model_size": {
+        "metabolites": 1669,
+        "reactions": 2118
+      },
+      "growth_rate_difference": 7.3275e-15,
+      "success": true
+    },
+    "Rhodotorula_toruloides_NP11_GCF_000320785.1": {
+      "model_id": "be2e12f8b7e4",
+      "validation_timestamp": "2025-06-16 23:43:57",
+      "input_file": "Rhodotorula_toruloides_NP11_GCF_000320785.1.sbml",
+      "processed_file": "Rhodotorula_toruloides_NP11_GCF_000320785.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.046,
+      "growth_rate_processed": 1.046,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1645,
+        "reactions": 2084
+      },
+      "processed_model_size": {
+        "metabolites": 1645,
+        "reactions": 2084
+      },
+      "growth_rate_difference": 1.4877e-14,
+      "success": true
+    },
+    "Scleroderma_citrinum_foug_a_gca_000827425.Scleroderma_citrinum_Foug_A_v1.0": {
+      "model_id": "be2e32b2d364",
+      "validation_timestamp": "2025-06-16 23:44:00",
+      "input_file": "Scleroderma_citrinum_foug_a_gca_000827425.Scleroderma_citrinum_Foug_A_v1.0.sbml",
+      "processed_file": "Scleroderma_citrinum_foug_a_gca_000827425.Scleroderma_citrinum_Foug_A_v1.0_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0803,
+      "growth_rate_processed": 1.0803,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1598,
+        "reactions": 2053
+      },
+      "processed_model_size": {
+        "metabolites": 1598,
+        "reactions": 2053
+      },
+      "growth_rate_difference": 3.1086e-15,
+      "success": true
+    },
+    "Suillus_luteus_uh_slu_lm8_n1_gca_000827255.Suilu1": {
+      "model_id": "be2e62673e6f",
+      "validation_timestamp": "2025-06-16 23:45:36",
+      "input_file": "Suillus_luteus_uh_slu_lm8_n1_gca_000827255.Suilu1.sbml",
+      "processed_file": "Suillus_luteus_uh_slu_lm8_n1_gca_000827255.Suilu1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0831,
+      "growth_rate_processed": 1.0831,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1514,
+        "reactions": 1917
+      },
+      "processed_model_size": {
+        "metabolites": 1514,
+        "reactions": 1917
+      },
+      "growth_rate_difference": 1.6068e-10,
+      "success": true
+    },
+    "Tremella_mesenterica_ATCC_28783_GCA_004117975.1": {
+      "model_id": "be2e532a2367",
+      "validation_timestamp": "2025-06-16 23:45:39",
+      "input_file": "Tremella_mesenterica_ATCC_28783_GCA_004117975.1.sbml",
+      "processed_file": "Tremella_mesenterica_ATCC_28783_GCA_004117975.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0805,
+      "growth_rate_processed": 1.0805,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1497,
+        "reactions": 1900
+      },
+      "processed_model_size": {
+        "metabolites": 1497,
+        "reactions": 1900
+      },
+      "growth_rate_difference": 3.3751e-14,
+      "success": true
+    },
+    "Tremella_mesenterica_DSM_1558_Fries_GCF_000271645.1": {
+      "model_id": "be2e7bf92768",
+      "validation_timestamp": "2025-06-16 23:45:42",
+      "input_file": "Tremella_mesenterica_DSM_1558_Fries_GCF_000271645.1.sbml",
+      "processed_file": "Tremella_mesenterica_DSM_1558_Fries_GCF_000271645.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.063,
+      "growth_rate_processed": 1.063,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1490,
+        "reactions": 1870
+      },
+      "processed_model_size": {
+        "metabolites": 1490,
+        "reactions": 1870
+      },
+      "growth_rate_difference": 1.9156e-11,
+      "success": true
+    },
+    "Trichoderma_arundinaceum_IBT_40837_GCA_003012105.1": {
+      "model_id": "be2e5b10a56",
+      "validation_timestamp": "2025-06-16 23:45:45",
+      "input_file": "Trichoderma_arundinaceum_IBT_40837_GCA_003012105.1.sbml",
+      "processed_file": "Trichoderma_arundinaceum_IBT_40837_GCA_003012105.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0544,
+      "growth_rate_processed": 1.0544,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1482,
+        "reactions": 1933
+      },
+      "processed_model_size": {
+        "metabolites": 1482,
+        "reactions": 1933
+      },
+      "growth_rate_difference": 4.019e-14,
+      "success": true
+    },
+    "Trichoderma_asperellum_CBS_433.97_GCF_003025105.1": {
+      "model_id": "be2e6dca7d72",
+      "validation_timestamp": "2025-06-16 23:45:48",
+      "input_file": "Trichoderma_asperellum_CBS_433.97_GCF_003025105.1.sbml",
+      "processed_file": "Trichoderma_asperellum_CBS_433.97_GCF_003025105.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0835,
+      "growth_rate_processed": 1.0835,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1646,
+        "reactions": 2141
+      },
+      "processed_model_size": {
+        "metabolites": 1646,
+        "reactions": 2141
+      },
+      "growth_rate_difference": 4.2188e-15,
+      "success": true
+    },
+    "Trichoderma_atroviride_IMI_206040_GCF_000171015.1": {
+      "model_id": "be2e5c605779",
+      "validation_timestamp": "2025-06-16 23:45:51",
+      "input_file": "Trichoderma_atroviride_IMI_206040_GCF_000171015.1.sbml",
+      "processed_file": "Trichoderma_atroviride_IMI_206040_GCF_000171015.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0825,
+      "growth_rate_processed": 1.0825,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1514,
+        "reactions": 1985
+      },
+      "processed_model_size": {
+        "metabolites": 1514,
+        "reactions": 1985
+      },
+      "growth_rate_difference": 1.1537e-11,
+      "success": true
+    },
+    "Trichoderma_citrinoviride_gca_003025115.Trici_v4.0": {
+      "model_id": "be2e35bb41a7",
+      "validation_timestamp": "2025-06-16 23:45:54",
+      "input_file": "Trichoderma_citrinoviride_gca_003025115.Trici_v4.0.sbml",
+      "processed_file": "Trichoderma_citrinoviride_gca_003025115.Trici_v4.0_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0825,
+      "growth_rate_processed": 1.0825,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1494,
+        "reactions": 1924
+      },
+      "processed_model_size": {
+        "metabolites": 1494,
+        "reactions": 1924
+      },
+      "growth_rate_difference": 9.992e-15,
+      "success": true
+    },
+    "Trichoderma_citrinoviride_TUCIM_6016_GCF_003025115.1": {
+      "model_id": "be2e12d16613",
+      "validation_timestamp": "2025-06-16 23:45:57",
+      "input_file": "Trichoderma_citrinoviride_TUCIM_6016_GCF_003025115.1.sbml",
+      "processed_file": "Trichoderma_citrinoviride_TUCIM_6016_GCF_003025115.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0822,
+      "growth_rate_processed": 1.0822,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1484,
+        "reactions": 1914
+      },
+      "processed_model_size": {
+        "metabolites": 1484,
+        "reactions": 1914
+      },
+      "growth_rate_difference": 7.7716e-15,
+      "success": true
+    },
+    "Trichoderma_gamsii_A5MH_GCA_002894205.1": {
+      "model_id": "be2e49e15772",
+      "validation_timestamp": "2025-06-16 23:46:00",
+      "input_file": "Trichoderma_gamsii_A5MH_GCA_002894205.1.sbml",
+      "processed_file": "Trichoderma_gamsii_A5MH_GCA_002894205.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0831,
+      "growth_rate_processed": 1.0831,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1480,
+        "reactions": 1931
+      },
+      "processed_model_size": {
+        "metabolites": 1480,
+        "reactions": 1931
+      },
+      "growth_rate_difference": 4.0856e-14,
+      "success": true
+    },
+    "Trichoderma_gamsii_gca_001481775.TGAM01v2": {
+      "model_id": "be2e114bd27",
+      "validation_timestamp": "2025-06-16 23:46:03",
+      "input_file": "Trichoderma_gamsii_gca_001481775.TGAM01v2.sbml",
+      "processed_file": "Trichoderma_gamsii_gca_001481775.TGAM01v2_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0306,
+      "growth_rate_processed": 1.0306,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1370,
+        "reactions": 1762
+      },
+      "processed_model_size": {
+        "metabolites": 1370,
+        "reactions": 1762
+      },
+      "growth_rate_difference": 6.6036e-10,
+      "success": true
+    },
+    "Trichoderma_gamsii_T6085_GCF_001481775.2": {
+      "model_id": "be2e315ca508",
+      "validation_timestamp": "2025-06-16 23:46:06",
+      "input_file": "Trichoderma_gamsii_T6085_GCF_001481775.2.sbml",
+      "processed_file": "Trichoderma_gamsii_T6085_GCF_001481775.2_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0306,
+      "growth_rate_processed": 1.0306,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1496,
+        "reactions": 1935
+      },
+      "processed_model_size": {
+        "metabolites": 1496,
+        "reactions": 1935
+      },
+      "growth_rate_difference": 1.5987e-14,
+      "success": true
+    },
+    "Trichoderma_guizhouense_gca_002022785.ASM202278v1": {
+      "model_id": "be2e346d94aa",
+      "validation_timestamp": "2025-06-16 23:46:09",
+      "input_file": "Trichoderma_guizhouense_gca_002022785.ASM202278v1.sbml",
+      "processed_file": "Trichoderma_guizhouense_gca_002022785.ASM202278v1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0792,
+      "growth_rate_processed": 1.0792,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1644,
+        "reactions": 2139
+      },
+      "processed_model_size": {
+        "metabolites": 1644,
+        "reactions": 2139
+      },
+      "growth_rate_difference": 7.7716e-15,
+      "success": true
+    },
+    "Trichoderma_harzianum_CBS_226.95_GCF_003025095.1": {
+      "model_id": "be2e3de8a710",
+      "validation_timestamp": "2025-06-16 23:46:13",
+      "input_file": "Trichoderma_harzianum_CBS_226.95_GCF_003025095.1.sbml",
+      "processed_file": "Trichoderma_harzianum_CBS_226.95_GCF_003025095.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0822,
+      "growth_rate_processed": 1.0822,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1731,
+        "reactions": 2200
+      },
+      "processed_model_size": {
+        "metabolites": 1731,
+        "reactions": 2200
+      },
+      "growth_rate_difference": 3.3973e-14,
+      "success": true
+    },
+    "Trichoderma_harzianum_gca_000988865.ASM98886v1": {
+      "model_id": "be2e65abb014",
+      "validation_timestamp": "2025-06-16 23:46:16",
+      "input_file": "Trichoderma_harzianum_gca_000988865.ASM98886v1.sbml",
+      "processed_file": "Trichoderma_harzianum_gca_000988865.ASM98886v1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0885,
+      "growth_rate_processed": 1.0885,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1645,
+        "reactions": 2126
+      },
+      "processed_model_size": {
+        "metabolites": 1645,
+        "reactions": 2126
+      },
+      "growth_rate_difference": 7.9936e-15,
+      "success": true
+    },
+    "Trichoderma_harzianum_gca_002838845.ASM283884v1": {
+      "model_id": "be2e33f459c4",
+      "validation_timestamp": "2025-06-16 23:46:20",
+      "input_file": "Trichoderma_harzianum_gca_002838845.ASM283884v1.sbml",
+      "processed_file": "Trichoderma_harzianum_gca_002838845.ASM283884v1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0822,
+      "growth_rate_processed": 1.0822,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1748,
+        "reactions": 2280
+      },
+      "processed_model_size": {
+        "metabolites": 1748,
+        "reactions": 2280
+      },
+      "growth_rate_difference": 5.3291e-15,
+      "success": true
+    },
+    "Trichoderma_harzianum_gca_002894145.Tr1": {
+      "model_id": "be2e8cd97f8",
+      "validation_timestamp": "2025-06-16 23:57:49",
+      "input_file": "Trichoderma_harzianum_gca_002894145.Tr1.sbml",
+      "processed_file": "Trichoderma_harzianum_gca_002894145.Tr1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0814,
+      "growth_rate_processed": 1.0814,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1564,
+        "reactions": 2017
+      },
+      "processed_model_size": {
+        "metabolites": 1564,
+        "reactions": 2017
+      },
+      "growth_rate_difference": 7.7716e-15,
+      "success": true
+    },
+    "Trichoderma_longibrachiatum_atcc_18648_gca_003025155.Trilo3": {
+      "model_id": "be2e414f4504",
+      "validation_timestamp": "2025-06-16 23:57:52",
+      "input_file": "Trichoderma_longibrachiatum_atcc_18648_gca_003025155.Trilo3.sbml",
+      "processed_file": "Trichoderma_longibrachiatum_atcc_18648_gca_003025155.Trilo3_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0753,
+      "growth_rate_processed": 1.0753,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1485,
+        "reactions": 1940
+      },
+      "processed_model_size": {
+        "metabolites": 1485,
+        "reactions": 1940
+      },
+      "growth_rate_difference": 3.7748e-15,
+      "success": true
+    },
+    "Trichoderma_parareesei_gca_001050175.Tpara_v1.0": {
+      "model_id": "be2e25c55bad",
+      "validation_timestamp": "2025-06-16 23:57:55",
+      "input_file": "Trichoderma_parareesei_gca_001050175.Tpara_v1.0.sbml",
+      "processed_file": "Trichoderma_parareesei_gca_001050175.Tpara_v1.0_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0711,
+      "growth_rate_processed": 1.0711,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1425,
+        "reactions": 1855
+      },
+      "processed_model_size": {
+        "metabolites": 1425,
+        "reactions": 1855
+      },
+      "growth_rate_difference": 1.1102e-14,
+      "success": true
+    },
+    "Trichoderma_reesei_QM6a_GCF_000167675.1": {
+      "model_id": "be2e23182991",
+      "validation_timestamp": "2025-06-16 23:57:58",
+      "input_file": "Trichoderma_reesei_QM6a_GCF_000167675.1.sbml",
+      "processed_file": "Trichoderma_reesei_QM6a_GCF_000167675.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0825,
+      "growth_rate_processed": 1.0825,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1539,
+        "reactions": 1988
+      },
+      "processed_model_size": {
+        "metabolites": 1539,
+        "reactions": 1988
+      },
+      "growth_rate_difference": 4.2188e-15,
+      "success": true
+    },
+    "Trichoderma_reesei_rut_c_30_gca_000513815.TrireRUTC30_1": {
+      "model_id": "be2e2c942305",
+      "validation_timestamp": "2025-06-16 23:58:01",
+      "input_file": "Trichoderma_reesei_rut_c_30_gca_000513815.TrireRUTC30_1.sbml",
+      "processed_file": "Trichoderma_reesei_rut_c_30_gca_000513815.TrireRUTC30_1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0803,
+      "growth_rate_processed": 1.0803,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1446,
+        "reactions": 1891
+      },
+      "processed_model_size": {
+        "metabolites": 1446,
+        "reactions": 1891
+      },
+      "growth_rate_difference": 8.6597e-15,
+      "success": true
+    },
+    "Trichoderma_reesei.GCA_000167675.2": {
+      "model_id": "be2e5b5b1d7d",
+      "validation_timestamp": "2025-06-16 23:58:04",
+      "input_file": "Trichoderma_reesei.GCA_000167675.2.sbml",
+      "processed_file": "Trichoderma_reesei.GCA_000167675.2_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0825,
+      "growth_rate_processed": 1.0825,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1474,
+        "reactions": 1909
+      },
+      "processed_model_size": {
+        "metabolites": 1474,
+        "reactions": 1909
+      },
+      "growth_rate_difference": 1.2043e-11,
+      "success": true
+    },
+    "Trichoderma_virens_Gv29-8_GCF_000170995.1": {
+      "model_id": "be2e616e68b4",
+      "validation_timestamp": "2025-06-16 23:58:07",
+      "input_file": "Trichoderma_virens_Gv29-8_GCF_000170995.1.sbml",
+      "processed_file": "Trichoderma_virens_Gv29-8_GCF_000170995.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0519,
+      "growth_rate_processed": 1.0519,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1536,
+        "reactions": 2003
+      },
+      "processed_model_size": {
+        "metabolites": 1536,
+        "reactions": 2003
+      },
+      "growth_rate_difference": 3.9968e-15,
+      "success": true
+    },
+    "Trichoderma_virens.ASM17099v1": {
+      "model_id": "be2e673a4e86",
+      "validation_timestamp": "2025-06-16 23:58:10",
+      "input_file": "Trichoderma_virens.ASM17099v1.sbml",
+      "processed_file": "Trichoderma_virens.ASM17099v1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0519,
+      "growth_rate_processed": 1.0519,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1482,
+        "reactions": 1946
+      },
+      "processed_model_size": {
+        "metabolites": 1482,
+        "reactions": 1946
+      },
+      "growth_rate_difference": 0,
+      "success": true
+    },
+    "Xylaria_flabelliformis_G536_GCA_007182795.1": {
+      "model_id": "be2e5cf8733c",
+      "validation_timestamp": "2025-06-16 23:58:13",
+      "input_file": "Xylaria_flabelliformis_G536_GCA_007182795.1.sbml",
+      "processed_file": "Xylaria_flabelliformis_G536_GCA_007182795.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0768,
+      "growth_rate_processed": 1.0768,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1780,
+        "reactions": 2284
+      },
+      "processed_model_size": {
+        "metabolites": 1780,
+        "reactions": 2284
+      },
+      "growth_rate_difference": 4.4409e-16,
+      "success": true
+    },
+    "Xylaria_grammica_IHI_A82_GCA_004014815.1": {
+      "model_id": "be2e6229bd09",
+      "validation_timestamp": "2025-06-16 23:58:17",
+      "input_file": "Xylaria_grammica_IHI_A82_GCA_004014815.1.sbml",
+      "processed_file": "Xylaria_grammica_IHI_A82_GCA_004014815.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.08,
+      "growth_rate_processed": 1.08,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1747,
+        "reactions": 2252
+      },
+      "processed_model_size": {
+        "metabolites": 1747,
+        "reactions": 2252
+      },
+      "growth_rate_difference": 1.0436e-14,
+      "success": true
+    },
+    "Xylaria_hypoxylon_DSM_108379_GCA_004768795.1": {
+      "model_id": "be2ebfe72a3",
+      "validation_timestamp": "2025-06-16 23:58:20",
+      "input_file": "Xylaria_hypoxylon_DSM_108379_GCA_004768795.1.sbml",
+      "processed_file": "Xylaria_hypoxylon_DSM_108379_GCA_004768795.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 1.0781,
+      "growth_rate_processed": 1.0781,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1674,
+        "reactions": 2143
+      },
+      "processed_model_size": {
+        "metabolites": 1674,
+        "reactions": 2143
+      },
+      "growth_rate_difference": 7.3275e-15,
+      "success": true
+    },
+    "Xylaria_longipes_IHI_A66_GCA_003426265.1": {
+      "model_id": "be2e3b49bc1f",
+      "validation_timestamp": "2025-06-16 23:58:24",
+      "input_file": "Xylaria_longipes_IHI_A66_GCA_003426265.1.sbml",
+      "processed_file": "Xylaria_longipes_IHI_A66_GCA_003426265.1_processed.xml",
+      "input_readable_cobra": true,
+      "processed_readable_cobra": true,
+      "growth_rate_input": 0.7186,
+      "growth_rate_processed": 0.7186,
+      "simulation_equivalent": true,
+      "validation_notes": [],
+      "python_setup": {
+        "python_cmd": "python3",
+        "python_version": "Python 3.9.6",
+        "cobra_available": true,
+        "cobra_version": "COBRApy version: 0.29.1"
+      },
+      "input_model_size": {
+        "metabolites": 1730,
+        "reactions": 2203
+      },
+      "processed_model_size": {
+        "metabolites": 1730,
+        "reactions": 2203
       },
       "growth_rate_difference": 0,
       "success": true

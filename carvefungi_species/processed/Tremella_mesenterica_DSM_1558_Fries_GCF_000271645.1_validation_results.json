@@ -1,0 +1,28 @@
+{
+  "model_id": "Tremella_mesenterica_DSM_1558_Fries_GCF_000271645.1",
+  "validation_timestamp": "2025-06-16 23:45:42",
+  "input_file": "Tremella_mesenterica_DSM_1558_Fries_GCF_000271645.1.sbml",
+  "processed_file": "Tremella_mesenterica_DSM_1558_Fries_GCF_000271645.1_processed.xml",
+  "input_readable_cobra": true,
+  "processed_readable_cobra": true,
+  "growth_rate_input": 1.063,
+  "growth_rate_processed": 1.063,
+  "simulation_equivalent": true,
+  "validation_notes": [],
+  "python_setup": {
+    "python_cmd": "python3",
+    "python_version": "Python 3.9.6",
+    "cobra_available": true,
+    "cobra_version": "COBRApy version: 0.29.1"
+  },
+  "input_model_size": {
+    "metabolites": 1490,
+    "reactions": 1870
+  },
+  "processed_model_size": {
+    "metabolites": 1490,
+    "reactions": 1870
+  },
+  "growth_rate_difference": 1.9156e-11,
+  "success": true
+}
