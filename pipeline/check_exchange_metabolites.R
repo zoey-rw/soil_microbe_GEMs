@@ -3,10 +3,112 @@
 
 library(here)
 library(stringr)
-library(tidyverse)
+library(dplyr)
+library(readr)
 library(sybilSBML)
 library(jsonlite)
 library(yaml)
+
+#' Create metabolite description mapping
+#' @return Named vector mapping metabolite IDs to human-readable descriptions
+create_metabolite_descriptions <- function() {
+    
+    # MetanetX ID mappings to common names
+    metanetx_descriptions <- c(
+        "MNXM2" = "Water (H2O)",
+        "MNXM4" = "Hydrogen ion (H+)", 
+        "MNXM5" = "Ammonia (NH3)",
+        "MNXM9" = "Phosphate (Pi)",
+        "MNXM11" = "Sulfate (SO4)",
+        "MNXM13" = "Carbon dioxide (CO2)",
+        "MNXM15" = "Oxygen (O2)",
+        "MNXM32" = "Inorganic phosphate (Pi)",
+        "MNXM57" = "Acetate",
+        "MNXM75" = "Sulfate",
+        "MNXM114" = "Ethanol",
+        "MNXM210" = "Nitrate (NO3)",
+        "MNXM364" = "Nitrite (NO2)",
+        "MNXM89557" = "D-Glucose",
+        "MNXM89558" = "L-Lactate",
+        "MNXM730" = "Hydrogen sulfide (H2S)",
+        "MNXM1105" = "Formate",
+        "MNXM162260" = "Pyruvate",
+        "MNXM162989" = "Succinate",
+        "MNXM1369759" = "Fatty acid (long chain)"
+    )
+    
+    # Common biochemical abbreviations
+    common_descriptions <- c(
+        "glc__D" = "D-Glucose",
+        "ac" = "Acetate", 
+        "etoh" = "Ethanol",
+        "succ" = "Succinate",
+        "pyr" = "Pyruvate",
+        "lac__L" = "L-Lactate",
+        "for" = "Formate",
+        "co2" = "Carbon dioxide (CO2)",
+        "h2o" = "Water (H2O)",
+        "pi" = "Inorganic phosphate (Pi)",
+        "h" = "Hydrogen ion (H+)",
+        "o2" = "Oxygen (O2)",
+        "nh3" = "Ammonia (NH3)",
+        "so4" = "Sulfate (SO4)",
+        "h2s" = "Hydrogen sulfide (H2S)",
+        "no3" = "Nitrate (NO3)",
+        "no2" = "Nitrite (NO2)",
+        "glc" = "Glucose",
+        "fru" = "Fructose",
+        "xyl" = "Xylose",
+        "ara" = "Arabinose",
+        "gal" = "Galactose",
+        "man" = "Mannose",
+        "mal__L" = "L-Malate",
+        "cit" = "Citrate",
+        "alpha_KG" = "Alpha-ketoglutarate",
+        "ala__L" = "L-Alanine",
+        "gly" = "Glycine",
+        "ser__L" = "L-Serine",
+        "thr__L" = "L-Threonine",
+        "val__L" = "L-Valine",
+        "leu__L" = "L-Leucine",
+        "ile__L" = "L-Isoleucine",
+        "phe__L" = "L-Phenylalanine",
+        "trp__L" = "L-Tryptophan",
+        "tyr__L" = "L-Tyrosine",
+        "pro__L" = "L-Proline",
+        "his__L" = "L-Histidine",
+        "lys__L" = "L-Lysine",
+        "arg__L" = "L-Arginine",
+        "asp__L" = "L-Aspartate",
+        "asn__L" = "L-Asparagine",
+        "glu__L" = "L-Glutamate",
+        "gln__L" = "L-Glutamine",
+        "met__L" = "L-Methionine",
+        "cys__L" = "L-Cysteine"
+    )
+    
+    # Combine all descriptions
+    all_descriptions <- c(metanetx_descriptions, common_descriptions)
+    
+    return(all_descriptions)
+}
+
+#' Get human-readable description for a metabolite
+#' @param metabolite_id The metabolite identifier
+#' @param descriptions Named vector of descriptions
+#' @return Human-readable description or the original ID if no mapping exists
+get_metabolite_description <- function(metabolite_id, descriptions) {
+    desc <- descriptions[metabolite_id]
+    if (is.na(desc)) {
+        # Try without compartment suffixes
+        base_id <- str_replace(metabolite_id, "\\[e\\]$|\\(e\\)$|_e$|_e0$", "")
+        desc <- descriptions[base_id]
+        if (is.na(desc)) {
+            return(metabolite_id)  # Return original if no description found
+        }
+    }
+    return(desc)
+}
 
 #' Analyze exchange metabolites across all processed SBML files
 #' @param species_base_dir Path to species directory (default: "species")
@@ -270,54 +372,19 @@ print_analysis_summary <- function(analysis_results) {
         cat("  Unique base metabolites:", ss$unique_base_metabolites, "\n")
         cat("  MetanetX converted:", ss$metanetx_converted, "(", ss$overall_conversion_rate, "%)\n")
         cat("  Appears standardized:", ss$appears_standardized, "(", ss$overall_standardization_rate, "%)\n")
-        cat("  Models with >70% conversion:", ss$models_with_good_conversion, "out of", analysis_results$total_models, "\n")
-        
-        cat("\nCROSS-MODEL PATTERNS:\n")
-        cat("  Universal metabolites (in all models):", ss$universal_metabolite_count, "\n")
+        cat("  Models with >70% conversion:", ss$models_with_good_conversion, "/", analysis_results$total_models, "\n")
+        cat("  Universal metabolites:", ss$universal_metabolite_count, "\n")
         cat("  Model-specific metabolites:", ss$unique_metabolite_count, "\n")
-    }
-    
-    # Model performance
-    if (!is.null(analysis_results$model_summary_table)) {
-        model_df <- analysis_results$model_summary_table
-        successful_models <- model_df[!model_df$has_error, ]
         
-        if (nrow(successful_models) > 0) {
-            cat("\nMODEL PERFORMANCE:\n")
-            cat("  Best performing models (>90% conversion):\n")
-            
-            high_performers <- successful_models[!is.na(successful_models$conversion_rate) & 
-                                                     successful_models$conversion_rate >= 90, ]
-            if (nrow(high_performers) > 0) {
-                for (i in 1:min(5, nrow(high_performers))) {
-                    cat("    ", high_performers$model_id[i], ":", high_performers$conversion_rate[i], "%\n")
-                }
-            } else {
-                cat("    None found\n")
+        # Most common metabolites
+        if (!is.null(analysis_results$cross_model_analysis$most_common_metabolites)) {
+            common_mets <- analysis_results$cross_model_analysis$most_common_metabolites
+            cat("\nMOST COMMON METABOLITES (top 10):\n")
+            for (i in 1:min(10, nrow(common_mets))) {
+                met <- common_mets[i, ]
+                cat("  ", i, ".", met$base_metabolite, "(", met$frequency, "models,", 
+                    round(met$standardization_rate * 100, 1), "% standardized)\n")
             }
-            
-            cat("  Models needing attention (<50% conversion):\n")
-            low_performers <- successful_models[!is.na(successful_models$conversion_rate) & 
-                                                    successful_models$conversion_rate < 50, ]
-            if (nrow(low_performers) > 0) {
-                for (i in 1:min(5, nrow(low_performers))) {
-                    cat("    ", low_performers$model_id[i], ":", low_performers$conversion_rate[i], "%\n")
-                }
-            } else {
-                cat("    None found\n")
-            }
-        }
-    }
-    
-    # Most common metabolites
-    if (!is.null(analysis_results$cross_model_analysis$most_common_metabolites)) {
-        common_mets <- analysis_results$cross_model_analysis$most_common_metabolites
-        
-        cat("\nMOST COMMON EXCHANGE METABOLITES:\n")
-        for (i in 1:min(10, nrow(common_mets))) {
-            cat("  ", common_mets$base_metabolite[i], 
-                " (", common_mets$frequency[i], " models, ",
-                round(common_mets$standardization_rate[i] * 100, 1), "% standardized)\n")
         }
     }
     
@@ -333,11 +400,11 @@ print_analysis_summary <- function(analysis_results) {
     cat("\n", rep("=", 60), "\n")
 }
 
-#' Generate a detailed report for specific metabolites of interest using MetanetX IDs
+#' Generate detailed report with human-readable metabolite descriptions
 #' @param analysis_results Results from analyze_exchange_metabolites
 #' @param metabolites_of_interest Vector of MetanetX IDs or common names to focus on
 #' @param output_dir Output directory
-#' @return Focus report data
+#' @return Focus report data with descriptions
 generate_metabolite_focus_report <- function(analysis_results, 
                                              metabolites_of_interest = NULL, 
                                              output_dir = "analysis_results") {
@@ -348,36 +415,31 @@ generate_metabolite_focus_report <- function(analysis_results,
         return(NULL)
     }
     
+    # Create metabolite descriptions
+    descriptions <- create_metabolite_descriptions()
+    
     # If no specific metabolites provided, use the most common ones
     if (is.null(metabolites_of_interest)) {
-        # Get the top 15 most common metabolites from the analysis
+        # Get the top 20 most common metabolites from the analysis
         common_mets <- analysis_results$cross_model_analysis$most_common_metabolites
         if (!is.null(common_mets) && nrow(common_mets) > 0) {
-            metabolites_of_interest <- head(common_mets$base_metabolite, 15)
-            cat("Using top 15 most common metabolites for focus report\n")
+            metabolites_of_interest <- head(common_mets$base_metabolite, 20)
+            cat("Using top 20 most common metabolites for focus report\n")
         } else {
             cat("No common metabolites found for focus report\n")
             return(NULL)
         }
     }
     
-    # Also include some key metabolites by MetanetX ID if they exist
-    key_metanetx_metabolites <- c(
-        "MNXM4",      # H+
-        "MNXM2",      # H2O  
-        "MNXM15",     # O2
-        "MNXM13",     # CO2
-        "MNXM89557",  # glucose
-        "MNXM57",     # acetate
-        "MNXM114",    # ethanol
-        "MNXM89558",  # lactate
-        "MNXM32",     # Pi
-        "MNXM5",      # NH3
-        "MNXM75"      # SO4
+    # Key metabolites of biological interest
+    key_metabolites <- c(
+        "MNXM4", "MNXM2", "MNXM15", "MNXM13", "MNXM89557", "MNXM57", "MNXM114", 
+        "MNXM89558", "MNXM32", "MNXM5", "MNXM75", "h", "h2o", "o2", "co2", 
+        "glc__D", "ac", "etoh", "pi", "nh3", "so4"
     )
     
     # Combine user-specified and key metabolites
-    all_focus_metabolites <- unique(c(metabolites_of_interest, key_metanetx_metabolites))
+    all_focus_metabolites <- unique(c(metabolites_of_interest, key_metabolites))
     
     focus_data <- analysis_results$exchange_metabolite_database %>%
         filter(base_metabolite %in% all_focus_metabolites) %>%
@@ -391,25 +453,63 @@ generate_metabolite_focus_report <- function(analysis_results,
             standardization_rate = round(sum(appears_standardized) / n() * 100, 1),
             example_ids = list(head(unique(metabolite_id), 5)),
             models_list = paste(unique(model_id), collapse = ", "),
+            num_models = length(unique(model_id)),
             .groups = "drop"
         ) %>%
         arrange(desc(total_occurrences))
     
+    # Add human-readable descriptions
+    focus_data$description <- sapply(focus_data$base_metabolite, 
+                                     function(x) get_metabolite_description(x, descriptions))
+    
+    # Reorder columns to put description second
+    focus_data <- focus_data %>%
+        select(base_metabolite, description, everything())
+    
     write_csv(focus_data, file.path(output_dir, "focus_metabolites_report.csv"))
     
-    cat("\nFOCUS METABOLITES REPORT:\n")
+    cat("\n", rep("=", 60), "\n")
+    cat("FOCUS METABOLITES REPORT WITH DESCRIPTIONS\n")
+    cat(rep("=", 60), "\n")
     cat("Analyzed", nrow(focus_data), "metabolites of interest\n\n")
     
-    for (i in 1:min(20, nrow(focus_data))) {  # Show top 20
-        met <- focus_data[i, ]
-        cat("  ", met$base_metabolite, ":\n")
-        cat("    Present in", met$total_occurrences, "model instances across", 
-            length(unlist(met$models_present)), "different models\n")
-        cat("    MetanetX conversion:", met$metanetx_conversions, "/", met$total_occurrences, 
-            "(", met$conversion_rate, "%)\n")
-        cat("    Models:", met$models_list, "\n")
-        cat("    Example IDs:", paste(head(unlist(met$example_ids), 3), collapse = ", "), "\n\n")
+    # Report high-priority metabolites first
+    priority_metabolites <- c("MNXM15", "MNXM13", "MNXM2", "MNXM4", "MNXM89557", 
+                              "o2", "co2", "h2o", "h", "glc__D")
+    
+    cat("KEY BIOLOGICAL METABOLITES:\n")
+    priority_data <- focus_data %>% filter(base_metabolite %in% priority_metabolites)
+    
+    if (nrow(priority_data) > 0) {
+        for (i in 1:nrow(priority_data)) {
+            met <- priority_data[i, ]
+            cat("• ", met$description, " (", met$base_metabolite, "):\n", sep="")
+            cat("  Present in ", met$num_models, " models (", met$total_occurrences, " instances)\n", sep="")
+            cat("  Standardization: ", met$standardization_rate, "% (", met$standardized_instances, "/", met$total_occurrences, ")\n", sep="")
+            
+            # Identify models missing this metabolite
+            all_models <- unique(analysis_results$exchange_metabolite_database$model_id)
+            missing_models <- setdiff(all_models, unlist(met$models_present))
+            if (length(missing_models) > 0 && length(missing_models) <= 10) {
+                cat("  Missing from: ", paste(head(missing_models, 5), collapse=", "), 
+                    if(length(missing_models) > 5) paste(" (+", length(missing_models)-5, "more)") else "", "\n", sep="")
+            } else if (length(missing_models) > 10) {
+                cat("  Missing from ", length(missing_models), " models\n", sep="")
+            }
+            cat("\n")
+        }
     }
+    
+    cat("OTHER COMMON METABOLITES:\n")
+    other_data <- focus_data %>% filter(!base_metabolite %in% priority_metabolites) %>% head(15)
+    
+    for (i in 1:min(15, nrow(other_data))) {
+        met <- other_data[i, ]
+        cat("• ", met$description, " (", met$base_metabolite, "):\n", sep="")
+        cat("  ", met$num_models, " models, ", met$standardization_rate, "% standardized\n", sep="")
+    }
+    
+    cat("\n", rep("=", 60), "\n")
     
     return(focus_data)
 }
@@ -421,14 +521,10 @@ generate_metabolite_focus_report <- function(analysis_results,
 if (!interactive()) {
     # Run analysis when script is executed directly
     cat("Starting exchange metabolite analysis...\n")
-    results <- analyze_exchange_metabolites()
+    results <- analyze_exchange_metabolites(species_base_dir = "../species", output_dir = "../analysis_results")
     
     # Generate focus report for common metabolites
-    focus_report <- generate_metabolite_focus_report(results)
+    focus_report <- generate_metabolite_focus_report(results, output_dir = "../analysis_results")
     
     cat("\nAnalysis complete! Check the 'analysis_results' directory for detailed outputs.\n")
 }
-
-results <- analyze_exchange_metabolites("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species")
-focus_report <- generate_metabolite_focus_report(results)
-
