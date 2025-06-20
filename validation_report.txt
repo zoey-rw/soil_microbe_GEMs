@@ -1,0 +1,65 @@
+# SBML Processing and Validation Report
+Generated: 2025-06-19 20:01:36.460435
+Total species: 36
+
+## Summary Statistics
+- Validation successful: 34 / 36
+- Input files COBRA-readable: 32 / 34
+- Processed files COBRA-readable: 28 / 34
+- Simulation equivalent (when comparable): 25 / 28
+- Pipeline improved readability: 1
+- Pipeline broke readability: 5
+- Both files unreadable: 3
+
+## Individual Results
+✓ arthrobacter_aurescens_Xu_arthro ( input-readable, processed-readable, equivalent ) - Growth: 0 → 0
+✓ aspergillus_fumigatus_Afu2023 ( input-readable, processed-readable, equivalent ) - Growth: 0.0128 → 0.0128
+✓ azotobacter_vinelandii_iAA1300 ( input-readable, processed-readable, equivalent ) - Growth: 0.4634 → 0.4634
+✓ bacillus_subtilis_iBB1018 ( input-readable, processed-readable, equivalent ) - Growth: 0.6904 → 0.6904
+✓ bradyrhizobium_diazoefficiens_iYY1101 ( input-readable, processed-readable, equivalent ) - Growth: 1.2282 → 1.2282
+✓ cesiribacter_andamanensis_Xu_cesiri ( input-readable )
+✓ clostridium_ljungdahlii_iHN637 ( input-readable, processed-readable, equivalent ) - Growth: 0.2245 → 0.2245
+✓ ensifer_meliloti_iGD1348 ( input-readable, processed-readable, equivalent ) - Growth: 89.913 → 89.913
+✓ geobacter_metallireducens_iAF987 ( input-readable, processed-readable ) - Growth: 0.0473 → 0
+✓ halomonas_stevensii_Xu_halom ( input-readable )
+✓ hansenula_polymorpha_hanpo_z ( input-readable )
+✓ lachancea_thermotolerans_iBM3063 ( input-readable, processed-readable, equivalent ) - Growth: 80.9879 → 80.9879
+✓ methanococcus_maripaludis_iMR557 ( input-readable, processed-readable, equivalent ) - Growth: 0.5663 → 0.5663
+✓ methanosarcina_barkeri_iMG746 ( input-readable, processed-readable, equivalent ) - Growth: 0.0208 → 0.0208
+✓ methanothermobacter_thermautotrophicus_iMTZ22IC ( input-readable, processed-readable, equivalent ) - Growth: 12.0587 → 12.0587
+✗ methylacidiphilum_fumariolicum_iAS473 - Unknown error
+✓ methylorubrum_extorquens_iRP911 ( input-readable )
+✓ mortierella_alpina_iCY1106 ( input-readable, processed-readable, equivalent ) - Growth: 0.0836 → 0.0836
+✓ neurospora_crassa_iJDZ836 ( input-readable )
+✓ nitrobacter_winogradskyi_iFC579 ( input-readable, processed-readable, equivalent ) - Growth: 0.0346 → 0.0346
+✓ nitrosomonas_europaea_iGC535 ( input-readable, processed-readable, equivalent ) - Growth: 0.0911 → 0.0911
+✓ nitrosopumilus_maritimus_NmrFL413 ( input-readable, processed-readable, equivalent ) - Growth: 0.2 → 0.2
+✓ nitrospira_moscoviensis_iNmo686 ( input-readable, processed-readable, equivalent ) - Growth: 0.0064 → 0.0064
+✓ paenarthrobacter_aurescens_iRZ1179
+✓ penicillium_rubens_iAL1006 ( input-readable, processed-readable, equivalent ) - Growth: 0 → 0
+✗ penicillium_rubens_iPrub22 - Python validation script failed
+✓ pseudomonas_aeruginosa_iSD1509 ( input-readable, processed-readable, equivalent ) - Growth: 1.5909 → 1.5909
+✓ pseudomonas_putida_iJN1462 ( processed-readable )
+✓ rhizobium_leguminosarum_iCS1224 ( input-readable, processed-readable, equivalent ) - Growth: 31.2172 → 31.2172
+✓ rhizophagus_irregularis_iRi1574 ( input-readable, processed-readable, equivalent ) - Growth: 8.8121 → 8.8121
+✓ rhodococcus_opacus_iGR1773 ( input-readable, processed-readable, equivalent ) - Growth: 32.7119 → 32.7119
+✓ rhodotorula_toruloides_iRhto1880 ( input-readable, processed-readable, equivalent ) - Growth: 0.3902 → 0.3902
+✓ saccharomyces_cerevisiae_iMM904 ( input-readable, processed-readable, equivalent ) - Growth: 0.2879 → 0.2879
+✓ staphylococcus_aureus_iSB619 ( input-readable, processed-readable ) - Growth: 0.1581 → 0.0687
+✓ streptomyces_coelicolor_iKS1317 ( input-readable, processed-readable, equivalent ) - Growth: 0.0746 → 0.0746
+✓ trichoderma_reesei_treesei ( input-readable, processed-readable, equivalent ) - Growth: 0 → 0
+
+## Failed Validations
+- methylacidiphilum_fumariolicum_iAS473 : Unknown error
+- penicillium_rubens_iPrub22 : Python validation script failed
+
+## Non-Equivalent Growth Rates
+- cesiribacter_andamanensis_Xu_cesiri : growth rate comparison failed
+- geobacter_metallireducens_iAF987 : input = 0.0473 , processed = 0 , difference = 0.0473
+- halomonas_stevensii_Xu_halom : growth rate comparison failed
+- hansenula_polymorpha_hanpo_z : growth rate comparison failed
+- methylorubrum_extorquens_iRP911 : growth rate comparison failed
+- neurospora_crassa_iJDZ836 : growth rate comparison failed
+- paenarthrobacter_aurescens_iRZ1179 : growth rate comparison failed
+- pseudomonas_putida_iJN1462 : growth rate comparison failed
+- staphylococcus_aureus_iSB619 : input = 0.1581 , processed = 0.0687 , difference = 0.0894
