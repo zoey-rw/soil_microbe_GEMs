@@ -5,6 +5,24 @@ reference_data/chem_prop.tsv
 reference_data/reac_prop.tsv
 reference_data/reac_xref.tsv
 
+# OS-generated metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# R artifacts
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

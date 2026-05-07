@@ -1,0 +1,23 @@
+# Python dependencies for the soil_microbe_GEMs pipeline.
+# Install with:  pip install -r requirements.txt
+#
+# Versions reflect what the validation reproduction was tested against
+# (see pipeline/reproduction_report.json). Loosen the pins if you upgrade.
+
+# Core SBML / FBA stack
+cobra~=0.31.1
+python-libsbml~=5.21.1
+
+# COMETS layout / model generation (the actual COMETS Java jar must be
+# installed separately; cometspy only writes the input files).
+cometspy~=0.6.3
+
+# Optional model quality reports (referenced by old/evaluate_carbon_usage.ipynb).
+memote~=0.17.0
+
+# Data wrangling for the small Python clean scripts under microbe-sql-compose/
+pandas>=2.0
+pyyaml>=6.0
+
+# Test / validation tooling
+pytest>=7.0

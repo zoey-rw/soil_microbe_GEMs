@@ -1,12 +1,29 @@
+# Regenerates the intermediate_data/ files used by app.R.
+#
+# This script depends on the upstream soil_microbe_db dataset (not in this repo):
+#   - soil_microbe_db_abundances.csv
+#   - scripts/helper_functions.r
+# See https://github.com/zoey-rw/soil_genome_db
+#
+# Override the data root by setting the SOIL_MICROBE_DB env var, or pass
+# `soil_microbe_db_dir` via Sys.setenv() before sourcing.
+
+library(data.table)
 library(tidyverse)
 library(broom)
 
-setwd("/projectnb/frpmars/soil_microbe_db/")
-source("/projectnb/frpmars/soil_microbe_db/scripts/helper_functions.r")
+soil_microbe_db_dir <- Sys.getenv("SOIL_MICROBE_DB", unset = NA)
+if (is.na(soil_microbe_db_dir) || !dir.exists(soil_microbe_db_dir)) {
+    stop("Set SOIL_MICROBE_DB env var to the soil_microbe_db data directory ",
+         "containing soil_microbe_db_abundances.csv and scripts/helper_functions.r. ",
+         "See https://github.com/zoey-rw/soil_genome_db.")
+}
+setwd(soil_microbe_db_dir)
+source(file.path(soil_microbe_db_dir, "scripts", "helper_functions.r"))
 
 set.seed(1)
 # Read in microbe abundances, soil metadata, and GEM information
-species_abundances <- fread("./soil_microbe_db_abundances.csv")  
+species_abundances <- fread("./soil_microbe_db_abundances.csv")
 # length(unique(species_abundances$taxonomy_id)) # 26204 unique taxa
 #%>% 
 	#select(-`...1`) %>% 
@@ -45,8 +62,12 @@ env_data_lean = sample_abundance %>% dplyr::select(sample_id)
 write_csv(sample_abundance_lean, "./intermediate_data/sample_abundance_data_lean.csv")
 
 
-# Establish 
-merged_df_nest = merged_df %>% 
+# merged_df is the canonical sample/abundance/env-metadata join used below.
+# Earlier edits renamed it to `sample_abundance` partway through; alias here.
+merged_df <- sample_abundance
+
+# Establish
+merged_df_nest = merged_df %>%
 	#select(-c(sampleID)) %>% 
 	group_by(db_name, taxon, taxonomy_id, lineage) %>% nest()
 

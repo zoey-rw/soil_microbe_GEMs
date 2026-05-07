@@ -1,7 +1,8 @@
 # Script to batch validate that models grow appropriately after standardizing formats and converting identifiers to the MetaNetX namespace
 # Growth rate should be the same as the input model
 
-source("validate_model_growth.r")     # Validation functions
+library(here)
+source(here("pipeline", "validate_model_growth.r"))     # Validation functions
 
 # requires python3 with cobrapy installation
 

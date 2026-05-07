@@ -1,11 +1,12 @@
 # Functions to validate that models grow appropriately after standardizing formats and converting identifiers to the MetaNetX namespace
 # Growth rate should be the same as the input model
 
+library(here)
 library(stringr)
 library(jsonlite)
 
-# Source utility functions
-source("sbml_processing_utils.R")
+# Source utility functions (works from any CWD via here::here())
+source(here("pipeline", "sbml_processing_utils.R"))
 
 #' Validate SBML model growth in COBRApy and update validation metadata
 #' @param species_dir Path to species directory

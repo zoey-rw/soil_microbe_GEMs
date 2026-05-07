@@ -5,8 +5,8 @@ library(here)
 library(stringr)
 library(jsonlite)
 
-# Source required functions
-source("process_sbml_species.R")      # Main processing pipeline
+# Source required functions (works from any CWD via here::here())
+source(here("pipeline", "process_sbml_species.R"))      # Main processing pipeline
 
 #' Batch process all species on remote machine (where sybilSBML works)
 #' @param base_dir Path to microbial_gem_database/species directory
@@ -342,59 +342,31 @@ process_flat_directory <- function(input_dir, output_dir, ref_data, deprecated_r
 }
 
 
-# Usage for remote processing to convert to MetanetX namespace:
-
-# # Load reference data
-# if (!exists("ref_data")) ref_data <- get_reference_data()
-# if (!exists("deprecated_recode")) deprecated_recode <- readRDS("reference_data/deprecated_recode_mets.rds")
-
-source("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/pipeline/process_sbml_species.R")
-source("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/pipeline/sbml_processing_utils.R")
-source("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/pipeline/processing_utils.R")
-
-ref_data <- readRDS("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/reference_data/metanetx_reference_data.rds")
-deprecated_recode <- readRDS("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/reference_data/deprecated_recode_mets.rds")
-
-# Load reference data
-if (!exists("ref_data")) ref_data <- get_reference_data()
-
-# ran successfully
-test_species <- c("azotobacter_vinelandii_iAA1300", 
-                  "bacillus_subtilis_iBB1018", "bradyrhizobium_diazoefficiens_iYY1101", 
-                  "clostridium_ljungdahlii_iHN637", "ensifer_meliloti_iGD1348", 
-                  "lachancea_thermotolerans_iBM3063", 
-                  "methanosarcina_barkeri_iMG746", "mortierella_alpina_iCY1106", 
-                  "nitrobacter_winogradskyi_iFC579", "nitrosomonas_europaea_iGC535", 
-                  "nitrospira_moscoviensis_iNmo686", "pseudomonas_putida_iJN1462", 
-                  "rhizophagus_irregularis_iRi1574", "saccharomyces_cerevisiae_iMM904", 
-                  "staphylococcus_aureus_iSB619", "streptomyces_coelicolor_iKS1317")
-
-failed_species = c("agrobacterium_tumefaciens_iNX1344",#"aspergillus_terreus_iJL1454",
-                   #"bacillus_pseudofirmus_Xu_bacill",
-                   "methanosarcina_barkeri_iAF692")
-                   #"rhodococcus_jostii_iMT1174","sphingopyxis_granuli_iIG743")
-    
-test_species = "pseudomonas_putida_iJN1462"
-
-caused_failure = "rhodopseudomonas_palustris_iDT1294"
-
-results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", 
-                                ref_data, deprecated_recode, test_species)
-
-results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", 
-                               ref_data, deprecated_recode, to_finish)
-
-
-results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", 
-                                ref_data, deprecated_recode, "rhizobium_leguminosarum_iCS1224")
-# Running on all avail files
-results <- batch_process_remote("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species", ref_data, deprecated_recode)
-
-
-test_results <- process_flat_directory(
-    input_dir = "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/carvefungi_species/input",
-    output_dir = "/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/carvefungi_species/processed",
-    ref_data = ref_data,
-    deprecated_recode = deprecated_recode,
-    file_filter = "^[C]"  # Only files starting with A, B, or C
-)
+# Example usage (not executed when this file is sourced).
+# See scripts/run_batch_process.R for a CLI entry point.
+#
+#   source("pipeline/process_sbml_species.R")
+#   source("pipeline/sbml_processing_utils.R")
+#   source("pipeline/processing_utils.R")
+#
+#   ref_data          <- get_reference_data()
+#   deprecated_recode <- readRDS(here::here("reference_data", "deprecated_recode_mets.rds"))
+#
+#   # Curated species (one-per-directory layout):
+#   results <- batch_process_remote(here::here("species"), ref_data, deprecated_recode)
+#
+#   # Subset for testing:
+#   results <- batch_process_remote(
+#       here::here("species"),
+#       ref_data, deprecated_recode,
+#       species_filter = c("nitrobacter_winogradskyi_iFC579",
+#                          "saccharomyces_cerevisiae_iMM904")
+#   )
+#
+#   # CarveFungi-style flat directory:
+#   results <- process_flat_directory(
+#       input_dir         = here::here("carvefungi_species", "input"),
+#       output_dir        = here::here("carvefungi_species", "processed"),
+#       ref_data          = ref_data,
+#       deprecated_recode = deprecated_recode
+#   )
