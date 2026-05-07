@@ -229,9 +229,18 @@ print(json.dumps(results))
     
     tryCatch({
         cat("Running Python validation script...\n")
-        
-        # Run Python validation with timeout and stderr suppression
-        result <- system2(python_cmd, args = temp_script, stdout = TRUE, stderr = FALSE, timeout = 60)
+
+        # Run Python validation with stderr suppression. Plan D fix:
+        # the previous 60s timeout caused false negatives on large models
+        # (iAS473, iPrub22 ~6k reactions take ~25s each, doubled by reading
+        # both input and processed). Default raised to 600s; override via
+        # SOIL_MICROBE_GEMS_VALIDATE_TIMEOUT_SEC.
+        validate_timeout <- as.integer(
+            Sys.getenv("SOIL_MICROBE_GEMS_VALIDATE_TIMEOUT_SEC", unset = "600")
+        )
+        if (is.na(validate_timeout) || validate_timeout <= 0) validate_timeout <- 600
+        result <- system2(python_cmd, args = temp_script, stdout = TRUE,
+                          stderr = FALSE, timeout = validate_timeout)
         
         if (length(result) > 0 && !any(attr(result, "status") %in% c(1, 127))) {
             # Parse results

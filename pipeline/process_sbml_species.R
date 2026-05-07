@@ -538,26 +538,63 @@ replace_deprecated_ids <- function(met_df, deprecated_recode) {
 
 #' Handle duplicate metabolite IDs with improved encoding awareness
 handle_duplicates <- function(met_df) {
-    
+
     met_df$new_met_name <- ifelse(!is.na(met_df$new_met), met_df$new_met, met_df$without_compartment)
     met_df$new_met_out <- paste0(met_df$new_met_name, "[", met_df$compartment, "]")
     met_df$old_met_out <- paste0(met_df$without_compartment, "[", met_df$compartment, "]")
-    
+
     # Revert duplicates to original IDs
     duped_mets <- met_df[duplicated(met_df$new_met_out), ]$new_met_name
-    met_df$new_met_out <- ifelse(met_df$new_met_name %in% duped_mets, 
-                                 met_df$old_met_out, 
+    met_df$new_met_out <- ifelse(met_df$new_met_name %in% duped_mets,
+                                 met_df$old_met_out,
                                  met_df$new_met_out)
-    
+
     # Handle problematic metabolites
     problematic_metabolites <- c("E", "Cx")
     for (prob_met in problematic_metabolites) {
         if (any(met_df$without_compartment == prob_met)) {
-            met_df$new_met_out[met_df$without_compartment == prob_met] <- 
+            met_df$new_met_out[met_df$without_compartment == prob_met] <-
                 met_df$fixed_met[met_df$without_compartment == prob_met]
         }
     }
-    
+
+    # Final-pass uniqueness enforcement (Plan D fix).
+    # The revert-to-original step above can still produce collisions when
+    # two distinct source metabolites collapse to the same SBML SId
+    # after compartment-stripping (observed in iRZ1179, cesiri, iRP911,
+    # iJDZ836). For any remaining collisions, append a numeric suffix so
+    # downstream SBML stays valid; data is preserved (no merge or drop).
+    if (any(duplicated(met_df$new_met_out))) {
+        dup_ids <- unique(met_df$new_met_out[duplicated(met_df$new_met_out)])
+        cat("  ⚠ handle_duplicates: enforcing uniqueness on",
+            length(dup_ids), "remaining colliding ids\n")
+        for (dup_id in dup_ids) {
+            idx <- which(met_df$new_met_out == dup_id)
+            # Keep the first occurrence as-is; suffix the rest
+            for (k in seq_along(idx)[-1]) {
+                bracket_pos <- regexpr("\\[", met_df$new_met_out[idx[k]])
+                if (bracket_pos > 0) {
+                    base <- substr(met_df$new_met_out[idx[k]], 1, bracket_pos - 1)
+                    comp <- substr(met_df$new_met_out[idx[k]], bracket_pos,
+                                   nchar(met_df$new_met_out[idx[k]]))
+                    met_df$new_met_out[idx[k]] <- paste0(base, "_dup", k - 1, comp)
+                } else {
+                    met_df$new_met_out[idx[k]] <- paste0(met_df$new_met_out[idx[k]],
+                                                        "_dup", k - 1)
+                }
+            }
+            cat("    -", dup_id, ": kept original +",
+                length(idx) - 1, "renamed to *_dupN\n")
+        }
+        # Sanity check: no duplicates remain
+        if (any(duplicated(met_df$new_met_out))) {
+            warning("handle_duplicates: dedup pass left ",
+                    sum(duplicated(met_df$new_met_out)),
+                    " duplicates; SBML output will be invalid.",
+                    call. = FALSE)
+        }
+    }
+
     return(met_df)
 }
 
@@ -681,7 +718,31 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
         
         # Update metabolite IDs
         sbml_model@met_id <- met_df$new_met_out
-        
+
+        # Plan D fix: push recovered compartments back to @met_comp so that
+        # writeSBML doesn't emit compartment="NA". extract_metabolite_annotations
+        # recovers compartment STRINGS into met_df$compartment for metabolites
+        # whose original @met_comp was NA, but never propagates them to the
+        # model object. Mirror that recovery into @met_comp / @mod_compart here.
+        if (any(is.na(sbml_model@met_comp))) {
+            na_idx <- which(is.na(sbml_model@met_comp))
+            cat("  ⚠ recovering compartment for", length(na_idx),
+                "metabolites with NA @met_comp\n")
+            for (i in na_idx) {
+                comp_str <- met_df$compartment[i]
+                if (is.na(comp_str) || comp_str == "" || comp_str == "NA") {
+                    comp_str <- "c"  # safe fallback to cytosol
+                }
+                # Ensure compartment exists in @mod_compart; add if not.
+                comp_idx <- which(sbml_model@mod_compart == comp_str)
+                if (length(comp_idx) == 0) {
+                    sbml_model@mod_compart <- c(sbml_model@mod_compart, comp_str)
+                    comp_idx <- length(sbml_model@mod_compart)
+                }
+                sbml_model@met_comp[i] <- as.integer(comp_idx[1])
+            }
+        }
+
         # Apply additional model updates
         sbml_model <- update_exchange_reactions(sbml_model)
         sbml_model <- standardize_compartment_notation(sbml_model)
