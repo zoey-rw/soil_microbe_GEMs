@@ -1,0 +1,106 @@
+--- a/src/sybilSBML.c	2026-05-07 12:02:30.345232639 +0000
++++ b/src/sybilSBML.c	2026-05-07 12:03:40.827614752 +0000
+@@ -45,6 +45,10 @@
+ 
+ #include <sbml/packages/fbc/common/fbcfwd.h>
+ 
++/* libSBML 5.20+: FbcExtension.h defines FbcVariableType_t, which is referenced
++ * by FluxObjective.h. Include it before any fbc/sbml/* header. */
++#include <sbml/packages/fbc/extension/FbcExtension.h>
++
+ /* FBC PLUGINS*/
+ #include <sbml/packages/fbc/extension/FbcSBMLDocumentPlugin.h>
+ #include <sbml/packages/fbc/extension/FbcModelPlugin.h>
+@@ -1125,14 +1129,14 @@
+       /* get charge and chemical formula from FBC plugin: */
+       if (SpeciesPlug != NULL) {
+           /* FBCcharge */
+-          if (FbcSpeciesPlugin_isSetCharge(SpeciesPlug)) {
+-              INTEGER(metcharge)[i] = FbcSpeciesPlugin_getCharge(SpeciesPlug);
++          if (FbcSpeciesPlugin_isSetCharge((FbcSBasePlugin_t *) SpeciesPlug)) {
++              INTEGER(metcharge)[i] = FbcSpeciesPlugin_getCharge((FbcSBasePlugin_t *) SpeciesPlug);
+               chargecount = chargecount + 1;
+           }
+-          
++
+           /* FBC chemicalFormula */
+-          if (FbcSpeciesPlugin_isSetChemicalFormula(SpeciesPlug)) {
+-              SET_STRING_ELT(metchemic, i, Rf_mkChar(FbcSpeciesPlugin_getChemicalFormula(SpeciesPlug)));
++          if (FbcSpeciesPlugin_isSetChemicalFormula((FbcSBasePlugin_t *) SpeciesPlug)) {
++              SET_STRING_ELT(metchemic, i, Rf_mkChar(FbcSpeciesPlugin_getChemicalFormula((FbcSBasePlugin_t *) SpeciesPlug)));
+               chcount=chcount+1;
+           }
+           else {
+@@ -1398,9 +1402,9 @@
+       
+       if (reactionPlug != NULL) {
+           /* LOWERFLUXBOUND */
+-          if (FbcReactionPlugin_isSetLowerFluxBound(reactionPlug)) 
++          if (FbcReactionPlugin_isSetLowerFluxBound((FbcSBasePlugin_t *) reactionPlug))
+           {
+-              parm = Model_getParameterById(R_ExternalPtrAddr (sbmlmod) ,FbcReactionPlugin_getLowerFluxBound(reactionPlug));
++              parm = Model_getParameterById(R_ExternalPtrAddr (sbmlmod) ,FbcReactionPlugin_getLowerFluxBound((FbcSBasePlugin_t *) reactionPlug));
+               //printf("LowerFLUXBOUND: %f \n",  Parameter_getValue(parm));
+               REAL(fbclb)[i] = Parameter_getValue(parm);
+               lbcount=lbcount+1;
+@@ -1410,9 +1414,9 @@
+           }      
+           
+           /* UPPERFLUXBOUND*/
+-          if (FbcReactionPlugin_isSetUpperFluxBound(reactionPlug)) 
++          if (FbcReactionPlugin_isSetUpperFluxBound((FbcSBasePlugin_t *) reactionPlug))
+           {
+-              parm = Model_getParameterById(R_ExternalPtrAddr (sbmlmod) ,FbcReactionPlugin_getUpperFluxBound(reactionPlug));
++              parm = Model_getParameterById(R_ExternalPtrAddr (sbmlmod) ,FbcReactionPlugin_getUpperFluxBound((FbcSBasePlugin_t *) reactionPlug));
+               //printf("UPPERFLUXBOUND: %f \n",  Parameter_getValue(parm));
+               REAL(fbcup)[i] = Parameter_getValue(parm);
+               upcount=upcount+1;
+@@ -1481,8 +1485,8 @@
+           
+           
+           /* FBC GENE */
+-          if( FbcReactionPlugin_isSetGeneProductAssociation(reactionPlug) ) {
+-              GeneProductAssociation_t* gpa = FbcReactionPlugin_getGeneProductAssociation(reactionPlug);
++          if( FbcReactionPlugin_isSetGeneProductAssociation((FbcSBasePlugin_t *) reactionPlug) ) {
++              GeneProductAssociation_t* gpa = FbcReactionPlugin_getGeneProductAssociation((FbcSBasePlugin_t *) reactionPlug);
+               FbcAssociation_t* asso= (FbcAssociation_t*) GeneProductAssociation_getAssociation(gpa);
+               SET_STRING_ELT(fbcgene, i, Rf_mkChar(FbcAssociation_toInfix(asso)));
+               //printf("Gene: %s \n",   FbcAssociation_toInfix(asso));
+@@ -1939,7 +1943,7 @@
+       if (SBMLfbcversion >0)
+       {  
+         SpeciesPlug = SBase_getPlugin((SBase_t *)(sp), "fbc");
+-        FbcSpeciesPlugin_setChemicalFormula(SpeciesPlug, CHAR(STRING_ELT(met_form, i)));
++        FbcSpeciesPlugin_setChemicalFormula((FbcSBasePlugin_t *) SpeciesPlug, CHAR(STRING_ELT(met_form, i)));
+       }
+       
+       else{
+@@ -1955,7 +1959,7 @@
+       if (SBMLfbcversion >0)
+       {
+         SpeciesPlug = SBase_getPlugin((SBase_t *)(sp), "fbc");
+-        FbcSpeciesPlugin_setCharge(SpeciesPlug, INTEGER(met_charge)[i]);
++        FbcSpeciesPlugin_setCharge((FbcSBasePlugin_t *) SpeciesPlug, INTEGER(met_charge)[i]);
+       }
+       else
+       {  
+@@ -2077,7 +2081,7 @@
+       //  FbcAnd_t * und= FbcAnd_create(3,1,2);
+       asso= FbcAssociation_parseFbcInfixAssociation(CHAR(STRING_ELT(gpr, i)),modelPlug);
+       GeneProductAssociation_setAssociation(gpa,asso);
+-      FbcReactionPlugin_setGeneProductAssociation(reactionPlug,gpa);
++      FbcReactionPlugin_setGeneProductAssociation((FbcSBasePlugin_t *) reactionPlug,gpa);
+     }
+     
+     
+@@ -2279,8 +2283,8 @@
+       }  
+       
+       // set the flux bounds for this reaction
+-      FbcReactionPlugin_setLowerFluxBound(reactionPlug, para_lb);
+-      FbcReactionPlugin_setUpperFluxBound(reactionPlug, para_ub);
++      FbcReactionPlugin_setLowerFluxBound((FbcSBasePlugin_t *) reactionPlug, para_lb);
++      FbcReactionPlugin_setUpperFluxBound((FbcSBasePlugin_t *) reactionPlug, para_ub);
+       
+       // OBJECTIVES
+       if (INTEGER(obj_coef)[i]!=0)

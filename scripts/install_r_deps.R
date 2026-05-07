@@ -36,19 +36,35 @@ if (length(missing_cran) > 0) {
     install.packages(missing_cran, repos = "https://cloud.r-project.org")
 }
 
-# Archived packages: sybil + sybilSBML (transitional; see issue #2).
-archived <- c(sybil = "cran/sybil", sybilSBML = "cran/sybilSBML")
-for (pkg in names(archived)) {
-    if (!pkg %in% rownames(installed.packages())) {
-        cat("Attempting archived install of", pkg, "from", archived[[pkg]], "\n")
-        tryCatch(
-            remotes::install_github(archived[[pkg]], upgrade = "never"),
-            error = function(e) {
-                message("Could not install ", pkg, ": ", e$message,
-                        ". The cobra-via-reticulate shim will replace this dependency.")
-            }
-        )
+# Archived: sybil installs cleanly from the GitHub mirror.
+if (!"sybil" %in% rownames(installed.packages())) {
+    cat("Installing archived sybil from cran/sybil\n")
+    tryCatch(
+        remotes::install_github("cran/sybil", upgrade = "never"),
+        error = function(e) {
+            message("Could not install sybil: ", e$message)
+        }
+    )
+}
+
+# Archived: sybilSBML 3.1.2 needs source patches to build against libSBML 5.19+.
+# Use the vendored installer rather than direct GitHub install.
+if (!"sybilSBML" %in% rownames(installed.packages())) {
+    repo_root <- normalizePath(file.path(dirname(sys.frame(1)$ofile %||% "."), ".."),
+                               mustWork = FALSE)
+    installer <- file.path(repo_root, "pipeline", "vendor", "install_sybilSBML.sh")
+    if (file.exists(installer)) {
+        cat("Installing sybilSBML via the vendored patched installer:\n  ", installer, "\n")
+        rc <- system2("bash", installer)
+        if (rc != 0) {
+            message("Vendored sybilSBML install failed (exit ", rc, "). ",
+                    "Set SOIL_MICROBE_GEMS_USE_COBRA_SHIM=1 to use the cobra shim instead.")
+        }
+    } else {
+        message("sybilSBML not installed and vendored installer not found at ", installer)
     }
 }
+
+`%||%` <- function(a, b) if (is.null(a)) b else a
 
 cat("\nDone. To verify:\n  R -e 'library(stringr); library(jsonlite)'\n")

@@ -101,11 +101,19 @@ to build the `metanetx_reference_data.rds` consumed by the pipeline.
 
 ## Dependencies
 
-**R packages:** see `scripts/install_r_deps.R`. The pipeline currently depends on
+**R packages:** see `scripts/install_r_deps.R`. The pipeline depends on
 `sybilSBML`, which was archived from CRAN in 2020 and does not compile cleanly
-against modern libSBML. The install script falls back to the GitHub `cran/`
-mirror; a Stage-1 replacement using `cobra` via `reticulate` is in progress
-(see issue [#2](https://github.com/zoey-rw/soil_microbe_GEMs/issues/2)).
+against libSBML ≥ 5.19. Two supported options:
+
+- **Patched sybilSBML** (default). `pipeline/vendor/install_sybilSBML.sh`
+  downloads the archived source, applies a small patch (see
+  `pipeline/vendor/sybilSBML.patch`), and installs against modern libSBML.
+  The `scripts/install_r_deps.R` helper invokes this automatically.
+- **Cobra shim** (transitional). Set `SOIL_MICROBE_GEMS_USE_COBRA_SHIM=1`
+  to skip sybilSBML entirely and use a `cobra`-via-`reticulate` backend
+  (`pipeline/sbml_io_cobra.R`). See issues
+  [#2](https://github.com/zoey-rw/soil_microbe_GEMs/issues/2) and
+  [#5](https://github.com/zoey-rw/soil_microbe_GEMs/issues/5).
 
 **Python:** see `requirements.txt`. Tested with cobra 0.31.1, python-libsbml 5.21.1,
 cometspy 0.6.3.
