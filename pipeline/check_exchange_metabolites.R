@@ -5,7 +5,9 @@ library(here)
 library(stringr)
 library(dplyr)
 library(readr)
-library(sybilSBML)
+# SBML I/O backend (sybilSBML by default; cobra shim when
+# SOIL_MICROBE_GEMS_USE_COBRA_SHIM=1). See pipeline/sbml_io_loader.R.
+source(here::here("pipeline", "sbml_io_loader.R"))
 library(jsonlite)
 library(yaml)
 
