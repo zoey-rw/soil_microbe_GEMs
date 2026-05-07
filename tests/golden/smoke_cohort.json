@@ -1,0 +1,77 @@
+{
+  "methanococcus_maripaludis_iMR557": {
+    "input": {
+      "growth_rate": 0.566306,
+      "metabolites": 726,
+      "reactions": 716
+    },
+    "input_file": "iMR557.xml",
+    "load_time_seconds": 1.47,
+    "processed": {
+      "growth_rate": 0.566306,
+      "metabolites": 725,
+      "reactions": 716
+    },
+    "processed_file": "iMR557_processed.xml"
+  },
+  "methanosarcina_barkeri_iMG746": {
+    "input": {
+      "growth_rate": 0.020763,
+      "metabolites": 718,
+      "reactions": 816
+    },
+    "input_file": "iMG746_input.xml",
+    "load_time_seconds": 1.55,
+    "processed": {
+      "growth_rate": 0.020763,
+      "metabolites": 718,
+      "reactions": 816
+    },
+    "processed_file": "iMG746_processed.xml"
+  },
+  "nitrobacter_winogradskyi_iFC579": {
+    "input": {
+      "growth_rate": 0.0346,
+      "metabolites": 1018,
+      "reactions": 1130
+    },
+    "input_file": "iFC579_input.xml",
+    "load_time_seconds": 2.87,
+    "processed": {
+      "growth_rate": 0.0346,
+      "metabolites": 1007,
+      "reactions": 1128
+    },
+    "processed_file": "iFC579_processed.xml"
+  },
+  "nitrosomonas_europaea_iGC535": {
+    "input": {
+      "growth_rate": 0.091101,
+      "metabolites": 1114,
+      "reactions": 1149
+    },
+    "input_file": "iGC535_input.xml",
+    "load_time_seconds": 3.97,
+    "processed": {
+      "growth_rate": 0.091101,
+      "metabolites": 1114,
+      "reactions": 1149
+    },
+    "processed_file": "iGC535_processed.xml"
+  },
+  "nitrosopumilus_maritimus_NmrFL413": {
+    "input": {
+      "growth_rate": 0.200001,
+      "metabolites": 825,
+      "reactions": 765
+    },
+    "input_file": "13568_2018_635_MOESM2_ESM.xml",
+    "load_time_seconds": 1.57,
+    "processed": {
+      "growth_rate": 0.200001,
+      "metabolites": 825,
+      "reactions": 765
+    },
+    "processed_file": "NmrFL413_processed.xml"
+  }
+}
