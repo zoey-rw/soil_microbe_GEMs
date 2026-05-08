@@ -84,9 +84,10 @@ pip install -r requirements.txt
 # 3. R dependencies (handles archived sybilSBML — see notes below)
 Rscript scripts/install_r_deps.R
 
-# 4. Reference data (not committed; gitignored due to size)
-#    Download MetanetX chemical cross-references into reference_data/
-#    See "Reference data" section below.
+# 4. Reference data (~150 MB; not committed; gitignored due to size)
+bash scripts/fetch_metanetx_refdata.sh
+#    Pin a specific release if you want reproducibility:
+#    MNX_VERSION=4.5 bash scripts/fetch_metanetx_refdata.sh
 
 # 5. Process one species end-to-end
 Rscript scripts/run_batch_process.R curated \
@@ -111,10 +112,20 @@ Rscript scripts/run_batch_process.R flat \
 
 ## Reference data
 
-`reference_data/chem_xref.tsv`, `chem_prop.tsv`, `reac_xref.tsv`, `reac_prop.tsv` from MetanetX
-are gitignored due to size. Download from <https://www.metanetx.org/mnxdoc/mnxref.html>
-(beta release, 2025) and run the helpers in `pipeline/sbml_processing_utils.R::get_reference_data()`
-to build the `metanetx_reference_data.rds` consumed by the pipeline.
+`reference_data/chem_xref.tsv`, `chem_prop.tsv`, `reac_xref.tsv`, `reac_prop.tsv`
+from MetaNetX are gitignored due to size (~150 MB). The convenience script
+`scripts/fetch_metanetx_refdata.sh` downloads the four TSVs and builds the
+cached `metanetx_reference_data.rds` in one step. Set `MNX_VERSION` (e.g.
+`MNX_VERSION=4.5`) for reproducibility, or omit it for the latest release.
+
+If you're working in a sandboxed environment that blocks `metanetx.org`,
+download the TSVs on a machine with network access and copy them into
+`reference_data/` manually, then run the second half of the script:
+
+```bash
+Rscript -e 'source("pipeline/sbml_processing_utils.R"); \
+            saveRDS(get_reference_data(), "reference_data/metanetx_reference_data.rds")'
+```
 
 ## Dependencies
 
