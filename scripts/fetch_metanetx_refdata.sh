@@ -3,12 +3,23 @@
 # reference_data/metanetx_reference_data.rds that the pipeline reads.
 #
 # Usage:
-#   bash scripts/fetch_metanetx_refdata.sh           # default (most recent)
-#   MNX_VERSION=4.5 bash scripts/fetch_metanetx_refdata.sh   # pin a release
+#   bash scripts/fetch_metanetx_refdata.sh                     # default
+#   MNX_VERSION=4.5 bash scripts/fetch_metanetx_refdata.sh     # pin a release
+#   MNX_RELEASE_TAG=metanetx-4.5 bash scripts/fetch_metanetx_refdata.sh
+#                                                              # use a github
+#                                                              # release as the
+#                                                              # source instead
+#                                                              # of metanetx.org
 #
 # Notes:
-# - These files are gitignored due to size (~150 MB total uncompressed).
-# - metanetx.org may rate-limit; if so, retry with a delay.
+# - The TSVs are gitignored due to size (~150 MB total).
+# - Sources tried, in order:
+#     1. github release on $MNX_RELEASE_REPO (default zoey-rw/soil_microbe_GEMs)
+#        if MNX_RELEASE_TAG is set. Use this in sandboxed environments where
+#        metanetx.org is firewalled but github.com is reachable. To create the
+#        release, upload chem_xref.tsv, chem_prop.tsv, reac_xref.tsv,
+#        reac_prop.tsv as assets on a release named e.g. "metanetx-4.5".
+#     2. metanetx.org/cgi-bin/mnxget/mnxref/ (or /ftp/$MNX_VERSION/ if pinned).
 # - The script is idempotent: skips files already present unless FORCE=1.
 
 set -euo pipefail
@@ -19,15 +30,21 @@ mkdir -p "$REF_DIR"
 cd "$REF_DIR"
 
 MNX_VERSION="${MNX_VERSION:-}"
+MNX_RELEASE_TAG="${MNX_RELEASE_TAG:-}"
+MNX_RELEASE_REPO="${MNX_RELEASE_REPO:-zoey-rw/soil_microbe_GEMs}"
 FORCE="${FORCE:-0}"
 
-if [[ -n "$MNX_VERSION" ]]; then
+if [[ -n "$MNX_RELEASE_TAG" ]]; then
+    BASE="https://github.com/${MNX_RELEASE_REPO}/releases/download/${MNX_RELEASE_TAG}"
+    SOURCE_LABEL="github release ${MNX_RELEASE_REPO}@${MNX_RELEASE_TAG}"
+elif [[ -n "$MNX_VERSION" ]]; then
     BASE="https://www.metanetx.org/ftp/${MNX_VERSION}"
-    echo "Using pinned MetaNetX version: $MNX_VERSION"
+    SOURCE_LABEL="MetaNetX FTP, version ${MNX_VERSION}"
 else
     BASE="https://www.metanetx.org/cgi-bin/mnxget/mnxref"
-    echo "Using latest MetaNetX (unpinned). Set MNX_VERSION=4.5 (or similar) for reproducibility."
+    SOURCE_LABEL="MetaNetX (latest, unpinned)"
 fi
+echo "Source: $SOURCE_LABEL"
 
 FILES=(
     chem_xref.tsv
@@ -43,7 +60,12 @@ for f in "${FILES[@]}"; do
     fi
     echo "  fetching $f from $BASE/$f ..."
     if ! curl -fL --retry 3 --retry-delay 5 -o "$f.tmp" "$BASE/$f"; then
-        echo "  ERROR: failed to fetch $f. Check network access to metanetx.org."
+        echo "  ERROR: failed to fetch $f from $SOURCE_LABEL."
+        if [[ -z "$MNX_RELEASE_TAG" ]]; then
+            echo "  In sandboxed environments where metanetx.org is firewalled,"
+            echo "  upload the four TSVs as assets on a github release on"
+            echo "  $MNX_RELEASE_REPO and re-run with MNX_RELEASE_TAG=<tag>."
+        fi
         rm -f "$f.tmp"
         exit 1
     fi

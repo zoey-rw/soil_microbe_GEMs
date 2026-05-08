@@ -118,14 +118,24 @@ from MetaNetX are gitignored due to size (~150 MB). The convenience script
 cached `metanetx_reference_data.rds` in one step. Set `MNX_VERSION` (e.g.
 `MNX_VERSION=4.5`) for reproducibility, or omit it for the latest release.
 
-If you're working in a sandboxed environment that blocks `metanetx.org`,
-download the TSVs on a machine with network access and copy them into
-`reference_data/` manually, then run the second half of the script:
+If you're working in a sandboxed environment that blocks `metanetx.org`
+(such as Claude Code on the web — `metanetx.org`, the SPARQL endpoint
+`rdf.metanetx.org`, Bioconductor, CRAN, BiGG, KEGG, ChEBI are all
+behind the same allowlist), the script supports a github-release
+fallback:
 
 ```bash
-Rscript -e 'source("pipeline/sbml_processing_utils.R"); \
-            saveRDS(get_reference_data(), "reference_data/metanetx_reference_data.rds")'
+# On an unrestricted machine, download the TSVs and create a release:
+gh release create metanetx-4.5 --repo zoey-rw/soil_microbe_GEMs \
+    chem_xref.tsv chem_prop.tsv reac_xref.tsv reac_prop.tsv \
+    --notes "MetaNetX 4.5 reference cache for the soil_microbe_GEMs pipeline."
+
+# Then in the sandboxed session:
+MNX_RELEASE_TAG=metanetx-4.5 bash scripts/fetch_metanetx_refdata.sh
 ```
+
+GitHub release assets accept files up to 2 GB each, well above the
+~30 MB-per-file MetaNetX TSVs.
 
 ## Dependencies
 
