@@ -24,9 +24,11 @@ direction, edit the loader; the call sites stay unchanged.
 | Variable | Purpose | Default |
 |---|---|---|
 | `SOIL_MICROBE_GEMS_USE_COBRA_SHIM` | Switch backend (`1` = cobra shim) | unset = patched sybilSBML |
+| `SOIL_MICROBE_GEMS_HAVE_SYBILSBML` | Tells `tests/test_shim_equivalence.py` whether to run | `1` locally; `0` on stock GHA |
 | `SOIL_MICROBE_GEMS_VALIDATE_TIMEOUT_SEC` | Cobra-validation timeout per model | 600 |
 | `SOIL_MICROBE_DB` | Path to the upstream `soil_microbe_db` data dir (used by `comets_shinyapp_example/01_merge_env_data.r`) | unset (script errors with a pointer) |
 | `MNX_VERSION` | MetaNetX release pin for `scripts/fetch_metanetx_refdata.sh` | unset = latest |
+| `MNX_RELEASE_TAG` / `MNX_RELEASE_REPO` | GitHub-release fallback for sandboxed environments where `metanetx.org` is firewalled | unset |
 | `POSTGRES_USER` / `POSTGRES_PASSWORD` / `POSTGRES_DB` | Shiny app's Postgres creds (read from `.env`) | none — startup fails if `POSTGRES_PASSWORD` is unset |
 
 ## Entry points
@@ -47,6 +49,9 @@ direction, edit the loader; the call sites stay unchanged.
 - `tests/test_pipeline_smoke.py` — five fast species, asserts read+growth equivalence to `tests/golden/smoke_cohort.json`.
 - `tests/test_processed_validity.py` — static-XML regression net for the structural bug Plan D found. Maintains a `KNOWN_BROKEN` set of species whose committed `*_processed.xml` still has bugs (xfailed). Removing a name from the set is the signal that the underlying fix has been verified end-to-end.
 - `tests/test_convert_to_comets.py` — COMETS converter tests on the smoke cohort.
+- `tests/test_shim_equivalence.py` — slot-by-slot diff between patched sybilSBML and the cobra-shim backend (issue #5). Skips automatically on environments without sybilSBML; gate via `SOIL_MICROBE_GEMS_HAVE_SYBILSBML`.
+- `tests/test_repair_fbc_objective.py` — synthetic-input coverage of `repair_fbc_objective()` (issue #6). All six policy branches plus the no-op case. Doesn't require either backend installed.
+- `tests/test_sid_reencode.py` — synthetic-input coverage of `enforce_sbml_sids()` (issue #7). Doesn't require either backend.
 
 CI:
 
@@ -60,9 +65,9 @@ CI:
 | [#2](https://github.com/zoey-rw/soil_microbe_GEMs/issues/2) | Plan a full Python port | Tracking issue. Stage 1 (shim) landed. Stage 2 (full port) blocked on the equivalence harness in #5. |
 | [#3](https://github.com/zoey-rw/soil_microbe_GEMs/issues/3) | shinyapp scripts 02-04 still depend on hardcoded CWD | Untouched. Blocked on access to the upstream `soil_microbe_db` dataset. |
 | [#4](https://github.com/zoey-rw/soil_microbe_GEMs/issues/4) | Verify the `merged_df` alias in `01_merge_env_data.r` | Workaround alias landed; verification pending end-to-end run with real data. |
-| [#5](https://github.com/zoey-rw/soil_microbe_GEMs/issues/5) | Build the per-species shim equivalence harness | In progress (background agent; this commit may already include the harness). |
-| [#6](https://github.com/zoey-rw/soil_microbe_GEMs/issues/6) | Translate legacy `OBJECTIVE_COEFFICIENT` to `fbc:fluxObjective` | Open. Affects iAF987 et al. Needs slot additions to the shim S4 class + matching changes in sybilSBML reads. |
-| [#7](https://github.com/zoey-rw/soil_microbe_GEMs/issues/7) | Re-encode SBML-SId-illegal characters before writeSBML | In progress (background agent; this commit may already include the fix). |
+| [#5](https://github.com/zoey-rw/soil_microbe_GEMs/issues/5) | Per-species shim equivalence harness | Landed (`tests/test_shim_equivalence.py`). Local: 34 passed / 3 skipped / 3 xfailed for documented divergences. |
+| [#6](https://github.com/zoey-rw/soil_microbe_GEMs/issues/6) | Translate legacy `OBJECTIVE_COEFFICIENT` to `fbc:fluxObjective` | Landed (`repair_fbc_objective()` in `process_sbml_species.R`; 7 unit tests). End-to-end verification on iAF987 still pending real-MetaNetX run. |
+| [#7](https://github.com/zoey-rw/soil_microbe_GEMs/issues/7) | Re-encode SBML-SId-illegal characters before writeSBML | Landed (`enforce_sbml_sids()` in `process_sbml_species.R`; 5 unit tests). End-to-end verification on iJDZ836 still pending real-MetaNetX run. |
 
 Bound clamping (Plan D's third bug) is intentionally not filed — per the project lead, the eventual fix must be configurable per species via `config/species_registry.yaml`. Until that design is locked in, the current ±1000 clamping behaviour is unchanged.
 
