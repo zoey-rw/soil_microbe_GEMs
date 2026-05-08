@@ -32,7 +32,11 @@ setClass(
         met_attr    = "list",       # holds $annotation = character vector
         mod_compart = "character",
         react_id    = "character",
+        react_name  = "character",
         react_rev   = "logical",
+        obj_coef    = "numeric",    # per-reaction objective coefficient
+        lowbnd      = "numeric",    # per-reaction lower bound
+        uppbnd      = "numeric",    # per-reaction upper bound
         gpr         = "character",
         source_file = "character"
     )
@@ -112,7 +116,11 @@ readSBMLmod <- function(file,
         met_attr    = list(annotation = as.character(state$met_annotation)),
         mod_compart = as.character(state$mod_compart),
         react_id    = as.character(state$react_id),
+        react_name  = as.character(state$react_name %||% state$react_id),
         react_rev   = as.logical(state$react_rev),
+        obj_coef    = as.numeric(state$obj_coef %||% rep(0, length(state$react_id))),
+        lowbnd      = as.numeric(state$lowbnd   %||% rep(-1000, length(state$react_id))),
+        uppbnd      = as.numeric(state$uppbnd   %||% rep( 1000, length(state$react_id))),
         gpr         = as.character(state$gpr),
         source_file = as.character(file)
     )
@@ -150,7 +158,10 @@ writeSBML <- function(model, level = 3, filename, ...) {
         handle   = as.integer(model@handle),
         met_id   = as.character(model@met_id),
         react_id = as.character(model@react_id),
-        gpr      = as.character(model@gpr)
+        gpr      = as.character(model@gpr),
+        obj_coef = as.numeric(model@obj_coef),
+        lowbnd   = as.numeric(model@lowbnd),
+        uppbnd   = as.numeric(model@uppbnd)
     )
     res <- mod$write_sbml(state, filename, as.integer(level))
     invisible(res)

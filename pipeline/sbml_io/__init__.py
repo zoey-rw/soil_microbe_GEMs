@@ -142,7 +142,11 @@ def read_sbml(path: str) -> Dict[str, Any]:
         "met_annotation": [_serialize_annotation(m.annotation) for m in model.metabolites],
         "mod_compart": codes,
         "react_id": [r.id for r in model.reactions],
+        "react_name": [r.name or r.id for r in model.reactions],
         "react_rev": [r.lower_bound < 0 for r in model.reactions],
+        "obj_coef": [float(r.objective_coefficient) for r in model.reactions],
+        "lowbnd": [float(r.lower_bound) for r in model.reactions],
+        "uppbnd": [float(r.upper_bound) for r in model.reactions],
         "gpr": [r.gene_reaction_rule for r in model.reactions],
     }
 
@@ -192,9 +196,11 @@ def write_sbml(state: Dict[str, Any], filename: str, level: int = 3) -> Dict[str
     and write SBML to ``filename``.
 
     Slots applied:
-      met_id   -> rename metabolites
-      react_id -> rename reactions
-      gpr      -> reaction.gene_reaction_rule
+      met_id            -> rename metabolites
+      react_id          -> rename reactions
+      gpr               -> reaction.gene_reaction_rule
+      obj_coef          -> reaction.objective_coefficient
+      lowbnd / uppbnd   -> reaction.lower_bound / upper_bound
 
     Returns a small dict with rename counts so the R caller can log them.
     """
@@ -219,6 +225,32 @@ def write_sbml(state: Dict[str, Any], filename: str, level: int = 3) -> Dict[str
             model.reactions[i].gene_reaction_rule = new or ""
             gpr_updates += 1
 
+    # Apply objective + bound updates if provided. These are only present
+    # when the R caller is using the modelorg_cobra slots that were added
+    # in the issue #6 work — older callers omit them.
+    obj_updates = 0
+    bound_updates = 0
+    new_obj = state.get("obj_coef")
+    if new_obj is not None and len(new_obj) == len(model.reactions):
+        for i, coef in enumerate(new_obj):
+            current = float(model.reactions[i].objective_coefficient)
+            if abs(current - float(coef)) > 1e-12:
+                model.reactions[i].objective_coefficient = float(coef)
+                obj_updates += 1
+
+    new_lb = state.get("lowbnd")
+    new_ub = state.get("uppbnd")
+    if (new_lb is not None and new_ub is not None
+            and len(new_lb) == len(model.reactions)
+            and len(new_ub) == len(model.reactions)):
+        for i, (lb, ub) in enumerate(zip(new_lb, new_ub)):
+            r = model.reactions[i]
+            cur_lb, cur_ub = float(r.lower_bound), float(r.upper_bound)
+            new_lb_f, new_ub_f = float(lb), float(ub)
+            if abs(cur_lb - new_lb_f) > 1e-12 or abs(cur_ub - new_ub_f) > 1e-12:
+                r.bounds = (new_lb_f, new_ub_f)
+                bound_updates += 1
+
     # Refresh the entry's "originals" so a second write_sbml call applies
     # only the new deltas.
     entry.original_met_ids = list(new_met_ids)
@@ -237,6 +269,8 @@ def write_sbml(state: Dict[str, Any], filename: str, level: int = 3) -> Dict[str
         "metabolite_renames": met_renames,
         "reaction_renames": react_renames,
         "gpr_updates": gpr_updates,
+        "objective_updates": obj_updates,
+        "bound_updates": bound_updates,
     }
 
 

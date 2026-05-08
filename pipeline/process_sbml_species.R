@@ -668,6 +668,110 @@ handle_duplicates <- function(met_df) {
 }
 
 
+#' Detect a biomass reaction by name pattern. Returns the index of the
+#' best candidate or integer(0) if none found.
+#' @param sbml_model A modelorg-shaped object with @react_id and @react_name slots.
+#' @return integer scalar index, or integer(0).
+detect_biomass_reaction <- function(sbml_model) {
+    if (length(sbml_model@react_id) == 0) return(integer(0))
+    react_names <- if ("react_name" %in% slotNames(sbml_model) &&
+                      length(sbml_model@react_name) == length(sbml_model@react_id)) {
+        sbml_model@react_name
+    } else {
+        sbml_model@react_id
+    }
+    name_match <- grepl("biomass", sbml_model@react_id, ignore.case = TRUE) |
+                  grepl("biomass", react_names,        ignore.case = TRUE)
+    candidates <- which(name_match)
+    if (length(candidates) == 0) return(integer(0))
+    # Pick the candidate with the longest react_id (most specific match like
+    # BIOMASS_Gm_GS15_core_79p20M wins over the generic biomass0).
+    candidates[which.max(nchar(sbml_model@react_id[candidates]))]
+}
+
+#' Repair the model's FBC objective for SBML output. Plan D / issue #6 fix.
+#'
+#' Some legacy models (e.g. iAF987) store the objective inside <kineticLaw>
+#' OBJECTIVE_COEFFICIENT parameters and don't have a fbc:objective block. The
+#' pipeline correctly strips kineticLaw nodes for modern SBML L3 output, but
+#' that drops the objective signal. This function detects a biomass reaction
+#' and re-asserts the objective on the model; if the biomass reaction's bounds
+#' are exactly (0, 0) — locked — it unlocks them to (0, 1000) and records a
+#' warning in `processing_log` so the user knows we touched the model.
+#'
+#' Backend-compatible: works on both sybilSBML's modelorg and the cobra-shim
+#' modelorg_cobra (both expose @obj_coef, @lowbnd, @uppbnd, @react_id slots).
+#' If a backend doesn't expose those slots, the function logs a notice and
+#' returns the model unchanged.
+#'
+#' @param sbml_model The model object.
+#' @param processing_log Mutable list to append warnings to.
+#' @return list(model = ..., processing_log = ...)
+repair_fbc_objective <- function(sbml_model, processing_log) {
+    required_slots <- c("obj_coef", "lowbnd", "uppbnd", "react_id")
+    have <- required_slots %in% slotNames(sbml_model)
+    if (!all(have)) {
+        cat("  Skipping repair_fbc_objective: backend missing slots:",
+            paste(required_slots[!have], collapse = ", "), "\n")
+        return(list(model = sbml_model, processing_log = processing_log))
+    }
+    if (length(sbml_model@obj_coef) != length(sbml_model@react_id) ||
+        length(sbml_model@lowbnd)   != length(sbml_model@react_id) ||
+        length(sbml_model@uppbnd)   != length(sbml_model@react_id)) {
+        # Slot lengths inconsistent — bail rather than corrupting.
+        return(list(model = sbml_model, processing_log = processing_log))
+    }
+
+    biomass_idx <- detect_biomass_reaction(sbml_model)
+    nz_obj_idx <- which(abs(sbml_model@obj_coef) > 1e-9)
+    has_existing_objective <- length(nz_obj_idx) > 0
+
+    if (length(biomass_idx) == 0) {
+        # No biomass detected. Don't touch existing objectives; just warn if
+        # there's nothing to optimise.
+        if (!has_existing_objective) {
+            msg <- "No biomass reaction detected and no fbc:objective set; FBA growth on the processed model will return 0."
+            cat("  ⚠", msg, "\n")
+            processing_log$warnings <- append(processing_log$warnings, msg)
+        }
+        return(list(model = sbml_model, processing_log = processing_log))
+    }
+
+    biomass_id <- sbml_model@react_id[biomass_idx]
+
+    # Set objective if not already pointed at biomass.
+    if (!(biomass_idx %in% nz_obj_idx) || abs(sbml_model@obj_coef[biomass_idx] - 1) > 1e-9) {
+        if (has_existing_objective && !(biomass_idx %in% nz_obj_idx)) {
+            # Existing objective points elsewhere. Leave it alone but warn.
+            current <- sbml_model@react_id[nz_obj_idx]
+            msg <- sprintf(
+                "Detected biomass %s but existing fbc:objective points at %s; left objective alone.",
+                biomass_id, paste(current, collapse = ", "))
+            cat("  ⚠", msg, "\n")
+            processing_log$warnings <- append(processing_log$warnings, msg)
+        } else {
+            sbml_model@obj_coef[] <- 0
+            sbml_model@obj_coef[biomass_idx] <- 1
+            cat("  Setting fbc:objective coefficient on biomass:", biomass_id, "\n")
+            processing_log$objective_repaired <- biomass_id
+        }
+    }
+
+    # Unlock biomass if hard-locked at (0, 0).
+    lb <- sbml_model@lowbnd[biomass_idx]
+    ub <- sbml_model@uppbnd[biomass_idx]
+    if (isTRUE(all.equal(lb, 0)) && isTRUE(all.equal(ub, 0))) {
+        sbml_model@uppbnd[biomass_idx] <- 1000
+        msg <- sprintf("Unlocked biomass %s from (0,0) to (0,1000); flag for downstream review.",
+                       biomass_id)
+        cat("  ⚠", msg, "\n")
+        processing_log$warnings <- append(processing_log$warnings, msg)
+        processing_log$biomass_unlocked <- biomass_id
+    }
+
+    list(model = sbml_model, processing_log = processing_log)
+}
+
 #' Main processing function for a single species with enhanced logging
 #' Main processing function for a single species
 #' @param species_dir Path to species directory
@@ -831,7 +935,14 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
         sbml_model <- update_exchange_reactions(sbml_model)
         sbml_model <- standardize_compartment_notation(sbml_model)
         sbml_model <- clean_gpr_associations(sbml_model)
-        
+
+        # Plan D / issue #6: re-assert fbc:objective and unlock locked biomass.
+        # No-ops if the model already has a sensible objective and the biomass
+        # bounds aren't (0, 0).
+        repair <- repair_fbc_objective(sbml_model, processing_log)
+        sbml_model <- repair$model
+        processing_log <- repair$processing_log
+
         # Write output
         cat("Writing processed SBML file...\n")
         writeSBML(sbml_model, level = 3, filename = output_file)
