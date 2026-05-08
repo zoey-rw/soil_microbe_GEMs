@@ -866,7 +866,6 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
         
         # Handle duplicates
         cat("Handling duplicate IDs...\n")
-        #met_df <- handle_duplicates(met_df)
         met_df <- handle_duplicates(met_df)
 
         # Issue #7 fix: re-encode ids whose bare name portion still
@@ -998,13 +997,3 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
         ))
     })
 }
-
-# For testing with individual species 
-
-# ref_data <- readRDS("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/reference_data/metanetx_reference_data.rds")
-# deprecated_recode <- readRDS("/projectnb/talbot-lab-data/zrwerbin/microbial_gem_database/reference_data/deprecated_recode_mets.rds")
-
-# result <- process_single_species("./species/nitrobacter_winogradskyi_iFC579", ref_data, deprecated_recode)
-# result <- process_single_species("./species/methanosarcina_barkeri_iMG746", ref_data, deprecated_recode)
-# result <- process_single_species("./species/nitrosomonas_europaea_iGC535/", ref_data, deprecated_recode)
-#result <- process_single_species("/projectnb/talbot-lab-data/zrwerbin/soil_microbe_GEMs/species/bacillus_subtilis_iBB1018/", ref_data, deprecated_recode)
