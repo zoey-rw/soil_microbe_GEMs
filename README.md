@@ -45,14 +45,31 @@ The collection includes nitrogen cycle bacteria (ammonia and nitrite oxidizers),
 
 Over 500 additional models are derived from template-based algorithms such as CarveFungi and COMMIT.
 
-## File Structure
+## Repository layout
+
+| Path | What's here |
+|---|---|
+| `scripts/run_batch_process.R` | CLI entry point — `Rscript scripts/run_batch_process.R --help` |
+| `scripts/install_r_deps.R` | Installs R packages including the patched sybilSBML |
+| `pipeline/process_sbml_species.R` and friends | Core pipeline (annotation conversion, MetanetX cascade, GPR cleanup) |
+| `pipeline/sbml_io_cobra.R` + `pipeline/sbml_io/` | Cobra-via-reticulate I/O shim (transitional alternative to sybilSBML) |
+| `pipeline/sbml_io_loader.R` | Selects backend by `SOIL_MICROBE_GEMS_USE_COBRA_SHIM` env var |
+| `pipeline/vendor/` | Patched sybilSBML installer (works against modern libSBML) |
+| `pipeline/convert_to_comets.py` | Converts a processed SBML → COMETS `.cmd` file |
+| `pipeline/reproduce_validation.py` | Independent COBRApy validator (writes `reproduction_report.json`) |
+| `species/` | 47 curated species with input + processed SBML + per-species JSON metadata |
+| `carvefungi_species/` | 500+ template-based fungal models (input + processed) |
+| `tests/` | pytest regression harness; `python tests/regenerate_golden.py` to update |
+| `comets_shinyapp_example/` | Dockerized Shiny app over the database |
+| `microbe-sql-compose/` | Postgres docker-compose used by the Shiny app |
+| `archive/` | Deprecated scripts kept for reference |
 
 Each species directory for curated models contains:
 
 - Original SBML file(s)
-- `*_processed.xml` - Standardized model with MetanetX annotations
-- `processing_metadata.json` - Conversion statistics and logs
-- `validation_results.json` - COBRApy validation results
+- `*_processed.xml` — standardized model with MetanetX annotations
+- `processing_metadata.json` — conversion statistics and logs
+- `validation_results.json` — COBRApy validation results
 - Supplementary information from publication, when available
 
 ## Quickstart
