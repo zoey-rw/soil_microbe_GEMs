@@ -29,6 +29,12 @@ jobs:
       - name: Run pytest
         env:
           PYTHONWARNINGS: ignore
+          # The shim-equivalence harness needs patched sybilSBML which
+          # the GitHub Actions ubuntu runner can't install out of the box
+          # (libSBML compile fails). Disable that suite on CI; it runs
+          # locally where pipeline/vendor/install_sybilSBML.sh has been
+          # executed. See tests/test_shim_equivalence.py for details.
+          SOIL_MICROBE_GEMS_HAVE_SYBILSBML: "0"
         run: |
           pytest -q tests/ --tb=short
 
@@ -36,3 +42,57 @@ jobs:
         if: always()
         run: |
           pytest tests/ -q --tb=no --no-header -rxX 2>&1 | tail -30 || true
+
+  shim-equivalence:
+    # Dedicated job for the issue #5 slot-by-slot equivalence harness.
+    # Decoupled from the main pytest job because it needs both R and a
+    # patched sybilSBML build, and we want failures here to be diagnostic
+    # rather than gating (it is acceptance evidence for the cobra-shim
+    # swap-in, not a CI gate on every PR).
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.3'
+
+      - name: Install R dependencies (jsonlite, reticulate)
+        run: |
+          Rscript -e 'install.packages(c("jsonlite","reticulate","Matrix","methods"), repos="https://cloud.r-project.org")'
+
+      - name: Install patched sybilSBML
+        id: sybilsbml
+        continue-on-error: true
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-dev libsbml5-dev libglpk-dev
+          bash pipeline/vendor/install_sybilSBML.sh
+
+      - name: Run equivalence harness
+        if: steps.sybilsbml.outcome == 'success'
+        env:
+          SOIL_MICROBE_GEMS_HAVE_SYBILSBML: "1"
+          PYTHONWARNINGS: ignore
+        run: |
+          pytest -q tests/test_shim_equivalence.py --tb=short -rxX
+
+      - name: Skip note when sybilSBML couldn't be installed
+        if: steps.sybilsbml.outcome != 'success'
+        run: |
+          echo "Skipping shim-equivalence harness: patched sybilSBML did not install in this CI environment."
+          echo "This is the documented fallback path; the harness still runs locally for issue #5 acceptance."

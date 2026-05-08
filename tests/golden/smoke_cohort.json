@@ -12,7 +12,13 @@
       "metabolites": 725,
       "reactions": 716
     },
-    "processed_file": "iMR557_processed.xml"
+    "processed_file": "iMR557_processed.xml",
+    "shim_equivalence": {
+      "boundary_species_dropped_by_sybilsbml": 1,
+      "reactions_dropped_by_sybilsbml": 0,
+      "react_rev_tolerance_pct": 2.0,
+      "reason": "sybilSBML drops 1 orphan metabolite (cpd00055[c0]) at load that participates in no reactions; cobra retains it. 7 reactions (~1%) also have react_rev divergence due to SBML reversible attribute vs. bound-derived value (sybilSBML honours attr; cobra reads bounds)."
+    }
   },
   "methanosarcina_barkeri_iMG746": {
     "input": {
@@ -27,7 +33,13 @@
       "metabolites": 718,
       "reactions": 816
     },
-    "processed_file": "iMG746_processed.xml"
+    "processed_file": "iMG746_processed.xml",
+    "shim_equivalence": {
+      "boundary_species_dropped_by_sybilsbml": 0,
+      "reactions_dropped_by_sybilsbml": 0,
+      "react_rev_tolerance_pct": 8.0,
+      "reason": "58 reactions (~7.1% of 816) have SBML reversible-attribute vs bound-derived react_rev divergence (sybilSBML honours the attribute literally; cobra computes from bounds). Tolerance 8% accommodates this. iMG746 also has the largest GPR free-text variation in the cohort but those normalise away cleanly."
+    }
   },
   "nitrobacter_winogradskyi_iFC579": {
     "input": {
@@ -42,7 +54,13 @@
       "metabolites": 1007,
       "reactions": 1128
     },
-    "processed_file": "iFC579_processed.xml"
+    "processed_file": "iFC579_processed.xml",
+    "shim_equivalence": {
+      "boundary_species_dropped_by_sybilsbml": 11,
+      "reactions_dropped_by_sybilsbml": 2,
+      "react_rev_tolerance_pct": 2.0,
+      "reason": "sybilSBML drops 11 boundary metabolites and 2 reactions at load (the 1018-vs-1007 / 1130-vs-1128 delta described in issue #5). cobra retains all of them. Slot-by-slot equality holds on the 1007/1128 intersection; the harness xfails the met_id/react_id set assertions and records the residual delta here. 14 reactions (~1.2%) also have react_rev divergence due to SBML reversible-attr vs bound-derived semantics."
+    }
   },
   "nitrosomonas_europaea_iGC535": {
     "input": {
@@ -72,6 +90,12 @@
       "metabolites": 825,
       "reactions": 765
     },
-    "processed_file": "NmrFL413_processed.xml"
+    "processed_file": "NmrFL413_processed.xml",
+    "shim_equivalence": {
+      "boundary_species_dropped_by_sybilsbml": 0,
+      "reactions_dropped_by_sybilsbml": 0,
+      "react_rev_tolerance_pct": 6.0,
+      "reason": "39 reactions (5.1% of 765) have SBML reversible attribute that disagrees with the bound-derived value. sybilSBML honours the attribute literally; cobra computes react_rev from bounds (lb<0). Tolerance 6% accommodates this."
+    }
   }
 }
