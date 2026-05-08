@@ -536,6 +536,75 @@ replace_deprecated_ids <- function(met_df, deprecated_recode) {
     return(met_df)
 }
 
+#' Re-encode metabolite ids so the bare-name portion is a valid SBML SId.
+#'
+#' Plan D handles duplicate ids and NA compartments, but does not catch the
+#' case where `fix_metabolite_encoding` (in processing_utils.R) decoded
+#' percent-style escapes like `__43__`/`__91__`/`__93__` back to literal
+#' `+`/`[`/`]`. Those are great for cross-database matching but illegal in
+#' an SBML SId (regex `^[A-Za-z_][A-Za-z0-9_]*$`). sybilSBML's writeSBML
+#' silently emits <species> blocks WITHOUT an id attribute when the
+#' supplied id contains such characters (issue #7).
+#'
+#' This function operates on `met_df$new_met_out`, which has the form
+#' `name[compartment]`. The compartment portion is validated upstream and
+#' must be left intact; we only repair the bare name. Specifically:
+#'   - Anything not in `[A-Za-z0-9_]` becomes `_`.
+#'   - A leading digit gets prefixed with `M_` so the result starts with
+#'     a letter (rare but observed e.g. for metabolites whose name is a
+#'     bare number like `2pg` if compartments were stripped weirdly).
+#'   - Empty names (would-be `[c]`) get a placeholder of `M_unknown`.
+#'
+#' Renames are echoed to stdout so they end up in conversion_logs.
+#'
+#' @param met_df Metabolite data frame as produced by handle_duplicates.
+#' @return The same data frame with `new_met_out` repaired in-place.
+enforce_sbml_sids <- function(met_df) {
+    if (!"new_met_out" %in% names(met_df) || nrow(met_df) == 0) {
+        return(met_df)
+    }
+    sid_re <- "^[A-Za-z_][A-Za-z0-9_]*$"
+    rename_count <- 0L
+    for (i in seq_len(nrow(met_df))) {
+        full <- met_df$new_met_out[i]
+        if (is.na(full) || full == "") next
+        # Split into name + [compartment]. We only touch the name; the
+        # downstream writeSBML routine consumes "name[comp]" and parses
+        # the bracket portion separately.
+        bracket_pos <- regexpr("\\[", full)
+        if (bracket_pos > 0) {
+            name_part <- substr(full, 1L, bracket_pos - 1L)
+            comp_part <- substr(full, bracket_pos, nchar(full))
+        } else {
+            name_part <- full
+            comp_part <- ""
+        }
+        if (grepl(sid_re, name_part)) next  # already legal
+        original_name <- name_part
+        # 1. Replace every illegal char with underscore.
+        fixed_name <- gsub("[^A-Za-z0-9_]", "_", name_part)
+        # 2. Empty name -> placeholder.
+        if (nchar(fixed_name) == 0L) {
+            fixed_name <- "M_unknown"
+        }
+        # 3. Leading digit -> prefix `M_` (SBML SIds must start with
+        #    letter or underscore).
+        if (grepl("^[0-9]", fixed_name)) {
+            fixed_name <- paste0("M_", fixed_name)
+        }
+        new_full <- paste0(fixed_name, comp_part)
+        met_df$new_met_out[i] <- new_full
+        rename_count <- rename_count + 1L
+        cat("  - enforce_sbml_sids: '", original_name, "' -> '", fixed_name,
+            "' (was '", full, "', now '", new_full, "')\n", sep = "")
+    }
+    if (rename_count > 0L) {
+        cat("  enforce_sbml_sids: renamed", rename_count,
+            "metabolite id(s) to satisfy SBML SId regex\n")
+    }
+    return(met_df)
+}
+
 #' Handle duplicate metabolite IDs with improved encoding awareness
 handle_duplicates <- function(met_df) {
 
@@ -695,7 +764,22 @@ process_single_species <- function(species_dir, ref_data, deprecated_recode, con
         cat("Handling duplicate IDs...\n")
         #met_df <- handle_duplicates(met_df)
         met_df <- handle_duplicates(met_df)
-        
+
+        # Issue #7 fix: re-encode ids whose bare name portion still
+        # contains characters illegal for an SBML SId (e.g. iJDZ836's
+        # `Fe+2`, `Mg2+`, `Na+`, `Fe+3`, `K+`). The first pass above can
+        # leave such names intact when no duplicate-revert was needed.
+        cat("Enforcing SBML SId compliance...\n")
+        met_df <- enforce_sbml_sids(met_df)
+
+        # Re-run duplicate handling: re-encoding may have collapsed two
+        # distinct ids onto the same legal form (e.g. `Fe+2` and `Fe_2`
+        # both -> `Fe_2`). The Plan D uniqueness pass inside
+        # handle_duplicates() will append `_dupN` suffixes to preserve
+        # all rows.
+        cat("Handling duplicate IDs (post-SId re-encoding)...\n")
+        met_df <- handle_duplicates(met_df)
+
         # Log conversions
         cat("Generating conversion logs...\n")
         conversion_log_result <- log_metabolite_conversions(met_df, actual_model_id, log_dir)
