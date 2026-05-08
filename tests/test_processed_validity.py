@@ -18,23 +18,33 @@ import pytest
 
 from conftest import REPO_ROOT
 
-# Species with KNOWN-BAD processed files. These are the regressions Plan D
-# identified, plus 3 more (iFC579, iJN1462, iRZ1179) the harness uncovered
-# with finer granularity than Plan D's manual analysis. All are the same
-# root cause: the species-merge / "additional reactions" code path emits
-# duplicate ids, id-less species, or compartment="NA". They will be removed
-# from this list as Plan D's pipeline fix lands.
+# Species whose committed *_processed.xml files still contain known bugs.
+#
+# The Plan D fix in commit 7fa0d64 (handle_duplicates uniqueness +
+# @met_comp recovery) was verified to resolve 7 of these 8 entries
+# end-to-end (see issue #5 for the equivalence harness; agent ran the
+# pipeline on a stub MetanetX, dedup safety net cleared 265 collisions
+# on iRZ1179, NA-compartment recovery cleared 513 on halom, etc.). To
+# ACTUALLY remove these entries from KNOWN_BROKEN, the maintainer must
+# re-run the pipeline against the real MetanetX reference data and
+# commit the regenerated *_processed.xml files. Until then the existing
+# committed outputs reflect the pre-fix pipeline and should xfail.
+#
+# iJDZ836 is the one survivor whose bug is NOT covered by the Plan D
+# fix. See issue #7: 5 metal species decode to ids containing `+` and
+# `[]` (e.g. `Fe+2[CCO-EXTRACELLULAR]`), which are not legal SBML SIds.
 KNOWN_BROKEN = {
-    # Original Plan D findings (unreadable by cobra after processing)
+    # 7 species: Plan D fix verified to resolve. Remove after re-running
+    # the pipeline with real MetanetX data and re-committing the XMLs.
     "cesiribacter_andamanensis_Xu_cesiri",
     "halomonas_stevensii_Xu_halom",
     "hansenula_polymorpha_hanpo_z",
     "methylorubrum_extorquens_iRP911",
+    "nitrobacter_winogradskyi_iFC579",
+    "pseudomonas_putida_iJN1462",
+    "paenarthrobacter_aurescens_iRZ1179",
+    # Surviving issue, separate fix needed (see issue #7):
     "neurospora_crassa_iJDZ836",
-    # Discovered by this test harness (still readable but malformed)
-    "nitrobacter_winogradskyi_iFC579",       # 1x compartment="NA"
-    "pseudomonas_putida_iJN1462",            # 2x compartment="NA"
-    "paenarthrobacter_aurescens_iRZ1179",    # 265 duplicate species ids
 }
 
 SID_RE = re.compile(r"^[A-Za-z_][A-Za-z0-9_]*$")
