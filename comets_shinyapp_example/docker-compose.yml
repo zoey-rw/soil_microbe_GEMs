@@ -1,5 +1,8 @@
 version: '3.9'
 
+# To run locally, copy .env.example to .env and fill in POSTGRES_PASSWORD.
+# Never commit a real password.
+
 services:
   shiny:
     build: .
@@ -12,9 +15,9 @@ services:
     image: postgres:13
     container_name: postgres
     environment:
-      POSTGRES_USER: shiny
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: shiny
+      POSTGRES_USER: ${POSTGRES_USER:-shiny}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-shiny}
     ports:
       - "5432:5432"
     restart: unless-stopped

@@ -10,6 +10,9 @@ reference_data/reac_xref.tsv
 Thumbs.db
 desktop.ini
 
+# Local secrets / env (never commit real passwords)
+.env
+
 # R artifacts
 .Rhistory
 .Rapp.history

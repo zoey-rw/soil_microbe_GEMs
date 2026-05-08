@@ -37,13 +37,12 @@ RUN Rscript -e 'install.packages("renv")'
 RUN Rscript -e 'renv::restore()'
 
 
-# Copy the app files into the image
+# Copy the app files into the image. The R code reads from
+# ./reference_data/ and ./intermediate_data/ — preserve that layout
+# rather than the legacy flat copy that didn't match what app.R expects.
 COPY ./app.R /srv/shiny-server/app.R
-COPY ./species_abundance_filt.csv /srv/shiny-server/species_abundance_filt.csv
-COPY ./organism_data_to_subset.csv /srv/shiny-server/organism_data_to_subset.csv
-COPY ./organism_data_to_print.csv /srv/shiny-server/organism_data_to_print.csv
-COPY ./nlcd_key.csv /srv/shiny-server/nlcd_key.csv
-COPY ./organism_taxonomy.csv /srv/shiny-server/organism_taxonomy.csv
+COPY ./reference_data /srv/shiny-server/reference_data
+COPY ./intermediate_data /srv/shiny-server/intermediate_data
 
 # Set permissions for the shiny-server directory
 RUN chown -R shiny:shiny /srv/shiny-server

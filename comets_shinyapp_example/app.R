@@ -59,48 +59,60 @@ abundance_df$biome = biome_info[match(abundance_df$nlcdClass, biome_info$nlcdCla
 
 # UI
 ui <- fluidPage(
+    # Accessibility: declare page language and skip-link target.
+    tags$html(lang = "en"),
+    tags$a(href = "#main-content", class = "sr-only sr-only-focusable",
+           "Skip to main content"),
+
     titlePanel("SoilMicrobeDB: An Interactive Database of Soil Microbial Genomes"),
-    
-    tags$p("The SoilMicrobeDB is a collection of over 30,000 soil microbial genomes, each annotated with ecological preferences for environmental conditions such as pH, temperature, and biome type. This tool allows you to filter, analyze, and visualize data on the most widespread microbial species across different soil environments, using the sample collection from the National Ecological Observatory Network (NEON)."),
-    
-    tags$h4("Filters"),
-    fluidRow(
-        column(4, 
-               selectInput("biome", "Select Biome", choices = biome_choices, multiple = TRUE, selected = biome_choices) %>%
-                   shinyhelper::helper(
-                       type = "inline", 
-                       title = "Biome Preference", 
-                       content = "Biome preference is assigned if a taxon is present in at least 2% of samples within the biome. Biomes are assigned to each NEON sample using the National Land Cover Database.",
-                       icon = "question-circle"
-                   )
-               
-               
+
+    tags$main(id = "main-content",
+        tags$p("The SoilMicrobeDB is a collection of over 30,000 soil microbial genomes, each annotated with ecological preferences for environmental conditions such as pH, temperature, and biome type. This tool allows you to filter, analyze, and visualize data on the most widespread microbial species across different soil environments, using the sample collection from the National Ecological Observatory Network (NEON)."),
+
+        tags$h2("Filters"),
+        fluidRow(
+            column(4,
+                   selectInput("biome", "Select Biome", choices = biome_choices, multiple = TRUE, selected = biome_choices) %>%
+                       shinyhelper::helper(
+                           type = "inline",
+                           title = "Biome Preference",
+                           content = "Biome preference is assigned if a taxon is present in at least 2% of samples within the biome. Biomes are assigned to each NEON sample using the National Land Cover Database.",
+                           icon = "question-circle",
+                           buttonLabel = "Help: Biome Preference"
+                       )
+            ),
+            column(4,
+                   sliderInput("pH_range", "pH Preference Range", min = 3, max = 9, value = c(3, 9)) %>%
+                       shinyhelper::helper(
+                           type = "inline",
+                           title = "pH Preference",
+                           content = "pH preference of each taxon is assigned as the peak of a LOESS curve fit to abundance data across the range of pH values. Click on a taxon to visualize or download this data.",
+                           icon = "question-circle",
+                           buttonLabel = "Help: pH Preference"
+                       )
+            ),
+            column(4,
+                   sliderInput("temperature_range", "Temperature Preference Range", min = 0, max = 40, value = c(0, 40)) %>%
+                       shinyhelper::helper(
+                           type = "inline",
+                           title = "Temperature Preference",
+                           content = "Temperature preference of each taxon is assigned as the peak of a LOESS curve fit to abundance data across the range of temperature values. Click on a taxon to visualize or download this data.",
+                           icon = "question-circle",
+                           buttonLabel = "Help: Temperature Preference"
+                       )
+            )
         ),
-        column(4, 
-               sliderInput("pH_range", "pH Preference Range", min = 3, max = 9, value = c(3, 9)) %>% 
-                   shinyhelper::helper(
-                       type = "inline",
-                       title = "pH Preference",
-                       content = "pH preference of each taxon is assigned as the peak of a LOESS curve fit to abundance data across the range of pH values. Click on a taxon to visualize or download this data.",
-                       icon = "question-circle"
-                   )
-        ),
-        column(4, 
-               sliderInput("temperature_range", "Temperature Preference Range", min = 0, max = 40, value = c(0, 40)) %>%
-                   shinyhelper::helper(
-                       type = "inline",
-                       title = "Temperature Preference",
-                       content = "Temperature preference of each tacon is assigned as the peak of a LOESS curve fit to abundance data across the range of temperature values. Click on a taxon to visualize or download this data.",
-                       icon = "question-circle"
-                   )
-        )
-    ),
-    
-    tags$h4("Organism Data Table"),
-    DT::dataTableOutput("organism_table"),
-    downloadButton("download_organism", "Download Taxon List"),
-    
-    uiOutput("modal_abundance_plot")
+
+        tags$h2("Organism Data Table"),
+        tags$p(class = "sr-only",
+               "Use the table below to explore filtered organisms. ",
+               "Use the keyboard arrow keys to navigate rows, ",
+               "and press Enter or Space to open the abundance modal."),
+        DT::dataTableOutput("organism_table"),
+        downloadButton("download_organism", "Download Taxon List"),
+
+        uiOutput("modal_abundance_plot")
+    )  # end tags$main
 )
 
 # Server
@@ -163,20 +175,26 @@ server <- function(input, output, session) {
                 footer = modalButton("Close")
             )
         } else {
+            # Build the GEM-match summary string OUTSIDE the modalDialog argument
+            # list. The previous version did `gem_match <- ifelse(...)` as one
+            # of the modalDialog() args, which silently leaked the assignment
+            # value into the dialog body (the "yet it does print?" comment).
+            gem_match <- if (is.na(selected_row$GEM_ID)) {
+                "No curated GEM at species or genus level."
+            } else {
+                paste0("Genome-scale model (GEM) available: ", selected_row$GEM_ID,
+                       ". Match criteria: ", selected_row$`GEM match criteria`, ".")
+            }
+
             # Render plots if data is available
             modalDialog(
                 size = "l",
                 title = paste("Abundance of", selected_taxon_name, "in NEON soil samples"),
                 plotOutput("pH_plot"),
                 plotOutput("temperature_plot"),
-                # This shouldn't print since it's not within the tag - yet it does print?
-                gem_match <- ifelse(is.na(selected_row$GEM_ID), 
-                                    "No curated GEM at species or genus level", 
-                                    paste0("Genome-scale model (GEM) available: ", selected_row$GEM_ID, ",\n GEM Match Criteria: ", selected_row$`GEM match criteria`)),
-                #tags$p(paste("Genome-scale model (GEM) available: ", selected_row$GEM_ID)),
-                #tags$p(paste("Match Criteria:", selected_row$`GEM match criteria`)),
-                #tags$p(gem_match),
-                tags$p("NCBI genome accession:", ifelse(!is.na(selected_row$accession), selected_row$accession, "N/A")),
+                tags$p(gem_match),
+                tags$p("NCBI genome accession: ",
+                       ifelse(!is.na(selected_row$accession), selected_row$accession, "N/A")),
                 footer = tagList(
                     downloadButton("download_filtered_abundance", "Download Taxon Abundance Data"),
                     modalButton("Close")
@@ -199,20 +217,26 @@ server <- function(input, output, session) {
             return(NULL) # Avoid rendering if no data
         }
         
-        ggplot(abundance_data, 
-               aes(x = pH, y = abundance)) +#, color=nlcdClass)) +
-            geom_point(aes(color=biome),
-                       alpha=.5, 
-                       position=position_jitter(width = .01, height=0), size=2) + 
-            #geom_smooth(method = "loess",show.legend = F, span=.7) +
-            geom_smooth(method="gam",,
-                        #method = "loess",
-                        show.legend = F, se=F) +
-            theme_bw(base_size = 18) + 
-            #scale_y_sqrt() + 
-            xlab("Soil pH") + 
+        # Encode biome with both color AND shape so colorblind users can
+        # distinguish points without relying on hue alone.
+        ggplot(abundance_data,
+               aes(x = pH, y = abundance, color = biome, shape = biome)) +
+            geom_point(alpha = .5,
+                       position = position_jitter(width = .01, height = 0), size = 2) +
+            geom_smooth(method = "gam", show.legend = F, se = F) +
+            scale_shape_manual(values = rep(c(16, 17, 15, 3, 7, 8, 18, 4),
+                                            length.out = length(unique(abundance_data$biome)))) +
+            theme_bw(base_size = 18) +
+            xlab("Soil pH") +
             labs(title = paste("Abundance vs. pH for", selected_taxon_name)) +
             ylab("Microbial abundance")
+    }, alt = function() {
+        # Plot description for screen readers (Shiny renderPlot's alt arg).
+        sel <- input$organism_table_rows_selected
+        if (is.null(sel)) return("Scatter plot of microbial abundance versus soil pH (no taxon selected).")
+        name <- filtered_organism_df()[sel, ]$`Species of interest`
+        paste0("Scatter plot of ", name, " abundance across soil pH values, ",
+               "with one point per NEON sample, colored and shaped by biome.")
     })
     
     # Temperature Plot
@@ -229,22 +253,24 @@ server <- function(input, output, session) {
             return(NULL) # Avoid rendering if no data
         }
         
-        ggplot(abundance_data, 
-               aes(x = temperature, y = abundance#, color=nlcdClass
-               )) +
-            geom_point(aes(color=biome),
-                       alpha=.5, 
-                       position=position_jitter(width = .01, height=0), size=2) + 
-            # geom_smooth(method = "loess", show.legend = F, span=.7) +
-            geom_smooth(method="gam",
-                        #method = "loess", 
-                        show.legend = F, se=F) +
-            theme_bw(base_size = 18) + 
-            #scale_y_sqrt()  + 
+        ggplot(abundance_data,
+               aes(x = temperature, y = abundance, color = biome, shape = biome)) +
+            geom_point(alpha = .5,
+                       position = position_jitter(width = .01, height = 0), size = 2) +
+            geom_smooth(method = "gam", show.legend = F, se = F) +
+            scale_shape_manual(values = rep(c(16, 17, 15, 3, 7, 8, 18, 4),
+                                            length.out = length(unique(abundance_data$biome)))) +
+            theme_bw(base_size = 18) +
             xlab("Soil temperature") +
             ylab("Microbial abundance") +
             labs(title = paste("Abundance vs. temperature for", selected_taxon_name))
-        
+
+    }, alt = function() {
+        sel <- input$organism_table_rows_selected
+        if (is.null(sel)) return("Scatter plot of microbial abundance versus soil temperature (no taxon selected).")
+        name <- filtered_organism_df()[sel, ]$`Species of interest`
+        paste0("Scatter plot of ", name, " abundance across soil temperatures, ",
+               "with one point per NEON sample, colored and shaped by biome.")
     })
     
     # Download Filtered Abundance Data
